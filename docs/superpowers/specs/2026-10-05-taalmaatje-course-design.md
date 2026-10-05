@@ -17,6 +17,7 @@ A daily, self-paced course in a web app that makes the learner **confident when 
 2. The learner can talk for 2 minutes about their job in Dutch, and for 3 minutes present a topic in English.
 3. The learner understands common Flemish/Limburg everyday speech (tussentaal) from colleagues.
 4. The learner can hear their own progress: the week-1 recording next to the week-12 recording.
+5. The learner worries less about pronunciation: they know which sounds matter most, can hear the difference in each week's sound pair, and can say each week's chunks so that speech recognition understands them within 3 tries.
 
 ## 2. Learner profile
 
@@ -30,7 +31,7 @@ A daily, self-paced course in a web app that makes the learner **confident when 
 | Time | **30–45 min per day**, weekdays |
 | Current Dutch input | Duolingo Dutch, 415-day streak (Netherlands Dutch; mostly reading, tapping and recognition) |
 | Current English input | Many films; PS5 games with subtitles; university course materials (all in English) |
-| Main problem | Low confidence when speaking, in both languages. Input is already high; **output (speaking) is the gap** |
+| Main problem | Low confidence when speaking, in both languages. Input is already high; **output (speaking) is the gap**. A big cause: **worry about whether pronunciation is correct**, in both languages |
 
 Goals chosen by the learner: Dutch at work, Dutch in daily life, English for university.
 **Not** a goal: exam preparation (CVO tests, ITNA, Staatsexamen).
@@ -50,7 +51,7 @@ Goals chosen by the learner: Dutch at work, Dutch in daily life, English for uni
 
 - No server, no user accounts, no sync between devices (export/import file instead).
 - No AI built into the app. Free conversation happens in Claude voice mode via copied prompts.
-- No automatic pronunciation scoring. Speech recognition only shows what it heard.
+- No phoneme-level pronunciation scoring in v1. Speech recognition is used only as an honest "was it understood?" check (§4.4). Optional Azure pronunciation scoring (Netherlands Dutch and English only; not Belgian Dutch) is decided after the learner has used Week 1.
 - No exam-preparation content.
 - No copying of CVO course documents or other copyrighted course material.
 
@@ -63,10 +64,11 @@ A session is one "day". The course moves forward **by completed session, not by 
 | # | Block | Min | Content |
 |---|---|---|---|
 | 1 | 🇧🇪 Cards | 5 | FSRS review + new chunks of this week |
-| 2 | 🇧🇪 Listen & shadow | 8 | Dialogue line by line: listen → repeat → record → compare |
-| 3 | 🇧🇪 Speak | 7 | Prompt + sentence frames, 60–90 s answer, speech recognition transcript, model answer |
-| 4 | 🇧🇪 Grammar | 5 | One spoken pattern per week, 3–4 new items per session (sessions 1–4); mixed review in session 5 |
-| 5 | 🇬🇧 Phrases + speak | 12 | 3 new academic phrases + one 60–90 s speaking task + pronunciation focus |
+| 2 | 🇧🇪 Sound of the week | 3 | Ear quiz in several voices + say the week's sound pairs with the 🎯 check (§4.4) |
+| 3 | 🇧🇪 Listen & shadow | 6 | Dialogue line by line: listen → repeat → record → compare |
+| 4 | 🇧🇪 Speak | 7 | Prompt + sentence frames, 60–90 s answer, "what it heard" transcript, model answer |
+| 5 | 🇧🇪 Grammar | 4 | One spoken pattern per week, 3–4 new items per session (sessions 1–4); mixed review in session 5 |
+| 6 | 🇬🇧 English | 12 | English sound of the week (2) + 3 new academic phrases (3) + one 60–90 s speaking task (7) |
 
 ### 4.2 Session plan inside one week (5 sessions)
 
@@ -99,14 +101,51 @@ Flashcards run in every session. New cards per session: about 5 Dutch chunks, 3 
 
 Weeks 4, 6, 9 and 10 repeat CVO class topics (weather/opinion, health complaints, adjective *-e*, excuses) with **new, self-written** exercises.
 
-### 4.4 Farsi-speaker focus
+### 4.4 Pronunciation confidence
+
+#### 4.4.1 Farsi-speaker focus
 
 Pronunciation and grammar points are chosen for a Farsi speaker:
 
 - **Dutch:** vowels *ui*, *eu*, *ij/ei*, *uu / u / oe*, long vs. short vowels; the Dutch *w* (not Farsi و = v); de/het (Farsi has no articles or gender). Strength to use: Farsi خ / غ ≈ Dutch *g/ch*. Strength to use: Farsi verb-final order ≈ Dutch subordinate clauses.
 - **English:** *he/she* confusion (Farsi «او» is one pronoun), articles *a/the*, *th* sounds, *w/v*, vowel length (*ship/sheep*), extra vowel before *s* + consonant ("e-school", "e-student").
 
-One pronunciation focus per week, in both languages (a pair list for listen-and-repeat).
+One **sound of the week** per language (§4.4.3).
+
+#### 4.4.2 Honest principles
+
+- The goal is **being understood easily**, not sounding native. Colleagues in Hasselt hear many accents every day.
+- Sounds are ordered by **how often they cause misunderstanding** (functional load), then by difficulty for a Farsi speaker. Low-impact sounds (English *th*) come late on purpose.
+- Speech recognition is a rough stand-in for a listener. The app always calls it a **"was it understood?" check, never a score**. It can accept a wrong sound when the word is still clear, and it can fail because of noise.
+- Voice assistants (role-play) mostly hear text, so role-play prompts tell them **not** to judge pronunciation unless a word was not understood.
+
+#### 4.4.3 Features
+
+| Feature | Where | Behaviour |
+|---|---|---|
+| **Tap a word** | Every Dutch/English text shown in the app | Tap a word → hear it alone at slow speed (rate 0.7). 🔊 plays the whole sentence; 🐢 plays it slowly |
+| **🎯 Say-it check** | Cards, shadow lines, grammar answers, sound pairs, new English phrases | Learner says the text; recognised words turn **green**, others **orange**. After 3 tries with orange words, each orange word gets a 🔊 button. Hidden when speech recognition is not available |
+| **Sound of the week** | Its own block (Dutch); first part of the English block | Session 1: short explanation with a Farsi anchor sound and Farsi hint. Every session: **ear quiz** — 8 rounds; the app says one word of a pair in a random installed voice of that language; learner taps which word they heard; ✓/✗ + replay both. Then say that session's pairs with the 🎯 check. Ear-quiz results are kept per sound |
+| **Stress marks** | Chunks with tricky words | Optional `stress` list, e.g. `de-VEL-op-ment`, `pre-sen-TA-tie`. Farsi note: Farsi puts stress near the end of words, so check English words especially |
+
+#### 4.4.4 Sound order
+
+| Week | 🇧🇪 Dutch sound | Farsi anchor | 🇬🇧 English sound |
+|---|---|---|---|
+| 1 | *a* / *aa* (man – maan) | length is the key: *aa* long, *a* short and quick | /ɪ/ – /iː/ (ship – sheep); «ای» is the long one |
+| 2 | *ui* vs *oe* (huis – hoes) | *oe* = «او»; *ui* has no Farsi sound | Initial *s* + consonant (school, study) — no «اِ» before |
+| 3 | *uu* vs *oe* (muur – moer) | *oe* = «او»; *uu* = say «ای» with round lips | /w/ – /v/ (west – vest) |
+| 4 | *eu* vs *oo* (deur – door) | — | /æ/ – /e/ (bad – bed) |
+| 5 | *ij/ei* vs *ee* (mijn – meen) | *ij* ≈ «ِی» in «کِی» | -ed endings (worked, played, wanted) |
+| 6 | *g/ch* vs *k* (geel – keel) | *g* = «غ/خ» — a strength | /ʌ/ – /æ/ (cut – cat) |
+| 7 | *w* vs *v* vs *f* (wat – vat, wijn – fijn) | Dutch *w* is softer than «و» | /ʊ/ – /uː/ (full – fool) |
+| 8 | *i* / *e* / *ee* (pit – pet – peet) | — | /ɜː/ – /ɔː/ (work – walk) |
+| 9 | *o* / *oo* (pot – poot) | — | Weak forms (to, for, can) |
+| 10 | Clusters: *sch-*, *st-*, *spr-* (no «اِ» before) | Farsi adds «اِ» before *s* + consonant | Noun/verb stress (PREsent – preSENT) |
+| 11 | *ou/au* vs *oe* (zout – zoet) | *ou* ≈ «اُو» in «نو» | /θ/ – /s/ (think – sink) |
+| 12 | Review of all sounds | — | Review of all sounds |
+
+Every pair used in an ear quiz must be two **different spellings**, so text-to-speech says them differently. Stress (same spelling) is practised with stress marks, not in the ear quiz.
 
 ### 4.5 Farsi hints
 
@@ -147,13 +186,14 @@ One pronunciation focus per week, in both languages (a pair list for listen-and-
 | Screen | Purpose |
 |---|---|
 | Today | The session's 5 blocks with ticks; "Week N · Session M"; streak |
-| Cards | FSRS review (Again / Hard / Good / Easy), 🔊 audio, de/het colour, Farsi hint; **＋ Add my phrase** (text, meaning, language, optional note) |
+| Cards | New card: text + meaning + audio + 🎯, then "Got it". Review: meaning shown → learner says the Dutch/English → reveal + audio + 🎯 → Again / Hard / Good / Easy. de/het colour, stress marks, Farsi hint; **＋ Add my phrase** (text, meaning, language, optional note) |
+| Sound | Sound of the week: explanation (session 1 or on request), ear quiz, say the pairs |
 | Shadow | One line at a time: 🔊 listen (normal / slow) → 🎙 record → ⇄ play original then own recording |
 | Speak | Prompt, sentence frames, timer, record, speech-recognition transcript, model answer |
 | Grammar | Short explanation (+ Farsi hint), then spoken items: see prompt → say answer → reveal |
 | Role-play | Shows the prompt; **Copy** button |
 | Limburg ear | Pairs: standard ↔ everyday form, 🔊 for the standard form, note |
-| Progress | Sessions done, chunks known, speaking diary (play any week's recording) |
+| Progress | Sessions done, chunks known, ear-quiz results per sound, speaking diary (play any week's recording) |
 | Settings | Farsi hints, voice choice (nl / en), extra words per session, export / import, reset |
 
 ### 5.3 Code units
@@ -163,7 +203,8 @@ One pronunciation focus per week, in both languages (a pair list for listen-and-
 | `content/nl/week-NN.json`, `content/en/week-NN.json`, `content/words.json` | Course data only | — |
 | `js/content.js` | Load and cache content files | fetch |
 | `js/session.js` | Build a session from (week, session) + content; advance position | content.js |
-| `js/srs.js` | Wrap ts-fsrs: new card, review, due list | vendor/ts-fsrs |
+| `js/srs.js` | Wrap ts-fsrs: new card, review, due check | vendor/ts-fsrs |
+| `js/match.js` | Compare recognised text with the target, word by word | — |
 | `js/speech.js` | TTS (voice choice), recording (MediaRecorder), speech recognition | browser APIs |
 | `js/store.js` | Progress in localStorage; diary in IndexedDB; export / import | browser APIs |
 | `js/ui/*.js` | One file per screen | the modules above |
@@ -177,10 +218,11 @@ One pronunciation focus per week, in both languages (a pair list for listen-and-
   "week": 1,
   "theme": "Mezelf voorstellen op het werk",
   "themeEn": "Introducing yourself at work",
-  "pronunciation": { "focus": "ui", "pairs": [["huis", "hoes"], ["buit", "boot"]] },
+  "sound": { "id": "nl-a-aa", "title": "a or aa?", "explain": "…", "anchor": "…", "fa": "…",
+             "pairs": [["man", "maan"], ["tak", "taak"]] },
   "chunks": [
     { "id": "nl-01-001", "text": "Kan je dat efkes herhalen?", "en": "Can you repeat that for a moment?",
-      "fa": "…", "register": "informal", "article": null }
+      "fa": "…", "register": "informal", "article": null, "stress": ["her-HA-len"] }
   ],
   "dialogues": [
     { "id": "nl-01-dA", "title": "Eerste dag", "lines": [ { "speaker": "Collega", "text": "…", "en": "…" } ] }
@@ -198,14 +240,14 @@ One pronunciation focus per week, in both languages (a pair list for listen-and-
 
 English weeks use the same shape, with `"lang": "en"`, phrases in `chunks`, no `article`, and no `limburg`.
 
-**Minimum per Dutch week:** 25 chunks, 2 dialogues (8–12 lines each), 5 speaking prompts, 15 grammar items, 6 Limburg pairs, 1 role-play, 1 mission, 6 pronunciation pairs.
-**Minimum per English week:** 15 chunks, 5 speaking prompts, 1 role-play, 6 pronunciation pairs.
+**Minimum per Dutch week:** 25 chunks, 2 dialogues (8–12 lines each), 5 speaking prompts, 15 grammar items, 6 Limburg pairs, 1 role-play, 1 mission, 6 sound pairs.
+**Minimum per English week:** 15 chunks, 5 speaking prompts, 1 role-play, 1 mission, 6 sound pairs.
 
-`fa` and `register` are optional. `article` is required (`"de"`, `"het"` or `null`) on Dutch chunks.
+`fa`, `register` and `stress` are optional. `article` is required (`"de"`, `"het"` or `null`) on Dutch chunks.
 
 ### 5.5 Stored data (on the device only)
 
-- `localStorage["taalmaatje.v1"]`: `{ position: {week, session}, history: [{date, week, session}], settings: {farsi, voiceNl, voiceEn, extraWords}, cards: {id: fsrsState}, myPhrases: [{id, lang, text, meaning, note, created}], missions: {week: "done"|"notyet"} }`
+- `localStorage["taalmaatje.v1"]`: `{ position: {week, session}, history: [{date, week, session}], settings: {farsi, voiceNl, voiceEn, extraWords}, cards: {id: fsrsState}, myPhrases: [{id, lang, text, meaning, note, created}], ear: {soundId: {right, total}}, missions: {week: "done"|"notyet"} }`
 - IndexedDB `taalmaatje` / store `diary`: `{ id: "nl-01" | "en-01", date, blob }`
 - **Export:** one JSON file with the localStorage object + diary recordings as base64. **Import:** replaces current data after a confirm.
 
@@ -216,7 +258,8 @@ English weeks use the same shape, with `"lang": "en"`, phrases in `chunks`, no `
 | No Dutch voice installed | Banner with steps to add the voice "Ellen (nl-BE)" on iPhone / Mac; text still shown |
 | Only nl-NL voice | Use it; small note that the accent is Dutch, not Flemish |
 | Microphone refused | Record buttons hidden; tasks still usable without recording |
-| No speech recognition (e.g. Firefox) | Transcript step hidden |
+| No speech recognition (e.g. Firefox) | 🎯 check and "what it heard" hidden; everything else works |
+| Only one voice for a language | Ear quiz uses that one voice; small note that more voices make the quiz better |
 | Storage blocked / private mode | App works for the session; warning that progress will not be kept |
 | Content file fails to load | Error message with a "try again" button; other screens keep working |
 
@@ -243,7 +286,7 @@ Content rules: Belgian Standard Dutch for speaking practice; informal forms mark
 ## 8. Testing
 
 - `node tools/validate.mjs`: every content file matches the schema and the minimums in §5.4; no duplicate ids; every Dutch chunk has `article`; every speaking prompt has a `model`.
-- `node --test`: unit tests for `session.js` (session building, advance from session 5 to next week, end of course; my phrases due for review appear in the Cards block), `srs.js` (new card → review → due date moves), `store.js` (export → import gives the same data, including my phrases).
+- `node --test`: unit tests for `match.js` (exact match, missing word, punctuation and case, digits vs. number words, accents, best of several alternatives), `session.js` (session building, advance from session 5 to next week, end of course; my phrases due for review appear in the Cards block), `srs.js` (new card → review → due date moves), `store.js` (export → import gives the same data, including my phrases).
 - Manual check in a desktop browser through a local server (all screens, keyboard use, phone width).
 - **Learner check on iPhone:** Ellen voice, microphone, recording playback, install to home screen.
 
@@ -251,7 +294,9 @@ Content rules: Belgian Standard Dutch for speaking practice; informal forms mark
 
 1. **App shell + Week 1** (Dutch and English) working from start to end, deployed, so the learner can start.
 2. **Weeks 2–4** + Limburg ear content checked against sources.
-3. **Weeks 5–12** + speaking diary on the Progress screen.
+3. **Weeks 5–12.**
+
+The speaking diary (saving + Progress screen) is part of milestone 1, so the week-1 recording is kept.
 
 Each milestone ends with validator + tests passing and a deploy.
 
@@ -261,5 +306,7 @@ Each milestone ends with validator + tests passing and a deploy.
 |---|---|
 | 2026-10-05 | Approach A: static PWA, forked from woorden, role-play through an external voice assistant |
 | 2026-10-05 | Learner keeps Duolingo (415-day streak); added My phrases, "Explain your course" prompt, Belgian-vs-Netherlands forms in Limburg ear |
+| 2026-10-05 | Pronunciation confidence added (§4.4): tap a word, 🎯 say-it check, sound of the week with ear quiz, stress marks; Azure scoring postponed |
+| 2026-10-05 | Speaking diary saving moved into milestone 1, so the week-1 recording is kept |
 | 2026-10-05 | Farsi hints added (on by default, can be switched off) |
 | 2026-10-05 | Code in `Momi1370/Language-Learning`; repo made public; hosted on GitHub Pages |
