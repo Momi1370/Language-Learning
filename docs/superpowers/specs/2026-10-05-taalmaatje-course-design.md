@@ -28,7 +28,9 @@ A daily, self-paced course in a web app that makes the learner **confident when 
 | Dutch level | About **A2** (CVO course *Zo Gezegd* 2.1 → 2.2) |
 | English level | About **B1+/B2** (studied collocations, conditionals, reported speech, embedded questions, idioms) |
 | Time | **30–45 min per day**, weekdays |
-| Main problem | Low confidence when speaking, in both languages |
+| Current Dutch input | Duolingo Dutch, 415-day streak (Netherlands Dutch; mostly reading, tapping and recognition) |
+| Current English input | Many films; PS5 games with subtitles; university course materials (all in English) |
+| Main problem | Low confidence when speaking, in both languages. Input is already high; **output (speaking) is the gap** |
 
 Goals chosen by the learner: Dutch at work, Dutch in daily life, English for university.
 **Not** a goal: exam preparation (CVO tests, ITNA, Staatsexamen).
@@ -119,7 +121,14 @@ One pronunciation focus per week, in both languages (a pair list for listen-and-
 - The learner **understands** these forms but **practises speaking** standard Belgian Dutch.
 - Every form is checked against a web source before it goes into the content. Uncertain forms are left out.
 
-### 4.7 Weekly role-play and mission
+### 4.7 Working with existing input (Duolingo, films, games, course materials)
+
+- **Duolingo stays.** It is outside the 30–45 min budget and is not replaced. Taalmaatje does not repeat what Duolingo does (single words, tapping): it trains **speaking with whole chunks**.
+- **Belgian vs. Netherlands Dutch.** Duolingo teaches Netherlands Dutch. The Limburg ear block also shows Belgian alternatives for common Netherlands forms the learner already knows (for example *mobieltje → gsm*, *doei → salut / dag*, *jij (informal) → ge/gij* in speech, polite *u* used more often in Flanders). Each form is checked against a source (§4.6 rule).
+- **My phrases.** In the Cards screen the learner can add their own cards (Dutch or English): a line from a film or game, a term from a course, a sentence a colleague said. They are reviewed with FSRS like the course cards, and kept in export / import.
+- **"Explain your course" (English).** Speak prompt 5 of every English week (the diary recording) asks the learner to explain, in 90 s, one idea from their own university course of that week. Frames give the structure (*"The main idea is… / For example… / This matters because…"*). The model answer explains a general idea with the same frames, as an example.
+
+### 4.8 Weekly role-play and mission
 
 - **Role-play card:** a ready prompt the learner copies into Claude voice mode (or another voice assistant). It sets the role (for example a Limburg colleague in a team meeting), the learner's level, the target chunks, and the rule "do not correct me during the talk; give me 3 corrections at the end".
 - **Mission:** one real action at work or in town (for example "ask a colleague about their weekend at lunch"). Shown in session 1, ticked in session 5 (done / not yet). There is no penalty for "not yet".
@@ -138,7 +147,7 @@ One pronunciation focus per week, in both languages (a pair list for listen-and-
 | Screen | Purpose |
 |---|---|
 | Today | The session's 5 blocks with ticks; "Week N · Session M"; streak |
-| Cards | FSRS review (Again / Hard / Good / Easy), 🔊 audio, de/het colour, Farsi hint |
+| Cards | FSRS review (Again / Hard / Good / Easy), 🔊 audio, de/het colour, Farsi hint; **＋ Add my phrase** (text, meaning, language, optional note) |
 | Shadow | One line at a time: 🔊 listen (normal / slow) → 🎙 record → ⇄ play original then own recording |
 | Speak | Prompt, sentence frames, timer, record, speech-recognition transcript, model answer |
 | Grammar | Short explanation (+ Farsi hint), then spoken items: see prompt → say answer → reveal |
@@ -196,7 +205,7 @@ English weeks use the same shape, with `"lang": "en"`, phrases in `chunks`, no `
 
 ### 5.5 Stored data (on the device only)
 
-- `localStorage["taalmaatje.v1"]`: `{ position: {week, session}, history: [{date, week, session}], settings: {farsi, voiceNl, voiceEn, extraWords}, cards: {id: fsrsState}, missions: {week: "done"|"notyet"} }`
+- `localStorage["taalmaatje.v1"]`: `{ position: {week, session}, history: [{date, week, session}], settings: {farsi, voiceNl, voiceEn, extraWords}, cards: {id: fsrsState}, myPhrases: [{id, lang, text, meaning, note, created}], missions: {week: "done"|"notyet"} }`
 - IndexedDB `taalmaatje` / store `diary`: `{ id: "nl-01" | "en-01", date, blob }`
 - **Export:** one JSON file with the localStorage object + diary recordings as base64. **Import:** replaces current data after a confirm.
 
@@ -234,7 +243,7 @@ Content rules: Belgian Standard Dutch for speaking practice; informal forms mark
 ## 8. Testing
 
 - `node tools/validate.mjs`: every content file matches the schema and the minimums in §5.4; no duplicate ids; every Dutch chunk has `article`; every speaking prompt has a `model`.
-- `node --test`: unit tests for `session.js` (session building, advance from session 5 to next week, end of course), `srs.js` (new card → review → due date moves), `store.js` (export → import gives the same data).
+- `node --test`: unit tests for `session.js` (session building, advance from session 5 to next week, end of course; my phrases due for review appear in the Cards block), `srs.js` (new card → review → due date moves), `store.js` (export → import gives the same data, including my phrases).
 - Manual check in a desktop browser through a local server (all screens, keyboard use, phone width).
 - **Learner check on iPhone:** Ellen voice, microphone, recording playback, install to home screen.
 
@@ -251,5 +260,6 @@ Each milestone ends with validator + tests passing and a deploy.
 | Date | Decision |
 |---|---|
 | 2026-10-05 | Approach A: static PWA, forked from woorden, role-play through an external voice assistant |
+| 2026-10-05 | Learner keeps Duolingo (415-day streak); added My phrases, "Explain your course" prompt, Belgian-vs-Netherlands forms in Limburg ear |
 | 2026-10-05 | Farsi hints added (on by default, can be switched off) |
 | 2026-10-05 | Code in `Momi1370/Language-Learning`; repo made public; hosted on GitHub Pages |
