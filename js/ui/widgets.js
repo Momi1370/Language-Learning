@@ -87,11 +87,17 @@ export function recorder(ctx, { onStart, onRecorded } = {}) {
   const btn = button('🎙 Record', toggle, { class: 'primary' });
   async function toggle() {
     if (!active) {
+      // Ignore taps while the microphone is opening, or a second recording would leak.
+      btn.disabled = true;
+      btn.textContent = '🎙 Starting…';
       try {
         active = await startRecording();
       } catch {
         status.textContent = 'The microphone is not allowed. Check your browser settings.';
+        btn.textContent = '🎙 Record';
         return;
+      } finally {
+        btn.disabled = false;
       }
       api.recording = true;
       btn.textContent = '■ Stop';
