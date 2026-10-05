@@ -78,6 +78,11 @@ export async function launch({ width = 320, height = 900, args = [] } = {}) {
     errors,
     evaluate,
     goto: (url) => send('Page.navigate', { url }),
+    // Simulate airplane mode (service workers included).
+    async offline(on) {
+      await send('Network.enable');
+      await send('Network.emulateNetworkConditions', { offline: on, latency: 0, downloadThroughput: -1, uploadThroughput: -1 });
+    },
     // Make requests matching these patterns fail (e.g. '*week-01.json*'); [] unblocks.
     async block(patterns) {
       await send('Network.enable');
