@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#1f6f5c"/>
+  <path d="M120 140h272a40 40 0 0 1 40 40v136a40 40 0 0 1-40 40H246l-78 62v-62h-48a40 40 0 0 1-40-40V180a40 40 0 0 1 40-40z" fill="#f7f5f0"/>
+  <text x="256" y="296" font-family="Georgia, 'Times New Roman', serif" font-size="150" font-weight="700" text-anchor="middle" fill="#1f6f5c">Tm</text>
+</svg>
