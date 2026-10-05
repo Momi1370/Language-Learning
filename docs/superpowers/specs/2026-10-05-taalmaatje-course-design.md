@@ -247,7 +247,7 @@ English weeks use the same shape, with `"lang": "en"`, phrases in `chunks`, no `
 
 ### 5.5 Stored data (on the device only)
 
-- `localStorage["taalmaatje.v1"]`: `{ position: {week, session}, history: [{date, week, session}], settings: {farsi, voiceNl, voiceEn, extraWords}, cards: {id: fsrsState}, myPhrases: [{id, lang, text, meaning, note, created}], ear: {soundId: {right, total}}, missions: {week: "done"|"notyet"} }`
+- `localStorage["taalmaatje.v1"]`: `{ position: {week, session}, history: [{date, week, session}], settings: {farsi, voiceNl, voiceEn, extraWords}, cards: {id: fsrsState}, myPhrases: [{id, lang, text, meaning, note, created}], ear: {soundId: {right, total}}, missions: {"nl-01": "done"|"notyet", "en-01": …}, extraFor: "week-session", finished: false }`
 - IndexedDB `taalmaatje` / store `diary`: `{ id: "nl-01" | "en-01", date, blob }`
 - **Export:** one JSON file with the localStorage object + diary recordings as base64. **Import:** replaces current data after a confirm.
 
