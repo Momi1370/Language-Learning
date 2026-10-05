@@ -156,7 +156,7 @@ Every pair used in an ear quiz must be two **different spellings**, so text-to-s
 ### 4.6 Limburg ear (session 5 of every Dutch week)
 
 - 6–10 sentences per week, each shown as **standard Belgian Dutch ↔ everyday Flemish/Limburg form** with a short note.
-- Examples of features: *ge/gij/u* (you), *efkes* (even), *goesting* (zin), *amai*, *allee*, *seffens* (straks), dropped final *-n* and *-t* (*da*, *nie*, *wa*), *-ke* diminutives, *salukes* (Limburg goodbye), soft *g*.
+- Examples of features (checked against vlaanderen.be *Tussentaal – kenmerken* and Goesting in Taal *informele spreektaal in Limburg*): *ge/gij* (*'Ebde (gij) tijd?*), dropped final *-t* (*da*, *nie*, *wa*), dropped *h*, *ne/nen* articles, *-ke* diminutives, *allee*, *amai*, *awel*, *goesting* (zin), Limburg *sjiek* (mooi/cool), *Waggeffe* (wacht even), *Enne?*, *Wa zijt ge bezig?*. Forms without a source (for example *efkes*, *seffens*, *salukes*) stay out until a source is found.
 - The learner **understands** these forms but **practises speaking** standard Belgian Dutch.
 - Every form is checked against a web source before it goes into the content. Uncertain forms are left out.
 
