@@ -33,6 +33,15 @@ test('loadCourse for a week that is not written yet says missing and keeps earli
   assert.equal(c.weeks.length, 2);
 });
 
+test('a network failure keeps the weeks that did load and reports the error instead of throwing', async () => {
+  const fetchFn = async (url) => (url.includes('week-01') ? fakeFetch(url) : Promise.reject(new TypeError('Failed to fetch')));
+  const c = await loadCourse(2, fetchFn);
+  assert.equal(c.missing, false);
+  assert.equal(c.nl, null);
+  assert.equal(c.weeks.length, 2);
+  assert.match(String(c.error), /Failed to fetch/);
+});
+
 test('a missing week is a ContentMissing error; a server error is a normal error', async () => {
   await assert.rejects(loadWeek('nl', 9, fakeFetch), ContentMissing);
   await assert.rejects(loadWeek('nl', 3, fakeFetch), (e) => !(e instanceof ContentMissing) && /500/.test(e.message));

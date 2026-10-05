@@ -2,9 +2,10 @@ import { createStore } from './store.js';
 import { openDiary } from './diary.js';
 import { getVoices, pickVoice } from './speech.js';
 import { loadCourse, loadWords } from './content.js';
-import { buildSession, nextPosition, localDate } from './session.js';
+import { buildSession, finishSession } from './session.js';
 import { indexChunks, indexWords } from './cards.js';
 import { h, clear, button } from './ui/dom.js';
+import { stopAllRecording } from './ui/widgets.js';
 import * as today from './ui/today.js';
 import * as cards from './ui/cards.js';
 import * as sound from './ui/sound.js';
@@ -66,14 +67,9 @@ const ctx = {
     ctx.go('#/today');
   },
   async finishSession() {
-    const next = nextPosition(ctx.state.position);
-    ctx.update((s) => ({
-      ...s,
-      history: [...s.history, { date: localDate(new Date()), ...s.position }],
-      position: next ?? s.position,
-      done: [],
-      finished: next === null,
-    }));
+    const before = ctx.state;
+    ctx.update((s) => finishSession(s, new Date()));
+    if (ctx.state === before) return; // not all blocks done, or a second tap
     await reloadCourse();
     ctx.go('#/today');
   },
@@ -92,47 +88,48 @@ const ctx = {
 };
 
 async function reloadCourse() {
-  ctx.loadError = null;
-  try {
-    ctx.course = await loadCourse(ctx.state.position.week);
-    ctx.chunkIndex = indexChunks(ctx.course.weeks);
-    ctx.session = ctx.course.missing || ctx.state.finished
-      ? null
-      : buildSession(ctx.state.position, ctx.course.nl, ctx.course.en);
-  } catch (e) {
-    console.warn(e);
-    ctx.loadError = e;
-    ctx.session = null;
-  }
+  ctx.course = await loadCourse(ctx.state.position.week);
+  ctx.loadError = ctx.course.error;
+  if (ctx.loadError) console.warn(ctx.loadError);
+  ctx.chunkIndex = indexChunks(ctx.course.weeks);
+  ctx.session = ctx.course.missing || ctx.loadError || ctx.state.finished
+    ? null
+    : buildSession(ctx.state.position, ctx.course.nl, ctx.course.en);
 }
 
 function errorPanel() {
   return h('div', { class: 'card' },
     h('h1', {}, 'Could not load the lessons'),
     h('p', {}, 'Check your internet connection and try again. If you installed the app, open it once while online.'),
-    button('Try again', () => ctx.reload(), { class: 'primary' }));
+    button('Try again', () => ctx.reload(), { class: 'primary' }),
+    h('p', {}, h('a', { href: '#/block/cards' }, 'Review your cards'), ' · ', h('a', { href: '#/progress' }, 'Progress')));
+}
+
+function showPosition() {
+  const { week, session } = ctx.state.position;
+  document.getElementById('position').textContent = ctx.state.finished ? 'Course complete' : `Week ${week} · Session ${session}`;
 }
 
 async function render() {
   const route = location.hash.replace(/^#\/?/, '') || 'today';
   const view = routes[route] ?? routes.today;
   document.querySelectorAll('[data-tab]').forEach((a) => a.classList.toggle('active', a.dataset.tab === route));
-  const { week, session } = ctx.state.position;
-  document.getElementById('position').textContent = ctx.state.finished ? 'Course complete' : `Week ${week} · Session ${session}`;
   globalThis.speechSynthesis?.cancel?.();
+  stopAllRecording();
   clear(root);
-  if (ctx.loadError) {
-    root.append(errorPanel());
-  } else if (NEEDS_SESSION.includes(route) && !ctx.session) {
-    ctx.go('#/today');
-    return;
-  } else {
-    try {
+  try {
+    showPosition();
+    if (ctx.loadError && (route === 'today' || NEEDS_SESSION.includes(route))) {
+      root.append(errorPanel());
+    } else if (NEEDS_SESSION.includes(route) && !ctx.session) {
+      ctx.go('#/today');
+      return;
+    } else {
       await view(ctx, root);
-    } catch (e) {
-      console.warn(e);
-      root.append(h('div', { class: 'card' }, h('p', {}, 'Something went wrong on this screen.'), button('Back to today', () => ctx.go('#/today'), { class: 'primary' })));
     }
+  } catch (e) {
+    console.warn(e);
+    root.append(h('div', { class: 'card' }, h('p', {}, 'Something went wrong on this screen.'), button('Back to today', () => ctx.go('#/today'), { class: 'primary' })));
   }
   document.body.dataset.ready = route;
   window.scrollTo(0, 0);

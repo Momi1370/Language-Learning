@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildSession, nextPosition, blockLabel, streak, part, diaryId, BLOCKS } from '../js/session.js';
+import { buildSession, nextPosition, blockLabel, streak, part, diaryId, finishSession, BLOCKS } from '../js/session.js';
+import { defaultState } from '../js/store.js';
 import { validNl, validEn } from './fixtures.mjs';
 
 const nl = validNl();
@@ -79,6 +80,29 @@ test('blockLabel: listen block is Limburg ear and speak is the diary in session 
 });
 
 test('diaryId pads the week', () => assert.equal(diaryId('en', 3), 'en-03'));
+
+test('finishSession moves on once, records history, and ignores a second tap', () => {
+  const now = new Date('2026-10-09T12:00:00');
+  const s0 = { ...defaultState(), position: { week: 1, session: 5 }, done: [...BLOCKS] };
+  const s1 = finishSession(s0, now);
+  assert.deepEqual(s1.position, { week: 2, session: 1 });
+  assert.deepEqual(s1.done, []);
+  assert.deepEqual(s1.history, [{ date: '2026-10-09', week: 1, session: 5 }]);
+  assert.equal(finishSession(s1, now), s1);
+});
+
+test('finishSession does nothing until every block is done', () => {
+  const s = { ...defaultState(), done: ['cards'] };
+  assert.equal(finishSession(s), s);
+});
+
+test('finishSession after the last session marks the course finished', () => {
+  const s = finishSession({ ...defaultState(), position: { week: 12, session: 5 }, done: [...BLOCKS] });
+  assert.equal(s.finished, true);
+  assert.deepEqual(s.position, { week: 12, session: 5 });
+  const again = { ...s, done: [...BLOCKS] };
+  assert.equal(finishSession(again), again);
+});
 
 // 2026-10-05 is a Monday.
 const at = (d) => new Date(`${d}T12:00:00`);

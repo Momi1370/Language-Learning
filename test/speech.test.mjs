@@ -22,6 +22,14 @@ test('English prefers British, then American', () => {
 });
 test('no voice for a language gives null', () => assert.equal(pickVoice([], 'nl'), null));
 test('voicesFor filters by language', () => assert.deepEqual(voicesFor(voices, 'nl').map((v) => v.name), ['Xander', 'Ellen']));
+
+test('voicesFor leaves out novelty voices that sing, whisper or sound robotic', () => {
+  const mac = [
+    { name: 'Bells', lang: 'en-US' }, { name: 'Whisper', lang: 'en-US' }, { name: 'Zarvox', lang: 'en-US' },
+    { name: 'Good News', lang: 'en-US' }, { name: 'Eddy (English (UK))', lang: 'en-GB' }, { name: 'Daniel', lang: 'en-GB' },
+  ];
+  assert.deepEqual(voicesFor(mac, 'en').map((v) => v.name), ['Daniel']);
+});
 test('accentOf', () => {
   assert.equal(accentOf(voices[1]), 'be');
   assert.equal(accentOf(voices[0]), 'nl');

@@ -1,3 +1,5 @@
+import { TOTAL_WEEKS, SESSIONS_PER_WEEK } from './session.js';
+
 export const STORAGE_KEY = 'taalmaatje.v1';
 
 export function defaultState() {
@@ -16,10 +18,36 @@ export function defaultState() {
   };
 }
 
+const isObject = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v);
+const isText = (v) => typeof v === 'string';
+const inRange = (n, max) => Number.isInteger(n) && n >= 1 && n <= max;
+const isPosition = (p) => isObject(p) && inRange(p.week, TOTAL_WEEKS) && inRange(p.session, SESSIONS_PER_WEEK);
+
+// Keeps every saved field that has the right shape and resets only the broken ones,
+// so a damaged save or an odd backup can never stop the app from starting.
 export function migrate(raw) {
   const base = defaultState();
-  if (!raw || typeof raw !== 'object' || raw.version !== 1) return base;
-  return { ...base, ...raw, settings: { ...base.settings, ...(raw.settings ?? {}) } };
+  if (!isObject(raw) || raw.version !== 1) return base;
+  const pick = (key, ok) => (ok(raw[key]) ? raw[key] : base[key]);
+  const s = isObject(raw.settings) ? raw.settings : {};
+  return {
+    version: 1,
+    position: pick('position', isPosition),
+    done: pick('done', (v) => Array.isArray(v) && v.every(isText)),
+    history: pick('history', (v) => Array.isArray(v) && v.every(isObject)),
+    settings: {
+      farsi: typeof s.farsi === 'boolean' ? s.farsi : base.settings.farsi,
+      voiceNl: isText(s.voiceNl) ? s.voiceNl : base.settings.voiceNl,
+      voiceEn: isText(s.voiceEn) ? s.voiceEn : base.settings.voiceEn,
+      extraWords: Number.isInteger(s.extraWords) && s.extraWords >= 0 ? s.extraWords : base.settings.extraWords,
+    },
+    cards: pick('cards', isObject),
+    myPhrases: pick('myPhrases', (v) => Array.isArray(v) && v.every((p) => isObject(p) && isText(p.id) && isText(p.text))),
+    ear: pick('ear', isObject),
+    missions: pick('missions', isObject),
+    extraFor: pick('extraFor', isText),
+    finished: pick('finished', (v) => typeof v === 'boolean'),
+  };
 }
 
 export function createStore(storage) {

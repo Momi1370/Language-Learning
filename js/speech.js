@@ -1,7 +1,16 @@
 const code = (lang) => String(lang ?? '').replace('_', '-').toLowerCase();
 
+// Apple's novelty and "Eloquence" voices sing, whisper or sound robotic: useless for hearing vowels.
+const NOVELTY = new Set([
+  'Albert', 'Bad News', 'Bahh', 'Bells', 'Boing', 'Bubbles', 'Cellos', 'Deranged', 'Fred', 'Good News',
+  'Hysterical', 'Jester', 'Junior', 'Kathy', 'Organ', 'Pipe Organ', 'Princess', 'Ralph', 'Superstar',
+  'Trinoids', 'Whisper', 'Wobble', 'Zarvox',
+  'Eddy', 'Flo', 'Grandma', 'Grandpa', 'Reed', 'Rocko', 'Sandy', 'Shelley',
+]);
+const isNovelty = (v) => NOVELTY.has(String(v.name).split(' (')[0]);
+
 export function voicesFor(voices, lang) {
-  return voices.filter((v) => code(v.lang).startsWith(lang));
+  return voices.filter((v) => code(v.lang).startsWith(lang) && !isNovelty(v));
 }
 
 export function pickVoice(voices, lang, preferredName = '') {

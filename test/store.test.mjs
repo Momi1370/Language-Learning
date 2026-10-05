@@ -15,6 +15,27 @@ test('migrate fills in missing fields and settings', () => {
   assert.deepEqual(s.myPhrases, []);
 });
 
+test('migrate repairs each field that has the wrong shape, keeping the good ones', () => {
+  const s = migrate({
+    version: 1,
+    position: null,
+    done: null,
+    history: {},
+    settings: 'x',
+    cards: [],
+    myPhrases: 'oops',
+    ear: 5,
+    missions: null,
+    extraFor: 7,
+    finished: 'yes',
+  });
+  assert.deepEqual(s, defaultState());
+  assert.deepEqual(migrate({ version: 1, position: { week: 99, session: 1 } }).position, { week: 1, session: 1 });
+  assert.deepEqual(migrate({ version: 1, position: { week: 3, session: 2 }, settings: { farsi: false, extraWords: -4 } }).position, { week: 3, session: 2 });
+  assert.equal(migrate({ version: 1, settings: { farsi: false, extraWords: -4 } }).settings.extraWords, 0);
+  assert.equal(migrate({ version: 1, settings: { farsi: false } }).settings.farsi, false);
+});
+
 test('migrate turns garbage or unknown versions into a fresh state', () => {
   assert.deepEqual(migrate(null), defaultState());
   assert.deepEqual(migrate('hello'), defaultState());

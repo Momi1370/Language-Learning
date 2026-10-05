@@ -23,17 +23,19 @@ export async function loadJson(url, fetchFn = globalThis.fetch) {
 export const loadWeek = (lang, week, fetchFn) => loadJson(weekUrl(lang, week), fetchFn);
 export const loadWords = (fetchFn) => loadJson('content/words.json', fetchFn);
 
+// Never throws: a failure is reported in `error`, and the weeks that did load are kept
+// so cards from earlier weeks still work.
 export async function loadCourse(week, fetchFn) {
   const weeks = [];
   for (let w = 1; w <= week; w++) {
     try {
       const [nl, en] = await Promise.all([loadWeek('nl', w, fetchFn), loadWeek('en', w, fetchFn)]);
       weeks.push(nl, en);
-      if (w === week) return { nl, en, weeks, missing: false };
+      if (w === week) return { nl, en, weeks, missing: false, error: null };
     } catch (e) {
-      if (e instanceof ContentMissing && w === week) return { nl: null, en: null, weeks, missing: true };
-      throw e;
+      if (e instanceof ContentMissing && w === week) return { nl: null, en: null, weeks, missing: true, error: null };
+      return { nl: null, en: null, weeks, missing: false, error: e };
     }
   }
-  return { nl: null, en: null, weeks, missing: true };
+  return { nl: null, en: null, weeks, missing: true, error: null };
 }

@@ -78,6 +78,12 @@ export async function launch({ width = 320, height = 900, args = [] } = {}) {
     errors,
     evaluate,
     goto: (url) => send('Page.navigate', { url }),
+    // Make requests matching these patterns fail (e.g. '*week-01.json*'); [] unblocks.
+    async block(patterns) {
+      await send('Network.enable');
+      await send('Network.setCacheDisabled', { cacheDisabled: patterns.length > 0 });
+      await send('Network.setBlockedURLs', { urls: patterns });
+    },
     async waitFor(expression, timeout = 10000) {
       const start = Date.now();
       while (Date.now() - start < timeout) {
