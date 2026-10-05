@@ -1,0 +1,151 @@
+{
+  "lang": "nl",
+  "week": 1,
+  "theme": "Mezelf voorstellen op het werk",
+  "themeEn": "Introducing yourself at work, small talk",
+  "sound": {
+    "id": "nl-a-aa",
+    "title": "a or aa? (man – maan)",
+    "explain": "Dutch has a short a (man, tak, stad) and a long aa (maan, taak, staat). The difference changes the meaning: ‘man’ is a man, ‘maan’ is the moon. Make the short a really short and quick. Make aa long and open, and hold it a little.",
+    "anchor": "Length is the key. Think of «آ», but keep your lips relaxed (not round): hold it for aa, cut it short for a.",
+    "fa": "در هلندی طول صدا معنی را عوض می‌کند: man یعنی مرد و maan یعنی ماه. a کوتاه و سریع است؛ aa کشیده است. شبیه «آ» است ولی لب‌ها گرد نمی‌شوند.",
+    "pairs": [["man", "maan"], ["tak", "taak"], ["stad", "staat"], ["bal", "baal"], ["hak", "haak"], ["ram", "raam"], ["zat", "zaad"]]
+  },
+  "chunks": [
+    { "id": "nl-01-001", "text": "Goeiemorgen!", "en": "Good morning! (the usual Flemish greeting until about noon)", "article": null },
+    { "id": "nl-01-002", "text": "Hoe gaat het met u?", "en": "How are you? (polite)", "article": null, "register": "formal", "fa": "u مؤدبانه است، مثل «شما». با همکار جدید یا رئیس از u استفاده کن؛ با همکاران نزدیک از jij/je." },
+    { "id": "nl-01-003", "text": "Alles goed?", "en": "All good? / How's it going?", "article": null, "register": "informal" },
+    { "id": "nl-01-004", "text": "Goed, en met jou?", "en": "Fine, and you?", "article": null },
+    { "id": "nl-01-005", "text": "Ik ben nieuw hier.", "en": "I'm new here.", "article": null },
+    { "id": "nl-01-006", "text": "Ik werk hier sinds maandag.", "en": "I've been working here since Monday.", "article": null, "fa": "درست مثل فارسی: «از دوشنبه اینجا کار می‌کنم» — زمان حال + sinds. لازم نیست بگویی heb gewerkt." },
+    { "id": "nl-01-007", "text": "Aangenaam.", "en": "Nice to meet you.", "article": null, "stress": ["aan-ge-NAAM"] },
+    { "id": "nl-01-008", "text": "Hoe heet je ook alweer?", "en": "What was your name again?", "article": null, "register": "informal", "fa": "«ook alweer» یعنی «...دوباره؟ یادم رفت». طبیعی و مؤدبانه است." },
+    { "id": "nl-01-009", "text": "de collega", "en": "the colleague", "article": "de", "stress": ["col-LE-ga"], "fa": "همکار. جمع: collega's" },
+    { "id": "nl-01-010", "text": "Op welke afdeling werk je?", "en": "Which department do you work in?", "article": null },
+    { "id": "nl-01-011", "text": "de afdeling", "en": "the department", "article": "de", "stress": ["AF-de-ling"] },
+    { "id": "nl-01-012", "text": "Waar werk je aan?", "en": "What are you working on?", "article": null, "fa": "حرف اضافه (aan) می‌تواند آخر جمله بیاید: Waar … aan? = روی چه چیزی؟" },
+    { "id": "nl-01-013", "text": "het project", "en": "the project", "article": "het", "stress": ["pro-JECT"] },
+    { "id": "nl-01-014", "text": "Kan je dat nog eens herhalen?", "en": "Can you repeat that, please?", "article": null, "stress": ["her-HA-len"], "fa": "مهم‌ترین جمله‌ی این هفته! اگر چیزی را نفهمیدی، این را بگو. هیچ اشکالی ندارد." },
+    { "id": "nl-01-015", "text": "Kan je wat trager spreken, alstublieft?", "en": "Could you speak a bit more slowly, please?", "article": null, "fa": "در بلژیک بیشتر «trager» می‌گویند و در هلند بیشتر «langzamer». هر دو درست است." },
+    { "id": "nl-01-016", "text": "Ik spreek nog niet zo goed Nederlands.", "en": "My Dutch isn't very good yet.", "article": null },
+    { "id": "nl-01-017", "text": "Ik leer elke dag bij.", "en": "I learn something new every day.", "article": null, "fa": "«bijleren» در بلژیک خیلی رایج است = چیز تازه یاد گرفتن." },
+    { "id": "nl-01-018", "text": "Hoe was je weekend?", "en": "How was your weekend?", "article": null },
+    { "id": "nl-01-019", "text": "Heb je iets leuks gedaan?", "en": "Did you do anything fun?", "article": null, "fa": "بعد از iets، صفت -s می‌گیرد: iets leuks, iets nieuws." },
+    { "id": "nl-01-020", "text": "Niet veel, ik heb vooral gerust.", "en": "Not much, I mostly rested.", "article": null },
+    { "id": "nl-01-021", "text": "Het weer is weer slecht, hè?", "en": "The weather's bad again, isn't it?", "article": null, "fa": "«hè» در آخر جمله مثل «نه؟» در فارسی است. weer دو معنی دارد: هوا و دوباره!" },
+    { "id": "nl-01-022", "text": "Zin in koffie?", "en": "Fancy a coffee?", "article": null, "register": "informal" },
+    { "id": "nl-01-023", "text": "Smakelijk!", "en": "Enjoy your meal!", "article": null, "stress": ["SMA-ke-lijk"], "fa": "مثل «نوش جان». در بلژیک همکاران قبل از ناهار به هم می‌گویند." },
+    { "id": "nl-01-024", "text": "het bureau", "en": "the office / the desk", "article": "het", "stress": ["bu-REAU"], "fa": "در بلژیک bureau هم یعنی دفتر کار و هم میز کار." },
+    { "id": "nl-01-025", "text": "Tot morgen!", "en": "See you tomorrow!", "article": null },
+    { "id": "nl-01-026", "text": "Nog een fijne avond!", "en": "Have a nice evening!", "article": null }
+  ],
+  "dialogues": [
+    {
+      "id": "nl-01-dA",
+      "title": "Eerste dag op het werk",
+      "lines": [
+        { "speaker": "Lien", "text": "Goeiemorgen! Ben jij de nieuwe collega?", "en": "Good morning! Are you the new colleague?" },
+        { "speaker": "Amir", "text": "Ja, goeiemorgen. Ik ben Amir. Aangenaam.", "en": "Yes, good morning. I'm Amir. Nice to meet you." },
+        { "speaker": "Lien", "text": "Aangenaam, ik ben Lien. Op welke afdeling werk je?", "en": "Nice to meet you, I'm Lien. Which department do you work in?" },
+        { "speaker": "Amir", "text": "Op de afdeling logistiek. Ik werk hier sinds maandag.", "en": "In the logistics department. I've been working here since Monday." },
+        { "speaker": "Lien", "text": "Leuk! Dan zien we elkaar vaak. Hoe gaat het tot nu toe?", "en": "Nice! Then we'll see each other often. How's it going so far?" },
+        { "speaker": "Amir", "text": "Goed, maar alles is nog nieuw. Ik spreek nog niet zo goed Nederlands.", "en": "Good, but everything is still new. My Dutch isn't very good yet." },
+        { "speaker": "Lien", "text": "Geen probleem. Je spreekt al goed, hoor!", "en": "No problem. You already speak well, really!" },
+        { "speaker": "Amir", "text": "Dank je. Kan je soms wat trager spreken?", "en": "Thanks. Could you sometimes speak a bit more slowly?" },
+        { "speaker": "Lien", "text": "Natuurlijk. Zeg het maar als je iets niet begrijpt.", "en": "Of course. Just tell me if you don't understand something." },
+        { "speaker": "Amir", "text": "Dat is fijn. Dank je wel!", "en": "That's nice. Thank you!" }
+      ]
+    },
+    {
+      "id": "nl-01-dB",
+      "title": "Maandagochtend bij de koffie",
+      "lines": [
+        { "speaker": "Tom", "text": "Hé Amir, alles goed? Hoe was je weekend?", "en": "Hey Amir, all good? How was your weekend?" },
+        { "speaker": "Amir", "text": "Goed, dank je. Zaterdag was ik in het centrum van Hasselt.", "en": "Good, thanks. On Saturday I was in the centre of Hasselt." },
+        { "speaker": "Tom", "text": "Leuk! Heb je iets leuks gedaan?", "en": "Nice! Did you do anything fun?" },
+        { "speaker": "Amir", "text": "Ik heb een beetje gewandeld. Zondag heb ik vooral gerust. En jij?", "en": "I walked around a bit. On Sunday I mostly rested. And you?" },
+        { "speaker": "Tom", "text": "Ik heb gefietst met mijn kinderen. Maar het weer was slecht, hè.", "en": "I went cycling with my kids. But the weather was bad, wasn't it." },
+        { "speaker": "Amir", "text": "Ja, het regent hier veel! In mijn land is het warmer.", "en": "Yes, it rains a lot here! In my country it's warmer." },
+        { "speaker": "Tom", "text": "Dat geloof ik. Zin in koffie?", "en": "I believe that. Fancy a coffee?" },
+        { "speaker": "Amir", "text": "Ja, graag. Met melk, zonder suiker.", "en": "Yes, please. With milk, no sugar." },
+        { "speaker": "Tom", "text": "Alstublieft. Tot straks in de vergadering!", "en": "Here you go. See you later in the meeting!" },
+        { "speaker": "Amir", "text": "Dank je. Tot straks!", "en": "Thanks. See you later!" }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "nl-01-s1",
+      "prompt": "Stel jezelf voor aan een nieuwe collega. (Introduce yourself to a new colleague.)",
+      "frames": ["Goeiemorgen, ik ben …", "Ik kom uit … en ik woon in …", "Ik werk hier sinds …", "Ik werk op de afdeling …"],
+      "model": "Goeiemorgen, ik ben Amir. Aangenaam! Ik kom uit Iran en ik woon nu in Hasselt. Ik werk hier sinds maandag, op de afdeling logistiek. Ik spreek nog niet zo goed Nederlands, maar ik leer elke dag bij.",
+      "seconds": 60
+    },
+    {
+      "id": "nl-01-s2",
+      "prompt": "Een collega vraagt: ‘Hoe gaat het tot nu toe?’ Vertel hoe je eerste week is. (A colleague asks how it's going so far. Tell them about your first week.)",
+      "frames": ["Het gaat goed, maar …", "Alles is nog nieuw voor mij.", "Ik vind het werk …", "Mijn collega's zijn …"],
+      "model": "Het gaat goed, dank je. Alles is nog nieuw voor mij, dus ik moet veel vragen. Ik vind het werk interessant. Mijn collega's zijn heel vriendelijk. Soms spreken ze snel, maar dan vraag ik: kan je dat nog eens herhalen?",
+      "seconds": 60
+    },
+    {
+      "id": "nl-01-s3",
+      "prompt": "Vertel over je weekend. Begin elke zin met een tijdwoord: zaterdag, zondag, ’s avonds. (Tell about your weekend. Start each sentence with a time word, and remember: verb in place 2!)",
+      "frames": ["Zaterdag was ik …", "Zondag heb ik …", "’s Avonds …"],
+      "model": "Zaterdag was ik in het centrum van Hasselt. Daar heb ik boodschappen gedaan. Zondag heb ik vooral gerust. ’s Avonds heb ik met mijn familie gebeld. Het weer was slecht, dus ik ben thuis gebleven.",
+      "seconds": 90
+    },
+    {
+      "id": "nl-01-s4",
+      "prompt": "Je begrijpt een collega in een vergadering niet. Vraag beleefd om hulp. Oefen drie manieren. (You don't understand a colleague in a meeting. Ask politely for help, three different ways.)",
+      "frames": ["Sorry, kan je dat nog eens herhalen?", "Kan je wat trager spreken, alstublieft?", "Wat bedoel je met …?"],
+      "model": "Sorry, ik begrijp het niet helemaal. Kan je dat nog eens herhalen? Dank je. Kan je ook wat trager spreken, alstublieft? Mijn Nederlands is nog niet zo goed. En wat bedoel je met ‘de deadline verschuiven’?",
+      "seconds": 60
+    },
+    {
+      "id": "nl-01-s5",
+      "prompt": "Mijn eerste minuut in het Nederlands: vertel wie je bent, waar je werkt en waarom je Nederlands leert. (Your first Dutch minute. This recording is saved in your speaking diary.)",
+      "frames": ["Ik ben … en ik kom uit …", "Ik woon in … en ik werk …", "Ik leer Nederlands omdat …"],
+      "model": "Ik ben Amir en ik kom uit Iran. Ik woon in Hasselt en ik werk op de afdeling logistiek. Ik studeer ook aan de universiteit. Ik leer Nederlands omdat ik met mijn collega's wil praten. Het is soms moeilijk, maar ik leer elke dag bij.",
+      "seconds": 60
+    }
+  ],
+  "grammar": {
+    "id": "v2",
+    "title": "The verb in place 2",
+    "explain": "In a Dutch main sentence, the verb (the one that changes with the person) is always in place 2. Place 1 can be the subject, but also a time or place word. If you start with ‘Vandaag’, ‘Zaterdag’ or ‘In Hasselt’, the subject moves AFTER the verb: Ik werk vandaag thuis. → Vandaag werk ik thuis. Say each answer out loud: this one pattern makes you sound natural very fast.",
+    "fa": "در جمله‌ی اصلی هلندی، فعل همیشه در جای دوم است. اگر جمله را با زمان یا مکان شروع کنی (Vandaag, Zaterdag, In Hasselt)، فاعل بعد از فعل می‌آید: Vandaag werk ik thuis. در فارسی فعل آخر جمله است، پس این الگو را با صدای بلند تمرین کن تا عادت شود.",
+    "items": [
+      { "prompt": "Vandaag … (ik / thuis werken)", "answer": "Vandaag werk ik thuis." },
+      { "prompt": "Morgen … (wij / een vergadering hebben)", "answer": "Morgen hebben wij een vergadering." },
+      { "prompt": "Zaterdag … (ik / naar de markt gaan)", "answer": "Zaterdag ga ik naar de markt." },
+      { "prompt": "Nu … (zij / koffie drinken)", "answer": "Nu drinkt zij koffie." },
+      { "prompt": "Om negen uur … (ik / beginnen)", "answer": "Om negen uur begin ik." },
+      { "prompt": "Elke dag … (ik / Nederlands leren)", "answer": "Elke dag leer ik Nederlands." },
+      { "prompt": "Soms … (mijn collega / te snel spreken)", "answer": "Soms spreekt mijn collega te snel." },
+      { "prompt": "Na het werk … (ik / naar huis fietsen)", "answer": "Na het werk fiets ik naar huis." },
+      { "prompt": "In Hasselt … (het / veel regenen)", "answer": "In Hasselt regent het veel." },
+      { "prompt": "Maandag … (jij / naar het bureau komen)", "answer": "Maandag kom jij naar het bureau." },
+      { "prompt": "Deze week … (wij / een nieuw project hebben)", "answer": "Deze week hebben wij een nieuw project." },
+      { "prompt": "’s Middags … (ik / met mijn collega's eten)", "answer": "’s Middags eet ik met mijn collega's." },
+      { "prompt": "Gisteren … (ik / ziek zijn)", "answer": "Gisteren was ik ziek." },
+      { "prompt": "Volgende week … (Lien / op vakantie gaan)", "answer": "Volgende week gaat Lien op vakantie." },
+      { "prompt": "Daarom … (ik / elke dag oefenen)", "answer": "Daarom oefen ik elke dag." }
+    ]
+  },
+  "limburg": [
+    { "standard": "Heb je tijd?", "everyday": "'Ebde gij tijd?", "note": "The gij-system plus a dropped h: ‘hebt gij’ becomes ‘ebde (gij)’. Very common in Flemish everyday speech." },
+    { "standard": "Dat weet ik niet.", "everyday": "Da weet ik nie.", "note": "The final -t is often dropped: dat → da, niet → nie, wat → wa." },
+    { "standard": "Wat ben je aan het doen?", "everyday": "Wa zijt ge bezig?", "note": "wa = wat, zijt ge = ben je. You will hear this at work." },
+    { "standard": "Wacht even.", "everyday": "Waggeffe.", "note": "‘Wacht effe’ said fast: the t disappears. Typical for Limburg." },
+    { "standard": "Mooi, hè?", "everyday": "Sjiek, he!?", "note": "In Limburg ‘sjiek’ means nice or cool." },
+    { "standard": "Heb je zin?", "everyday": "Hebde goesting?", "note": "‘Goesting’ = zin (feeling like it). A Flemish word that came from old French; not used in the Netherlands." },
+    { "standard": "Mijn mobieltje (Netherlands Dutch, like Duolingo)", "everyday": "Mijn gsm", "note": "In Belgium everybody says ‘gsm’. ‘Mobieltje’ is Netherlands Dutch." },
+    { "standard": "Wauw! / Tjonge!", "everyday": "Amai!", "note": "A Flemish word for surprise. You will also hear ‘allee’ and ‘awel’." }
+  ],
+  "roleplay": {
+    "title": "Koffie met een nieuwe collega",
+    "prompt": "You are Lien, a friendly colleague in an office in Hasselt, Belgium. Speak Belgian Dutch (Flemish) at a simple A2 level: short sentences, a bit slower than normal. I am a new colleague; we meet at the coffee machine on Monday morning. Ask me who I am, which department I work in and how my weekend was. Ask one question at a time and wait for my answer. If I answer in English, kindly ask me to try in Dutch. Do not correct me during the conversation. After about 10 exchanges, stop and give me, in English: (1) three corrections of real mistakes — quote my sentence and give a better version; (2) two things I said well; (3) one useful Flemish phrase for next time. Do not comment on my pronunciation unless you could not understand a word. Start now with: ‘Goeiemorgen! Ben jij de nieuwe collega?’"
+  },
+  "mission": "Say ‘Smakelijk!’ to your colleagues at lunch, and on Monday ask one colleague: ‘Hoe was je weekend?’"
+}
