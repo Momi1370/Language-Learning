@@ -8,11 +8,14 @@ import { join } from 'node:path';
 const CHROME = process.env.CHROME ?? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-export async function launch({ width = 320, height = 900 } = {}) {
+// args: extra Chrome flags, e.g. FAKE_MIC to record without a real microphone.
+export const FAKE_MIC = ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream'];
+
+export async function launch({ width = 320, height = 900, args = [] } = {}) {
   const profile = await mkdtemp(join(tmpdir(), 'taalmaatje-cdp-'));
   // Port 0: Chrome picks a free port and writes it to DevToolsActivePort, so runs never collide.
   const proc = spawn(CHROME, [
-    '--headless=new', '--disable-gpu', '--remote-debugging-port=0', `--user-data-dir=${profile}`, 'about:blank',
+    '--headless=new', '--disable-gpu', '--remote-debugging-port=0', `--user-data-dir=${profile}`, ...args, 'about:blank',
   ], { stdio: 'ignore' });
 
   let page = null;
