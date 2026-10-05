@@ -43,6 +43,9 @@ export async function launch({ width = 320, height = 900, args = [] } = {}) {
       pending.delete(msg.id);
       if (msg.error) reject(new Error(msg.error.message));
       else resolve(msg.result);
+    } else if (msg.method === 'Page.javascriptDialogOpening') {
+      // Accept confirm()/alert() so flows like reset and restore can be tested.
+      ws.send(JSON.stringify({ id: ++nextId, method: 'Page.handleJavaScriptDialog', params: { accept: true } }));
     } else if (msg.method === 'Runtime.exceptionThrown') {
       const d = msg.params.exceptionDetails;
       errors.push(d.exception?.description ?? d.text);
