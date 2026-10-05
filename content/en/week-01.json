@@ -1,0 +1,74 @@
+{
+  "lang": "en",
+  "week": 1,
+  "theme": "Introducing yourself and your field",
+  "themeEn": "Introducing yourself and your field",
+  "sound": {
+    "id": "en-i-ee",
+    "title": "ship or sheep? (/ɪ/ – /iː/)",
+    "explain": "English has a short, relaxed i (ship, slip, fill) and a long, tense ee (sheep, sleep, feel). Mixing them up changes the meaning, and with a few pairs the wrong one sounds rude. This is one of the sounds that matters most for being understood.",
+    "anchor": "The long ee (sheep) is like Farsi «ای» in «ایران». The short i (ship) is shorter and more relaxed: between «ای» and «اِ».",
+    "fa": "صدای ee (sheep) مثل «ای» فارسی و کشیده است. صدای i (ship) کوتاه‌تر و شل‌تر است، چیزی بین «ای» و «اِ». این جفت‌ها معنی را عوض می‌کنند.",
+    "pairs": [["ship", "sheep"], ["slip", "sleep"], ["fill", "feel"], ["bit", "beat"], ["sit", "seat"], ["it", "eat"], ["hill", "heel"]]
+  },
+  "chunks": [
+    { "id": "en-01-001", "text": "I'm doing a master's in …", "en": "Say your study programme.", "stress": ["MAS-ter's"] },
+    { "id": "en-01-002", "text": "My field is …", "en": "Your subject area, e.g. ‘My field is data science.’" },
+    { "id": "en-01-003", "text": "I'm particularly interested in …", "en": "What you like most in your field.", "stress": ["par-TIC-u-lar-ly", "IN-ter-est-ed"], "fa": "interested in = علاقه‌مند به. حرف اضافه همیشه in است، نه to." },
+    { "id": "en-01-004", "text": "My background is in …", "en": "What you studied or did before.", "stress": ["BACK-ground"] },
+    { "id": "en-01-005", "text": "Before this, I worked as …", "en": "Your earlier job. Remember the article: ‘as an engineer’, ‘as a teacher’.", "fa": "در فارسی می‌گوییم «مهندس بودم» بدون a، ولی در انگلیسی باید بگویی: as an engineer." },
+    { "id": "en-01-006", "text": "At the moment, I'm working on …", "en": "A current project or assignment." },
+    { "id": "en-01-007", "text": "The main focus of my research is …", "en": "The central topic of your research or thesis.", "stress": ["re-SEARCH"] },
+    { "id": "en-01-008", "text": "It's closely related to …", "en": "Connect your topic to something people know.", "stress": ["re-LA-ted"] },
+    { "id": "en-01-009", "text": "In simple terms, …", "en": "Before you explain something difficult in an easy way." },
+    { "id": "en-01-010", "text": "What about you? What are you studying?", "en": "Turn the question back. It keeps the conversation going." },
+    { "id": "en-01-011", "text": "That sounds really interesting.", "en": "React to what someone tells you.", "stress": ["IN-ter-est-ing"], "fa": "تکیه روی بخش اول است: IN-ter-est-ing، نه inter-EST-ing." },
+    { "id": "en-01-012", "text": "Nice to meet you.", "en": "When you meet someone for the first time." },
+    { "id": "en-01-013", "text": "I'm originally from …, but I live in Hasselt now.", "en": "Where you come from and where you live.", "stress": ["o-RIG-i-nal-ly"] },
+    { "id": "en-01-014", "text": "I'm still getting used to …", "en": "Something new that slowly becomes normal for you.", "fa": "get used to + اسم یا فعل ing = عادت کردن به. مثال: I'm still getting used to the weather." },
+    { "id": "en-01-015", "text": "Sorry, could you say that again?", "en": "A polite way to ask someone to repeat." },
+    { "id": "en-01-016", "text": "the development of …", "en": "A key academic word: stress the second part.", "stress": ["de-VEL-op-ment"], "fa": "در فارسی تکیه معمولاً آخر کلمه است، ولی اینجا تکیه روی VEL است: de-VEL-op-ment." }
+  ],
+  "speaking": [
+    {
+      "id": "en-01-s1",
+      "prompt": "Introduce yourself to your seminar group in about one minute: your name, where you're from, what you study and what interests you.",
+      "frames": ["Hi everyone, I'm …", "I'm originally from …", "I'm doing a master's in …", "I'm particularly interested in …"],
+      "model": "Hi everyone, I'm Amir. I'm originally from Iran, but I live in Hasselt now. I'm doing a master's in business engineering. My background is in industrial engineering, and before this, I worked as a planner. I'm particularly interested in supply chains and how data can make them more efficient.",
+      "seconds": 60
+    },
+    {
+      "id": "en-01-s2",
+      "prompt": "Describe one classmate or colleague: who they are and what they study or do. Careful: he for a man, she for a woman, and keep it the same in every sentence.",
+      "frames": ["This is my classmate …", "She's / He's from …", "She's / He's studying …", "What I like about her / him is …"],
+      "model": "This is my classmate Sara. She's from Spain, and she's doing the same master's as me. Her background is in economics. She's particularly interested in sustainability. What I like about her is that she always explains things clearly in group work.",
+      "seconds": 60
+    },
+    {
+      "id": "en-01-s3",
+      "prompt": "A professor asks: ‘So, what's your background?’ Answer in 60–90 seconds.",
+      "frames": ["My background is in …", "Before this, I worked as …", "That's why I'm interested in …"],
+      "model": "My background is in industrial engineering. I studied it in Iran, and after that I worked as a production planner for three years. In that job I saw how much time and money a company loses when planning goes wrong. That's why I'm interested in supply chain management, and that's why I chose this programme.",
+      "seconds": 90
+    },
+    {
+      "id": "en-01-s4",
+      "prompt": "Explain your field to a friend who knows nothing about it.",
+      "frames": ["In simple terms, …", "For example, …", "It's closely related to …"],
+      "model": "In simple terms, my field is about getting products from the factory to the customer in the best way. For example, when you order something online, someone has to decide where it is stored and which truck brings it. It's closely related to data science, because we use a lot of data to make those decisions.",
+      "seconds": 90
+    },
+    {
+      "id": "en-01-s5",
+      "prompt": "Explain one idea from your own course this week, in about 90 seconds. (This recording is saved in your speaking diary.)",
+      "frames": ["This week we studied …", "The main idea is …", "For example, …", "This matters because …"],
+      "model": "This week we studied how memory works. The main idea is spaced repetition: you remember things better when you review them a few times with longer breaks in between, instead of all at once. For example, if you learn twenty new words, it's better to review them after one day, then after three days, then after a week. This matters because it saves time, and it's exactly how the flashcards in this app work.",
+      "seconds": 90
+    }
+  ],
+  "roleplay": {
+    "title": "First seminar with a professor",
+    "prompt": "You are Dr. Peeters, a friendly professor at a Belgian university. It is the first seminar of the year and I am a master's student. Speak natural English at B2 level. Ask me to introduce myself, then ask follow-up questions about my background, my field and what I want to learn. Ask one question at a time and wait for my answer. Do not correct me during the conversation. After about 10 exchanges, stop and give me: (1) three corrections of real mistakes — quote my sentence and give a better version; pay special attention to he/she and to missing articles (a/the); (2) two phrases I used well; (3) one useful academic phrase for next time. Do not comment on my pronunciation unless you could not understand a word. Start now with: ‘Welcome! Could you start by telling us a bit about yourself?’"
+  },
+  "mission": "In one of your classes this week, ask one question or make one comment, using a phrase from this week."
+}
