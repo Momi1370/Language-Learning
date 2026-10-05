@@ -21,12 +21,21 @@ function memoryDiary() {
   };
 }
 
-export async function openDiary(idb = globalThis.indexedDB) {
+function withTimeout(promise, ms) {
+  let timer;
+  const timeout = new Promise((_, reject) => {
+    timer = setTimeout(() => reject(new Error('IndexedDB did not answer')), ms);
+  });
+  return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+}
+
+// Some browsers (private modes, headless) never answer open(); never block the app on it.
+export async function openDiary(idb = globalThis.indexedDB, timeoutMs = 3000) {
   if (!idb) return memoryDiary();
   try {
     const open = idb.open(DB_NAME, 1);
     open.onupgradeneeded = () => open.result.createObjectStore(STORE, { keyPath: 'id' });
-    const db = await promisify(open);
+    const db = await withTimeout(promisify(open), timeoutMs);
     const store = (mode) => db.transaction(STORE, mode).objectStore(STORE);
     return {
       persistent: true,
