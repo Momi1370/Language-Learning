@@ -72,7 +72,7 @@ export function render(ctx, root) {
   const allDone = BLOCKS.every((b) => state.done.includes(b));
   mount(root, button(
     allDone ? 'Finish session ✓' : `Finish session (${state.done.length}/${BLOCKS.length} blocks done)`,
-    () => ctx.finishSession(),
+    (e) => { e.currentTarget.disabled = true; ctx.finishSession(); },
     { class: 'primary wide', disabled: !allDone },
   ));
 }

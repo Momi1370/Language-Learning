@@ -56,6 +56,11 @@ test('Dutch-only parts are required for Dutch', () => {
   assert.ok(has(errors, 'grammar needs id, title and explain'));
 });
 
+test('a Limburg standard form with a note in brackets is reported (it is read aloud and spoken)', () => {
+  const w = validNl(); w.limburg[0].standard = 'Mijn mobieltje (Netherlands Dutch)';
+  assert.ok(has(validateWeek(w, nl), 'limburg[0].standard must be only the Dutch to say'));
+});
+
 test('a dialogue with too few lines is reported', () => {
   const w = validNl(); w.dialogues[0].lines.length = 7;
   assert.ok(has(validateWeek(w, nl), 'dialogues[0] needs 8–12 lines'));

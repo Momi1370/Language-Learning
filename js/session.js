@@ -68,6 +68,20 @@ export function nextPosition({ week, session }) {
   return null;
 }
 
+// Returns the same state (no change) unless every block is done, so a double tap
+// on "Finish session" can never skip a session.
+export function finishSession(state, now = new Date()) {
+  if (state.finished || !BLOCKS.every((b) => state.done.includes(b))) return state;
+  const next = nextPosition(state.position);
+  return {
+    ...state,
+    history: [...state.history, { date: localDate(now), ...state.position }],
+    position: next ?? state.position,
+    done: [],
+    finished: next === null,
+  };
+}
+
 export function blockLabel(block, s) {
   switch (block) {
     case 'cards': return { title: 'Cards', flag: '🇧🇪', minutes: 5 };

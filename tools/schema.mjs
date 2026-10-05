@@ -76,6 +76,7 @@ export function validateWeek(data, { lang, week }) {
     if (!Array.isArray(data.limburg) || data.limburg.length < min.limburg) err(`limburg needs at least ${min.limburg}`);
     for (const [i, l] of (data.limburg ?? []).entries()) {
       if (!isText(l.standard) || !isText(l.everyday) || !isText(l.note)) err(`limburg[${i}] needs standard, everyday and note`);
+      else if (/[()]/.test(l.standard)) err(`limburg[${i}].standard must be only the Dutch to say (put explanations in note)`);
     }
   }
   return errors;

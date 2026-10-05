@@ -75,12 +75,22 @@ export function sayItCheck(ctx, target, lang) {
   return h('div', { class: 'check' }, btn, out, h('p', { class: 'hint' }, 'Green = understood by speech recognition. A rough check, not a score.'));
 }
 
+// Live recordings and listening sessions. app.js stops them all whenever the screen
+// changes, so the microphone is never left on after the learner moves on.
+const live = new Set();
+
+export function stopAllRecording() {
+  for (const stop of [...live]) stop();
+  live.clear();
+}
+
 export function recorder(ctx, { onStart, onRecorded } = {}) {
   if (!canRecord()) {
     return { el: h('p', { class: 'hint' }, 'Recording is not available in this browser. You can still say it out loud.'), blob: null, recording: false, toggle() {} };
   }
   let active = null;
   let url = null;
+  let stopper = null;
   const audio = h('audio', { controls: true, hidden: true });
   const status = h('span', { class: 'hint' });
   const api = { blob: null, recording: false, toggle };
@@ -90,9 +100,23 @@ export function recorder(ctx, { onStart, onRecorded } = {}) {
       // Ignore taps while the microphone is opening, or a second recording would leak.
       btn.disabled = true;
       btn.textContent = '🎙 Starting…';
+      let cancelled = false;
+      stopper = () => {
+        cancelled = true;
+        api.recording = false;
+        if (active) active.stop();
+        active = null;
+      };
+      live.add(stopper);
       try {
-        active = await startRecording();
+        const started = await startRecording();
+        if (cancelled) {
+          started.stop();
+          return;
+        }
+        active = started;
       } catch {
+        live.delete(stopper);
         status.textContent = 'The microphone is not allowed. Check your browser settings.';
         btn.textContent = '🎙 Record';
         return;
@@ -105,6 +129,7 @@ export function recorder(ctx, { onStart, onRecorded } = {}) {
       status.textContent = 'Recording…';
       onStart?.();
     } else {
+      live.delete(stopper);
       const blob = await active.stop();
       active = null;
       api.recording = false;
@@ -135,15 +160,21 @@ export async function compare(ctx, text, lang, blob) {
 export function transcriptWidget(lang) {
   if (!canRecognise()) return null;
   let session = null;
+  const stopper = () => {
+    session?.stop().catch(() => {});
+    session = null;
+  };
   const out = h('p', { class: 'transcript' });
   const btn = button('🗣 What does it hear?', toggle, { class: 'secondary' });
   async function toggle() {
     if (!session) {
       try { session = startTranscript(RECOG[lang][0]); } catch (e) { out.textContent = recognitionMessage(e); return; }
+      live.add(stopper);
       btn.textContent = '■ Stop listening';
       out.textContent = 'Listening… speak now.';
       return;
     }
+    live.delete(stopper);
     btn.disabled = true;
     try {
       const text = await session.stop();

@@ -1,5 +1,5 @@
 import { clear, mount, h, button } from './dom.js';
-import { speakable, sayItCheck, recorder, compare, say, doneBar } from './widgets.js';
+import { speakable, sayItCheck, recorder, compare, say, doneBar, stopAllRecording } from './widgets.js';
 
 export function render(ctx, root) {
   const d = ctx.session.nl.shadow;
@@ -15,6 +15,7 @@ export function render(ctx, root) {
   show();
 
   function show() {
+    stopAllRecording();
     const line = d.lines[i];
     const rec = recorder(ctx);
     mount(clear(stage),
