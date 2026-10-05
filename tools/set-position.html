@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Set position (testing)</title>
+<script>
+  const p = new URLSearchParams(location.search);
+  const key = 'taalmaatje.v1';
+  let s = null;
+  try { s = JSON.parse(localStorage.getItem(key)); } catch {}
+  if (!s || s.version !== 1) s = { version: 1 };
+  s.position = { week: Number(p.get('week') || 1), session: Number(p.get('session') || 1) };
+  s.done = [];
+  s.finished = false;
+  localStorage.setItem(key, JSON.stringify(s));
+  location.replace('../index.html#/' + (p.get('to') || 'today'));
+</script>

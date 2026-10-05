@@ -13,3 +13,9 @@ test('without IndexedDB the diary works in memory and says it is not persistent'
   await d.clear();
   assert.deepEqual(await d.all(), []);
 });
+
+test('if IndexedDB never answers, the diary falls back to memory instead of hanging', async () => {
+  const stuck = { open: () => ({}) };
+  const d = await openDiary(stuck, 50);
+  assert.equal(d.persistent, false);
+});
