@@ -83,6 +83,9 @@ input, select { font: inherit; padding: 8px 10px; border-radius: 10px; border: 1
 label.row { display: flex; gap: 8px; align-items: center; margin: 12px 0; flex-wrap: wrap; }
 form.stack { display: grid; gap: 8px; }
 audio { width: 100%; margin-top: 8px; }
+div.row { display: flex; gap: 8px; margin: 12px 0; flex-wrap: wrap; }
+.audio-check pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .8rem; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px; min-height: 3em; }
+.audio-check audio { width: 100%; }
 details { margin: 8px 0; }
 summary { cursor: pointer; color: var(--accent); min-height: 32px; }
 .diary-entry { display: grid; gap: 4px; margin: 10px 0; }

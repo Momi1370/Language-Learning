@@ -24,6 +24,7 @@ const SHELL = [
   'js/ui/progress.js',
   'js/ui/roleplay.js',
   'js/ui/settings.js',
+  'js/ui/audiocheck.js',
   'js/ui/shadow.js',
   'js/ui/sound.js',
   'js/ui/speak.js',

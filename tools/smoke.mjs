@@ -54,6 +54,56 @@ try {
   if (!live) failed++;
   console.log(`${live ? '✓' : '✗'} microphone is off after leaving a line while recording`);
 
+  // iPhone sometimes never sends the recorder's stop event: Stop must still finish, free the mic and keep the take.
+  await check('tools/set-position.html?week=1&session=1&to=block/listen', 'block/listen', 'Line 1 of');
+  await b.evaluate(`(() => {
+    window.__streams = [];
+    const orig = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+    navigator.mediaDevices.getUserMedia = async (c) => { const s = await orig(c); window.__streams.push(s); return s; };
+    MediaRecorder.prototype.stop = function () {};
+  })()`);
+  await b.click('Record');
+  await b.waitFor(`/Stop/.test(document.querySelector('.recorder button').textContent)`, 5000);
+  await new Promise((r) => setTimeout(r, 1600));
+  await b.click('Stop');
+  const waiting = await b.evaluate(`(() => { const btn = document.querySelector('.recorder button'); return btn.disabled && /Stopping/.test(btn.textContent); })()`);
+  if (!waiting) failed++;
+  console.log(`${waiting ? '✓' : '✗'} while stopping, the button says so and ignores taps`);
+  const stops = await b.waitFor(`(() => {
+    const rec = document.querySelector('.recorder');
+    return /Record again/.test(rec.querySelector('button').textContent) && rec.querySelector('audio').src.startsWith('blob:')
+      && window.__streams.length > 0 && window.__streams.every((s) => s.getTracks().every((t) => t.readyState === 'ended'));
+  })()`, 5000);
+  if (!stops) failed++;
+  console.log(`${stops ? '✓' : '✗'} Stop works even when the browser never sends the stop event (iPhone)`);
+
+  // If the browser delivered no sound at all, say so instead of showing an empty player.
+  await check('tools/set-position.html?week=1&session=1&to=block/listen', 'block/listen', 'Line 1 of');
+  await b.evaluate(`(() => { MediaRecorder.prototype.stop = function () {}; MediaRecorder.prototype.requestData = function () {}; Object.defineProperty(MediaRecorder.prototype, 'ondataavailable', { set() {}, configurable: true }); })()`);
+  await b.click('Record');
+  await b.waitFor(`/Stop/.test(document.querySelector('.recorder button').textContent)`, 5000);
+  await b.click('Stop');
+  const empty = await b.waitFor(`(() => {
+    const rec = document.querySelector('.recorder');
+    return /Nothing was recorded/.test(rec.textContent) && rec.querySelector('audio').hidden && /Record/.test(rec.querySelector('button').textContent);
+  })()`, 5000);
+  if (!empty) failed++;
+  console.log(`${empty ? '✓' : '✗'} an empty recording says "Nothing was recorded" instead of showing a silent player`);
+
+  // Settings → Audio check reports voices, a speech test and a recording test, ready to copy.
+  await check('index.html?audio#/settings', 'settings', 'Audio check');
+  await b.click('Audio check');
+  const report = '[...document.querySelectorAll(".audio-check pre")].map((p) => p.textContent).join("\\n")';
+  const lists = await b.waitFor(`/Dutch voices: .*Ellen|Dutch voices: \\d/.test(${report}) && /App uses for Dutch: /.test(${report})`, 3000);
+  await b.click('like the app');
+  const spoke = await b.waitFor(`/Test 1: .*(finished|error|no end)/.test(${report})`, 8000);
+  await b.click('Test recording');
+  const recorded = await b.waitFor(`/Recording: .*bytes/.test(${report}) && /Playback: /.test(${report})`, 10000);
+  const audioOk = lists && spoke && recorded;
+  if (!audioOk) failed++;
+  console.log(`${audioOk ? '✓' : '✗'} Audio check lists voices and reports speech and recording tests`);
+  if (!audioOk) console.log((await b.evaluate(report).catch(() => '')).replace(/^/gm, '   '));
+
   // A double tap on "Finish session" at the end of a week must move on exactly once.
   await check('tools/set-position.html?week=1&session=5&to=today', 'today', 'Week 1 · Session 5');
   await b.evaluate(`(() => {
