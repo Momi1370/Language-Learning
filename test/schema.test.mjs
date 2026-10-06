@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { validateWeek, validateWords } from '../tools/schema.mjs';
-import { validNl, validEn } from './fixtures.mjs';
+import { validateWeek, validateWords, checkLevel, countWords } from '../tools/schema.mjs';
+import { validNl, validEn, levelNl } from './fixtures.mjs';
 
 const nl = { lang: 'nl', week: 1 };
 const en = { lang: 'en', week: 1 };
@@ -74,3 +74,49 @@ test('words: bad id and bad article are reported', () => {
   ]);
   assert.equal(errors.length, 2);
 });
+
+test('countWords ignores punctuation and the … slot', () => {
+  assert.equal(countWords('Kan je dat nog eens herhalen?'), 6);
+  assert.equal(countWords('Ik woon in …'), 3);
+  assert.equal(countWords('Wat bedoel je met ‘opvolgen’?'), 5);
+});
+
+test('a Dutch week at A2+ passes the level check', () => assert.deepEqual(checkLevel(levelNl()), []));
+
+test('a Dutch week of two-word chunks is below A2+', () => {
+  const errors = checkLevel(validNl());
+  assert.ok(has(errors, 'chunks average'));
+  assert.ok(has(errors, 'join two ideas'));
+});
+
+test('a chunk too long to say from memory is reported', () => {
+  const w = levelNl();
+  w.chunks[3].text = 'Ik werk vandaag thuis aan het project omdat de trein niet rijdt en het ook regent buiten.';
+  assert.ok(has(checkLevel(w), 'chunks[3] has 17 words'));
+});
+
+test('more than three one- or two-word chunks is reported', () => {
+  const w = levelNl();
+  for (const i of [10, 11, 12, 13]) w.chunks[i].text = 'de vergadering';
+  assert.ok(has(checkLevel(w), '4 chunks have 1–2 words'));
+});
+
+test('a 60-second speaking task or a short model answer is reported', () => {
+  const w = levelNl();
+  w.speaking[0].seconds = 60;
+  w.speaking[1].model = 'Ik ben Amir.';
+  const errors = checkLevel(w);
+  assert.ok(has(errors, 'speaking[0].seconds is 60'));
+  assert.ok(has(errors, 'speaking[1].model has 3 words'));
+});
+
+test('short dialogue lines and short grammar answers are reported', () => {
+  const w = levelNl();
+  for (const d of w.dialogues) for (const l of d.lines) l.text = 'Ja, goed.';
+  for (const it of w.grammar.items) it.answer = 'Ik werk.';
+  const errors = checkLevel(w);
+  assert.ok(has(errors, 'dialogue lines average 2.0'));
+  assert.ok(has(errors, 'grammar answers average 2.0'));
+});
+
+test('English weeks have no Dutch level floor', () => assert.deepEqual(checkLevel(validEn()), []));

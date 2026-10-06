@@ -95,3 +95,45 @@ export function validateWords(words) {
   });
   return errors;
 }
+
+// Words in a text, for level checks: punctuation and the "…" slot do not count.
+export function countWords(text) {
+  return String(text ?? '').replace(/[…?!.,:;"“”‘’()]/g, ' ').split(/\s+/).filter((w) => /[\p{L}\d]/u.test(w)).length;
+}
+
+// Dutch level floor (A2+), chosen by the learner on 2026-10-06 after week 1 felt too easy.
+// Only real lesson files are checked (validate.mjs and the content tests), not test fixtures.
+export const LEVEL = {
+  nl: {
+    maxChunkWords: 14, minAvgChunkWords: 6, maxShortChunks: 3, minLinkedChunks: 6,
+    minAvgLineWords: 9, minSeconds: 90, minModelWords: 70, minAvgAnswerWords: 6,
+  },
+};
+const LINK_WORDS = /\b(dus|maar|omdat|want|als|daarom|wanneer|terwijl|zodat|toen)\b/i;
+const average = (list) => (list.length ? list.reduce((a, b) => a + b, 0) / list.length : 0);
+
+export function checkLevel(data) {
+  const rules = LEVEL[data?.lang];
+  if (!rules) return [];
+  const errors = [];
+  const chunks = data.chunks ?? [];
+  const sizes = chunks.map((c) => countWords(c.text));
+  sizes.forEach((n, i) => {
+    if (n > rules.maxChunkWords) errors.push(`chunks[${i}] has ${n} words; at most ${rules.maxChunkWords}, so it can be said from memory`);
+  });
+  if (average(sizes) < rules.minAvgChunkWords) errors.push(`chunks average ${average(sizes).toFixed(1)} words; A2+ needs at least ${rules.minAvgChunkWords}`);
+  const short = sizes.filter((n) => n <= 2).length;
+  if (short > rules.maxShortChunks) errors.push(`${short} chunks have 1–2 words; at most ${rules.maxShortChunks} (keep only nouns whose de/het matters)`);
+  const linked = chunks.filter((c) => LINK_WORDS.test(c.text)).length;
+  if (linked < rules.minLinkedChunks) errors.push(`${linked} chunks join two ideas (dus, maar, omdat, want, als …); A2+ needs at least ${rules.minLinkedChunks}`);
+  const lines = (data.dialogues ?? []).flatMap((d) => d.lines ?? []).map((l) => countWords(l.text));
+  if (average(lines) < rules.minAvgLineWords) errors.push(`dialogue lines average ${average(lines).toFixed(1)} words; A2+ needs at least ${rules.minAvgLineWords}`);
+  for (const [i, p] of (data.speaking ?? []).entries()) {
+    if (p.seconds < rules.minSeconds) errors.push(`speaking[${i}].seconds is ${p.seconds}; A2+ answers last at least ${rules.minSeconds}`);
+    const n = countWords(p.model);
+    if (n < rules.minModelWords) errors.push(`speaking[${i}].model has ${n} words; a ${rules.minSeconds}-second model needs at least ${rules.minModelWords}`);
+  }
+  const answers = (data.grammar?.items ?? []).map((it) => countWords(it.answer));
+  if (average(answers) < rules.minAvgAnswerWords) errors.push(`grammar answers average ${average(answers).toFixed(1)} words; A2+ needs at least ${rules.minAvgAnswerWords}`);
+  return errors;
+}
