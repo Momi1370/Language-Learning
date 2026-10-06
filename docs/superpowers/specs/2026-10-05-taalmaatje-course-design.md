@@ -315,3 +315,4 @@ Each milestone ends with validator + tests passing and a deploy.
 | 2026-10-06 | iPhone Silent mode mutes the browser voice; Audio check tests 4–5 found no web workaround. Accepted: the learner turns Silent off while studying. Possible later fix: pre-made audio files from an open voice |
 | 2026-10-06 | The learner found week 1 Dutch too easy: Dutch moves to A2+ (level floor in §5.4); week 1 Dutch is rewritten before weeks 2–4. English stays at B2 |
 | 2026-10-06 | A Limburg pair must show two different forms; Belgian-vs-Netherlands words go in chunk notes, not identical pairs |
+| 2026-10-07 | Milestone 2 published: week 1 Dutch at A2+, weeks 2–4. Next: learner feedback on weeks 1–4, then milestone 3 (weeks 5–12) |

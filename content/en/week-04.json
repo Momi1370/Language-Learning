@@ -1,0 +1,197 @@
+{
+  "lang": "en",
+  "week": 4,
+  "theme": "Opinion and reasons (topic sentence, support)",
+  "themeEn": "Opinion and reasons (topic sentence, support)",
+  "sound": {
+    "id": "en-ae-e",
+    "title": "bad or bed? (/æ/ – /e/)",
+    "explain": "English has an open /æ/ (bad, man, pan) and a closer /e/ (bed, men, pen). Mixing them changes the word, and ‘man’ – ‘men’ even turns one person into many. For /æ/, drop your jaw and spread your lips a little; for /e/, the mouth is less open.",
+    "anchor": "/e/ (bed) is Farsi «اِ». /æ/ (bad) is more open: drop your jaw, between «اِ» and «آ».",
+    "fa": "صدای e در bed همان «اِ» فارسی است. صدای a در bad بازتر است: فک را پایین بیاور، چیزی بین «اِ» و «آ». man (یک مرد) و men (چند مرد) فقط با همین صدا فرق دارند.",
+    "pairs": [
+      [
+        "bad",
+        "bed"
+      ],
+      [
+        "man",
+        "men"
+      ],
+      [
+        "pan",
+        "pen"
+      ],
+      [
+        "sat",
+        "set"
+      ],
+      [
+        "had",
+        "head"
+      ],
+      [
+        "bag",
+        "beg"
+      ],
+      [
+        "land",
+        "lend"
+      ]
+    ]
+  },
+  "chunks": [
+    {
+      "id": "en-04-001",
+      "text": "In my opinion, …",
+      "en": "Start your opinion: this is your topic sentence.",
+      "stress": [
+        "o-PIN-ion"
+      ]
+    },
+    {
+      "id": "en-04-002",
+      "text": "The main reason is that …",
+      "en": "Give your strongest reason first."
+    },
+    {
+      "id": "en-04-003",
+      "text": "For example, …",
+      "en": "Support your reason with a concrete example."
+    },
+    {
+      "id": "en-04-004",
+      "text": "Another reason why I think so is that …",
+      "en": "Add a second reason."
+    },
+    {
+      "id": "en-04-005",
+      "text": "This is supported by …",
+      "en": "Point to evidence: data, a study, a source.",
+      "stress": [
+        "sup-PORT-ed"
+      ]
+    },
+    {
+      "id": "en-04-006",
+      "text": "I'd argue that …",
+      "en": "An academic way to state a clear position."
+    },
+    {
+      "id": "en-04-007",
+      "text": "It's true that …, but …",
+      "en": "Accept part of the other view, then answer it."
+    },
+    {
+      "id": "en-04-008",
+      "text": "As a result, …",
+      "en": "Show a consequence."
+    },
+    {
+      "id": "en-04-009",
+      "text": "That's why I believe …",
+      "en": "Link your reasons back to your opinion."
+    },
+    {
+      "id": "en-04-010",
+      "text": "From my point of view, …",
+      "en": "Another way to start an opinion."
+    },
+    {
+      "id": "en-04-011",
+      "text": "One clear example of this is …",
+      "en": "Introduce a strong example."
+    },
+    {
+      "id": "en-04-012",
+      "text": "Overall, I think …",
+      "en": "Give your final view."
+    },
+    {
+      "id": "en-04-013",
+      "text": "There are two main reasons for this.",
+      "en": "Tell the listener how your answer is organised."
+    },
+    {
+      "id": "en-04-014",
+      "text": "I used to think …, but now I believe …",
+      "en": "Show how your opinion changed. ‘Used to’ + verb."
+    },
+    {
+      "id": "en-04-015",
+      "text": "To sum up, …",
+      "en": "Start a short summary at the end."
+    },
+    {
+      "id": "en-04-016",
+      "text": "I can see both sides, but on balance …",
+      "en": "A balanced opinion that still takes a side.",
+      "fa": "on balance یعنی «در مجموع، با سنجیدن همه‌ی جوانب»."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "en-04-s1",
+      "prompt": "Should attendance at lectures be compulsory? Give your opinion with a topic sentence, two reasons and one example.",
+      "frames": [
+        "In my opinion, …",
+        "The main reason is that …",
+        "Another reason why I think so is that …",
+        "For example, …"
+      ],
+      "model": "In my opinion, attendance at lectures should not be compulsory for master's students. The main reason is that we are adults, and we can decide how we learn best. Some students learn more from the slides and the readings than from listening for two hours. Another reason why I think so is that many master's students also work, like me. For example, if a meeting at work moves, I sometimes have to miss a lecture, and that shouldn't cost me points. However, for seminars and group work, attendance makes sense, because others depend on you.",
+      "seconds": 90
+    },
+    {
+      "id": "en-04-s2",
+      "prompt": "Give your opinion on open-book exams, then answer the opposite view.",
+      "frames": [
+        "I'd argue that …",
+        "It's true that …, but …",
+        "That's why I believe …"
+      ],
+      "model": "I'd argue that open-book exams are better than closed-book exams, because they test whether you understand the material, not whether you can memorise it. In real life, nobody has to remember every formula; you look it up. It's true that open-book exams can feel easier, and some students don't prepare well because they think they can find everything in the book. But in practice, open-book exams are often harder, because the questions are more complex and you don't have time to search. That's why I believe they are a better test of real skills.",
+      "seconds": 90
+    },
+    {
+      "id": "en-04-s3",
+      "prompt": "Talk about something in your field that you changed your mind about.",
+      "frames": [
+        "I used to think …, but now I believe …",
+        "What changed my mind was …",
+        "As a result, …"
+      ],
+      "model": "I used to think that the cheapest supplier is always the best choice, but now I believe that this is often a mistake. What changed my mind was a case study we did in class. A company switched to a cheaper supplier on another continent, and at first it saved a lot of money. But the deliveries were often late, and the company lost several big customers. As a result, the total cost was much higher than before. Now I always look at reliability and delivery time, not just the price.",
+      "seconds": 90
+    },
+    {
+      "id": "en-04-s4",
+      "prompt": "Should AI tools be allowed in university assignments? Give a 90-second opinion and end with a short summary.",
+      "frames": [
+        "From my point of view, …",
+        "There are two main reasons for this.",
+        "On balance, …",
+        "To sum up, …"
+      ],
+      "model": "From my point of view, AI tools should be allowed in university assignments, but with clear rules. There are two main reasons for this. First, we will use these tools in our jobs, so we should learn to use them well and critically. Second, banning them doesn't really work, because it's almost impossible to check. On the other hand, students still need to show their own thinking, so they should explain how they used the tool. On balance, I think a clear policy is better than a ban. To sum up: allow AI, but ask students to be open about how they use it.",
+      "seconds": 90
+    },
+    {
+      "id": "en-04-s5",
+      "prompt": "Explain one idea from your own course this week in about 90 seconds, and give your opinion of it with two reasons. (This recording is saved in your speaking diary.)",
+      "frames": [
+        "This week we studied …",
+        "The main idea is …",
+        "In my opinion, …, because …",
+        "Overall, I think …"
+      ],
+      "model": "This week we studied the make-or-buy decision. The main idea is that a company has to decide whether to make a part itself or buy it from a supplier. For example, a bike company can produce its own frames or buy them from a factory abroad. In my opinion, the course focused too much on cost, because quality and control are just as important. The main reason is that if you depend on one supplier, you lose flexibility. Another reason is that you also lose knowledge inside the company. Overall, I think the best decision is often to make the key parts yourself and buy the rest.",
+      "seconds": 90
+    }
+  ],
+  "roleplay": {
+    "title": "A friendly debate",
+    "prompt": "You are a classmate in a friendly debate at a Belgian university. The topic is: ‘Should AI tools be allowed in university assignments?’ Ask me for my opinion first, then take the opposite view. After each claim I make, ask ‘Why?’ or ‘Do you have an example?’. Speak natural English at B2 level. Do not correct me during the conversation. After about 10 exchanges, stop and give me: (1) three corrections of real mistakes — quote my sentence and give a better version; pay special attention to a/the and he/she; (2) whether each of my opinions had a reason and an example; (3) one useful phrase for giving opinions next time. Do not comment on my pronunciation unless you could not understand a word. Start now with: ‘So, what's your opinion: should students be allowed to use AI for their assignments?’"
+  },
+  "mission": "In class or in a group meeting, give your opinion with ‘In my opinion …, because …’ and one example."
+}

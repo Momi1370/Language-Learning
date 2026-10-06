@@ -1,0 +1,505 @@
+{
+  "lang": "nl",
+  "week": 4,
+  "theme": "Lunchpauze: het weer, je mening en Limburgse woorden",
+  "themeEn": "Lunch talk: weather, opinions and Limburg words",
+  "sound": {
+    "id": "nl-eu-oo",
+    "title": "eu or oo? (deur – door)",
+    "explain": "Dutch eu (deur, reuk, heup) and oo (door, rook, hoop) are different sounds, and they change the meaning: a ‘deur’ is a door, ‘door’ means ‘through’; ‘reuk’ is a smell, ‘rook’ is smoke; your ‘heup’ is your hip, ‘hoop’ is hope. oo is a long, round o. eu is made with the tongue at the front of the mouth and round lips.",
+    "anchor": "oo is a long «اُ» with round lips, held a little longer. eu has no Farsi sound: say «اِ» (as in «دِل») and round your lips.",
+    "fa": "oo یک «اُ»ی کشیده با لب گرد است. eu در فارسی نیست: بگو «اِ» (مثل «دِل») و لب‌ها را گرد کن. deur (در) و door (از میان) فقط با همین صدا فرق دارند.",
+    "pairs": [
+      [
+        "deur",
+        "door"
+      ],
+      [
+        "reuk",
+        "rook"
+      ],
+      [
+        "heup",
+        "hoop"
+      ],
+      [
+        "leuk",
+        "look"
+      ],
+      [
+        "deuk",
+        "dook"
+      ],
+      [
+        "keus",
+        "koos"
+      ],
+      [
+        "reus",
+        "roos"
+      ]
+    ]
+  },
+  "chunks": [
+    {
+      "id": "nl-04-001",
+      "text": "Zullen we samen gaan lunchen? Ik heb honger.",
+      "en": "Shall we have lunch together? I'm hungry.",
+      "article": null
+    },
+    {
+      "id": "nl-04-002",
+      "text": "Ik neem een broodje kaas, want ik heb niet veel tijd.",
+      "en": "I'll have a cheese roll, because I don't have much time.",
+      "article": null
+    },
+    {
+      "id": "nl-04-003",
+      "text": "Eten we binnen of buiten? Het is mooi weer.",
+      "en": "Shall we eat inside or outside? The weather's nice.",
+      "article": null
+    },
+    {
+      "id": "nl-04-004",
+      "text": "Het is lekker, maar het is een beetje duur.",
+      "en": "It's tasty, but it's a bit expensive.",
+      "article": null
+    },
+    {
+      "id": "nl-04-005",
+      "text": "Ik eet vandaag niet veel, omdat ik straks nog ga sporten.",
+      "en": "I'm not eating much today, because I'm going to do sport later.",
+      "article": null,
+      "fa": "بعد از omdat فعل به آخر جمله می‌رود (ga sporten)، درست مثل فارسی."
+    },
+    {
+      "id": "nl-04-006",
+      "text": "Volgens mij gaat het vanmiddag regenen.",
+      "en": "I think it's going to rain this afternoon.",
+      "article": null
+    },
+    {
+      "id": "nl-04-007",
+      "text": "Het is veel te warm voor de tijd van het jaar.",
+      "en": "It's far too warm for the time of year.",
+      "article": null
+    },
+    {
+      "id": "nl-04-008",
+      "text": "Ik hou niet van dit weer, omdat het zo grijs is.",
+      "en": "I don't like this weather, because it's so grey.",
+      "article": null
+    },
+    {
+      "id": "nl-04-009",
+      "text": "Wat vind jij daarvan? Ik ben benieuwd.",
+      "en": "What do you think of that? I'm curious.",
+      "article": null
+    },
+    {
+      "id": "nl-04-010",
+      "text": "Ik ben het helemaal met je eens.",
+      "en": "I completely agree with you.",
+      "article": null,
+      "fa": "het eens zijn met iemand یعنی «با کسی موافق بودن». het را فراموش نکن."
+    },
+    {
+      "id": "nl-04-011",
+      "text": "Daar ben ik het niet mee eens, want …",
+      "en": "I don't agree with that, because …",
+      "article": null
+    },
+    {
+      "id": "nl-04-012",
+      "text": "Ik vind dat een goed idee, omdat het tijd bespaart.",
+      "en": "I think that's a good idea, because it saves time.",
+      "article": null
+    },
+    {
+      "id": "nl-04-013",
+      "text": "Dat hangt ervan af hoeveel tijd we hebben.",
+      "en": "That depends on how much time we have.",
+      "article": null,
+      "fa": "Dat hangt ervan af یعنی «بستگی دارد»."
+    },
+    {
+      "id": "nl-04-014",
+      "text": "Heb je al plannen voor het weekend?",
+      "en": "Do you have plans for the weekend yet?",
+      "article": null
+    },
+    {
+      "id": "nl-04-015",
+      "text": "Als het niet regent, ga ik naar de markt.",
+      "en": "If it doesn't rain, I'll go to the market.",
+      "article": null
+    },
+    {
+      "id": "nl-04-016",
+      "text": "In mijn land eten we ’s middags warm, maar hier eten veel mensen boterhammen.",
+      "en": "In my country we eat a hot meal at lunchtime, but here many people eat sandwiches. (In Belgium ’s middags = around noon; in the Netherlands it means the afternoon.)",
+      "article": null
+    },
+    {
+      "id": "nl-04-017",
+      "text": "Smakelijk! Wil je een stukje proeven?",
+      "en": "Enjoy! Do you want to taste a bit?",
+      "article": null
+    },
+    {
+      "id": "nl-04-018",
+      "text": "Hoe zeg je dat in het Limburgs?",
+      "en": "How do you say that in Limburgish?",
+      "article": null
+    },
+    {
+      "id": "nl-04-019",
+      "text": "Ik versta het Limburgs nog niet goed, maar ik leer het wel.",
+      "en": "I don't understand Limburgish well yet, but I'm learning it.",
+      "article": null
+    },
+    {
+      "id": "nl-04-020",
+      "text": "Wat betekent dat woord? Dat heb ik nog nooit gehoord.",
+      "en": "What does that word mean? I've never heard it.",
+      "article": null
+    },
+    {
+      "id": "nl-04-021",
+      "text": "Ik heb geen tijd voor een lange pauze, dus ik eet aan mijn bureau.",
+      "en": "I don't have time for a long break, so I'm eating at my desk.",
+      "article": null
+    },
+    {
+      "id": "nl-04-022",
+      "text": "Ik heb zin in een koffiekoek. Jij ook?",
+      "en": "I feel like a pastry. You too? (‘koffiekoek’ is Belgian; in the Netherlands: ‘koffiebroodje’.)",
+      "article": null
+    },
+    {
+      "id": "nl-04-023",
+      "text": "Het was gezellig! Tot straks.",
+      "en": "That was nice! See you later.",
+      "article": null,
+      "fa": "gezellig یعنی «صمیمی و خوش، با حال و هوای خوب». ترجمه‌ی دقیق ندارد."
+    },
+    {
+      "id": "nl-04-024",
+      "text": "de boterham",
+      "en": "the slice of bread / the sandwich",
+      "article": "de"
+    },
+    {
+      "id": "nl-04-025",
+      "text": "het weer",
+      "en": "the weather",
+      "article": "het"
+    },
+    {
+      "id": "nl-04-026",
+      "text": "de mening",
+      "en": "the opinion",
+      "article": "de"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "nl-04-dA",
+      "title": "Lunchpauze",
+      "lines": [
+        {
+          "speaker": "Lien",
+          "text": "Zullen we samen gaan lunchen? Ik heb honger, en het is al half een.",
+          "en": "Shall we have lunch together? I'm hungry, and it's already half past twelve."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Goed idee. Eten we binnen of buiten? Het is eindelijk mooi weer.",
+          "en": "Good idea. Shall we eat inside or outside? The weather is finally nice."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Buiten! Het is veel te warm voor de tijd van het jaar, maar ik klaag niet.",
+          "en": "Outside! It's far too warm for the time of year, but I'm not complaining."
+        },
+        {
+          "speaker": "Lien",
+          "text": "Wat eet jij vandaag, Amir? Dat ruikt echt lekker.",
+          "en": "What are you eating today, Amir? That smells really good."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Rijst met kip, van thuis. In mijn land eten we ’s middags warm, maar hier eten veel mensen boterhammen.",
+          "en": "Rice with chicken, from home. In my country we eat a hot meal at lunchtime, but here many people eat sandwiches."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Dat klopt. Ik eet elke dag boterhammen, omdat dat snel en gemakkelijk is.",
+          "en": "That's true. I eat sandwiches every day, because it's quick and easy."
+        },
+        {
+          "speaker": "Lien",
+          "text": "Ik vind dat saai. Ik neem liever een soep, vooral als het koud is.",
+          "en": "I find that boring. I'd rather have soup, especially when it's cold."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Smakelijk! Wil je een stukje proeven, Tom?",
+          "en": "Enjoy! Do you want to taste a bit, Tom?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "Amai, dat is lekker! Dat moet je me eens leren maken.",
+          "en": "Wow, that's tasty! You have to teach me how to make that."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Amai? Dat woord heb ik nog nooit gehoord. Wat betekent dat eigenlijk?",
+          "en": "Amai? I've never heard that word. What does it actually mean?"
+        },
+        {
+          "speaker": "Lien",
+          "text": "Het betekent zoiets als ‘wauw’. Je hoort het hier overal, bij jong en oud.",
+          "en": "It means something like ‘wow’. You hear it everywhere here, from young and old."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Dan zeg ik het ook: amai, het is hier gezellig!",
+          "en": "Then I'll say it too: amai, it's nice here!"
+        }
+      ]
+    },
+    {
+      "id": "nl-04-dB",
+      "title": "Plannen voor het weekend",
+      "lines": [
+        {
+          "speaker": "Tom",
+          "text": "Zeg Amir, heb je al plannen voor het weekend?",
+          "en": "Hey Amir, do you have plans for the weekend yet?"
+        },
+        {
+          "speaker": "Amir",
+          "text": "Als het niet regent, ga ik naar de markt, want ik wil vers fruit kopen.",
+          "en": "If it doesn't rain, I'll go to the market, because I want to buy fresh fruit."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Goed idee, maar volgens mij gaat het zaterdag de hele dag regenen.",
+          "en": "Good idea, but I think it's going to rain all day on Saturday."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Alweer? Ik hou niet van dit weer, omdat het altijd zo grijs is.",
+          "en": "Again? I don't like this weather, because it's always so grey."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Daar went je wel aan. Ik ga met mijn kinderen naar Bokrijk, omdat ze dat geweldig vinden.",
+          "en": "You get used to it. I'm going to Bokrijk with my children, because they love it."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Bokrijk? Wat is dat? Dat heb ik nog nooit gehoord.",
+          "en": "Bokrijk? What is that? I've never heard of it."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Een groot park met een openluchtmuseum, vlak bij Genk. Daar moet je echt eens naartoe gaan!",
+          "en": "A big park with an open-air museum, close to Genk. You really have to go there some time!"
+        },
+        {
+          "speaker": "Amir",
+          "text": "Dat hangt ervan af hoeveel tijd ik heb, want ik moet nog studeren.",
+          "en": "That depends on how much time I have, because I still have to study."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Het hele weekend studeren? Daar ben ik het niet mee eens. Je hebt ook rust nodig!",
+          "en": "Studying the whole weekend? I don't agree with that. You need rest too!"
+        },
+        {
+          "speaker": "Amir",
+          "text": "Je hebt gelijk. Misschien ga ik zondag, als het mooi weer is.",
+          "en": "You're right. Maybe I'll go on Sunday, if the weather is nice."
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "nl-04-s1",
+      "prompt": "Aan de lunch: vertel wat je eet en waarom (omdat/want), en vraag je collega's wat zij eten. (At lunch: say what you are eating and why, with omdat/want, and ask your colleagues what they are eating.)",
+      "frames": [
+        "Ik eet vandaag …, want …",
+        "Ik neem meestal …, omdat …",
+        "En jij, wat eet jij?",
+        "Smakelijk!"
+      ],
+      "model": "Ik eet vandaag een broodje kaas, want ik heb niet veel tijd. Om twee uur heb ik een vergadering, en ik moet nog iets voorbereiden. Meestal neem ik rijst met groenten van thuis, omdat dat gezonder en goedkoper is. In mijn land eten we ’s middags altijd warm, dus boterhammen vind ik nog een beetje vreemd. En jij, wat eet jij? Ah, een soep, dat ziet er lekker uit. Smakelijk!",
+      "seconds": 90
+    },
+    {
+      "id": "nl-04-s2",
+      "prompt": "Vergelijk het weer in België met het weer in jouw land. Geef twee redenen waarom je het ene of het andere liever hebt. (Compare the weather in Belgium with the weather in your country. Give two reasons why you prefer one or the other.)",
+      "frames": [
+        "In België is het vaak …, maar in mijn land …",
+        "Ik hou meer van …, omdat …",
+        "Ik vind … ook beter, want …"
+      ],
+      "model": "In België is het vaak grijs en nat, maar in mijn land is het meestal zonnig en droog. In de zomer kan het daar wel veertig graden worden. Ik hou meer van het weer in mijn land, omdat ik zon nodig heb om me goed te voelen. Maar ik vind de Belgische zomer ook beter, want het is dan niet te warm en je kan lang buiten zitten. Het hangt er dus van af: in de winter mis ik de zon, in de zomer vind ik België heerlijk.",
+      "seconds": 90
+    },
+    {
+      "id": "nl-04-s3",
+      "prompt": "Is lunchen aan je bureau een goed idee? Geef je mening met minstens één keer ‘omdat’ en één keer ‘want’. (Is having lunch at your desk a good idea? Give your opinion with ‘omdat’ and ‘want’ at least once each.)",
+      "frames": [
+        "Volgens mij …",
+        "Ik vind het (geen) goed idee, omdat …",
+        "Aan de andere kant …, want …",
+        "Het hangt ervan af …"
+      ],
+      "model": "Volgens mij is lunchen aan je bureau geen goed idee, omdat je dan geen echte pauze hebt. Je blijft aan je werk denken, en na de middag ben je sneller moe. Ik vind de lunch ook belangrijk, want dan praat je met je collega's over andere dingen dan werk. Aan de andere kant begrijp ik het wel als je een deadline hebt, want dan heb je soms geen keuze. Het hangt ervan af hoeveel werk je hebt, maar meestal neem ik liever een echte pauze.",
+      "seconds": 90
+    },
+    {
+      "id": "nl-04-s4",
+      "prompt": "Vertel over een woord of zin die je op het werk hoorde en niet begreep: wat dacht je eerst, wat betekent het echt, en vind je het een mooi woord? (Talk about a word or sentence you heard at work and didn't understand: what you thought first, what it really means, and whether you like it.)",
+      "frames": [
+        "Op het werk hoorde ik …",
+        "Eerst dacht ik dat …",
+        "Maar het betekent eigenlijk …",
+        "Ik vind het een mooi woord, omdat …"
+      ],
+      "model": "Op het werk hoorde ik vorige week het woord ‘goesting’. Een collega vroeg: ‘Hebde goesting in een koffie?’ Eerst dacht ik dat het iets met ‘gast’ te maken had, want het klinkt een beetje zo. Maar het betekent eigenlijk ‘zin’: heb je zin in een koffie? Lien heeft het me uitgelegd. Ik vind het een mooi woord, omdat het vrolijk klinkt en omdat je het alleen in Vlaanderen hoort. Nu zeg ik het zelf ook soms, en dan lachen mijn collega's.",
+      "seconds": 90
+    },
+    {
+      "id": "nl-04-s5",
+      "prompt": "Wat vind je tot nu toe van Hasselt en van je werk? Gebruik minstens twee keer ‘omdat’ en twee keer ‘want’. (This recording is saved in your speaking diary.)",
+      "frames": [
+        "Ik woon nu … in Hasselt.",
+        "Ik vind Hasselt …, omdat …",
+        "Op het werk …, want …",
+        "Wat ik nog moeilijk vind, is …"
+      ],
+      "model": "Ik woon nu al een paar jaar in Hasselt, en ik vind het een fijne stad. Ik vind Hasselt gezellig, omdat het niet te groot is en omdat er veel terrasjes zijn. Het weer vind ik minder leuk, want het regent veel. Op het werk gaat het goed, want mijn collega's zijn vriendelijk en geduldig. Ik begrijp de vergaderingen nu beter, omdat ik meer vragen durf te stellen. Wat ik nog moeilijk vind, is het Limburgs, want soms spreken mijn collega's heel snel en met dialectwoorden. Maar ik leer elke week een paar nieuwe woorden.",
+      "seconds": 90
+    }
+  ],
+  "grammar": {
+    "id": "omdat-want",
+    "title": "omdat or want? (where the verb goes)",
+    "explain": "Omdat and want both mean ‘because’, but the word order is different. After want, the order stays normal: the verb stays in place 2 (…, want het regent heel hard). After omdat, the verb goes to the very end (…, omdat het heel hard regent). In each item, join the two sentences with the word in brackets. Items 1 and 2 show the same idea both ways.",
+    "fa": "omdat و want هر دو یعنی «چون»، ولی ترتیب کلمات فرق دارد. بعد از want ترتیب عادی است (want het regent hard). بعد از omdat فعل به آخر جمله می‌رود (omdat het hard regent) — درست مثل فارسی که فعل آخر جمله است! این برای تو یک نقطه‌ی قوت است.",
+    "items": [
+      {
+        "prompt": "Ik blijf vandaag binnen. + Het regent heel hard. (omdat)",
+        "answer": "Ik blijf vandaag binnen, omdat het heel hard regent."
+      },
+      {
+        "prompt": "Ik blijf vandaag binnen. + Het regent heel hard. (want)",
+        "answer": "Ik blijf vandaag binnen, want het regent heel hard."
+      },
+      {
+        "prompt": "Ik neem een soep. + Ik heb het koud. (omdat)",
+        "answer": "Ik neem een soep, omdat ik het koud heb."
+      },
+      {
+        "prompt": "Ik eet aan mijn bureau. + Ik heb een deadline. (want)",
+        "answer": "Ik eet aan mijn bureau, want ik heb een deadline."
+      },
+      {
+        "prompt": "Ik vind Hasselt fijn. + De mensen zijn vriendelijk. (omdat)",
+        "answer": "Ik vind Hasselt fijn, omdat de mensen vriendelijk zijn."
+      },
+      {
+        "prompt": "We eten buiten. + Het is eindelijk mooi weer. (want)",
+        "answer": "We eten buiten, want het is eindelijk mooi weer."
+      },
+      {
+        "prompt": "Ik draag een dikke jas. + Het vriest vannacht. (omdat)",
+        "answer": "Ik draag een dikke jas, omdat het vannacht vriest."
+      },
+      {
+        "prompt": "Tom is moe. + Hij heeft slecht geslapen. (want)",
+        "answer": "Tom is moe, want hij heeft slecht geslapen."
+      },
+      {
+        "prompt": "Ik kom later. + De trein heeft vertraging. (omdat)",
+        "answer": "Ik kom later, omdat de trein vertraging heeft."
+      },
+      {
+        "prompt": "Ik ben het niet eens met Tom. + Ik vind thuiswerken beter. (want)",
+        "answer": "Ik ben het niet eens met Tom, want ik vind thuiswerken beter."
+      },
+      {
+        "prompt": "Amir leert Limburgse woorden. + Zijn collega's spreken dialect. (omdat)",
+        "answer": "Amir leert Limburgse woorden, omdat zijn collega's dialect spreken."
+      },
+      {
+        "prompt": "Ik neem de fiets. + Het is niet ver. (want)",
+        "answer": "Ik neem de fiets, want het is niet ver."
+      },
+      {
+        "prompt": "Ik vind dat een goed idee. + Het bespaart tijd. (omdat)",
+        "answer": "Ik vind dat een goed idee, omdat het tijd bespaart."
+      },
+      {
+        "prompt": "Ik ga vroeg naar huis. + Ik moet nog studeren. (want)",
+        "answer": "Ik ga vroeg naar huis, want ik moet nog studeren."
+      },
+      {
+        "prompt": "Ik drink geen koffie meer. + Ik slaap anders slecht. (omdat)",
+        "answer": "Ik drink geen koffie meer, omdat ik anders slecht slaap."
+      }
+    ]
+  },
+  "limburg": [
+    {
+      "standard": "Het is heel koud vandaag.",
+      "everyday": "'t Is vies koud vandaag.",
+      "note": "In Limburg ‘vies’ can mean ‘very’ (not ‘dirty’!): vies koud = very cold."
+    },
+    {
+      "standard": "Ik heb zin in een koffiekoek.",
+      "everyday": "Ik 'eb goesting in ne koffiekoek.",
+      "note": "Silent h (’eb), ‘goesting’ = zin, and ‘ne’ = een. ‘Koffiekoek’ is the Belgian word for a sweet pastry."
+    },
+    {
+      "standard": "Hij is heel vriendelijk.",
+      "everyday": "Hij is hennig.",
+      "note": "‘Hennig’ (Limburg) = friendly and cheerful; it can also mean good-looking."
+    },
+    {
+      "standard": "Ik was het hele weekend aan het klussen.",
+      "everyday": "Ik was gans 't weekend aan 't klommelen.",
+      "note": "‘Gans’ = heel (the whole), ‘klommelen’ = doing small jobs, tinkering."
+    },
+    {
+      "standard": "Ik heb daarnet met hem gebeld.",
+      "everyday": "Ik 'eb toen effe met hem gebeld.",
+      "note": "‘Toen effe’ (Limburg) = daarnet, just now."
+    },
+    {
+      "standard": "Wat is er?",
+      "everyday": "Wat is't, mijne man?",
+      "note": "A friendly Limburg way to ask ‘What's up?’."
+    },
+    {
+      "standard": "Hij spreekt dialect.",
+      "everyday": "Hij kalt plat.",
+      "note": "‘Kallen’ = spreken; ‘plat kallen’ = speaking dialect."
+    },
+    {
+      "standard": "Een boterham met confituur, alstublieft.",
+      "everyday": "Ne boterham mè confituur, alstublieft.",
+      "note": "‘Ne’ = een, ‘mè’ = met. ‘Confituur’ is the Belgian word for jam."
+    }
+  ],
+  "roleplay": {
+    "title": "Lunch met collega's",
+    "prompt": "You are two colleagues, Lien and Tom, having lunch with me in an office in Hasselt, Belgium. Play both and always say who is speaking (Lien: … / Tom: …). Speak Belgian Dutch (Flemish) at A2+ level: normal everyday sentences, a little slower than normal. Talk about the weather, the food and our weekend plans. You may use only these Flemish/Limburg words: ‘amai’, ‘goesting’, ‘sjiek’, ‘vies’ (= very), ‘allee’ — and if I ask what one means, explain it simply. Ask for my opinion, and then ask ‘Waarom?’ so that I answer with ‘omdat’ or ‘want’. Ask one question at a time and wait for my answer. If I answer in English, kindly ask me to try in Dutch. Do not correct me during the conversation. After about 10 exchanges, stop and give me, in English: (1) three corrections of real mistakes — quote my sentence and give a better version, and check the verb position after ‘omdat’; (2) two things I said well; (3) one useful Flemish phrase for next time. Do not comment on my pronunciation unless you could not understand a word. Start now with: ‘Tom: Amai, wat een weer! Eten we buiten?’"
+  },
+  "mission": "At lunch, give your opinion about something (the food, the weather, a plan) with ‘omdat’, and ask a colleague for one Limburg word they use a lot."
+}
