@@ -137,3 +137,17 @@ export function checkLevel(data) {
   if (average(answers) < rules.minAvgAnswerWords) errors.push(`grammar answers average ${average(answers).toFixed(1)} words; A2+ needs at least ${rules.minAvgAnswerWords}`);
   return errors;
 }
+
+// A card text used twice (any week, same language) would become two cards reviewed separately.
+export function findRepeats(weeks) {
+  const seen = new Map();
+  const errors = [];
+  for (const w of weeks) {
+    for (const c of w.chunks ?? []) {
+      const key = `${w.lang}:${String(c.text).toLowerCase().replace(/[^\p{L}\d…]+/gu, ' ').trim()}`;
+      if (seen.has(key)) errors.push(`${c.id} repeats ${seen.get(key)}: "${c.text}"`);
+      else seen.set(key, c.id);
+    }
+  }
+  return errors;
+}

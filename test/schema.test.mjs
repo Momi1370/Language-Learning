@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { validateWeek, validateWords, checkLevel, countWords } from '../tools/schema.mjs';
+import { validateWeek, validateWords, checkLevel, countWords, findRepeats } from '../tools/schema.mjs';
 import { validNl, validEn, levelNl } from './fixtures.mjs';
 
 const nl = { lang: 'nl', week: 1 };
@@ -120,3 +120,19 @@ test('short dialogue lines and short grammar answers are reported', () => {
 });
 
 test('English weeks have no Dutch level floor', () => assert.deepEqual(checkLevel(validEn()), []));
+
+test('the same card text in two weeks is reported, ignoring case and punctuation', () => {
+  const a = validNl();
+  const b = validNl();
+  b.week = 2;
+  b.chunks = b.chunks.map((c, i) => ({ ...c, id: `nl-02-${String(i + 1).padStart(3, '0')}`, text: `andere zin ${i}` }));
+  b.chunks[4].text = 'Zin 3!';
+  assert.deepEqual(findRepeats([a, b]), ['nl-02-005 repeats nl-01-004: "Zin 3!"']);
+});
+
+test('the same text in a Dutch and an English week is not a repeat', () => {
+  const a = validNl();
+  const e = validEn();
+  e.chunks[0].text = a.chunks[0].text;
+  assert.deepEqual(findRepeats([a, e]), []);
+});

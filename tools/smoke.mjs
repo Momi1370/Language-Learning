@@ -2,7 +2,11 @@
 // Usage: npm run smoke   (starts its own server; needs Google Chrome, or set CHROME=/path/to/chrome)
 import { launch, FAKE_MIC } from './browser.mjs';
 import { serve } from './serve.mjs';
+import { readdir } from 'node:fs/promises';
 
+// The weeks that exist now; the first missing one must say "coming soon".
+const written = (await readdir(new URL('../content/nl/', import.meta.url)))
+  .filter((f) => /^week-\d\d\.json$/.test(f)).map((f) => Number(f.slice(5, 7))).sort((a, b) => a - b);
 const server = await serve(0);
 const base = `http://127.0.0.1:${server.address().port}`;
 const b = await launch({ args: FAKE_MIC });
@@ -28,8 +32,17 @@ try {
   await check('tools/set-position.html?week=1&session=5&to=block/listen', 'block/listen', 'Limburg ear');
   await check('tools/set-position.html?week=1&session=5&to=block/speak', 'block/speak', 'Speaking diary');
   await check('tools/set-position.html?week=1&session=5&to=roleplay', 'roleplay', 'Copy prompt');
-  // Week 2 is not written yet: its 404s are expected, and Today must say so.
-  await check('tools/set-position.html?week=2&session=1&to=today', 'today', 'coming soon', ['week-02.json']);
+  // Every written week opens (session 1) and has its Limburg ear (session 5).
+  for (const w of written) {
+    await check(`tools/set-position.html?week=${w}&session=1&to=today`, 'today', `Week ${w} · Session 1`);
+    await check(`tools/set-position.html?week=${w}&session=5&to=block/listen`, 'block/listen', 'Limburg ear');
+  }
+  // The first week that is not written yet: its 404s are expected, and Today must say so.
+  const next = written.at(-1) + 1;
+  if (next <= 12) {
+    const file = `week-${String(next).padStart(2, '0')}.json`;
+    await check(`tools/set-position.html?week=${next}&session=1&to=today`, 'today', 'coming soon', [file]);
+  }
 
   // Lessons fail to load (offline, server error): Today explains, other screens keep working.
   await b.block(['*content/*week-*.json*']);
@@ -118,7 +131,7 @@ try {
   })()`);
   await check('index.html?again#/today', 'today', 'Finish session ✓');
   await b.evaluate(`(() => { const btn = [...document.querySelectorAll('button')].find((x) => x.textContent.includes('Finish session')); btn.click(); btn.click(); })()`);
-  await b.waitFor(`/coming soon/.test(document.querySelector('main').innerText)`, 5000);
+  await b.waitFor(`/coming soon|Week 2 · Session 1/.test(document.querySelector('main').innerText)`, 5000);
   const after = await b.evaluate(`(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); return s.position.week + '-' + s.position.session + ' history ' + s.history.length; })()`);
   const once = after === '2-1 history 1';
   if (!once) failed++;

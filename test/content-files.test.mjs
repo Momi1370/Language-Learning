@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
-import { validateWeek, validateWords, checkLevel } from '../tools/schema.mjs';
+import { validateWeek, validateWords, checkLevel, findRepeats } from '../tools/schema.mjs';
 
 const read = async (p) => JSON.parse(await readFile(new URL(`../content/${p}`, import.meta.url), 'utf8'));
 const weekFiles = async (lang) =>
@@ -51,4 +51,10 @@ test('every Limburg pair shows two different forms', async () => {
 
 test('Dutch role-play prompts ask for A2+ Dutch, the level the learner chose', async () => {
   for (const f of await weekFiles('nl')) assert.match((await read(`nl/${f}`)).roleplay.prompt, /A2\+/, f);
+});
+
+test('no sentence is taught as a card twice', async () => {
+  const weeks = [];
+  for (const lang of ['nl', 'en']) for (const f of await weekFiles(lang)) weeks.push(await read(`${lang}/${f}`));
+  assert.deepEqual(findRepeats(weeks), []);
 });
