@@ -99,7 +99,11 @@ try {
   const spoke = await b.waitFor(`/Test 1: .*(finished|error|no end)/.test(${report})`, 8000);
   await b.click('Test recording');
   const recorded = await b.waitFor(`/Recording: .*bytes/.test(${report}) && /Playback: /.test(${report})`, 10000);
-  const audioOk = lists && spoke && recorded;
+  await b.click('Test 4');
+  const t4 = await b.waitFor(`/Test 4: .*(finished|error|no end|no audioSession)/.test(${report})`, 8000);
+  await b.click('Test 5');
+  const t5 = await b.waitFor(`/Test 5: silent sound /.test(${report}) && /Test 5: .*(finished|error|no end)/.test(${report})`, 8000);
+  const audioOk = lists && spoke && recorded && t4 && t5;
   if (!audioOk) failed++;
   console.log(`${audioOk ? '✓' : '✗'} Audio check lists voices and reports speech and recording tests`);
   if (!audioOk) console.log((await b.evaluate(report).catch(() => '')).replace(/^/gm, '   '));
