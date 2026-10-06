@@ -1,0 +1,520 @@
+{
+  "lang": "nl",
+  "week": 3,
+  "theme": "Telefoneren, Teams en afspraken maken",
+  "themeEn": "Phone and Teams calls, making appointments",
+  "sound": {
+    "id": "nl-uu-oe",
+    "title": "uu or oe? (muur – moer)",
+    "explain": "Dutch uu (muur, buur, vuur) and oe (moer, boer, voer) are different sounds, and they change the meaning: a ‘muur’ is a wall, a ‘moer’ is a nut for a bolt; a ‘buur’ is a neighbour, a ‘boer’ is a farmer. The short u (rust, dun, mus) is the short cousin of uu, and it is also different from oe: ‘rust’ is rest, ‘roest’ is rust on metal.",
+    "anchor": "oe is Farsi «او». uu: say «ای» and round your lips as for «او». The short u (rust, dun) is the short version of that sound.",
+    "fa": "oe همان «او» فارسی است. برای uu بگو «ای» ولی لب‌ها را مثل «او» گرد کن. u کوتاه (rust، dun) نسخه‌ی کوتاهِ همین صداست. muur (دیوار) و moer (مهره) فقط با همین صدا فرق دارند.",
+    "pairs": [
+      [
+        "muur",
+        "moer"
+      ],
+      [
+        "buur",
+        "boer"
+      ],
+      [
+        "vuur",
+        "voer"
+      ],
+      [
+        "stuur",
+        "stoer"
+      ],
+      [
+        "rust",
+        "roest"
+      ],
+      [
+        "dun",
+        "doen"
+      ],
+      [
+        "mus",
+        "moes"
+      ]
+    ]
+  },
+  "chunks": [
+    {
+      "id": "nl-03-001",
+      "text": "Goeiemiddag, u spreekt met … van de afdeling …",
+      "en": "Good afternoon, you're speaking to … from the … department.",
+      "article": null,
+      "register": "formal"
+    },
+    {
+      "id": "nl-03-002",
+      "text": "Ik bel u terug, want ik zit nu in een vergadering.",
+      "en": "I'll call you back, because I'm in a meeting now.",
+      "article": null,
+      "register": "formal"
+    },
+    {
+      "id": "nl-03-003",
+      "text": "Met wie spreek ik, alstublieft?",
+      "en": "Who am I speaking to, please?",
+      "article": null,
+      "register": "formal"
+    },
+    {
+      "id": "nl-03-004",
+      "text": "Kan ik u straks terugbellen? Ik ben nu even bezig.",
+      "en": "Can I call you back later? I'm busy right now.",
+      "article": null,
+      "register": "formal"
+    },
+    {
+      "id": "nl-03-005",
+      "text": "Past het voor u beter in de voormiddag of in de namiddag?",
+      "en": "Is the morning or the afternoon better for you? (In Belgium ‘voormiddag’ ≈ 9–12 h and ‘namiddag’ ≈ 12–18 h; in the Netherlands they mean other times.)",
+      "article": null,
+      "register": "formal",
+      "fa": "در بلژیک voormiddag یعنی «صبح، تا ظهر» و namiddag یعنی «بعدازظهر». در هلند این دو کلمه زمان دیگری را می‌رسانند."
+    },
+    {
+      "id": "nl-03-006",
+      "text": "Kunnen we een afspraak maken voor volgende week?",
+      "en": "Can we make an appointment for next week?",
+      "article": null
+    },
+    {
+      "id": "nl-03-007",
+      "text": "Donderdag kan ik niet, maar vrijdag past wel.",
+      "en": "Thursday I can't, but Friday works.",
+      "article": null
+    },
+    {
+      "id": "nl-03-008",
+      "text": "Ik moet de afspraak helaas verplaatsen, want er is iets tussengekomen.",
+      "en": "Unfortunately I have to move the appointment, because something came up.",
+      "article": null,
+      "fa": "er is iets tussengekomen یعنی «یک کاری پیش آمده»."
+    },
+    {
+      "id": "nl-03-009",
+      "text": "Zullen we om tien uur afspreken?",
+      "en": "Shall we meet at ten?",
+      "article": null
+    },
+    {
+      "id": "nl-03-010",
+      "text": "Ik stuur je straks een uitnodiging voor Teams.",
+      "en": "I'll send you a Teams invitation later.",
+      "article": null
+    },
+    {
+      "id": "nl-03-011",
+      "text": "Hoor je me goed? De verbinding is niet zo goed.",
+      "en": "Can you hear me well? The connection isn't very good.",
+      "article": null
+    },
+    {
+      "id": "nl-03-012",
+      "text": "Sorry, je viel even weg. Kan je dat herhalen?",
+      "en": "Sorry, you cut out for a moment. Can you repeat that?",
+      "article": null
+    },
+    {
+      "id": "nl-03-013",
+      "text": "Je micro staat nog uit, we horen je niet.",
+      "en": "Your mic is still off, we can't hear you.",
+      "article": null,
+      "register": "informal"
+    },
+    {
+      "id": "nl-03-014",
+      "text": "Ik deel even mijn scherm, dan kunnen jullie meekijken.",
+      "en": "I'll share my screen, then you can all follow along.",
+      "article": null
+    },
+    {
+      "id": "nl-03-015",
+      "text": "Kan je de link nog eens in de chat zetten?",
+      "en": "Can you put the link in the chat again?",
+      "article": null
+    },
+    {
+      "id": "nl-03-016",
+      "text": "Mag ik een boodschap achterlaten voor mevrouw Janssens?",
+      "en": "May I leave a message for Ms Janssens?",
+      "article": null,
+      "register": "formal"
+    },
+    {
+      "id": "nl-03-017",
+      "text": "Kan zij mij terugbellen als ze weer op kantoor is?",
+      "en": "Can she call me back when she's back in the office?",
+      "article": null,
+      "fa": "zij/ze یعنی «او» برای زن و hij یعنی «او» برای مرد. در فارسی یک «او» داریم، پس دقت کن."
+    },
+    {
+      "id": "nl-03-018",
+      "text": "Dat moet ik even in mijn agenda nakijken.",
+      "en": "I need to check that in my diary.",
+      "article": null,
+      "fa": "nakijken یعنی «چک کردن، نگاه کردن»."
+    },
+    {
+      "id": "nl-03-019",
+      "text": "Als het voor jou past, bellen we morgen om negen uur.",
+      "en": "If it suits you, we'll call tomorrow at nine.",
+      "article": null
+    },
+    {
+      "id": "nl-03-020",
+      "text": "Ik heb maar een halfuur, dus laten we beginnen.",
+      "en": "I only have half an hour, so let's start.",
+      "article": null
+    },
+    {
+      "id": "nl-03-021",
+      "text": "Mijn gsm stond op stil, dus ik heb je oproep gemist.",
+      "en": "My phone was on silent, so I missed your call. (‘gsm’ = mobile phone in Belgium; in the Netherlands: ‘mobieltje’.)",
+      "article": null
+    },
+    {
+      "id": "nl-03-022",
+      "text": "Mag ik u even doorverbinden met mijn collega?",
+      "en": "May I put you through to my colleague?",
+      "article": null,
+      "register": "formal",
+      "fa": "doorverbinden یعنی «تماس را به کس دیگری وصل کردن»."
+    },
+    {
+      "id": "nl-03-023",
+      "text": "Bedankt voor het telefoontje, tot donderdag!",
+      "en": "Thanks for the call, see you Thursday!",
+      "article": null
+    },
+    {
+      "id": "nl-03-024",
+      "text": "de afspraak",
+      "en": "the appointment",
+      "article": "de"
+    },
+    {
+      "id": "nl-03-025",
+      "text": "de uitnodiging",
+      "en": "the invitation",
+      "article": "de"
+    },
+    {
+      "id": "nl-03-026",
+      "text": "de verbinding",
+      "en": "the connection",
+      "article": "de"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "nl-03-dA",
+      "title": "Een afspraak maken",
+      "lines": [
+        {
+          "speaker": "Els",
+          "text": "Goeiemiddag, met Els Janssens. Waarmee kan ik u helpen?",
+          "en": "Good afternoon, Els Janssens speaking. How can I help you?"
+        },
+        {
+          "speaker": "Amir",
+          "text": "Goeiemiddag, u spreekt met Amir van de afdeling logistiek. Ik bel over de nieuwe bestelling.",
+          "en": "Good afternoon, this is Amir from the logistics department. I'm calling about the new order."
+        },
+        {
+          "speaker": "Els",
+          "text": "Ah ja, goed dat u belt. Ik wil die bestelling graag eens rustig met u bespreken.",
+          "en": "Ah yes, good that you're calling. I'd like to discuss that order with you properly."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Dat is een goed idee. Kunnen we een afspraak maken voor volgende week?",
+          "en": "That's a good idea. Can we make an appointment for next week?"
+        },
+        {
+          "speaker": "Els",
+          "text": "Zeker. Past het voor u beter in de voormiddag of in de namiddag?",
+          "en": "Certainly. Is the morning or the afternoon better for you?"
+        },
+        {
+          "speaker": "Amir",
+          "text": "Liefst in de voormiddag. Dinsdag kan ik niet, maar woensdag past wel.",
+          "en": "Preferably in the morning. Tuesday I can't, but Wednesday works."
+        },
+        {
+          "speaker": "Els",
+          "text": "Woensdag om tien uur? Dat moet ik even in mijn agenda nakijken… Ja, dat lukt.",
+          "en": "Wednesday at ten? I need to check that in my diary… Yes, that works."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Prima. Zal ik u een uitnodiging voor Teams sturen, of komt u liever langs?",
+          "en": "Great. Shall I send you a Teams invitation, or would you rather come by?"
+        },
+        {
+          "speaker": "Els",
+          "text": "Ik kom liever naar jullie kantoor. Kan u mij het adres even mailen?",
+          "en": "I'd rather come to your office. Could you email me the address?"
+        },
+        {
+          "speaker": "Amir",
+          "text": "Natuurlijk, ik stuur het u vandaag nog via mail.",
+          "en": "Of course, I'll email it to you today."
+        },
+        {
+          "speaker": "Els",
+          "text": "Prima. Bedankt voor het telefoontje, en tot woensdag!",
+          "en": "Great. Thanks for the call, and see you on Wednesday!"
+        },
+        {
+          "speaker": "Amir",
+          "text": "Tot woensdag, dag mevrouw Janssens. Nog een fijne dag!",
+          "en": "See you on Wednesday, goodbye Ms Janssens. Have a nice day!"
+        }
+      ]
+    },
+    {
+      "id": "nl-03-dB",
+      "title": "Problemen met Teams",
+      "lines": [
+        {
+          "speaker": "Sofie",
+          "text": "Goeiemorgen allemaal. Horen jullie me goed? De verbinding is vandaag niet zo goed.",
+          "en": "Good morning, everyone. Can you all hear me well? The connection isn't very good today."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Ik hoor je goed, Sofie, maar je beeld blijft soms hangen.",
+          "en": "I can hear you well, Sofie, but your picture sometimes freezes."
+        },
+        {
+          "speaker": "Sofie",
+          "text": "Dat komt door mijn wifi. Tom, je micro staat nog uit, we horen je niet.",
+          "en": "That's my wifi. Tom, your mic is still off, we can't hear you."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Sorry! Horen jullie me nu? Ik viel net even weg.",
+          "en": "Sorry! Can you hear me now? I cut out for a moment."
+        },
+        {
+          "speaker": "Sofie",
+          "text": "Ja, nu wel. Ik deel even mijn scherm, dan kunnen jullie meekijken.",
+          "en": "Yes, now we can. I'll share my screen, then you can all follow along."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Ik zie nog niets. Kan je de link nog eens in de chat zetten?",
+          "en": "I can't see anything yet. Can you put the link in the chat again?"
+        },
+        {
+          "speaker": "Sofie",
+          "text": "Gedaan. Zien jullie de nieuwe planning nu op het scherm?",
+          "en": "Done. Can you see the new schedule on the screen now?"
+        },
+        {
+          "speaker": "Amir",
+          "text": "Ja, nu zie ik alles. Ik heb maar een halfuur, want ik heb om elf uur een afspraak.",
+          "en": "Yes, now I can see everything. I only have half an hour, because I have an appointment at eleven."
+        },
+        {
+          "speaker": "Sofie",
+          "text": "Geen probleem, we doen het snel. Het belangrijkste eerst.",
+          "en": "No problem, we'll be quick. The most important thing first."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Sorry, je viel even weg. Kan je dat laatste herhalen?",
+          "en": "Sorry, you cut out for a moment. Can you repeat that last bit?"
+        },
+        {
+          "speaker": "Sofie",
+          "text": "Ik zei: we moeten de planning tegen vrijdag afwerken.",
+          "en": "I said: we have to finish the schedule by Friday."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Oké. Als ik nog vragen heb, bel ik je donderdag even.",
+          "en": "Okay. If I have any more questions, I'll give you a call on Thursday."
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "nl-03-s1",
+      "prompt": "Bel een collega om een afspraak te maken voor volgende week: stel twee momenten voor, reageer op het antwoord en bevestig. (Call a colleague to make an appointment for next week: suggest two times, react to the answer and confirm.)",
+      "frames": [
+        "Dag …, met … . Heb je even tijd?",
+        "Kunnen we volgende week afspreken?",
+        "Past het voor jou in de voormiddag of in de namiddag?",
+        "Goed, dan zien we elkaar op … om …"
+      ],
+      "model": "Dag Lien, met Amir. Heb je even tijd? Ik wil graag een afspraak maken over het nieuwe project. Kunnen we volgende week afspreken? Past het voor jou in de voormiddag of in de namiddag? Ah, dinsdag kan je niet, maar woensdag past wel? Goed. Zullen we om tien uur afspreken, in zaal twee? Ik stuur je straks een uitnodiging voor Teams, dan staat het in je agenda. Goed, dan zien we elkaar op woensdag om tien uur. Tot dan!",
+      "seconds": 90
+    },
+    {
+      "id": "nl-03-s2",
+      "prompt": "Je moet een afspraak verplaatsen. Verontschuldig je, geef een reden met ‘want’ en stel een nieuw moment voor. (You have to move an appointment. Apologise, give a reason with ‘want’ and suggest a new time.)",
+      "frames": [
+        "Het spijt me, maar ik moet onze afspraak verplaatsen.",
+        "…, want …",
+        "Kan je misschien op … om …?",
+        "Laat je me iets weten?"
+      ],
+      "model": "Hoi Tom, met Amir. Het spijt me, maar ik moet onze afspraak van woensdag verplaatsen, want er is iets tussengekomen. Een klant heeft een probleem met een levering, en dat moet ik eerst oplossen. Kan je misschien op donderdag om tien uur? Of past het voor jou beter in de namiddag? Dan kan ik ook om twee uur. Nogmaals sorry voor de verandering. Laat je me iets weten? Dan stuur ik je een nieuwe uitnodiging.",
+      "seconds": 90
+    },
+    {
+      "id": "nl-03-s3",
+      "prompt": "Spreek een voicemail in: wie je bent, waarom je belt, wanneer ze je kunnen terugbellen en hoe. (Leave a voicemail: who you are, why you are calling, when they can call you back and how.)",
+      "frames": [
+        "Goeiedag, u spreekt met …",
+        "Ik bel over …",
+        "U kan mij terugbellen tussen … en …",
+        "Mijn nummer is …"
+      ],
+      "model": "Goeiedag, u spreekt met Amir van de afdeling logistiek. Ik bel over de levering van volgende week, want ik heb een vraag over de datum. Kan de levering misschien een dag vroeger komen, op dinsdag in plaats van op woensdag? U kan mij terugbellen tussen negen en vijf uur. Mijn nummer is nul vier negen, één twee drie, vier vijf zes. Als ik niet opneem, mag u ook een mail sturen. Alvast bedankt, en nog een fijne dag.",
+      "seconds": 90
+    },
+    {
+      "id": "nl-03-s4",
+      "prompt": "Start een Teams-overleg: check of iedereen je hoort, deel je scherm en leg uit wat jullie vandaag gaan doen. (Start a Teams meeting: check that everyone can hear you, share your screen and explain what you will do today.)",
+      "frames": [
+        "Goeiemorgen allemaal, horen jullie me goed?",
+        "Ik deel even mijn scherm.",
+        "Vandaag moeten we …",
+        "Eerst …, daarna …"
+      ],
+      "model": "Goeiemorgen allemaal, horen jullie me goed? Tom, je micro staat nog uit, we horen je niet. Ah, nu wel. Ik deel even mijn scherm, dan kunnen jullie meekijken. Zien jullie de planning? Vandaag moeten we drie dingen bespreken: de leveringen van deze week, de nieuwe klant en de vakanties. Eerst kijken we naar de leveringen, daarna bespreken we de nieuwe klant. Ik heb maar een halfuur, dus laten we beginnen.",
+      "seconds": 90
+    },
+    {
+      "id": "nl-03-s5",
+      "prompt": "Vertel wat je deze week moet, kan, wil en mag doen op het werk of aan de universiteit. Gebruik elk werkwoord minstens één keer. (This recording is saved in your speaking diary.)",
+      "frames": [
+        "Deze week moet ik …",
+        "Ik kan …, maar …",
+        "Ik wil graag …",
+        "Op het werk mag ik …"
+      ],
+      "model": "Deze week moet ik veel doen. Op het werk moet ik de nieuwe planning afwerken tegen vrijdag, en ik moet elke dag klanten bellen. Ik kan al goed telefoneren in het Nederlands, maar soms moet ik nog vragen om te herhalen. Aan de universiteit moet ik een verslag schrijven. Ik wil graag meer oefenen met spreken, dus ik wil deze week een collega in het Nederlands bellen. Op het werk mag ik op vrijdag thuiswerken. Dat vind ik fijn, want dan kan ik ’s avonds studeren.",
+      "seconds": 90
+    }
+  ],
+  "grammar": {
+    "id": "modals",
+    "title": "Modal verbs: kunnen, moeten, willen, mogen",
+    "explain": "Kunnen (can), moeten (must, have to), willen (want) and mogen (may, be allowed to) are modal verbs. The modal is the verb in place 2 (or the first word in a yes/no question). The other verb goes to the very end, as an infinitive: Ik kan morgen niet komen. Kan jij je scherm delen? Forms: ik kan / moet / wil / mag — jij kan (kunt) / moet / wil (wilt) / mag.",
+    "fa": "kunnen (توانستن)، moeten (باید)، willen (خواستن) و mogen (اجازه داشتن) فعل‌های کمکی‌اند. در فارسی دو فعل کنار هم می‌آیند («باید بروم»)، ولی در هلندی جدا می‌شوند: فعل کمکی در جای دوم و فعل اصلی (مصدر) آخر جمله: Ik moet morgen naar Brussel gaan.",
+    "items": [
+      {
+        "prompt": "(ik / morgen niet naar het overleg / kunnen / komen)",
+        "answer": "Ik kan morgen niet naar het overleg komen."
+      },
+      {
+        "prompt": "(jij / de klant voor drie uur / moeten / terugbellen)",
+        "answer": "Jij moet de klant voor drie uur terugbellen."
+      },
+      {
+        "prompt": "(wij / de afspraak naar donderdag / willen / verplaatsen)",
+        "answer": "Wij willen de afspraak naar donderdag verplaatsen."
+      },
+      {
+        "prompt": "Vraag: (ik / u straks / mogen / terugbellen)",
+        "answer": "Mag ik u straks terugbellen?"
+      },
+      {
+        "prompt": "Vraag: (jij / je scherm even / kunnen / delen)",
+        "answer": "Kan jij je scherm even delen?"
+      },
+      {
+        "prompt": "(zij / vandaag thuis / moeten / werken)",
+        "answer": "Zij moet vandaag thuis werken."
+      },
+      {
+        "prompt": "Vraag: (wij / het overleg online / mogen / doen)",
+        "answer": "Mogen wij het overleg online doen?"
+      },
+      {
+        "prompt": "(ik / eerst in mijn agenda / moeten / kijken)",
+        "answer": "Ik moet eerst in mijn agenda kijken."
+      },
+      {
+        "prompt": "Na de middag … (ik / de klant / kunnen / bellen)",
+        "answer": "Na de middag kan ik de klant bellen."
+      },
+      {
+        "prompt": "Volgende week … (wij / een nieuwe planning / moeten / maken)",
+        "answer": "Volgende week moeten wij een nieuwe planning maken."
+      },
+      {
+        "prompt": "Vraag: (u / een boodschap / willen / achterlaten)",
+        "answer": "Wilt u een boodschap achterlaten?"
+      },
+      {
+        "prompt": "(je / hier niet / mogen / parkeren)",
+        "answer": "Je mag hier niet parkeren."
+      },
+      {
+        "prompt": "Morgen … (Tom / de vergadering / willen / leiden)",
+        "answer": "Morgen wil Tom de vergadering leiden."
+      },
+      {
+        "prompt": "Vraag: (wij / om tien uur / kunnen / afspreken)",
+        "answer": "Kunnen wij om tien uur afspreken?"
+      },
+      {
+        "prompt": "Daarom … (ik / de afspraak / moeten / verplaatsen)",
+        "answer": "Daarom moet ik de afspraak verplaatsen."
+      }
+    ]
+  },
+  "limburg": [
+    {
+      "standard": "Kan je me horen?",
+      "everyday": "Kunt ge mij horen?",
+      "note": "The gij-system: ‘kunt ge’ = kan je. In everyday Flemish you hear ‘ge/gij’ much more than ‘je/jij’."
+    },
+    {
+      "standard": "Wacht even, ik zoek dat op.",
+      "everyday": "Waggeffe, ik zoek da op.",
+      "note": "‘Waggeffe’ = wacht even (Limburg), and ‘da’ = dat."
+    },
+    {
+      "standard": "Heb je mijn mail gekregen?",
+      "everyday": "'Ebde mijn mail gekregen?",
+      "note": "’Ebde = hebt gij / heb je: the gij-system with a silent h, like ’Ebde gij tijd? in week 1."
+    },
+    {
+      "standard": "Straks belt hij je terug.",
+      "everyday": "Straks belt hem u terug.",
+      "note": "After the verb, ‘hij’ often becomes ‘hem’. And in the gij-system, ‘you’ as an object is ‘u’, even between colleagues."
+    },
+    {
+      "standard": "Hou je goed!",
+      "everyday": "Haddich!",
+      "note": "Limburg dialect for ‘take care / goodbye’, mostly from older speakers."
+    },
+    {
+      "standard": "Hoe gaat het?",
+      "everyday": "Wa make?",
+      "note": "From the citétaal of Genk, the mixed language of the old mining districts: ‘How are you?’"
+    },
+    {
+      "standard": "Hij hangt altijd aan de telefoon.",
+      "everyday": "Hij hangt altij aan de telefoon.",
+      "note": "The final d drops: altijd → altij."
+    }
+  ],
+  "roleplay": {
+    "title": "Een afspraak aan de telefoon",
+    "prompt": "You are Els Janssens, a contact person at a supplier in Limburg, Belgium. Speak Belgian Dutch (Flemish) at A2+ level: normal everyday sentences, a little slower than normal. I phone you to make an appointment about a new order. Answer the phone, ask why I am calling, and offer times using ‘in de voormiddag’ and ‘in de namiddag’. Halfway through, say that something has come up and that you have to move the appointment; let me propose a new time. At the end, ask me to confirm the day and the hour. Use the polite ‘u’ with me. Ask one question at a time and wait for my answer. If I answer in English, kindly ask me to try in Dutch. Do not correct me during the conversation. After about 10 exchanges, stop and give me, in English: (1) three corrections of real mistakes — quote my sentence and give a better version; (2) two things I said well; (3) one useful Flemish phrase for next time. Do not comment on my pronunciation unless you could not understand a word. Start now with: ‘Goeiemiddag, met Els Janssens.’"
+  },
+  "mission": "Make one real phone or Teams call in Dutch (an appointment, a question at work, the doctor's assistant), or leave one voicemail in Dutch."
+}
