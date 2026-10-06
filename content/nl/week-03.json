@@ -403,7 +403,7 @@
         "Ik wil graag …",
         "Op het werk mag ik …"
       ],
-      "model": "Deze week moet ik veel doen. Op het werk moet ik de nieuwe planning afwerken tegen vrijdag, en ik moet elke dag klanten bellen. Ik kan al goed telefoneren in het Nederlands, maar soms moet ik nog vragen om te herhalen. Aan de universiteit moet ik een verslag schrijven. Ik wil graag meer oefenen met spreken, dus ik wil deze week een collega in het Nederlands bellen. Op het werk mag ik op vrijdag thuiswerken. Dat vind ik fijn, want dan kan ik ’s avonds studeren.",
+      "model": "Deze week moet ik veel doen. Op het werk moet ik de nieuwe planning tegen vrijdag afwerken, en ik moet elke dag klanten bellen. Ik kan al goed telefoneren in het Nederlands, maar soms moet ik nog vragen om te herhalen. Aan de universiteit moet ik een verslag schrijven. Ik wil graag meer oefenen met spreken, dus ik wil deze week een collega in het Nederlands bellen. Op het werk mag ik op vrijdag thuiswerken. Dat vind ik fijn, want dan kan ik ’s avonds studeren.",
       "seconds": 90
     }
   ],
@@ -499,7 +499,7 @@
     {
       "standard": "Hou je goed!",
       "everyday": "Haddich!",
-      "note": "Limburg dialect for ‘take care / goodbye’, mostly from older speakers."
+      "note": "Some Limburg dialect speakers say this for ‘take care / goodbye’."
     },
     {
       "standard": "Hoe gaat het?",

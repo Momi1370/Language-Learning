@@ -131,11 +131,13 @@ try {
   })()`);
   await check('index.html?again#/today', 'today', 'Finish session ✓');
   await b.evaluate(`(() => { const btn = [...document.querySelectorAll('button')].find((x) => x.textContent.includes('Finish session')); btn.click(); btn.click(); })()`);
-  await b.waitFor(`/coming soon|Week 2 · Session 1/.test(document.querySelector('main').innerText)`, 5000);
+  // Finishing week 1 must land on week 2 when it exists, otherwise on "coming soon".
+  const expectNext = written.includes(2) ? 'Week 2 · Session 1' : 'coming soon';
+  const landed = await b.waitFor(`document.querySelector('main').innerText.includes(${JSON.stringify(expectNext)})`, 5000);
   const after = await b.evaluate(`(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); return s.position.week + '-' + s.position.session + ' history ' + s.history.length; })()`);
-  const once = after === '2-1 history 1';
+  const once = landed && after === '2-1 history 1';
   if (!once) failed++;
-  console.log(`${once ? '✓' : '✗'} double tap on Finish moves on once (${after})`);
+  console.log(`${once ? '✓' : '✗'} double tap on Finish moves on once and lands on "${expectNext}" (${after})`);
 } finally {
   await b.close();
   server.close();
