@@ -96,6 +96,8 @@ export function recorder(ctx, { onStart, onRecorded } = {}) {
   const api = { blob: null, recording: false, toggle };
   const btn = button('🎙 Record', toggle, { class: 'primary' });
   async function toggle() {
+    // Busy starting or stopping: ignore taps and the speaking timer until it is done.
+    if (btn.disabled) return;
     if (!active) {
       // Ignore taps while the microphone is opening, or a second recording would leak.
       btn.disabled = true;
@@ -130,12 +132,23 @@ export function recorder(ctx, { onStart, onRecorded } = {}) {
       onStart?.();
     } else {
       live.delete(stopper);
+      // Stopping can take a moment on iPhone; ignore taps until it is done.
+      btn.disabled = true;
+      btn.textContent = '■ Stopping…';
+      api.recording = false;
       const blob = await active.stop();
       active = null;
-      api.recording = false;
+      btn.disabled = false;
+      btn.classList.remove('recording');
+      if (!blob.size) {
+        api.blob = null;
+        btn.textContent = '🎙 Record';
+        status.textContent = 'Nothing was recorded. Try again.';
+        audio.hidden = true;
+        return;
+      }
       api.blob = blob;
       btn.textContent = '🎙 Record again';
-      btn.classList.remove('recording');
       status.textContent = '';
       if (url) URL.revokeObjectURL(url);
       url = URL.createObjectURL(blob);

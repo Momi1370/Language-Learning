@@ -2,6 +2,7 @@ import { clear, mount, h, button } from './dom.js';
 import { voicesFor, speak } from '../speech.js';
 import { buildExport, parseImport, defaultState } from '../store.js';
 import { localDate } from '../session.js';
+import { audioCheck } from './audiocheck.js';
 
 export function render(ctx, root) {
   const s = ctx.state.settings;
@@ -20,6 +21,7 @@ export function render(ctx, root) {
       h('select', { onChange: (e) => set({ extraWords: Number(e.target.value) }) },
         [0, 3, 5, 10].map((n) => h('option', { value: n, selected: n === s.extraWords }, String(n))))),
     h('p', { class: 'hint' }, 'Extra words come from a list of 1,946 common Dutch words (from the open-source app “woorden”). 0 = only the course chunks.'),
+    audioCheck(ctx),
     h('h2', {}, 'Backup'),
     h('p', { class: 'hint' }, 'Your progress and recordings stay on this device; nothing is sent to a server. Use a backup to move to another device.'),
     backup(ctx),

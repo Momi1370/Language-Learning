@@ -65,21 +65,32 @@ export function canRecord() {
   return Boolean(globalThis.navigator?.mediaDevices?.getUserMedia && globalThis.MediaRecorder);
 }
 
-export async function startRecording() {
-  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-  const type = ['audio/mp4', 'audio/webm;codecs=opus', 'audio/webm'].find((t) => MediaRecorder.isTypeSupported?.(t)) ?? '';
-  const recorder = new MediaRecorder(stream, type ? { mimeType: type } : undefined);
+// iPhone sometimes never sends MediaRecorder's stop event, or stops the recorder by itself.
+// So stopping never waits for that event alone: after stopWaitMs the microphone is released
+// and the recording is returned anyway, built from the data that arrived every second.
+export async function startRecording({ media = globalThis.navigator?.mediaDevices, Recorder = globalThis.MediaRecorder, stopWaitMs = 1500 } = {}) {
+  const stream = await media.getUserMedia({ audio: true });
+  const type = ['audio/mp4', 'audio/webm;codecs=opus', 'audio/webm'].find((t) => Recorder.isTypeSupported?.(t)) ?? '';
+  const recorder = new Recorder(stream, type ? { mimeType: type } : undefined);
   const chunks = [];
   recorder.ondataavailable = (e) => { if (e.data.size) chunks.push(e.data); };
-  recorder.start();
+  recorder.start(1000);
+  let stopped = null;
   return {
-    stop: () => new Promise((resolve) => {
-      recorder.onstop = () => {
-        stream.getTracks().forEach((t) => t.stop());
-        resolve(new Blob(chunks, { type: recorder.mimeType || type || 'audio/webm' }));
-      };
-      recorder.stop();
-    }),
+    stop() {
+      stopped ??= new Promise((resolve) => {
+        const finish = () => {
+          clearTimeout(timer);
+          stream.getTracks().forEach((t) => t.stop());
+          resolve(new Blob(chunks, { type: recorder.mimeType || type || 'audio/webm' }));
+        };
+        const timer = setTimeout(finish, stopWaitMs);
+        recorder.onstop = finish;
+        if (recorder.state === 'inactive') return finish();
+        try { recorder.stop(); } catch { finish(); }
+      });
+      return stopped;
+    },
   };
 }
 
