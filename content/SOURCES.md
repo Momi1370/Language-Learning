@@ -20,5 +20,12 @@ Every `everyday` form in the Limburg ear must appear in this file with a source.
 | Da weet ekik wel. (ekik) | [Vlaanderen.be, Tussentaal – kenmerken](https://www.vlaanderen.be/taaladvies/taaladviezen/tussentaal-kenmerken) |
 | Enne? (hoe gaat het / uitroep / verzoek om uitleg) | [Goesting in Taal, informele spreektaal in Limburg](https://www.goestingintaal.be/nl/lokale-accenten-en-dialecten-alles-wat-je-moet-weten-over-de-informele-spreektaal-in-limburg/) |
 | Allee, we beginnen eraan. (filler allee) | [Vlaanderen.be, Tussentaal – kenmerken](https://www.vlaanderen.be/taaladvies/taaladviezen/tussentaal-kenmerken) |
+| Kunt ge mij horen? (gij-system) | [Vlaanderen.be, Tussentaal – kenmerken](https://www.vlaanderen.be/taaladvies/taaladviezen/tussentaal-kenmerken) |
+| Waggeffe, ik zoek da op. (waggeffe; dropped final t) | [Goesting in Taal, informele spreektaal in Limburg](https://www.goestingintaal.be/nl/lokale-accenten-en-dialecten-alles-wat-je-moet-weten-over-de-informele-spreektaal-in-limburg/); [Vlaanderen.be, Tussentaal – kenmerken](https://www.vlaanderen.be/taaladvies/taaladviezen/tussentaal-kenmerken) |
+| 'Ebde mijn mail gekregen? (gij-system; silent h) | [Vlaanderen.be, Tussentaal – kenmerken](https://www.vlaanderen.be/taaladvies/taaladviezen/tussentaal-kenmerken) |
+| Straks belt hem u terug. (hem as subject after the verb; u as object in the gij-system) | [Vlaanderen.be, Tussentaal – kenmerken](https://www.vlaanderen.be/taaladvies/taaladviezen/tussentaal-kenmerken) |
+| Haddich! (hou je goed; Limburg dialect) | [Goesting in Taal, informele spreektaal in Limburg](https://www.goestingintaal.be/nl/lokale-accenten-en-dialecten-alles-wat-je-moet-weten-over-de-informele-spreektaal-in-limburg/) |
+| Wa make? (citétaal: hoe gaat het?) | [Goesting in Taal, informele spreektaal in Limburg](https://www.goestingintaal.be/nl/lokale-accenten-en-dialecten-alles-wat-je-moet-weten-over-de-informele-spreektaal-in-limburg/) |
+| Hij hangt altij aan de telefoon. (dropped final d) | [Vlaanderen.be, Tussentaal – kenmerken](https://www.vlaanderen.be/taaladvies/taaladviezen/tussentaal-kenmerken) |
 
 Not used until a source is found: *efkes*, *seffens*, *salukes*.

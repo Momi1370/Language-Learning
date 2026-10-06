@@ -34,7 +34,9 @@ const SHELL = [
   'content/nl/week-01.json',
   'content/en/week-01.json',
   'content/nl/week-02.json',
-  'content/en/week-02.json'
+  'content/en/week-02.json',
+  'content/nl/week-03.json',
+  'content/en/week-03.json'
 ];
 
 // GitHub Pages lets browsers reuse a file for 10 minutes without asking. So the offline copy is

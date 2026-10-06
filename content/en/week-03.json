@@ -1,0 +1,195 @@
+{
+  "lang": "en",
+  "week": 3,
+  "theme": "Seminar: agreeing, disagreeing, building on others",
+  "themeEn": "Seminar: agreeing, disagreeing, building on others",
+  "sound": {
+    "id": "en-w-v",
+    "title": "west or vest? (/w/ – /v/)",
+    "explain": "English w and v are different sounds: ‘west’ is a direction, a ‘vest’ is a piece of clothing; ‘wine’ – ‘vine’, ‘worse’ – ‘verse’. For v, the top teeth touch the bottom lip. For w, the teeth touch nothing: the lips are round and then open quickly.",
+    "anchor": "Farsi «و» is the English v (top teeth on the lip). For w, no teeth: round your lips as for «او» and open them quickly — «او-ِست» becomes west.",
+    "fa": "«و» فارسی همان v انگلیسی است (دندان روی لب). برای w دندان‌ها به لب نمی‌خورند: لب‌ها را مثل «او» گرد کن و سریع باز کن. west (غرب) و vest (جلیقه) فقط با همین صدا فرق دارند.",
+    "pairs": [
+      [
+        "west",
+        "vest"
+      ],
+      [
+        "wine",
+        "vine"
+      ],
+      [
+        "wet",
+        "vet"
+      ],
+      [
+        "wiper",
+        "viper"
+      ],
+      [
+        "worse",
+        "verse"
+      ],
+      [
+        "wail",
+        "veil"
+      ],
+      [
+        "while",
+        "vile"
+      ]
+    ]
+  },
+  "chunks": [
+    {
+      "id": "en-03-001",
+      "text": "I'd like to build on what … said.",
+      "en": "Add to a classmate's point. Use he/she correctly for the person you name."
+    },
+    {
+      "id": "en-03-002",
+      "text": "That's a good point, but I see it a bit differently.",
+      "en": "Disagree politely: say something positive first."
+    },
+    {
+      "id": "en-03-003",
+      "text": "I partly agree, but I'm not sure that …",
+      "en": "Agree with one part, question another."
+    },
+    {
+      "id": "en-03-004",
+      "text": "I see where you're coming from; however, …",
+      "en": "Show you understand the other view before you disagree."
+    },
+    {
+      "id": "en-03-005",
+      "text": "To add to that, …",
+      "en": "Add one more argument on the same side."
+    },
+    {
+      "id": "en-03-006",
+      "text": "Could I come in here for a second?",
+      "en": "Ask to join the discussion without interrupting rudely."
+    },
+    {
+      "id": "en-03-007",
+      "text": "Going back to what … mentioned earlier, …",
+      "en": "Link back to an earlier point in the discussion."
+    },
+    {
+      "id": "en-03-008",
+      "text": "I'm not entirely convinced, because …",
+      "en": "A soft way to say you don't agree, with a reason.",
+      "stress": [
+        "con-VINCED"
+      ]
+    },
+    {
+      "id": "en-03-009",
+      "text": "That's exactly what I was thinking.",
+      "en": "Strong agreement."
+    },
+    {
+      "id": "en-03-010",
+      "text": "Can I just finish my point?",
+      "en": "Politely keep your turn when someone interrupts."
+    },
+    {
+      "id": "en-03-011",
+      "text": "What do the rest of you think?",
+      "en": "Invite the others to speak."
+    },
+    {
+      "id": "en-03-012",
+      "text": "Let me play devil's advocate for a moment.",
+      "en": "Argue the other side on purpose, to test an idea.",
+      "stress": [
+        "AD-vo-cate"
+      ],
+      "fa": "devil's advocate یعنی عمداً از طرف مقابل دفاع کردن تا بحث بهتر شود."
+    },
+    {
+      "id": "en-03-013",
+      "text": "On the other hand, …",
+      "en": "Introduce the opposite side."
+    },
+    {
+      "id": "en-03-014",
+      "text": "I think we're basically saying the same thing.",
+      "en": "Show that two views are closer than they seem."
+    },
+    {
+      "id": "en-03-015",
+      "text": "That's an interesting way of looking at it.",
+      "en": "React to a new idea in a polite, neutral way."
+    },
+    {
+      "id": "en-03-016",
+      "text": "Correct me if I'm wrong, but …",
+      "en": "Make a point carefully when you're not 100% sure."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "en-03-s1",
+      "prompt": "Agree with this statement and add one reason and one example: ‘Group work prepares students for real jobs.’",
+      "frames": [
+        "I completely agree, because …",
+        "To add to that, …",
+        "For example, …"
+      ],
+      "model": "I completely agree that group work prepares students for real jobs, because in almost every company you have to work in teams. You have to plan together, divide tasks and deal with different opinions. To add to that, group work teaches you to communicate clearly, which is something you can't learn from a textbook. For example, in my bachelor's we had a project with a real company, and we had to present our results to their managers. That was stressful, but it was exactly what I do at work now.",
+      "seconds": 90
+    },
+    {
+      "id": "en-03-s2",
+      "prompt": "Disagree politely with this statement and give two reasons: ‘Online lectures are just as good as classes on campus.’",
+      "frames": [
+        "I see where you're coming from; however, …",
+        "I'm not entirely convinced, because …",
+        "On the other hand, …"
+      ],
+      "model": "I see where you're coming from: online lectures are flexible, and you can watch them again when you don't understand something. However, I'm not entirely convinced that they are just as good. First, on campus you can ask questions immediately, and you can see how other students react. Second, it's much easier to stay focused in a lecture hall than at home, where your phone is always close. On the other hand, I think recorded lectures are a great extra. So for me, the best option is a mix of both.",
+      "seconds": 90
+    },
+    {
+      "id": "en-03-s3",
+      "prompt": "A classmate said: ‘Data is more important than experience in modern companies.’ Build on her point and connect it to your field. Use she/her for her every time.",
+      "frames": [
+        "I'd like to build on what she said.",
+        "Going back to her point about …",
+        "In my field, …"
+      ],
+      "model": "I'd like to build on what she said. She argued that data is more important than experience in modern companies, and I partly agree with her. In my field, supply chain management, data helps us predict demand and plan deliveries much better than before. However, going back to her point about experience, I think data alone is not enough. An experienced planner knows when the data is wrong, for example when a big client suddenly changes an order. So I would say that data and experience work best together.",
+      "seconds": 90
+    },
+    {
+      "id": "en-03-s4",
+      "prompt": "In a seminar discussion, ask to come in, make your point, finish it when someone interrupts, and invite the others to speak.",
+      "frames": [
+        "Could I come in here for a second?",
+        "Can I just finish my point?",
+        "What do the rest of you think?"
+      ],
+      "model": "Could I come in here for a second? I think we're forgetting how much time projects take. Projects take much more time than exams, and many students also have a job. … Sorry, can I just finish my point? What I mean is that projects are fairer in some ways, but they're not always realistic for everyone. Correct me if I'm wrong, but most programmes already have a lot of group projects. So maybe a mix of exams and projects is better. What do the rest of you think?",
+      "seconds": 90
+    },
+    {
+      "id": "en-03-s5",
+      "prompt": "Explain one idea from your own course this week in about 90 seconds, and say one point in the readings you partly disagree with, and why. (This recording is saved in your speaking diary.)",
+      "frames": [
+        "This week we studied …",
+        "The main idea is …",
+        "I partly agree, but …",
+        "That's why I think …"
+      ],
+      "model": "This week we studied just-in-time production. The main idea is that a factory orders parts only when it needs them, so it doesn't have to store large stocks. For example, a car factory receives the seats a few hours before they are built into the cars. This saves space and money. The reading says that just-in-time is always more efficient. I partly agree, but I'm not sure that it works in every situation. During the pandemic, many factories stopped because one small part was missing. That's why I think companies also need a small safety stock.",
+      "seconds": 90
+    }
+  ],
+  "roleplay": {
+    "title": "Seminar discussion",
+    "prompt": "You are leading a seminar discussion with me and two other master's students at a Belgian university, Sara and Tom. Play both of them and always say who is speaking (Sara: … / Tom: …). The topic is: ‘Should universities replace exams with projects?’ Sara agrees with the statement; Tom disagrees. Speak natural English at B2 level. Sometimes interrupt me, so that I have to ask to finish my point. Ask for my opinion and react to it: agree, disagree or build on it. Do not correct me during the conversation. After about 10 exchanges, stop and give me: (1) three corrections of real mistakes — quote my sentence and give a better version; pay special attention to he/she when I talk about Sara and Tom, and to a/the; (2) two phrases I used well for agreeing, disagreeing or building on others; (3) one useful seminar phrase for next time. Do not comment on my pronunciation unless you could not understand a word. Start now with: ‘Sara: I'll start. I honestly think projects show what students can do much better than exams.’"
+  },
+  "mission": "In one class or group meeting, use one phrase to build on someone's point or to disagree politely."
+}
