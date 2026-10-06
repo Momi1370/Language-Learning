@@ -142,7 +142,7 @@
       "text": "Kunnen we daar na de vergadering even over praten?",
       "en": "Can we talk about that briefly after the meeting?",
       "article": null,
-      "fa": "daar … over یعنی «درباره‌ی آن» و در جمله دو تکه می‌شود: daar در وسط، over آخر."
+      "fa": "daar … over یعنی «درباره‌ی آن» و در جمله دو تکه می‌شود: daar در وسط و over درست قبل از فعل آخر (over praten)."
     },
     {
       "id": "nl-02-017",
@@ -415,11 +415,11 @@
         "answer": "Komt de klant donderdag ook naar het overleg?"
       },
       {
-        "prompt": "Vraag waarom jullie het plan nu nog veranderen. (waarom / veranderen)",
+        "prompt": "Vraag waarom we het plan nu nog veranderen. (waarom / veranderen)",
         "answer": "Waarom veranderen wij het plan nu nog?"
       },
       {
-        "prompt": "Vraag hoeveel tijd jullie nog hebben voor die taak. (hoeveel tijd / hebben)",
+        "prompt": "Vraag hoeveel tijd we nog hebben voor die taak. (hoeveel tijd / hebben)",
         "answer": "Hoeveel tijd hebben wij nog voor die taak?"
       },
       {

@@ -151,3 +151,21 @@ export function findRepeats(weeks) {
   }
   return errors;
 }
+
+// A noun card teaches de/het by its colour: its article must match its text and the word list (keyed by the bare noun).
+export function articleErrors(chunks, words) {
+  const listed = new Map();
+  for (const w of words ?? []) {
+    const m = /^(de|het) (.+)$/.exec(w.text ?? '');
+    if (m) listed.set(m[2], m[1]);
+  }
+  const errors = [];
+  for (const c of chunks ?? []) {
+    const noun = /^(de|het) ([\p{L}-]+)$/u.exec(c.text ?? '');
+    if (!noun) continue;
+    if (c.article !== noun[1]) errors.push(`${c.id} "${c.text}" needs article "${noun[1]}"`);
+    const article = listed.get(noun[2]);
+    if (article && article !== noun[1]) errors.push(`${c.id} "${c.text}": the word list says "${article} ${noun[2]}"`);
+  }
+  return errors;
+}

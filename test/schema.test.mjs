@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { validateWeek, validateWords, checkLevel, countWords, findRepeats } from '../tools/schema.mjs';
+import { validateWeek, validateWords, checkLevel, countWords, findRepeats, articleErrors } from '../tools/schema.mjs';
 import { validNl, validEn, levelNl } from './fixtures.mjs';
 
 const nl = { lang: 'nl', week: 1 };
@@ -135,4 +135,20 @@ test('the same text in a Dutch and an English week is not a repeat', () => {
   const e = validEn();
   e.chunks[0].text = a.chunks[0].text;
   assert.deepEqual(findRepeats([a, e]), []);
+});
+
+test('a noun card with the wrong article for its noun is reported, using the word list', () => {
+  const chunks = [{ id: 'nl-01-001', text: 'de weer', article: 'de' }];
+  const words = [{ text: 'het weer', article: 'het' }];
+  assert.deepEqual(articleErrors(chunks, words), ['nl-01-001 "de weer": the word list says "het weer"']);
+});
+
+test('a noun card whose article field disagrees with its text is reported', () => {
+  const chunks = [{ id: 'nl-01-002', text: 'het verslag', article: 'de' }];
+  assert.ok(has(articleErrors(chunks, []), 'needs article "het"'));
+});
+
+test('sentences and nouns missing from the word list are not checked against it', () => {
+  const chunks = [{ id: 'nl-01-003', text: 'Het weer is slecht.', article: null }, { id: 'nl-01-004', text: 'de verbinding', article: 'de' }];
+  assert.deepEqual(articleErrors(chunks, [{ text: 'het weer', article: 'het' }]), []);
 });

@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
-import { validateWeek, validateWords, checkLevel, findRepeats } from '../tools/schema.mjs';
+import { validateWeek, validateWords, checkLevel, findRepeats, articleErrors } from '../tools/schema.mjs';
 
 const read = async (p) => JSON.parse(await readFile(new URL(`../content/${p}`, import.meta.url), 'utf8'));
 const weekFiles = async (lang) =>
@@ -32,15 +32,8 @@ test('every Dutch week meets the A2+ level floor', async () => {
 });
 
 test('a noun card has the article it shows, matching the word list', async () => {
-  const words = Object.fromEntries((await read('words.json')).map((w) => [w.text, w.article]));
-  for (const f of await weekFiles('nl')) {
-    for (const c of (await read(`nl/${f}`)).chunks) {
-      const noun = c.text.match(/^(de|het) [\p{L}-]+$/u);
-      if (!noun) continue;
-      assert.equal(c.article, noun[1], `${c.id} "${c.text}" needs article "${noun[1]}"`);
-      if (c.text in words) assert.equal(words[c.text], c.article, `${c.id}: the word list says "${words[c.text]}"`);
-    }
-  }
+  const words = await read('words.json');
+  for (const f of await weekFiles('nl')) assert.deepEqual(articleErrors((await read(`nl/${f}`)).chunks, words), [], f);
 });
 
 test('every Limburg pair shows two different forms', async () => {
@@ -57,4 +50,17 @@ test('no sentence is taught as a card twice', async () => {
   const weeks = [];
   for (const lang of ['nl', 'en']) for (const f of await weekFiles(lang)) weeks.push(await read(`${lang}/${f}`));
   assert.deepEqual(findRepeats(weeks), []);
+});
+
+test('Dutch says ‘deze namiddag’, not ‘vanmiddag’ (in Belgium ‘middag’ is around noon)', async () => {
+  for (const f of await weekFiles('nl')) {
+    const w = await read(`nl/${f}`);
+    const dutch = [
+      ...w.chunks.map((c) => c.text),
+      ...w.dialogues.flatMap((d) => d.lines.map((l) => l.text)),
+      ...w.speaking.flatMap((p) => [p.prompt, p.model, ...p.frames]),
+      ...w.grammar.items.flatMap((it) => [it.prompt, it.answer]),
+    ];
+    for (const t of dutch) assert.doesNotMatch(t, /\bvanmiddag\b/i, `${f}: "${t}"`);
+  }
 });
