@@ -26,7 +26,7 @@ A daily, self-paced course in a web app that makes the learner **confident when 
 | Mother tongue | Farsi (Persian) |
 | Location | Hasselt, Belgium (Limburg) |
 | Context | University student; works in a Dutch-speaking environment |
-| Dutch level | About **A2** (CVO course *Zo Gezegd* 2.1 → 2.2) |
+| Dutch level | About **A2** (CVO course *Zo Gezegd* 2.1 → 2.2). Course Dutch is written at **A2+** (week 1 at A2 felt too easy, 2026-10-06) |
 | English level | About **B1+/B2** (studied collocations, conditionals, reported speech, embedded questions, idioms) |
 | Time | **30–45 min per day**, weekdays |
 | Current Dutch input | Duolingo Dutch, 415-day streak (Netherlands Dutch; mostly reading, tapping and recognition) |
@@ -243,6 +243,8 @@ English weeks use the same shape, with `"lang": "en"`, phrases in `chunks`, no `
 **Minimum per Dutch week:** 25 chunks, 2 dialogues (8–12 lines each), 5 speaking prompts, 15 grammar items, 6 Limburg pairs, 1 role-play, 1 mission, 6 sound pairs.
 **Minimum per English week:** 15 chunks, 5 speaking prompts, 1 role-play, 1 mission, 6 sound pairs.
 
+**Dutch level floor (A2+)**, checked by `checkLevel` in `tools/schema.mjs`: chunks at most 14 words and on average at least 6; at most 3 chunks of 1–2 words (nouns for de/het); at least 6 chunks that join two ideas (dus, maar, omdat, want, als, daarom, wanneer, terwijl, zodat, toen); dialogue lines on average at least 9 words; every speaking task 90 s with a model answer of at least 70 words; grammar answers on average at least 6 words. Dutch role-play prompts ask for A2+.
+
 `fa`, `register` and `stress` are optional. `article` is required (`"de"`, `"het"` or `null`) on Dutch chunks.
 
 ### 5.5 Stored data (on the device only)
@@ -293,7 +295,7 @@ Content rules: Belgian Standard Dutch for speaking practice; informal forms mark
 ## 9. Milestones
 
 1. **App shell + Week 1** (Dutch and English) working from start to end, deployed, so the learner can start.
-2. **Weeks 2–4** + Limburg ear content checked against sources.
+2. **Week 1 Dutch rewritten at A2+**, then **weeks 2–4** + Limburg ear content checked against sources.
 3. **Weeks 5–12.**
 
 The speaking diary (saving + Progress screen) is part of milestone 1, so the week-1 recording is kept.
@@ -310,3 +312,6 @@ Each milestone ends with validator + tests passing and a deploy.
 | 2026-10-05 | Speaking diary saving moved into milestone 1, so the week-1 recording is kept |
 | 2026-10-05 | Farsi hints added (on by default, can be switched off) |
 | 2026-10-05 | Code in `Momi1370/Language-Learning`; repo made public; hosted on GitHub Pages |
+| 2026-10-06 | iPhone Silent mode mutes the browser voice; Audio check tests 4–5 found no web workaround. Accepted: the learner turns Silent off while studying. Possible later fix: pre-made audio files from an open voice |
+| 2026-10-06 | The learner found week 1 Dutch too easy: Dutch moves to A2+ (level floor in §5.4); week 1 Dutch is rewritten before weeks 2–4. English stays at B2 |
+| 2026-10-06 | A Limburg pair must show two different forms; Belgian-vs-Netherlands words go in chunk notes, not identical pairs |

@@ -31,3 +31,15 @@ export function validEn() {
     chunks: rep(15, (i) => ({ id: `en-01-${pad(i)}`, text: `phrase ${i}`, en: `use ${i}` })),
   };
 }
+
+// A Dutch week that meets the A2+ level floor (LEVEL.nl in tools/schema.mjs).
+export function levelNl() {
+  const w = validNl();
+  w.chunks = w.chunks.map((c, i) => ({
+    ...c, text: i < 6 ? `Ik ben moe, maar ik werk nog even ${i}.` : `Ik werk vandaag thuis aan het project ${i}.`,
+  }));
+  for (const d of w.dialogues) d.lines = d.lines.map((l, i) => ({ ...l, text: `Ik heb vandaag een lange vergadering met het hele team ${i}.` }));
+  w.speaking = w.speaking.map((p) => ({ ...p, seconds: 90, model: 'Ik werk hier sinds maandag. '.repeat(15).trim() }));
+  w.grammar.items = w.grammar.items.map((it, i) => ({ ...it, answer: `Vandaag werk ik thuis aan het project ${i}.` }));
+  return w;
+}

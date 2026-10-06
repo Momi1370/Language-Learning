@@ -1,5 +1,5 @@
 import { readFile, readdir } from 'node:fs/promises';
-import { validateWeek, validateWords } from './schema.mjs';
+import { validateWeek, validateWords, checkLevel } from './schema.mjs';
 
 const root = new URL('../content/', import.meta.url);
 let failed = false;
@@ -20,6 +20,7 @@ for (const lang of ['nl', 'en']) {
     try { data = JSON.parse(await readFile(new URL(file, dir), 'utf8')); }
     catch (e) { report(name, [`invalid JSON: ${e.message}`]); continue; }
     const errors = validateWeek(data, { lang, week: Number(file.slice(5, 7)) });
+    errors.push(...checkLevel(data));
     for (const c of data.chunks ?? []) {
       if (seen.has(c.id) && seen.get(c.id) !== name) errors.push(`chunk id ${c.id} is also used in ${seen.get(c.id)}`);
       seen.set(c.id, name);
