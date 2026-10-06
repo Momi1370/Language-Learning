@@ -1,0 +1,505 @@
+{
+  "lang": "nl",
+  "week": 2,
+  "theme": "Vergaderingen volgen en vragen stellen",
+  "themeEn": "Following meetings, asking to repeat or clarify",
+  "sound": {
+    "id": "nl-ui-oe",
+    "title": "ui or oe? (huis – hoes)",
+    "explain": "Dutch ui and oe are two different sounds, and mixing them up changes the word: ‘huis’ is a house, ‘hoes’ is a cover; ‘buik’ is a belly, ‘boek’ is a book. oe is short and round, with the lips pushed forward. ui is a glide: it starts fairly open and ends with rounded lips. It is one of the most typical Dutch sounds, so colleagues notice it.",
+    "anchor": "oe is Farsi «او» (as in «دوست»). ui has no Farsi sound: start with round lips on «اِ» and glide towards a rounded «ای».",
+    "fa": "oe همان «او» فارسی است. ui در فارسی وجود ندارد: لب‌ها را گرد کن، با «اِ» شروع کن و به سمت «ای» با لب گرد برو. huis (خانه) و hoes (روکش) فقط با همین صدا فرق دارند.",
+    "pairs": [
+      [
+        "huis",
+        "hoes"
+      ],
+      [
+        "buik",
+        "boek"
+      ],
+      [
+        "muis",
+        "moes"
+      ],
+      [
+        "tuin",
+        "toen"
+      ],
+      [
+        "duin",
+        "doen"
+      ],
+      [
+        "kuil",
+        "koel"
+      ],
+      [
+        "buil",
+        "boel"
+      ]
+    ]
+  },
+  "chunks": [
+    {
+      "id": "nl-02-001",
+      "text": "Sorry, ik heb dat laatste niet goed verstaan.",
+      "en": "Sorry, I didn't catch that last bit.",
+      "article": null
+    },
+    {
+      "id": "nl-02-002",
+      "text": "Kan je dat nog eens uitleggen, maar dan wat trager?",
+      "en": "Can you explain that again, but a bit more slowly?",
+      "article": null
+    },
+    {
+      "id": "nl-02-003",
+      "text": "Wat bedoel je precies met dat woord?",
+      "en": "What exactly do you mean by that word?",
+      "article": null
+    },
+    {
+      "id": "nl-02-004",
+      "text": "Als ik het goed begrijp, moeten we dat tegen vrijdag afwerken?",
+      "en": "If I understand correctly, we have to finish that by Friday? (tegen vrijdag = by Friday, in Belgium)",
+      "article": null,
+      "fa": "در بلژیک tegen vrijdag یعنی «تا جمعه»، نه «علیه جمعه». afwerken یعنی «تمام کردن»."
+    },
+    {
+      "id": "nl-02-005",
+      "text": "Dus de vergadering is verschoven naar donderdag?",
+      "en": "So the meeting has been moved to Thursday?",
+      "article": null
+    },
+    {
+      "id": "nl-02-006",
+      "text": "Wie maakt vandaag het verslag van het overleg?",
+      "en": "Who is taking the minutes of the meeting today?",
+      "article": null,
+      "fa": "het verslag maken یعنی «صورت‌جلسه نوشتن»."
+    },
+    {
+      "id": "nl-02-007",
+      "text": "Mag ik even iets vragen voor we verdergaan?",
+      "en": "May I ask something before we go on?",
+      "article": null,
+      "fa": "voor اینجا یعنی «قبل از اینکه» و فعل به آخر می‌رود: voor we verdergaan."
+    },
+    {
+      "id": "nl-02-008",
+      "text": "Ik volg het niet helemaal. Kan je een voorbeeld geven?",
+      "en": "I'm not quite following. Can you give an example?",
+      "article": null
+    },
+    {
+      "id": "nl-02-009",
+      "text": "Kan je dat even opschrijven? Dan vergeet ik het niet.",
+      "en": "Could you write that down? Then I won't forget it.",
+      "article": null
+    },
+    {
+      "id": "nl-02-010",
+      "text": "Wat is het volgende punt op de agenda?",
+      "en": "What's the next item on the agenda?",
+      "article": null
+    },
+    {
+      "id": "nl-02-011",
+      "text": "Wanneer is de deadline voor dat project?",
+      "en": "When is the deadline for that project?",
+      "article": null
+    },
+    {
+      "id": "nl-02-012",
+      "text": "We hebben weinig tijd, dus wat is het belangrijkste?",
+      "en": "We don't have much time, so what's most important?",
+      "article": null
+    },
+    {
+      "id": "nl-02-013",
+      "text": "Waarom hebben we dat plan veranderd?",
+      "en": "Why did we change that plan?",
+      "article": null
+    },
+    {
+      "id": "nl-02-014",
+      "text": "Wie is er verantwoordelijk voor dat deel?",
+      "en": "Who is responsible for that part?",
+      "article": null,
+      "stress": [
+        "ver-ant-WOOR-de-lijk"
+      ]
+    },
+    {
+      "id": "nl-02-015",
+      "text": "Ik heb nog een vraag over het tweede punt.",
+      "en": "I have another question about the second point.",
+      "article": null
+    },
+    {
+      "id": "nl-02-016",
+      "text": "Kunnen we daar na de vergadering even over praten?",
+      "en": "Can we talk about that briefly after the meeting?",
+      "article": null,
+      "fa": "daar … over یعنی «درباره‌ی آن» و در جمله دو تکه می‌شود: daar در وسط، over آخر."
+    },
+    {
+      "id": "nl-02-017",
+      "text": "Sorry, ik kon het niet volgen, want het ging te snel.",
+      "en": "Sorry, I couldn't follow, because it went too fast.",
+      "article": null
+    },
+    {
+      "id": "nl-02-018",
+      "text": "Klopt het dat we volgende week een nieuwe planning krijgen?",
+      "en": "Is it right that we're getting a new schedule next week?",
+      "article": null
+    },
+    {
+      "id": "nl-02-019",
+      "text": "Mag ik even samenvatten wat we afgesproken hebben?",
+      "en": "May I quickly sum up what we agreed?",
+      "article": null
+    },
+    {
+      "id": "nl-02-020",
+      "text": "Goed idee, maar hoe pakken we dat praktisch aan?",
+      "en": "Good idea, but how do we tackle that in practice?",
+      "article": null,
+      "fa": "iets aanpakken یعنی «دست به کار شدن، از پسِ کاری برآمدن»."
+    },
+    {
+      "id": "nl-02-021",
+      "text": "Als je wilt, kan ik het verslag vandaag maken.",
+      "en": "If you like, I can take the minutes today.",
+      "article": null
+    },
+    {
+      "id": "nl-02-022",
+      "text": "Het spijt me, ik was even afgeleid. Waar zijn we gebleven?",
+      "en": "I'm sorry, I was distracted for a moment. Where were we?",
+      "article": null
+    },
+    {
+      "id": "nl-02-023",
+      "text": "de vergadering",
+      "en": "the meeting",
+      "article": "de"
+    },
+    {
+      "id": "nl-02-024",
+      "text": "het verslag",
+      "en": "the minutes / the report",
+      "article": "het"
+    },
+    {
+      "id": "nl-02-025",
+      "text": "de agenda",
+      "en": "the agenda / the diary",
+      "article": "de"
+    },
+    {
+      "id": "nl-02-026",
+      "text": "Bedankt voor de uitleg, nu is het duidelijk.",
+      "en": "Thanks for the explanation, now it's clear.",
+      "article": null
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "nl-02-dA",
+      "title": "Het teamoverleg",
+      "lines": [
+        {
+          "speaker": "Sofie",
+          "text": "Goeiemorgen allemaal. We hebben vandaag drie punten: de nieuwe planning, de nieuwe klant en de vakanties.",
+          "en": "Good morning, everyone. We have three items today: the new schedule, the new client and the holidays."
+        },
+        {
+          "speaker": "Sofie",
+          "text": "De nieuwe planning start volgende maand, en iedereen moet vanaf nu zijn eigen dossiers opvolgen.",
+          "en": "The new schedule starts next month, and from now on everyone has to follow up their own files."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Sorry, ik heb dat laatste niet goed verstaan. Wat bedoel je precies met ‘opvolgen’?",
+          "en": "Sorry, I didn't catch that last bit. What exactly do you mean by ‘opvolgen’?"
+        },
+        {
+          "speaker": "Sofie",
+          "text": "‘Opvolgen’ betekent dat je regelmatig controleert of alles goed loopt en op tijd klaar is.",
+          "en": "‘Opvolgen’ means you regularly check that everything is going well and is finished on time."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Bedankt. Dus als ik het goed begrijp, moet ik mijn dossiers elke week nakijken?",
+          "en": "Thanks. So if I understand correctly, I have to check my files every week?"
+        },
+        {
+          "speaker": "Sofie",
+          "text": "Precies. En het rapport over de leveringen moet klaar zijn tegen vrijdag.",
+          "en": "Exactly. And the report on the deliveries has to be finished by Friday."
+        },
+        {
+          "speaker": "Lien",
+          "text": "Ik heb nog een vraag. Wie maakt vandaag het verslag van het overleg?",
+          "en": "I have another question. Who is taking the minutes of the meeting today?"
+        },
+        {
+          "speaker": "Sofie",
+          "text": "Amir, wil jij het eens proberen? Dat is een goede oefening voor je Nederlands.",
+          "en": "Amir, would you like to try? It's good practice for your Dutch."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Oké, maar kan iemand het nalezen voor ik het verstuur? Mijn Nederlands is nog niet perfect.",
+          "en": "Okay, but can someone read it through before I send it? My Dutch isn't perfect yet."
+        },
+        {
+          "speaker": "Lien",
+          "text": "Natuurlijk, ik lees het wel even na. Geen probleem.",
+          "en": "Of course, I'll read it through. No problem."
+        },
+        {
+          "speaker": "Sofie",
+          "text": "Goed, dan gaan we naar het volgende punt op de agenda: de nieuwe klant.",
+          "en": "Good, then let's move on to the next item on the agenda: the new client."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Mag ik even iets vragen voor we verdergaan? Wanneer is de deadline voor dat project?",
+          "en": "May I ask something before we go on? When is the deadline for that project?"
+        }
+      ]
+    },
+    {
+      "id": "nl-02-dB",
+      "title": "Na de vergadering",
+      "lines": [
+        {
+          "speaker": "Amir",
+          "text": "Tom, heb je even tijd? Ik heb niet alles kunnen volgen in de vergadering.",
+          "en": "Tom, do you have a minute? I couldn't follow everything in the meeting."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Natuurlijk, geen probleem. Wat was er niet duidelijk voor jou?",
+          "en": "Of course, no problem. What wasn't clear to you?"
+        },
+        {
+          "speaker": "Amir",
+          "text": "Vooral de nieuwe planning. Dus de vergadering is verschoven naar donderdag?",
+          "en": "Mainly the new schedule. So the meeting has been moved to Thursday?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "Ja, vanaf nu is het teamoverleg op donderdagvoormiddag, en niet meer op maandag.",
+          "en": "Yes, from now on the team meeting is on Thursday morning, not on Monday any more."
+        },
+        {
+          "speaker": "Amir",
+          "text": "En klopt het dat we volgende week een nieuwe planning krijgen?",
+          "en": "And is it right that we're getting a new schedule next week?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "Ja, dat klopt. Sofie stuurt de nieuwe planning maandag via mail naar iedereen.",
+          "en": "Yes, that's right. Sofie is emailing the new schedule to everyone on Monday."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Ik volg het niet helemaal. Kan je een voorbeeld geven van wat er voor mij verandert?",
+          "en": "I'm not quite following. Can you give an example of what changes for me?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "Bijvoorbeeld: jij belt de klanten voortaan op dinsdag in plaats van op woensdag.",
+          "en": "For example: from now on you call the clients on Tuesday instead of on Wednesday."
+        },
+        {
+          "speaker": "Amir",
+          "text": "Mag ik even samenvatten? Overleg op donderdag, planning op maandag en klanten bellen op dinsdag.",
+          "en": "May I sum up? Meeting on Thursday, schedule on Monday and calling clients on Tuesday."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Perfect, je hebt het helemaal goed begrepen. Bedankt voor je vragen!",
+          "en": "Perfect, you've understood it completely. Thanks for your questions!"
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "nl-02-s1",
+      "prompt": "Je hebt een deel van het overleg gemist. Stel een collega drie vragen over wat er beslist is: wie, wat en wanneer. (You missed part of the meeting. Ask a colleague three questions about what was decided: who, what and when.)",
+      "frames": [
+        "Sorry, ik was er niet bij toen …",
+        "Wie …?",
+        "Wat hebben jullie …?",
+        "Wanneer …?"
+      ],
+      "model": "Hoi Lien, heb je even tijd? Sorry, ik was er niet bij toen jullie over de nieuwe klant spraken, want ik had een telefoontje. Ik heb drie vragen. Wie is er nu verantwoordelijk voor die klant? Wat hebben jullie precies beslist over de levering? En wanneer is de deadline: is dat nog steeds tegen vrijdag? Als je wilt, kan je het ook even opschrijven, dan vergeet ik het niet. Bedankt voor de uitleg, nu is het duidelijk!",
+      "seconds": 90
+    },
+    {
+      "id": "nl-02-s2",
+      "prompt": "Je teamleider legt een nieuwe taak te snel uit. Vraag om te herhalen, vraag een voorbeeld en check of je het goed begrepen hebt. (Your team leader explains a new task too fast. Ask them to repeat, ask for an example and check that you understood.)",
+      "frames": [
+        "Sorry, kan je dat nog eens uitleggen, maar dan wat trager?",
+        "Kan je een voorbeeld geven?",
+        "Als ik het goed begrijp, …?"
+      ],
+      "model": "Sorry Sofie, het ging een beetje te snel voor mij. Kan je dat nog eens uitleggen, maar dan wat trager? Dank je. Ik volg het nu beter, maar ik ben nog niet helemaal zeker. Kan je een voorbeeld geven? Ah, dus ik kijk elke maandag welke bestellingen nog niet geleverd zijn, en dan bel ik de klant. Als ik het goed begrijp, moet ik daar elke week een kort verslag van maken? Oké, dan is het duidelijk. Bedankt!",
+      "seconds": 90
+    },
+    {
+      "id": "nl-02-s3",
+      "prompt": "Een collega was ziek tijdens het overleg. Vat het overleg voor hem samen: het onderwerp, wat er beslist is, wie wat doet en tegen wanneer. (A colleague was ill during the meeting. Sum up the meeting for him: the topic, what was decided, who does what, and by when.)",
+      "frames": [
+        "Het overleg ging over …",
+        "We hebben afgesproken dat …",
+        "… doet …, en ik …",
+        "Dat moet klaar zijn tegen …"
+      ],
+      "model": "Hoi Tom, ben je weer beter? Ik vat het overleg van gisteren even voor je samen. Het overleg ging over de nieuwe planning. We hebben afgesproken dat het teamoverleg voortaan op donderdag is, en niet meer op maandag. Lien maakt de nieuwe planning, en ik bel de klanten over de leveringen. Jij moet het rapport over de voorraad afwerken. Dat moet klaar zijn tegen vrijdag. Als je vragen hebt, kunnen we daar straks even over praten.",
+      "seconds": 90
+    },
+    {
+      "id": "nl-02-s4",
+      "prompt": "Bereid vijf vragen voor over een nieuw project. Gebruik wie, wat, wanneer, waarom en hoeveel, en stel ze luidop. (Prepare five questions about a new project with who, what, when, why and how much, and ask them out loud.)",
+      "frames": [
+        "Wie is er verantwoordelijk voor …?",
+        "Wat is het doel van …?",
+        "Wanneer …?",
+        "Waarom …?",
+        "Hoeveel …?"
+      ],
+      "model": "Ik heb een paar vragen over het nieuwe project, als dat mag. Ten eerste: wie is er verantwoordelijk voor de planning? Ten tweede: wat is precies het doel van het project? Wanneer moet de eerste versie klaar zijn? Waarom beginnen we nu al, en niet na de zomer? En hoeveel tijd mag ik er elke week aan besteden? Ik vraag het omdat ik ook nog andere dossiers moet opvolgen. Bedankt voor jullie antwoorden.",
+      "seconds": 90
+    },
+    {
+      "id": "nl-02-s5",
+      "prompt": "Vertel over een vergadering of een les van deze week: waarover ging het, wat begreep je goed, wat was moeilijk en welke vraag stel je de volgende keer? (This recording is saved in your speaking diary.)",
+      "frames": [
+        "Deze week had ik een vergadering over …",
+        "Ik begreep goed dat …",
+        "Moeilijk was …, want …",
+        "De volgende keer vraag ik: …?"
+      ],
+      "model": "Deze week had ik een vergadering over de nieuwe planning. Het ging vooral over de leveringen en de deadlines. Ik begreep goed dat het teamoverleg nu op donderdag is, en dat we tegen vrijdag een rapport moeten maken. Moeilijk was het woord ‘opvolgen’, want dat kende ik nog niet. Ik heb het gevraagd, en nu ken ik het. Soms ging het ook te snel, vooral als twee collega's tegelijk spraken. De volgende keer vraag ik: ‘Mag ik even samenvatten wat we afgesproken hebben?’ Dan weet ik zeker dat ik alles goed begrepen heb.",
+      "seconds": 90
+    }
+  ],
+  "grammar": {
+    "id": "questions",
+    "title": "Questions: verb first, or question word + verb",
+    "explain": "A yes/no question starts with the verb: Heb jij tijd? Komt de klant ook? A question with a question word (wie, wat, wanneer, waar, waarom, hoe, hoeveel, welke) puts the question word first, then the verb, then the subject: Wanneer begint het overleg? Careful with jij: when the verb comes before jij, it loses its -t: jij werkt → Werk jij morgen?",
+    "fa": "در فارسی برای سؤال ترتیب جمله عوض نمی‌شود؛ فقط لحن بالا می‌رود یا «آیا» می‌آید. در هلندی فعل جابه‌جا می‌شود: سؤال بله/نه با فعل شروع می‌شود (Heb jij tijd?) و در سؤال با کلمه‌ی پرسشی، اول کلمه‌ی پرسشی، بعد فعل، بعد فاعل می‌آید (Wanneer begint het overleg?). نکته: وقتی فعل قبل از jij می‌آید، t آخرش می‌افتد: jij werkt می‌شود Werk jij?",
+    "items": [
+      {
+        "prompt": "Vraag wanneer het overleg morgen begint. (wanneer / beginnen)",
+        "answer": "Wanneer begint het overleg morgen?"
+      },
+      {
+        "prompt": "Vraag wie vandaag het verslag van het overleg maakt. (wie / maken)",
+        "answer": "Wie maakt vandaag het verslag van het overleg?"
+      },
+      {
+        "prompt": "Ja/nee: (jij / tijd hebben / na de vergadering)",
+        "answer": "Heb jij tijd na de vergadering?"
+      },
+      {
+        "prompt": "Ja/nee: (de klant / donderdag ook naar het overleg komen)",
+        "answer": "Komt de klant donderdag ook naar het overleg?"
+      },
+      {
+        "prompt": "Vraag waarom jullie het plan nu nog veranderen. (waarom / veranderen)",
+        "answer": "Waarom veranderen wij het plan nu nog?"
+      },
+      {
+        "prompt": "Vraag hoeveel tijd jullie nog hebben voor die taak. (hoeveel tijd / hebben)",
+        "answer": "Hoeveel tijd hebben wij nog voor die taak?"
+      },
+      {
+        "prompt": "Vraag waar het overleg vandaag is. (waar / zijn)",
+        "answer": "Waar is het overleg vandaag?"
+      },
+      {
+        "prompt": "Ja/nee: (jij / het verslag naar iedereen sturen)",
+        "answer": "Stuur jij het verslag naar iedereen?"
+      },
+      {
+        "prompt": "Vraag wat het volgende punt op de agenda is. (wat / zijn)",
+        "answer": "Wat is het volgende punt op de agenda?"
+      },
+      {
+        "prompt": "Vraag wat je collega van de nieuwe planning vindt. (hoe / vinden)",
+        "answer": "Hoe vind jij de nieuwe planning?"
+      },
+      {
+        "prompt": "Vraag welke collega die taak doet. (welke collega / doen)",
+        "answer": "Welke collega doet die taak?"
+      },
+      {
+        "prompt": "Vraag om hoe laat de trein naar Brussel vertrekt. (om hoe laat / vertrekken)",
+        "answer": "Om hoe laat vertrekt de trein naar Brussel?"
+      },
+      {
+        "prompt": "Ja/nee: (jullie / de presentatie al klaar hebben)",
+        "answer": "Hebben jullie de presentatie al klaar?"
+      },
+      {
+        "prompt": "Vraag wie verantwoordelijk is voor de planning. (wie / zijn)",
+        "answer": "Wie is verantwoordelijk voor de planning?"
+      },
+      {
+        "prompt": "Vraag wat je collega precies bedoelt met dat woord. (wat / bedoelen)",
+        "answer": "Wat bedoel jij precies met dat woord?"
+      }
+    ]
+  },
+  "limburg": [
+    {
+      "standard": "Ik heb dat niet goed verstaan.",
+      "everyday": "Ik 'eb da nie goe verstaan.",
+      "note": "Two everyday changes at once: the h is silent (’eb = heb) and final consonants drop (da = dat, nie = niet, goe = goed)."
+    },
+    {
+      "standard": "Kan je dat nog eens zeggen?",
+      "everyday": "Kunt ge da nog ne keer zeggen?",
+      "note": "The gij-system: ‘kunt ge’ = kan je. ‘ne keer’ = een keer: in everyday Flemish, ‘een’ often becomes ‘ne’ or ‘nen’."
+    },
+    {
+      "standard": "Ik kan hem niet goed meer volgen.",
+      "everyday": "Ik kan hem nie goe nie meer volgen.",
+      "note": "Double negation: ‘nie … nie’ does not mean yes! It is just a stronger ‘not’."
+    },
+    {
+      "standard": "Wat heeft hij gezegd?",
+      "everyday": "Wa 'eeft hem gezegd?",
+      "note": "After the verb, many Flemish speakers say ‘hem’ instead of ‘hij’: ’eeft hem = heeft hij."
+    },
+    {
+      "standard": "Dat weet ik wel.",
+      "everyday": "Da weet ekik wel.",
+      "note": "‘Ekik’ is an extra-strong ‘ik’: I DO know that."
+    },
+    {
+      "standard": "En, hoe gaat het?",
+      "everyday": "Enne?",
+      "note": "‘Enne?’ can mean ‘how are you?’, ‘wow!’ or ‘and? explain!’ — the tone tells you which."
+    },
+    {
+      "standard": "Kom, we beginnen eraan.",
+      "everyday": "Allee, we beginnen eraan.",
+      "note": "‘Allee’ is a filler: come on, well, okay then. You hear it all day in Flanders."
+    }
+  ],
+  "roleplay": {
+    "title": "Het teamoverleg",
+    "prompt": "You are Sofie, the team leader of a logistics team in an office in Hasselt, Belgium. Speak Belgian Dutch (Flemish) at A2+ level: normal everyday sentences, a little slower than normal. We are in the weekly team meeting about the new planning; I am a member of your team. Explain the new planning in a few sentences and use two or three work words I may not know (for example ‘opvolgen’, ‘verslag’, ‘tegen vrijdag’), so that I have to ask. If I ask you to repeat or explain something, do it simply. Ask one question at a time and wait for my answer. If I answer in English, kindly ask me to try in Dutch. Do not correct me during the conversation. At the end, ask me to sum up what we decided. After about 10 exchanges, stop and give me, in English: (1) three corrections of real mistakes — quote my sentence and give a better version; (2) two things I said well; (3) one useful Flemish phrase for next time. Do not comment on my pronunciation unless you could not understand a word. Start now with: ‘Goeiemorgen allemaal! We hebben vandaag drie punten. Wie maakt er straks het verslag?’"
+  },
+  "mission": "In a real meeting at work, ask one question to check that you understood, for example: ‘Als ik het goed begrijp, …?’"
+}

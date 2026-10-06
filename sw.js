@@ -32,7 +32,9 @@ const SHELL = [
   'js/ui/widgets.js',
   'content/words.json',
   'content/nl/week-01.json',
-  'content/en/week-01.json'
+  'content/en/week-01.json',
+  'content/nl/week-02.json',
+  'content/en/week-02.json'
 ];
 
 // GitHub Pages lets browsers reuse a file for 10 minutes without asking. So the offline copy is
