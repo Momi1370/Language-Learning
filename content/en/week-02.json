@@ -1,0 +1,197 @@
+{
+  "lang": "en",
+  "week": 2,
+  "theme": "Asking questions in class (embedded questions)",
+  "themeEn": "Asking questions in class (embedded questions)",
+  "sound": {
+    "id": "en-s-cluster",
+    "title": "state, not e-state (s + consonant)",
+    "explain": "Many Farsi speakers add a short vowel before s + consonant at the start of a word, so ‘school’ sounds like ‘eschool’ and ‘study’ like ‘estudy’. In English that extra vowel can make a different word: ‘state’ becomes ‘estate’, ‘steam’ becomes ‘esteem’. Start the s straight away, with nothing before it.",
+    "anchor": "Farsi adds «اِ» before s + consonant («اِسکول»). Instead, start with a hissing «سسس» and go straight into the next consonant: sss-tate.",
+    "fa": "در فارسی قبل از s + صامت یک «اِ» اضافه می‌کنیم (اِستیت). در انگلیسی این «اِ» کلمه را عوض می‌کند: state (ایالت) با estate (ملک) فرق دارد. مستقیم با «سسس» شروع کن.",
+    "pairs": [
+      [
+        "state",
+        "estate"
+      ],
+      [
+        "steam",
+        "esteem"
+      ],
+      [
+        "sleep",
+        "asleep"
+      ],
+      [
+        "stray",
+        "astray"
+      ],
+      [
+        "spire",
+        "aspire"
+      ],
+      [
+        "spouse",
+        "espouse"
+      ],
+      [
+        "squire",
+        "esquire"
+      ]
+    ]
+  },
+  "chunks": [
+    {
+      "id": "en-02-001",
+      "text": "Could you explain what you mean by …?",
+      "en": "Ask about a word or an idea the lecturer used."
+    },
+    {
+      "id": "en-02-002",
+      "text": "I was wondering whether you could go over the last slide again.",
+      "en": "A very polite way to ask for something again. Word order: ‘whether you could’, not ‘whether could you’."
+    },
+    {
+      "id": "en-02-003",
+      "text": "Do you know when the assignment is due?",
+      "en": "‘Due’ = the deadline day. After ‘Do you know’, use normal order: ‘when the assignment is due’.",
+      "stress": [
+        "as-SIGN-ment"
+      ]
+    },
+    {
+      "id": "en-02-004",
+      "text": "Could you tell me how the final grade is calculated?",
+      "en": "Embedded question: ‘how the final grade is calculated’, not ‘how is the final grade calculated’.",
+      "stress": [
+        "CAL-cu-lat-ed"
+      ],
+      "fa": "در سؤالِ درونه‌ای (بعد از Could you tell me) ترتیب کلمات مثل جمله‌ی خبری است: how the grade is calculated."
+    },
+    {
+      "id": "en-02-005",
+      "text": "I'm not sure I understand why this method works.",
+      "en": "Say what you don't understand without asking a direct question."
+    },
+    {
+      "id": "en-02-006",
+      "text": "Would you mind repeating the last point?",
+      "en": "A polite request: ‘mind’ + -ing."
+    },
+    {
+      "id": "en-02-007",
+      "text": "Just to clarify, are we supposed to work in groups?",
+      "en": "Check a rule or an instruction."
+    },
+    {
+      "id": "en-02-008",
+      "text": "Sorry, I didn't quite catch that.",
+      "en": "You heard it but didn't get it — more natural than ‘I didn't understand’."
+    },
+    {
+      "id": "en-02-009",
+      "text": "I have a quick question about the reading.",
+      "en": "Start a question before or after class."
+    },
+    {
+      "id": "en-02-010",
+      "text": "Can I ask how this relates to last week's topic?",
+      "en": "Connect two ideas. Embedded: ‘how this relates’."
+    },
+    {
+      "id": "en-02-011",
+      "text": "What I don't understand is how …",
+      "en": "Point to the exact part you don't understand."
+    },
+    {
+      "id": "en-02-012",
+      "text": "Could you give an example of …?",
+      "en": "Ask for an example."
+    },
+    {
+      "id": "en-02-013",
+      "text": "Could you say a bit more about …?",
+      "en": "Ask the speaker to go deeper into a point."
+    },
+    {
+      "id": "en-02-014",
+      "text": "So what you're saying is that …?",
+      "en": "Check your understanding by repeating the idea in your own words."
+    },
+    {
+      "id": "en-02-015",
+      "text": "Do you happen to know where the slides are posted?",
+      "en": "‘Do you happen to know’ is extra polite; normal word order after it."
+    },
+    {
+      "id": "en-02-016",
+      "text": "That makes sense now, thanks.",
+      "en": "Close the question politely."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "en-02-s1",
+      "prompt": "Turn these direct questions into polite embedded questions and say them: Where is the room? When is the exam? What does this word mean? How many pages do we need? Why is the deadline earlier?",
+      "frames": [
+        "Could you tell me where …?",
+        "Do you know when …?",
+        "I was wondering what …",
+        "I'm not sure how many …"
+      ],
+      "model": "Excuse me, could you tell me where room B12 is? And do you know when the exam is? I've heard two different dates. Also, I was wondering what this word on the slide means. I'm not sure how many pages we need for the report, either. And finally, could you explain why the deadline is earlier this year? Thanks a lot.",
+      "seconds": 60
+    },
+    {
+      "id": "en-02-s2",
+      "prompt": "You missed the first ten minutes of a lecture. Ask a classmate three embedded questions about what you missed.",
+      "frames": [
+        "Do you know what …?",
+        "Could you tell me whether …?",
+        "I was wondering if …"
+      ],
+      "model": "Hi, sorry, I missed the first ten minutes because my train was late. Do you know what the lecturer said about the assignment? I was wondering if she gave a new deadline, because I heard something about next week. And could you tell me whether we need to read chapter three or chapter four for Thursday? Do you happen to know where the slides are posted, too? Then I can check the rest myself. Thanks, that really helps.",
+      "seconds": 90
+    },
+    {
+      "id": "en-02-s3",
+      "prompt": "In office hours, ask your professor about an assignment: the deadline, the format and how it is graded.",
+      "frames": [
+        "I have a quick question about …",
+        "Could you tell me when …?",
+        "I was wondering whether …",
+        "Do you know how …?"
+      ],
+      "model": "Hello, thank you for seeing me. I have a quick question about the group assignment. Could you tell me when exactly it is due? I saw two different dates on the course page. I was also wondering whether we should hand in a report or a presentation, or both. And how is it graded? For example, is there an individual grade, or does everyone in the group get the same mark? Just to clarify, can we use sources that are not on the reading list? Thank you, that's very helpful.",
+      "seconds": 90
+    },
+    {
+      "id": "en-02-s4",
+      "prompt": "During a lecture, interrupt politely, ask for clarification, then check your understanding.",
+      "frames": [
+        "Sorry, could I ask a quick question?",
+        "Could you explain what you mean by …?",
+        "So what you're saying is that …?"
+      ],
+      "model": "Sorry, could I ask a quick question? Could you explain what you mean by ‘economies of scale’? I'm not sure I understand why the cost per product goes down. … So what you're saying is that when a company produces more, the fixed costs are shared over more products, so each product becomes cheaper? Okay, that makes sense now, thanks. Could you say a bit more about when it stops working? For example, does it still work when a factory becomes too big?",
+      "seconds": 90
+    },
+    {
+      "id": "en-02-s5",
+      "prompt": "Explain one idea from your own course this week in about 90 seconds, then ask one question you still have about it as an embedded question. (This recording is saved in your speaking diary.)",
+      "frames": [
+        "This week we studied …",
+        "The main idea is …",
+        "For example, …",
+        "What I still don't understand is how …"
+      ],
+      "model": "This week we studied the bullwhip effect in supply chains. The main idea is that small changes in customer demand become bigger and bigger as you move up the chain, from the shop to the wholesaler to the factory. For example, if a shop sells ten percent more, the factory might suddenly produce forty percent more, because everyone orders extra to be safe. This matters because it creates big stocks and high costs. What I still don't understand is how companies can share their data without giving away business secrets. I was wondering whether there are good examples of this.",
+      "seconds": 90
+    }
+  ],
+  "roleplay": {
+    "title": "Questions in a lecture",
+    "prompt": "You are Dr. Peeters, a lecturer at a Belgian university, giving a short explanation of supply and demand to a group of master's students. I am one of the students. Speak natural English at B2 level and a little fast, as in a real lecture. Explain the topic in short parts; after each part, pause and ask: ‘Any questions so far?’ Answer my questions clearly. Do not correct me during the conversation. After about 10 exchanges, stop and give me: (1) three corrections of real mistakes — quote my sentence and give a better version; pay special attention to the word order of embedded questions (‘Could you tell me where it is?’, not ‘where is it?’), to he/she and to a/the; (2) two phrases I used well; (3) one useful phrase for asking questions next time. Do not comment on my pronunciation unless you could not understand a word. Start now with: ‘Right, let's begin with the basic idea of supply and demand.’"
+  },
+  "mission": "In class or in an email, ask your teacher one question that starts with ‘Could you tell me …’ or ‘I was wondering whether …’."
+}
