@@ -24,6 +24,8 @@ export function audioCheck(ctx) {
   const player = h('audio', { controls: true, hidden: true });
   const log = (line) => { out.textContent += `${line}\n`; };
   const name = (v) => (v ? `${v.name} (${v.lang})` : 'none');
+  // The full id tells same-named voices apart (for example a basic and an Enhanced ‘Ellen’).
+  const full = (v) => (v ? `${v.name} (${v.lang}) [${v.voiceURI}${v.localService === false ? ', online' : ''}]` : 'none');
 
   function describe() {
     out.textContent = '';
@@ -32,9 +34,9 @@ export function audioCheck(ctx) {
     log(`Browser: ${navigator.userAgent}`);
     log(`Home-screen app: ${standalone ? 'yes' : 'no'}`);
     log(`Voices: ${all.length} in total`);
-    log(`Dutch voices: ${voicesFor(all, 'nl').map(name).join(', ') || 'none'}`);
+    log(`Dutch voices: ${voicesFor(all, 'nl').map(full).join(', ') || 'none'}`);
     log(`English voices: ${voicesFor(all, 'en').length}`);
-    log(`App uses for Dutch: ${ctx.voices.nl ? name(ctx.voices.nl) : 'no voice (device default)'}`);
+    log(`App uses for Dutch: ${ctx.voices.nl ? full(ctx.voices.nl) : 'no voice (device default)'}`);
     log(`App uses for English: ${ctx.voices.en ? name(ctx.voices.en) : 'no voice (device default)'}`);
     log(`Can record: ${canRecord() ? `yes, mp4 ${globalThis.MediaRecorder.isTypeSupported?.('audio/mp4') ? 'yes' : 'no'}` : 'no'}`);
     log(`Speech recognition: ${canRecognise() ? 'yes' : 'no'}`);
