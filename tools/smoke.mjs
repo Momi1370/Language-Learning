@@ -53,6 +53,40 @@ try {
   await check('index.html#/settings', 'settings', 'Backup', blocked);
   await b.block([]);
 
+  // 🎯 Say it keeps listening when the learner pauses mid-sentence, and finishes by itself once every
+  // word was heard. The fake recognizer acts like browsers: unless continuous, it ends at the first pause.
+  await check('tools/set-position.html?week=1&session=1&to=block/cards', 'block/cards', 'Got it');
+  await b.evaluate(`(() => {
+    const Fake = class {
+      start() {
+        const words = document.querySelector('.card .speakable').textContent.replace(/…/g, ' ').trim().split(/\\s+/);
+        const half = Math.ceil(words.length / 2);
+        this.results = [];
+        [words.slice(0, half).join(' '), words.slice(half).join(' ')].forEach((part, i) => setTimeout(() => this.hear(part), 200 + i * 500));
+      }
+      hear(text) {
+        if (this.ended) return;
+        this.results.push(Object.assign([{ transcript: text }], { isFinal: true }));
+        this.onresult?.({ resultIndex: this.results.length - 1, results: this.results });
+        if (!this.continuous) this.end();
+      }
+      stop() { setTimeout(() => this.end(), 10); }
+      abort() { this.end(); }
+      end() { if (!this.ended) { this.ended = true; this.onend?.(); } }
+    };
+    window.webkitSpeechRecognition = Fake;
+    window.SpeechRecognition = Fake;
+  })()`);
+  await b.evaluate(`document.body.dataset.ready = ''; location.hash = '#/today'`);
+  await b.waitFor(`document.body.dataset.ready === 'today'`, 5000);
+  await b.evaluate(`location.hash = '#/block/cards'`);
+  await b.waitFor(`document.body.dataset.ready === 'block/cards'`, 5000);
+  await b.click('Say it');
+  const whole = await b.waitFor(`/Understood ✓/.test(document.querySelector('.check-result')?.textContent ?? '')`, 5000);
+  if (!whole) failed++;
+  console.log(`${whole ? '✓' : '✗'} 🎯 Say it waits through a pause and hears the whole sentence`);
+  if (!whole) console.log(`   - it showed: ${await b.evaluate(`document.querySelector('.check-result')?.textContent ?? '(nothing)'`)}`);
+
   // Leaving a line while recording must turn the microphone off.
   await check('tools/set-position.html?week=1&session=1&to=block/listen', 'block/listen', 'Line 1 of');
   await b.evaluate(`(() => {

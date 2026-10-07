@@ -1,5 +1,5 @@
 import { clear, mount, h, button, fa } from './dom.js';
-import { speak, canRecord, startRecording, canRecognise, recognise, startTranscript } from '../speech.js';
+import { speak, canRecord, startRecording, canRecognise, listen, startTranscript } from '../speech.js';
 import { bestMatch } from '../match.js';
 
 export const RECOG = { nl: ['nl-BE', 'nl-NL'], en: ['en-GB', 'en-US'] };
@@ -33,41 +33,58 @@ export function recognitionMessage(e) {
   }
 }
 
-async function recogniseWithFallback(lang) {
-  const [first, second] = RECOG[lang];
-  try {
-    return await recognise(first);
-  } catch (e) {
-    if (e.code === 'language-not-supported') return recognise(second);
-    throw e;
-  }
-}
-
+// Tap to start, say the whole sentence (pauses are fine), and it finishes by itself once every
+// word was heard — or tap Done. If the Belgian variant is not supported, it listens in nl-NL.
 export function sayItCheck(ctx, target, lang) {
   if (!canRecognise()) return null;
   let tries = 0;
+  let session = null;
   const out = h('div', { class: 'check-result' });
-  const btn = button('🎯 Say it', run, { class: 'secondary' });
-  async function run() {
-    btn.disabled = true;
-    btn.textContent = '🎙 Listening…';
+  const btn = button('🎯 Say it', toggle, { class: 'secondary' });
+  const stopper = () => { session?.stop(); };
+  function listenIn(code) {
+    session = listen(code, { onHeard: (heard) => { if (bestMatch(target, heard, lang).score === 1) session?.stop(); } });
+    return session.done;
+  }
+  function show(alternatives) {
+    const r = bestMatch(target, alternatives, lang);
+    const missed = r.words.filter((w) => w.ok === false);
+    mount(clear(out),
+      h('p', { class: 'check-words' }, r.words.map((w) => [h('span', { class: w.ok === null ? '' : w.ok ? 'ok' : 'miss' }, w.text), ' '])),
+      h('p', { class: 'hint' }, r.score === 1
+        ? 'Understood ✓'
+        : alternatives.length ? `It heard: “${alternatives[0]}”` : 'Nothing was heard. Try again, a bit louder.'),
+      tries >= 3 && missed.length
+        ? h('p', {}, 'Listen to these words: ', missed.map((w) => button(`🔊 ${bare(w.text)}`, () => say(ctx, bare(w.text), lang, 0.7), { class: 'chip' })))
+        : null,
+    );
+  }
+  async function toggle() {
+    if (session) {
+      btn.disabled = true;
+      btn.textContent = '🎯 Checking…';
+      session.stop();
+      return;
+    }
+    live.add(stopper);
+    btn.textContent = '■ Done';
+    mount(clear(out), h('p', { class: 'hint' }, 'Listening… say the whole sentence. Pauses are fine. Tap Done when you finish.'));
+    const [first, second] = RECOG[lang];
     try {
-      const alternatives = await recogniseWithFallback(lang);
+      let alternatives;
+      try {
+        alternatives = await listenIn(first);
+      } catch (e) {
+        if (e.code !== 'language-not-supported') throw e;
+        alternatives = await listenIn(second);
+      }
       tries++;
-      const r = bestMatch(target, alternatives, lang);
-      const missed = r.words.filter((w) => w.ok === false);
-      mount(clear(out),
-        h('p', { class: 'check-words' }, r.words.map((w) => [h('span', { class: w.ok === null ? '' : w.ok ? 'ok' : 'miss' }, w.text), ' '])),
-        h('p', { class: 'hint' }, r.score === 1
-          ? 'Understood ✓'
-          : alternatives.length ? `It heard: “${alternatives[0]}”` : 'Nothing was heard. Try again, a bit louder.'),
-        tries >= 3 && missed.length
-          ? h('p', {}, 'Listen to these words: ', missed.map((w) => button(`🔊 ${bare(w.text)}`, () => say(ctx, bare(w.text), lang, 0.7), { class: 'chip' })))
-          : null,
-      );
+      show(alternatives);
     } catch (e) {
       mount(clear(out), h('p', { class: 'hint' }, recognitionMessage(e)));
     } finally {
+      live.delete(stopper);
+      session = null;
       btn.disabled = false;
       btn.textContent = '🎯 Say it again';
     }
