@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { pickVoice, voicesFor, accentOf, canRecognise, canRecord, startRecording } from '../js/speech.js';
+import { pickVoice, voicesFor, accentOf, canRecognise, canRecord, startRecording, listen } from '../js/speech.js';
 
 const voices = [
   { name: 'Xander', lang: 'nl-NL' },
@@ -108,4 +108,80 @@ test('stopping twice returns the same recording', async () => {
   const rec = await startRecording({ media: mic.media, Recorder: mic.Recorder });
   const [a, b] = await Promise.all([rec.stop(), rec.stop()]);
   assert.equal(a, b);
+});
+
+// A fake SpeechRecognition. Like real browsers, it ends by itself after the first pause unless
+// continuous is true. `quietEnd` mimics iPhone, which sometimes never sends 'end'.
+function fakeRecognition({ quietEnd = false } = {}) {
+  const made = [];
+  class Recognition {
+    constructor() { made.push(this); this.results = []; }
+    start() { this.started = true; }
+    stop() { if (!quietEnd) setTimeout(() => this.onend?.(), 0); }
+    hear(...alternatives) {
+      this.results.push(Object.assign(alternatives.map((transcript) => ({ transcript })), { isFinal: true }));
+      this.onresult?.({ resultIndex: this.results.length - 1, results: this.results });
+      if (!this.continuous && !quietEnd) setTimeout(() => this.onend?.(), 0);
+    }
+    fail(error) { this.onerror?.({ error }); this.onend?.(); }
+  }
+  return { Recognition, made };
+}
+
+test('listening keeps going through a pause and returns the whole sentence', async () => {
+  const { Recognition, made } = fakeRecognition();
+  const session = listen('nl-BE', { Recognition });
+  const r = made[0];
+  assert.equal(r.continuous, true);
+  assert.equal(r.lang, 'nl-BE');
+  r.hear('Ik ben hier pas begonnen');
+  await new Promise((done) => setTimeout(done, 5));
+  r.hear('dus ik ken nog niet iedereen');
+  assert.deepEqual(await session.stop(), ['Ik ben hier pas begonnen dus ik ken nog niet iedereen']);
+});
+
+test('every pause tells the caller what was heard so far, so it can stop when the sentence is complete', async () => {
+  const { Recognition, made } = fakeRecognition();
+  const heard = [];
+  const session = listen('nl-BE', { Recognition, onHeard: (alternatives) => heard.push(alternatives[0]) });
+  made[0].hear('Goeiemorgen');
+  made[0].hear('tot morgen');
+  assert.deepEqual(heard, ['Goeiemorgen', 'Goeiemorgen tot morgen']);
+  await session.stop();
+});
+
+test('alternatives are whole sentences: each guess of a part joined with the best guess of the others', async () => {
+  const { Recognition, made } = fakeRecognition();
+  const session = listen('nl-BE', { Recognition });
+  made[0].hear('ik ben nieuw', 'ik been nieuw');
+  made[0].hear('hier');
+  assert.deepEqual(await session.stop(), ['ik ben nieuw hier', 'ik been nieuw hier']);
+});
+
+test('stop still finishes when recognition never sends its end event (iPhone)', async () => {
+  const { Recognition, made } = fakeRecognition({ quietEnd: true });
+  const session = listen('nl-BE', { Recognition, endWaitMs: 20 });
+  made[0].hear('Smakelijk');
+  assert.deepEqual(await session.stop(), ['Smakelijk']);
+});
+
+test('listening stops by itself after the time limit', async () => {
+  const { Recognition, made } = fakeRecognition();
+  const session = listen('nl-BE', { Recognition, maxMs: 20 });
+  made[0].hear('Tot morgen');
+  assert.deepEqual(await session.done, ['Tot morgen']);
+});
+
+test('an error with nothing heard is reported with its code', async () => {
+  const { Recognition, made } = fakeRecognition();
+  const session = listen('nl-BE', { Recognition });
+  made[0].fail('no-speech');
+  await assert.rejects(session.done, (e) => e.code === 'no-speech');
+});
+
+test('the say-it check is unavailable in an iPhone home-screen app (recognition never works there)', () => {
+  const Recognition = class {};
+  assert.equal(canRecognise({ webkitSpeechRecognition: Recognition, navigator: { standalone: true } }), false);
+  assert.equal(canRecognise({ webkitSpeechRecognition: Recognition, navigator: { standalone: false } }), true);
+  assert.equal(canRecognise({ SpeechRecognition: Recognition, navigator: {} }), true);
 });

@@ -94,31 +94,72 @@ export async function startRecording({ media = globalThis.navigator?.mediaDevice
   };
 }
 
-const Recognition = () => globalThis.SpeechRecognition ?? globalThis.webkitSpeechRecognition;
+const Recognition = (g = globalThis) => g.SpeechRecognition ?? g.webkitSpeechRecognition;
 const failure = (codeName) => Object.assign(new Error(codeName), { code: codeName });
 
-export function canRecognise() {
-  return Boolean(Recognition());
+// iPhone home-screen apps have the API, but it never works there (WebKit bug 225298): it reports
+// "no microphone" or hangs with the microphone on. So it counts as not available.
+export function canRecognise(g = globalThis) {
+  return Boolean(Recognition(g)) && g.navigator?.standalone !== true;
 }
 
-export function recognise(lang) {
-  return new Promise((resolve, reject) => {
-    const R = Recognition();
-    if (!R) return reject(failure('not-available'));
-    const r = new R();
-    r.lang = lang;
-    r.interimResults = false;
-    r.continuous = false;
-    r.maxAlternatives = 5;
-    let alternatives = [];
-    r.onresult = (e) => {
-      const res = e.results[0];
-      alternatives = Array.from({ length: res.length }, (_, i) => res[i].transcript);
+// Whole-sentence guesses: every guess for one part, joined with the best guess for the other parts.
+function sentences(parts) {
+  if (!parts.length) return [];
+  const most = Math.max(...parts.map((p) => p.length));
+  return Array.from({ length: most }, (_, k) => parts.map((p) => p[k] ?? p[0]).join(' ').trim());
+}
+
+// Listens through pauses (learners stop to think mid-sentence; browsers would end at the first
+// pause) until stop() is called or maxMs passes. onHeard gets the sentence so far after every
+// pause, so the caller can stop once the whole target was heard. iPhone sometimes never sends
+// 'end': stop() then waits at most endWaitMs and aborts, so the microphone is always released.
+export function listen(lang, { Recognition: R = Recognition(), maxMs = 30000, endWaitMs = 2000, onHeard } = {}) {
+  if (!R) throw failure('not-available');
+  const r = new R();
+  r.lang = lang;
+  r.continuous = true;
+  r.interimResults = false;
+  r.maxAlternatives = 5;
+  const parts = [];
+  let error = null;
+  let limit = null;
+  let endWait = null;
+  let finished = false;
+  let finish;
+  const done = new Promise((resolve, reject) => {
+    finish = () => {
+      if (finished) return;
+      finished = true;
+      clearTimeout(limit);
+      clearTimeout(endWait);
+      try { r.abort?.(); } catch { /* already ended */ }
+      if (error && !parts.length) reject(failure(error));
+      else resolve(sentences(parts));
     };
-    r.onerror = (e) => reject(failure(e.error));
-    r.onend = () => resolve(alternatives);
-    r.start();
   });
+  r.onresult = (e) => {
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      const res = e.results[i];
+      if (res.isFinal) parts.push(Array.from({ length: res.length }, (_, k) => res[k].transcript.trim()));
+    }
+    onHeard?.(sentences(parts));
+  };
+  r.onerror = (e) => { error = e.error; };
+  r.onend = () => finish();
+  const session = {
+    done,
+    stop() {
+      if (!endWait) {
+        endWait = setTimeout(finish, endWaitMs);
+        try { r.stop(); } catch { finish(); }
+      }
+      return done;
+    },
+  };
+  limit = setTimeout(() => session.stop(), maxMs);
+  try { r.start(); } catch { error = 'start-failed'; finish(); }
+  return session;
 }
 
 export function startTranscript(lang) {
