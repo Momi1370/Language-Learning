@@ -89,3 +89,10 @@ div.row { display: flex; gap: 8px; margin: 12px 0; flex-wrap: wrap; }
 details { margin: 8px 0; }
 summary { cursor: pointer; color: var(--accent); min-height: 32px; }
 .diary-entry { display: grid; gap: 4px; margin: 10px 0; }
+
+.vocab-word { font-size: 1.6rem; font-weight: 700; margin: 6px 0; flex: 1 1 auto; }
+.ipa { margin: 2px 0; }
+.example { border-top: 1px solid var(--line); margin-top: 10px; padding-top: 4px; }
+.vocab-actions { display: flex; gap: 8px; margin-top: 12px; }
+.vocab-actions button { flex: 1; }
+details > summary { cursor: pointer; padding: 8px 0; }

@@ -31,6 +31,7 @@ const SHELL = [
   'js/ui/sound.js',
   'js/ui/speak.js',
   'js/ui/today.js',
+  'js/ui/words.js',
   'js/ui/widgets.js',
   'content/words.json',
   'content/nl/week-01.json',

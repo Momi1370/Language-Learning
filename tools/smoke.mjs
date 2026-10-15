@@ -7,6 +7,10 @@ import { readdir } from 'node:fs/promises';
 // The weeks that exist now; the first missing one must say "coming soon".
 const written = (await readdir(new URL('../content/nl/', import.meta.url)))
   .filter((f) => /^week-\d\d\.json$/.test(f)).map((f) => Number(f.slice(5, 7))).sort((a, b) => a - b);
+// The Words tab probes for pack-NN.json until one is missing; that one 404 is expected.
+const vocabCount = (await readdir(new URL('../content/vocab/', import.meta.url))).filter((f) => /^pack-\d\d\.json$/.test(f)).length;
+const noPack = [`pack-${String(vocabCount + 1).padStart(2, '0')}.json`];
+
 const server = await serve(0);
 const base = `http://127.0.0.1:${server.address().port}`;
 const b = await launch({ args: FAKE_MIC });
@@ -27,8 +31,8 @@ async function check(path, route, expectText, allowedErrors = []) {
 }
 
 try {
-  const routes = ['today', 'block/cards', 'block/sound', 'block/listen', 'block/speak', 'block/grammar', 'block/english', 'roleplay', 'progress', 'settings'];
-  for (const r of routes) await check(`index.html#/${r}`, r);
+  const routes = ['today', 'block/cards', 'block/sound', 'block/listen', 'block/speak', 'block/grammar', 'block/english', 'roleplay', 'progress', 'settings', 'words', 'words/list'];
+  for (const r of routes) await check(`index.html#/${r}`, r, null, r.startsWith('words') ? noPack : []);
   await check('tools/set-position.html?week=1&session=5&to=block/listen', 'block/listen', 'Limburg ear');
   await check('tools/set-position.html?week=1&session=5&to=block/speak', 'block/speak', 'Speaking diary');
   await check('tools/set-position.html?week=1&session=5&to=roleplay', 'roleplay', 'Copy prompt');
@@ -86,6 +90,41 @@ try {
   if (!whole) failed++;
   console.log(`${whole ? '✓' : '✗'} 🎯 Say it waits through a pause and hears the whole sentence`);
   if (!whole) console.log(`   - it showed: ${await b.evaluate(`document.querySelector('.check-result')?.textContent ?? '(nothing)'`)}`);
+
+  // Words tab: today's batch, "Teach me" makes a card, and reopening the tab shows the same batch.
+  const vocabState = `(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); return s; })()`;
+  await check('index.html#/words', 'words', 'I know it', noPack);
+  const text = await b.text();
+  const batch = await b.evaluate(`${vocabState}.vocab.day.ids.join()`);
+  const batchOk = batch.split(',').length === 5 && /Teach me/.test(text) && /\/.+\//.test(text);
+  if (!batchOk) failed++;
+  console.log(`${batchOk ? '✓' : '✗'} Words tab shows 5 words for today with IPA and the triage buttons (${batch})`);
+  await b.click('Teach me');
+  const taught = await b.evaluate(`Object.keys(${vocabState}.cards).filter((id) => /^v-/.test(id)).join()`);
+  const first = batch.split(',')[0];
+  const cardOk = taught === first;
+  if (!cardOk) failed++;
+  console.log(`${cardOk ? '✓' : '✗'} "Teach me" makes a card for the first word (${taught})`);
+  await check('index.html?again#/words', 'words', 'Today: 1 of 5 words done', noPack);
+  const same = (await b.evaluate(`${vocabState}.vocab.day.ids.join()`)) === batch;
+  if (!same) failed++;
+  console.log(`${same ? '✓' : '✗'} reopening the Words tab keeps the same batch`);
+  await check('index.html#/words/list', 'words/list', 'All words', noPack);
+
+  // The words fail to load: the Words tab explains and offers "Try again"; other screens keep working.
+  await b.block(['*content/vocab/*']);
+  await check('index.html?blocked#/words', 'words', 'Could not load the words', ['ERR_BLOCKED_BY_CLIENT', 'pack-0']);
+  await check('index.html#/progress', 'progress', 'Progress', ['ERR_BLOCKED_BY_CLIENT', 'pack-0']);
+  await b.block([]);
+
+  // Farsi hints off: the word page hides the Farsi note and translations but keeps the Farsi meaning.
+  await b.evaluate(`(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); s.settings.farsi = false; localStorage.setItem('taalmaatje.v1', JSON.stringify(s)); })()`);
+  await check('index.html?nofarsi#/words', 'words', 'I know it', noPack);
+  const farsiCount = await b.evaluate(`document.querySelectorAll('.card.vocab .fa').length`);
+  const hintsOff = farsiCount === 1;
+  if (!hintsOff) failed++;
+  console.log(`${hintsOff ? '✓' : '✗'} with Farsi hints off the word page keeps only the Farsi meaning (${farsiCount} Farsi line)`);
+  await b.evaluate(`(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); s.settings.farsi = true; localStorage.setItem('taalmaatje.v1', JSON.stringify(s)); })()`);
 
   // Leaving a line while recording must turn the microphone off.
   await check('tools/set-position.html?week=1&session=1&to=block/listen', 'block/listen', 'Line 1 of');

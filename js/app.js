@@ -1,9 +1,10 @@
 import { createStore } from './store.js';
 import { openDiary } from './diary.js';
 import { getVoices, pickVoice } from './speech.js';
-import { loadCourse, loadWords } from './content.js';
+import { loadCourse, loadWords, loadVocab } from './content.js';
 import { buildSession, finishSession } from './session.js';
 import { indexChunks, indexWords } from './cards.js';
+import { indexVocab } from './vocab.js';
 import { h, clear, button } from './ui/dom.js';
 import { stopAllRecording } from './ui/widgets.js';
 import * as today from './ui/today.js';
@@ -17,6 +18,7 @@ import * as english from './ui/english.js';
 import * as roleplay from './ui/roleplay.js';
 import * as progress from './ui/progress.js';
 import * as settings from './ui/settings.js';
+import * as wordsUi from './ui/words.js';
 
 const root = document.getElementById('app');
 let storage = null;
@@ -27,6 +29,8 @@ const routes = {
   today: today.render,
   progress: progress.render,
   settings: settings.render,
+  words: wordsUi.render,
+  'words/list': wordsUi.renderList,
   roleplay: roleplay.render,
   'block/cards': cards.render,
   'block/sound': sound.render,
@@ -46,6 +50,8 @@ const ctx = {
   chunkIndex: {},
   wordIndex: {},
   words: null,
+  vocab: null,
+  vocabIndex: {},
   voices: { nl: null, en: null },
   allVoices: [],
   diary: null,
@@ -80,7 +86,14 @@ const ctx = {
     }
     return ctx.words;
   },
-  cardSources: () => ({ chunkIndex: ctx.chunkIndex, wordIndex: ctx.wordIndex, myPhrases: ctx.state.myPhrases }),
+  async getVocab() {
+    if (!ctx.vocab || ctx.vocab.error) {
+      ctx.vocab = await loadVocab();
+      ctx.vocabIndex = indexVocab(ctx.vocab.packs);
+    }
+    return ctx.vocab;
+  },
+  cardSources: () => ({ chunkIndex: ctx.chunkIndex, wordIndex: ctx.wordIndex, myPhrases: ctx.state.myPhrases, vocabIndex: ctx.vocabIndex }),
   pickVoices() {
     const s = ctx.state.settings;
     ctx.voices = { nl: pickVoice(ctx.allVoices, 'nl', s.voiceNl), en: pickVoice(ctx.allVoices, 'en', s.voiceEn) };
