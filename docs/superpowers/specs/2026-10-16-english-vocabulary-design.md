@@ -1,7 +1,7 @@
 # Taalmaatje — English Vocabulary (Words tab) Design Spec
 
 - **Date:** 2026-10-16
-- **Status:** Draft, waiting for learner review
+- **Status:** Approved by the learner 2026-10-16; milestone 1 (engine + pack 1) implemented
 - **Repo:** `Momi1370/Language-Learning`
 - **Builds on:** `2026-10-05-taalmaatje-course-design.md` (same app, same card system)
 
@@ -197,3 +197,6 @@ Each milestone ends with validator, tests and smoke passing, a fresh-reviewer pa
 | 2026-10-16 | Vocabulary reviews appear in the Cards block, capped at 10 per session |
 | 2026-10-16 | IPA is American, taken from CMUdict (never hand-typed); a test keeps the stress in line with the British voice |
 | 2026-10-16 | `content/vocab/` is CC BY-SA 4.0 because of the NGSL word list; code stays MIT |
+| 2026-10-16 | Words in a list row: undecided words also get "I know it" next to "Teach me" (so the learner can jump ahead); learning words have no triage buttons |
+| 2026-10-16 | Packs marked `"draft": true` are skipped by the app and by the 100-word minimum while a pack is being written |
+| 2026-10-16 | A word may carry `"cmu": "lead(2)"` to pick a dictionary variant (the first CMU entry of "lead" is the metal, not the verb) |

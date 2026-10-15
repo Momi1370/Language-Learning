@@ -29,3 +29,9 @@ Lessons live in `content/<lang>/week-NN.json`; the format is in `docs/superpower
 - Extra word list from [woorden](https://github.com/iamsergeyka/woorden) (MIT).
 - Scheduling by [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) (MIT).
 - See `THIRD_PARTY_NOTICES.md` and `content/SOURCES.md`.
+
+## Words (English vocabulary)
+
+The **Words** tab teaches everyday English words: pronunciation (IPA, American), a Farsi meaning and note, and two or more current example sentences with Farsi translations. Each day it shows a few new words; **Teach me** turns one into a flashcard that is reviewed in the Cards block (at most 10 vocabulary cards per session).
+
+Packs live in `content/vocab/` (CC BY-SA 4.0; word choice from the NGSL-Spoken list, IPA from the CMU Pronouncing Dictionary — see `content/vocab/README.md`). `node tools/vocab-ipa.mjs <pack> <cmudict.dict>` fills the IPA; `npm run validate` checks every pack.
