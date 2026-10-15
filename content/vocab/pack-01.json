@@ -850,6 +850,881 @@
       ],
       "register": "neutral",
       "ipa": "ˈfɪɡjɚ ˈaʊt"
+    },
+    {
+      "id": "v-0031",
+      "word": "worry",
+      "pos": "verb",
+      "forms": [
+        "worry",
+        "worries",
+        "worried",
+        "worrying"
+      ],
+      "stress": [
+        "WUR-ee"
+      ],
+      "fa": {
+        "meaning": "نگران بودن؛ نگران کردن",
+        "note": "worry فعلی بدون مفعول است: «Don't worry» = «نگران نباش». با about می‌آید: I'm worried about … = «درباره‌ی … نگرانم». worry اسم هم هست («نگرانی»)."
+      },
+      "examples": [
+        {
+          "text": "Don't worry, I'll send the details tonight.",
+          "fa": "نگران نباش، جزئیات را امشب می‌فرستم."
+        },
+        {
+          "text": "She's worried about her exam results.",
+          "fa": "او درباره‌ی نتیجه‌ی آزمونش نگران است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈwɝi"
+    },
+    {
+      "id": "v-0032",
+      "word": "absolutely",
+      "pos": "adverb",
+      "forms": [
+        "absolutely"
+      ],
+      "stress": [
+        "ab-suh-LOOT-lee"
+      ],
+      "fa": {
+        "meaning": "کاملاً؛ قطعاً؛ (در جواب) حتماً!",
+        "note": "برای تأکید روی «کاملاً». به‌تنهایی جواب مثبت قوی است: «Do you agree? — Absolutely!». با صفت‌های قوی مثل amazing یا impossible می‌آید؛ «absolutely very» نمی‌گوییم."
+      },
+      "examples": [
+        {
+          "text": "Absolutely, I'd love to join you for lunch.",
+          "fa": "حتماً، خیلی دوست دارم برای ناهار همراهتان بیایم."
+        },
+        {
+          "text": "That's absolutely not what I meant.",
+          "fa": "منظورم اصلاً این نبود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌæbsəˈlutli"
+    },
+    {
+      "id": "v-0033",
+      "word": "policy",
+      "pos": "noun",
+      "forms": [
+        "policy",
+        "policies"
+      ],
+      "stress": [
+        "POL-uh-see"
+      ],
+      "fa": {
+        "meaning": "سیاست؛ مقررات؛ خط‌مشی",
+        "note": "policy یعنی قانون یا رویه‌ی رسمی یک سازمان: company policy، privacy policy. با politics (سیاست به معنی حکومت) و police (پلیس) اشتباه نشود."
+      },
+      "examples": [
+        {
+          "text": "Our company policy allows working from home on Fridays.",
+          "fa": "سیاست شرکت ما اجازه می‌دهد جمعه‌ها از خانه کار کنیم."
+        },
+        {
+          "text": "Did you read the new privacy policy?",
+          "fa": "سیاست حفظ حریم خصوصیِ جدید را خواندی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈpɑləsi"
+    },
+    {
+      "id": "v-0034",
+      "word": "provide",
+      "pos": "verb",
+      "forms": [
+        "provide",
+        "provides",
+        "provided",
+        "providing"
+      ],
+      "stress": [
+        "pruh-VIDE"
+      ],
+      "fa": {
+        "meaning": "فراهم کردن؛ ارائه دادن؛ تأمین کردن",
+        "note": "provide something for someone یا provide someone with something: «The hotel provides free breakfast». کمی رسمی‌تر از give است. حرف اضافه‌ی with را فراموش نکن."
+      },
+      "examples": [
+        {
+          "text": "The hotel provides free breakfast for all guests.",
+          "fa": "هتل برای همه‌ی مهمان‌ها صبحانه‌ی رایگان فراهم می‌کند."
+        },
+        {
+          "text": "Could you provide a few more details?",
+          "fa": "می‌توانید چند جزئیات بیشتر ارائه دهید؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "pɹəˈvaɪd"
+    },
+    {
+      "id": "v-0035",
+      "word": "comment",
+      "pos": "noun",
+      "forms": [
+        "comment",
+        "comments"
+      ],
+      "stress": [
+        "KOM-ent"
+      ],
+      "fa": {
+        "meaning": "نظر؛ کامنت؛ اظهارنظر",
+        "note": "comment اسم: leave a comment (زیر یک پست). فعل comment on = «درباره‌ی چیزی نظر دادن». فرق با opinion: comment معمولاً یک اظهارنظر کوتاه است. استرس اسم روی هجای اول است."
+      },
+      "examples": [
+        {
+          "text": "Thanks for the helpful comment on my draft.",
+          "fa": "ممنون از نظر مفیدی که روی پیش‌نویسم دادی."
+        },
+        {
+          "text": "People left hundreds of comments under that video.",
+          "fa": "مردم زیر آن ویدیو صدها کامنت گذاشتند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkɑmɛnt"
+    },
+    {
+      "id": "v-0036",
+      "word": "cover",
+      "pos": "verb",
+      "forms": [
+        "cover",
+        "covers",
+        "covered",
+        "covering"
+      ],
+      "stress": [
+        "KUV-er"
+      ],
+      "fa": {
+        "meaning": "پوشاندن؛ شامل شدن؛ پرداخت کردن؛ جایگزین شدن",
+        "note": "cover چند معنی رایج دارد: پوشاندن (cover the pot)، شامل شدن/پرداختن به موضوع (the course covers…)، پرداخت کردن (the insurance covers it)، و جای کسی کار کردن (cover my shift)."
+      },
+      "examples": [
+        {
+          "text": "The course covers everything from basic grammar to writing.",
+          "fa": "این دوره همه‌چیز را از گرامر پایه تا نوشتن پوشش می‌دهد."
+        },
+        {
+          "text": "Can you cover my shift on Saturday?",
+          "fa": "می‌توانی شنبه جای من سر شیفت بروی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkʌvɚ"
+    },
+    {
+      "id": "v-0037",
+      "word": "difference",
+      "pos": "noun",
+      "forms": [
+        "difference",
+        "differences"
+      ],
+      "stress": [
+        "DIF-er-ens"
+      ],
+      "fa": {
+        "meaning": "تفاوت؛ فرق",
+        "note": "the difference between A and B. «make a difference» = «تأثیر داشتن». «It makes no difference» = «فرقی نمی‌کند». صفتش different است."
+      },
+      "examples": [
+        {
+          "text": "What's the difference between these two phones?",
+          "fa": "فرق این دو گوشی چیست؟"
+        },
+        {
+          "text": "Small habits can make a big difference over time.",
+          "fa": "عادت‌های کوچک در طول زمان می‌توانند تأثیر بزرگی بگذارند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈdɪfɚəns"
+    },
+    {
+      "id": "v-0038",
+      "word": "allow",
+      "pos": "verb",
+      "forms": [
+        "allow",
+        "allows",
+        "allowed",
+        "allowing"
+      ],
+      "stress": [
+        "uh-LOW"
+      ],
+      "fa": {
+        "meaning": "اجازه دادن",
+        "note": "allow someone to + فعل: «They allow us to bring laptops». مجهول: be allowed to = «اجازه داشتن». فرق با let: بعد از let مصدر بدون to می‌آید (let me go)."
+      },
+      "examples": [
+        {
+          "text": "They don't allow dogs inside the café.",
+          "fa": "اجازه نمی‌دهند سگ داخل کافه بیاید."
+        },
+        {
+          "text": "Are we allowed to use our phones during the exam?",
+          "fa": "آیا مجازیم در آزمون از گوشی استفاده کنیم؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈlaʊ"
+    },
+    {
+      "id": "v-0039",
+      "word": "experience",
+      "pos": "noun",
+      "forms": [
+        "experience",
+        "experiences",
+        "experienced"
+      ],
+      "stress": [
+        "ik-SPEER-ee-ens"
+      ],
+      "fa": {
+        "meaning": "تجربه؛ سابقه",
+        "note": "وقتی «سابقه‌ی کار» باشد غیرقابل‌شمارش است و s نمی‌گیرد: «two years of experience». وقتی «یک تجربه» باشد قابل‌شمارش است: «It was a great experience». فعل هم هست."
+      },
+      "examples": [
+        {
+          "text": "I have two years of experience in logistics.",
+          "fa": "من دو سال سابقه‌ی کار در لجستیک دارم."
+        },
+        {
+          "text": "Studying abroad was an amazing experience for me.",
+          "fa": "تحصیل در خارج از کشور برای من تجربه‌ی فوق‌العاده‌ای بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪkˈspɪɹiəns"
+    },
+    {
+      "id": "v-0040",
+      "word": "decision",
+      "pos": "noun",
+      "forms": [
+        "decision",
+        "decisions"
+      ],
+      "stress": [
+        "dih-SIZH-un"
+      ],
+      "fa": {
+        "meaning": "تصمیم",
+        "note": "تصمیم گرفتن = make a decision (در بریتانیایی take a decision هم می‌شنوی). فعلش decide است. تلفظ: حرف s در وسط شبیه «ژ» است."
+      },
+      "examples": [
+        {
+          "text": "It was a tough decision, but I think it's right.",
+          "fa": "تصمیم سختی بود، ولی فکر می‌کنم درست است."
+        },
+        {
+          "text": "We need to make a decision by Friday.",
+          "fa": "باید تا جمعه تصمیم بگیریم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "dɪˈsɪʒən"
+    },
+    {
+      "id": "v-0041",
+      "word": "stick",
+      "pos": "verb",
+      "forms": [
+        "stick",
+        "sticks",
+        "stuck",
+        "sticking"
+      ],
+      "stress": [
+        "STICK"
+      ],
+      "fa": {
+        "meaning": "چسبیدن؛ پایبند ماندن (stick to)",
+        "note": "stick to a plan = «به برنامه پایبند ماندن». stuck = «گیر کرده» (I'm stuck in traffic). گذشته‌ی stick می‌شود stuck. stick اسم هم هست («چوب»)."
+      },
+      "examples": [
+        {
+          "text": "I'm trying to stick to my study plan this month.",
+          "fa": "سعی می‌کنم این ماه به برنامه‌ی درسی‌ام پایبند بمانم."
+        },
+        {
+          "text": "The label won't stick to the wet bottle.",
+          "fa": "برچسب به بطری خیس نمی‌چسبد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈstɪk"
+    },
+    {
+      "id": "v-0042",
+      "word": "pass",
+      "pos": "verb",
+      "forms": [
+        "pass",
+        "passes",
+        "passed",
+        "passing"
+      ],
+      "stress": [
+        "PASS"
+      ],
+      "fa": {
+        "meaning": "قبول شدن؛ رد کردن (چیزی را به کسی)؛ عبور کردن",
+        "note": "pass an exam = «در امتحان قبول شدن» (رد شدن در امتحان = fail؛ فریب فعل فارسی «رد شدن» را نخور!). pass me the salt = «نمک را بده». زمان هم می‌گذرد: time passes."
+      },
+      "examples": [
+        {
+          "text": "I finally passed my driving test on the second try.",
+          "fa": "بالاخره در تلاش دوم امتحان رانندگی‌ام را قبول شدم."
+        },
+        {
+          "text": "Could you pass me that charger, please?",
+          "fa": "می‌شود آن شارژر را به من بدهید؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈpæs"
+    },
+    {
+      "id": "v-0043",
+      "word": "carry",
+      "pos": "verb",
+      "forms": [
+        "carry",
+        "carries",
+        "carried",
+        "carrying"
+      ],
+      "stress": [
+        "KAR-ee"
+      ],
+      "fa": {
+        "meaning": "حمل کردن؛ با خود داشتن",
+        "note": "carry یعنی چیزی را با دست یا کیف جابه‌جا کردن. carry on = «ادامه دادن». carry out = «انجام دادن». برخلاف bring و take جهتی ندارد."
+      },
+      "examples": [
+        {
+          "text": "Can you carry these bags to the car?",
+          "fa": "می‌توانی این کیف‌ها را تا ماشین ببری؟"
+        },
+        {
+          "text": "Please carry on, I didn't mean to interrupt.",
+          "fa": "لطفاً ادامه بدهید، قصد نداشتم حرفتان را قطع کنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkæɹi"
+    },
+    {
+      "id": "v-0044",
+      "word": "response",
+      "pos": "noun",
+      "forms": [
+        "response",
+        "responses"
+      ],
+      "stress": [
+        "ri-SPONS"
+      ],
+      "fa": {
+        "meaning": "پاسخ؛ واکنش",
+        "note": "response اسم: «We're waiting for a response» (پاسخ به ایمیل یا درخواست). کمی رسمی‌تر از answer است. فعلش respond است. in response to = «در پاسخ به»."
+      },
+      "examples": [
+        {
+          "text": "I'm still waiting for a response from the landlord.",
+          "fa": "هنوز منتظر پاسخ صاحب‌خانه هستم."
+        },
+        {
+          "text": "Thanks for your quick response to my question.",
+          "fa": "ممنون از پاسخ سریعتان به سؤال من."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɹɪˈspɑns"
+    },
+    {
+      "id": "v-0045",
+      "word": "include",
+      "pos": "verb",
+      "forms": [
+        "include",
+        "includes",
+        "included",
+        "including"
+      ],
+      "stress": [
+        "in-KLOOD"
+      ],
+      "fa": {
+        "meaning": "شامل بودن",
+        "note": "include یعنی چیزی بخشی از یک مجموعه باشد: «The price includes tax». مجهول: be included. ضدش exclude است. معمولاً فعل ساده می‌آید: includes، نه is including."
+      },
+      "examples": [
+        {
+          "text": "The price includes breakfast and a free parking spot.",
+          "fa": "قیمت شامل صبحانه و یک جای پارک رایگان است."
+        },
+        {
+          "text": "Does the ticket include a return trip?",
+          "fa": "آیا بلیت شامل سفر برگشت هم می‌شود؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɪnˈklud"
+    },
+    {
+      "id": "v-0046",
+      "word": "suggest",
+      "pos": "verb",
+      "forms": [
+        "suggest",
+        "suggests",
+        "suggested",
+        "suggesting"
+      ],
+      "stress": [
+        "suh-JEST"
+      ],
+      "fa": {
+        "meaning": "پیشنهاد دادن",
+        "note": "بعد از suggest مصدر با to نمی‌آید: «I suggest meeting earlier» یا «I suggest we meet earlier»، نه «suggest to meet». برای نظر دادن مؤدبانه خوب است."
+      },
+      "examples": [
+        {
+          "text": "I suggest we start the meeting a bit earlier.",
+          "fa": "پیشنهاد می‌کنم جلسه را کمی زودتر شروع کنیم."
+        },
+        {
+          "text": "She suggested trying the new place down the street.",
+          "fa": "او پیشنهاد کرد جای جدید سر خیابان را امتحان کنیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "səˈdʒɛst"
+    },
+    {
+      "id": "v-0047",
+      "word": "although",
+      "pos": "conjunction",
+      "forms": [
+        "although"
+      ],
+      "stress": [
+        "awl-THOH"
+      ],
+      "fa": {
+        "meaning": "اگرچه؛ با اینکه",
+        "note": "although یک جمله‌ی وابسته می‌سازد: «Although it was late, we kept working». مثل فارسی «اگرچه … ولی» نمی‌گوییم although … but؛ فقط یکی. though غیررسمی‌تر است."
+      },
+      "examples": [
+        {
+          "text": "Although it was late, we kept working on it.",
+          "fa": "با اینکه دیر شده بود، به کار روی آن ادامه دادیم."
+        },
+        {
+          "text": "I enjoyed the film, although the ending was weak.",
+          "fa": "از فیلم لذت بردم، هرچند پایانش ضعیف بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɔlˈðoʊ"
+    },
+    {
+      "id": "v-0048",
+      "word": "amount",
+      "pos": "noun",
+      "forms": [
+        "amount",
+        "amounts"
+      ],
+      "stress": [
+        "uh-MOUNT"
+      ],
+      "fa": {
+        "meaning": "مقدار؛ میزان؛ مبلغ",
+        "note": "amount of + اسم غیرقابل‌شمارش: a large amount of money/time. برای اسم‌های قابل‌شمارش از number of استفاده کن: a number of people."
+      },
+      "examples": [
+        {
+          "text": "I spend a large amount of time on my phone.",
+          "fa": "مقدار زیادی از زمانم را پای گوشی می‌گذرانم."
+        },
+        {
+          "text": "The total amount is due at the end of the month.",
+          "fa": "کل مبلغ آخر ماه باید پرداخت شود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈmaʊnt"
+    },
+    {
+      "id": "v-0049",
+      "word": "save",
+      "pos": "verb",
+      "forms": [
+        "save",
+        "saves",
+        "saved",
+        "saving"
+      ],
+      "stress": [
+        "SAVE"
+      ],
+      "fa": {
+        "meaning": "ذخیره کردن؛ پس‌انداز کردن؛ صرفه‌جویی کردن؛ نجات دادن",
+        "note": "save money = پول جمع کردن، save time = در وقت صرفه‌جویی کردن، save a file = فایل را ذخیره کردن، save someone = نجات دادن. save up for = برای چیزی پس‌انداز کردن."
+      },
+      "examples": [
+        {
+          "text": "Taking the train saves me a lot of time.",
+          "fa": "با قطار رفتن کلی در وقتم صرفه‌جویی می‌کند."
+        },
+        {
+          "text": "Don't forget to save the file before you close it.",
+          "fa": "فراموش نکن فایل را قبل از بستن ذخیره کنی."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈseɪv"
+    },
+    {
+      "id": "v-0050",
+      "word": "miss",
+      "pos": "verb",
+      "forms": [
+        "miss",
+        "misses",
+        "missed",
+        "missing"
+      ],
+      "stress": [
+        "MISS"
+      ],
+      "fa": {
+        "meaning": "از دست دادن؛ نرسیدن به؛ دلتنگ بودن",
+        "note": "miss the bus = «به اتوبوس نرسیدن». I miss you = «دلم برایت تنگ شده». miss a class = «کلاس را از دست دادن». ساختار «miss someone» برعکسِ جمله‌ی فارسی است: «من تو را miss می‌کنم»."
+      },
+      "examples": [
+        {
+          "text": "I missed the last bus and had to walk home.",
+          "fa": "به آخرین اتوبوس نرسیدم و مجبور شدم پیاده به خانه بروم."
+        },
+        {
+          "text": "I really miss my family when I am studying abroad.",
+          "fa": "وقتی در خارج درس می‌خوانم خیلی دلم برای خانواده‌ام تنگ می‌شود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈmɪs"
+    },
+    {
+      "id": "v-0051",
+      "word": "raise",
+      "pos": "verb",
+      "forms": [
+        "raise",
+        "raises",
+        "raised",
+        "raising"
+      ],
+      "stress": [
+        "RAIZE"
+      ],
+      "fa": {
+        "meaning": "بالا بردن؛ مطرح کردن؛ جمع کردن (پول)",
+        "note": "raise a question = «سؤال مطرح کردن»، raise money = «پول جمع کردن»، raise prices = «قیمت را بالا بردن». raise مفعول می‌خواهد؛ rise بدون مفعول است (prices rise). raise a child = «بزرگ کردن بچه»."
+      },
+      "examples": [
+        {
+          "text": "Can I raise a quick question about the schedule?",
+          "fa": "می‌توانم یک سؤال کوتاه درباره‌ی برنامه مطرح کنم؟"
+        },
+        {
+          "text": "Our team raised five thousand euros for the charity.",
+          "fa": "تیم ما پنج هزار یورو برای خیریه جمع کرد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɹeɪz"
+    },
+    {
+      "id": "v-0052",
+      "word": "discuss",
+      "pos": "verb",
+      "forms": [
+        "discuss",
+        "discusses",
+        "discussed",
+        "discussing"
+      ],
+      "stress": [
+        "dis-KUS"
+      ],
+      "fa": {
+        "meaning": "بحث کردن درباره‌ی؛ گفتگو کردن",
+        "note": "تله‌ی فارسی‌زبان‌ها: بعد از discuss حرف اضافه‌ی about نمی‌آید! درست: «We discussed the plan». نادرست: «We discussed about the plan». اسمش discussion است و بعد از آن about می‌آید."
+      },
+      "examples": [
+        {
+          "text": "We need to discuss the budget before Friday.",
+          "fa": "باید قبل از جمعه درباره‌ی بودجه بحث کنیم."
+        },
+        {
+          "text": "Let's discuss it over lunch instead of by email.",
+          "fa": "بیا به‌جای ایمیل سر ناهار دربارش حرف بزنیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "dɪˈskʌs"
+    },
+    {
+      "id": "v-0053",
+      "word": "pull",
+      "pos": "verb",
+      "forms": [
+        "pull",
+        "pulls",
+        "pulled",
+        "pulling"
+      ],
+      "stress": [
+        "PULL"
+      ],
+      "fa": {
+        "meaning": "کشیدن؛ بیرون کشیدن",
+        "note": "pull = کشیدن (روی در می‌نویسند Pull، مقابل Push). pull over = «ماشین را کنار زدن». pull an all-nighter = «تمام شب را بیدار ماندن (برای درس)» در زبان دانشجویی."
+      },
+      "examples": [
+        {
+          "text": "The door says pull, not push.",
+          "fa": "روی در نوشته کشیدن، نه هل دادن."
+        },
+        {
+          "text": "I had to pull an all-nighter to finish the report.",
+          "fa": "برای تمام کردن گزارش مجبور شدم تمام شب بیدار بمانم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈpʊl"
+    },
+    {
+      "id": "v-0054",
+      "word": "consider",
+      "pos": "verb",
+      "forms": [
+        "consider",
+        "considers",
+        "considered",
+        "considering"
+      ],
+      "stress": [
+        "kun-SID-er"
+      ],
+      "fa": {
+        "meaning": "در نظر گرفتن؛ فکر کردن درباره‌ی",
+        "note": "بعد از consider اسم یا فعل با -ing می‌آید: «I'm considering moving» (نه consider to move). «Thanks for considering my application» در نامه‌ی کاری خیلی رایج است."
+      },
+      "examples": [
+        {
+          "text": "I'm considering moving to a smaller apartment.",
+          "fa": "دارم به نقل‌مکان به یک آپارتمان کوچک‌تر فکر می‌کنم."
+        },
+        {
+          "text": "Please consider all the options before you decide.",
+          "fa": "لطفاً قبل از تصمیم‌گیری همه‌ی گزینه‌ها را در نظر بگیر."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "kənˈsɪdɚ"
+    },
+    {
+      "id": "v-0055",
+      "word": "increase",
+      "pos": "verb",
+      "forms": [
+        "increase",
+        "increases",
+        "increased",
+        "increasing"
+      ],
+      "stress": [
+        "in-KREES"
+      ],
+      "fa": {
+        "meaning": "افزایش یافتن؛ افزایش دادن",
+        "note": "increase هم فعل است هم اسم: فعل in-KREES، اسم IN-krees. «Prices increased by 5%» (by = به اندازه‌ی). مقابلش decrease یا reduce است."
+      },
+      "examples": [
+        {
+          "text": "Rent has increased a lot over the past year.",
+          "fa": "اجاره‌بها در سال گذشته خیلی بالا رفته است."
+        },
+        {
+          "text": "They plan to increase the number of study rooms.",
+          "fa": "آن‌ها قصد دارند تعداد اتاق‌های مطالعه را بیشتر کنند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɪnˈkɹis"
+    },
+    {
+      "id": "v-0056",
+      "word": "budget",
+      "pos": "noun",
+      "forms": [
+        "budget",
+        "budgets"
+      ],
+      "stress": [
+        "BUJ-it"
+      ],
+      "fa": {
+        "meaning": "بودجه",
+        "note": "on a budget = «با پول کم». within budget = «در حد بودجه». فعل هم هست: budget for something. تلفظ: حرف d قبل از g شبیه «ج» می‌شود (BUJ-it)."
+      },
+      "examples": [
+        {
+          "text": "We're on a tight budget this month.",
+          "fa": "این ماه بودجه‌ی تنگی داریم."
+        },
+        {
+          "text": "Is a new laptop within your budget?",
+          "fa": "آیا یک لپ‌تاپ جدید در بودجه‌ی تو می‌گنجد؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈbʌdʒɪt"
+    },
+    {
+      "id": "v-0057",
+      "word": "depend",
+      "pos": "verb",
+      "forms": [
+        "depend",
+        "depends",
+        "depended",
+        "depending"
+      ],
+      "stress": [
+        "dih-PEND"
+      ],
+      "fa": {
+        "meaning": "بستگی داشتن",
+        "note": "«It depends.» = «بستگی دارد.» با on: It depends on the weather. وقتی بعد از on یک جمله بیاید: depends on whether … (نه depends if)."
+      },
+      "examples": [
+        {
+          "text": "It depends on how much time we have.",
+          "fa": "بستگی دارد چقدر وقت داشته باشیم."
+        },
+        {
+          "text": "I might go, but it depends on the weather.",
+          "fa": "شاید بروم، ولی بستگی به آب‌وهوا دارد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "dɪˈpɛnd"
+    },
+    {
+      "id": "v-0058",
+      "word": "notice",
+      "pos": "verb",
+      "forms": [
+        "notice",
+        "notices",
+        "noticed",
+        "noticing"
+      ],
+      "stress": [
+        "NOH-tis"
+      ],
+      "fa": {
+        "meaning": "متوجه شدن؛ دیدن",
+        "note": "notice یعنی چیزی را ناگهان یا بدون قصد دیدن: «Did you notice the typo?». با look at فرق دارد: look at از روی اراده است. اسم هم هست: «short notice» = «اطلاع کوتاه»، notice board = «تابلوی اعلانات»."
+      },
+      "examples": [
+        {
+          "text": "Did you notice the typo on the first slide?",
+          "fa": "غلط تایپی اسلاید اول را دیدی؟"
+        },
+        {
+          "text": "I didn't notice you were waiting for me.",
+          "fa": "متوجه نشدم منتظرم هستی."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈnoʊtəs"
+    },
+    {
+      "id": "v-0059",
+      "word": "chance",
+      "pos": "noun",
+      "forms": [
+        "chance",
+        "chances"
+      ],
+      "stress": [
+        "CHANCE"
+      ],
+      "fa": {
+        "meaning": "فرصت؛ احتمال؛ شانس",
+        "note": "chance هم «فرصت» است (give me a chance) و هم «احتمال» (a good chance of rain). by chance = «تصادفاً». «Is there any chance …?» پرسشی مؤدبانه است."
+      },
+      "examples": [
+        {
+          "text": "Thanks for giving me a chance to explain.",
+          "fa": "ممنون که به من فرصت توضیح دادی."
+        },
+        {
+          "text": "There's a good chance it'll rain this weekend.",
+          "fa": "احتمال زیادی دارد آخر هفته باران ببارد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtʃæns"
+    },
+    {
+      "id": "v-0060",
+      "word": "standard",
+      "pos": "noun",
+      "forms": [
+        "standard",
+        "standards"
+      ],
+      "stress": [
+        "STAN-derd"
+      ],
+      "fa": {
+        "meaning": "استاندارد؛ معیار؛ سطح کیفیت؛ معمولی",
+        "note": "اسم: high standards = «معیارهای بالا». صفت هم هست: standard size = «اندازه‌ی معمولی». استرس روی هجای اول است."
+      },
+      "examples": [
+        {
+          "text": "This hotel has very high standards of cleanliness.",
+          "fa": "این هتل معیارهای بسیار بالایی برای تمیزی دارد."
+        },
+        {
+          "text": "The standard delivery time is three to five days.",
+          "fa": "زمان معمول ارسال سه تا پنج روز است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈstændɚd"
     }
   ]
 }
