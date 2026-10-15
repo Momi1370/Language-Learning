@@ -22,6 +22,7 @@ test('every lesson file is in the offline list (the app must open offline after 
   for (const lang of ['nl', 'en']) {
     for (const f of await readdir(new URL(`content/${lang}/`, root))) if (/^week-\d\d\.json$/.test(f)) files.push(`content/${lang}/${f}`);
   }
+  for (const f of await readdir(new URL('content/vocab/', root))) if (/^pack-\d\d\.json$/.test(f)) files.push(`content/vocab/${f}`);
   for (const f of files) assert.ok(shell.includes(f), `${f} is missing from SHELL in sw.js`);
 });
 
