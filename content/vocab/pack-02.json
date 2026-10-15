@@ -655,7 +655,7 @@
         },
         {
           "text": "She pointed out that we were already over budget.",
-          "fa": "او اشاره کرد که الان هم از بودجه زده‌ایم بالاتر."
+          "fa": "او اشاره کرد که همین حالا هم از بودجه فراتر رفته‌ایم."
         }
       ],
       "register": "neutral",
@@ -861,7 +861,7 @@
       "examples": [
         {
           "text": "It's hard to keep up with all the new apps.",
-          "fa": "پا‌به‌پای همه‌ی اپ‌های جدید رفتن سخت است."
+          "fa": "همگام ماندن با همه‌ی اپ‌های جدید سخت است."
         },
         {
           "text": "He talks so fast that I can't keep up with him.",
@@ -1005,7 +1005,7 @@
         "BRAKE DOWN"
       ],
       "fa": {
-        "meaning": "خراب شدن (ماشین یا دستگاه)؛ تجزیه کردن؛ از پا درآمدن",
+        "meaning": "خراب شدن (ماشین یا دستگاه)؛ تجزیه کردن؛ بخش‌بخش کردن",
         "note": "ماشین یا دستگاه از کار افتادن: «My car broke down on the highway». معنی دیگر: چیزی را بخش‌بخش کردن: «break the costs down». اسمش breakdown است."
       },
       "examples": [
@@ -2523,8 +2523,8 @@
           "fa": "عجیب نیست که خسته‌ای؛ فقط چهار ساعت خوابیده‌ای."
         },
         {
-          "text": "It's raining again, so no wonder the streets are empty.",
-          "fa": "باز باران می‌آید، پس عجیب نیست که خیابان‌ها خالی است."
+          "text": "It's pouring outside, so it's no wonder the streets are empty.",
+          "fa": "بیرون باران شدیدی می‌بارد، پس عجیب نیست که خیابان‌ها خالی است."
         }
       ],
       "register": "informal",
