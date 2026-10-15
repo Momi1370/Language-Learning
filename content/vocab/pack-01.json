@@ -1,0 +1,855 @@
+{
+  "pack": 1,
+  "draft": true,
+  "source": "Word choice: NGSL-Spoken 1.2 (Browne & Culligan, CC BY-SA 4.0, newgeneralservicelist.com). IPA: CMU Pronouncing Dictionary (American English).",
+  "words": [
+    {
+      "id": "v-0001",
+      "word": "stuff",
+      "pos": "noun",
+      "forms": [
+        "stuff"
+      ],
+      "stress": [
+        "STUFF"
+      ],
+      "fa": {
+        "meaning": "چیزها؛ وسایل",
+        "note": "اسم غیرقابل‌شمارش و غیررسمی: s نمی‌گیرد و «a stuff» نمی‌گوییم. برای چیزهایی که اسمشان را نمی‌دانیم یا مهم نیست: my stuff = «وسایل من»، this stuff = «این چیزها»."
+      },
+      "examples": [
+        {
+          "text": "I left all my stuff in the car.",
+          "fa": "همه‌ی وسایلم را توی ماشین جا گذاشتم."
+        },
+        {
+          "text": "There is so much stuff to do before the trip.",
+          "fa": "قبل از سفر کلی کار برای انجام دادن هست."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈstʌf"
+    },
+    {
+      "id": "v-0002",
+      "word": "anyway",
+      "pos": "adverb",
+      "forms": [
+        "anyway"
+      ],
+      "stress": [
+        "EN-ee-way"
+      ],
+      "fa": {
+        "meaning": "به هر حال؛ در هر صورت؛ خب (برای عوض کردن بحث)",
+        "note": "در گفتار روزمره خیلی می‌شنوی: وقتی می‌خواهی بحث را عوض کنی یا به موضوع اصلی برگردی («Anyway, back to the point»). همچنین یعنی «با این‌حال، با وجود این»."
+      },
+      "examples": [
+        {
+          "text": "Anyway, I should get back to work now.",
+          "fa": "به هر حال، من باید الان برگردم سر کارم."
+        },
+        {
+          "text": "It might rain, but we're going anyway.",
+          "fa": "ممکن است باران بیاید، ولی ما به هر حال می‌رویم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈɛniˌweɪ"
+    },
+    {
+      "id": "v-0003",
+      "word": "issue",
+      "pos": "noun",
+      "forms": [
+        "issue",
+        "issues"
+      ],
+      "stress": [
+        "ISH-oo"
+      ],
+      "fa": {
+        "meaning": "مشکل؛ موضوع؛ مسئله",
+        "note": "issue هم «مشکل» است (نرم‌تر از problem، مخصوصاً در کار) و هم «موضوع مهم برای بحث». در کار و دانشگاه زیاد می‌شنوی: «there's an issue with…». ترکیب‌های رایج: raise an issue، solve an issue."
+      },
+      "examples": [
+        {
+          "text": "We have an issue with the payment page.",
+          "fa": "ما با صفحه‌ی پرداخت مشکل داریم."
+        },
+        {
+          "text": "Climate change is a big issue for my generation.",
+          "fa": "تغییرات اقلیمی برای نسل من موضوع بزرگی است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɪʃu"
+    },
+    {
+      "id": "v-0004",
+      "word": "guess",
+      "pos": "verb",
+      "forms": [
+        "guess",
+        "guesses",
+        "guessed",
+        "guessing"
+      ],
+      "stress": [
+        "GESS"
+      ],
+      "fa": {
+        "meaning": "حدس زدن؛ فکر کردن (غیررسمی)",
+        "note": "I guess یعنی «فکر کنم، گمانم» و در مکالمه خیلی می‌آید: «I guess so» = «فکر کنم همین‌طور باشد». «Guess what?» برای شروع یک خبر است."
+      },
+      "examples": [
+        {
+          "text": "I guess we could meet after the lecture.",
+          "fa": "فکر کنم بتوانیم بعد از کلاس همدیگر را ببینیم."
+        },
+        {
+          "text": "Guess what? They finally replied to my email.",
+          "fa": "حدس بزن چی شد؟ بالاخره جواب ایمیلم را دادند."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈɡɛs"
+    },
+    {
+      "id": "v-0005",
+      "word": "whatever",
+      "pos": "adverb",
+      "forms": [
+        "whatever"
+      ],
+      "stress": [
+        "wuh-TEV-er"
+      ],
+      "fa": {
+        "meaning": "هر چه؛ هرچی؛ (با بی‌تفاوتی) هر طور راحتی",
+        "note": "دو کاربرد دارد: «هر چیزی که» (do whatever you want) و به‌تنهایی با لحن بی‌تفاوتی: «Whatever.» — حالت دوم می‌تواند بی‌ادبانه به نظر برسد، پس با دقت استفاده کن."
+      },
+      "examples": [
+        {
+          "text": "You can order whatever you like, I'm paying.",
+          "fa": "هر چه دوست داری سفارش بده، من حساب می‌کنم."
+        },
+        {
+          "text": "Pizza, sushi, whatever, I'm happy with anything.",
+          "fa": "پیتزا، سوشی، هر چی، من با همه‌چیز راضی‌ام."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˌwʌˈtɛvɚ"
+    },
+    {
+      "id": "v-0006",
+      "word": "pretty",
+      "pos": "adverb",
+      "forms": [
+        "pretty"
+      ],
+      "stress": [
+        "PRIT-ee"
+      ],
+      "fa": {
+        "meaning": "نسبتاً؛ تقریباً؛ خیلی (غیررسمی)",
+        "note": "pretty قبل از صفت یا قید یعنی «نسبتاً، خیلی» (pretty good = «خوبِ خوب، بد نیست»)، نه «زیبا». شدتش از very کمی کمتر است. در مکالمه بسیار رایج است."
+      },
+      "examples": [
+        {
+          "text": "The food was pretty good, but a bit expensive.",
+          "fa": "غذا نسبتاً خوب بود، ولی کمی گران."
+        },
+        {
+          "text": "I'm pretty sure I locked the door.",
+          "fa": "تقریباً مطمئنم در را قفل کردم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈpɹɪti"
+    },
+    {
+      "id": "v-0007",
+      "word": "couple",
+      "pos": "noun",
+      "forms": [
+        "couple",
+        "couples"
+      ],
+      "stress": [
+        "KUP-ul"
+      ],
+      "fa": {
+        "meaning": "چند تا؛ دو سه تا؛ یک زوج",
+        "note": "a couple of + اسم جمع یعنی «چند تا، دو سه تا» (a couple of days). فراموش نکن of را بگذاری. در گفتار «a couple days» هم می‌شنوی. couple یعنی «زوج» هم هست."
+      },
+      "examples": [
+        {
+          "text": "I'll be there in a couple of minutes.",
+          "fa": "چند دقیقه‌ی دیگر آنجا هستم."
+        },
+        {
+          "text": "We invited a couple of friends for dinner.",
+          "fa": "چند تا از دوستانمان را برای شام دعوت کردیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkʌpəl"
+    },
+    {
+      "id": "v-0008",
+      "word": "obviously",
+      "pos": "adverb",
+      "forms": [
+        "obviously"
+      ],
+      "stress": [
+        "OB-vee-us-lee"
+      ],
+      "fa": {
+        "meaning": "واضح است؛ طبیعتاً؛ معلوم است",
+        "note": "برای چیزی که همه می‌دانند. گاهی لحن «مگر نمی‌دانی؟» دارد، پس با آدم‌های غریبه کم‌تر استفاده کن. صفتش obvious است."
+      },
+      "examples": [
+        {
+          "text": "Obviously, I'll need the report before Friday.",
+          "fa": "طبیعتاً قبل از جمعه به گزارش نیاز دارم."
+        },
+        {
+          "text": "She's obviously tired, so let's finish early.",
+          "fa": "معلوم است که خسته است، پس زودتر تمام کنیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɑbviəsli"
+    },
+    {
+      "id": "v-0009",
+      "word": "yet",
+      "pos": "adverb",
+      "forms": [
+        "yet"
+      ],
+      "stress": [
+        "YET"
+      ],
+      "fa": {
+        "meaning": "هنوز؛ تا حالا",
+        "note": "در جمله‌ی منفی و سؤالی، آخر جمله می‌آید و معمولاً با present perfect: «I haven't finished yet», «Have you eaten yet?». در جمله‌ی مثبت «هنوز» نمی‌دهد؛ آنجا از still استفاده کن."
+      },
+      "examples": [
+        {
+          "text": "I haven't finished the assignment yet.",
+          "fa": "هنوز تکلیف را تمام نکرده‌ام."
+        },
+        {
+          "text": "Have you tried the new café yet?",
+          "fa": "تا حالا کافه‌ی جدید را امتحان کرده‌ای؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈjɛt"
+    },
+    {
+      "id": "v-0010",
+      "word": "either",
+      "pos": "adverb",
+      "forms": [
+        "either"
+      ],
+      "stress": [
+        "EE-ther"
+      ],
+      "fa": {
+        "meaning": "هم (در جمله‌ی منفی)؛ یکی از دو",
+        "note": "در جمله‌ی منفی یعنی «هم»: «I don't like it either» = «من هم دوستش ندارم». در جواب حرف منفی: «Me neither». ساختار either … or = «یا … یا»."
+      },
+      "examples": [
+        {
+          "text": "I can't make it tonight, and Sara can't either.",
+          "fa": "من امشب نمی‌توانم بیایم و سارا هم نمی‌تواند."
+        },
+        {
+          "text": "We can either walk or take the bus.",
+          "fa": "یا می‌توانیم پیاده برویم یا اتوبوس بگیریم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈiðɚ"
+    },
+    {
+      "id": "v-0011",
+      "word": "deal with",
+      "pos": "phrasal verb",
+      "forms": [
+        "deal with",
+        "deals with",
+        "dealt with",
+        "dealing with"
+      ],
+      "stress": [
+        "DEAL with"
+      ],
+      "fa": {
+        "meaning": "رسیدگی کردن به؛ کنار آمدن با؛ مواجه شدن با",
+        "note": "یعنی مسئله، کار یا آدمی را مدیریت کردن. بعد از with اسم می‌آید: deal with a problem. گذشته‌اش dealt است. عبارت رایج: «I'll deal with it» = «خودم رسیدگی می‌کنم»."
+      },
+      "examples": [
+        {
+          "text": "I'll deal with the customer emails tomorrow morning.",
+          "fa": "فردا صبح به ایمیل‌های مشتری‌ها رسیدگی می‌کنم."
+        },
+        {
+          "text": "It's hard to deal with so much stress.",
+          "fa": "کنار آمدن با این‌همه استرس سخت است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈdil wɪð"
+    },
+    {
+      "id": "v-0012",
+      "word": "alright",
+      "pos": "adjective",
+      "forms": [
+        "alright"
+      ],
+      "stress": [
+        "awl-RIGHT"
+      ],
+      "fa": {
+        "meaning": "باشه؛ خوب؛ حالت خوب است",
+        "note": "alright = all right. هم برای «باشه، موافقم» (Alright, let's go)، هم برای «حالت خوب است؟» (Are you alright?)، و در انگلیسی بریتانیایی به‌جای سلام («Alright?»). در نوشته‌ی رسمی بهتر است all right بنویسی."
+      },
+      "examples": [
+        {
+          "text": "Are you alright? You look a bit pale.",
+          "fa": "حالت خوب است؟ کمی رنگ‌پریده به نظر می‌رسی."
+        },
+        {
+          "text": "Alright, let's start the meeting now.",
+          "fa": "باشه، جلسه را همین حالا شروع کنیم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˌɔlˈɹaɪt"
+    },
+    {
+      "id": "v-0013",
+      "word": "rather",
+      "pos": "adverb",
+      "forms": [
+        "rather"
+      ],
+      "stress": [
+        "RATH-er"
+      ],
+      "fa": {
+        "meaning": "نسبتاً؛ ترجیحاً (would rather)",
+        "note": "would rather + فعل ساده یعنی «ترجیح می‌دهم»: «I'd rather stay home». rather than = «به‌جای». در معنی «نسبتاً» کمی رسمی‌تر از pretty است."
+      },
+      "examples": [
+        {
+          "text": "I'd rather stay home than go out tonight.",
+          "fa": "ترجیح می‌دهم امشب به‌جای بیرون رفتن توی خانه بمانم."
+        },
+        {
+          "text": "The test was rather difficult for most students.",
+          "fa": "آزمون برای بیشتر دانشجوها نسبتاً سخت بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɹæðɚ"
+    },
+    {
+      "id": "v-0014",
+      "word": "certainly",
+      "pos": "adverb",
+      "forms": [
+        "certainly"
+      ],
+      "stress": [
+        "SUR-tun-lee"
+      ],
+      "fa": {
+        "meaning": "حتماً؛ قطعاً؛ البته",
+        "note": "برای پاسخ مؤدبانه: «Certainly!» = «البته!». همچنین «بدون شک». در گفتار دوستانه absolutely یا sure را بیشتر می‌شنوی."
+      },
+      "examples": [
+        {
+          "text": "Certainly, I can send you the file today.",
+          "fa": "البته، می‌توانم امروز فایل را برایتان بفرستم."
+        },
+        {
+          "text": "That certainly makes sense to me.",
+          "fa": "این قطعاً برای من منطقی است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈsɝtənli"
+    },
+    {
+      "id": "v-0015",
+      "word": "matter",
+      "pos": "verb",
+      "forms": [
+        "matter",
+        "matters",
+        "mattered",
+        "mattering"
+      ],
+      "stress": [
+        "MAT-er"
+      ],
+      "fa": {
+        "meaning": "مهم بودن؛ فرق کردن",
+        "note": "فعل matter مفعول مستقیم نمی‌گیرد: «It doesn't matter» = «مهم نیست». با to شخص را می‌گویی: it matters to me. سؤال «What's the matter?» یعنی «چی شده؟ مشکل چیست؟»."
+      },
+      "examples": [
+        {
+          "text": "It doesn't matter which day you choose.",
+          "fa": "مهم نیست کدام روز را انتخاب کنی."
+        },
+        {
+          "text": "Your opinion really matters to the whole team.",
+          "fa": "نظر تو واقعاً برای کل تیم مهم است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈmætɚ"
+    },
+    {
+      "id": "v-0016",
+      "word": "level",
+      "pos": "noun",
+      "forms": [
+        "level",
+        "levels"
+      ],
+      "stress": [
+        "LEV-ul"
+      ],
+      "fa": {
+        "meaning": "سطح؛ مرحله؛ میزان",
+        "note": "برای مرحله یا میزان: my English level، stress level، at a high level. در بازی‌ها level up یعنی «رفتن به مرحله‌ی بالاتر»."
+      },
+      "examples": [
+        {
+          "text": "My English level is good enough for most meetings.",
+          "fa": "سطح انگلیسی من برای بیشتر جلسه‌ها به‌اندازه‌ی کافی خوب است."
+        },
+        {
+          "text": "Your stress level goes up when you sleep badly.",
+          "fa": "وقتی بد می‌خوابی سطح استرست بالا می‌رود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈlɛvəl"
+    },
+    {
+      "id": "v-0017",
+      "word": "cost",
+      "pos": "noun",
+      "forms": [
+        "cost",
+        "costs"
+      ],
+      "stress": [
+        "COST"
+      ],
+      "fa": {
+        "meaning": "هزینه؛ قیمت (اسم)؛ هزینه داشتن (فعل)",
+        "note": "cost هم اسم است هم فعل: اسم: the cost of rent. فعل: it costs 20 euros (گذشته‌اش هم cost است). با price فرق دارد: price عددی است که روی کالا می‌بینی، cost کل هزینه است."
+      },
+      "examples": [
+        {
+          "text": "The cost of living here keeps going up.",
+          "fa": "هزینه‌ی زندگی اینجا مدام بالا می‌رود."
+        },
+        {
+          "text": "Does the cost include delivery?",
+          "fa": "آیا هزینه شامل ارسال هم می‌شود؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkɑst"
+    },
+    {
+      "id": "v-0018",
+      "word": "concern",
+      "pos": "noun",
+      "forms": [
+        "concern",
+        "concerns"
+      ],
+      "stress": [
+        "kun-SURN"
+      ],
+      "fa": {
+        "meaning": "نگرانی؛ دغدغه",
+        "note": "concern اسم: «I have a concern about…» (کمی رسمی‌تر و مؤدبانه‌تر از worry). فعل concern هم هست: «This doesn't concern you» = «به تو ربطی ندارد»."
+      },
+      "examples": [
+        {
+          "text": "I have a concern about the project deadline.",
+          "fa": "درباره‌ی مهلت پروژه نگرانی دارم."
+        },
+        {
+          "text": "Thanks for raising your concerns so early.",
+          "fa": "ممنون که نگرانی‌هایت را این‌قدر زود مطرح کردی."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "kənˈsɝn"
+    },
+    {
+      "id": "v-0019",
+      "word": "lose",
+      "pos": "verb",
+      "forms": [
+        "lose",
+        "loses",
+        "lost",
+        "losing"
+      ],
+      "stress": [
+        "LOOZ"
+      ],
+      "fa": {
+        "meaning": "گم کردن؛ از دست دادن؛ باختن",
+        "note": "گذشته‌ی lose می‌شود lost. با loose (شل) اشتباه نشود: lose = /luːz/. ترکیب‌ها: lose weight (وزن کم کردن)، lose track of time (زمان از دستت در برود). مقابلش win (بردن) و find (پیدا کردن) است."
+      },
+      "examples": [
+        {
+          "text": "I always lose my keys when I'm in a hurry.",
+          "fa": "وقتی عجله دارم همیشه کلیدهایم را گم می‌کنم."
+        },
+        {
+          "text": "We lost track of time and missed the last train.",
+          "fa": "زمان از دستمان در رفت و آخرین قطار را از دست دادیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈluz"
+    },
+    {
+      "id": "v-0020",
+      "word": "process",
+      "pos": "noun",
+      "forms": [
+        "process",
+        "processes"
+      ],
+      "stress": [
+        "PRAH-ses"
+      ],
+      "fa": {
+        "meaning": "فرایند؛ روند",
+        "note": "process اسم: the application process = «روند ثبت‌نام/درخواست». استرس اسم روی هجای اول است. process فعل هم هست (پردازش کردن)."
+      },
+      "examples": [
+        {
+          "text": "The application process takes about two weeks.",
+          "fa": "روند درخواست حدود دو هفته طول می‌کشد."
+        },
+        {
+          "text": "Learning a language is a slow process.",
+          "fa": "یادگیری زبان فرایندی کند است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈpɹɑˌsɛs"
+    },
+    {
+      "id": "v-0021",
+      "word": "hold",
+      "pos": "verb",
+      "forms": [
+        "hold",
+        "holds",
+        "held",
+        "holding"
+      ],
+      "stress": [
+        "HOLD"
+      ],
+      "fa": {
+        "meaning": "نگه داشتن؛ برگزار کردن",
+        "note": "hold on = «یک لحظه صبر کن» (پای تلفن هم). hold a meeting = جلسه برگزار کردن. گذشته‌اش held است."
+      },
+      "examples": [
+        {
+          "text": "Hold on, I'll check the schedule for you.",
+          "fa": "یک لحظه صبر کن، برنامه را برایت چک می‌کنم."
+        },
+        {
+          "text": "They hold the team meeting every Tuesday morning.",
+          "fa": "آن‌ها هر سه‌شنبه صبح جلسه‌ی تیم را برگزار می‌کنند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈhoʊld"
+    },
+    {
+      "id": "v-0022",
+      "word": "expect",
+      "pos": "verb",
+      "forms": [
+        "expect",
+        "expects",
+        "expected",
+        "expecting"
+      ],
+      "stress": [
+        "ik-SPECT"
+      ],
+      "fa": {
+        "meaning": "انتظار داشتن؛ پیش‌بینی کردن",
+        "note": "expect یعنی فکر می‌کنی اتفاق می‌افتد، نه فقط «امید داشتن». I'm expecting a package = «منتظر بسته‌ام (می‌دانم می‌رسد)». «I expect so» = «فکر کنم همین‌طور باشد». برای منتظر ماندنِ فیزیکی wait for می‌گوییم."
+      },
+      "examples": [
+        {
+          "text": "I expect the package to arrive on Monday.",
+          "fa": "انتظار دارم بسته دوشنبه برسد."
+        },
+        {
+          "text": "We didn't expect so many people to show up.",
+          "fa": "انتظار نداشتیم این‌همه آدم بیایند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪkˈspɛkt"
+    },
+    {
+      "id": "v-0023",
+      "word": "particular",
+      "pos": "adjective",
+      "forms": [
+        "particular"
+      ],
+      "stress": [
+        "per-TIK-yuh-ler"
+      ],
+      "fa": {
+        "meaning": "خاص؛ مشخص",
+        "note": "in particular = «به‌ویژه». a particular + اسم = «یک ... مشخص»: «Is there a particular reason?». ترکیب be particular about = «درباره‌ی چیزی سخت‌گیر بودن»."
+      },
+      "examples": [
+        {
+          "text": "Is there a particular reason you're asking?",
+          "fa": "دلیل خاصی دارد که می‌پرسی؟"
+        },
+        {
+          "text": "I liked the last chapter in particular.",
+          "fa": "از فصل آخر به‌ویژه خوشم آمد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "pɚˈtɪkjəlɚ"
+    },
+    {
+      "id": "v-0024",
+      "word": "situation",
+      "pos": "noun",
+      "forms": [
+        "situation",
+        "situations"
+      ],
+      "stress": [
+        "sit-choo-AY-shun"
+      ],
+      "fa": {
+        "meaning": "وضعیت؛ موقعیت؛ اوضاع",
+        "note": "situation یعنی شرایطی که در آن هستی: a difficult situation، the situation at work. با location (مکان) اشتباه نشود. «How's the situation?» = «اوضاع چطوره؟»."
+      },
+      "examples": [
+        {
+          "text": "I'm in a tricky situation with my landlord.",
+          "fa": "با صاحب‌خانه‌ام در موقعیت دشواری هستم."
+        },
+        {
+          "text": "The situation will probably get better next month.",
+          "fa": "اوضاع احتمالاً ماه بعد بهتر می‌شود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌsɪtʃuˈeɪʃən"
+    },
+    {
+      "id": "v-0025",
+      "word": "involve",
+      "pos": "verb",
+      "forms": [
+        "involve",
+        "involves",
+        "involved",
+        "involving"
+      ],
+      "stress": [
+        "in-VOLV"
+      ],
+      "fa": {
+        "meaning": "شامل شدن؛ درگیر کردن",
+        "note": "involve یعنی چیزی بخش لازم کار باشد («the job involves travel») یا کسی را وارد ماجرا کنی. be involved in = «درگیر ... بودن». بعد از involve فعل را با -ing می‌آوری: involves meeting clients."
+      },
+      "examples": [
+        {
+          "text": "My job involves a lot of travel and meetings.",
+          "fa": "کار من شامل سفر و جلسه‌ی زیادی است."
+        },
+        {
+          "text": "Please don't involve me in this argument.",
+          "fa": "لطفاً من را در این بحث درگیر نکن."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɪnˈvɑlv"
+    },
+    {
+      "id": "v-0026",
+      "word": "check",
+      "pos": "verb",
+      "forms": [
+        "check",
+        "checks",
+        "checked",
+        "checking"
+      ],
+      "stress": [
+        "CHECK"
+      ],
+      "fa": {
+        "meaning": "چک کردن؛ بررسی کردن",
+        "note": "check + اسم یعنی مطمئن شدن: check your email. ترکیب‌های پرکاربرد: check in (ثبت ورود)، check out (ترک کردن هتل / نگاهی انداختن)، check on someone (سر زدن به کسی)."
+      },
+      "examples": [
+        {
+          "text": "Can you check if the shop is still open?",
+          "fa": "می‌توانی ببینی مغازه هنوز باز است یا نه؟"
+        },
+        {
+          "text": "I always check my messages before I leave.",
+          "fa": "همیشه قبل از رفتن پیام‌هایم را چک می‌کنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtʃɛk"
+    },
+    {
+      "id": "v-0027",
+      "word": "certain",
+      "pos": "adjective",
+      "forms": [
+        "certain"
+      ],
+      "stress": [
+        "SUR-tun"
+      ],
+      "fa": {
+        "meaning": "مطمئن؛ معین",
+        "note": "be certain = «مطمئن بودن» (کمی رسمی‌تر از sure). make certain = مطمئن شدن. a certain + اسم = «یک ... (مشخص که نمی‌خواهی بگویی)»."
+      },
+      "examples": [
+        {
+          "text": "I'm certain I left my charger on the desk.",
+          "fa": "مطمئنم شارژرم را روی میز گذاشتم."
+        },
+        {
+          "text": "A certain colleague forgot to close the window again.",
+          "fa": "یکی از همکارها دوباره یادش رفت پنجره را ببندد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈsɝtən"
+    },
+    {
+      "id": "v-0028",
+      "word": "local",
+      "pos": "adjective",
+      "forms": [
+        "local",
+        "locals"
+      ],
+      "stress": [
+        "LOH-kul"
+      ],
+      "fa": {
+        "meaning": "محلی؛ بومی",
+        "note": "برای چیزی که مربوط به همان منطقه است: local food، a local shop. اسم هم می‌شود: the locals = «مردم محل»."
+      },
+      "examples": [
+        {
+          "text": "I prefer buying vegetables from the local market.",
+          "fa": "ترجیح می‌دهم سبزی را از بازار محلی بخرم."
+        },
+        {
+          "text": "Let's ask a local where the best café is.",
+          "fa": "بیا از یک آدم محلی بپرسیم بهترین کافه کجاست."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈloʊkəl"
+    },
+    {
+      "id": "v-0029",
+      "word": "ring",
+      "pos": "verb",
+      "forms": [
+        "ring",
+        "rings",
+        "rang",
+        "ringing"
+      ],
+      "stress": [
+        "RING"
+      ],
+      "fa": {
+        "meaning": "زنگ زدن (بریتانیایی)؛ زنگ خوردن",
+        "note": "ring someone در انگلیسی بریتانیایی = «به کسی زنگ زدن» (آمریکایی: call). گذشته‌اش rang است. آخر ring صدای g جدا شنیده نمی‌شود: /rɪŋ/. ring اسم هم هست («حلقه»)."
+      },
+      "examples": [
+        {
+          "text": "I'll ring you when I get to the station.",
+          "fa": "وقتی به ایستگاه رسیدم بهت زنگ می‌زنم."
+        },
+        {
+          "text": "My phone rang during the whole lecture today.",
+          "fa": "امروز در طول کل کلاس گوشی‌ام زنگ می‌خورد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɹɪŋ"
+    },
+    {
+      "id": "v-0030",
+      "word": "figure out",
+      "pos": "phrasal verb",
+      "forms": [
+        "figure … out",
+        "figures … out",
+        "figured … out",
+        "figuring … out"
+      ],
+      "stress": [
+        "FIG-yer OUT"
+      ],
+      "fa": {
+        "meaning": "فهمیدن؛ راه‌حل پیدا کردن",
+        "note": "یعنی بعد از فکر کردن به جواب یا راه‌حل رسیدن. جداشدنی است: figure it out (ضمیر وسط می‌آید) و figure out the problem هر دو درست‌اند. در گفتار روزمره بسیار رایج است."
+      },
+      "examples": [
+        {
+          "text": "I can't figure out why my phone keeps shutting down.",
+          "fa": "نمی‌توانم بفهمم چرا گوشی‌ام مدام خاموش می‌شود."
+        },
+        {
+          "text": "Let's figure it out together before the meeting.",
+          "fa": "قبل از جلسه با هم راهش را پیدا کنیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈfɪɡjɚ ˈaʊt"
+    }
+  ]
+}
