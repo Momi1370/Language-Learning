@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
 import { validateWeek, validateWords, checkLevel, findRepeats, articleErrors } from '../tools/schema.mjs';
+import { validateVocab, findVocabRepeats, courseOverlap } from '../tools/vocab-schema.mjs';
 
 const read = async (p) => JSON.parse(await readFile(new URL(`../content/${p}`, import.meta.url), 'utf8'));
 const weekFiles = async (lang) =>
@@ -63,4 +64,22 @@ test('Dutch says ‘deze namiddag’, not ‘vanmiddag’ (in Belgium ‘middag�
     ];
     for (const t of dutch) assert.doesNotMatch(t, /\bvanmiddag\b/i, `${f}: "${t}"`);
   }
+});
+
+const vocabPacks = async () => {
+  const dir = new URL('../content/vocab/', import.meta.url);
+  const files = (await readdir(dir).catch(() => [])).filter((f) => /^pack-\d\d\.json$/.test(f)).sort();
+  return Promise.all(files.map((f) => read(`vocab/${f}`).then((p) => ({ f, p }))));
+};
+
+test('every vocabulary pack is valid', async () => {
+  for (const { f, p } of await vocabPacks()) assert.deepEqual(validateVocab(p), [], f);
+});
+
+test('no vocabulary word or id is used twice, and none is already taught in the English course', async () => {
+  const packs = (await vocabPacks()).map(({ p }) => p);
+  assert.deepEqual(findVocabRepeats(packs), []);
+  const en = [];
+  for (const f of await weekFiles('en')) en.push(await read(`en/${f}`));
+  assert.deepEqual(courseOverlap(packs, en), []);
 });

@@ -43,3 +43,25 @@ export function levelNl() {
   w.grammar.items = w.grammar.items.map((it, i) => ({ ...it, answer: `Vandaag werk ik thuis aan het project ${i}.` }));
   return w;
 }
+
+// A vocabulary word that passes validateVocab (tools/vocab-schema.mjs).
+export function validVocabWord(n = 1) {
+  return {
+    id: `v-${String(n).padStart(4, '0')}`,
+    word: 'stuff',
+    pos: 'noun',
+    forms: ['stuff'],
+    ipa: 'ˈstʌf',
+    stress: ['STUFF'],
+    fa: { meaning: 'چیزها؛ وسایل', note: 'اسم غیرقابل‌شمارش و غیررسمی.' },
+    examples: [
+      { text: 'I left all my stuff in the car.', fa: 'همه‌ی وسایلم را توی ماشین جا گذاشتم.' },
+      { text: 'There is so much stuff to do before the trip.', fa: 'قبل از سفر کلی کار برای انجام دادن هست.' },
+    ],
+    register: 'informal',
+  };
+}
+
+export function validVocabPack() {
+  return { pack: 1, source: 'Test source', words: [validVocabWord(1)] };
+}

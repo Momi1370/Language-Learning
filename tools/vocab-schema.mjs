@@ -1,0 +1,105 @@
+import { countWords } from './schema.mjs';
+import { ipaSyllableCount, ipaStressedSyllables } from './ipa.mjs';
+import { formMatches } from '../js/vocabtext.js';
+
+export const MIN_PACK_WORDS = 100;
+export const EXAMPLE_WORDS = { min: 5, max: 16 };
+// Old-fashioned or stiff English that learners should not copy (spec §5). "Shall we …?" is still current.
+export const DATED = [
+  /\bwhom\b/i, /\bwhilst\b/i, /\b(?:i|you|he|she|it|we|they) shall\b/i, /\bought to\b/i, /\bupon\b/i,
+  /\bthus\b/i, /\bperchance\b/i, /\bi dare say\b/i, /\bone must\b/i, /\bthou\b/i, /\bhenceforth\b/i,
+];
+const REGISTERS = ['informal', 'neutral', 'formal'];
+const isText = (v) => typeof v === 'string' && v.trim().length > 0;
+const isFarsi = (v) => isText(v) && /[؀-ۿ]/.test(v);
+
+function respelling(stress) {
+  const tokens = stress.join(' ').split(/[\s-]+/).filter(Boolean);
+  const capitals = tokens.flatMap((t, i) => (/\p{Lu}/u.test(t) && t === t.toUpperCase() ? [i] : []));
+  return { count: tokens.length, capitals };
+}
+
+export function validateVocab(pack, { minWords } = {}) {
+  const errors = [];
+  const err = (m) => errors.push(m);
+  if (!pack || typeof pack !== 'object') return ['file is not a JSON object'];
+  if (!Number.isInteger(pack.pack) || pack.pack < 1) err('pack must be a number from 1');
+  if (!isText(pack.source)) err('source is required (credit for the word list and the IPA)');
+  if (!Array.isArray(pack.words)) return [...errors, 'words must be a list'];
+  const min = minWords ?? (pack.draft === true ? 1 : MIN_PACK_WORDS);
+  if (pack.words.length < min) err(`words needs at least ${min}`);
+
+  const ids = new Set();
+  pack.words.forEach((w, i) => {
+    const where = `words[${i}] "${w?.word ?? ''}"`;
+    if (!/^v-\d{4}$/.test(w?.id ?? '')) err(`${where}.id must look like v-0001`);
+    else if (ids.has(w.id)) err(`${where}.id "${w.id}" is used twice`);
+    else ids.add(w.id);
+    if (!isText(w.word)) err(`${where}.word is required`);
+    if (!isText(w.pos)) err(`${where}.pos is required`);
+    if (!Array.isArray(w.forms) || !w.forms.length || !w.forms.every(isText)) err(`${where}.forms needs at least one spelling`);
+    if ('register' in w && !REGISTERS.includes(w.register)) err(`${where}.register must be one of ${REGISTERS.join(', ')}`);
+    if (!isFarsi(w.fa?.meaning)) err(`${where}.fa.meaning must be Farsi text`);
+    if (!isFarsi(w.fa?.note)) err(`${where}.fa.note must be Farsi text`);
+
+    if (!isText(w.ipa)) err(`${where}.ipa is required (run tools/vocab-ipa.mjs)`);
+    if (!Array.isArray(w.stress) || !w.stress.length || !w.stress.every(isText)) err(`${where}.stress is required`);
+    else if (isText(w.ipa)) {
+      const r = respelling(w.stress);
+      const n = ipaSyllableCount(w.ipa);
+      if (r.count !== n) err(`${where}.stress has ${r.count} syllables but ipa has ${n}`);
+      else {
+        const marked = ipaStressedSyllables(w.ipa);
+        if (r.capitals.join() !== marked.join()) {
+          err(`${where}.stress capitals (${r.capitals.map((x) => x + 1).join(',')}) must match the stressed syllables of the ipa (${marked.map((x) => x + 1).join(',')})`);
+        }
+      }
+    }
+
+    if (!Array.isArray(w.examples) || w.examples.length < 2 || w.examples.length > 3) err(`${where}.examples needs 2 or 3 examples`);
+    (w.examples ?? []).forEach((ex, k) => {
+      if (!isText(ex.text)) return err(`${where}.examples[${k}].text is required`);
+      const n = countWords(ex.text);
+      if (n < EXAMPLE_WORDS.min || n > EXAMPLE_WORDS.max) err(`${where}.examples[${k}] has ${n} words; use ${EXAMPLE_WORDS.min}–${EXAMPLE_WORDS.max}`);
+      if (Array.isArray(w.forms) && !formMatches(ex.text, w.forms)) err(`${where}.examples[${k}] does not contain the word (check forms)`);
+      for (const re of DATED) {
+        const m = re.exec(ex.text);
+        if (m) err(`${where}.examples[${k}] uses old-fashioned English: "${m[0]}"`);
+      }
+      if (!isFarsi(ex.fa)) err(`${where}.examples[${k}].fa must be Farsi text`);
+    });
+  });
+  return errors;
+}
+
+// The same id or the same word twice would become two cards for one thing.
+export function findVocabRepeats(packs) {
+  const ids = new Map();
+  const words = new Map();
+  const errors = [];
+  for (const p of packs) {
+    for (const w of p.words ?? []) {
+      if (ids.has(w.id)) errors.push(`${w.id} is used twice`);
+      ids.set(w.id, true);
+      const key = String(w.word).toLowerCase().trim();
+      if (words.has(key)) errors.push(`${w.id} repeats ${words.get(key)}: "${w.word}"`);
+      else words.set(key, w.id);
+    }
+  }
+  return errors;
+}
+
+// Words the English course weeks already teach as phrases are left out of the packs (spec §3).
+export function courseOverlap(packs, enWeeks) {
+  const errors = [];
+  for (const p of packs) {
+    for (const w of p.words ?? []) {
+      for (const week of enWeeks) {
+        for (const c of week.chunks ?? []) {
+          if (formMatches(c.text, w.forms ?? [])) errors.push(`${w.id} "${w.word}" is already taught in ${c.id}`);
+        }
+      }
+    }
+  }
+  return errors;
+}

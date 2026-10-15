@@ -1,5 +1,6 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { validateWeek, validateWords, checkLevel, findRepeats } from './schema.mjs';
+import { validateVocab, findVocabRepeats, courseOverlap } from './vocab-schema.mjs';
 
 const root = new URL('../content/', import.meta.url);
 let failed = false;
@@ -35,5 +36,20 @@ report('all weeks (repeated cards)', findRepeats(all));
 
 try { report('words.json', validateWords(JSON.parse(await readFile(new URL('words.json', root), 'utf8')))); }
 catch (e) { report('words.json', [`cannot read: ${e.message}`]); }
+
+const vocabDir = new URL('vocab/', root);
+const packs = [];
+for (const file of (await readdir(vocabDir).catch(() => [])).filter((f) => /^pack-\d\d\.json$/.test(f)).sort()) {
+  const name = `vocab/${file}`;
+  let data;
+  try { data = JSON.parse(await readFile(new URL(file, vocabDir), 'utf8')); }
+  catch (e) { report(name, [`invalid JSON: ${e.message}`]); continue; }
+  packs.push(data);
+  const errors = validateVocab(data);
+  if (data.pack !== Number(file.slice(5, 7))) errors.push(`pack must be ${Number(file.slice(5, 7))}`);
+  report(name, errors);
+}
+report('vocabulary (repeated words)', findVocabRepeats(packs));
+report('vocabulary (words already in the English course)', courseOverlap(packs, all.filter((w) => w.lang === 'en')));
 
 process.exit(failed ? 1 : 0);

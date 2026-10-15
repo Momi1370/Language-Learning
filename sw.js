@@ -16,6 +16,7 @@ const SHELL = [
   'js/speech.js',
   'js/srs.js',
   'js/store.js',
+  'js/vocabtext.js',
   'js/ui/cards.js',
   'js/ui/dom.js',
   'js/ui/english.js',
