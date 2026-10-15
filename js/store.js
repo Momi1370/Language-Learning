@@ -8,9 +8,10 @@ export function defaultState() {
     position: { week: 1, session: 1 },
     done: [],
     history: [],
-    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0 },
+    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 5 },
     cards: {},
     myPhrases: [],
+    vocab: { known: [], day: { date: '', ids: [] }, reviews: { key: '', count: 0 } },
     ear: {},
     missions: {},
     extraFor: '',
@@ -30,6 +31,7 @@ export function migrate(raw) {
   if (!isObject(raw) || raw.version !== 1) return base;
   const pick = (key, ok) => (ok(raw[key]) ? raw[key] : base[key]);
   const s = isObject(raw.settings) ? raw.settings : {};
+  const v = isObject(raw.vocab) ? raw.vocab : {};
   return {
     version: 1,
     position: pick('position', isPosition),
@@ -40,9 +42,15 @@ export function migrate(raw) {
       voiceNl: isText(s.voiceNl) ? s.voiceNl : base.settings.voiceNl,
       voiceEn: isText(s.voiceEn) ? s.voiceEn : base.settings.voiceEn,
       extraWords: Number.isInteger(s.extraWords) && s.extraWords >= 0 ? s.extraWords : base.settings.extraWords,
+      vocabPerDay: [3, 5, 10].includes(s.vocabPerDay) ? s.vocabPerDay : base.settings.vocabPerDay,
     },
     cards: pick('cards', isObject),
     myPhrases: pick('myPhrases', (v) => Array.isArray(v) && v.every((p) => isObject(p) && isText(p.id) && isText(p.text))),
+    vocab: {
+      known: Array.isArray(v.known) && v.known.every(isText) ? v.known : base.vocab.known,
+      day: isObject(v.day) && isText(v.day.date) && Array.isArray(v.day.ids) && v.day.ids.every(isText) ? v.day : base.vocab.day,
+      reviews: isObject(v.reviews) && isText(v.reviews.key) && Number.isInteger(v.reviews.count) && v.reviews.count >= 0 ? v.reviews : base.vocab.reviews,
+    },
     ear: pick('ear', isObject),
     missions: pick('missions', isObject),
     extraFor: pick('extraFor', isText),

@@ -81,3 +81,25 @@ test('import rejects files that are not backups', () => {
   assert.throws(() => parseImport('not json'), /not a Taalmaatje backup/);
   assert.throws(() => parseImport('{"app":"other"}'), /not a Taalmaatje backup/);
 });
+
+test('a fresh state has an empty vocabulary section and 5 new words a day', () => {
+  const s = defaultState();
+  assert.deepEqual(s.vocab, { known: [], day: { date: '', ids: [] }, reviews: { key: '', count: 0 } });
+  assert.equal(s.settings.vocabPerDay, 5);
+});
+
+test('an old save or backup without vocabulary data still loads, with the defaults', () => {
+  const s = migrate({ version: 1, position: { week: 2, session: 3 }, settings: { farsi: false } });
+  assert.deepEqual(s.vocab, defaultState().vocab);
+  assert.equal(s.settings.vocabPerDay, 5);
+});
+
+test('good vocabulary data is kept and broken parts are reset', () => {
+  const good = { known: ['v-0001'], day: { date: '2026-10-16', ids: ['v-0002'] }, reviews: { key: '1-2', count: 3 } };
+  assert.deepEqual(migrate({ version: 1, vocab: good, settings: { vocabPerDay: 10 } }).vocab, good);
+  assert.equal(migrate({ version: 1, settings: { vocabPerDay: 10 } }).settings.vocabPerDay, 10);
+  assert.equal(migrate({ version: 1, settings: { vocabPerDay: 7 } }).settings.vocabPerDay, 5);
+  const broken = migrate({ version: 1, vocab: { known: 'x', day: { date: 5 }, reviews: { key: 'a', count: -1 } } });
+  assert.deepEqual(broken.vocab, defaultState().vocab);
+  assert.deepEqual(migrate({ version: 1, vocab: 'nope' }).vocab, defaultState().vocab);
+});

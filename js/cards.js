@@ -65,7 +65,7 @@ export function deleteMyPhrase(state, id) {
   return { ...state, myPhrases: state.myPhrases.filter((p) => p.id !== id), cards };
 }
 
-export function cardView(id, { chunkIndex, wordIndex, myPhrases }) {
+export function cardView(id, { chunkIndex, wordIndex, myPhrases, vocabIndex = {} }) {
   const c = chunkIndex[id];
   if (c) {
     return {
@@ -75,6 +75,10 @@ export function cardView(id, { chunkIndex, wordIndex, myPhrases }) {
   }
   const w = wordIndex[id];
   if (w) return { id, kind: 'word', lang: 'nl', text: w.text, meaning: w.en, article: w.article, fa: '', stress: [], note: w.example ?? '' };
+  const v = vocabIndex[id];
+  if (v) {
+    return { id, kind: 'vocab', lang: 'en', text: v.word, meaning: v.fa.meaning, article: null, fa: v.fa.note, stress: v.stress, note: '', vocab: v };
+  }
   const p = myPhrases.find((x) => x.id === id);
   if (p) return { id, kind: 'mine', lang: p.lang, text: p.text, meaning: p.meaning, article: null, fa: '', stress: [], note: p.note };
   return null;

@@ -39,3 +39,19 @@ export async function loadCourse(week, fetchFn) {
   }
   return { nl: null, en: null, weeks, missing: true, error: null };
 }
+
+export const vocabUrl = (n) => `content/vocab/pack-${String(n).padStart(2, '0')}.json`;
+
+// Loads pack-01, pack-02, … until the first one that does not exist. Never throws: a failure is
+// reported in `error`, and the packs that did load are kept. Packs marked `draft` are skipped.
+export async function loadVocab(fetchFn) {
+  const packs = [];
+  for (let n = 1; ; n++) {
+    try {
+      const pack = await loadJson(vocabUrl(n), fetchFn);
+      if (!pack.draft) packs.push(pack);
+    } catch (e) {
+      return { packs, error: e instanceof ContentMissing ? null : e };
+    }
+  }
+}
