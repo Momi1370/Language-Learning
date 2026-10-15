@@ -60,6 +60,10 @@ SOFTWARE.
 
 Browne, C., Culligan, B. (2013). The New General Service List – Spoken. https://www.newgeneralservicelist.com. Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Only the choice of words is taken from the list; `content/vocab/` is therefore also published under CC BY-SA 4.0.
 
+## New Academic Word List 1.2 (word choice for content/vocab/pack-03.json)
+
+Browne, C., Culligan, B., Phillips, J. (2013). The New Academic Word List. https://www.newgeneralservicelist.com. Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Only the choice of words is taken from the list.
+
 ## CMU Pronouncing Dictionary (IPA in content/vocab/)
 
 Copyright (C) 1993-2014 by Carnegie Mellon University. "Use of this dictionary for any research or commercial purpose is completely unrestricted." The dictionary is not stored in this repository: `tools/vocab-ipa.mjs` reads a local copy while authoring. Source: https://github.com/cmusphinx/cmudict

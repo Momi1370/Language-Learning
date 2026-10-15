@@ -84,7 +84,7 @@ test('import rejects files that are not backups', () => {
 
 test('a fresh state has an empty vocabulary section, 10 new words a day and the everyday section', () => {
   const s = defaultState();
-  assert.deepEqual(s.vocab, { known: [], day: { date: '', track: 'everyday', ids: [] }, reviews: { key: '', count: 0 }, perDayReset: true });
+  assert.deepEqual(s.vocab, { known: [], day: { date: '', batches: {} }, reviews: { key: '', count: 0 }, perDayReset: true });
   assert.equal(s.settings.vocabPerDay, 10);
   assert.equal(s.settings.vocabTrack, 'everyday');
 });
@@ -97,7 +97,7 @@ test('an old save or backup without vocabulary data still loads, with the defaul
 });
 
 test('good vocabulary data is kept and broken parts are reset', () => {
-  const good = { known: ['v-0001'], day: { date: '2026-10-16', track: 'university', ids: ['v-0002'] }, reviews: { key: '1-2', count: 3 }, perDayReset: true };
+  const good = { known: ['v-0001'], day: { date: '2026-10-16', batches: { everyday: ['v-0001'], university: ['v-0002'] } }, reviews: { key: '1-2', count: 3 }, perDayReset: true };
   assert.deepEqual(migrate({ version: 1, vocab: good, settings: { vocabPerDay: 15 } }).vocab, good);
   assert.equal(migrate({ version: 1, settings: { vocabPerDay: 15 } }).settings.vocabPerDay, 15);
   assert.equal(migrate({ version: 1, settings: { vocabPerDay: 7 } }).settings.vocabPerDay, 10);
@@ -108,9 +108,13 @@ test('good vocabulary data is kept and broken parts are reset', () => {
   assert.deepEqual(migrate({ version: 1, vocab: 'nope' }).vocab, defaultState().vocab);
 });
 
-test('a day saved before sections existed counts as everyday', () => {
+test('a day saved before sections existed counts as the everyday batch', () => {
   const old = { known: [], day: { date: '2026-10-16', ids: ['v-0002'] }, reviews: { key: '', count: 0 }, perDayReset: true };
-  assert.equal(migrate({ version: 1, vocab: old }).vocab.day.track, 'everyday');
+  assert.deepEqual(migrate({ version: 1, vocab: old }).vocab.day, { date: '2026-10-16', batches: { everyday: ['v-0002'] } });
+  const interim = { ...old, day: { date: '2026-10-16', track: 'university', ids: ['v-0230'] } };
+  assert.deepEqual(migrate({ version: 1, vocab: interim }).vocab.day, { date: '2026-10-16', batches: { university: ['v-0230'] } });
+  const broken = { ...old, day: { date: '2026-10-16', batches: { everyday: 'x', nope: ['v-0001'], university: ['v-0230'] } } };
+  assert.deepEqual(migrate({ version: 1, vocab: broken }).vocab.day, { date: '2026-10-16', batches: { university: ['v-0230'] } });
 });
 
 test('the old default of 5 words a day moves to 10 once; a later choice of 5 is kept', () => {
@@ -118,6 +122,6 @@ test('the old default of 5 words a day moves to 10 once; a later choice of 5 is 
   assert.equal(before.settings.vocabPerDay, 10);
   assert.equal(before.vocab.perDayReset, true);
   assert.equal(migrate({ version: 1, settings: { vocabPerDay: 3 } }).settings.vocabPerDay, 3);
-  const chosen = migrate({ version: 1, settings: { vocabPerDay: 5 }, vocab: { known: [], day: { date: '', track: 'everyday', ids: [] }, reviews: { key: '', count: 0 }, perDayReset: true } });
+  const chosen = migrate({ version: 1, settings: { vocabPerDay: 5 }, vocab: { known: [], day: { date: '', batches: {} }, reviews: { key: '', count: 0 }, perDayReset: true } });
   assert.equal(chosen.settings.vocabPerDay, 5);
 });

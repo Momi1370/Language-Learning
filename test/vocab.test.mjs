@@ -38,24 +38,35 @@ test('wordsOf gives each word the section of its pack', () => {
 
 test('the day’s batch is the next 10 undecided words of the chosen section in pack order, stored with the date', () => {
   const s = ensureBatch(defaultState(), words, day1);
-  assert.deepEqual(s.vocab.day, { date: '2026-10-16', track: 'everyday', ids: ids(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) });
+  assert.deepEqual(s.vocab.day, { date: '2026-10-16', batches: { everyday: ids(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) } });
   assert.deepEqual(batchLeft(s), ids(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 });
 
 test('the university section draws only from university packs', () => {
   const s0 = defaultState();
   const s = ensureBatch({ ...s0, settings: { ...s0.settings, vocabTrack: 'university' } }, words, day1);
-  assert.deepEqual(s.vocab.day, { date: '2026-10-16', track: 'university', ids: ids(21, 22, 23, 24, 25, 26) });
+  assert.deepEqual(s.vocab.day, { date: '2026-10-16', batches: { university: ids(21, 22, 23, 24, 25, 26) } });
 });
 
-test('switching section during the day draws a new batch; switching back draws it again', () => {
-  const a = ensureBatch(defaultState(), words, day1);
+test('each section keeps its own batch for the day: switching away and back changes nothing', () => {
+  let a = ensureBatch(defaultState(), words, day1);
+  a = markKnown(a, id(1));
+  a = teach(a, id(2), day1);
   const uni = { ...a, settings: { ...a.settings, vocabTrack: 'university' } };
   const b = ensureBatch(uni, words, day1);
-  assert.equal(b.vocab.day.track, 'university');
-  assert.deepEqual(b.vocab.day.ids, ids(21, 22, 23, 24, 25, 26));
+  assert.deepEqual(b.vocab.day.batches.university, ids(21, 22, 23, 24, 25, 26));
+  assert.deepEqual(batchLeft(b), ids(21, 22, 23, 24, 25, 26));
   const back = ensureBatch({ ...b, settings: { ...b.settings, vocabTrack: 'everyday' } }, words, day1);
-  assert.deepEqual(back.vocab.day.ids, ids(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+  assert.deepEqual(back.vocab.day.batches.everyday, ids(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), 'the everyday batch is not drawn again');
+  assert.deepEqual(batchLeft(back), ids(3, 4, 5, 6, 7, 8, 9, 10));
+});
+
+test('a new day clears every section’s batch', () => {
+  let s = ensureBatch(defaultState(), words, day1);
+  s = ensureBatch({ ...s, settings: { ...s.settings, vocabTrack: 'university' } }, words, day1);
+  s = ensureBatch({ ...s, settings: { ...s.settings, vocabTrack: 'everyday' } }, words, day2);
+  assert.deepEqual(Object.keys(s.vocab.day.batches), ['everyday']);
+  assert.equal(s.vocab.day.date, '2026-10-17');
 });
 
 test('newCount counts the undecided words of a section', () => {
@@ -95,7 +106,7 @@ test('the next day gives the next undecided words; words skipped yesterday come 
   s = markKnown(s, id(1));
   s = teach(s, id(2), day1);
   s = ensureBatch(s, words, day2);
-  assert.deepEqual(s.vocab.day, { date: '2026-10-17', track: 'everyday', ids: ids(3, 4, 5, 6, 7, 8, 9, 10, 11, 12) });
+  assert.deepEqual(s.vocab.day, { date: '2026-10-17', batches: { everyday: ids(3, 4, 5, 6, 7, 8, 9, 10, 11, 12) } });
 });
 
 test('with no words loaded, no batch is stored for the day (a failed load must not use up the day)', () => {
@@ -107,7 +118,7 @@ test('with no words loaded, no batch is stored for the day (a failed load must n
 test('when every word is decided the batch is empty', () => {
   let s = defaultState();
   for (const w of words) s = markKnown(s, w.id);
-  assert.deepEqual(ensureBatch(s, words, day1).vocab.day.ids, []);
+  assert.deepEqual(ensureBatch(s, words, day1).vocab.day.batches.everyday, []);
 });
 
 test('"I know it" saves the word as known without a card; "Teach me" makes a card', () => {

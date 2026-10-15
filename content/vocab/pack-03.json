@@ -1,0 +1,2835 @@
+{
+  "pack": 3,
+  "track": "university",
+  "source": "Word choice: New Academic Word List (NAWL 1.2, Browne, Culligan & Phillips, CC BY-SA 4.0, newgeneralservicelist.com), the general-purpose academic words. IPA: CMU Pronouncing Dictionary (American English).",
+  "words": [
+    {
+      "id": "v-0221",
+      "word": "accumulate",
+      "pos": "verb",
+      "forms": [
+        "accumulate",
+        "accumulates",
+        "accumulated",
+        "accumulating"
+      ],
+      "stress": [
+        "uh-KYOO-myuh-late"
+      ],
+      "fa": {
+        "meaning": "جمع شدن؛ انباشته شدن؛ جمع کردن",
+        "note": "یعنی کم‌کم و در طول زمان جمع شدن یا جمع کردن چیزی: «Dust accumulates quickly». هم متعدی است هم لازم. اسمش accumulation است. رسمی‌تر از collect."
+      },
+      "examples": [
+        {
+          "text": "Dust accumulates quickly when you never open the windows.",
+          "fa": "وقتی هیچ‌وقت پنجره‌ها را باز نمی‌کنی گرد و غبار زود جمع می‌شود."
+        },
+        {
+          "text": "She accumulated a lot of experience during her internship.",
+          "fa": "او در دوره‌ی کارآموزی تجربه‌ی زیادی جمع کرد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "əˈkjumjəˌleɪt"
+    },
+    {
+      "id": "v-0222",
+      "word": "allocate",
+      "pos": "verb",
+      "forms": [
+        "allocate",
+        "allocates",
+        "allocated",
+        "allocating"
+      ],
+      "stress": [
+        "AL-uh-kate"
+      ],
+      "fa": {
+        "meaning": "اختصاص دادن؛ تخصیص دادن",
+        "note": "تقسیم رسمی منابع (پول، وقت، فضا) برای هدفی: «allocate funds / time». ساختار: allocate X to Y یا allocate X for Y. در بحث بودجه و برنامه‌ریزی زیاد می‌شنوی."
+      },
+      "examples": [
+        {
+          "text": "The university allocated more money to the library this year.",
+          "fa": "دانشگاه امسال پول بیشتری به کتابخانه اختصاص داد."
+        },
+        {
+          "text": "We need to allocate more time for reading.",
+          "fa": "باید زمان بیشتری را به مطالعه اختصاص بدهیم."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈæləˌkeɪt"
+    },
+    {
+      "id": "v-0223",
+      "word": "analogy",
+      "pos": "noun",
+      "forms": [
+        "analogy",
+        "analogies"
+      ],
+      "stress": [
+        "uh-NAL-uh-jee"
+      ],
+      "fa": {
+        "meaning": "قیاس؛ تشبیه؛ مثال مقایسه‌ای",
+        "note": "مقایسه‌ی دو چیز برای توضیح یکی از آنها: «draw an analogy between A and B». ساختار: an analogy with / between. مثل مَثَلی ساده برای روشن کردن یک مفهوم پیچیده است."
+      },
+      "examples": [
+        {
+          "text": "My teacher used an analogy with water to explain electricity.",
+          "fa": "معلمم برای توضیح برق از یک قیاس با آب استفاده کرد."
+        },
+        {
+          "text": "That analogy doesn't really work, because the two situations are different.",
+          "fa": "آن قیاس واقعاً درست درنمی‌آید چون دو وضعیت فرق دارند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "əˈnælədʒi"
+    },
+    {
+      "id": "v-0224",
+      "word": "arbitrary",
+      "pos": "adjective",
+      "forms": [
+        "arbitrary",
+        "arbitrarily"
+      ],
+      "stress": [
+        "AR-bih-trair-ee"
+      ],
+      "fa": {
+        "meaning": "دلبخواهی؛ بی‌دلیل؛ سرسری",
+        "note": "تصمیمی که بر اساس دلیل منطقی نیست و از روی میل یا تصادف است: «an arbitrary decision / rule». معمولاً منفی است، یعنی «بی‌پایه»."
+      },
+      "examples": [
+        {
+          "text": "The deadline seemed completely arbitrary to all of us.",
+          "fa": "مهلت تحویل برای همه‌ی ما کاملاً دلبخواهی به نظر می‌رسید."
+        },
+        {
+          "text": "Choosing the topic at random felt a bit arbitrary.",
+          "fa": "انتخاب تصادفی موضوع کمی بی‌پایه به نظر می‌آمد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈɑɹbəˌtɹɛɹi"
+    },
+    {
+      "id": "v-0225",
+      "word": "articulate",
+      "pos": "verb",
+      "forms": [
+        "articulate",
+        "articulates",
+        "articulated",
+        "articulating"
+      ],
+      "stress": [
+        "ar-TIK-yuh-late"
+      ],
+      "fa": {
+        "meaning": "به‌روشنی بیان کردن؛ (صفت) شیوا و روان",
+        "note": "فعل: ایده یا احساس را واضح بیان کردن: «She articulated her ideas clearly». صفت: کسی که روشن و خوب حرف می‌زند: «an articulate speaker». تلفظ فعل با «-ate» (اِیت) و صفت با «-ət» است."
+      },
+      "examples": [
+        {
+          "text": "It's hard to articulate how I feel about leaving.",
+          "fa": "بیان کردن حسی که درباره‌ی رفتن دارم سخت است."
+        },
+        {
+          "text": "Try to articulate your argument in one or two sentences.",
+          "fa": "سعی کن استدلالت را در یکی دو جمله بیان کنی."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ɑɹˈtɪkjəˌleɪt"
+    },
+    {
+      "id": "v-0226",
+      "word": "assert",
+      "pos": "verb",
+      "forms": [
+        "assert",
+        "asserts",
+        "asserted",
+        "asserting"
+      ],
+      "stress": [
+        "uh-SERT"
+      ],
+      "fa": {
+        "meaning": "ادعا کردن؛ قاطعانه گفتن؛ (assert yourself) ابراز وجود کردن",
+        "note": "یعنی با اطمینان چیزی را گفتن: «He asserted that the data was correct». «assert yourself» = جرئت ابراز وجود. صفت assertive یعنی آدم ابراز‌وجودکن."
+      },
+      "examples": [
+        {
+          "text": "The author asserts that social media has changed how we read.",
+          "fa": "نویسنده ادعا می‌کند که شبکه‌های اجتماعی شیوه‌ی خواندن ما را تغییر داده‌اند."
+        },
+        {
+          "text": "You need to learn to assert yourself in meetings.",
+          "fa": "باید یاد بگیری در جلسه‌ها ابراز وجود کنی."
+        }
+      ],
+      "register": "formal",
+      "ipa": "əˈsɝt"
+    },
+    {
+      "id": "v-0227",
+      "word": "scenario",
+      "pos": "noun",
+      "forms": [
+        "scenario",
+        "scenarios"
+      ],
+      "stress": [
+        "suh-NAIR-ee-oh"
+      ],
+      "fa": {
+        "meaning": "سناریو؛ حالت فرضی؛ وضعیت محتمل",
+        "note": "توصیف یک وضعیت ممکن در آینده یا یک مثال فرضی: «the worst-case scenario» = بدترین حالت ممکن. فقط به معنی فیلمنامه نیست؛ در کار و دانشگاه برای حالت‌های محتمل می‌آید."
+      },
+      "examples": [
+        {
+          "text": "In the worst-case scenario, we'll just take a taxi.",
+          "fa": "در بدترین حالت، فقط تاکسی می‌گیریم."
+        },
+        {
+          "text": "Let's imagine a different scenario: what if the train is cancelled?",
+          "fa": "یک سناریوی دیگر را تصور کنیم: اگر قطار لغو شود چه؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "sɪˈnɛɹioʊ"
+    },
+    {
+      "id": "v-0228",
+      "word": "coherent",
+      "pos": "adjective",
+      "forms": [
+        "coherent",
+        "coherently"
+      ],
+      "stress": [
+        "koh-HEER-unt"
+      ],
+      "fa": {
+        "meaning": "منسجم؛ مرتبط؛ قابل‌فهم",
+        "note": "برای متن یا استدلالی که بخش‌هایش خوب به هم وصل است: «a coherent argument». ضدش incoherent یعنی پراکنده و نامفهوم. اسمش coherence است؛ در آموزش نوشتن مهم است."
+      },
+      "examples": [
+        {
+          "text": "Your essay is interesting, but it needs a more coherent structure.",
+          "fa": "مقاله‌ات جالب است ولی به ساختار منسجم‌تری نیاز دارد."
+        },
+        {
+          "text": "He was so tired that he could barely give a coherent answer.",
+          "fa": "آن‌قدر خسته بود که به‌زحمت می‌توانست جواب مرتبطی بدهد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "koʊˈhɪɹənt"
+    },
+    {
+      "id": "v-0229",
+      "word": "compensate",
+      "pos": "verb",
+      "forms": [
+        "compensate",
+        "compensates",
+        "compensated",
+        "compensating"
+      ],
+      "stress": [
+        "KOM-pen-sate"
+      ],
+      "fa": {
+        "meaning": "جبران کردن؛ غرامت دادن",
+        "note": "با for: «Nothing can compensate for lost time». «compensate someone for something» = برای چیزی به کسی غرامت دادن. اسمش compensation (جبران یا غرامت) است."
+      },
+      "examples": [
+        {
+          "text": "The airline will compensate passengers for the long delay.",
+          "fa": "ایرلاین به مسافران برای تأخیر طولانی غرامت می‌دهد."
+        },
+        {
+          "text": "He tries to compensate for his lack of experience by working harder.",
+          "fa": "او می‌کوشد با سخت‌تر کار کردن کم‌تجربگی‌اش را جبران کند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈkɑmpənˌseɪt"
+    },
+    {
+      "id": "v-0230",
+      "word": "comprehension",
+      "pos": "noun",
+      "forms": [
+        "comprehension"
+      ],
+      "stress": [
+        "kom-prih-HEN-shun"
+      ],
+      "fa": {
+        "meaning": "درک مطلب؛ فهم",
+        "note": "توانایی فهمیدن، مخصوصاً متن یا گفتار: «reading comprehension» = درک مطلب خواندن؛ «listening comprehension» = درک شنیداری. فعلش comprehend است (رسمی)."
+      },
+      "examples": [
+        {
+          "text": "My reading comprehension is better than my listening comprehension.",
+          "fa": "درک مطلب خواندنم از درک شنیداریم بهتر است."
+        },
+        {
+          "text": "The test checks comprehension, not just vocabulary.",
+          "fa": "آزمون درک مطلب را می‌سنجد، نه فقط واژگان را."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌkɑmpɹiˈhɛnʃən"
+    },
+    {
+      "id": "v-0231",
+      "word": "comply",
+      "pos": "verb",
+      "forms": [
+        "comply",
+        "complies",
+        "complied",
+        "complying"
+      ],
+      "stress": [
+        "kum-PLY"
+      ],
+      "fa": {
+        "meaning": "پیروی کردن؛ تبعیت کردن (از قانون یا مقررات)",
+        "note": "با with: «comply with the rules / regulations». رسمی است و در محیط کار و قانون زیاد می‌آید. صفتش compliant و اسمش compliance است."
+      },
+      "examples": [
+        {
+          "text": "All students must comply with the exam rules.",
+          "fa": "همه‌ی دانشجویان باید از قوانین امتحان پیروی کنند."
+        },
+        {
+          "text": "The company was fined for failing to comply with safety regulations.",
+          "fa": "شرکت به خاطر رعایت نکردن مقررات ایمنی جریمه شد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "kəmˈplaɪ"
+    },
+    {
+      "id": "v-0232",
+      "word": "consensus",
+      "pos": "noun",
+      "forms": [
+        "consensus"
+      ],
+      "stress": [
+        "kun-SEN-sus"
+      ],
+      "fa": {
+        "meaning": "اجماع؛ توافق عمومی",
+        "note": "توافق بیشتر افراد: «reach a consensus» = به اجماع رسیدن؛ «a general consensus». املایش را دقت کن: consensus (نه concensus)."
+      },
+      "examples": [
+        {
+          "text": "After a long discussion, the group finally reached a consensus.",
+          "fa": "بعد از بحث طولانی، گروه سرانجام به اجماع رسید."
+        },
+        {
+          "text": "There's no consensus among scientists about this yet.",
+          "fa": "هنوز بین دانشمندان درباره‌ی این موضوع اجماعی وجود ندارد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "kənˈsɛnsəs"
+    },
+    {
+      "id": "v-0233",
+      "word": "consent",
+      "pos": "noun",
+      "forms": [
+        "consent",
+        "consents",
+        "consented"
+      ],
+      "stress": [
+        "kun-SENT"
+      ],
+      "fa": {
+        "meaning": "رضایت؛ اجازه؛ موافقت",
+        "note": "رضایت رسمی و آگاهانه: «written consent», «informed consent» (در پژوهش). فعل هم هست: consent to something. در تحقیق دانشگاهی بسیار مهم است."
+      },
+      "examples": [
+        {
+          "text": "You need written consent to interview the participants.",
+          "fa": "برای مصاحبه با شرکت‌کنندگان به رضایت‌نامه‌ی کتبی نیاز داری."
+        },
+        {
+          "text": "He didn't consent to the use of his photos.",
+          "fa": "او به استفاده از عکس‌هایش رضایت نداد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "kənˈsɛnt"
+    },
+    {
+      "id": "v-0234",
+      "word": "contradict",
+      "pos": "verb",
+      "forms": [
+        "contradict",
+        "contradicts",
+        "contradicted",
+        "contradicting"
+      ],
+      "stress": [
+        "kon-truh-DIKT"
+      ],
+      "fa": {
+        "meaning": "نقض کردن؛ با هم نخواندن؛ رد کردن (حرف کسی)",
+        "note": "دو چیزی که با هم نمی‌سازند: «The results contradict our theory». یا مخالفت مستقیم با کسی: «Don't contradict your teacher in public». اسمش contradiction است."
+      },
+      "examples": [
+        {
+          "text": "The new data contradicts what we believed before.",
+          "fa": "داده‌های جدید با آنچه قبلاً باور داشتیم در تناقض است."
+        },
+        {
+          "text": "Your second paragraph contradicts the first one.",
+          "fa": "پاراگراف دومت با اولی تناقض دارد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌkɑntɹəˈdɪkt"
+    },
+    {
+      "id": "v-0235",
+      "word": "controversy",
+      "pos": "noun",
+      "forms": [
+        "controversy",
+        "controversies"
+      ],
+      "stress": [
+        "KON-truh-ver-see"
+      ],
+      "fa": {
+        "meaning": "جنجال؛ مناقشه؛ بحث‌برانگیز",
+        "note": "موضوعی که مردم سر آن بحث تند دارند: «cause controversy». صفتش controversial است. در مورد دیدگاه‌های مخالف و بحث عمومی به کار می‌رود."
+      },
+      "examples": [
+        {
+          "text": "The new law caused a lot of controversy last year.",
+          "fa": "قانون جدید پارسال جنجال زیادی به راه انداخت."
+        },
+        {
+          "text": "There's still some controversy over how to measure it.",
+          "fa": "هنوز درباره‌ی نحوه‌ی اندازه‌گیری آن اختلاف نظر هست."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈkɑntɹəˌvɝsi"
+    },
+    {
+      "id": "v-0236",
+      "word": "credibility",
+      "pos": "noun",
+      "forms": [
+        "credibility"
+      ],
+      "stress": [
+        "kred-uh-BIL-uh-tee"
+      ],
+      "fa": {
+        "meaning": "اعتبار؛ قابل‌اعتماد بودن",
+        "note": "میزان باورپذیر بودن آدم یا منبع: «lose credibility» = اعتبارش را از دست دادن. صفتش credible است: «a credible source» = منبع معتبر."
+      },
+      "examples": [
+        {
+          "text": "Using weak sources can damage the credibility of your essay.",
+          "fa": "استفاده از منابع ضعیف می‌تواند به اعتبار مقاله‌ات آسیب بزند."
+        },
+        {
+          "text": "She lost her credibility after the false claim.",
+          "fa": "او بعد از ادعای نادرست اعتبارش را از دست داد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌkɹɛdəˈbɪlɪti"
+    },
+    {
+      "id": "v-0237",
+      "word": "critique",
+      "pos": "noun",
+      "forms": [
+        "critique",
+        "critiques",
+        "critiqued",
+        "critiquing"
+      ],
+      "stress": [
+        "krih-TEEK"
+      ],
+      "fa": {
+        "meaning": "نقد؛ بررسی انتقادی",
+        "note": "تحلیل دقیق نقاط قوت و ضعف: «write a critique of an article». رسمی‌تر از criticism است؛ criticism معمولاً منفی است ولی critique متعادل و تحلیلی است."
+      },
+      "examples": [
+        {
+          "text": "Our assignment is to write a critique of this article.",
+          "fa": "تکلیف ما نوشتن یک نقد از این مقاله است."
+        },
+        {
+          "text": "Her critique of the study was fair and detailed.",
+          "fa": "نقد او از آن پژوهش منصفانه و دقیق بود."
+        }
+      ],
+      "register": "formal",
+      "ipa": "kɹəˈtik"
+    },
+    {
+      "id": "v-0238",
+      "word": "curriculum",
+      "pos": "noun",
+      "forms": [
+        "curriculum",
+        "curricula"
+      ],
+      "stress": [
+        "kuh-RIK-yuh-lum"
+      ],
+      "fa": {
+        "meaning": "برنامه‌ی درسی",
+        "note": "مجموعه‌ی درس‌هایی که یک مدرسه یا دانشگاه تدریس می‌کند: «the national curriculum». جمع: curricula. با CV (curriculum vitae = رزومه) فرق دارد."
+      },
+      "examples": [
+        {
+          "text": "The university is updating its curriculum next year.",
+          "fa": "دانشگاه سال آینده برنامه‌ی درسی‌اش را به‌روز می‌کند."
+        },
+        {
+          "text": "Coding is now part of the school curriculum.",
+          "fa": "برنامه‌نویسی حالا بخشی از برنامه‌ی درسی مدرسه است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "kɚˈɪkjələm"
+    },
+    {
+      "id": "v-0239",
+      "word": "dilemma",
+      "pos": "noun",
+      "forms": [
+        "dilemma",
+        "dilemmas"
+      ],
+      "stress": [
+        "dih-LEM-uh"
+      ],
+      "fa": {
+        "meaning": "دوراهی؛ وضعیت دشوار انتخاب",
+        "note": "وقتی باید بین دو انتخاب سخت یکی را برگزینی: «a moral dilemma», «I'm in a dilemma». برای هر مشکلی به کار نمی‌رود، فقط وقتی انتخاب دشوار است."
+      },
+      "examples": [
+        {
+          "text": "I'm in a dilemma: should I stay or take the other job?",
+          "fa": "در دوراهی‌ام: بمانم یا آن شغل دیگر را قبول کنم؟"
+        },
+        {
+          "text": "Doctors often face difficult ethical dilemmas.",
+          "fa": "پزشکان اغلب با دوراهی‌های اخلاقی دشوار روبه‌رو می‌شوند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "dɪˈlɛmə"
+    },
+    {
+      "id": "v-0240",
+      "word": "discrimination",
+      "pos": "noun",
+      "forms": [
+        "discrimination"
+      ],
+      "stress": [
+        "dis-krim-uh-NAY-shun"
+      ],
+      "fa": {
+        "meaning": "تبعیض",
+        "note": "رفتار ناعادلانه با افراد به خاطر نژاد، جنسیت، سن و…: «discrimination against women». با حرف اضافه‌ی against می‌آید. فعلش discriminate است."
+      },
+      "examples": [
+        {
+          "text": "The law protects workers from discrimination.",
+          "fa": "قانون از کارگران در برابر تبعیض محافظت می‌کند."
+        },
+        {
+          "text": "Many migrants experience discrimination when looking for a flat.",
+          "fa": "بسیاری از مهاجران هنگام پیدا کردن خانه تبعیض را تجربه می‌کنند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "dɪˌskɹɪməˈneɪʃən"
+    },
+    {
+      "id": "v-0241",
+      "word": "dissertation",
+      "pos": "noun",
+      "forms": [
+        "dissertation",
+        "dissertations"
+      ],
+      "stress": [
+        "dis-er-TAY-shun"
+      ],
+      "fa": {
+        "meaning": "پایان‌نامه",
+        "note": "نوشته‌ی طولانی پژوهشی در پایان تحصیل. در بریتانیا dissertation معمولاً برای کارشناسی/ارشد و thesis برای دکتری است؛ در آمریکا اغلب برعکس. بپرس دانشگاهت کدام را می‌گوید."
+      },
+      "examples": [
+        {
+          "text": "I'm writing my dissertation on language learning apps.",
+          "fa": "دارم پایان‌نامه‌ام را درباره‌ی اپ‌های یادگیری زبان می‌نویسم."
+        },
+        {
+          "text": "My supervisor read the first chapter of my dissertation.",
+          "fa": "استاد راهنمایم فصل اول پایان‌نامه‌ام را خواند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌdɪsɚˈteɪʃən"
+    },
+    {
+      "id": "v-0242",
+      "word": "diverse",
+      "pos": "adjective",
+      "forms": [
+        "diverse"
+      ],
+      "stress": [
+        "dy-VERS"
+      ],
+      "fa": {
+        "meaning": "متنوع؛ گوناگون",
+        "note": "برای مجموعه‌ای از انواع مختلف: «a diverse group of students». اسمش diversity است. وقتی همه شبیه هم‌اند می‌شود «not diverse»."
+      },
+      "examples": [
+        {
+          "text": "Our class is very diverse, with students from ten countries.",
+          "fa": "کلاس ما بسیار متنوع است، با دانشجوهایی از ده کشور."
+        },
+        {
+          "text": "The city offers a diverse range of restaurants.",
+          "fa": "شهر طیف متنوعی از رستوران‌ها دارد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "daɪˈvɝs"
+    },
+    {
+      "id": "v-0243",
+      "word": "dominant",
+      "pos": "adjective",
+      "forms": [
+        "dominant"
+      ],
+      "stress": [
+        "DOM-uh-nunt"
+      ],
+      "fa": {
+        "meaning": "غالب؛ مسلط؛ چیره",
+        "note": "مهم‌ترین یا قوی‌ترین چیز در یک گروه: «the dominant language / company». فعلش dominate و اسمش dominance است."
+      },
+      "examples": [
+        {
+          "text": "English is the dominant language in international research.",
+          "fa": "انگلیسی زبان غالب در پژوهش‌های بین‌المللی است."
+        },
+        {
+          "text": "One company has become dominant in the market.",
+          "fa": "یک شرکت در بازار مسلط شده است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈdɑmənənt"
+    },
+    {
+      "id": "v-0244",
+      "word": "elaborate",
+      "pos": "verb",
+      "forms": [
+        "elaborate",
+        "elaborates",
+        "elaborated",
+        "elaborating"
+      ],
+      "stress": [
+        "ih-LAB-uh-rate"
+      ],
+      "fa": {
+        "meaning": "بیشتر توضیح دادن؛ شرح دادن",
+        "note": "فعل: جزئیات بیشتر دادن: «Could you elaborate on that?» = می‌شود بیشتر توضیح بدهی؟ (جمله‌ی بسیار مفید). صفت elaborate (با تلفظ دیگر) یعنی پیچیده و پرجزئیات."
+      },
+      "examples": [
+        {
+          "text": "Could you elaborate on that point, please?",
+          "fa": "لطفاً می‌شود درباره‌ی آن نکته بیشتر توضیح بدهید؟"
+        },
+        {
+          "text": "He didn't elaborate, so I had to ask again.",
+          "fa": "او توضیح بیشتری نداد، برای همین دوباره پرسیدم."
+        }
+      ],
+      "register": "neutral",
+      "cmu": "elaborate(2)",
+      "ipa": "ɪˈlæbɚˌeɪt"
+    },
+    {
+      "id": "v-0245",
+      "word": "empirical",
+      "pos": "adjective",
+      "forms": [
+        "empirical",
+        "empirically"
+      ],
+      "stress": [
+        "em-PEER-ih-kul"
+      ],
+      "fa": {
+        "meaning": "تجربی؛ مبتنی بر مشاهده و داده",
+        "note": "در پژوهش یعنی بر اساس مشاهده و آزمایش، نه فقط نظریه: «empirical evidence / research». ضدش theoretical است."
+      },
+      "examples": [
+        {
+          "text": "We need empirical evidence, not just opinions.",
+          "fa": "به شواهد تجربی نیاز داریم، نه فقط نظر."
+        },
+        {
+          "text": "The article reviews empirical research on sleep and memory.",
+          "fa": "مقاله پژوهش‌های تجربی درباره‌ی خواب و حافظه را مرور می‌کند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ɛmˈpɪɹɪkəl"
+    },
+    {
+      "id": "v-0246",
+      "word": "equality",
+      "pos": "noun",
+      "forms": [
+        "equality"
+      ],
+      "stress": [
+        "ih-KWOL-uh-tee"
+      ],
+      "fa": {
+        "meaning": "برابری",
+        "note": "برابری در حقوق، فرصت یا وضعیت: «gender equality» = برابری جنسیتی. ضدش inequality است. صفتش equal است."
+      },
+      "examples": [
+        {
+          "text": "The group campaigns for equality in the workplace.",
+          "fa": "این گروه برای برابری در محل کار فعالیت می‌کند."
+        },
+        {
+          "text": "Gender equality is still a big issue in many countries.",
+          "fa": "برابری جنسیتی هنوز در بسیاری از کشورها مسئله‌ی بزرگی است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪˈkwɑləti"
+    },
+    {
+      "id": "v-0247",
+      "word": "essentially",
+      "pos": "adverb",
+      "forms": [
+        "essentially"
+      ],
+      "stress": [
+        "ih-SEN-shuh-lee"
+      ],
+      "fa": {
+        "meaning": "اساساً؛ در اصل؛ در واقع",
+        "note": "یعنی در بنیادی‌ترین شکل؛ مثل basically ولی رسمی‌تر: «Essentially, the two studies say the same thing». در بحث و مقاله برای خلاصه کردن می‌آید."
+      },
+      "examples": [
+        {
+          "text": "Essentially, both studies reached the same conclusion.",
+          "fa": "در اصل هر دو پژوهش به یک نتیجه رسیدند."
+        },
+        {
+          "text": "The two methods are essentially the same.",
+          "fa": "این دو روش اساساً یکی هستند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ɛˈsɛnʃəli"
+    },
+    {
+      "id": "v-0248",
+      "word": "ethical",
+      "pos": "adjective",
+      "forms": [
+        "ethical",
+        "ethically"
+      ],
+      "stress": [
+        "ETH-ih-kul"
+      ],
+      "fa": {
+        "meaning": "اخلاقی؛ از نظر اخلاقی درست",
+        "note": "مربوط به درست و غلط اخلاقی: «an ethical question». ضدش unethical است. اسم ethics (اخلاقیات) هم داریم: «research ethics» = اخلاق پژوهش."
+      },
+      "examples": [
+        {
+          "text": "Is it ethical to test this medicine on animals?",
+          "fa": "آیا آزمایش این دارو روی حیوانات اخلاقی است؟"
+        },
+        {
+          "text": "We discussed the ethical problems of using personal data.",
+          "fa": "درباره‌ی مشکلات اخلاقی استفاده از داده‌های شخصی بحث کردیم."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈɛθɪkəl"
+    },
+    {
+      "id": "v-0249",
+      "word": "evident",
+      "pos": "adjective",
+      "forms": [
+        "evident",
+        "evidently"
+      ],
+      "stress": [
+        "EV-ih-dunt"
+      ],
+      "fa": {
+        "meaning": "آشکار؛ بدیهی؛ مشهود",
+        "note": "چیزی که به‌راحتی دیده یا فهمیده می‌شود: «It was evident that he was nervous». evidently یعنی «ظاهراً» یا «آشکارا». اسم evidence = شواهد است."
+      },
+      "examples": [
+        {
+          "text": "It was evident that she hadn't prepared for the talk.",
+          "fa": "آشکار بود که برای سخنرانی آماده نشده است."
+        },
+        {
+          "text": "The benefits of the new system are already evident.",
+          "fa": "مزایای سیستم جدید همین حالا هم آشکار است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈɛvədənt"
+    },
+    {
+      "id": "v-0250",
+      "word": "explicit",
+      "pos": "adjective",
+      "forms": [
+        "explicit",
+        "explicitly"
+      ],
+      "stress": [
+        "ik-SPLIS-it"
+      ],
+      "fa": {
+        "meaning": "صریح؛ آشکار؛ روشن",
+        "note": "چیزی که بدون ابهام گفته شده: «explicit instructions». ضدش implicit (ضمنی) است. در بعضی متن‌ها explicit content یعنی محتوای صریح و مخصوص بزرگسالان."
+      },
+      "examples": [
+        {
+          "text": "The instructions were explicit: no phones during the exam.",
+          "fa": "دستورالعمل صریح بود: در امتحان گوشی ممنوع."
+        },
+        {
+          "text": "She gave me explicit permission to use her notes.",
+          "fa": "او صریحاً به من اجازه داد از یادداشت‌هایش استفاده کنم."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ɪkˈsplɪsət"
+    },
+    {
+      "id": "v-0251",
+      "word": "exploit",
+      "pos": "verb",
+      "forms": [
+        "exploit",
+        "exploits",
+        "exploited",
+        "exploiting"
+      ],
+      "stress": [
+        "ik-SPLOYT"
+      ],
+      "fa": {
+        "meaning": "سوءاستفاده کردن؛ بهره‌برداری کردن",
+        "note": "دو حالت: منفی (سوءاستفاده از آدم‌ها: «exploit workers») و خنثی (بهره‌برداری از فرصت یا منبع: «exploit an opportunity»). از لحن جمله بفهم کدام است."
+      },
+      "examples": [
+        {
+          "text": "Some companies exploit young workers with very low pay.",
+          "fa": "بعضی شرکت‌ها با دستمزد خیلی کم از کارگران جوان سوءاستفاده می‌کنند."
+        },
+        {
+          "text": "You should exploit every chance to practise speaking.",
+          "fa": "باید از هر فرصتی برای تمرین حرف زدن استفاده کنی."
+        }
+      ],
+      "register": "formal",
+      "cmu": "exploit(2)",
+      "ipa": "ɛkˈsplɔɪt"
+    },
+    {
+      "id": "v-0252",
+      "word": "facilitate",
+      "pos": "verb",
+      "forms": [
+        "facilitate",
+        "facilitates",
+        "facilitated",
+        "facilitating"
+      ],
+      "stress": [
+        "fuh-SIL-uh-tate"
+      ],
+      "fa": {
+        "meaning": "آسان کردن؛ تسهیل کردن",
+        "note": "رسمی: کاری را ممکن یا ساده‌تر کردن: «The app facilitates communication». facilitator کسی است که بحث گروهی یا کارگاه را هدایت می‌کند."
+      },
+      "examples": [
+        {
+          "text": "Online tools can facilitate group projects.",
+          "fa": "ابزارهای آنلاین می‌توانند کار گروهی را آسان‌تر کنند."
+        },
+        {
+          "text": "The teacher facilitated a discussion about the article.",
+          "fa": "معلم یک بحث درباره‌ی مقاله را هدایت کرد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "fəˈsɪləˌteɪt"
+    },
+    {
+      "id": "v-0253",
+      "word": "fundamentally",
+      "pos": "adverb",
+      "forms": [
+        "fundamentally"
+      ],
+      "stress": [
+        "fun-duh-MEN-tuh-lee"
+      ],
+      "fa": {
+        "meaning": "اساساً؛ ریشه‌ای؛ از بنیاد",
+        "note": "برای تغییر یا تفاوتی بنیادی: «fundamentally different». صفتش fundamental یعنی بنیادی است."
+      },
+      "examples": [
+        {
+          "text": "The two approaches are fundamentally different.",
+          "fa": "این دو رویکرد اساساً با هم فرق دارند."
+        },
+        {
+          "text": "This discovery fundamentally changed how we see the problem.",
+          "fa": "این کشف نگاه ما به مسئله را از ریشه تغییر داد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌfʌndəˈmɛntəli"
+    },
+    {
+      "id": "v-0254",
+      "word": "generalize",
+      "pos": "verb",
+      "forms": [
+        "generalize",
+        "generalizes",
+        "generalized",
+        "generalizing",
+        "generalise"
+      ],
+      "stress": [
+        "JEN-er-uh-lize"
+      ],
+      "fa": {
+        "meaning": "تعمیم دادن؛ کلی‌گویی کردن",
+        "note": "نتیجه‌ی چند مورد را به همه نسبت دادن: «You can't generalize from one example». بریتانیایی generalise نوشته می‌شود. اسمش generalization است."
+      },
+      "examples": [
+        {
+          "text": "You can't generalize from just five interviews.",
+          "fa": "از فقط پنج مصاحبه نمی‌شود تعمیم داد."
+        },
+        {
+          "text": "It's unfair to generalize about a whole country.",
+          "fa": "کلی‌گویی درباره‌ی یک کشور کامل منصفانه نیست."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈdʒɛnɚəˌlaɪz"
+    },
+    {
+      "id": "v-0255",
+      "word": "grasp",
+      "pos": "verb",
+      "forms": [
+        "grasp",
+        "grasps",
+        "grasped",
+        "grasping"
+      ],
+      "stress": [
+        "GRASP"
+      ],
+      "fa": {
+        "meaning": "کامل فهمیدن؛ چنگ زدن؛ تسلط یافتن",
+        "note": "فهمیدن مفهوم سخت: «I can't grasp this concept». اسم: «a good grasp of grammar» = تسلط خوب بر دستور. معنی فیزیکی‌اش هم «محکم گرفتن» است."
+      },
+      "examples": [
+        {
+          "text": "I still can't grasp the difference between these two theories.",
+          "fa": "هنوز نمی‌توانم تفاوت این دو نظریه را درک کنم."
+        },
+        {
+          "text": "She has a good grasp of statistics.",
+          "fa": "او تسلط خوبی بر آمار دارد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɡɹæsp"
+    },
+    {
+      "id": "v-0256",
+      "word": "hierarchy",
+      "pos": "noun",
+      "forms": [
+        "hierarchy",
+        "hierarchies"
+      ],
+      "stress": [
+        "HY-er-ar-kee"
+      ],
+      "fa": {
+        "meaning": "سلسله‌مراتب",
+        "note": "نظام رتبه‌بندی از بالا به پایین: «a company hierarchy», «a hierarchy of needs». املایش را دقت کن: hierarchy."
+      },
+      "examples": [
+        {
+          "text": "There is a strict hierarchy in this company.",
+          "fa": "در این شرکت سلسله‌مراتب سختی هست."
+        },
+        {
+          "text": "The article describes a hierarchy of human needs.",
+          "fa": "مقاله سلسله‌مراتب نیازهای انسان را توضیح می‌دهد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈhaɪɚˌɑɹki"
+    },
+    {
+      "id": "v-0257",
+      "word": "ideology",
+      "pos": "noun",
+      "forms": [
+        "ideology",
+        "ideologies"
+      ],
+      "stress": [
+        "eye-dee-OL-uh-jee"
+      ],
+      "fa": {
+        "meaning": "ایدئولوژی؛ نظام فکری",
+        "note": "مجموعه‌ی باورها و ارزش‌های یک گروه یا حزب: «political ideology». لحنش معمولاً تحلیلی یا کمی انتقادی است."
+      },
+      "examples": [
+        {
+          "text": "Each party has a different political ideology.",
+          "fa": "هر حزب ایدئولوژی سیاسی متفاوتی دارد."
+        },
+        {
+          "text": "He criticised the ideology behind the policy.",
+          "fa": "او از ایدئولوژی پشت این سیاست انتقاد کرد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌaɪdiˈɑlədʒi"
+    },
+    {
+      "id": "v-0258",
+      "word": "illusion",
+      "pos": "noun",
+      "forms": [
+        "illusion",
+        "illusions"
+      ],
+      "stress": [
+        "ih-LOO-zhun"
+      ],
+      "fa": {
+        "meaning": "توهم؛ خیال خام؛ پندار",
+        "note": "چیزی که واقعی به نظر می‌رسد ولی نیست: «an optical illusion» = خطای دید. «I have no illusions» = خیال خام ندارم."
+      },
+      "examples": [
+        {
+          "text": "The picture is an optical illusion; the lines are the same length.",
+          "fa": "این تصویر خطای دید است؛ خط‌ها هم‌اندازه‌اند."
+        },
+        {
+          "text": "He had no illusions about how hard the job would be.",
+          "fa": "او هیچ خیال خامی درباره‌ی سختی کار نداشت."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪˈluʒən"
+    },
+    {
+      "id": "v-0259",
+      "word": "implicit",
+      "pos": "adjective",
+      "forms": [
+        "implicit",
+        "implicitly"
+      ],
+      "stress": [
+        "im-PLIS-it"
+      ],
+      "fa": {
+        "meaning": "ضمنی؛ تلویحی؛ نانوشته",
+        "note": "چیزی که گفته نشده ولی فهمیده می‌شود: «an implicit rule». ضدش explicit است. فعلش imply (حاکی بودن، ضمناً رساندن) است."
+      },
+      "examples": [
+        {
+          "text": "There was an implicit rule that nobody spoke during breaks.",
+          "fa": "یک قانون نانوشته بود که در استراحت‌ها کسی حرف نزند."
+        },
+        {
+          "text": "His silence was an implicit agreement.",
+          "fa": "سکوتش نوعی موافقت ضمنی بود."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ɪmˈplɪsɪt"
+    },
+    {
+      "id": "v-0260",
+      "word": "inevitably",
+      "pos": "adverb",
+      "forms": [
+        "inevitably"
+      ],
+      "stress": [
+        "in-EV-ih-tuh-blee"
+      ],
+      "fa": {
+        "meaning": "ناگزیر؛ به‌طور اجتناب‌ناپذیر",
+        "note": "یعنی چون نمی‌شد جلوی آن را گرفت: «Inevitably, prices went up». صفتش inevitable است. معمولاً اول جمله یا قبل از فعل می‌آید."
+      },
+      "examples": [
+        {
+          "text": "Inevitably, some students will fall behind.",
+          "fa": "ناگزیر بعضی دانشجوها عقب می‌مانند."
+        },
+        {
+          "text": "The meeting inevitably ran over time.",
+          "fa": "جلسه ناگزیر از زمانش بیشتر طول کشید."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ɪnˈɛvɪtəbli"
+    },
+    {
+      "id": "v-0261",
+      "word": "influential",
+      "pos": "adjective",
+      "forms": [
+        "influential"
+      ],
+      "stress": [
+        "in-floo-EN-shul"
+      ],
+      "fa": {
+        "meaning": "تأثیرگذار",
+        "note": "کسی یا چیزی که روی نظر و رفتار دیگران اثر زیادی دارد: «an influential book / person». اسم و فعلش influence است."
+      },
+      "examples": [
+        {
+          "text": "She wrote one of the most influential books in the field.",
+          "fa": "او یکی از تأثیرگذارترین کتاب‌های این حوزه را نوشت."
+        },
+        {
+          "text": "He was influential in changing the school's rules.",
+          "fa": "او در تغییر قوانین مدرسه تأثیرگذار بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɪnfluˈɛnʃəl"
+    },
+    {
+      "id": "v-0262",
+      "word": "instinct",
+      "pos": "noun",
+      "forms": [
+        "instinct",
+        "instincts"
+      ],
+      "stress": [
+        "IN-stinkt"
+      ],
+      "fa": {
+        "meaning": "غریزه؛ حس درونی",
+        "note": "رفتار طبیعی بدون فکر: «a survival instinct». در گفتار: «trust your instincts» = به حس درونی‌ات اعتماد کن. صفتش instinctive است."
+      },
+      "examples": [
+        {
+          "text": "My instinct told me something was wrong.",
+          "fa": "حس درونی‌ام می‌گفت چیزی درست نیست."
+        },
+        {
+          "text": "Babies have a natural instinct to look for food.",
+          "fa": "نوزادان غریزه‌ی طبیعی برای جست‌وجوی غذا دارند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɪnstɪŋkt"
+    },
+    {
+      "id": "v-0263",
+      "word": "interfere",
+      "pos": "verb",
+      "forms": [
+        "interfere",
+        "interferes",
+        "interfered",
+        "interfering"
+      ],
+      "stress": [
+        "in-ter-FEER"
+      ],
+      "fa": {
+        "meaning": "دخالت کردن؛ مزاحم شدن؛ اختلال ایجاد کردن",
+        "note": "با in یا with: «Don't interfere in my life» = در زندگی‌ام دخالت نکن؛ «The noise interferes with my work» = سروصدا کارم را مختل می‌کند. دخالت ناخواسته است."
+      },
+      "examples": [
+        {
+          "text": "I don't want to interfere, but maybe you should apologise.",
+          "fa": "نمی‌خواهم دخالت کنم، ولی شاید باید عذرخواهی کنی."
+        },
+        {
+          "text": "Loud music interferes with my concentration.",
+          "fa": "موزیک بلند تمرکزم را به هم می‌زند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɪntɚˈfɪɹ"
+    },
+    {
+      "id": "v-0264",
+      "word": "intervene",
+      "pos": "verb",
+      "forms": [
+        "intervene",
+        "intervenes",
+        "intervened",
+        "intervening"
+      ],
+      "stress": [
+        "in-ter-VEEN"
+      ],
+      "fa": {
+        "meaning": "وارد عمل شدن؛ مداخله کردن",
+        "note": "وارد ماجرا شدن برای متوقف کردن یا حل آن: «The teacher had to intervene». مثبت‌تر از interfere است. اسمش intervention است."
+      },
+      "examples": [
+        {
+          "text": "The manager had to intervene when the argument got loud.",
+          "fa": "وقتی بحث بالا گرفت مدیر مجبور شد وارد عمل شود."
+        },
+        {
+          "text": "The government decided not to intervene in the market.",
+          "fa": "دولت تصمیم گرفت در بازار مداخله نکند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌɪntɚˈvin"
+    },
+    {
+      "id": "v-0265",
+      "word": "irrelevant",
+      "pos": "adjective",
+      "forms": [
+        "irrelevant"
+      ],
+      "stress": [
+        "ih-REL-uh-vunt"
+      ],
+      "fa": {
+        "meaning": "بی‌ربط؛ بی‌اهمیت برای موضوع",
+        "note": "چیزی که به بحث مربوط نیست: «That's irrelevant». ضدش relevant است. املایش را دقت کن: دو r (irrelevant)."
+      },
+      "examples": [
+        {
+          "text": "Your age is irrelevant to this decision.",
+          "fa": "سن تو در این تصمیم بی‌ربط است."
+        },
+        {
+          "text": "That example is interesting, but it's irrelevant to the question.",
+          "fa": "آن مثال جالب است ولی به سؤال ربطی ندارد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪˈɹɛləvənt"
+    },
+    {
+      "id": "v-0266",
+      "word": "justification",
+      "pos": "noun",
+      "forms": [
+        "justification",
+        "justifications"
+      ],
+      "stress": [
+        "jus-tuh-fuh-KAY-shun"
+      ],
+      "fa": {
+        "meaning": "توجیه؛ دلیل موجه",
+        "note": "دلیلی که نشان می‌دهد کاری درست یا منطقی بوده: «There's no justification for violence». فعلش justify (توجیه کردن) است."
+      },
+      "examples": [
+        {
+          "text": "There is no justification for such a high price.",
+          "fa": "برای چنین قیمت بالایی هیچ توجیهی وجود ندارد."
+        },
+        {
+          "text": "She gave a clear justification for her choice.",
+          "fa": "او برای انتخابش توجیه روشنی آورد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌdʒʌstəfəˈkeɪʃən"
+    },
+    {
+      "id": "v-0267",
+      "word": "legitimate",
+      "pos": "adjective",
+      "forms": [
+        "legitimate"
+      ],
+      "stress": [
+        "luh-JIT-uh-mut"
+      ],
+      "fa": {
+        "meaning": "مشروع؛ موجه؛ قانونی",
+        "note": "مطابق قانون یا قابل‌قبول: «a legitimate concern» = نگرانی موجه؛ «a legitimate business». ضدش illegitimate است."
+      },
+      "examples": [
+        {
+          "text": "That's a legitimate question, and I'll try to answer it.",
+          "fa": "سؤال موجهی است و سعی می‌کنم جواب بدهم."
+        },
+        {
+          "text": "Make sure the website is legitimate before you pay.",
+          "fa": "قبل از پرداخت مطمئن شو سایت معتبر است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ləˈdʒɪtəmət"
+    },
+    {
+      "id": "v-0268",
+      "word": "likelihood",
+      "pos": "noun",
+      "forms": [
+        "likelihood"
+      ],
+      "stress": [
+        "LIKE-lee-hud"
+      ],
+      "fa": {
+        "meaning": "احتمال؛ شانس وقوع",
+        "note": "در عبارت «the likelihood of + اسم»: «There's a high likelihood of rain». رسمی‌تر از chance است. صفتش likely است."
+      },
+      "examples": [
+        {
+          "text": "There's a high likelihood of rain this afternoon.",
+          "fa": "احتمال زیادی هست که امروز بعدازظهر باران ببارد."
+        },
+        {
+          "text": "The likelihood of finding a flat quickly is low.",
+          "fa": "احتمال پیدا کردن سریع خانه کم است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈlaɪkliˌhʊd"
+    },
+    {
+      "id": "v-0269",
+      "word": "manipulate",
+      "pos": "verb",
+      "forms": [
+        "manipulate",
+        "manipulates",
+        "manipulated",
+        "manipulating"
+      ],
+      "stress": [
+        "muh-NIP-yuh-late"
+      ],
+      "fa": {
+        "meaning": "دستکاری کردن؛ با ترفند هدایت کردن",
+        "note": "دو معنی: (۱) کنترل کردن آدم‌ها با ترفند: «He manipulated her into signing». (۲) دستکاری داده یا تصویر: «manipulate the data». معمولاً منفی است."
+      },
+      "examples": [
+        {
+          "text": "Some websites manipulate you into buying more.",
+          "fa": "بعضی وب‌سایت‌ها تو را با ترفند وادار می‌کنند بیشتر بخری."
+        },
+        {
+          "text": "He was accused of manipulating the results.",
+          "fa": "او را متهم کردند که نتایج را دستکاری کرده است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "məˈnɪpjəˌleɪt"
+    },
+    {
+      "id": "v-0270",
+      "word": "metaphor",
+      "pos": "noun",
+      "forms": [
+        "metaphor",
+        "metaphors"
+      ],
+      "stress": [
+        "MET-uh-for"
+      ],
+      "fa": {
+        "meaning": "استعاره",
+        "note": "گفتن چیزی به جای چیز دیگر برای تصویرسازی: «Time is money» یک استعاره است. تشبیه (simile) با like یا as می‌آید."
+      },
+      "examples": [
+        {
+          "text": "The author uses a metaphor to describe the city as a machine.",
+          "fa": "نویسنده از یک استعاره برای توصیف شهر به‌عنوان یک ماشین استفاده می‌کند."
+        },
+        {
+          "text": "Calling life a journey is a very common metaphor.",
+          "fa": "گفتن اینکه زندگی یک سفر است استعاره‌ی بسیار رایجی است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈmɛtəfɔɹ"
+    },
+    {
+      "id": "v-0271",
+      "word": "methodology",
+      "pos": "noun",
+      "forms": [
+        "methodology",
+        "methodologies"
+      ],
+      "stress": [
+        "meth-uh-DOL-uh-jee"
+      ],
+      "fa": {
+        "meaning": "روش‌شناسی؛ روش پژوهش",
+        "note": "بخشی از پایان‌نامه یا مقاله که توضیح می‌دهد پژوهش چگونه انجام شده: «the methodology section». با method (یک روش) فرق دارد؛ methodology کل نظام روش‌هاست."
+      },
+      "examples": [
+        {
+          "text": "The methodology section explains how the data was collected.",
+          "fa": "بخش روش‌شناسی توضیح می‌دهد داده‌ها چگونه جمع‌آوری شده‌اند."
+        },
+        {
+          "text": "My supervisor questioned the methodology of the study.",
+          "fa": "استاد راهنمایم روش‌شناسی آن پژوهش را زیر سؤال برد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌmɛθəˈdɑlədʒi"
+    },
+    {
+      "id": "v-0272",
+      "word": "motive",
+      "pos": "noun",
+      "forms": [
+        "motive",
+        "motives"
+      ],
+      "stress": [
+        "MOH-tiv"
+      ],
+      "fa": {
+        "meaning": "انگیزه؛ علت (پنهان)",
+        "note": "دلیلی که کسی کاری را انجام می‌دهد، مخصوصاً دلیل پنهان یا شخصی: «What was his motive?». motivation انگیزه‌ی مثبت و درونی برای تلاش است؛ motive دلیل رفتار است."
+      },
+      "examples": [
+        {
+          "text": "The police still don't know the motive for the crime.",
+          "fa": "پلیس هنوز انگیزه‌ی جرم را نمی‌داند."
+        },
+        {
+          "text": "I wonder what his real motive was.",
+          "fa": "نمی‌دانم انگیزه‌ی واقعی‌اش چه بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈmoʊtɪv"
+    },
+    {
+      "id": "v-0273",
+      "word": "namely",
+      "pos": "adverb",
+      "forms": [
+        "namely"
+      ],
+      "stress": [
+        "NAME-lee"
+      ],
+      "fa": {
+        "meaning": "یعنی؛ به‌طور مشخص",
+        "note": "برای معرفی مصداق دقیق: «Two countries, namely Spain and Italy…». معمولاً بعد از کاما می‌آید. معادل رسمی‌تر «that is» یا «specifically» است."
+      },
+      "examples": [
+        {
+          "text": "Two options remain, namely waiting or cancelling the trip.",
+          "fa": "دو گزینه می‌ماند، یعنی صبر کردن یا لغو سفر."
+        },
+        {
+          "text": "We need one thing, namely more time.",
+          "fa": "ما یک چیز لازم داریم، یعنی زمان بیشتر."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈneɪmli"
+    },
+    {
+      "id": "v-0274",
+      "word": "nonetheless",
+      "pos": "adverb",
+      "forms": [
+        "nonetheless"
+      ],
+      "stress": [
+        "nun-thuh-LESS"
+      ],
+      "fa": {
+        "meaning": "با این‌حال؛ با این‌همه",
+        "note": "رسمی: یعنی با وجود چیزی که گفته شد: «It was hard; nonetheless, we finished». مترادف nevertheless و تقریباً however است."
+      },
+      "examples": [
+        {
+          "text": "The task was difficult; nonetheless, we finished on time.",
+          "fa": "کار سخت بود؛ با این‌حال سر وقت تمامش کردیم."
+        },
+        {
+          "text": "It's expensive, but it's nonetheless worth buying.",
+          "fa": "گران است، ولی با این‌حال ارزش خریدن دارد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌnʌnðəˈlɛs"
+    },
+    {
+      "id": "v-0275",
+      "word": "norm",
+      "pos": "noun",
+      "forms": [
+        "norm",
+        "norms"
+      ],
+      "stress": [
+        "NORM"
+      ],
+      "fa": {
+        "meaning": "هنجار؛ رسم رایج؛ حالت معمول",
+        "note": "چیزی که در یک جامعه یا گروه طبیعی و معمول است: «social norms». «the norm» = حالت عادی: «Remote work is now the norm»."
+      },
+      "examples": [
+        {
+          "text": "Working from home has become the norm for many people.",
+          "fa": "کار از خانه برای خیلی‌ها به حالت عادی تبدیل شده است."
+        },
+        {
+          "text": "Social norms are different in every culture.",
+          "fa": "هنجارهای اجتماعی در هر فرهنگی فرق دارد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈnɔɹm"
+    },
+    {
+      "id": "v-0276",
+      "word": "objection",
+      "pos": "noun",
+      "forms": [
+        "objection",
+        "objections"
+      ],
+      "stress": [
+        "ub-JEK-shun"
+      ],
+      "fa": {
+        "meaning": "اعتراض؛ مخالفت",
+        "note": "دلیل یا بیانی که مخالفت را نشان می‌دهد: «raise an objection». «Do you have any objections?» = مخالفتی داری؟ فعلش object است (تلفظش ub-JEKT)."
+      },
+      "examples": [
+        {
+          "text": "Does anyone have an objection to the new schedule?",
+          "fa": "کسی نسبت به برنامه‌ی جدید اعتراضی دارد؟"
+        },
+        {
+          "text": "Her main objection was the high cost.",
+          "fa": "اعتراض اصلی او هزینه‌ی بالا بود."
+        }
+      ],
+      "register": "formal",
+      "ipa": "əbˈdʒɛkʃən"
+    },
+    {
+      "id": "v-0277",
+      "word": "obscure",
+      "pos": "adjective",
+      "forms": [
+        "obscure"
+      ],
+      "stress": [
+        "ub-SKYOOR"
+      ],
+      "fa": {
+        "meaning": "مبهم؛ ناشناخته؛ نامفهوم",
+        "note": "چیزی که کم‌شناخته یا غیرواضح است: «an obscure author» = نویسنده‌ی کمتر شناخته‌شده؛ «obscure instructions» = دستور نامفهوم. فعل هم هست: مبهم کردن."
+      },
+      "examples": [
+        {
+          "text": "She wrote her thesis about an obscure poet from the 1800s.",
+          "fa": "او پایان‌نامه‌اش را درباره‌ی یک شاعر کمتر شناخته‌شده‌ی قرن نوزدهم نوشت."
+        },
+        {
+          "text": "The meaning of the sentence is still quite obscure.",
+          "fa": "معنی این جمله هنوز کاملاً مبهم است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "əbˈskjʊɹ"
+    },
+    {
+      "id": "v-0278",
+      "word": "obtain",
+      "pos": "verb",
+      "forms": [
+        "obtain",
+        "obtains",
+        "obtained",
+        "obtaining"
+      ],
+      "stress": [
+        "ub-TAIN"
+      ],
+      "fa": {
+        "meaning": "به دست آوردن؛ گرفتن (رسمی)",
+        "note": "رسمی‌تر از get: «obtain a visa / permission / results». در نامه‌های اداری و متن‌های علمی زیاد می‌آید."
+      },
+      "examples": [
+        {
+          "text": "You need to obtain a permit before you start building.",
+          "fa": "قبل از شروع ساخت باید مجوز بگیری."
+        },
+        {
+          "text": "They obtained the data from an online survey.",
+          "fa": "آنها داده‌ها را از یک نظرسنجی آنلاین به دست آوردند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "əbˈteɪn"
+    },
+    {
+      "id": "v-0279",
+      "word": "optimal",
+      "pos": "adjective",
+      "forms": [
+        "optimal"
+      ],
+      "stress": [
+        "OP-tuh-mul"
+      ],
+      "fa": {
+        "meaning": "بهینه؛ بهترین ممکن",
+        "note": "بهترین حالت ممکن در شرایط معین: «optimal conditions». فعلش optimize (بهینه کردن) است. در علم و فناوری زیاد می‌آید."
+      },
+      "examples": [
+        {
+          "text": "Seven to eight hours of sleep is optimal for most adults.",
+          "fa": "هفت تا هشت ساعت خواب برای بیشتر بزرگسالان بهینه است."
+        },
+        {
+          "text": "This is not the optimal time to start a new project.",
+          "fa": "این بهترین زمان برای شروع یک پروژه‌ی جدید نیست."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈɑptəməl"
+    },
+    {
+      "id": "v-0280",
+      "word": "overlap",
+      "pos": "verb",
+      "forms": [
+        "overlap",
+        "overlaps",
+        "overlapped",
+        "overlapping"
+      ],
+      "stress": [
+        "OH-ver-lap"
+      ],
+      "fa": {
+        "meaning": "هم‌پوشانی داشتن؛ بخشی مشترک داشتن",
+        "note": "وقتی دو چیز بخشی مشترک دارند: «Our schedules overlap on Tuesday». اسم هم هست: «There's a big overlap between the two topics»."
+      },
+      "examples": [
+        {
+          "text": "Our work schedules overlap only on Tuesdays.",
+          "fa": "برنامه‌ی کاری ما فقط سه‌شنبه‌ها با هم هم‌پوشانی دارد."
+        },
+        {
+          "text": "There is a big overlap between these two topics.",
+          "fa": "بین این دو موضوع هم‌پوشانی زیادی هست."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈoʊvɚˌlæp"
+    },
+    {
+      "id": "v-0281",
+      "word": "overview",
+      "pos": "noun",
+      "forms": [
+        "overview",
+        "overviews"
+      ],
+      "stress": [
+        "OH-ver-vyoo"
+      ],
+      "fa": {
+        "meaning": "نمای کلی؛ مرور اجمالی",
+        "note": "خلاصه‌ای از کل موضوع بدون جزئیات: «give an overview». در کلاس یا ارائه: «I'll start with a short overview»."
+      },
+      "examples": [
+        {
+          "text": "The first lecture gives a short overview of the course.",
+          "fa": "اولین جلسه یک نمای کلی کوتاه از درس می‌دهد."
+        },
+        {
+          "text": "Can you give me a quick overview of the project?",
+          "fa": "می‌توانی یک مرور سریع از پروژه به من بدهی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈoʊvɚˌvju"
+    },
+    {
+      "id": "v-0282",
+      "word": "paradox",
+      "pos": "noun",
+      "forms": [
+        "paradox",
+        "paradoxes"
+      ],
+      "stress": [
+        "PAIR-uh-doks"
+      ],
+      "fa": {
+        "meaning": "پارادوکس؛ تناقض ظاهری",
+        "note": "وضعیتی که متناقض به نظر می‌رسد ولی ممکن است درست باشد: «It's a paradox that more choices make us less happy». صفتش paradoxical است."
+      },
+      "examples": [
+        {
+          "text": "It's a paradox that more choice often makes us less happy.",
+          "fa": "پارادوکس است که انتخاب بیشتر اغلب ما را کمتر خوشحال می‌کند."
+        },
+        {
+          "text": "The paradox is that he's both shy and a great speaker.",
+          "fa": "تناقض اینجاست که هم خجالتی است و هم سخنران عالی."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈpɛɹəˌdɑks"
+    },
+    {
+      "id": "v-0283",
+      "word": "plausible",
+      "pos": "adjective",
+      "forms": [
+        "plausible"
+      ],
+      "stress": [
+        "PLAW-zuh-bul"
+      ],
+      "fa": {
+        "meaning": "قابل‌قبول؛ باورپذیر؛ محتمل",
+        "note": "توضیحی که منطقی به نظر می‌رسد (لزوماً درست نیست): «a plausible explanation». ضدش implausible است."
+      },
+      "examples": [
+        {
+          "text": "That's a plausible explanation, but we need more evidence.",
+          "fa": "توضیح قابل‌قبولی است ولی شواهد بیشتری لازم داریم."
+        },
+        {
+          "text": "His excuse sounded plausible at first.",
+          "fa": "بهانه‌اش اول باورپذیر به نظر می‌رسید."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈplɔzəbəl"
+    },
+    {
+      "id": "v-0284",
+      "word": "portray",
+      "pos": "verb",
+      "forms": [
+        "portray",
+        "portrays",
+        "portrayed",
+        "portraying"
+      ],
+      "stress": [
+        "por-TRAY"
+      ],
+      "fa": {
+        "meaning": "به تصویر کشیدن؛ نشان دادن؛ نقش بازی کردن",
+        "note": "نشان دادن کسی یا چیزی به شیوه‌ای خاص (در فیلم، کتاب، رسانه): «The media portrays him as a hero». اسمش portrayal است."
+      },
+      "examples": [
+        {
+          "text": "The film portrays life in a small village very realistically.",
+          "fa": "فیلم زندگی در یک روستای کوچک را بسیار واقع‌گرایانه تصویر می‌کند."
+        },
+        {
+          "text": "The media often portrays teenagers in a negative way.",
+          "fa": "رسانه‌ها اغلب نوجوانان را به شکل منفی نشان می‌دهند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "pɔɹˈtɹeɪ"
+    },
+    {
+      "id": "v-0285",
+      "word": "pragmatic",
+      "pos": "adjective",
+      "forms": [
+        "pragmatic",
+        "pragmatically"
+      ],
+      "stress": [
+        "prag-MAT-ik"
+      ],
+      "fa": {
+        "meaning": "عمل‌گرا؛ واقع‌بین؛ کاربردی",
+        "note": "تمرکز بر آنچه عملاً کار می‌کند، نه بر تئوری: «a pragmatic approach / person». مثبت است و در محیط کار هم رایج."
+      },
+      "examples": [
+        {
+          "text": "We need a pragmatic solution, not a perfect one.",
+          "fa": "ما یک راه‌حل عملی لازم داریم، نه کامل."
+        },
+        {
+          "text": "She's very pragmatic and always looks for practical answers.",
+          "fa": "او بسیار عمل‌گراست و همیشه دنبال جواب‌های کاربردی است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "pɹæɡˈmætɪk"
+    },
+    {
+      "id": "v-0286",
+      "word": "preliminary",
+      "pos": "adjective",
+      "forms": [
+        "preliminary"
+      ],
+      "stress": [
+        "prih-LIM-ih-nair-ee"
+      ],
+      "fa": {
+        "meaning": "مقدماتی؛ اولیه",
+        "note": "پیش از مرحله‌ی اصلی: «preliminary results» = نتایج اولیه؛ «a preliminary meeting» = جلسه‌ی مقدماتی. در گزارش و مقاله زیاد می‌آید."
+      },
+      "examples": [
+        {
+          "text": "The preliminary results look very promising.",
+          "fa": "نتایج اولیه بسیار امیدوارکننده به نظر می‌رسد."
+        },
+        {
+          "text": "We had a preliminary meeting before the real project began.",
+          "fa": "قبل از شروع پروژه‌ی اصلی یک جلسه‌ی مقدماتی داشتیم."
+        }
+      ],
+      "register": "formal",
+      "ipa": "pɹɪˈlɪməˌnɛɹi"
+    },
+    {
+      "id": "v-0287",
+      "word": "presume",
+      "pos": "verb",
+      "forms": [
+        "presume",
+        "presumes",
+        "presumed",
+        "presuming"
+      ],
+      "stress": [
+        "prih-ZOOM"
+      ],
+      "fa": {
+        "meaning": "فرض کردن؛ گمان کردن",
+        "note": "فرض کردن چیزی بر اساس احتمال: «I presume you've read the article». نزدیک assume ولی رسمی‌تر. معنی دیگر: «I wouldn't presume to tell you» = جرئت نمی‌کنم به تو بگویم."
+      },
+      "examples": [
+        {
+          "text": "I presume you've already read the article for today's class.",
+          "fa": "فرض می‌کنم مقاله‌ی امروز کلاس را قبلاً خوانده‌ای."
+        },
+        {
+          "text": "Everyone presumed he was the new teacher.",
+          "fa": "همه گمان کردند او معلم جدید است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "pɹɪˈzum"
+    },
+    {
+      "id": "v-0288",
+      "word": "prejudice",
+      "pos": "noun",
+      "forms": [
+        "prejudice",
+        "prejudices",
+        "prejudiced"
+      ],
+      "stress": [
+        "PREJ-uh-dis"
+      ],
+      "fa": {
+        "meaning": "پیش‌داوری؛ تعصب",
+        "note": "نظر منفی از پیش و بدون شناخت درباره‌ی گروهی از مردم: «racial prejudice». ساختار: prejudice against someone. صفتش prejudiced است."
+      },
+      "examples": [
+        {
+          "text": "Prejudice against immigrants can make it harder to find work.",
+          "fa": "پیش‌داوری علیه مهاجران می‌تواند پیدا کردن کار را سخت‌تر کند."
+        },
+        {
+          "text": "She tried to read the report without prejudice.",
+          "fa": "او کوشید گزارش را بدون پیش‌داوری بخواند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈpɹɛdʒədɪs"
+    },
+    {
+      "id": "v-0289",
+      "word": "profound",
+      "pos": "adjective",
+      "forms": [
+        "profound",
+        "profoundly"
+      ],
+      "stress": [
+        "pruh-FOUND"
+      ],
+      "fa": {
+        "meaning": "عمیق؛ ژرف؛ بسیار شدید",
+        "note": "برای تأثیر یا احساس عمیق و مهم: «a profound effect / change». در متن رسمی و ادبی خیلی می‌آید."
+      },
+      "examples": [
+        {
+          "text": "Moving abroad had a profound effect on her life.",
+          "fa": "مهاجرت به خارج تأثیر عمیقی بر زندگی‌اش گذاشت."
+        },
+        {
+          "text": "There has been a profound change in how we work.",
+          "fa": "در شیوه‌ی کار کردن ما تغییر ژرفی رخ داده است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "pɹoʊˈfaʊnd"
+    },
+    {
+      "id": "v-0290",
+      "word": "prominent",
+      "pos": "adjective",
+      "forms": [
+        "prominent"
+      ],
+      "stress": [
+        "PROM-uh-nunt"
+      ],
+      "fa": {
+        "meaning": "برجسته؛ سرشناس؛ بارز",
+        "note": "مشهور یا به‌خوبی دیده‌شده: «a prominent scientist», «a prominent role». درباره‌ی چیز فیزیکی یعنی جلب‌توجه‌کننده."
+      },
+      "examples": [
+        {
+          "text": "She's a prominent researcher in the field of psychology.",
+          "fa": "او پژوهشگر سرشناسی در حوزه‌ی روان‌شناسی است."
+        },
+        {
+          "text": "The logo is placed in a prominent position.",
+          "fa": "لوگو در جای برجسته‌ای قرار گرفته است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈpɹɑmənənt"
+    },
+    {
+      "id": "v-0291",
+      "word": "qualitative",
+      "pos": "adjective",
+      "forms": [
+        "qualitative"
+      ],
+      "stress": [
+        "KWOL-uh-tay-tiv"
+      ],
+      "fa": {
+        "meaning": "کیفی",
+        "note": "پژوهش یا داده‌ای که درباره‌ی کیفیت و تجربه است، نه عدد: «qualitative research» (مصاحبه، مشاهده). ضدش quantitative است."
+      },
+      "examples": [
+        {
+          "text": "We used interviews for the qualitative part of the study.",
+          "fa": "برای بخش کیفی پژوهش از مصاحبه استفاده کردیم."
+        },
+        {
+          "text": "Qualitative data can show why people feel a certain way.",
+          "fa": "داده‌های کیفی می‌توانند نشان بدهند چرا مردم چنین احساسی دارند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈkwɑləˌteɪtɪv"
+    },
+    {
+      "id": "v-0292",
+      "word": "quantitative",
+      "pos": "adjective",
+      "forms": [
+        "quantitative"
+      ],
+      "stress": [
+        "KWON-tuh-tay-tiv"
+      ],
+      "fa": {
+        "meaning": "کمّی",
+        "note": "مبتنی بر عدد و آمار: «quantitative research / analysis» (پرسشنامه، آزمایش). ضدش qualitative است."
+      },
+      "examples": [
+        {
+          "text": "The survey provides quantitative data about students' habits.",
+          "fa": "این نظرسنجی داده‌های کمّی درباره‌ی عادت‌های دانشجوها می‌دهد."
+        },
+        {
+          "text": "I prefer quantitative methods because I like working with numbers.",
+          "fa": "روش‌های کمّی را ترجیح می‌دهم چون دوست دارم با عدد کار کنم."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈkwɑntɪˌteɪtɪv"
+    },
+    {
+      "id": "v-0293",
+      "word": "questionnaire",
+      "pos": "noun",
+      "forms": [
+        "questionnaire",
+        "questionnaires"
+      ],
+      "stress": [
+        "kwes-chuh-NAIR"
+      ],
+      "fa": {
+        "meaning": "پرسشنامه",
+        "note": "فرمی با سؤال‌های مشخص برای جمع‌آوری اطلاعات: «fill in a questionnaire». املایش را دقت کن: دو n (questionnaire)."
+      },
+      "examples": [
+        {
+          "text": "Please fill in the questionnaire before the interview.",
+          "fa": "لطفاً قبل از مصاحبه پرسشنامه را پر کنید."
+        },
+        {
+          "text": "The questionnaire has twenty questions about study habits.",
+          "fa": "پرسشنامه بیست سؤال درباره‌ی عادت‌های مطالعه دارد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌkwɛstʃəˈnɛɹ"
+    },
+    {
+      "id": "v-0294",
+      "word": "rational",
+      "pos": "adjective",
+      "forms": [
+        "rational",
+        "rationally"
+      ],
+      "stress": [
+        "RASH-uh-nul"
+      ],
+      "fa": {
+        "meaning": "منطقی؛ عقلانی",
+        "note": "بر اساس عقل و منطق، نه احساس: «a rational decision». ضدش irrational است. اسمش rationality است."
+      },
+      "examples": [
+        {
+          "text": "Let's try to make a rational decision, not an emotional one.",
+          "fa": "بیایید تصمیم منطقی بگیریم، نه احساسی."
+        },
+        {
+          "text": "There must be a rational explanation for this.",
+          "fa": "حتماً برای این یک توضیح منطقی وجود دارد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈɹæʃənəl"
+    },
+    {
+      "id": "v-0295",
+      "word": "reinforce",
+      "pos": "verb",
+      "forms": [
+        "reinforce",
+        "reinforces",
+        "reinforced",
+        "reinforcing"
+      ],
+      "stress": [
+        "ree-in-FORCE"
+      ],
+      "fa": {
+        "meaning": "تقویت کردن؛ مستحکم کردن",
+        "note": "محکم‌تر کردن یک ایده، رفتار یا ساختار: «reinforce learning» = تثبیت یادگیری؛ «reinforce stereotypes» = کلیشه‌ها را تقویت کردن. اسمش reinforcement است."
+      },
+      "examples": [
+        {
+          "text": "Regular practice will reinforce what you learned in class.",
+          "fa": "تمرین منظم آنچه را در کلاس یاد گرفتی تثبیت می‌کند."
+        },
+        {
+          "text": "The article reinforces the idea that sleep is important.",
+          "fa": "مقاله این ایده را که خواب مهم است تقویت می‌کند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌɹiɪnˈfɔɹs"
+    },
+    {
+      "id": "v-0296",
+      "word": "reliability",
+      "pos": "noun",
+      "forms": [
+        "reliability"
+      ],
+      "stress": [
+        "rih-ly-uh-BIL-uh-tee"
+      ],
+      "fa": {
+        "meaning": "پایایی؛ قابل اعتماد بودن",
+        "note": "در پژوهش یعنی نتیجه با تکرار ثابت می‌ماند: «the reliability of the test». در زندگی روزمره: «the reliability of a car». صفتش reliable است."
+      },
+      "examples": [
+        {
+          "text": "We checked the reliability of the test by repeating it.",
+          "fa": "با تکرار آزمون، پایایی آن را بررسی کردیم."
+        },
+        {
+          "text": "The reliability of online sources can be hard to judge.",
+          "fa": "قضاوت درباره‌ی اعتبار منابع آنلاین می‌تواند سخت باشد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ɹiˌlaɪəˈbɪləti"
+    },
+    {
+      "id": "v-0297",
+      "word": "replicate",
+      "pos": "verb",
+      "forms": [
+        "replicate",
+        "replicates",
+        "replicated",
+        "replicating"
+      ],
+      "stress": [
+        "REP-luh-kate"
+      ],
+      "fa": {
+        "meaning": "تکرار کردن (آزمایش)؛ بازتولید کردن",
+        "note": "در علم: آزمایش را با همان روش دوباره انجام دادن و نتیجه گرفتن: «The study could not be replicated». اسمش replication است."
+      },
+      "examples": [
+        {
+          "text": "Other scientists were unable to replicate the results.",
+          "fa": "دانشمندان دیگر نتوانستند نتایج را تکرار کنند."
+        },
+        {
+          "text": "It's hard to replicate the exact conditions of the first experiment.",
+          "fa": "بازسازی دقیق شرایط آزمایش اول سخت است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈɹɛpləˌkeɪt"
+    },
+    {
+      "id": "v-0298",
+      "word": "resemble",
+      "pos": "verb",
+      "forms": [
+        "resemble",
+        "resembles",
+        "resembled",
+        "resembling"
+      ],
+      "stress": [
+        "rih-ZEM-bul"
+      ],
+      "fa": {
+        "meaning": "شبیه بودن",
+        "note": "رسمی‌تر از look like؛ متعدی است و حرف اضافه نمی‌گیرد: «She resembles her mother» (نه resembles to). اسمش resemblance است."
+      },
+      "examples": [
+        {
+          "text": "She strongly resembles her mother when she laughs.",
+          "fa": "وقتی می‌خندد خیلی شبیه مادرش است."
+        },
+        {
+          "text": "The new building resembles a giant glass box.",
+          "fa": "ساختمان جدید شبیه یک جعبه‌ی شیشه‌ای غول‌پیکر است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ɹɪˈzɛmbəl"
+    },
+    {
+      "id": "v-0299",
+      "word": "scholarship",
+      "pos": "noun",
+      "forms": [
+        "scholarship",
+        "scholarships"
+      ],
+      "stress": [
+        "SKOL-er-ship"
+      ],
+      "fa": {
+        "meaning": "بورسیه؛ (در معنی علمی) پژوهش و دانش",
+        "note": "دو معنی: بورس تحصیلی: «apply for a scholarship» و دانش و پژوهش دانشگاهی: «academic scholarship». در دانشگاه، معنی اولش بیشتر مهم است."
+      },
+      "examples": [
+        {
+          "text": "She won a scholarship to study in Belgium.",
+          "fa": "او بورسیه‌ای برای تحصیل در بلژیک گرفت."
+        },
+        {
+          "text": "He applied for a scholarship to cover his tuition fees.",
+          "fa": "او برای پوشش شهریه‌اش درخواست بورسیه داد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈskɑlɚˌʃɪp"
+    },
+    {
+      "id": "v-0300",
+      "word": "simplify",
+      "pos": "verb",
+      "forms": [
+        "simplify",
+        "simplifies",
+        "simplified",
+        "simplifying"
+      ],
+      "stress": [
+        "SIM-pluh-fy"
+      ],
+      "fa": {
+        "meaning": "ساده کردن",
+        "note": "پیچیدگی را کم کردن: «Let me simplify this». اسمش simplification و صفتش simple است. در توضیح دادن به دیگران مفید است."
+      },
+      "examples": [
+        {
+          "text": "Let me simplify the explanation a bit.",
+          "fa": "اجازه بده توضیح را کمی ساده کنم."
+        },
+        {
+          "text": "The new form simplifies the application process.",
+          "fa": "فرم جدید روند درخواست را ساده می‌کند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈsɪmpləˌfaɪ"
+    },
+    {
+      "id": "v-0301",
+      "word": "spontaneous",
+      "pos": "adjective",
+      "forms": [
+        "spontaneous",
+        "spontaneously"
+      ],
+      "stress": [
+        "spon-TAY-nee-us"
+      ],
+      "fa": {
+        "meaning": "خودجوش؛ بی‌برنامه؛ ناگهانی",
+        "note": "کاری که بدون برنامه‌ی قبلی انجام می‌شود: «a spontaneous trip». معمولاً مثبت است. اسمش spontaneity است."
+      },
+      "examples": [
+        {
+          "text": "We took a spontaneous trip to the coast last weekend.",
+          "fa": "آخر هفته‌ی پیش بی‌برنامه به ساحل سفر کردیم."
+        },
+        {
+          "text": "She gave a spontaneous speech at the party.",
+          "fa": "او در مهمانی یک سخنرانی بدون آمادگی قبلی کرد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "spɑnˈteɪniəs"
+    },
+    {
+      "id": "v-0302",
+      "word": "stance",
+      "pos": "noun",
+      "forms": [
+        "stance",
+        "stances"
+      ],
+      "stress": [
+        "STANS"
+      ],
+      "fa": {
+        "meaning": "موضع؛ دیدگاه (رسمی)",
+        "note": "موضع و نظر رسمی درباره‌ی یک موضوع: «take a stance on», «the company's stance». در ارائه و بحث: «What's your stance on this?»."
+      },
+      "examples": [
+        {
+          "text": "What is the government's stance on this issue?",
+          "fa": "موضع دولت درباره‌ی این موضوع چیست؟"
+        },
+        {
+          "text": "She took a firm stance against cheating.",
+          "fa": "او موضع محکمی علیه تقلب گرفت."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈstæns"
+    },
+    {
+      "id": "v-0303",
+      "word": "stereotype",
+      "pos": "noun",
+      "forms": [
+        "stereotype",
+        "stereotypes",
+        "stereotyped"
+      ],
+      "stress": [
+        "STAIR-ee-uh-type"
+      ],
+      "fa": {
+        "meaning": "کلیشه؛ تصور قالبی",
+        "note": "تصور ساده و ثابت درباره‌ی یک گروه از مردم: «gender stereotypes». معمولاً نادرست و منفی است. فعل هم دارد: stereotype someone."
+      },
+      "examples": [
+        {
+          "text": "That film is full of negative stereotypes about teenagers.",
+          "fa": "آن فیلم پر از کلیشه‌های منفی درباره‌ی نوجوان‌هاست."
+        },
+        {
+          "text": "We should avoid stereotypes about people from other countries.",
+          "fa": "باید از کلیشه‌ها درباره‌ی مردم کشورهای دیگر پرهیز کنیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈstɛɹiəˌtaɪp"
+    },
+    {
+      "id": "v-0304",
+      "word": "straightforward",
+      "pos": "adjective",
+      "forms": [
+        "straightforward"
+      ],
+      "stress": [
+        "strate-FOR-werd"
+      ],
+      "fa": {
+        "meaning": "ساده؛ سرراست؛ بی‌پیچ‌وخم",
+        "note": "کاری که پیچیده نیست: «a straightforward process». درباره‌ی آدم یعنی رک و صادق. در توضیح دادن مراحل خیلی رایج است."
+      },
+      "examples": [
+        {
+          "text": "The application process is quite straightforward.",
+          "fa": "روند درخواست کاملاً ساده است."
+        },
+        {
+          "text": "I like her because she's honest and straightforward.",
+          "fa": "او را دوست دارم چون صادق و رک است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌstɹeɪtˈfɔɹwɚd"
+    },
+    {
+      "id": "v-0305",
+      "word": "subjective",
+      "pos": "adjective",
+      "forms": [
+        "subjective",
+        "subjectively"
+      ],
+      "stress": [
+        "sub-JEK-tiv"
+      ],
+      "fa": {
+        "meaning": "ذهنی؛ شخصی؛ مبتنی بر نظر",
+        "note": "بر اساس احساس یا نظر شخصی، نه واقعیت: «Taste in music is subjective». ضدش objective (عینی، بی‌طرف) است."
+      },
+      "examples": [
+        {
+          "text": "Beauty is subjective; everyone sees it differently.",
+          "fa": "زیبایی ذهنی است؛ هر کسی آن را جور دیگری می‌بیند."
+        },
+        {
+          "text": "The grading felt a bit subjective to me.",
+          "fa": "نمره‌دادن به نظرم کمی سلیقه‌ای بود."
+        }
+      ],
+      "register": "formal",
+      "ipa": "səbˈdʒɛktɪv"
+    },
+    {
+      "id": "v-0306",
+      "word": "subtle",
+      "pos": "adjective",
+      "forms": [
+        "subtle",
+        "subtly"
+      ],
+      "stress": [
+        "SUT-ul"
+      ],
+      "fa": {
+        "meaning": "ظریف؛ نامحسوس؛ غیرمستقیم",
+        "note": "حرف b تلفظ نمی‌شود: SUT-ul. یعنی تفاوت یا تغییر کوچک که دیدنش سخت است: «a subtle difference». درباره‌ی اشاره یعنی غیرمستقیم."
+      },
+      "examples": [
+        {
+          "text": "There's a subtle difference between these two words.",
+          "fa": "بین این دو کلمه یک تفاوت ظریف هست."
+        },
+        {
+          "text": "She gave me a subtle hint that it was time to leave.",
+          "fa": "او با اشاره‌ی ظریفی فهماند که وقت رفتن است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈsʌtəl"
+    },
+    {
+      "id": "v-0307",
+      "word": "sufficiently",
+      "pos": "adverb",
+      "forms": [
+        "sufficiently"
+      ],
+      "stress": [
+        "suh-FISH-unt-lee"
+      ],
+      "fa": {
+        "meaning": "به‌اندازه‌ی کافی",
+        "note": "رسمی‌تر از enough: «sufficiently clear». صفتش sufficient است. معمولاً قبل از صفت می‌آید."
+      },
+      "examples": [
+        {
+          "text": "The results are not sufficiently clear to draw a conclusion.",
+          "fa": "نتایج برای نتیجه‌گیری به‌اندازه‌ی کافی روشن نیست."
+        },
+        {
+          "text": "He was sufficiently prepared for the interview.",
+          "fa": "او برای مصاحبه به‌اندازه‌ی کافی آماده بود."
+        }
+      ],
+      "register": "formal",
+      "ipa": "səˈfɪʃəntli"
+    },
+    {
+      "id": "v-0308",
+      "word": "supposedly",
+      "pos": "adverb",
+      "forms": [
+        "supposedly"
+      ],
+      "stress": [
+        "suh-POH-zid-lee"
+      ],
+      "fa": {
+        "meaning": "به گفته‌ی دیگران؛ ظاهراً (با کمی شک)",
+        "note": "یعنی «طبق آنچه می‌گویند، ولی من مطمئن نیستم»: «This is supposedly the best café in town» = می‌گویند بهترین کافه‌ی شهر است. معمولاً کمی شک دارد."
+      },
+      "examples": [
+        {
+          "text": "This is supposedly the best café in the city.",
+          "fa": "می‌گویند این بهترین کافه‌ی شهر است."
+        },
+        {
+          "text": "He's supposedly working from home, but he never answers.",
+          "fa": "ظاهراً دارد از خانه کار می‌کند ولی هیچ‌وقت جواب نمی‌دهد."
+        }
+      ],
+      "register": "informal",
+      "ipa": "səˈpoʊzədli"
+    },
+    {
+      "id": "v-0309",
+      "word": "sustainable",
+      "pos": "adjective",
+      "forms": [
+        "sustainable"
+      ],
+      "stress": [
+        "suh-STAY-nuh-bul"
+      ],
+      "fa": {
+        "meaning": "پایدار؛ سازگار با محیط‌زیست؛ قابل ادامه",
+        "note": "دو معنی: (۱) بدون آسیب به محیط‌زیست و قابل ادامه: «sustainable energy»؛ (۲) قابل ادامه در عمل: «a sustainable pace». اسمش sustainability است."
+      },
+      "examples": [
+        {
+          "text": "We need more sustainable ways to travel.",
+          "fa": "ما به راه‌های سفر پایدارتر نیاز داریم."
+        },
+        {
+          "text": "Working twelve hours a day is simply not sustainable.",
+          "fa": "کار روزی دوازده ساعت اصلاً قابل ادامه نیست."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "səˈsteɪnəbəl"
+    },
+    {
+      "id": "v-0310",
+      "word": "syllabus",
+      "pos": "noun",
+      "forms": [
+        "syllabus",
+        "syllabuses",
+        "syllabi"
+      ],
+      "stress": [
+        "SIL-uh-bus"
+      ],
+      "fa": {
+        "meaning": "سرفصل‌های درس؛ برنامه‌ی ریز درس",
+        "note": "فهرست موضوعات و برنامه‌ی یک درس که استاد اول ترم می‌دهد: «check the syllabus». جمعش syllabuses یا syllabi است."
+      },
+      "examples": [
+        {
+          "text": "The syllabus lists all the readings for each week.",
+          "fa": "سرفصل درس همه‌ی منابع هر هفته را فهرست کرده است."
+        },
+        {
+          "text": "Check the syllabus to see when the exam is.",
+          "fa": "سرفصل را نگاه کن تا ببینی امتحان کی است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈsɪləbəs"
+    },
+    {
+      "id": "v-0311",
+      "word": "thesis",
+      "pos": "noun",
+      "forms": [
+        "thesis",
+        "theses"
+      ],
+      "stress": [
+        "THEE-sis"
+      ],
+      "fa": {
+        "meaning": "پایان‌نامه؛ ادعای اصلی (یک مقاله)",
+        "note": "دو معنی: پایان‌نامه (در آمریکا ارشد، در بریتانیا اغلب دکتری) و ادعای اصلی مقاله: «thesis statement». جمعش theses (THEE-seez) است."
+      },
+      "examples": [
+        {
+          "text": "My thesis is about how people learn new vocabulary.",
+          "fa": "پایان‌نامه‌ام درباره‌ی این است که مردم چطور واژگان جدید یاد می‌گیرند."
+        },
+        {
+          "text": "Every essay needs a clear thesis in the introduction.",
+          "fa": "هر مقاله در مقدمه به یک ادعای اصلی روشن نیاز دارد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈθisəs"
+    },
+    {
+      "id": "v-0312",
+      "word": "threshold",
+      "pos": "noun",
+      "forms": [
+        "threshold",
+        "thresholds"
+      ],
+      "stress": [
+        "THRESH-hold"
+      ],
+      "fa": {
+        "meaning": "آستانه؛ حد",
+        "note": "نقطه یا حدی که بعد از آن چیزی تغییر می‌کند: «a pain threshold» = آستانه‌ی درد؛ «the passing threshold». معنی اصلی‌اش آستانه‌ی در است."
+      },
+      "examples": [
+        {
+          "text": "Each test has a threshold for passing.",
+          "fa": "هر آزمون یک حد نصاب قبولی دارد."
+        },
+        {
+          "text": "Her pain threshold is much higher than mine.",
+          "fa": "آستانه‌ی تحمل درد او خیلی از من بالاتر است."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈθɹɛʃˌhoʊld"
+    },
+    {
+      "id": "v-0313",
+      "word": "trait",
+      "pos": "noun",
+      "forms": [
+        "trait",
+        "traits"
+      ],
+      "stress": [
+        "TRAYT"
+      ],
+      "fa": {
+        "meaning": "ویژگی (شخصیتی)؛ صفت ذاتی",
+        "note": "ویژگی خاص شخصیت یا ژنتیک: «a personality trait». در روان‌شناسی و زیست‌شناسی زیاد می‌آید."
+      },
+      "examples": [
+        {
+          "text": "Patience is her best personality trait.",
+          "fa": "صبر بهترین ویژگی شخصیتی اوست."
+        },
+        {
+          "text": "Curiosity is a trait that many scientists share.",
+          "fa": "کنجکاوی ویژگی‌ای است که بسیاری از دانشمندان مشترک دارند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtɹeɪt"
+    },
+    {
+      "id": "v-0314",
+      "word": "transparency",
+      "pos": "noun",
+      "forms": [
+        "transparency"
+      ],
+      "stress": [
+        "trans-PAIR-un-see"
+      ],
+      "fa": {
+        "meaning": "شفافیت",
+        "note": "باز و روشن بودن اطلاعات و تصمیم‌ها: «the transparency of the process». صفتش transparent است (شفاف؛ درباره‌ی شیشه هم می‌آید)."
+      },
+      "examples": [
+        {
+          "text": "People are asking for more transparency in the budget.",
+          "fa": "مردم شفافیت بیشتری در بودجه می‌خواهند."
+        },
+        {
+          "text": "The company promised full transparency about its prices.",
+          "fa": "شرکت قول شفافیت کامل درباره‌ی قیمت‌هایش داد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "tɹænˈspɛɹənsi"
+    },
+    {
+      "id": "v-0315",
+      "word": "undermine",
+      "pos": "verb",
+      "forms": [
+        "undermine",
+        "undermines",
+        "undermined",
+        "undermining"
+      ],
+      "stress": [
+        "un-der-MINE"
+      ],
+      "fa": {
+        "meaning": "تضعیف کردن؛ از زیر سست کردن",
+        "note": "کم‌کم ضعیف کردن اعتبار یا اعتماد: «undermine confidence». مثل خالی کردن پایه‌ی یک ساختمان است."
+      },
+      "examples": [
+        {
+          "text": "Constant criticism can undermine your confidence.",
+          "fa": "انتقاد مداوم می‌تواند اعتمادبه‌نفس تو را تضعیف کند."
+        },
+        {
+          "text": "The scandal undermined people's trust in the company.",
+          "fa": "رسوایی اعتماد مردم به شرکت را تضعیف کرد."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˌʌndɚˈmaɪn"
+    },
+    {
+      "id": "v-0316",
+      "word": "utilize",
+      "pos": "verb",
+      "forms": [
+        "utilize",
+        "utilizes",
+        "utilized",
+        "utilizing",
+        "utilise"
+      ],
+      "stress": [
+        "YOO-tuh-lize"
+      ],
+      "fa": {
+        "meaning": "به کار بردن؛ بهره گرفتن (رسمی)",
+        "note": "همان use ولی خیلی رسمی‌تر است. در گفتار روزمره use بهتر است؛ utilize بیشتر در گزارش و مقاله می‌آید. بریتانیایی utilise نوشته می‌شود."
+      },
+      "examples": [
+        {
+          "text": "The company utilizes solar energy to power its offices.",
+          "fa": "شرکت از انرژی خورشیدی برای تأمین برق دفترهایش بهره می‌گیرد."
+        },
+        {
+          "text": "Students should utilize the library resources more.",
+          "fa": "دانشجوها باید بیشتر از منابع کتابخانه استفاده کنند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈjutəˌlaɪz"
+    },
+    {
+      "id": "v-0317",
+      "word": "valid",
+      "pos": "adjective",
+      "forms": [
+        "valid"
+      ],
+      "stress": [
+        "VAL-id"
+      ],
+      "fa": {
+        "meaning": "معتبر؛ موجه؛ قانونی",
+        "note": "دو معنی: (۱) درست و منطقی: «a valid point»؛ (۲) قانونی و قابل استفاده: «a valid ticket / passport». ضدش invalid است. اسمش validity است."
+      },
+      "examples": [
+        {
+          "text": "That's a valid point, and I hadn't thought of it.",
+          "fa": "نکته‌ی موجهی است و به آن فکر نکرده بودم."
+        },
+        {
+          "text": "Your passport must be valid for at least six months.",
+          "fa": "پاسپورتت باید دست‌کم شش ماه اعتبار داشته باشد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈvælɪd"
+    },
+    {
+      "id": "v-0318",
+      "word": "vague",
+      "pos": "adjective",
+      "forms": [
+        "vague",
+        "vaguely"
+      ],
+      "stress": [
+        "VAIG"
+      ],
+      "fa": {
+        "meaning": "مبهم؛ نامشخص؛ کلی",
+        "note": "غیرواضح یا بدون جزئیات: «a vague answer». «I only have a vague idea» = فقط یک تصور مبهم دارم."
+      },
+      "examples": [
+        {
+          "text": "His answer was too vague to be useful.",
+          "fa": "جوابش آن‌قدر مبهم بود که به کار نمی‌آمد."
+        },
+        {
+          "text": "I only have a vague memory of that day.",
+          "fa": "فقط خاطره‌ی مبهمی از آن روز دارم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈveɪɡ"
+    },
+    {
+      "id": "v-0319",
+      "word": "viable",
+      "pos": "adjective",
+      "forms": [
+        "viable"
+      ],
+      "stress": [
+        "VY-uh-bul"
+      ],
+      "fa": {
+        "meaning": "عملی؛ شدنی؛ قابل اجرا",
+        "note": "ایده یا طرحی که واقعاً می‌شود اجرا کرد یا موفق است: «a viable option / plan». ضدش unviable است."
+      },
+      "examples": [
+        {
+          "text": "Is this plan financially viable for a small company?",
+          "fa": "آیا این طرح از نظر مالی برای یک شرکت کوچک عملی است؟"
+        },
+        {
+          "text": "We need to find a more viable option.",
+          "fa": "باید گزینه‌ی عملی‌تری پیدا کنیم."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈvaɪəbəl"
+    },
+    {
+      "id": "v-0320",
+      "word": "widespread",
+      "pos": "adjective",
+      "forms": [
+        "widespread"
+      ],
+      "stress": [
+        "WIDE-spred"
+      ],
+      "fa": {
+        "meaning": "گسترده؛ رایج؛ همه‌گیر",
+        "note": "در جاهای زیاد یا بین افراد زیاد: «widespread use», «widespread concern». در خبر و مقاله خیلی می‌آید."
+      },
+      "examples": [
+        {
+          "text": "There is widespread concern about the rise in prices.",
+          "fa": "نگرانی گسترده‌ای درباره‌ی افزایش قیمت‌ها وجود دارد."
+        },
+        {
+          "text": "Smartphones are now in widespread use.",
+          "fa": "گوشی‌های هوشمند حالا به‌طور گسترده استفاده می‌شوند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈwaɪdˌspɹɛd"
+    }
+  ]
+}

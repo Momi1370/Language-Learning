@@ -94,7 +94,7 @@ try {
   // Words tab: today's batch is sorted by ticking the new words; "Teach me" makes a card; reopening keeps the batch.
   const vocabState = `(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); return s; })()`;
   await check('index.html#/words', 'words', 'new to you', noPack);
-  const batch = await b.evaluate(`${vocabState}.vocab.day.ids.join()`);
+  const batch = await b.evaluate(`${vocabState}.vocab.day.batches.everyday.join()`);
   const boxes = await b.evaluate(`document.querySelectorAll('.sort-row input').length`);
   const switcher = await b.evaluate(`[...document.querySelectorAll('button[aria-pressed]')].map((x) => x.textContent).join('|')`);
   const sortOk = batch.split(',').length === 10 && boxes === 10 && /Everyday · \d+ new\|University · \d+ new/.test(switcher);
@@ -115,9 +115,19 @@ try {
   if (!cardOk) failed++;
   console.log(`${cardOk ? '✓' : '✗'} "Teach me" makes a card for the ticked word (${taught})`);
   await check('index.html?again#/words', 'words', 'Today: 10 of 10 words done', noPack);
-  const same = (await b.evaluate(`${vocabState}.vocab.day.ids.join()`)) === batch;
+  const same = (await b.evaluate(`${vocabState}.vocab.day.batches.everyday.join()`)) === batch;
   if (!same) failed++;
   console.log(`${same ? '✓' : '✗'} reopening the Words tab keeps the same batch`);
+  // The University section draws its own batch (pack 3); switching back to Everyday is remembered.
+  await check('index.html?uni#/words', 'words', 'Today: 10 of 10 words done', noPack);
+  await b.click('University · 100 new');
+  await check('index.html?uni2#/words', 'words', 'new to you', noPack);
+  const uniIds = await b.evaluate(`${vocabState}.vocab.day.batches.university.join()`);
+  const uniOk = uniIds.startsWith('v-0221,') && uniIds.split(',').length === 10 && (await b.evaluate(`${vocabState}.settings.vocabTrack`)) === 'university';
+  if (!uniOk) failed++;
+  console.log(`${uniOk ? '✓' : '✗'} University section gives its own 10 words (${uniIds.slice(0, 15)}…)`);
+  await b.click('Everyday · 210 new');
+  await check('index.html?uni3#/words', 'words', 'Today: 10 of 10 words done', noPack);
   await check('index.html#/words/list', 'words/list', 'All words', noPack);
 
   // The words fail to load: the Words tab explains and offers "Try again"; other screens keep working.

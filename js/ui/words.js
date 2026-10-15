@@ -1,6 +1,6 @@
 import { clear, mount, h, button, fa } from './dom.js';
 import { speakable, say, sayItCheck } from './widgets.js';
-import { ensureBatch, batchLeft, markKnown, teach, statusOf, searchVocab, wordsOf, newCount, settleBatch } from '../vocab.js';
+import { ensureBatch, batchOf, batchLeft, markKnown, teach, statusOf, searchVocab, wordsOf, newCount, settleBatch } from '../vocab.js';
 import { TRACKS, TRACK_NAMES } from '../vocabtext.js';
 
 // One word: pronunciation, Farsi meaning and note, and the examples. Used here and in Cards.
@@ -54,7 +54,7 @@ export async function render(ctx, root) {
   show();
 
   function show() {
-    const total = ctx.state.vocab.day.ids.filter((id) => ctx.vocabIndex[id]).length;
+    const total = batchOf(ctx.state).filter((id) => ctx.vocabIndex[id]).length;
     const left = batchLeft(ctx.state).filter((id) => ctx.vocabIndex[id]);
     head.textContent = total ? `Today: ${total - left.length} of ${total} words done` : '';
     clear(stage);

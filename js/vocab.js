@@ -13,17 +13,20 @@ export function statusOf(state, id) {
   return 'new';
 }
 
-// The day's batch: the next N undecided words of the chosen section, kept for the whole calendar day
-// (choosing the other section draws that section's batch instead). With no words loaded nothing
-// is stored, so a failed load cannot use up the day.
+// The day's batch: each section draws its own next N undecided words the first time it is opened that
+// calendar day, and keeps them for the whole day. With no words loaded nothing is stored, so a failed
+// load cannot use up the day.
 export function ensureBatch(state, words, now = new Date()) {
   const date = localDate(now);
   const track = state.settings.vocabTrack;
   const day = state.vocab.day;
-  if ((day.date === date && day.track === track) || !words.length) return state;
+  if (!words.length || (day.date === date && day.batches[track])) return state;
   const ids = words.filter((w) => w.track === track && statusOf(state, w.id) === 'new').slice(0, state.settings.vocabPerDay).map((w) => w.id);
-  return { ...state, vocab: { ...state.vocab, day: { date, track, ids } } };
+  const batches = day.date === date ? { ...day.batches, [track]: ids } : { [track]: ids };
+  return { ...state, vocab: { ...state.vocab, day: { date, batches } } };
 }
+
+export const batchOf = (state) => state.vocab.day.batches[state.settings.vocabTrack] ?? [];
 
 export const newCount = (state, words, track) => words.filter((w) => w.track === track && statusOf(state, w.id) === 'new').length;
 
@@ -33,7 +36,7 @@ export function settleBatch(state, unknownIds) {
   return batchLeft(state).filter((id) => !keep.has(id)).reduce(markKnown, state);
 }
 
-export const batchLeft = (state) => state.vocab.day.ids.filter((id) => statusOf(state, id) === 'new');
+export const batchLeft = (state) => batchOf(state).filter((id) => statusOf(state, id) === 'new');
 
 export function markKnown(state, id) {
   if (state.cards[id] || state.vocab.known.includes(id)) return state;

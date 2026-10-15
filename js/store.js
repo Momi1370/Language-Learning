@@ -12,7 +12,7 @@ export function defaultState() {
     settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 10, vocabTrack: 'everyday' },
     cards: {},
     myPhrases: [],
-    vocab: { known: [], day: { date: '', track: 'everyday', ids: [] }, reviews: { key: '', count: 0 }, perDayReset: true },
+    vocab: { known: [], day: { date: '', batches: {} }, reviews: { key: '', count: 0 }, perDayReset: true },
     ear: {},
     missions: {},
     extraFor: '',
@@ -21,6 +21,15 @@ export function defaultState() {
 }
 
 export const PER_DAY = [3, 5, 10, 15];
+// The day's words: one batch per section. Older saves had a single list ("ids", then "ids" + "track").
+function migrateDay(day) {
+  if (!isObject(day) || typeof day.date !== 'string') return null;
+  const lists = (o) => Object.fromEntries(TRACKS.filter((t) => Array.isArray(o[t]) && o[t].every((id) => typeof id === 'string')).map((t) => [t, o[t]]));
+  if (isObject(day.batches)) return { date: day.date, batches: lists(day.batches) };
+  if (Array.isArray(day.ids) && day.ids.every((id) => typeof id === 'string')) return { date: day.date, batches: { [TRACKS.includes(day.track) ? day.track : 'everyday']: day.ids } };
+  return null;
+}
+
 const isObject = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v);
 const isText = (v) => typeof v === 'string';
 const inRange = (n, max) => Number.isInteger(n) && n >= 1 && n <= max;
@@ -52,9 +61,7 @@ export function migrate(raw) {
     myPhrases: pick('myPhrases', (v) => Array.isArray(v) && v.every((p) => isObject(p) && isText(p.id) && isText(p.text))),
     vocab: {
       known: Array.isArray(v.known) && v.known.every(isText) ? v.known : base.vocab.known,
-      day: isObject(v.day) && isText(v.day.date) && Array.isArray(v.day.ids) && v.day.ids.every(isText)
-        ? { date: v.day.date, track: TRACKS.includes(v.day.track) ? v.day.track : 'everyday', ids: v.day.ids }
-        : base.vocab.day,
+      day: migrateDay(v.day) ?? base.vocab.day,
       reviews: isObject(v.reviews) && isText(v.reviews.key) && Number.isInteger(v.reviews.count) && v.reviews.count >= 0 ? v.reviews : base.vocab.reviews,
       perDayReset: true,
     },

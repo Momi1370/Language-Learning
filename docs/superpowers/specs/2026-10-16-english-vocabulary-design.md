@@ -201,3 +201,5 @@ Each milestone ends with validator, tests and smoke passing, a fresh-reviewer pa
 | 2026-10-16 | Packs marked `"draft": true` are skipped by the app and by the 100-word minimum while a pack is being written |
 | 2026-10-16 | Final review: the cap counts reviews only (first-time cards always show) and its key includes the date; both found by simulating 30 days of study with the real modules |
 | 2026-10-16 | A word may carry `"cmu": "lead(2)"` to pick a dictionary variant (the first CMU entry of "lead" is the metal, not the verb) |
+| 2026-10-16 | After using pack 1 the learner knew every word. Answer: **two sections** (Everyday, University) instead of a level picker; **10 words a day** (the old 5 moves to 10 once); a **tick-to-sort** screen first (unticked = known, ticked go one by one); pack 2 = 100 everyday B2 words (37 phrasal verbs, feelings, daily-life nouns, spoken connectors), pack 3 = 100 general academic words from the NAWL |
+| 2026-10-16 | Pack file gains `track`; the day's batch stores its `track` and is drawn again when the section changes; a word may carry a hand-set `ipa` (kept by `vocab-ipa`) |
