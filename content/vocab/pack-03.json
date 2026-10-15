@@ -22,16 +22,48 @@
       },
       "examples": [
         {
-          "text": "Dust accumulates quickly when you never open the windows.",
-          "fa": "وقتی هیچ‌وقت پنجره‌ها را باز نمی‌کنی گرد و غبار زود جمع می‌شود."
+          "tense": "past",
+          "text": "She accumulated a lot of experience during her internship.",
+          "fa": "او در دوره‌ی کارآموزی تجربه‌ی زیادی جمع کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «accumulate» می‌شود «accumulated»."
         },
         {
-          "text": "She accumulated a lot of experience during her internship.",
-          "fa": "او در دوره‌ی کارآموزی تجربه‌ی زیادی جمع کرد."
+          "tense": "present",
+          "text": "Dust accumulates quickly when you never open the windows.",
+          "fa": "وقتی هیچ‌وقت پنجره‌ها را باز نمی‌کنی گرد و غبار زود جمع می‌شود.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («accumulates»). در جمله: «accumulates»."
+        },
+        {
+          "tense": "future",
+          "text": "Small mistakes will accumulate if you ignore them.",
+          "fa": "اگر نادیده‌شان بگیری اشتباه‌های کوچک روی هم جمع می‌شوند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will accumulate»."
         }
       ],
       "register": "formal",
-      "ipa": "əˈkjumjəˌleɪt"
+      "ipa": "əˈkjumjəˌleɪt",
+      "morph": [
+        [
+          "Base",
+          "accumulate"
+        ],
+        [
+          "He / she / it",
+          "accumulates"
+        ],
+        [
+          "Past",
+          "accumulated"
+        ],
+        [
+          "Past participle",
+          "accumulated"
+        ],
+        [
+          "-ing form",
+          "accumulating"
+        ]
+      ]
     },
     {
       "id": "v-0222",
@@ -52,16 +84,48 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "The university allocated more money to the library this year.",
-          "fa": "دانشگاه امسال پول بیشتری به کتابخانه اختصاص داد."
+          "fa": "دانشگاه امسال پول بیشتری به کتابخانه اختصاص داد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «allocate» می‌شود «allocated»."
         },
         {
-          "text": "We need to allocate more time for reading.",
-          "fa": "باید زمان بیشتری را به مطالعه اختصاص بدهیم."
+          "tense": "present",
+          "text": "Our department allocates a small budget to each project.",
+          "fa": "گروه ما به هر پروژه بودجه‌ی کمی اختصاص می‌دهد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («allocates»). در جمله: «allocates»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll allocate two hours to reading tomorrow.",
+          "fa": "فردا دو ساعت را به مطالعه اختصاص می‌دهم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll allocate»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈæləˌkeɪt"
+      "ipa": "ˈæləˌkeɪt",
+      "morph": [
+        [
+          "Base",
+          "allocate"
+        ],
+        [
+          "He / she / it",
+          "allocates"
+        ],
+        [
+          "Past",
+          "allocated"
+        ],
+        [
+          "Past participle",
+          "allocated"
+        ],
+        [
+          "-ing form",
+          "allocating"
+        ]
+      ]
     },
     {
       "id": "v-0223",
@@ -80,16 +144,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "My teacher used an analogy with water to explain electricity.",
-          "fa": "معلمم برای توضیح برق از یک قیاس با آب استفاده کرد."
+          "fa": "معلمم برای توضیح برق از یک قیاس با آب استفاده کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «used an analogy»."
         },
         {
+          "tense": "present",
           "text": "That analogy doesn't really work, because the two situations are different.",
-          "fa": "آن قیاس واقعاً درست درنمی‌آید چون دو وضعیت فرق دارند."
+          "fa": "آن قیاس واقعاً درست درنمی‌آید چون دو وضعیت فرق دارند.",
+          "grammar": "حال ساده‌ی منفی: don't (برای I / you / we / they) یا doesn't (برای he / she / it) + شکل ساده‌ی فعل. در جمله: «doesn't really work»."
+        },
+        {
+          "tense": "future",
+          "text": "This analogy will help you understand the idea.",
+          "fa": "این قیاس به فهمیدن ایده کمک می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will help»."
         }
       ],
       "register": "formal",
-      "ipa": "əˈnælədʒi"
+      "ipa": "əˈnælədʒi",
+      "morph": [
+        [
+          "Singular",
+          "analogy"
+        ],
+        [
+          "Plural",
+          "analogies"
+        ],
+        [
+          "Adjective",
+          "analogous"
+        ],
+        [
+          "Phrase",
+          "draw an analogy"
+        ]
+      ]
     },
     {
       "id": "v-0224",
@@ -108,16 +200,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "The deadline seemed completely arbitrary to all of us.",
-          "fa": "مهلت تحویل برای همه‌ی ما کاملاً دلبخواهی به نظر می‌رسید."
+          "fa": "مهلت تحویل برای همه‌ی ما کاملاً دلبخواهی به نظر می‌رسید.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «seemed completely arbitrary»."
         },
         {
-          "text": "Choosing the topic at random felt a bit arbitrary.",
-          "fa": "انتخاب تصادفی موضوع کمی بی‌پایه به نظر می‌آمد."
+          "tense": "present",
+          "text": "Some rules feel arbitrary until someone explains them.",
+          "fa": "بعضی قوانین دلبخواهی به نظر می‌رسند تا وقتی کسی توضیحشان بدهد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «feel arbitrary»."
+        },
+        {
+          "tense": "future",
+          "text": "The decision will look arbitrary if you give no reason.",
+          "fa": "اگر دلیلی نیاوری تصمیم دلبخواهی به نظر می‌رسد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will look arbitrary»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈɑɹbəˌtɹɛɹi"
+      "ipa": "ˈɑɹbəˌtɹɛɹi",
+      "morph": [
+        [
+          "Adjective",
+          "arbitrary"
+        ],
+        [
+          "Adverb",
+          "arbitrarily"
+        ],
+        [
+          "Noun",
+          "arbitrariness"
+        ],
+        [
+          "Opposite",
+          "reasoned / logical"
+        ]
+      ]
     },
     {
       "id": "v-0225",
@@ -138,16 +258,48 @@
       },
       "examples": [
         {
-          "text": "It's hard to articulate how I feel about leaving.",
-          "fa": "بیان کردن حسی که درباره‌ی رفتن دارم سخت است."
+          "tense": "past",
+          "text": "She articulated her ideas clearly in the interview.",
+          "fa": "او در مصاحبه ایده‌هایش را به‌روشنی بیان کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «articulate» می‌شود «articulated»."
         },
         {
-          "text": "Try to articulate your argument in one or two sentences.",
-          "fa": "سعی کن استدلالت را در یکی دو جمله بیان کنی."
+          "tense": "present",
+          "text": "Good speakers articulate their ideas simply.",
+          "fa": "سخنرانان خوب ایده‌هایشان را ساده بیان می‌کنند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («articulates»). در جمله: «articulate»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll articulate my argument in two sentences.",
+          "fa": "استدلالم را در دو جمله بیان می‌کنم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll articulate»."
         }
       ],
       "register": "formal",
-      "ipa": "ɑɹˈtɪkjəˌleɪt"
+      "ipa": "ɑɹˈtɪkjəˌleɪt",
+      "morph": [
+        [
+          "Base",
+          "articulate"
+        ],
+        [
+          "He / she / it",
+          "articulates"
+        ],
+        [
+          "Past",
+          "articulated"
+        ],
+        [
+          "Past participle",
+          "articulated"
+        ],
+        [
+          "-ing form",
+          "articulating"
+        ]
+      ]
     },
     {
       "id": "v-0226",
@@ -168,16 +320,48 @@
       },
       "examples": [
         {
-          "text": "The author asserts that social media has changed how we read.",
-          "fa": "نویسنده ادعا می‌کند که شبکه‌های اجتماعی شیوه‌ی خواندن ما را تغییر داده‌اند."
+          "tense": "past",
+          "text": "He asserted that the data was correct.",
+          "fa": "او ادعا کرد که داده‌ها درست است.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «assert» می‌شود «asserted»."
         },
         {
-          "text": "You need to learn to assert yourself in meetings.",
-          "fa": "باید یاد بگیری در جلسه‌ها ابراز وجود کنی."
+          "tense": "present",
+          "text": "The author asserts that social media has changed how we read.",
+          "fa": "نویسنده ادعا می‌کند که شبکه‌های اجتماعی شیوه‌ی خواندن ما را تغییر داده‌اند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («asserts»). در جمله: «asserts»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll assert myself more in meetings.",
+          "fa": "در جلسه‌ها بیشتر ابراز وجود می‌کنم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll assert myself»."
         }
       ],
       "register": "formal",
-      "ipa": "əˈsɝt"
+      "ipa": "əˈsɝt",
+      "morph": [
+        [
+          "Base",
+          "assert"
+        ],
+        [
+          "He / she / it",
+          "asserts"
+        ],
+        [
+          "Past",
+          "asserted"
+        ],
+        [
+          "Past participle",
+          "asserted"
+        ],
+        [
+          "-ing form",
+          "asserting"
+        ]
+      ]
     },
     {
       "id": "v-0227",
@@ -196,16 +380,44 @@
       },
       "examples": [
         {
-          "text": "In the worst-case scenario, we'll just take a taxi.",
-          "fa": "در بدترین حالت، فقط تاکسی می‌گیریم."
+          "tense": "past",
+          "text": "We discussed a different scenario in class yesterday.",
+          "fa": "دیروز در کلاس درباره‌ی یک سناریوی دیگر بحث کردیم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «discussed»."
         },
         {
-          "text": "Let's imagine a different scenario: what if the train is cancelled?",
-          "fa": "یک سناریوی دیگر را تصور کنیم: اگر قطار لغو شود چه؟"
+          "tense": "present",
+          "text": "This scenario is common in small companies.",
+          "fa": "این سناریو در شرکت‌های کوچک رایج است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is common»."
+        },
+        {
+          "tense": "future",
+          "text": "In the worst-case scenario, we'll just take a taxi.",
+          "fa": "در بدترین حالت، فقط تاکسی می‌گیریم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «we'll just take a taxi»."
         }
       ],
       "register": "neutral",
-      "ipa": "sɪˈnɛɹioʊ"
+      "ipa": "sɪˈnɛɹioʊ",
+      "morph": [
+        [
+          "Singular",
+          "scenario"
+        ],
+        [
+          "Plural",
+          "scenarios"
+        ],
+        [
+          "Phrase",
+          "worst-case scenario"
+        ],
+        [
+          "Phrase",
+          "best-case scenario"
+        ]
+      ]
     },
     {
       "id": "v-0228",
@@ -224,16 +436,44 @@
       },
       "examples": [
         {
-          "text": "Your essay is interesting, but it needs a more coherent structure.",
-          "fa": "مقاله‌ات جالب است ولی به ساختار منسجم‌تری نیاز دارد."
+          "tense": "past",
+          "text": "Her essay was coherent from start to finish.",
+          "fa": "مقاله‌اش از اول تا آخر منسجم بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was coherent»."
         },
         {
-          "text": "He was so tired that he could barely give a coherent answer.",
-          "fa": "آن‌قدر خسته بود که به‌زحمت می‌توانست جواب مرتبطی بدهد."
+          "tense": "present",
+          "text": "His argument is coherent and easy to follow.",
+          "fa": "استدلالش منسجم است و دنبال کردنش آسان است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is coherent»."
+        },
+        {
+          "tense": "future",
+          "text": "Your next draft will be more coherent.",
+          "fa": "پیش‌نویس بعدی‌ات منسجم‌تر خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be more coherent»."
         }
       ],
       "register": "formal",
-      "ipa": "koʊˈhɪɹənt"
+      "ipa": "koʊˈhɪɹənt",
+      "morph": [
+        [
+          "Adjective",
+          "coherent"
+        ],
+        [
+          "Adverb",
+          "coherently"
+        ],
+        [
+          "Noun",
+          "coherence"
+        ],
+        [
+          "Opposite",
+          "incoherent"
+        ]
+      ]
     },
     {
       "id": "v-0229",
@@ -254,16 +494,48 @@
       },
       "examples": [
         {
-          "text": "The airline will compensate passengers for the long delay.",
-          "fa": "ایرلاین به مسافران برای تأخیر طولانی غرامت می‌دهد."
+          "tense": "past",
+          "text": "The company compensated him for the lost luggage.",
+          "fa": "شرکت برای چمدان گمشده به او غرامت داد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «compensate» می‌شود «compensated»."
         },
         {
-          "text": "He tries to compensate for his lack of experience by working harder.",
-          "fa": "او می‌کوشد با سخت‌تر کار کردن کم‌تجربگی‌اش را جبران کند."
+          "tense": "present",
+          "text": "Hard work compensates for a lack of talent.",
+          "fa": "سخت‌کوشی کمبود استعداد را جبران می‌کند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («compensates»). در جمله: «compensates»."
+        },
+        {
+          "tense": "future",
+          "text": "The airline will compensate passengers for the long delay.",
+          "fa": "ایرلاین به مسافران برای تأخیر طولانی غرامت می‌دهد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will compensate»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈkɑmpənˌseɪt"
+      "ipa": "ˈkɑmpənˌseɪt",
+      "morph": [
+        [
+          "Base",
+          "compensate"
+        ],
+        [
+          "He / she / it",
+          "compensates"
+        ],
+        [
+          "Past",
+          "compensated"
+        ],
+        [
+          "Past participle",
+          "compensated"
+        ],
+        [
+          "-ing form",
+          "compensating"
+        ]
+      ]
     },
     {
       "id": "v-0230",
@@ -281,16 +553,44 @@
       },
       "examples": [
         {
-          "text": "My reading comprehension is better than my listening comprehension.",
-          "fa": "درک مطلب خواندنم از درک شنیداریم بهتر است."
+          "tense": "past",
+          "text": "My comprehension improved a lot last year.",
+          "fa": "درک مطلبم پارسال خیلی بهتر شد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «improved»."
         },
         {
-          "text": "The test checks comprehension, not just vocabulary.",
-          "fa": "آزمون درک مطلب را می‌سنجد، نه فقط واژگان را."
+          "tense": "present",
+          "text": "My reading comprehension is better than my listening comprehension.",
+          "fa": "درک مطلب خواندنم از درک شنیداریم بهتر است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is better»."
+        },
+        {
+          "tense": "future",
+          "text": "Your comprehension will improve if you read daily.",
+          "fa": "اگر هر روز بخوانی درک مطلبت بهتر می‌شود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will improve»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˌkɑmpɹiˈhɛnʃən"
+      "ipa": "ˌkɑmpɹiˈhɛnʃən",
+      "morph": [
+        [
+          "Singular",
+          "comprehension"
+        ],
+        [
+          "Verb",
+          "comprehend"
+        ],
+        [
+          "Adjective",
+          "comprehensible"
+        ],
+        [
+          "Phrase",
+          "reading comprehension"
+        ]
+      ]
     },
     {
       "id": "v-0231",
@@ -311,16 +611,48 @@
       },
       "examples": [
         {
-          "text": "All students must comply with the exam rules.",
-          "fa": "همه‌ی دانشجویان باید از قوانین امتحان پیروی کنند."
+          "tense": "past",
+          "text": "The company complied with the new safety rules.",
+          "fa": "شرکت از قوانین ایمنی جدید پیروی کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «comply» می‌شود «complied»."
         },
         {
-          "text": "The company was fined for failing to comply with safety regulations.",
-          "fa": "شرکت به خاطر رعایت نکردن مقررات ایمنی جریمه شد."
+          "tense": "present",
+          "text": "Our team complies with all privacy laws.",
+          "fa": "تیم ما از همه‌ی قوانین حریم خصوصی پیروی می‌کند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («complies»). در جمله: «complies»."
+        },
+        {
+          "tense": "future",
+          "text": "You'll need to comply with the rules.",
+          "fa": "باید از قوانین پیروی کنی.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «You'll need to comply»."
         }
       ],
       "register": "formal",
-      "ipa": "kəmˈplaɪ"
+      "ipa": "kəmˈplaɪ",
+      "morph": [
+        [
+          "Base",
+          "comply"
+        ],
+        [
+          "He / she / it",
+          "complies"
+        ],
+        [
+          "Past",
+          "complied"
+        ],
+        [
+          "Past participle",
+          "complied"
+        ],
+        [
+          "-ing form",
+          "complying"
+        ]
+      ]
     },
     {
       "id": "v-0232",
@@ -338,16 +670,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "After a long discussion, the group finally reached a consensus.",
-          "fa": "بعد از بحث طولانی، گروه سرانجام به اجماع رسید."
+          "fa": "بعد از بحث طولانی، گروه سرانجام به اجماع رسید.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «reached a consensus»."
         },
         {
+          "tense": "present",
           "text": "There's no consensus among scientists about this yet.",
-          "fa": "هنوز بین دانشمندان درباره‌ی این موضوع اجماعی وجود ندارد."
+          "fa": "هنوز بین دانشمندان درباره‌ی این موضوع اجماعی وجود ندارد.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «There's no consensus»."
+        },
+        {
+          "tense": "future",
+          "text": "We'll reach a consensus by Friday.",
+          "fa": "تا جمعه به اجماع می‌رسیم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «We'll reach a consensus»."
         }
       ],
       "register": "formal",
-      "ipa": "kənˈsɛnsəs"
+      "ipa": "kənˈsɛnsəs",
+      "morph": [
+        [
+          "Singular",
+          "consensus"
+        ],
+        [
+          "Plural",
+          "consensuses (rare)"
+        ],
+        [
+          "Phrase",
+          "reach a consensus"
+        ],
+        [
+          "Spelling",
+          "consensus (not \"concensus\")"
+        ]
+      ]
     },
     {
       "id": "v-0233",
@@ -367,16 +727,48 @@
       },
       "examples": [
         {
-          "text": "You need written consent to interview the participants.",
-          "fa": "برای مصاحبه با شرکت‌کنندگان به رضایت‌نامه‌ی کتبی نیاز داری."
+          "tense": "past",
+          "text": "He didn't consent to the use of his photos.",
+          "fa": "او به استفاده از عکس‌هایش رضایت نداد.",
+          "grammar": "گذشته‌ی ساده‌ی منفی: didn't + شکل ساده‌ی فعل (نه شکل گذشته). در جمله: «didn't consent»."
         },
         {
-          "text": "He didn't consent to the use of his photos.",
-          "fa": "او به استفاده از عکس‌هایش رضایت نداد."
+          "tense": "present",
+          "text": "Participants give consent before the interview starts.",
+          "fa": "شرکت‌کنندگان پیش از شروع مصاحبه رضایت می‌دهند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («consents»). در جمله: «give consent»."
+        },
+        {
+          "tense": "future",
+          "text": "She will consent to the interview.",
+          "fa": "او با مصاحبه موافقت می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will consent»."
         }
       ],
       "register": "formal",
-      "ipa": "kənˈsɛnt"
+      "ipa": "kənˈsɛnt",
+      "morph": [
+        [
+          "Noun / base verb",
+          "consent"
+        ],
+        [
+          "He / she / it",
+          "consents"
+        ],
+        [
+          "Past",
+          "consented"
+        ],
+        [
+          "-ing form",
+          "consenting"
+        ],
+        [
+          "Phrase",
+          "informed consent"
+        ]
+      ]
     },
     {
       "id": "v-0234",
@@ -397,16 +789,48 @@
       },
       "examples": [
         {
-          "text": "The new data contradicts what we believed before.",
-          "fa": "داده‌های جدید با آنچه قبلاً باور داشتیم در تناقض است."
+          "tense": "past",
+          "text": "His second answer contradicted the first one.",
+          "fa": "جواب دوم او با اولی تناقض داشت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «contradict» می‌شود «contradicted»."
         },
         {
-          "text": "Your second paragraph contradicts the first one.",
-          "fa": "پاراگراف دومت با اولی تناقض دارد."
+          "tense": "present",
+          "text": "The new data contradicts what we believed before.",
+          "fa": "داده‌های جدید با آنچه قبلاً باور داشتیم در تناقض است.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («contradicts»). در جمله: «contradicts»."
+        },
+        {
+          "tense": "future",
+          "text": "This result will contradict our theory.",
+          "fa": "این نتیجه با نظریه‌ی ما در تناقض خواهد بود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will contradict»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌkɑntɹəˈdɪkt"
+      "ipa": "ˌkɑntɹəˈdɪkt",
+      "morph": [
+        [
+          "Base",
+          "contradict"
+        ],
+        [
+          "He / she / it",
+          "contradicts"
+        ],
+        [
+          "Past",
+          "contradicted"
+        ],
+        [
+          "Past participle",
+          "contradicted"
+        ],
+        [
+          "-ing form",
+          "contradicting"
+        ]
+      ]
     },
     {
       "id": "v-0235",
@@ -425,16 +849,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "The new law caused a lot of controversy last year.",
-          "fa": "قانون جدید پارسال جنجال زیادی به راه انداخت."
+          "fa": "قانون جدید پارسال جنجال زیادی به راه انداخت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «caused a lot of controversy»."
         },
         {
+          "tense": "present",
           "text": "There's still some controversy over how to measure it.",
-          "fa": "هنوز درباره‌ی نحوه‌ی اندازه‌گیری آن اختلاف نظر هست."
+          "fa": "هنوز درباره‌ی نحوه‌ی اندازه‌گیری آن اختلاف نظر هست.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «There's still some controversy»."
+        },
+        {
+          "tense": "future",
+          "text": "The plan will cause controversy in the city.",
+          "fa": "این طرح در شهر جنجال به پا می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will cause controversy»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈkɑntɹəˌvɝsi"
+      "ipa": "ˈkɑntɹəˌvɝsi",
+      "morph": [
+        [
+          "Singular",
+          "controversy"
+        ],
+        [
+          "Plural",
+          "controversies"
+        ],
+        [
+          "Adjective",
+          "controversial"
+        ],
+        [
+          "Phrase",
+          "cause controversy"
+        ]
+      ]
     },
     {
       "id": "v-0236",
@@ -452,16 +904,44 @@
       },
       "examples": [
         {
-          "text": "Using weak sources can damage the credibility of your essay.",
-          "fa": "استفاده از منابع ضعیف می‌تواند به اعتبار مقاله‌ات آسیب بزند."
+          "tense": "past",
+          "text": "She lost her credibility after the false claim.",
+          "fa": "او بعد از ادعای نادرست اعتبارش را از دست داد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «lost her credibility»."
         },
         {
-          "text": "She lost her credibility after the false claim.",
-          "fa": "او بعد از ادعای نادرست اعتبارش را از دست داد."
+          "tense": "present",
+          "text": "Good sources add credibility to your essay.",
+          "fa": "منابع خوب به مقاله‌ات اعتبار می‌دهند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «add credibility»."
+        },
+        {
+          "tense": "future",
+          "text": "Weak sources will damage your credibility.",
+          "fa": "منابع ضعیف به اعتبارت آسیب می‌زنند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will damage your credibility»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌkɹɛdəˈbɪlɪti"
+      "ipa": "ˌkɹɛdəˈbɪlɪti",
+      "morph": [
+        [
+          "Noun",
+          "credibility"
+        ],
+        [
+          "Adjective",
+          "credible (believable)"
+        ],
+        [
+          "Phrase",
+          "lose credibility"
+        ],
+        [
+          "Phrase",
+          "gain / add credibility"
+        ]
+      ]
     },
     {
       "id": "v-0237",
@@ -482,16 +962,48 @@
       },
       "examples": [
         {
-          "text": "Our assignment is to write a critique of this article.",
-          "fa": "تکلیف ما نوشتن یک نقد از این مقاله است."
+          "tense": "past",
+          "text": "Her critique of the study was fair and detailed.",
+          "fa": "نقد او از آن پژوهش منصفانه و دقیق بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was fair and detailed»."
         },
         {
-          "text": "Her critique of the study was fair and detailed.",
-          "fa": "نقد او از آن پژوهش منصفانه و دقیق بود."
+          "tense": "present",
+          "text": "Each student writes a critique of one article.",
+          "fa": "هر دانشجو یک نقد از یک مقاله می‌نویسد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («critiques»). در جمله: «writes a critique»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll write a critique of this article tonight.",
+          "fa": "امشب یک نقد از این مقاله می‌نویسم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll write a critique»."
         }
       ],
       "register": "formal",
-      "ipa": "kɹəˈtik"
+      "ipa": "kɹəˈtik",
+      "morph": [
+        [
+          "Noun / base verb",
+          "critique"
+        ],
+        [
+          "He / she / it",
+          "critiques"
+        ],
+        [
+          "Past",
+          "critiqued"
+        ],
+        [
+          "-ing form",
+          "critiquing"
+        ],
+        [
+          "Related",
+          "criticism / criticise"
+        ]
+      ]
     },
     {
       "id": "v-0238",
@@ -510,16 +1022,44 @@
       },
       "examples": [
         {
-          "text": "The university is updating its curriculum next year.",
-          "fa": "دانشگاه سال آینده برنامه‌ی درسی‌اش را به‌روز می‌کند."
+          "tense": "past",
+          "text": "The school changed its curriculum last year.",
+          "fa": "مدرسه پارسال برنامه‌ی درسی‌اش را تغییر داد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «changed»."
         },
         {
+          "tense": "present",
           "text": "Coding is now part of the school curriculum.",
-          "fa": "برنامه‌نویسی حالا بخشی از برنامه‌ی درسی مدرسه است."
+          "fa": "برنامه‌نویسی حالا بخشی از برنامه‌ی درسی مدرسه است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is now part of»."
+        },
+        {
+          "tense": "future",
+          "text": "The curriculum will include more science next year.",
+          "fa": "سال آینده برنامه‌ی درسی علوم بیشتری را شامل می‌شود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will include»."
         }
       ],
       "register": "formal",
-      "ipa": "kɚˈɪkjələm"
+      "ipa": "kɚˈɪkjələm",
+      "morph": [
+        [
+          "Singular",
+          "curriculum"
+        ],
+        [
+          "Plural",
+          "curricula"
+        ],
+        [
+          "Phrase",
+          "the national curriculum"
+        ],
+        [
+          "Not the same as",
+          "curriculum vitae (CV)"
+        ]
+      ]
     },
     {
       "id": "v-0239",
@@ -538,16 +1078,44 @@
       },
       "examples": [
         {
-          "text": "I'm in a dilemma: should I stay or take the other job?",
-          "fa": "در دوراهی‌ام: بمانم یا آن شغل دیگر را قبول کنم؟"
+          "tense": "past",
+          "text": "I was in a dilemma last month about my job.",
+          "fa": "ماه پیش درباره‌ی شغلم در دوراهی بودم.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was in a dilemma»."
         },
         {
-          "text": "Doctors often face difficult ethical dilemmas.",
-          "fa": "پزشکان اغلب با دوراهی‌های اخلاقی دشوار روبه‌رو می‌شوند."
+          "tense": "present",
+          "text": "I'm in a dilemma: should I stay or take the other job?",
+          "fa": "در دوراهی‌ام: بمانم یا آن شغل دیگر را قبول کنم؟",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «I'm in a dilemma»."
+        },
+        {
+          "tense": "future",
+          "text": "This choice will become a dilemma for her.",
+          "fa": "این انتخاب برای او به یک دوراهی تبدیل می‌شود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will become»."
         }
       ],
       "register": "neutral",
-      "ipa": "dɪˈlɛmə"
+      "ipa": "dɪˈlɛmə",
+      "morph": [
+        [
+          "Singular",
+          "dilemma"
+        ],
+        [
+          "Plural",
+          "dilemmas"
+        ],
+        [
+          "Phrase",
+          "in a dilemma"
+        ],
+        [
+          "Phrase",
+          "face a dilemma"
+        ]
+      ]
     },
     {
       "id": "v-0240",
@@ -565,16 +1133,44 @@
       },
       "examples": [
         {
-          "text": "The law protects workers from discrimination.",
-          "fa": "قانون از کارگران در برابر تبعیض محافظت می‌کند."
+          "tense": "past",
+          "text": "Many people faced discrimination in the past.",
+          "fa": "در گذشته بسیاری از مردم با تبعیض روبه‌رو بودند.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «faced»."
         },
         {
-          "text": "Many migrants experience discrimination when looking for a flat.",
-          "fa": "بسیاری از مهاجران هنگام پیدا کردن خانه تبعیض را تجربه می‌کنند."
+          "tense": "present",
+          "text": "The law protects workers from discrimination.",
+          "fa": "قانون از کارگران در برابر تبعیض محافظت می‌کند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «protects»."
+        },
+        {
+          "tense": "future",
+          "text": "The new law will reduce discrimination at work.",
+          "fa": "قانون جدید تبعیض در محل کار را کم می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will reduce»."
         }
       ],
       "register": "formal",
-      "ipa": "dɪˌskɹɪməˈneɪʃən"
+      "ipa": "dɪˌskɹɪməˈneɪʃən",
+      "morph": [
+        [
+          "Noun",
+          "discrimination"
+        ],
+        [
+          "Verb",
+          "discriminate"
+        ],
+        [
+          "Adjective",
+          "discriminatory"
+        ],
+        [
+          "With",
+          "discrimination against …"
+        ]
+      ]
     },
     {
       "id": "v-0241",
@@ -593,16 +1189,44 @@
       },
       "examples": [
         {
-          "text": "I'm writing my dissertation on language learning apps.",
-          "fa": "دارم پایان‌نامه‌ام را درباره‌ی اپ‌های یادگیری زبان می‌نویسم."
+          "tense": "past",
+          "text": "I handed in my dissertation last week.",
+          "fa": "هفته‌ی پیش پایان‌نامه‌ام را تحویل دادم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «handed in»."
         },
         {
-          "text": "My supervisor read the first chapter of my dissertation.",
-          "fa": "استاد راهنمایم فصل اول پایان‌نامه‌ام را خواند."
+          "tense": "present",
+          "text": "I'm writing my dissertation on language learning apps.",
+          "fa": "دارم پایان‌نامه‌ام را درباره‌ی اپ‌های یادگیری زبان می‌نویسم.",
+          "grammar": "حال استمراری (Present continuous): am / is / are + فعلِ -ing؛ برای کاری که همین الان یا این روزها در جریان است. در جمله: «I'm writing»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll finish my dissertation by June.",
+          "fa": "پایان‌نامه‌ام را تا ژوئن تمام می‌کنم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll finish»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌdɪsɚˈteɪʃən"
+      "ipa": "ˌdɪsɚˈteɪʃən",
+      "morph": [
+        [
+          "Singular",
+          "dissertation"
+        ],
+        [
+          "Plural",
+          "dissertations"
+        ],
+        [
+          "Related",
+          "thesis"
+        ],
+        [
+          "Phrase",
+          "hand in a dissertation"
+        ]
+      ]
     },
     {
       "id": "v-0242",
@@ -620,16 +1244,44 @@
       },
       "examples": [
         {
-          "text": "Our class is very diverse, with students from ten countries.",
-          "fa": "کلاس ما بسیار متنوع است، با دانشجوهایی از ده کشور."
+          "tense": "past",
+          "text": "Our class was very diverse last year.",
+          "fa": "کلاس ما پارسال بسیار متنوع بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was very diverse»."
         },
         {
-          "text": "The city offers a diverse range of restaurants.",
-          "fa": "شهر طیف متنوعی از رستوران‌ها دارد."
+          "tense": "present",
+          "text": "Our class is very diverse, with students from ten countries.",
+          "fa": "کلاس ما بسیار متنوع است، با دانشجوهایی از ده کشور.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is very diverse»."
+        },
+        {
+          "tense": "future",
+          "text": "The group will be more diverse next year.",
+          "fa": "گروه سال آینده متنوع‌تر خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be more diverse»."
         }
       ],
       "register": "neutral",
-      "ipa": "daɪˈvɝs"
+      "ipa": "daɪˈvɝs",
+      "morph": [
+        [
+          "Adjective",
+          "diverse"
+        ],
+        [
+          "Noun",
+          "diversity"
+        ],
+        [
+          "Verb",
+          "diversify"
+        ],
+        [
+          "Opposite",
+          "uniform"
+        ]
+      ]
     },
     {
       "id": "v-0243",
@@ -647,16 +1299,44 @@
       },
       "examples": [
         {
-          "text": "English is the dominant language in international research.",
-          "fa": "انگلیسی زبان غالب در پژوهش‌های بین‌المللی است."
+          "tense": "past",
+          "text": "Latin was the dominant language in science for centuries.",
+          "fa": "لاتین قرن‌ها زبان غالب در علم بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was the dominant language»."
         },
         {
-          "text": "One company has become dominant in the market.",
-          "fa": "یک شرکت در بازار مسلط شده است."
+          "tense": "present",
+          "text": "English is the dominant language in international research.",
+          "fa": "انگلیسی زبان غالب در پژوهش‌های بین‌المللی است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is the dominant language»."
+        },
+        {
+          "tense": "future",
+          "text": "Electric cars will be dominant in ten years.",
+          "fa": "اتومبیل‌های برقی ده سال دیگر غالب خواهند بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be dominant»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈdɑmənənt"
+      "ipa": "ˈdɑmənənt",
+      "morph": [
+        [
+          "Adjective",
+          "dominant"
+        ],
+        [
+          "Verb",
+          "dominate / dominates / dominated"
+        ],
+        [
+          "Noun",
+          "dominance"
+        ],
+        [
+          "Related",
+          "domination"
+        ]
+      ]
     },
     {
       "id": "v-0244",
@@ -677,17 +1357,49 @@
       },
       "examples": [
         {
-          "text": "Could you elaborate on that point, please?",
-          "fa": "لطفاً می‌شود درباره‌ی آن نکته بیشتر توضیح بدهید؟"
+          "tense": "past",
+          "text": "He didn't elaborate, so I had to ask again.",
+          "fa": "او توضیح بیشتری نداد، برای همین دوباره پرسیدم.",
+          "grammar": "گذشته‌ی ساده‌ی منفی: didn't + شکل ساده‌ی فعل (نه شکل گذشته). در جمله: «didn't elaborate»."
         },
         {
-          "text": "He didn't elaborate, so I had to ask again.",
-          "fa": "او توضیح بیشتری نداد، برای همین دوباره پرسیدم."
+          "tense": "present",
+          "text": "Good writers elaborate on their main points.",
+          "fa": "نویسنده‌های خوب درباره‌ی نکته‌های اصلی‌شان بیشتر توضیح می‌دهند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («elaborates»). در جمله: «elaborate»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll elaborate on that in the next slide.",
+          "fa": "در اسلاید بعدی درباره‌ی آن بیشتر توضیح می‌دهم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll elaborate»."
         }
       ],
       "register": "neutral",
       "cmu": "elaborate(2)",
-      "ipa": "ɪˈlæbɚˌeɪt"
+      "ipa": "ɪˈlæbɚˌeɪt",
+      "morph": [
+        [
+          "Base",
+          "elaborate"
+        ],
+        [
+          "He / she / it",
+          "elaborates"
+        ],
+        [
+          "Past",
+          "elaborated"
+        ],
+        [
+          "Past participle",
+          "elaborated"
+        ],
+        [
+          "-ing form",
+          "elaborating"
+        ]
+      ]
     },
     {
       "id": "v-0245",
@@ -706,16 +1418,44 @@
       },
       "examples": [
         {
-          "text": "We need empirical evidence, not just opinions.",
-          "fa": "به شواهد تجربی نیاز داریم، نه فقط نظر."
+          "tense": "past",
+          "text": "The study was empirical, not theoretical.",
+          "fa": "آن پژوهش تجربی بود، نه نظری.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was empirical»."
         },
         {
-          "text": "The article reviews empirical research on sleep and memory.",
-          "fa": "مقاله پژوهش‌های تجربی درباره‌ی خواب و حافظه را مرور می‌کند."
+          "tense": "present",
+          "text": "We need empirical evidence, not just opinions.",
+          "fa": "به شواهد تجربی نیاز داریم، نه فقط نظر.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «We need empirical evidence»."
+        },
+        {
+          "tense": "future",
+          "text": "Our next study will be empirical.",
+          "fa": "پژوهش بعدی ما تجربی خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be empirical»."
         }
       ],
       "register": "formal",
-      "ipa": "ɛmˈpɪɹɪkəl"
+      "ipa": "ɛmˈpɪɹɪkəl",
+      "morph": [
+        [
+          "Adjective",
+          "empirical"
+        ],
+        [
+          "Adverb",
+          "empirically"
+        ],
+        [
+          "Noun",
+          "empiricism"
+        ],
+        [
+          "Opposite",
+          "theoretical"
+        ]
+      ]
     },
     {
       "id": "v-0246",
@@ -733,16 +1473,44 @@
       },
       "examples": [
         {
-          "text": "The group campaigns for equality in the workplace.",
-          "fa": "این گروه برای برابری در محل کار فعالیت می‌کند."
+          "tense": "past",
+          "text": "Women fought for equality for many years.",
+          "fa": "زنان سال‌ها برای برابری مبارزه کردند.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «fought»."
         },
         {
-          "text": "Gender equality is still a big issue in many countries.",
-          "fa": "برابری جنسیتی هنوز در بسیاری از کشورها مسئله‌ی بزرگی است."
+          "tense": "present",
+          "text": "The group campaigns for equality in the workplace.",
+          "fa": "این گروه برای برابری در محل کار فعالیت می‌کند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «campaigns»."
+        },
+        {
+          "tense": "future",
+          "text": "Equality will take time, but it is possible.",
+          "fa": "برابری زمان می‌برد ولی ممکن است.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will take»."
         }
       ],
       "register": "neutral",
-      "ipa": "ɪˈkwɑləti"
+      "ipa": "ɪˈkwɑləti",
+      "morph": [
+        [
+          "Noun",
+          "equality"
+        ],
+        [
+          "Opposite",
+          "inequality"
+        ],
+        [
+          "Adjective",
+          "equal"
+        ],
+        [
+          "Adverb",
+          "equally"
+        ]
+      ]
     },
     {
       "id": "v-0247",
@@ -760,16 +1528,44 @@
       },
       "examples": [
         {
-          "text": "Essentially, both studies reached the same conclusion.",
-          "fa": "در اصل هر دو پژوهش به یک نتیجه رسیدند."
+          "tense": "past",
+          "text": "Essentially, the two teams lost for the same reason.",
+          "fa": "در اصل هر دو تیم به یک دلیل باختند.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «lost»."
         },
         {
+          "tense": "present",
           "text": "The two methods are essentially the same.",
-          "fa": "این دو روش اساساً یکی هستند."
+          "fa": "این دو روش اساساً یکی هستند.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «are essentially the same»."
+        },
+        {
+          "tense": "future",
+          "text": "Essentially, the new rule will change nothing.",
+          "fa": "در اصل قانون جدید چیزی را تغییر نمی‌دهد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will change nothing»."
         }
       ],
       "register": "formal",
-      "ipa": "ɛˈsɛnʃəli"
+      "ipa": "ɛˈsɛnʃəli",
+      "morph": [
+        [
+          "Adverb",
+          "essentially"
+        ],
+        [
+          "Adjective",
+          "essential"
+        ],
+        [
+          "Noun",
+          "essence"
+        ],
+        [
+          "Phrase",
+          "essentially the same"
+        ]
+      ]
     },
     {
       "id": "v-0248",
@@ -788,16 +1584,44 @@
       },
       "examples": [
         {
-          "text": "Is it ethical to test this medicine on animals?",
-          "fa": "آیا آزمایش این دارو روی حیوانات اخلاقی است؟"
+          "tense": "past",
+          "text": "We discussed the ethical problems of using personal data.",
+          "fa": "درباره‌ی مشکلات اخلاقی استفاده از داده‌های شخصی بحث کردیم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «discussed»."
         },
         {
-          "text": "We discussed the ethical problems of using personal data.",
-          "fa": "درباره‌ی مشکلات اخلاقی استفاده از داده‌های شخصی بحث کردیم."
+          "tense": "present",
+          "text": "Is it ethical to test this medicine on animals?",
+          "fa": "آیا آزمایش این دارو روی حیوانات اخلاقی است؟",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «Is it ethical»."
+        },
+        {
+          "tense": "future",
+          "text": "The committee will check whether the study is ethical.",
+          "fa": "کمیته بررسی می‌کند که پژوهش اخلاقی هست یا نه.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will check»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈɛθɪkəl"
+      "ipa": "ˈɛθɪkəl",
+      "morph": [
+        [
+          "Adjective",
+          "ethical"
+        ],
+        [
+          "Opposite",
+          "unethical"
+        ],
+        [
+          "Adverb",
+          "ethically"
+        ],
+        [
+          "Noun",
+          "ethics"
+        ]
+      ]
     },
     {
       "id": "v-0249",
@@ -816,16 +1640,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "It was evident that she hadn't prepared for the talk.",
-          "fa": "آشکار بود که برای سخنرانی آماده نشده است."
+          "fa": "آشکار بود که برای سخنرانی آماده نشده است.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «It was evident»."
         },
         {
+          "tense": "present",
           "text": "The benefits of the new system are already evident.",
-          "fa": "مزایای سیستم جدید همین حالا هم آشکار است."
+          "fa": "مزایای سیستم جدید همین حالا هم آشکار است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «are already evident»."
+        },
+        {
+          "tense": "future",
+          "text": "The problems will become evident soon.",
+          "fa": "مشکلات به‌زودی آشکار می‌شوند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will become evident»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈɛvədənt"
+      "ipa": "ˈɛvədənt",
+      "morph": [
+        [
+          "Adjective",
+          "evident"
+        ],
+        [
+          "Adverb",
+          "evidently"
+        ],
+        [
+          "Noun",
+          "evidence"
+        ],
+        [
+          "Related",
+          "self-evident"
+        ]
+      ]
     },
     {
       "id": "v-0250",
@@ -844,16 +1696,40 @@
       },
       "examples": [
         {
-          "text": "The instructions were explicit: no phones during the exam.",
-          "fa": "دستورالعمل صریح بود: در امتحان گوشی ممنوع."
+          "tense": "past",
+          "text": "She gave me explicit permission to use her notes.",
+          "fa": "او صریحاً به من اجازه داد از یادداشت‌هایش استفاده کنم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «gave»."
         },
         {
-          "text": "She gave me explicit permission to use her notes.",
-          "fa": "او صریحاً به من اجازه داد از یادداشت‌هایش استفاده کنم."
+          "tense": "present",
+          "text": "The instructions are explicit: no phones during the exam.",
+          "fa": "دستورالعمل صریح است: در امتحان گوشی ممنوع.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «are explicit»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll be explicit: I disagree with this plan.",
+          "fa": "صریح می‌گویم: با این طرح مخالفم.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «I'll be explicit»."
         }
       ],
       "register": "formal",
-      "ipa": "ɪkˈsplɪsət"
+      "ipa": "ɪkˈsplɪsət",
+      "morph": [
+        [
+          "Adjective",
+          "explicit"
+        ],
+        [
+          "Adverb",
+          "explicitly"
+        ],
+        [
+          "Opposite",
+          "implicit"
+        ]
+      ]
     },
     {
       "id": "v-0251",
@@ -874,17 +1750,49 @@
       },
       "examples": [
         {
-          "text": "Some companies exploit young workers with very low pay.",
-          "fa": "بعضی شرکت‌ها با دستمزد خیلی کم از کارگران جوان سوءاستفاده می‌کنند."
+          "tense": "past",
+          "text": "The company exploited its workers for years.",
+          "fa": "شرکت سال‌ها از کارگرانش سوءاستفاده کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «exploit» می‌شود «exploited»."
         },
         {
-          "text": "You should exploit every chance to practise speaking.",
-          "fa": "باید از هر فرصتی برای تمرین حرف زدن استفاده کنی."
+          "tense": "present",
+          "text": "Some companies exploit young workers with very low pay.",
+          "fa": "بعضی شرکت‌ها با دستمزد خیلی کم از کارگران جوان سوءاستفاده می‌کنند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («exploits»). در جمله: «exploit»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll exploit every chance to practise speaking.",
+          "fa": "از هر فرصتی برای تمرین حرف زدن استفاده می‌کنم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll exploit»."
         }
       ],
       "register": "formal",
       "cmu": "exploit(2)",
-      "ipa": "ɛkˈsplɔɪt"
+      "ipa": "ɛkˈsplɔɪt",
+      "morph": [
+        [
+          "Base",
+          "exploit"
+        ],
+        [
+          "He / she / it",
+          "exploits"
+        ],
+        [
+          "Past",
+          "exploited"
+        ],
+        [
+          "Past participle",
+          "exploited"
+        ],
+        [
+          "-ing form",
+          "exploiting"
+        ]
+      ]
     },
     {
       "id": "v-0252",
@@ -905,16 +1813,48 @@
       },
       "examples": [
         {
-          "text": "Online tools can facilitate group projects.",
-          "fa": "ابزارهای آنلاین می‌توانند کار گروهی را آسان‌تر کنند."
+          "tense": "past",
+          "text": "The teacher facilitated a discussion about the article.",
+          "fa": "معلم یک بحث درباره‌ی مقاله را هدایت کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «facilitate» می‌شود «facilitated»."
         },
         {
-          "text": "The teacher facilitated a discussion about the article.",
-          "fa": "معلم یک بحث درباره‌ی مقاله را هدایت کرد."
+          "tense": "present",
+          "text": "Good online tools facilitate teamwork.",
+          "fa": "ابزارهای آنلاین خوب کار تیمی را آسان می‌کنند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («facilitates»). در جمله: «facilitate»."
+        },
+        {
+          "tense": "future",
+          "text": "This app will facilitate our group work.",
+          "fa": "این اپ کار گروهی ما را آسان‌تر می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will facilitate»."
         }
       ],
       "register": "formal",
-      "ipa": "fəˈsɪləˌteɪt"
+      "ipa": "fəˈsɪləˌteɪt",
+      "morph": [
+        [
+          "Base",
+          "facilitate"
+        ],
+        [
+          "He / she / it",
+          "facilitates"
+        ],
+        [
+          "Past",
+          "facilitated"
+        ],
+        [
+          "Past participle",
+          "facilitated"
+        ],
+        [
+          "-ing form",
+          "facilitating"
+        ]
+      ]
     },
     {
       "id": "v-0253",
@@ -932,16 +1872,44 @@
       },
       "examples": [
         {
-          "text": "The two approaches are fundamentally different.",
-          "fa": "این دو رویکرد اساساً با هم فرق دارند."
+          "tense": "past",
+          "text": "This discovery fundamentally changed how we see the problem.",
+          "fa": "این کشف نگاه ما به مسئله را از ریشه تغییر داد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «fundamentally changed»."
         },
         {
-          "text": "This discovery fundamentally changed how we see the problem.",
-          "fa": "این کشف نگاه ما به مسئله را از ریشه تغییر داد."
+          "tense": "present",
+          "text": "The two approaches are fundamentally different.",
+          "fa": "این دو رویکرد اساساً با هم فرق دارند.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «are fundamentally different»."
+        },
+        {
+          "tense": "future",
+          "text": "Technology will fundamentally change education.",
+          "fa": "فناوری آموزش را از ریشه تغییر می‌دهد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will fundamentally change»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌfʌndəˈmɛntəli"
+      "ipa": "ˌfʌndəˈmɛntəli",
+      "morph": [
+        [
+          "Adverb",
+          "fundamentally"
+        ],
+        [
+          "Adjective",
+          "fundamental"
+        ],
+        [
+          "Noun",
+          "fundamentals"
+        ],
+        [
+          "Related",
+          "basically"
+        ]
+      ]
     },
     {
       "id": "v-0254",
@@ -963,16 +1931,48 @@
       },
       "examples": [
         {
-          "text": "You can't generalize from just five interviews.",
-          "fa": "از فقط پنج مصاحبه نمی‌شود تعمیم داد."
+          "tense": "past",
+          "text": "He generalized from only two examples.",
+          "fa": "او فقط از دو مثال تعمیم داد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «generalize» می‌شود «generalized»."
         },
         {
-          "text": "It's unfair to generalize about a whole country.",
-          "fa": "کلی‌گویی درباره‌ی یک کشور کامل منصفانه نیست."
+          "tense": "present",
+          "text": "Many people generalize too quickly.",
+          "fa": "خیلی‌ها خیلی سریع تعمیم می‌دهند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («generalizes»). در جمله: «generalize»."
+        },
+        {
+          "tense": "future",
+          "text": "I won't generalize from one example.",
+          "fa": "از روی یک مثال تعمیم نمی‌دهم.",
+          "grammar": "آینده‌ی منفی: won't (= will not) + شکل ساده‌ی فعل. در جمله: «won't generalize»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈdʒɛnɚəˌlaɪz"
+      "ipa": "ˈdʒɛnɚəˌlaɪz",
+      "morph": [
+        [
+          "Base",
+          "generalize"
+        ],
+        [
+          "He / she / it",
+          "generalizes"
+        ],
+        [
+          "Past",
+          "generalized"
+        ],
+        [
+          "Past participle",
+          "generalized"
+        ],
+        [
+          "-ing form",
+          "generalizing"
+        ]
+      ]
     },
     {
       "id": "v-0255",
@@ -993,16 +1993,48 @@
       },
       "examples": [
         {
-          "text": "I still can't grasp the difference between these two theories.",
-          "fa": "هنوز نمی‌توانم تفاوت این دو نظریه را درک کنم."
+          "tense": "past",
+          "text": "She grasped the main idea quickly.",
+          "fa": "او ایده‌ی اصلی را زود فهمید.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «grasp» می‌شود «grasped»."
         },
         {
-          "text": "She has a good grasp of statistics.",
-          "fa": "او تسلط خوبی بر آمار دارد."
+          "tense": "present",
+          "text": "I still can't grasp the difference between these two theories.",
+          "fa": "هنوز نمی‌توانم تفاوت این دو نظریه را درک کنم.",
+          "grammar": "فعل کمکی (can / could / should / must…) + شکل ساده‌ی فعل، بدون to و بدون -s؛ این جمله درباره‌ی حال است. در جمله: «can't grasp»."
+        },
+        {
+          "tense": "future",
+          "text": "You'll grasp it better after the lecture.",
+          "fa": "بعد از کلاس آن را بهتر درک می‌کنی.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «You'll grasp it»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈɡɹæsp"
+      "ipa": "ˈɡɹæsp",
+      "morph": [
+        [
+          "Base",
+          "grasp"
+        ],
+        [
+          "He / she / it",
+          "grasps"
+        ],
+        [
+          "Past",
+          "grasped"
+        ],
+        [
+          "Past participle",
+          "grasped"
+        ],
+        [
+          "-ing form",
+          "grasping"
+        ]
+      ]
     },
     {
       "id": "v-0256",
@@ -1021,16 +2053,44 @@
       },
       "examples": [
         {
-          "text": "There is a strict hierarchy in this company.",
-          "fa": "در این شرکت سلسله‌مراتب سختی هست."
+          "tense": "past",
+          "text": "The old company had a strict hierarchy.",
+          "fa": "شرکت قدیمی سلسله‌مراتب سخت‌گیرانه‌ای داشت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «had»."
         },
         {
-          "text": "The article describes a hierarchy of human needs.",
-          "fa": "مقاله سلسله‌مراتب نیازهای انسان را توضیح می‌دهد."
+          "tense": "present",
+          "text": "There is a strict hierarchy in this company.",
+          "fa": "در این شرکت سلسله‌مراتب سختی هست.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «There is a strict hierarchy»."
+        },
+        {
+          "tense": "future",
+          "text": "The new structure will reduce the hierarchy.",
+          "fa": "ساختار جدید سلسله‌مراتب را کم می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will reduce»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈhaɪɚˌɑɹki"
+      "ipa": "ˈhaɪɚˌɑɹki",
+      "morph": [
+        [
+          "Singular",
+          "hierarchy"
+        ],
+        [
+          "Plural",
+          "hierarchies"
+        ],
+        [
+          "Adjective",
+          "hierarchical"
+        ],
+        [
+          "Phrase",
+          "a strict hierarchy"
+        ]
+      ]
     },
     {
       "id": "v-0257",
@@ -1049,16 +2109,44 @@
       },
       "examples": [
         {
-          "text": "Each party has a different political ideology.",
-          "fa": "هر حزب ایدئولوژی سیاسی متفاوتی دارد."
+          "tense": "past",
+          "text": "He criticised the ideology behind the policy.",
+          "fa": "او از ایدئولوژی پشت این سیاست انتقاد کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «criticised»."
         },
         {
-          "text": "He criticised the ideology behind the policy.",
-          "fa": "او از ایدئولوژی پشت این سیاست انتقاد کرد."
+          "tense": "present",
+          "text": "Each party has a different political ideology.",
+          "fa": "هر حزب ایدئولوژی سیاسی متفاوتی دارد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «has»."
+        },
+        {
+          "tense": "future",
+          "text": "That ideology will lose support over time.",
+          "fa": "آن ایدئولوژی با گذشت زمان حامی‌اش را از دست می‌دهد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will lose support»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌaɪdiˈɑlədʒi"
+      "ipa": "ˌaɪdiˈɑlədʒi",
+      "morph": [
+        [
+          "Singular",
+          "ideology"
+        ],
+        [
+          "Plural",
+          "ideologies"
+        ],
+        [
+          "Adjective",
+          "ideological"
+        ],
+        [
+          "Phrase",
+          "political ideology"
+        ]
+      ]
     },
     {
       "id": "v-0258",
@@ -1077,16 +2165,44 @@
       },
       "examples": [
         {
-          "text": "The picture is an optical illusion; the lines are the same length.",
-          "fa": "این تصویر خطای دید است؛ خط‌ها هم‌اندازه‌اند."
+          "tense": "past",
+          "text": "He had no illusions about how hard the job would be.",
+          "fa": "او هیچ خیال خامی درباره‌ی سختی کار نداشت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «had no illusions»."
         },
         {
-          "text": "He had no illusions about how hard the job would be.",
-          "fa": "او هیچ خیال خامی درباره‌ی سختی کار نداشت."
+          "tense": "present",
+          "text": "The picture is an optical illusion; the lines are the same length.",
+          "fa": "این تصویر خطای دید است؛ خط‌ها هم‌اندازه‌اند.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is an optical illusion»."
+        },
+        {
+          "tense": "future",
+          "text": "The trick will create an illusion of movement.",
+          "fa": "این ترفند توهم حرکت ایجاد می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will create»."
         }
       ],
       "register": "neutral",
-      "ipa": "ɪˈluʒən"
+      "ipa": "ɪˈluʒən",
+      "morph": [
+        [
+          "Singular",
+          "illusion"
+        ],
+        [
+          "Plural",
+          "illusions"
+        ],
+        [
+          "Adjective",
+          "illusory"
+        ],
+        [
+          "Phrase",
+          "optical illusion"
+        ]
+      ]
     },
     {
       "id": "v-0259",
@@ -1105,16 +2221,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "There was an implicit rule that nobody spoke during breaks.",
-          "fa": "یک قانون نانوشته بود که در استراحت‌ها کسی حرف نزند."
+          "fa": "یک قانون نانوشته بود که در استراحت‌ها کسی حرف نزند.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «There was an implicit rule»."
         },
         {
-          "text": "His silence was an implicit agreement.",
-          "fa": "سکوتش نوعی موافقت ضمنی بود."
+          "tense": "present",
+          "text": "Her smile is an implicit yes.",
+          "fa": "لبخندش یک بله‌ی تلویحی است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is an implicit yes»."
+        },
+        {
+          "tense": "future",
+          "text": "We will have an implicit agreement to be on time.",
+          "fa": "ما یک توافق نانوشته برای سر وقت بودن خواهیم داشت.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «We will have»."
         }
       ],
       "register": "formal",
-      "ipa": "ɪmˈplɪsɪt"
+      "ipa": "ɪmˈplɪsɪt",
+      "morph": [
+        [
+          "Adjective",
+          "implicit"
+        ],
+        [
+          "Adverb",
+          "implicitly"
+        ],
+        [
+          "Opposite",
+          "explicit"
+        ],
+        [
+          "Verb",
+          "imply"
+        ]
+      ]
     },
     {
       "id": "v-0260",
@@ -1132,16 +2276,44 @@
       },
       "examples": [
         {
-          "text": "Inevitably, some students will fall behind.",
-          "fa": "ناگزیر بعضی دانشجوها عقب می‌مانند."
+          "tense": "past",
+          "text": "The meeting inevitably ran over time.",
+          "fa": "جلسه ناگزیر از زمانش بیشتر طول کشید.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «inevitably ran»."
         },
         {
-          "text": "The meeting inevitably ran over time.",
-          "fa": "جلسه ناگزیر از زمانش بیشتر طول کشید."
+          "tense": "present",
+          "text": "Inevitably, some people make mistakes.",
+          "fa": "ناگزیر بعضی آدم‌ها اشتباه می‌کنند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «make»."
+        },
+        {
+          "tense": "future",
+          "text": "Inevitably, some students will fall behind.",
+          "fa": "ناگزیر بعضی دانشجوها عقب می‌مانند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will fall behind»."
         }
       ],
       "register": "formal",
-      "ipa": "ɪnˈɛvɪtəbli"
+      "ipa": "ɪnˈɛvɪtəbli",
+      "morph": [
+        [
+          "Adverb",
+          "inevitably"
+        ],
+        [
+          "Adjective",
+          "inevitable"
+        ],
+        [
+          "Noun",
+          "inevitability"
+        ],
+        [
+          "Phrase",
+          "the inevitable"
+        ]
+      ]
     },
     {
       "id": "v-0261",
@@ -1159,16 +2331,44 @@
       },
       "examples": [
         {
-          "text": "She wrote one of the most influential books in the field.",
-          "fa": "او یکی از تأثیرگذارترین کتاب‌های این حوزه را نوشت."
+          "tense": "past",
+          "text": "He was influential in changing the school's rules.",
+          "fa": "او در تغییر قوانین مدرسه تأثیرگذار بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was influential»."
         },
         {
-          "text": "He was influential in changing the school's rules.",
-          "fa": "او در تغییر قوانین مدرسه تأثیرگذار بود."
+          "tense": "present",
+          "text": "Her books are very influential in this field.",
+          "fa": "کتاب‌های او در این حوزه بسیار تأثیرگذار است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «are very influential»."
+        },
+        {
+          "tense": "future",
+          "text": "This study will be influential for years.",
+          "fa": "این پژوهش سال‌ها تأثیرگذار خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be influential»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˌɪnfluˈɛnʃəl"
+      "ipa": "ˌɪnfluˈɛnʃəl",
+      "morph": [
+        [
+          "Adjective",
+          "influential"
+        ],
+        [
+          "Verb",
+          "influence"
+        ],
+        [
+          "Noun",
+          "influence"
+        ],
+        [
+          "Related",
+          "influencer"
+        ]
+      ]
     },
     {
       "id": "v-0262",
@@ -1187,16 +2387,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "My instinct told me something was wrong.",
-          "fa": "حس درونی‌ام می‌گفت چیزی درست نیست."
+          "fa": "حس درونی‌ام می‌گفت چیزی درست نیست.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «told»."
         },
         {
+          "tense": "present",
           "text": "Babies have a natural instinct to look for food.",
-          "fa": "نوزادان غریزه‌ی طبیعی برای جست‌وجوی غذا دارند."
+          "fa": "نوزادان غریزه‌ی طبیعی برای جست‌وجوی غذا دارند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «have»."
+        },
+        {
+          "tense": "future",
+          "text": "Your instincts will help you decide.",
+          "fa": "غریزه‌ات در تصمیم گرفتن کمکت می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will help»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈɪnstɪŋkt"
+      "ipa": "ˈɪnstɪŋkt",
+      "morph": [
+        [
+          "Singular",
+          "instinct"
+        ],
+        [
+          "Plural",
+          "instincts"
+        ],
+        [
+          "Adjective",
+          "instinctive"
+        ],
+        [
+          "Adverb",
+          "instinctively"
+        ]
+      ]
     },
     {
       "id": "v-0263",
@@ -1217,16 +2445,48 @@
       },
       "examples": [
         {
-          "text": "I don't want to interfere, but maybe you should apologise.",
-          "fa": "نمی‌خواهم دخالت کنم، ولی شاید باید عذرخواهی کنی."
+          "tense": "past",
+          "text": "The noise interfered with my work yesterday.",
+          "fa": "سروصدا دیروز با کارم تداخل داشت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «interfere» می‌شود «interfered»."
         },
         {
+          "tense": "present",
           "text": "Loud music interferes with my concentration.",
-          "fa": "موزیک بلند تمرکزم را به هم می‌زند."
+          "fa": "موزیک بلند تمرکزم را به هم می‌زند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («interferes»). در جمله: «interferes»."
+        },
+        {
+          "tense": "future",
+          "text": "I won't interfere in your decision.",
+          "fa": "در تصمیم تو دخالت نمی‌کنم.",
+          "grammar": "آینده‌ی منفی: won't (= will not) + شکل ساده‌ی فعل. در جمله: «won't interfere»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˌɪntɚˈfɪɹ"
+      "ipa": "ˌɪntɚˈfɪɹ",
+      "morph": [
+        [
+          "Base",
+          "interfere"
+        ],
+        [
+          "He / she / it",
+          "interferes"
+        ],
+        [
+          "Past",
+          "interfered"
+        ],
+        [
+          "Past participle",
+          "interfered"
+        ],
+        [
+          "-ing form",
+          "interfering"
+        ]
+      ]
     },
     {
       "id": "v-0264",
@@ -1247,16 +2507,48 @@
       },
       "examples": [
         {
-          "text": "The manager had to intervene when the argument got loud.",
-          "fa": "وقتی بحث بالا گرفت مدیر مجبور شد وارد عمل شود."
+          "tense": "past",
+          "text": "The teacher intervened when the argument got loud.",
+          "fa": "وقتی بحث بالا گرفت معلم وارد عمل شد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «intervene» می‌شود «intervened»."
         },
         {
-          "text": "The government decided not to intervene in the market.",
-          "fa": "دولت تصمیم گرفت در بازار مداخله نکند."
+          "tense": "present",
+          "text": "Good managers usually intervene early.",
+          "fa": "مدیران خوب معمولاً زود وارد عمل می‌شوند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («intervenes»). در جمله: «intervene»."
+        },
+        {
+          "tense": "future",
+          "text": "The government will intervene if prices rise further.",
+          "fa": "اگر قیمت‌ها باز هم بالا برود دولت مداخله می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will intervene»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌɪntɚˈvin"
+      "ipa": "ˌɪntɚˈvin",
+      "morph": [
+        [
+          "Base",
+          "intervene"
+        ],
+        [
+          "He / she / it",
+          "intervenes"
+        ],
+        [
+          "Past",
+          "intervened"
+        ],
+        [
+          "Past participle",
+          "intervened"
+        ],
+        [
+          "-ing form",
+          "intervening"
+        ]
+      ]
     },
     {
       "id": "v-0265",
@@ -1274,16 +2566,44 @@
       },
       "examples": [
         {
-          "text": "Your age is irrelevant to this decision.",
-          "fa": "سن تو در این تصمیم بی‌ربط است."
+          "tense": "past",
+          "text": "His comment was irrelevant to the topic.",
+          "fa": "نظرش به موضوع ربطی نداشت.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was irrelevant»."
         },
         {
-          "text": "That example is interesting, but it's irrelevant to the question.",
-          "fa": "آن مثال جالب است ولی به سؤال ربطی ندارد."
+          "tense": "present",
+          "text": "Your age is irrelevant to this decision.",
+          "fa": "سن تو در این تصمیم بی‌ربط است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is irrelevant»."
+        },
+        {
+          "tense": "future",
+          "text": "That detail will be irrelevant tomorrow.",
+          "fa": "آن جزئیات فردا بی‌اهمیت خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be irrelevant»."
         }
       ],
       "register": "neutral",
-      "ipa": "ɪˈɹɛləvənt"
+      "ipa": "ɪˈɹɛləvənt",
+      "morph": [
+        [
+          "Adjective",
+          "irrelevant"
+        ],
+        [
+          "Opposite",
+          "relevant"
+        ],
+        [
+          "Noun",
+          "irrelevance"
+        ],
+        [
+          "Related",
+          "relevance"
+        ]
+      ]
     },
     {
       "id": "v-0266",
@@ -1302,16 +2622,44 @@
       },
       "examples": [
         {
-          "text": "There is no justification for such a high price.",
-          "fa": "برای چنین قیمت بالایی هیچ توجیهی وجود ندارد."
+          "tense": "past",
+          "text": "She gave a clear justification for her choice.",
+          "fa": "او برای انتخابش توجیه روشنی آورد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «gave»."
         },
         {
-          "text": "She gave a clear justification for her choice.",
-          "fa": "او برای انتخابش توجیه روشنی آورد."
+          "tense": "present",
+          "text": "There is no justification for such a high price.",
+          "fa": "برای چنین قیمت بالایی هیچ توجیهی وجود ندارد.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «There is no justification»."
+        },
+        {
+          "tense": "future",
+          "text": "You'll need a justification for the extra cost.",
+          "fa": "برای هزینه‌ی اضافی باید توجیه داشته باشی.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «You'll need a justification»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌdʒʌstəfəˈkeɪʃən"
+      "ipa": "ˌdʒʌstəfəˈkeɪʃən",
+      "morph": [
+        [
+          "Singular",
+          "justification"
+        ],
+        [
+          "Plural",
+          "justifications"
+        ],
+        [
+          "Verb",
+          "justify"
+        ],
+        [
+          "Adjective",
+          "justifiable"
+        ]
+      ]
     },
     {
       "id": "v-0267",
@@ -1329,16 +2677,44 @@
       },
       "examples": [
         {
-          "text": "That's a legitimate question, and I'll try to answer it.",
-          "fa": "سؤال موجهی است و سعی می‌کنم جواب بدهم."
+          "tense": "past",
+          "text": "That was a legitimate concern at the time.",
+          "fa": "آن در آن زمان یک نگرانی موجه بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was a legitimate concern»."
         },
         {
-          "text": "Make sure the website is legitimate before you pay.",
-          "fa": "قبل از پرداخت مطمئن شو سایت معتبر است."
+          "tense": "present",
+          "text": "That's a legitimate question, and I'll try to answer it.",
+          "fa": "سؤال موجهی است و سعی می‌کنم جواب بدهم.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «That's a legitimate question»."
+        },
+        {
+          "tense": "future",
+          "text": "Your complaint will be seen as legitimate.",
+          "fa": "شکایتت موجه تلقی خواهد شد.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be seen as legitimate»."
         }
       ],
       "register": "formal",
-      "ipa": "ləˈdʒɪtəmət"
+      "ipa": "ləˈdʒɪtəmət",
+      "morph": [
+        [
+          "Adjective",
+          "legitimate"
+        ],
+        [
+          "Opposite",
+          "illegitimate"
+        ],
+        [
+          "Adverb",
+          "legitimately"
+        ],
+        [
+          "Verb",
+          "legitimise"
+        ]
+      ]
     },
     {
       "id": "v-0268",
@@ -1356,16 +2732,44 @@
       },
       "examples": [
         {
-          "text": "There's a high likelihood of rain this afternoon.",
-          "fa": "احتمال زیادی هست که امروز بعدازظهر باران ببارد."
+          "tense": "past",
+          "text": "The likelihood of success was low last year.",
+          "fa": "احتمال موفقیت پارسال کم بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was low»."
         },
         {
+          "tense": "present",
           "text": "The likelihood of finding a flat quickly is low.",
-          "fa": "احتمال پیدا کردن سریع خانه کم است."
+          "fa": "احتمال پیدا کردن سریع خانه کم است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is low»."
+        },
+        {
+          "tense": "future",
+          "text": "The likelihood of rain will increase tomorrow.",
+          "fa": "احتمال باران فردا بیشتر می‌شود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will increase»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈlaɪkliˌhʊd"
+      "ipa": "ˈlaɪkliˌhʊd",
+      "morph": [
+        [
+          "Noun",
+          "likelihood"
+        ],
+        [
+          "Adjective",
+          "likely"
+        ],
+        [
+          "Opposite",
+          "unlikely"
+        ],
+        [
+          "Phrase",
+          "in all likelihood"
+        ]
+      ]
     },
     {
       "id": "v-0269",
@@ -1386,16 +2790,48 @@
       },
       "examples": [
         {
-          "text": "Some websites manipulate you into buying more.",
-          "fa": "بعضی وب‌سایت‌ها تو را با ترفند وادار می‌کنند بیشتر بخری."
+          "tense": "past",
+          "text": "He manipulated the data to get better results.",
+          "fa": "او برای نتایج بهتر داده‌ها را دستکاری کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «manipulate» می‌شود «manipulated»."
         },
         {
-          "text": "He was accused of manipulating the results.",
-          "fa": "او را متهم کردند که نتایج را دستکاری کرده است."
+          "tense": "present",
+          "text": "Some websites manipulate you into buying more.",
+          "fa": "بعضی وب‌سایت‌ها تو را با ترفند وادار می‌کنند بیشتر بخری.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («manipulates»). در جمله: «manipulate»."
+        },
+        {
+          "tense": "future",
+          "text": "Ads will manipulate you if you aren't careful.",
+          "fa": "اگر مراقب نباشی تبلیغات تو را هدایت می‌کنند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will manipulate»."
         }
       ],
       "register": "formal",
-      "ipa": "məˈnɪpjəˌleɪt"
+      "ipa": "məˈnɪpjəˌleɪt",
+      "morph": [
+        [
+          "Base",
+          "manipulate"
+        ],
+        [
+          "He / she / it",
+          "manipulates"
+        ],
+        [
+          "Past",
+          "manipulated"
+        ],
+        [
+          "Past participle",
+          "manipulated"
+        ],
+        [
+          "-ing form",
+          "manipulating"
+        ]
+      ]
     },
     {
       "id": "v-0270",
@@ -1414,16 +2850,44 @@
       },
       "examples": [
         {
-          "text": "The author uses a metaphor to describe the city as a machine.",
-          "fa": "نویسنده از یک استعاره برای توصیف شهر به‌عنوان یک ماشین استفاده می‌کند."
+          "tense": "past",
+          "text": "The poet used a metaphor in the first line.",
+          "fa": "شاعر در سطر اول از یک استعاره استفاده کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «used»."
         },
         {
-          "text": "Calling life a journey is a very common metaphor.",
-          "fa": "گفتن اینکه زندگی یک سفر است استعاره‌ی بسیار رایجی است."
+          "tense": "present",
+          "text": "The author uses a metaphor to describe the city as a machine.",
+          "fa": "نویسنده از یک استعاره برای توصیف شهر به‌عنوان یک ماشین استفاده می‌کند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «uses»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll explain this metaphor in the next lesson.",
+          "fa": "این استعاره را در درس بعدی توضیح می‌دهم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll explain»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈmɛtəfɔɹ"
+      "ipa": "ˈmɛtəfɔɹ",
+      "morph": [
+        [
+          "Singular",
+          "metaphor"
+        ],
+        [
+          "Plural",
+          "metaphors"
+        ],
+        [
+          "Adjective",
+          "metaphorical"
+        ],
+        [
+          "Related",
+          "simile"
+        ]
+      ]
     },
     {
       "id": "v-0271",
@@ -1442,16 +2906,44 @@
       },
       "examples": [
         {
-          "text": "The methodology section explains how the data was collected.",
-          "fa": "بخش روش‌شناسی توضیح می‌دهد داده‌ها چگونه جمع‌آوری شده‌اند."
+          "tense": "past",
+          "text": "The team changed its methodology after the first test.",
+          "fa": "تیم بعد از آزمون اول روش‌شناسی‌اش را تغییر داد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «changed»."
         },
         {
-          "text": "My supervisor questioned the methodology of the study.",
-          "fa": "استاد راهنمایم روش‌شناسی آن پژوهش را زیر سؤال برد."
+          "tense": "present",
+          "text": "The methodology section explains how the data was collected.",
+          "fa": "بخش روش‌شناسی توضیح می‌دهد داده‌ها چگونه جمع‌آوری شده‌اند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «explains»."
+        },
+        {
+          "tense": "future",
+          "text": "The methodology will be explained in chapter two.",
+          "fa": "روش‌شناسی در فصل دوم توضیح داده می‌شود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will be explained»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌmɛθəˈdɑlədʒi"
+      "ipa": "ˌmɛθəˈdɑlədʒi",
+      "morph": [
+        [
+          "Singular",
+          "methodology"
+        ],
+        [
+          "Plural",
+          "methodologies"
+        ],
+        [
+          "Related",
+          "method"
+        ],
+        [
+          "Adjective",
+          "methodological"
+        ]
+      ]
     },
     {
       "id": "v-0272",
@@ -1470,16 +2962,44 @@
       },
       "examples": [
         {
-          "text": "The police still don't know the motive for the crime.",
-          "fa": "پلیس هنوز انگیزه‌ی جرم را نمی‌داند."
+          "tense": "past",
+          "text": "Nobody understood his motive at the time.",
+          "fa": "آن زمان هیچ‌کس انگیزه‌ی او را نفهمید.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «understood»."
         },
         {
-          "text": "I wonder what his real motive was.",
-          "fa": "نمی‌دانم انگیزه‌ی واقعی‌اش چه بود."
+          "tense": "present",
+          "text": "The motive is not clear to the police yet.",
+          "fa": "انگیزه هنوز برای پلیس روشن نیست.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is not clear»."
+        },
+        {
+          "tense": "future",
+          "text": "The court will learn his real motive.",
+          "fa": "دادگاه انگیزه‌ی واقعی او را خواهد فهمید.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will learn»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈmoʊtɪv"
+      "ipa": "ˈmoʊtɪv",
+      "morph": [
+        [
+          "Singular",
+          "motive"
+        ],
+        [
+          "Plural",
+          "motives"
+        ],
+        [
+          "Related",
+          "motivation"
+        ],
+        [
+          "Verb",
+          "motivate"
+        ]
+      ]
     },
     {
       "id": "v-0273",
@@ -1497,16 +3017,44 @@
       },
       "examples": [
         {
-          "text": "Two options remain, namely waiting or cancelling the trip.",
-          "fa": "دو گزینه می‌ماند، یعنی صبر کردن یا لغو سفر."
+          "tense": "past",
+          "text": "Two options remained, namely waiting or cancelling.",
+          "fa": "دو گزینه ماند، یعنی صبر کردن یا لغو.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «remained»."
         },
         {
-          "text": "We need one thing, namely more time.",
-          "fa": "ما یک چیز لازم داریم، یعنی زمان بیشتر."
+          "tense": "present",
+          "text": "Two options remain, namely waiting or cancelling the trip.",
+          "fa": "دو گزینه می‌ماند، یعنی صبر کردن یا لغو سفر.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «remain»."
+        },
+        {
+          "tense": "future",
+          "text": "Two things will matter, namely price and quality.",
+          "fa": "دو چیز مهم خواهد بود، یعنی قیمت و کیفیت.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will matter»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈneɪmli"
+      "ipa": "ˈneɪmli",
+      "morph": [
+        [
+          "Adverb",
+          "namely"
+        ],
+        [
+          "Meaning",
+          "that is / specifically"
+        ],
+        [
+          "Similar",
+          "i.e. (that is)"
+        ],
+        [
+          "Punctuation",
+          "comma before namely"
+        ]
+      ]
     },
     {
       "id": "v-0274",
@@ -1524,16 +3072,44 @@
       },
       "examples": [
         {
-          "text": "The task was difficult; nonetheless, we finished on time.",
-          "fa": "کار سخت بود؛ با این‌حال سر وقت تمامش کردیم."
+          "tense": "past",
+          "text": "The hotel was old. Nonetheless, it was clean and comfortable.",
+          "fa": "هتل قدیمی بود. با این‌حال تمیز و راحت بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «it was clean and comfortable»."
         },
         {
-          "text": "The hotel was old. Nonetheless, it was clean and comfortable.",
-          "fa": "هتل قدیمی بود. با این‌حال تمیز و راحت بود."
+          "tense": "present",
+          "text": "The result is small; nonetheless, it is important.",
+          "fa": "نتیجه کوچک است؛ با این‌حال مهم است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «it is important»."
+        },
+        {
+          "tense": "future",
+          "text": "It will be hard; nonetheless, we will try.",
+          "fa": "سخت خواهد بود؛ با این‌حال تلاش می‌کنیم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «we will try»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌnʌnðəˈlɛs"
+      "ipa": "ˌnʌnðəˈlɛs",
+      "morph": [
+        [
+          "Adverb",
+          "nonetheless"
+        ],
+        [
+          "Similar",
+          "nevertheless / however"
+        ],
+        [
+          "Spelling",
+          "none the less (British)"
+        ],
+        [
+          "Register",
+          "formal"
+        ]
+      ]
     },
     {
       "id": "v-0275",
@@ -1552,16 +3128,44 @@
       },
       "examples": [
         {
-          "text": "Working from home has become the norm for many people.",
-          "fa": "کار از خانه برای خیلی‌ها به حالت عادی تبدیل شده است."
+          "tense": "past",
+          "text": "Working from home was not the norm before 2020.",
+          "fa": "کار از خانه پیش از ۲۰۲۰ حالت عادی نبود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was not the norm»."
         },
         {
+          "tense": "present",
           "text": "Social norms are different in every culture.",
-          "fa": "هنجارهای اجتماعی در هر فرهنگی فرق دارد."
+          "fa": "هنجارهای اجتماعی در هر فرهنگی فرق دارد.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «are different»."
+        },
+        {
+          "tense": "future",
+          "text": "Remote work will be the norm in the future.",
+          "fa": "در آینده کار از راه دور حالت عادی خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be the norm»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈnɔɹm"
+      "ipa": "ˈnɔɹm",
+      "morph": [
+        [
+          "Singular",
+          "norm"
+        ],
+        [
+          "Plural",
+          "norms"
+        ],
+        [
+          "Phrase",
+          "the norm"
+        ],
+        [
+          "Adjective",
+          "normal"
+        ]
+      ]
     },
     {
       "id": "v-0276",
@@ -1580,16 +3184,44 @@
       },
       "examples": [
         {
-          "text": "Does anyone have an objection to the new schedule?",
-          "fa": "کسی نسبت به برنامه‌ی جدید اعتراضی دارد؟"
+          "tense": "past",
+          "text": "She raised an objection during the meeting.",
+          "fa": "او در جلسه اعتراض کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «raised»."
         },
         {
-          "text": "Her main objection was the high cost.",
-          "fa": "اعتراض اصلی او هزینه‌ی بالا بود."
+          "tense": "present",
+          "text": "Does anyone have an objection to the new schedule?",
+          "fa": "کسی نسبت به برنامه‌ی جدید اعتراضی دارد؟",
+          "grammar": "حال ساده در سؤال: Do / Does + فاعل + شکل ساده‌ی فعل. در جمله: «Does anyone have an objection»."
+        },
+        {
+          "tense": "future",
+          "text": "I'm sure he'll raise an objection.",
+          "fa": "مطمئنم او اعتراض می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «he'll raise an objection»."
         }
       ],
       "register": "formal",
-      "ipa": "əbˈdʒɛkʃən"
+      "ipa": "əbˈdʒɛkʃən",
+      "morph": [
+        [
+          "Singular",
+          "objection"
+        ],
+        [
+          "Plural",
+          "objections"
+        ],
+        [
+          "Verb",
+          "object (ub-JEKT)"
+        ],
+        [
+          "Adjective",
+          "objectionable"
+        ]
+      ]
     },
     {
       "id": "v-0277",
@@ -1607,16 +3239,40 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "She wrote her thesis about an obscure poet from the 1800s.",
-          "fa": "او پایان‌نامه‌اش را درباره‌ی یک شاعر کمتر شناخته‌شده‌ی قرن نوزدهم نوشت."
+          "fa": "او پایان‌نامه‌اش را درباره‌ی یک شاعر کمتر شناخته‌شده‌ی قرن نوزدهم نوشت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «wrote»."
         },
         {
+          "tense": "present",
           "text": "The meaning of the sentence is still quite obscure.",
-          "fa": "معنی این جمله هنوز کاملاً مبهم است."
+          "fa": "معنی این جمله هنوز کاملاً مبهم است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is still quite obscure»."
+        },
+        {
+          "tense": "future",
+          "text": "The instructions will be obscure to beginners.",
+          "fa": "دستورالعمل برای مبتدی‌ها مبهم خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be obscure»."
         }
       ],
       "register": "formal",
-      "ipa": "əbˈskjʊɹ"
+      "ipa": "əbˈskjʊɹ",
+      "morph": [
+        [
+          "Adjective",
+          "obscure"
+        ],
+        [
+          "Verb (to hide)",
+          "obscure / obscures / obscured"
+        ],
+        [
+          "Noun",
+          "obscurity"
+        ]
+      ]
     },
     {
       "id": "v-0278",
@@ -1637,16 +3293,48 @@
       },
       "examples": [
         {
-          "text": "You need to obtain a permit before you start building.",
-          "fa": "قبل از شروع ساخت باید مجوز بگیری."
+          "tense": "past",
+          "text": "They obtained the data from an online survey.",
+          "fa": "آنها داده‌ها را از یک نظرسنجی آنلاین به دست آوردند.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «obtain» می‌شود «obtained»."
         },
         {
-          "text": "They obtained the data from an online survey.",
-          "fa": "آنها داده‌ها را از یک نظرسنجی آنلاین به دست آوردند."
+          "tense": "present",
+          "text": "Students obtain their results by email.",
+          "fa": "دانشجوها نتایجشان را با ایمیل می‌گیرند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («obtains»). در جمله: «obtain»."
+        },
+        {
+          "tense": "future",
+          "text": "You'll obtain the permit within a week.",
+          "fa": "ظرف یک هفته مجوز را می‌گیری.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «You'll obtain»."
         }
       ],
       "register": "formal",
-      "ipa": "əbˈteɪn"
+      "ipa": "əbˈteɪn",
+      "morph": [
+        [
+          "Base",
+          "obtain"
+        ],
+        [
+          "He / she / it",
+          "obtains"
+        ],
+        [
+          "Past",
+          "obtained"
+        ],
+        [
+          "Past participle",
+          "obtained"
+        ],
+        [
+          "-ing form",
+          "obtaining"
+        ]
+      ]
     },
     {
       "id": "v-0279",
@@ -1664,16 +3352,44 @@
       },
       "examples": [
         {
-          "text": "Seven to eight hours of sleep is optimal for most adults.",
-          "fa": "هفت تا هشت ساعت خواب برای بیشتر بزرگسالان بهینه است."
+          "tense": "past",
+          "text": "The conditions were optimal for the experiment.",
+          "fa": "شرایط برای آزمایش بهینه بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «were optimal»."
         },
         {
-          "text": "This is not the optimal time to start a new project.",
-          "fa": "این بهترین زمان برای شروع یک پروژه‌ی جدید نیست."
+          "tense": "present",
+          "text": "Seven to eight hours of sleep is optimal for most adults.",
+          "fa": "هفت تا هشت ساعت خواب برای بیشتر بزرگسالان بهینه است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is optimal»."
+        },
+        {
+          "tense": "future",
+          "text": "This setting will be optimal for the test.",
+          "fa": "این تنظیم برای آزمون بهینه خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be optimal»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈɑptəməl"
+      "ipa": "ˈɑptəməl",
+      "morph": [
+        [
+          "Adjective",
+          "optimal"
+        ],
+        [
+          "Verb",
+          "optimise / optimize"
+        ],
+        [
+          "Noun",
+          "optimum"
+        ],
+        [
+          "Phrase",
+          "optimal solution"
+        ]
+      ]
     },
     {
       "id": "v-0280",
@@ -1694,16 +3410,48 @@
       },
       "examples": [
         {
-          "text": "Our work schedules overlap only on Tuesdays.",
-          "fa": "برنامه‌ی کاری ما فقط سه‌شنبه‌ها با هم هم‌پوشانی دارد."
+          "tense": "past",
+          "text": "Our two meetings overlapped yesterday afternoon.",
+          "fa": "دو جلسه‌ی ما دیروز بعدازظهر هم‌زمان شد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «overlap» می‌شود «overlapped»."
         },
         {
-          "text": "There is a big overlap between these two topics.",
-          "fa": "بین این دو موضوع هم‌پوشانی زیادی هست."
+          "tense": "present",
+          "text": "Our work schedules overlap only on Tuesdays.",
+          "fa": "برنامه‌ی کاری ما فقط سه‌شنبه‌ها با هم هم‌پوشانی دارد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («overlaps»). در جمله: «overlap»."
+        },
+        {
+          "tense": "future",
+          "text": "The two courses will overlap next term.",
+          "fa": "دو درس ترم آینده هم‌پوشانی دارند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will overlap»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈoʊvɚˌlæp"
+      "ipa": "ˈoʊvɚˌlæp",
+      "morph": [
+        [
+          "Base",
+          "overlap"
+        ],
+        [
+          "He / she / it",
+          "overlaps"
+        ],
+        [
+          "Past",
+          "overlapped"
+        ],
+        [
+          "Past participle",
+          "overlapped"
+        ],
+        [
+          "-ing form",
+          "overlapping"
+        ]
+      ]
     },
     {
       "id": "v-0281",
@@ -1722,16 +3470,44 @@
       },
       "examples": [
         {
-          "text": "The first lecture gives a short overview of the course.",
-          "fa": "اولین جلسه یک نمای کلی کوتاه از درس می‌دهد."
+          "tense": "past",
+          "text": "She gave us a short overview of the project.",
+          "fa": "او یک نمای کلی کوتاه از پروژه به ما داد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «gave»."
         },
         {
-          "text": "Can you give me a quick overview of the project?",
-          "fa": "می‌توانی یک مرور سریع از پروژه به من بدهی؟"
+          "tense": "present",
+          "text": "The first lecture gives a short overview of the course.",
+          "fa": "اولین جلسه یک نمای کلی کوتاه از درس می‌دهد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «gives»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll give you an overview after lunch.",
+          "fa": "بعد از ناهار یک مرور کلی به تو می‌دهم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll give you an overview»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈoʊvɚˌvju"
+      "ipa": "ˈoʊvɚˌvju",
+      "morph": [
+        [
+          "Singular",
+          "overview"
+        ],
+        [
+          "Plural",
+          "overviews"
+        ],
+        [
+          "Related",
+          "review"
+        ],
+        [
+          "Phrase",
+          "give an overview"
+        ]
+      ]
     },
     {
       "id": "v-0282",
@@ -1750,16 +3526,44 @@
       },
       "examples": [
         {
-          "text": "It's a paradox that more choice often makes us less happy.",
-          "fa": "پارادوکس است که انتخاب بیشتر اغلب ما را کمتر خوشحال می‌کند."
+          "tense": "past",
+          "text": "It was a paradox that the shy man became a teacher.",
+          "fa": "این یک پارادوکس بود که مرد خجالتی معلم شد.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «It was a paradox»."
         },
         {
-          "text": "The paradox is that he's both shy and a great speaker.",
-          "fa": "تناقض اینجاست که هم خجالتی است و هم سخنران عالی."
+          "tense": "present",
+          "text": "It's a paradox that more choice often makes us less happy.",
+          "fa": "پارادوکس است که انتخاب بیشتر اغلب ما را کمتر خوشحال می‌کند.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «It's a paradox»."
+        },
+        {
+          "tense": "future",
+          "text": "It will be a paradox if prices fall and sales drop.",
+          "fa": "پارادوکس خواهد بود اگر قیمت‌ها پایین بیاید و فروش کم شود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «It will be a paradox»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈpɛɹəˌdɑks"
+      "ipa": "ˈpɛɹəˌdɑks",
+      "morph": [
+        [
+          "Singular",
+          "paradox"
+        ],
+        [
+          "Plural",
+          "paradoxes"
+        ],
+        [
+          "Adjective",
+          "paradoxical"
+        ],
+        [
+          "Adverb",
+          "paradoxically"
+        ]
+      ]
     },
     {
       "id": "v-0283",
@@ -1777,16 +3581,44 @@
       },
       "examples": [
         {
-          "text": "That's a plausible explanation, but we need more evidence.",
-          "fa": "توضیح قابل‌قبولی است ولی شواهد بیشتری لازم داریم."
+          "tense": "past",
+          "text": "His excuse sounded plausible at first.",
+          "fa": "بهانه‌اش اول باورپذیر به نظر می‌رسید.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «sounded plausible»."
         },
         {
-          "text": "His excuse sounded plausible at first.",
-          "fa": "بهانه‌اش اول باورپذیر به نظر می‌رسید."
+          "tense": "present",
+          "text": "That's a plausible explanation, but we need more evidence.",
+          "fa": "توضیح قابل‌قبولی است ولی شواهد بیشتری لازم داریم.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «That's a plausible explanation»."
+        },
+        {
+          "tense": "future",
+          "text": "Your idea will sound plausible to the committee.",
+          "fa": "ایده‌ات برای کمیته باورپذیر به نظر می‌رسد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will sound plausible»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈplɔzəbəl"
+      "ipa": "ˈplɔzəbəl",
+      "morph": [
+        [
+          "Adjective",
+          "plausible"
+        ],
+        [
+          "Opposite",
+          "implausible"
+        ],
+        [
+          "Adverb",
+          "plausibly"
+        ],
+        [
+          "Related",
+          "believable"
+        ]
+      ]
     },
     {
       "id": "v-0284",
@@ -1807,16 +3639,48 @@
       },
       "examples": [
         {
-          "text": "The film portrays life in a small village very realistically.",
-          "fa": "فیلم زندگی در یک روستای کوچک را بسیار واقع‌گرایانه تصویر می‌کند."
+          "tense": "past",
+          "text": "The novel portrayed her as a strong leader.",
+          "fa": "رمان او را به‌عنوان رهبری قوی به تصویر کشید.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «portray» می‌شود «portrayed»."
         },
         {
+          "tense": "present",
           "text": "The media often portrays teenagers in a negative way.",
-          "fa": "رسانه‌ها اغلب نوجوانان را به شکل منفی نشان می‌دهند."
+          "fa": "رسانه‌ها اغلب نوجوانان را به شکل منفی نشان می‌دهند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («portrays»). در جمله: «portrays»."
+        },
+        {
+          "tense": "future",
+          "text": "The film will portray the city in a new way.",
+          "fa": "فیلم شهر را به شکلی تازه به تصویر می‌کشد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will portray»."
         }
       ],
       "register": "formal",
-      "ipa": "pɔɹˈtɹeɪ"
+      "ipa": "pɔɹˈtɹeɪ",
+      "morph": [
+        [
+          "Base",
+          "portray"
+        ],
+        [
+          "He / she / it",
+          "portrays"
+        ],
+        [
+          "Past",
+          "portrayed"
+        ],
+        [
+          "Past participle",
+          "portrayed"
+        ],
+        [
+          "-ing form",
+          "portraying"
+        ]
+      ]
     },
     {
       "id": "v-0285",
@@ -1835,16 +3699,44 @@
       },
       "examples": [
         {
-          "text": "We need a pragmatic solution, not a perfect one.",
-          "fa": "ما یک راه‌حل عملی لازم داریم، نه کامل."
+          "tense": "past",
+          "text": "She was pragmatic about the budget cuts.",
+          "fa": "او درباره‌ی کاهش بودجه عمل‌گرا بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was pragmatic»."
         },
         {
+          "tense": "present",
           "text": "She's very pragmatic and always looks for practical answers.",
-          "fa": "او بسیار عمل‌گراست و همیشه دنبال جواب‌های کاربردی است."
+          "fa": "او بسیار عمل‌گراست و همیشه دنبال جواب‌های کاربردی است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «She's very pragmatic»."
+        },
+        {
+          "tense": "future",
+          "text": "We'll be pragmatic and choose the cheaper plan.",
+          "fa": "ما عمل‌گرا خواهیم بود و طرح ارزان‌تر را انتخاب می‌کنیم.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «We'll be pragmatic»."
         }
       ],
       "register": "formal",
-      "ipa": "pɹæɡˈmætɪk"
+      "ipa": "pɹæɡˈmætɪk",
+      "morph": [
+        [
+          "Adjective",
+          "pragmatic"
+        ],
+        [
+          "Adverb",
+          "pragmatically"
+        ],
+        [
+          "Noun",
+          "pragmatism"
+        ],
+        [
+          "Opposite",
+          "idealistic"
+        ]
+      ]
     },
     {
       "id": "v-0286",
@@ -1862,16 +3754,44 @@
       },
       "examples": [
         {
-          "text": "The preliminary results look very promising.",
-          "fa": "نتایج اولیه بسیار امیدوارکننده به نظر می‌رسد."
+          "tense": "past",
+          "text": "We had a preliminary meeting before the real project began.",
+          "fa": "قبل از شروع پروژه‌ی اصلی یک جلسه‌ی مقدماتی داشتیم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «had»."
         },
         {
-          "text": "We had a preliminary meeting before the real project began.",
-          "fa": "قبل از شروع پروژه‌ی اصلی یک جلسه‌ی مقدماتی داشتیم."
+          "tense": "present",
+          "text": "The preliminary results look very promising.",
+          "fa": "نتایج اولیه بسیار امیدوارکننده به نظر می‌رسد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «look very promising»."
+        },
+        {
+          "tense": "future",
+          "text": "The preliminary report will come out in March.",
+          "fa": "گزارش اولیه در مارس منتشر می‌شود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will come out»."
         }
       ],
       "register": "formal",
-      "ipa": "pɹɪˈlɪməˌnɛɹi"
+      "ipa": "pɹɪˈlɪməˌnɛɹi",
+      "morph": [
+        [
+          "Adjective",
+          "preliminary"
+        ],
+        [
+          "Noun",
+          "preliminaries"
+        ],
+        [
+          "Related",
+          "initial / first"
+        ],
+        [
+          "Phrase",
+          "preliminary results"
+        ]
+      ]
     },
     {
       "id": "v-0287",
@@ -1892,16 +3812,48 @@
       },
       "examples": [
         {
-          "text": "I presume you've already read the article for today's class.",
-          "fa": "فرض می‌کنم مقاله‌ی امروز کلاس را قبلاً خوانده‌ای."
+          "tense": "past",
+          "text": "Everyone presumed he was the new teacher.",
+          "fa": "همه گمان کردند او معلم جدید است.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «presume» می‌شود «presumed»."
         },
         {
-          "text": "Everyone presumed he was the new teacher.",
-          "fa": "همه گمان کردند او معلم جدید است."
+          "tense": "present",
+          "text": "I presume you've already read the article for today's class.",
+          "fa": "فرض می‌کنم مقاله‌ی امروز کلاس را قبلاً خوانده‌ای.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («presumes»). در جمله: «I presume»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll presume you agree unless you say otherwise.",
+          "fa": "فرض می‌کنم موافقی مگر اینکه چیز دیگری بگویی.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll presume»."
         }
       ],
       "register": "formal",
-      "ipa": "pɹɪˈzum"
+      "ipa": "pɹɪˈzum",
+      "morph": [
+        [
+          "Base",
+          "presume"
+        ],
+        [
+          "He / she / it",
+          "presumes"
+        ],
+        [
+          "Past",
+          "presumed"
+        ],
+        [
+          "Past participle",
+          "presumed"
+        ],
+        [
+          "-ing form",
+          "presuming"
+        ]
+      ]
     },
     {
       "id": "v-0288",
@@ -1921,16 +3873,44 @@
       },
       "examples": [
         {
-          "text": "Prejudice against immigrants can make it harder to find work.",
-          "fa": "پیش‌داوری علیه مهاجران می‌تواند پیدا کردن کار را سخت‌تر کند."
+          "tense": "past",
+          "text": "He faced prejudice when he moved abroad.",
+          "fa": "وقتی به خارج رفت با پیش‌داوری روبه‌رو شد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «faced»."
         },
         {
-          "text": "She tried to read the report without prejudice.",
-          "fa": "او کوشید گزارش را بدون پیش‌داوری بخواند."
+          "tense": "present",
+          "text": "Prejudice grows when people don't meet each other.",
+          "fa": "پیش‌داوری وقتی رشد می‌کند که آدم‌ها همدیگر را نبینند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «grows»."
+        },
+        {
+          "tense": "future",
+          "text": "Education will reduce prejudice over time.",
+          "fa": "آموزش با گذشت زمان پیش‌داوری را کم می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will reduce»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈpɹɛdʒədɪs"
+      "ipa": "ˈpɹɛdʒədɪs",
+      "morph": [
+        [
+          "Singular",
+          "prejudice"
+        ],
+        [
+          "Adjective",
+          "prejudiced"
+        ],
+        [
+          "Verb",
+          "prejudice (to influence unfairly)"
+        ],
+        [
+          "Phrase",
+          "prejudice against …"
+        ]
+      ]
     },
     {
       "id": "v-0289",
@@ -1949,16 +3929,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "Moving abroad had a profound effect on her life.",
-          "fa": "مهاجرت به خارج تأثیر عمیقی بر زندگی‌اش گذاشت."
+          "fa": "مهاجرت به خارج تأثیر عمیقی بر زندگی‌اش گذاشت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «had a profound effect»."
         },
         {
-          "text": "There has been a profound change in how we work.",
-          "fa": "در شیوه‌ی کار کردن ما تغییر ژرفی رخ داده است."
+          "tense": "present",
+          "text": "The book has a profound message about family.",
+          "fa": "کتاب پیام عمیقی درباره‌ی خانواده دارد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «has a profound message»."
+        },
+        {
+          "tense": "future",
+          "text": "This decision will have a profound effect on all of us.",
+          "fa": "این تصمیم تأثیر عمیقی بر همه‌ی ما خواهد داشت.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will have a profound effect»."
         }
       ],
       "register": "formal",
-      "ipa": "pɹoʊˈfaʊnd"
+      "ipa": "pɹoʊˈfaʊnd",
+      "morph": [
+        [
+          "Adjective",
+          "profound"
+        ],
+        [
+          "Adverb",
+          "profoundly"
+        ],
+        [
+          "Noun",
+          "profundity"
+        ],
+        [
+          "Related",
+          "deep"
+        ]
+      ]
     },
     {
       "id": "v-0290",
@@ -1976,16 +3984,44 @@
       },
       "examples": [
         {
-          "text": "She's a prominent researcher in the field of psychology.",
-          "fa": "او پژوهشگر سرشناسی در حوزه‌ی روان‌شناسی است."
+          "tense": "past",
+          "text": "He was a prominent doctor in the 1990s.",
+          "fa": "او در دهه‌ی ۱۹۹۰ پزشک سرشناسی بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was a prominent doctor»."
         },
         {
-          "text": "The logo is placed in a prominent position.",
-          "fa": "لوگو در جای برجسته‌ای قرار گرفته است."
+          "tense": "present",
+          "text": "She's a prominent researcher in the field of psychology.",
+          "fa": "او پژوهشگر سرشناسی در حوزه‌ی روان‌شناسی است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «She's a prominent researcher»."
+        },
+        {
+          "tense": "future",
+          "text": "She will become a prominent scientist one day.",
+          "fa": "او روزی دانشمند سرشناسی می‌شود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will become»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈpɹɑmənənt"
+      "ipa": "ˈpɹɑmənənt",
+      "morph": [
+        [
+          "Adjective",
+          "prominent"
+        ],
+        [
+          "Adverb",
+          "prominently"
+        ],
+        [
+          "Noun",
+          "prominence"
+        ],
+        [
+          "Related",
+          "well-known"
+        ]
+      ]
     },
     {
       "id": "v-0291",
@@ -2003,16 +4039,44 @@
       },
       "examples": [
         {
-          "text": "We used interviews for the qualitative part of the study.",
-          "fa": "برای بخش کیفی پژوهش از مصاحبه استفاده کردیم."
+          "tense": "past",
+          "text": "We used a qualitative method last year.",
+          "fa": "پارسال از یک روش کیفی استفاده کردیم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «used»."
         },
         {
-          "text": "Qualitative data can show why people feel a certain way.",
-          "fa": "داده‌های کیفی می‌توانند نشان بدهند چرا مردم چنین احساسی دارند."
+          "tense": "present",
+          "text": "Qualitative research focuses on people's experiences.",
+          "fa": "پژوهش کیفی بر تجربه‌ی آدم‌ها تمرکز می‌کند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «focuses»."
+        },
+        {
+          "tense": "future",
+          "text": "Our next project will be qualitative.",
+          "fa": "پروژه‌ی بعدی ما کیفی خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be qualitative»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈkwɑləˌteɪtɪv"
+      "ipa": "ˈkwɑləˌteɪtɪv",
+      "morph": [
+        [
+          "Adjective",
+          "qualitative"
+        ],
+        [
+          "Noun",
+          "quality"
+        ],
+        [
+          "Opposite",
+          "quantitative"
+        ],
+        [
+          "Adverb",
+          "qualitatively"
+        ]
+      ]
     },
     {
       "id": "v-0292",
@@ -2030,16 +4094,44 @@
       },
       "examples": [
         {
-          "text": "The survey provides quantitative data about students' habits.",
-          "fa": "این نظرسنجی داده‌های کمّی درباره‌ی عادت‌های دانشجوها می‌دهد."
+          "tense": "past",
+          "text": "The first study was quantitative.",
+          "fa": "مطالعه‌ی اول کمّی بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was quantitative»."
         },
         {
-          "text": "I prefer quantitative methods because I like working with numbers.",
-          "fa": "روش‌های کمّی را ترجیح می‌دهم چون دوست دارم با عدد کار کنم."
+          "tense": "present",
+          "text": "The survey provides quantitative data about students' habits.",
+          "fa": "این نظرسنجی داده‌های کمّی درباره‌ی عادت‌های دانشجوها می‌دهد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «provides»."
+        },
+        {
+          "tense": "future",
+          "text": "The second study will use quantitative methods.",
+          "fa": "مطالعه‌ی دوم از روش‌های کمّی استفاده می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will use»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈkwɑntɪˌteɪtɪv"
+      "ipa": "ˈkwɑntɪˌteɪtɪv",
+      "morph": [
+        [
+          "Adjective",
+          "quantitative"
+        ],
+        [
+          "Noun",
+          "quantity"
+        ],
+        [
+          "Opposite",
+          "qualitative"
+        ],
+        [
+          "Adverb",
+          "quantitatively"
+        ]
+      ]
     },
     {
       "id": "v-0293",
@@ -2058,16 +4150,44 @@
       },
       "examples": [
         {
-          "text": "Please fill in the questionnaire before the interview.",
-          "fa": "لطفاً قبل از مصاحبه پرسشنامه را پر کنید."
+          "tense": "past",
+          "text": "I filled in the questionnaire yesterday.",
+          "fa": "دیروز پرسشنامه را پر کردم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «filled in»."
         },
         {
+          "tense": "present",
           "text": "The questionnaire has twenty questions about study habits.",
-          "fa": "پرسشنامه بیست سؤال درباره‌ی عادت‌های مطالعه دارد."
+          "fa": "پرسشنامه بیست سؤال درباره‌ی عادت‌های مطالعه دارد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «has»."
+        },
+        {
+          "tense": "future",
+          "text": "We'll send the questionnaire by email tomorrow.",
+          "fa": "فردا پرسشنامه را با ایمیل می‌فرستیم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «We'll send»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˌkwɛstʃəˈnɛɹ"
+      "ipa": "ˌkwɛstʃəˈnɛɹ",
+      "morph": [
+        [
+          "Singular",
+          "questionnaire"
+        ],
+        [
+          "Plural",
+          "questionnaires"
+        ],
+        [
+          "Related",
+          "survey"
+        ],
+        [
+          "Phrase",
+          "fill in a questionnaire"
+        ]
+      ]
     },
     {
       "id": "v-0294",
@@ -2086,16 +4206,44 @@
       },
       "examples": [
         {
-          "text": "Let's try to make a rational decision, not an emotional one.",
-          "fa": "بیایید تصمیم منطقی بگیریم، نه احساسی."
+          "tense": "past",
+          "text": "His decision was rational at the time.",
+          "fa": "تصمیم او در آن زمان منطقی بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was rational»."
         },
         {
-          "text": "There must be a rational explanation for this.",
-          "fa": "حتماً برای این یک توضیح منطقی وجود دارد."
+          "tense": "present",
+          "text": "She is rational and rarely makes emotional decisions.",
+          "fa": "او منطقی است و به‌ندرت تصمیم احساسی می‌گیرد.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is rational»."
+        },
+        {
+          "tense": "future",
+          "text": "A rational person will check the facts first.",
+          "fa": "آدم منطقی اول واقعیت‌ها را بررسی می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will check»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈɹæʃənəl"
+      "ipa": "ˈɹæʃənəl",
+      "morph": [
+        [
+          "Adjective",
+          "rational"
+        ],
+        [
+          "Opposite",
+          "irrational"
+        ],
+        [
+          "Adverb",
+          "rationally"
+        ],
+        [
+          "Noun",
+          "rationality"
+        ]
+      ]
     },
     {
       "id": "v-0295",
@@ -2116,16 +4264,48 @@
       },
       "examples": [
         {
-          "text": "Regular practice will reinforce what you learned in class.",
-          "fa": "تمرین منظم آنچه را در کلاس یاد گرفتی تثبیت می‌کند."
+          "tense": "past",
+          "text": "The results reinforced our first idea.",
+          "fa": "نتایج ایده‌ی اول ما را تقویت کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «reinforce» می‌شود «reinforced»."
         },
         {
+          "tense": "present",
           "text": "The article reinforces the idea that sleep is important.",
-          "fa": "مقاله این ایده را که خواب مهم است تقویت می‌کند."
+          "fa": "مقاله این ایده را که خواب مهم است تقویت می‌کند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («reinforces»). در جمله: «reinforces»."
+        },
+        {
+          "tense": "future",
+          "text": "Regular practice will reinforce what you learned in class.",
+          "fa": "تمرین منظم آنچه را در کلاس یاد گرفتی تثبیت می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will reinforce»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌɹiɪnˈfɔɹs"
+      "ipa": "ˌɹiɪnˈfɔɹs",
+      "morph": [
+        [
+          "Base",
+          "reinforce"
+        ],
+        [
+          "He / she / it",
+          "reinforces"
+        ],
+        [
+          "Past",
+          "reinforced"
+        ],
+        [
+          "Past participle",
+          "reinforced"
+        ],
+        [
+          "-ing form",
+          "reinforcing"
+        ]
+      ]
     },
     {
       "id": "v-0296",
@@ -2143,16 +4323,44 @@
       },
       "examples": [
         {
-          "text": "We checked the reliability of the test by repeating it.",
-          "fa": "با تکرار آزمون، پایایی آن را بررسی کردیم."
+          "tense": "past",
+          "text": "We tested the reliability of the results last month.",
+          "fa": "ماه پیش پایایی نتایج را آزمودیم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «tested»."
         },
         {
-          "text": "The reliability of online sources can be hard to judge.",
-          "fa": "قضاوت درباره‌ی اعتبار منابع آنلاین می‌تواند سخت باشد."
+          "tense": "present",
+          "text": "The reliability of this test is very high.",
+          "fa": "پایایی این آزمون بسیار بالاست.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is very high»."
+        },
+        {
+          "tense": "future",
+          "text": "The reliability of the system will improve.",
+          "fa": "قابل‌اعتماد بودن سیستم بهتر می‌شود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will improve»."
         }
       ],
       "register": "formal",
-      "ipa": "ɹiˌlaɪəˈbɪləti"
+      "ipa": "ɹiˌlaɪəˈbɪləti",
+      "morph": [
+        [
+          "Noun",
+          "reliability"
+        ],
+        [
+          "Adjective",
+          "reliable"
+        ],
+        [
+          "Opposite",
+          "unreliability"
+        ],
+        [
+          "Verb",
+          "rely on"
+        ]
+      ]
     },
     {
       "id": "v-0297",
@@ -2173,16 +4381,48 @@
       },
       "examples": [
         {
-          "text": "Other scientists were unable to replicate the results.",
-          "fa": "دانشمندان دیگر نتوانستند نتایج را تکرار کنند."
+          "tense": "past",
+          "text": "The team replicated the experiment in 2020.",
+          "fa": "تیم آزمایش را در ۲۰۲۰ تکرار کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «replicate» می‌شود «replicated»."
         },
         {
-          "text": "It's hard to replicate the exact conditions of the first experiment.",
-          "fa": "بازسازی دقیق شرایط آزمایش اول سخت است."
+          "tense": "present",
+          "text": "Scientists replicate studies to check the results.",
+          "fa": "دانشمندان برای بررسی نتایج مطالعه‌ها را تکرار می‌کنند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («replicates»). در جمله: «replicate»."
+        },
+        {
+          "tense": "future",
+          "text": "We'll replicate the study next year.",
+          "fa": "سال آینده مطالعه را تکرار می‌کنیم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «We'll replicate»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈɹɛpləˌkeɪt"
+      "ipa": "ˈɹɛpləˌkeɪt",
+      "morph": [
+        [
+          "Base",
+          "replicate"
+        ],
+        [
+          "He / she / it",
+          "replicates"
+        ],
+        [
+          "Past",
+          "replicated"
+        ],
+        [
+          "Past participle",
+          "replicated"
+        ],
+        [
+          "-ing form",
+          "replicating"
+        ]
+      ]
     },
     {
       "id": "v-0298",
@@ -2203,16 +4443,48 @@
       },
       "examples": [
         {
-          "text": "She strongly resembles her mother when she laughs.",
-          "fa": "وقتی می‌خندد خیلی شبیه مادرش است."
+          "tense": "past",
+          "text": "He resembled his father when he was young.",
+          "fa": "او وقتی جوان بود شبیه پدرش بود.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «resemble» می‌شود «resembled»."
         },
         {
-          "text": "The new building resembles a giant glass box.",
-          "fa": "ساختمان جدید شبیه یک جعبه‌ی شیشه‌ای غول‌پیکر است."
+          "tense": "present",
+          "text": "She strongly resembles her mother when she laughs.",
+          "fa": "وقتی می‌خندد خیلی شبیه مادرش است.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («resembles»). در جمله: «resembles»."
+        },
+        {
+          "tense": "future",
+          "text": "The new model will resemble the old one.",
+          "fa": "مدل جدید شبیه مدل قدیمی خواهد بود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will resemble»."
         }
       ],
       "register": "formal",
-      "ipa": "ɹɪˈzɛmbəl"
+      "ipa": "ɹɪˈzɛmbəl",
+      "morph": [
+        [
+          "Base",
+          "resemble"
+        ],
+        [
+          "He / she / it",
+          "resembles"
+        ],
+        [
+          "Past",
+          "resembled"
+        ],
+        [
+          "Past participle",
+          "resembled"
+        ],
+        [
+          "-ing form",
+          "resembling"
+        ]
+      ]
     },
     {
       "id": "v-0299",
@@ -2231,16 +4503,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "She won a scholarship to study in Belgium.",
-          "fa": "او بورسیه‌ای برای تحصیل در بلژیک گرفت."
+          "fa": "او بورسیه‌ای برای تحصیل در بلژیک گرفت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «won»."
         },
         {
-          "text": "He applied for a scholarship to cover his tuition fees.",
-          "fa": "او برای پوشش شهریه‌اش درخواست بورسیه داد."
+          "tense": "present",
+          "text": "The university offers several scholarships every year.",
+          "fa": "دانشگاه هر سال چند بورسیه می‌دهد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «offers»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll apply for a scholarship next month.",
+          "fa": "ماه آینده برای بورسیه درخواست می‌دهم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll apply»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈskɑlɚˌʃɪp"
+      "ipa": "ˈskɑlɚˌʃɪp",
+      "morph": [
+        [
+          "Singular",
+          "scholarship"
+        ],
+        [
+          "Plural",
+          "scholarships"
+        ],
+        [
+          "Person",
+          "scholar"
+        ],
+        [
+          "Phrase",
+          "win / apply for a scholarship"
+        ]
+      ]
     },
     {
       "id": "v-0300",
@@ -2261,16 +4561,48 @@
       },
       "examples": [
         {
-          "text": "Let me simplify the explanation a bit.",
-          "fa": "اجازه بده توضیح را کمی ساده کنم."
+          "tense": "past",
+          "text": "We simplified the form last year.",
+          "fa": "پارسال فرم را ساده کردیم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «simplify» می‌شود «simplified»."
         },
         {
+          "tense": "present",
           "text": "The new form simplifies the application process.",
-          "fa": "فرم جدید روند درخواست را ساده می‌کند."
+          "fa": "فرم جدید روند درخواست را ساده می‌کند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («simplifies»). در جمله: «simplifies»."
+        },
+        {
+          "tense": "future",
+          "text": "I'll simplify the explanation for you.",
+          "fa": "توضیح را برایت ساده می‌کنم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «I'll simplify»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈsɪmpləˌfaɪ"
+      "ipa": "ˈsɪmpləˌfaɪ",
+      "morph": [
+        [
+          "Base",
+          "simplify"
+        ],
+        [
+          "He / she / it",
+          "simplifies"
+        ],
+        [
+          "Past",
+          "simplified"
+        ],
+        [
+          "Past participle",
+          "simplified"
+        ],
+        [
+          "-ing form",
+          "simplifying"
+        ]
+      ]
     },
     {
       "id": "v-0301",
@@ -2289,16 +4621,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "We took a spontaneous trip to the coast last weekend.",
-          "fa": "آخر هفته‌ی پیش بی‌برنامه به ساحل سفر کردیم."
+          "fa": "آخر هفته‌ی پیش بی‌برنامه به ساحل سفر کردیم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «took»."
         },
         {
-          "text": "She gave a spontaneous speech at the party.",
-          "fa": "او در مهمانی یک سخنرانی بدون آمادگی قبلی کرد."
+          "tense": "present",
+          "text": "She is spontaneous and loves last-minute plans.",
+          "fa": "او خودجوش است و برنامه‌های لحظه‌ی آخر را دوست دارد.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is spontaneous»."
+        },
+        {
+          "tense": "future",
+          "text": "It'll be a spontaneous party, so no gifts.",
+          "fa": "یک مهمانی بی‌برنامه خواهد بود، پس هدیه لازم نیست.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «It'll be a spontaneous party»."
         }
       ],
       "register": "neutral",
-      "ipa": "spɑnˈteɪniəs"
+      "ipa": "spɑnˈteɪniəs",
+      "morph": [
+        [
+          "Adjective",
+          "spontaneous"
+        ],
+        [
+          "Adverb",
+          "spontaneously"
+        ],
+        [
+          "Noun",
+          "spontaneity"
+        ],
+        [
+          "Opposite",
+          "planned"
+        ]
+      ]
     },
     {
       "id": "v-0302",
@@ -2317,16 +4677,44 @@
       },
       "examples": [
         {
-          "text": "What is the government's stance on this issue?",
-          "fa": "موضع دولت درباره‌ی این موضوع چیست؟"
+          "tense": "past",
+          "text": "She took a firm stance against cheating.",
+          "fa": "او موضع محکمی علیه تقلب گرفت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «took a firm stance»."
         },
         {
-          "text": "She took a firm stance against cheating.",
-          "fa": "او موضع محکمی علیه تقلب گرفت."
+          "tense": "present",
+          "text": "What is the government's stance on this issue?",
+          "fa": "موضع دولت درباره‌ی این موضوع چیست؟",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «What is»."
+        },
+        {
+          "tense": "future",
+          "text": "The school will take a clear stance on phones.",
+          "fa": "مدرسه درباره‌ی گوشی موضع روشنی می‌گیرد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will take a clear stance»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈstæns"
+      "ipa": "ˈstæns",
+      "morph": [
+        [
+          "Singular",
+          "stance"
+        ],
+        [
+          "Plural",
+          "stances"
+        ],
+        [
+          "Phrase",
+          "take a stance"
+        ],
+        [
+          "Related",
+          "position / attitude"
+        ]
+      ]
     },
     {
       "id": "v-0303",
@@ -2346,16 +4734,44 @@
       },
       "examples": [
         {
-          "text": "That film is full of negative stereotypes about teenagers.",
-          "fa": "آن فیلم پر از کلیشه‌های منفی درباره‌ی نوجوان‌هاست."
+          "tense": "past",
+          "text": "Old films showed many negative stereotypes.",
+          "fa": "فیلم‌های قدیمی کلیشه‌های منفی زیادی نشان می‌دادند.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «showed»."
         },
         {
-          "text": "We should avoid stereotypes about people from other countries.",
-          "fa": "باید از کلیشه‌ها درباره‌ی مردم کشورهای دیگر پرهیز کنیم."
+          "tense": "present",
+          "text": "That film is full of negative stereotypes about teenagers.",
+          "fa": "آن فیلم پر از کلیشه‌های منفی درباره‌ی نوجوان‌هاست.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is full of»."
+        },
+        {
+          "tense": "future",
+          "text": "Stereotypes will fade if we talk to each other.",
+          "fa": "اگر با هم حرف بزنیم کلیشه‌ها از بین می‌روند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will fade»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈstɛɹiəˌtaɪp"
+      "ipa": "ˈstɛɹiəˌtaɪp",
+      "morph": [
+        [
+          "Singular",
+          "stereotype"
+        ],
+        [
+          "Plural",
+          "stereotypes"
+        ],
+        [
+          "Adjective",
+          "stereotypical"
+        ],
+        [
+          "Verb",
+          "stereotype"
+        ]
+      ]
     },
     {
       "id": "v-0304",
@@ -2373,16 +4789,44 @@
       },
       "examples": [
         {
-          "text": "The application process is quite straightforward.",
-          "fa": "روند درخواست کاملاً ساده است."
+          "tense": "past",
+          "text": "The process was straightforward last time.",
+          "fa": "دفعه‌ی قبل روند ساده بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was straightforward»."
         },
         {
-          "text": "I like her because she's honest and straightforward.",
-          "fa": "او را دوست دارم چون صادق و رک است."
+          "tense": "present",
+          "text": "The application process is quite straightforward.",
+          "fa": "روند درخواست کاملاً ساده است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is quite straightforward»."
+        },
+        {
+          "tense": "future",
+          "text": "The next step will be straightforward.",
+          "fa": "مرحله‌ی بعد ساده خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be straightforward»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˌstɹeɪtˈfɔɹwɚd"
+      "ipa": "ˌstɹeɪtˈfɔɹwɚd",
+      "morph": [
+        [
+          "Adjective",
+          "straightforward"
+        ],
+        [
+          "Adverb",
+          "straightforwardly"
+        ],
+        [
+          "Noun",
+          "straightforwardness"
+        ],
+        [
+          "Similar",
+          "simple"
+        ]
+      ]
     },
     {
       "id": "v-0305",
@@ -2401,16 +4845,44 @@
       },
       "examples": [
         {
-          "text": "Beauty is subjective; everyone sees it differently.",
-          "fa": "زیبایی ذهنی است؛ هر کسی آن را جور دیگری می‌بیند."
+          "tense": "past",
+          "text": "The grading felt a bit subjective to me.",
+          "fa": "نمره‌دادن به نظرم کمی سلیقه‌ای بود.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «felt a bit subjective»."
         },
         {
-          "text": "The grading felt a bit subjective to me.",
-          "fa": "نمره‌دادن به نظرم کمی سلیقه‌ای بود."
+          "tense": "present",
+          "text": "Beauty is subjective; everyone sees it differently.",
+          "fa": "زیبایی ذهنی است؛ هر کسی آن را جور دیگری می‌بیند.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is subjective»."
+        },
+        {
+          "tense": "future",
+          "text": "The results will be subjective if we skip the test.",
+          "fa": "اگر آزمون را نگیریم نتایج ذهنی خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be subjective»."
         }
       ],
       "register": "formal",
-      "ipa": "səbˈdʒɛktɪv"
+      "ipa": "səbˈdʒɛktɪv",
+      "morph": [
+        [
+          "Adjective",
+          "subjective"
+        ],
+        [
+          "Adverb",
+          "subjectively"
+        ],
+        [
+          "Noun",
+          "subjectivity"
+        ],
+        [
+          "Opposite",
+          "objective"
+        ]
+      ]
     },
     {
       "id": "v-0306",
@@ -2429,16 +4901,44 @@
       },
       "examples": [
         {
-          "text": "There's a subtle difference between these two words.",
-          "fa": "بین این دو کلمه یک تفاوت ظریف هست."
+          "tense": "past",
+          "text": "She gave me a subtle hint that it was time to leave.",
+          "fa": "او با اشاره‌ی ظریفی فهماند که وقت رفتن است.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «gave»."
         },
         {
-          "text": "She gave me a subtle hint that it was time to leave.",
-          "fa": "او با اشاره‌ی ظریفی فهماند که وقت رفتن است."
+          "tense": "present",
+          "text": "There's a subtle difference between these two words.",
+          "fa": "بین این دو کلمه یک تفاوت ظریف هست.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «There's a subtle difference»."
+        },
+        {
+          "tense": "future",
+          "text": "You'll notice a subtle change after a week.",
+          "fa": "بعد از یک هفته تغییر ظریفی می‌بینی.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «You'll notice»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈsʌtəl"
+      "ipa": "ˈsʌtəl",
+      "morph": [
+        [
+          "Adjective",
+          "subtle"
+        ],
+        [
+          "Adverb",
+          "subtly"
+        ],
+        [
+          "Noun",
+          "subtlety"
+        ],
+        [
+          "Pronunciation",
+          "b is silent: SUT-ul"
+        ]
+      ]
     },
     {
       "id": "v-0307",
@@ -2456,16 +4956,44 @@
       },
       "examples": [
         {
-          "text": "The results are not sufficiently clear to draw a conclusion.",
-          "fa": "نتایج برای نتیجه‌گیری به‌اندازه‌ی کافی روشن نیست."
+          "tense": "past",
+          "text": "He was sufficiently prepared for the interview.",
+          "fa": "او برای مصاحبه به‌اندازه‌ی کافی آماده بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was sufficiently prepared»."
         },
         {
-          "text": "He was sufficiently prepared for the interview.",
-          "fa": "او برای مصاحبه به‌اندازه‌ی کافی آماده بود."
+          "tense": "present",
+          "text": "The results are not sufficiently clear to draw a conclusion.",
+          "fa": "نتایج برای نتیجه‌گیری به‌اندازه‌ی کافی روشن نیست.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «are not sufficiently clear»."
+        },
+        {
+          "tense": "future",
+          "text": "You'll be sufficiently prepared if you study today.",
+          "fa": "اگر امروز درس بخوانی به‌اندازه‌ی کافی آماده می‌شوی.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «You'll be sufficiently prepared»."
         }
       ],
       "register": "formal",
-      "ipa": "səˈfɪʃəntli"
+      "ipa": "səˈfɪʃəntli",
+      "morph": [
+        [
+          "Adverb",
+          "sufficiently"
+        ],
+        [
+          "Adjective",
+          "sufficient"
+        ],
+        [
+          "Opposite",
+          "insufficiently"
+        ],
+        [
+          "Related",
+          "enough"
+        ]
+      ]
     },
     {
       "id": "v-0308",
@@ -2483,16 +5011,44 @@
       },
       "examples": [
         {
-          "text": "This is supposedly the best café in the city.",
-          "fa": "می‌گویند این بهترین کافه‌ی شهر است."
+          "tense": "past",
+          "text": "People said the movie was supposedly the best of the year.",
+          "fa": "مردم می‌گفتند فیلم گویا بهترین فیلم سال است.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was supposedly»."
         },
         {
-          "text": "He's supposedly working from home, but he never answers.",
-          "fa": "ظاهراً دارد از خانه کار می‌کند ولی هیچ‌وقت جواب نمی‌دهد."
+          "tense": "present",
+          "text": "This is supposedly the best café in the city.",
+          "fa": "می‌گویند این بهترین کافه‌ی شهر است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is supposedly»."
+        },
+        {
+          "tense": "future",
+          "text": "It will supposedly open next week, but I doubt it.",
+          "fa": "می‌گویند هفته‌ی آینده باز می‌شود ولی شک دارم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will supposedly open»."
         }
       ],
       "register": "informal",
-      "ipa": "səˈpoʊzədli"
+      "ipa": "səˈpoʊzədli",
+      "morph": [
+        [
+          "Adverb",
+          "supposedly"
+        ],
+        [
+          "Adjective",
+          "supposed"
+        ],
+        [
+          "Verb",
+          "suppose"
+        ],
+        [
+          "Phrase",
+          "be supposed to"
+        ]
+      ]
     },
     {
       "id": "v-0309",
@@ -2510,16 +5066,44 @@
       },
       "examples": [
         {
-          "text": "We need more sustainable ways to travel.",
-          "fa": "ما به راه‌های سفر پایدارتر نیاز داریم."
+          "tense": "past",
+          "text": "Their farm was not sustainable in the long run.",
+          "fa": "مزرعه‌شان در بلندمدت پایدار نبود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was not sustainable»."
         },
         {
+          "tense": "present",
           "text": "Working twelve hours a day is simply not sustainable.",
-          "fa": "کار روزی دوازده ساعت اصلاً قابل ادامه نیست."
+          "fa": "کار روزی دوازده ساعت اصلاً قابل ادامه نیست.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is simply not sustainable»."
+        },
+        {
+          "tense": "future",
+          "text": "Public transport will be more sustainable in the future.",
+          "fa": "حمل‌ونقل عمومی در آینده پایدارتر خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be more sustainable»."
         }
       ],
       "register": "neutral",
-      "ipa": "səˈsteɪnəbəl"
+      "ipa": "səˈsteɪnəbəl",
+      "morph": [
+        [
+          "Adjective",
+          "sustainable"
+        ],
+        [
+          "Noun",
+          "sustainability"
+        ],
+        [
+          "Verb",
+          "sustain"
+        ],
+        [
+          "Adverb",
+          "sustainably"
+        ]
+      ]
     },
     {
       "id": "v-0310",
@@ -2539,16 +5123,44 @@
       },
       "examples": [
         {
-          "text": "The syllabus lists all the readings for each week.",
-          "fa": "سرفصل درس همه‌ی منابع هر هفته را فهرست کرده است."
+          "tense": "past",
+          "text": "The syllabus changed after the first week.",
+          "fa": "سرفصل درس بعد از هفته‌ی اول تغییر کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «changed»."
         },
         {
-          "text": "Check the syllabus to see when the exam is.",
-          "fa": "سرفصل را نگاه کن تا ببینی امتحان کی است."
+          "tense": "present",
+          "text": "The syllabus lists all the readings for each week.",
+          "fa": "سرفصل درس همه‌ی منابع هر هفته را فهرست کرده است.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «lists»."
+        },
+        {
+          "tense": "future",
+          "text": "The teacher will give us the syllabus tomorrow.",
+          "fa": "معلم فردا سرفصل را به ما می‌دهد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will give»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈsɪləbəs"
+      "ipa": "ˈsɪləbəs",
+      "morph": [
+        [
+          "Singular",
+          "syllabus"
+        ],
+        [
+          "Plural",
+          "syllabuses / syllabi"
+        ],
+        [
+          "Related",
+          "curriculum"
+        ],
+        [
+          "Phrase",
+          "check the syllabus"
+        ]
+      ]
     },
     {
       "id": "v-0311",
@@ -2567,16 +5179,44 @@
       },
       "examples": [
         {
-          "text": "My thesis is about how people learn new vocabulary.",
-          "fa": "پایان‌نامه‌ام درباره‌ی این است که مردم چطور واژگان جدید یاد می‌گیرند."
+          "tense": "past",
+          "text": "I finished my thesis last summer.",
+          "fa": "تابستان پارسال پایان‌نامه‌ام را تمام کردم.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «finished»."
         },
         {
-          "text": "Every essay needs a clear thesis in the introduction.",
-          "fa": "هر مقاله در مقدمه به یک ادعای اصلی روشن نیاز دارد."
+          "tense": "present",
+          "text": "My thesis is about how people learn new vocabulary.",
+          "fa": "پایان‌نامه‌ام درباره‌ی این است که مردم چطور واژگان جدید یاد می‌گیرند.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is about»."
+        },
+        {
+          "tense": "future",
+          "text": "My thesis will be about vocabulary learning.",
+          "fa": "پایان‌نامه‌ام درباره‌ی یادگیری واژگان خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be about»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈθisəs"
+      "ipa": "ˈθisəs",
+      "morph": [
+        [
+          "Singular",
+          "thesis"
+        ],
+        [
+          "Plural",
+          "theses"
+        ],
+        [
+          "Related",
+          "dissertation"
+        ],
+        [
+          "Phrase",
+          "thesis statement"
+        ]
+      ]
     },
     {
       "id": "v-0312",
@@ -2595,16 +5235,44 @@
       },
       "examples": [
         {
-          "text": "The threshold for passing the exam is sixty percent.",
-          "fa": "حد نصاب قبولی در امتحان شصت درصد است."
+          "tense": "past",
+          "text": "She crossed the threshold of the room slowly.",
+          "fa": "او آهسته از آستانه‌ی اتاق گذشت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «crossed»."
         },
         {
-          "text": "Her pain threshold is much higher than mine.",
-          "fa": "آستانه‌ی تحمل درد او خیلی از من بالاتر است."
+          "tense": "present",
+          "text": "The threshold for passing the exam is sixty percent.",
+          "fa": "حد نصاب قبولی در امتحان شصت درصد است.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is sixty percent»."
+        },
+        {
+          "tense": "future",
+          "text": "The threshold will rise next year.",
+          "fa": "حد نصاب سال آینده بالا می‌رود.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will rise»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈθɹɛʃˌhoʊld"
+      "ipa": "ˈθɹɛʃˌhoʊld",
+      "morph": [
+        [
+          "Singular",
+          "threshold"
+        ],
+        [
+          "Plural",
+          "thresholds"
+        ],
+        [
+          "Phrase",
+          "pain threshold"
+        ],
+        [
+          "Original meaning",
+          "the doorstep"
+        ]
+      ]
     },
     {
       "id": "v-0313",
@@ -2623,16 +5291,44 @@
       },
       "examples": [
         {
-          "text": "Patience is her best personality trait.",
-          "fa": "صبر بهترین ویژگی شخصیتی اوست."
+          "tense": "past",
+          "text": "Curiosity was his best trait as a child.",
+          "fa": "کنجکاوی بهترین ویژگی او در کودکی بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was his best trait»."
         },
         {
+          "tense": "present",
           "text": "Curiosity is a trait that many scientists share.",
-          "fa": "کنجکاوی ویژگی‌ای است که بسیاری از دانشمندان مشترک دارند."
+          "fa": "کنجکاوی ویژگی‌ای است که بسیاری از دانشمندان مشترک دارند.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «is a trait»."
+        },
+        {
+          "tense": "future",
+          "text": "This trait will help you in the interview.",
+          "fa": "این ویژگی در مصاحبه به تو کمک می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will help»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈtɹeɪt"
+      "ipa": "ˈtɹeɪt",
+      "morph": [
+        [
+          "Singular",
+          "trait"
+        ],
+        [
+          "Plural",
+          "traits"
+        ],
+        [
+          "Phrase",
+          "personality trait"
+        ],
+        [
+          "Related",
+          "characteristic"
+        ]
+      ]
     },
     {
       "id": "v-0314",
@@ -2650,16 +5346,44 @@
       },
       "examples": [
         {
-          "text": "People are asking for more transparency in the budget.",
-          "fa": "مردم شفافیت بیشتری در بودجه می‌خواهند."
+          "tense": "past",
+          "text": "The council promised transparency last year.",
+          "fa": "شورا پارسال قول شفافیت داد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. در جمله: «promised»."
         },
         {
-          "text": "The company promised full transparency about its prices.",
-          "fa": "شرکت قول شفافیت کامل درباره‌ی قیمت‌هایش داد."
+          "tense": "present",
+          "text": "People are asking for more transparency in the budget.",
+          "fa": "مردم شفافیت بیشتری در بودجه می‌خواهند.",
+          "grammar": "حال استمراری (Present continuous): am / is / are + فعلِ -ing؛ برای کاری که همین الان یا این روزها در جریان است. در جمله: «are asking»."
+        },
+        {
+          "tense": "future",
+          "text": "Transparency will build trust over time.",
+          "fa": "شفافیت با گذشت زمان اعتماد می‌سازد.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will build»."
         }
       ],
       "register": "formal",
-      "ipa": "tɹænˈspɛɹənsi"
+      "ipa": "tɹænˈspɛɹənsi",
+      "morph": [
+        [
+          "Noun",
+          "transparency"
+        ],
+        [
+          "Adjective",
+          "transparent"
+        ],
+        [
+          "Adverb",
+          "transparently"
+        ],
+        [
+          "Opposite",
+          "secrecy"
+        ]
+      ]
     },
     {
       "id": "v-0315",
@@ -2680,16 +5404,48 @@
       },
       "examples": [
         {
-          "text": "Constant criticism can undermine your confidence.",
-          "fa": "انتقاد مداوم می‌تواند اعتمادبه‌نفس تو را تضعیف کند."
+          "tense": "past",
+          "text": "The scandal undermined people's trust in the company.",
+          "fa": "رسوایی اعتماد مردم به شرکت را تضعیف کرد.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «undermine» می‌شود «undermined»."
         },
         {
-          "text": "The scandal undermined people's trust in the company.",
-          "fa": "رسوایی اعتماد مردم به شرکت را تضعیف کرد."
+          "tense": "present",
+          "text": "Rumours undermine trust in a team.",
+          "fa": "شایعه‌ها اعتماد به یک تیم را تضعیف می‌کنند.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («undermines»). در جمله: «undermine»."
+        },
+        {
+          "tense": "future",
+          "text": "This mistake will undermine our credibility.",
+          "fa": "این اشتباه اعتبار ما را تضعیف می‌کند.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «will undermine»."
         }
       ],
       "register": "formal",
-      "ipa": "ˌʌndɚˈmaɪn"
+      "ipa": "ˌʌndɚˈmaɪn",
+      "morph": [
+        [
+          "Base",
+          "undermine"
+        ],
+        [
+          "He / she / it",
+          "undermines"
+        ],
+        [
+          "Past",
+          "undermined"
+        ],
+        [
+          "Past participle",
+          "undermined"
+        ],
+        [
+          "-ing form",
+          "undermining"
+        ]
+      ]
     },
     {
       "id": "v-0316",
@@ -2711,16 +5467,48 @@
       },
       "examples": [
         {
-          "text": "The company utilizes solar energy to power its offices.",
-          "fa": "شرکت از انرژی خورشیدی برای تأمین برق دفترهایش بهره می‌گیرد."
+          "tense": "past",
+          "text": "The team utilized free tools for the project.",
+          "fa": "تیم برای پروژه از ابزارهای رایگان بهره گرفت.",
+          "grammar": "گذشته‌ی ساده (Past simple): برای کاری که در گذشته انجام شده و تمام شده است. گذشته‌ی «utilize» می‌شود «utilized»."
         },
         {
-          "text": "Students should utilize the library resources more.",
-          "fa": "دانشجوها باید بیشتر از منابع کتابخانه استفاده کنند."
+          "tense": "present",
+          "text": "The company utilizes solar energy to power its offices.",
+          "fa": "شرکت از انرژی خورشیدی برای تأمین برق دفترهایش بهره می‌گیرد.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد («utilizes»). در جمله: «utilizes»."
+        },
+        {
+          "tense": "future",
+          "text": "We'll utilize the library resources more next term.",
+          "fa": "ترم آینده بیشتر از منابع کتابخانه استفاده می‌کنیم.",
+          "grammar": "آینده با will: will + شکل ساده‌ی فعل (برای همه‌ی فاعل‌ها یکی است)؛ برای تصمیم لحظه‌ای، قول و پیش‌بینی. شکل کوتاه: I'll، you'll… در جمله: «We'll utilize»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈjutəˌlaɪz"
+      "ipa": "ˈjutəˌlaɪz",
+      "morph": [
+        [
+          "Base",
+          "utilize"
+        ],
+        [
+          "He / she / it",
+          "utilizes"
+        ],
+        [
+          "Past",
+          "utilized"
+        ],
+        [
+          "Past participle",
+          "utilized"
+        ],
+        [
+          "-ing form",
+          "utilizing"
+        ]
+      ]
     },
     {
       "id": "v-0317",
@@ -2738,16 +5526,44 @@
       },
       "examples": [
         {
-          "text": "That's a valid point, and I hadn't thought of it.",
-          "fa": "نکته‌ی موجهی است و به آن فکر نکرده بودم."
+          "tense": "past",
+          "text": "His ticket was not valid on that train.",
+          "fa": "بلیت او در آن قطار معتبر نبود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was not valid»."
         },
         {
-          "text": "Your passport must be valid for at least six months.",
-          "fa": "پاسپورتت باید دست‌کم شش ماه اعتبار داشته باشد."
+          "tense": "present",
+          "text": "That's a valid point, and I hadn't thought of it.",
+          "fa": "نکته‌ی موجهی است و به آن فکر نکرده بودم.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «That's a valid point»."
+        },
+        {
+          "tense": "future",
+          "text": "The visa will be valid for a year.",
+          "fa": "ویزا یک سال اعتبار دارد.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be valid»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈvælɪd"
+      "ipa": "ˈvælɪd",
+      "morph": [
+        [
+          "Adjective",
+          "valid"
+        ],
+        [
+          "Opposite",
+          "invalid"
+        ],
+        [
+          "Noun",
+          "validity"
+        ],
+        [
+          "Verb",
+          "validate"
+        ]
+      ]
     },
     {
       "id": "v-0318",
@@ -2766,16 +5582,44 @@
       },
       "examples": [
         {
+          "tense": "past",
           "text": "His answer was too vague to be useful.",
-          "fa": "جوابش آن‌قدر مبهم بود که به کار نمی‌آمد."
+          "fa": "جوابش آن‌قدر مبهم بود که به کار نمی‌آمد.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was too vague»."
         },
         {
+          "tense": "present",
           "text": "I only have a vague memory of that day.",
-          "fa": "فقط خاطره‌ی مبهمی از آن روز دارم."
+          "fa": "فقط خاطره‌ی مبهمی از آن روز دارم.",
+          "grammar": "حال ساده (Present simple): برای عادت، واقعیت و کارهای تکراری. با he / she / it فعل -s می‌گیرد. در جمله: «only have a vague memory»."
+        },
+        {
+          "tense": "future",
+          "text": "The instructions will be too vague for beginners.",
+          "fa": "دستورالعمل برای مبتدی‌ها بیش‌ازحد مبهم خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be too vague»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈveɪɡ"
+      "ipa": "ˈveɪɡ",
+      "morph": [
+        [
+          "Adjective",
+          "vague"
+        ],
+        [
+          "Adverb",
+          "vaguely"
+        ],
+        [
+          "Noun",
+          "vagueness"
+        ],
+        [
+          "Opposite",
+          "clear"
+        ]
+      ]
     },
     {
       "id": "v-0319",
@@ -2793,16 +5637,44 @@
       },
       "examples": [
         {
-          "text": "Is this plan financially viable for a small company?",
-          "fa": "آیا این طرح از نظر مالی برای یک شرکت کوچک عملی است؟"
+          "tense": "past",
+          "text": "The plan was not viable last year.",
+          "fa": "طرح پارسال عملی نبود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was not viable»."
         },
         {
-          "text": "We need to find a more viable option.",
-          "fa": "باید گزینه‌ی عملی‌تری پیدا کنیم."
+          "tense": "present",
+          "text": "Is this plan financially viable for a small company?",
+          "fa": "آیا این طرح از نظر مالی برای یک شرکت کوچک عملی است؟",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «Is this plan financially viable»."
+        },
+        {
+          "tense": "future",
+          "text": "This option will be viable next year.",
+          "fa": "این گزینه سال آینده عملی خواهد بود.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be viable»."
         }
       ],
       "register": "formal",
-      "ipa": "ˈvaɪəbəl"
+      "ipa": "ˈvaɪəbəl",
+      "morph": [
+        [
+          "Adjective",
+          "viable"
+        ],
+        [
+          "Opposite",
+          "unviable"
+        ],
+        [
+          "Noun",
+          "viability"
+        ],
+        [
+          "Related",
+          "feasible"
+        ]
+      ]
     },
     {
       "id": "v-0320",
@@ -2820,16 +5692,45 @@
       },
       "examples": [
         {
-          "text": "There is widespread concern about the rise in prices.",
-          "fa": "نگرانی گسترده‌ای درباره‌ی افزایش قیمت‌ها وجود دارد."
+          "tense": "past",
+          "text": "Concern about prices was widespread last year.",
+          "fa": "نگرانی درباره‌ی قیمت‌ها پارسال گسترده بود.",
+          "grammar": "گذشته‌ی ساده‌ی be: برای I / he / she / it از «was» و برای we / you / they از «were» استفاده می‌شود، بعدش صفت یا اسم. در جمله: «was widespread»."
         },
         {
+          "tense": "present",
           "text": "Smartphones are now in widespread use.",
-          "fa": "گوشی‌های هوشمند حالا به‌طور گسترده استفاده می‌شوند."
+          "fa": "گوشی‌های هوشمند حالا به‌طور گسترده استفاده می‌شوند.",
+          "grammar": "حال ساده‌ی be: am / is / are + صفت یا اسم؛ برای حالت و وضعیت فعلی. در جمله: «are now in widespread use»."
+        },
+        {
+          "tense": "future",
+          "text": "The use of AI will be widespread soon.",
+          "fa": "استفاده از هوش مصنوعی به‌زودی گسترده خواهد شد.",
+          "grammar": "آینده‌ی be: will be + صفت یا اسم؛ برای حالتی که در آینده پیش می‌آید. در جمله: «will be widespread»."
         }
       ],
       "register": "neutral",
-      "ipa": "ˈwaɪdˌspɹɛd"
+      "ipa": "ˈwaɪdˌspɹɛd",
+      "morph": [
+        [
+          "Adjective",
+          "widespread"
+        ],
+        [
+          "Adverb",
+          "widely"
+        ],
+        [
+          "Noun",
+          "spread"
+        ],
+        [
+          "Opposite",
+          "rare / limited"
+        ]
+      ]
     }
-  ]
+  ],
+  "format": 2
 }

@@ -126,6 +126,14 @@ try {
   const uniOk = uniIds.startsWith('v-0221,') && uniIds.split(',').length === 10 && (await b.evaluate(`${vocabState}.settings.vocabTrack`)) === 'university';
   if (!uniOk) failed++;
   console.log(`${uniOk ? '✓' : '✗'} University section gives its own 10 words (${uniIds.slice(0, 15)}…)`);
+  // A format-2 word shows its word forms and one example per tense, each with a Farsi grammar note.
+  await b.click('Go through them one by one instead');
+  const tenses = await b.evaluate(`[...document.querySelectorAll('.card.vocab .tense-tag')].map((x) => x.textContent.split(' ')[0]).join()`);
+  const grammarCount = await b.evaluate(`document.querySelectorAll('.card.vocab .grammar').length`);
+  const formsOk = (await b.evaluate(`document.querySelectorAll('.card.vocab .forms dt').length`)) >= 2;
+  const tenseOk = tenses === 'Past,Present,Future' && grammarCount === 3 && formsOk;
+  if (!tenseOk) failed++;
+  console.log(`${tenseOk ? '✓' : '✗'} a University word shows word forms and a past, present and future example with grammar notes (${tenses}; ${grammarCount} notes)`);
   await b.click('Everyday · 210 new');
   await check('index.html?uni3#/words', 'words', 'Today: 10 of 10 words done', noPack);
   await check('index.html#/words/list', 'words/list', 'All words', noPack);
