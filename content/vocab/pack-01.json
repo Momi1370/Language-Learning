@@ -2589,6 +2589,861 @@
       ],
       "register": "informal",
       "ipa": "ˈbɑðɚ"
+    },
+    {
+      "id": "v-0091",
+      "word": "detail",
+      "pos": "noun",
+      "forms": [
+        "detail",
+        "details",
+        "detailed"
+      ],
+      "stress": [
+        "dih-TALE"
+      ],
+      "fa": {
+        "meaning": "جزئیات؛ ریزه‌کاری",
+        "note": "detail اسم قابل‌شمارش است: the details = «جزئیات». in detail = «با جزئیات». «Please send me the details» در ایمیل کاری خیلی رایج است. استرس روی هجای دوم است."
+      },
+      "examples": [
+        {
+          "text": "Could you send me the details by email?",
+          "fa": "می‌توانید جزئیات را برایم ایمیل کنید؟"
+        },
+        {
+          "text": "She explained the plan in great detail.",
+          "fa": "او برنامه را با جزئیات بسیار توضیح داد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "dɪˈteɪl"
+    },
+    {
+      "id": "v-0092",
+      "word": "benefit",
+      "pos": "noun",
+      "forms": [
+        "benefit",
+        "benefits",
+        "benefited",
+        "benefiting"
+      ],
+      "stress": [
+        "BEN-uh-fit"
+      ],
+      "fa": {
+        "meaning": "مزیت؛ فایده؛ مزایا",
+        "note": "benefit یعنی سود یا مزیت: health benefits. benefits (جمع) در کار یعنی «مزایا (بیمه، مرخصی)». فعل: benefit from = «بهره بردن از». «the benefit of the doubt» = «حسن ظن»."
+      },
+      "examples": [
+        {
+          "text": "One big benefit of this job is flexible hours.",
+          "fa": "یکی از مزیت‌های بزرگ این کار ساعت‌های منعطف است."
+        },
+        {
+          "text": "Students can benefit a lot from group study.",
+          "fa": "دانشجوها می‌توانند از مطالعه‌ی گروهی خیلی بهره ببرند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈbɛnəfɪt"
+    },
+    {
+      "id": "v-0093",
+      "word": "hang",
+      "pos": "verb",
+      "forms": [
+        "hang",
+        "hangs",
+        "hung",
+        "hanging"
+      ],
+      "stress": [
+        "HANG"
+      ],
+      "fa": {
+        "meaning": "آویزان کردن؛ آویزان بودن",
+        "note": "hang out = «وقت گذراندن با دوستان» (غیررسمی). hang up = «تلفن را قطع کردن». hang on = «یک لحظه صبر کن». گذشته: hung (برای اعدام hanged)."
+      },
+      "examples": [
+        {
+          "text": "We usually hang out at the café after class.",
+          "fa": "معمولاً بعد از کلاس در کافه وقت می‌گذرانیم."
+        },
+        {
+          "text": "Please don't hang up, I'm transferring your call.",
+          "fa": "لطفاً قطع نکنید، دارم تماس شما را وصل می‌کنم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈhæŋ"
+    },
+    {
+      "id": "v-0094",
+      "word": "instead",
+      "pos": "adverb",
+      "forms": [
+        "instead"
+      ],
+      "stress": [
+        "in-STED"
+      ],
+      "fa": {
+        "meaning": "به‌جای آن؛ در عوض",
+        "note": "instead (اول یا آخر جمله) = «به‌جای آن»: «I took the bus instead». instead of + اسم یا فعل با -ing = «به‌جای»: instead of driving."
+      },
+      "examples": [
+        {
+          "text": "The gym was closed, so we went for a walk instead.",
+          "fa": "باشگاه بسته بود، برای همین به‌جایش رفتیم قدم بزنیم."
+        },
+        {
+          "text": "Why don't you take the train instead of driving?",
+          "fa": "چرا به‌جای رانندگی با قطار نمی‌روی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɪnˈstɛd"
+    },
+    {
+      "id": "v-0095",
+      "word": "tend",
+      "pos": "verb",
+      "forms": [
+        "tend",
+        "tends",
+        "tended",
+        "tending"
+      ],
+      "stress": [
+        "TEND"
+      ],
+      "fa": {
+        "meaning": "تمایل داشتن؛ معمولاً … کردن",
+        "note": "tend to + فعل = «معمولاً … می‌کند، گرایش دارد»: «I tend to wake up early». برای عادت‌ها و روندها، نه یک بار. بعدش مصدر با to می‌آید، نه -ing."
+      },
+      "examples": [
+        {
+          "text": "I tend to forget names when I am nervous.",
+          "fa": "وقتی استرس دارم تمایل دارم اسم‌ها را فراموش کنم."
+        },
+        {
+          "text": "Prices tend to go up before the holidays.",
+          "fa": "قیمت‌ها معمولاً قبل از تعطیلات بالا می‌روند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtɛnd"
+    },
+    {
+      "id": "v-0096",
+      "word": "fairly",
+      "pos": "adverb",
+      "forms": [
+        "fairly"
+      ],
+      "stress": [
+        "FAIR-lee"
+      ],
+      "fa": {
+        "meaning": "نسبتاً؛ تا حدی",
+        "note": "fairly یعنی «نسبتاً» و از very ملایم‌تر است: fairly easy، fairly close. معمولاً با چیزهای مثبت یا خنثی می‌آید. از pretty کمی رسمی‌تر است."
+      },
+      "examples": [
+        {
+          "text": "The exam was fairly easy, but I ran out of time.",
+          "fa": "امتحان نسبتاً آسان بود، ولی وقتم کم آمد."
+        },
+        {
+          "text": "The flat is fairly close to the city centre.",
+          "fa": "آپارتمان نسبتاً نزدیک مرکز شهر است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈfɛɹli"
+    },
+    {
+      "id": "v-0097",
+      "word": "push",
+      "pos": "verb",
+      "forms": [
+        "push",
+        "pushes",
+        "pushed",
+        "pushing"
+      ],
+      "stress": [
+        "PUSH"
+      ],
+      "fa": {
+        "meaning": "هل دادن؛ فشار آوردن؛ عقب انداختن",
+        "note": "push = هل دادن (مقابل pull). push back = «به تعویق انداختن»: «Can we push the meeting back?». push someone to do something = «کسی را وادار کردن». اسم هم هست: push notification."
+      },
+      "examples": [
+        {
+          "text": "Can we push the meeting back to Thursday?",
+          "fa": "می‌شود جلسه را به پنج‌شنبه موکول کنیم؟"
+        },
+        {
+          "text": "My teacher always pushed us to study harder.",
+          "fa": "معلمم همیشه ما را به درس خواندن بیشتر وادار می‌کرد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈpʊʃ"
+    },
+    {
+      "id": "v-0098",
+      "word": "accept",
+      "pos": "verb",
+      "forms": [
+        "accept",
+        "accepts",
+        "accepted",
+        "accepting"
+      ],
+      "stress": [
+        "ak-SEPT"
+      ],
+      "fa": {
+        "meaning": "پذیرفتن؛ قبول کردن",
+        "note": "accept یعنی قبول کردن (دعوت، پیشنهاد، حقیقت): accept an offer. با agree فرق دارد: agree یعنی با نظر کسی موافق بودن. شکلش شبیه except («به‌جز») است ولی تلفظ و معنی‌اش فرق دارد."
+      },
+      "examples": [
+        {
+          "text": "I'm happy to accept the job offer.",
+          "fa": "خوشحالم که پیشنهاد کار را قبول می‌کنم."
+        },
+        {
+          "text": "They don't accept cash, only cards.",
+          "fa": "پول نقد قبول نمی‌کنند، فقط کارت."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ækˈsɛpt"
+    },
+    {
+      "id": "v-0099",
+      "word": "specific",
+      "pos": "adjective",
+      "forms": [
+        "specific"
+      ],
+      "stress": [
+        "spuh-SIF-ik"
+      ],
+      "fa": {
+        "meaning": "مشخص؛ دقیق؛ خاص",
+        "note": "specific یعنی دقیق و مشخص، نه کلی: a specific question. be specific = «دقیق بگو». مقابلش general است."
+      },
+      "examples": [
+        {
+          "text": "Can you be more specific about what went wrong?",
+          "fa": "می‌توانی دقیق‌تر بگویی چه اشتباهی پیش آمد؟"
+        },
+        {
+          "text": "I have a specific question about the second task.",
+          "fa": "درباره‌ی تکلیف دوم یک سؤال مشخص دارم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "spəˈsɪfɪk"
+    },
+    {
+      "id": "v-0100",
+      "word": "degree",
+      "pos": "noun",
+      "forms": [
+        "degree",
+        "degrees"
+      ],
+      "stress": [
+        "dih-GREE"
+      ],
+      "fa": {
+        "meaning": "مدرک دانشگاهی؛ درجه؛ میزان",
+        "note": "degree سه کاربرد دارد: مدرک دانشگاهی (a master's degree)، درجه‌ی دما (twenty degrees) و میزان (to some degree = «تا حدی»). استرس روی هجای دوم است."
+      },
+      "examples": [
+        {
+          "text": "She has a degree in computer science.",
+          "fa": "او مدرک کامپیوتر دارد."
+        },
+        {
+          "text": "It's about twenty degrees outside today.",
+          "fa": "امروز بیرون حدود بیست درجه است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "dɪˈɡɹi"
+    },
+    {
+      "id": "v-0101",
+      "word": "produce",
+      "pos": "verb",
+      "forms": [
+        "produce",
+        "produces",
+        "produced",
+        "producing"
+      ],
+      "stress": [
+        "pruh-DOOS"
+      ],
+      "fa": {
+        "meaning": "تولید کردن؛ به بار آوردن",
+        "note": "فعل produce استرسش روی هجای دوم است: «The factory produces 500 cars a day». اسم produce (PROH-doos) یعنی «محصولات کشاورزی». اسم‌های مرتبط: product (محصول) و production (تولید)."
+      },
+      "examples": [
+        {
+          "text": "This factory produces about five hundred bikes a week.",
+          "fa": "این کارخانه هفته‌ای حدود پانصد دوچرخه تولید می‌کند."
+        },
+        {
+          "text": "The experiment didn't produce the results we expected.",
+          "fa": "آزمایش نتایجی را که انتظار داشتیم به بار نیاورد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "pɹəˈdus"
+    },
+    {
+      "id": "v-0102",
+      "word": "ahead",
+      "pos": "adverb",
+      "forms": [
+        "ahead"
+      ],
+      "stress": [
+        "uh-HED"
+      ],
+      "fa": {
+        "meaning": "جلوتر؛ پیشاپیش",
+        "note": "ahead یعنی جلو یا پیشاپیش: «Go ahead!» = «بفرما، شروع کن». ahead of time = «زودتر از موعد». ahead of schedule = «جلوتر از برنامه»."
+      },
+      "examples": [
+        {
+          "text": "Go ahead, I'll catch up with you later.",
+          "fa": "تو برو، من بعداً به تو می‌رسم."
+        },
+        {
+          "text": "We finished the project two days ahead of schedule.",
+          "fa": "پروژه را دو روز زودتر از برنامه تمام کردیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈhɛd"
+    },
+    {
+      "id": "v-0103",
+      "word": "fill",
+      "pos": "verb",
+      "forms": [
+        "fill",
+        "fills",
+        "filled",
+        "filling"
+      ],
+      "stress": [
+        "FILL"
+      ],
+      "fa": {
+        "meaning": "پر کردن",
+        "note": "fill in a form = «فرم را پر کردن» (آمریکایی fill out هم می‌گویند). fill up = «پر کردن (باک)». fill in for someone = «جای کسی کار کردن»."
+      },
+      "examples": [
+        {
+          "text": "Please fill in the form and sign at the bottom.",
+          "fa": "لطفاً فرم را پر کنید و پایین آن را امضا کنید."
+        },
+        {
+          "text": "I need to fill up the car before the trip.",
+          "fa": "قبل از سفر باید باک ماشین را پر کنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈfɪl"
+    },
+    {
+      "id": "v-0104",
+      "word": "aware",
+      "pos": "adjective",
+      "forms": [
+        "aware"
+      ],
+      "stress": [
+        "uh-WAIR"
+      ],
+      "fa": {
+        "meaning": "آگاه؛ مطلع",
+        "note": "be aware of / that = «آگاه بودن از»: «I'm aware of the problem». مقابلش unaware است. از know رسمی‌تر است و برای آگاهی از یک وضعیت می‌آید."
+      },
+      "examples": [
+        {
+          "text": "I wasn't aware that the deadline had changed.",
+          "fa": "از تغییر مهلت خبر نداشتم."
+        },
+        {
+          "text": "Are you aware of the new safety rules?",
+          "fa": "از قوانین ایمنی جدید خبر داری؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈwɛɹ"
+    },
+    {
+      "id": "v-0105",
+      "word": "single",
+      "pos": "adjective",
+      "forms": [
+        "single"
+      ],
+      "stress": [
+        "SING-gul"
+      ],
+      "fa": {
+        "meaning": "تک؛ یکی؛ مجرد",
+        "note": "single یعنی فقط یک: a single room (اتاق یک‌نفره)، not a single person. «Are you single?» = «مجردی؟». every single day = «هر روزِ روز»."
+      },
+      "examples": [
+        {
+          "text": "I haven't had a single day off this month.",
+          "fa": "این ماه حتی یک روز مرخصی نداشته‌ام."
+        },
+        {
+          "text": "We booked a single room for one night.",
+          "fa": "یک اتاق یک‌نفره برای یک شب رزرو کردیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈsɪŋɡəl"
+    },
+    {
+      "id": "v-0106",
+      "word": "effort",
+      "pos": "noun",
+      "forms": [
+        "effort",
+        "efforts"
+      ],
+      "stress": [
+        "EF-ert"
+      ],
+      "fa": {
+        "meaning": "تلاش؛ کوشش؛ زحمت",
+        "note": "make an effort = «تلاش کردن»، «Thanks for your effort» = «ممنون از زحمتت». «It's worth the effort» = «ارزش زحمتش را دارد». فعل ندارد؛ فعلش try است."
+      },
+      "examples": [
+        {
+          "text": "Thanks for all your effort on this project.",
+          "fa": "ممنون از همه‌ی زحمتت روی این پروژه."
+        },
+        {
+          "text": "It takes a lot of effort to learn a language.",
+          "fa": "یادگیری یک زبان تلاش زیادی می‌خواهد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɛfɚt"
+    },
+    {
+      "id": "v-0107",
+      "word": "review",
+      "pos": "verb",
+      "forms": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ],
+      "stress": [
+        "ree-VYOO"
+      ],
+      "fa": {
+        "meaning": "مرور کردن؛ بازبینی کردن؛ نقد کردن",
+        "note": "review یعنی دوباره نگاه کردن و ارزیابی کردن: review your notes = «یادداشت‌هایت را مرور کن». اسم هم هست: an online review = «نظر کاربران درباره‌ی یک محصول»."
+      },
+      "examples": [
+        {
+          "text": "Could you review my draft before I send it?",
+          "fa": "می‌توانی پیش‌نویسم را قبل از ارسال بازبینی کنی؟"
+        },
+        {
+          "text": "I always review my notes the night before class.",
+          "fa": "همیشه شب قبل از کلاس یادداشت‌هایم را مرور می‌کنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɹiˈvju"
+    },
+    {
+      "id": "v-0108",
+      "word": "totally",
+      "pos": "adverb",
+      "forms": [
+        "totally"
+      ],
+      "stress": [
+        "TOH-tuh-lee"
+      ],
+      "fa": {
+        "meaning": "کاملاً؛ واقعاً (غیررسمی)",
+        "note": "totally یعنی «کاملاً»: «I totally agree». در گفتار جوان‌ها حتی به‌تنهایی می‌آید: «Totally!» = «کاملاً!». در نوشته‌ی رسمی completely بهتر است."
+      },
+      "examples": [
+        {
+          "text": "I totally forgot about our appointment, sorry.",
+          "fa": "کاملاً قرار ملاقاتمان یادم رفت، ببخشید."
+        },
+        {
+          "text": "That's totally fine, take your time.",
+          "fa": "کاملاً مشکلی نیست، عجله نکن."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈtoʊtəli"
+    },
+    {
+      "id": "v-0109",
+      "word": "therefore",
+      "pos": "adverb",
+      "forms": [
+        "therefore"
+      ],
+      "stress": [
+        "THAIR-for"
+      ],
+      "fa": {
+        "meaning": "بنابراین؛ پس",
+        "note": "therefore رسمی‌تر از so است و بیشتر در نوشته و ارائه می‌آید. معمولاً بعد از نقطه‌ویرگول یا ابتدای جمله می‌آید و بعدش ویرگول می‌گذارند. در گفتار روزمره so بگو."
+      },
+      "examples": [
+        {
+          "text": "The train was cancelled; therefore, we took a taxi.",
+          "fa": "قطار لغو شده بود؛ بنابراین تاکسی گرفتیم."
+        },
+        {
+          "text": "Prices rose sharply; therefore, fewer people bought tickets.",
+          "fa": "قیمت‌ها به‌شدت بالا رفت؛ بنابراین مردم کمتری بلیت خریدند."
+        }
+      ],
+      "register": "formal",
+      "ipa": "ˈðɛɹˌfɔɹ"
+    },
+    {
+      "id": "v-0110",
+      "word": "awful",
+      "pos": "adjective",
+      "forms": [
+        "awful"
+      ],
+      "stress": [
+        "AW-ful"
+      ],
+      "fa": {
+        "meaning": "افتضاح؛ خیلی بد",
+        "note": "awful یعنی بسیار بد: awful weather. «I feel awful» = «حالم خیلی بد است» یا «خیلی شرمنده‌ام». در گفتار awfully یعنی «خیلی» (awfully sorry)."
+      },
+      "examples": [
+        {
+          "text": "The weather was awful all week, so we stayed in.",
+          "fa": "هوا تمام هفته افتضاح بود، برای همین خانه ماندیم."
+        },
+        {
+          "text": "I feel awful about missing your birthday.",
+          "fa": "خیلی شرمنده‌ام که تولدت را از دست دادم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈɑfəl"
+    },
+    {
+      "id": "v-0111",
+      "word": "completely",
+      "pos": "adverb",
+      "forms": [
+        "completely"
+      ],
+      "stress": [
+        "kum-PLEET-lee"
+      ],
+      "fa": {
+        "meaning": "کاملاً؛ به‌طور کامل",
+        "note": "completely یعنی «به‌طور کامل»: «I completely agree». از totally بی‌طرف‌تر است و در نوشته هم مناسب است. با صفت‌هایی مثل impossible یا different خوب می‌نشیند."
+      },
+      "examples": [
+        {
+          "text": "I completely agree with what you just said.",
+          "fa": "من کاملاً با حرفی که همین الان زدی موافقم."
+        },
+        {
+          "text": "The road was completely blocked by the snow.",
+          "fa": "جاده کاملاً با برف بسته شده بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "kəmˈplitli"
+    },
+    {
+      "id": "v-0112",
+      "word": "affect",
+      "pos": "verb",
+      "forms": [
+        "affect",
+        "affects",
+        "affected",
+        "affecting"
+      ],
+      "stress": [
+        "uh-FEKT"
+      ],
+      "fa": {
+        "meaning": "تأثیر گذاشتن بر",
+        "note": "تله‌ی رایج: affect فعل است («تأثیر گذاشتن») و effect اسم («اثر»). «Sleep affects your mood». بعد از affect حرف اضافه نمی‌آید (نه affect on)."
+      },
+      "examples": [
+        {
+          "text": "Lack of sleep can affect your mood and focus.",
+          "fa": "کم‌خوابی می‌تواند روی خلق‌وخو و تمرکزت اثر بگذارد."
+        },
+        {
+          "text": "The strike will affect all flights tomorrow.",
+          "fa": "اعتصاب فردا همه‌ی پروازها را تحت تأثیر قرار می‌دهد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈfɛkt"
+    },
+    {
+      "id": "v-0113",
+      "word": "cheap",
+      "pos": "adjective",
+      "forms": [
+        "cheap",
+        "cheaper",
+        "cheapest"
+      ],
+      "stress": [
+        "CHEAP"
+      ],
+      "fa": {
+        "meaning": "ارزان؛ بی‌کیفیت",
+        "note": "cheap یعنی ارزان، ولی گاهی بار منفی دارد: «ارزانِ بی‌کیفیت». برای معنی مثبت inexpensive یا affordable بگو. مقابلش expensive است. «dirt cheap» = «خیلی ارزان»."
+      },
+      "examples": [
+        {
+          "text": "I found a cheap flight to Madrid for next month.",
+          "fa": "برای ماه بعد یک بلیت هواپیمای ارزان به مادرید پیدا کردم."
+        },
+        {
+          "text": "The jacket was cheap, but it fell apart quickly.",
+          "fa": "کت ارزان بود، ولی زود خراب شد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtʃip"
+    },
+    {
+      "id": "v-0114",
+      "word": "receive",
+      "pos": "verb",
+      "forms": [
+        "receive",
+        "receives",
+        "received",
+        "receiving"
+      ],
+      "stress": [
+        "ri-SEEV"
+      ],
+      "fa": {
+        "meaning": "دریافت کردن",
+        "note": "receive یعنی دریافت کردن (ایمیل، بسته، پیام): «Did you receive my email?». کمی رسمی‌تر از get است. املا: بعد از c، قاعده‌ی «e قبل از i»: receive. اسم مرتبط: receipt («رسید»)."
+      },
+      "examples": [
+        {
+          "text": "Did you receive my email about the schedule?",
+          "fa": "ایمیلم درباره‌ی برنامه را دریافت کردی؟"
+        },
+        {
+          "text": "We received your application and will reply soon.",
+          "fa": "درخواستتان را دریافت کردیم و به‌زودی پاسخ می‌دهیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɹəˈsiv"
+    },
+    {
+      "id": "v-0115",
+      "word": "require",
+      "pos": "verb",
+      "forms": [
+        "require",
+        "requires",
+        "required",
+        "requiring"
+      ],
+      "stress": [
+        "ri-KWY-er"
+      ],
+      "fa": {
+        "meaning": "لازم داشتن؛ ایجاب کردن؛ ملزم کردن",
+        "note": "require رسمی‌تر از need است: «This job requires a degree». مجهول: be required to = «ملزم بودن به». اسمش requirement است."
+      },
+      "examples": [
+        {
+          "text": "This job requires at least two years of experience.",
+          "fa": "این شغل دست‌کم دو سال سابقه لازم دارد."
+        },
+        {
+          "text": "Students are required to attend every lab session.",
+          "fa": "دانشجوها ملزم‌اند در همه‌ی جلسات آزمایشگاه شرکت کنند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɹiˈkwaɪɚ"
+    },
+    {
+      "id": "v-0116",
+      "word": "apply",
+      "pos": "verb",
+      "forms": [
+        "apply",
+        "applies",
+        "applied",
+        "applying"
+      ],
+      "stress": [
+        "uh-PLY"
+      ],
+      "fa": {
+        "meaning": "درخواست دادن؛ اعمال کردن؛ مربوط بودن",
+        "note": "apply for a job/visa = «برای شغل یا ویزا درخواست دادن» (با for). apply to a university = «به دانشگاه درخواست دادن». «This rule applies to…» = «این قانون شامل … می‌شود». اسم: application."
+      },
+      "examples": [
+        {
+          "text": "I'm going to apply for the job tomorrow.",
+          "fa": "فردا برای آن شغل درخواست می‌دهم."
+        },
+        {
+          "text": "This rule applies to all students, not just new ones.",
+          "fa": "این قانون برای همه‌ی دانشجوها صدق می‌کند، نه فقط تازه‌واردها."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈplaɪ"
+    },
+    {
+      "id": "v-0117",
+      "word": "various",
+      "pos": "adjective",
+      "forms": [
+        "various"
+      ],
+      "stress": [
+        "VAIR-ee-us"
+      ],
+      "fa": {
+        "meaning": "گوناگون؛ چند نوع",
+        "note": "various یعنی چند نوع مختلف: various options. بعدش اسم جمع می‌آید (various reasons)، نه مفرد. اسم مرتبط: variety."
+      },
+      "examples": [
+        {
+          "text": "There are various ways to solve this problem.",
+          "fa": "راه‌های گوناگونی برای حل این مشکل وجود دارد."
+        },
+        {
+          "text": "We tried various apps before choosing this one.",
+          "fa": "قبل از انتخاب این یکی اپلیکیشن‌های مختلفی را امتحان کردیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈvɛɹiəs"
+    },
+    {
+      "id": "v-0118",
+      "word": "bet",
+      "pos": "verb",
+      "forms": [
+        "bet",
+        "bets",
+        "betting"
+      ],
+      "stress": [
+        "BET"
+      ],
+      "fa": {
+        "meaning": "شرط بستن؛ مطمئن بودن (I bet)",
+        "note": "I bet … = «مطمئنم که …» (غیررسمی): «I bet you're tired». «You bet!» = «حتماً!». در معنی شرط‌بندی هم هست. گذشته‌اش هم bet است."
+      },
+      "examples": [
+        {
+          "text": "I bet you're tired after that long flight.",
+          "fa": "شرط می‌بندم بعد از آن پرواز طولانی خسته‌ای."
+        },
+        {
+          "text": "Do you want to bet on who finishes first?",
+          "fa": "می‌خواهی شرط ببندیم چه کسی اول تمام می‌کند؟"
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈbɛt"
+    },
+    {
+      "id": "v-0119",
+      "word": "normally",
+      "pos": "adverb",
+      "forms": [
+        "normally"
+      ],
+      "stress": [
+        "NOR-muh-lee"
+      ],
+      "fa": {
+        "meaning": "معمولاً؛ به‌طور عادی",
+        "note": "normally یعنی «معمولاً» (مثل usually): «I normally start at nine». همچنین «به‌طور عادی و درست»: «It's not working normally». جایش معمولاً قبل از فعل اصلی است."
+      },
+      "examples": [
+        {
+          "text": "I normally take the bus, but today I cycled.",
+          "fa": "معمولاً با اتوبوس می‌روم، ولی امروز دوچرخه سوار شدم."
+        },
+        {
+          "text": "My laptop isn't working normally since the update.",
+          "fa": "لپ‌تاپم از زمان به‌روزرسانی درست کار نمی‌کند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈnɔɹməli"
+    },
+    {
+      "id": "v-0120",
+      "word": "purpose",
+      "pos": "noun",
+      "forms": [
+        "purpose",
+        "purposes"
+      ],
+      "stress": [
+        "PUR-pus"
+      ],
+      "fa": {
+        "meaning": "هدف؛ منظور؛ دلیل",
+        "note": "purpose یعنی دلیل انجام کاری: «What's the purpose of this meeting?». on purpose = «عمداً». for this purpose = «برای این منظور». فعل ندارد."
+      },
+      "examples": [
+        {
+          "text": "What is the purpose of this meeting today?",
+          "fa": "هدف از این جلسه‌ی امروز چیست؟"
+        },
+        {
+          "text": "I didn't do it on purpose, I promise.",
+          "fa": "عمداً این کار را نکردم، قول می‌دهم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈpɝpəs"
     }
   ]
 }
