@@ -122,7 +122,7 @@ Credit line: Browne, C., Culligan, B. (2013). *The New General Service List – 
 - A vocabulary card has the id `v-NNNN`. `cardView()` gets a `vocabIndex` source and returns `{kind: 'vocab', lang: 'en', text: word, meaning: <Farsi meaning>, stress, fa, note}`.
 - **New card (first time in Cards):** same as other English cards: word, 🔊, IPA, examples, "Got it".
 - **Review card:** shows the Farsi meaning and the **first example with the word replaced by "____"**. The learner says the word, taps Show, sees the word, IPA, 🔊 and examples, then grades Again / Hard / Good / Easy.
-- **Review cap:** at most 10 vocabulary cards are shown per session (the position `week-session`), the ones that have waited longest; the rest stay due. The cap is a constant (`VOCAB_REVIEW_CAP = 10`).
+- **Review cap:** at most 10 vocabulary **reviews** (cards the learner has seen before) are shown per session and day (key `week-session-date`), the ones that have waited longest; the rest stay due. **A word's first appearance, and its repeats in the same visit, are never capped or counted**, so new words always show up (otherwise 5 new words a day would use all 10 slots). The cap is a constant (`VOCAB_REVIEW_CAP = 10`).
 
 ### Settings and Progress
 
@@ -140,7 +140,7 @@ Credit line: Browne, C., Culligan, B. (2013). *The New General Service List – 
 
 - `known`: word ids the learner skipped with **I know it**.
 - `day`: today's batch (ids), by calendar date.
-- `reviews`: count of vocabulary grades in the current position `week-session`, for the cap.
+- `reviews`: count of vocabulary review grades for the key `week-session-date` (the date keeps the cap working when the course position does not move), for the cap.
 - Vocabulary cards live in the existing `cards` object. Export / import carries everything already.
 
 ## 8. Code units
@@ -199,4 +199,5 @@ Each milestone ends with validator, tests and smoke passing, a fresh-reviewer pa
 | 2026-10-16 | `content/vocab/` is CC BY-SA 4.0 because of the NGSL word list; code stays MIT |
 | 2026-10-16 | Words in a list row: undecided words also get "I know it" next to "Teach me" (so the learner can jump ahead); learning words have no triage buttons |
 | 2026-10-16 | Packs marked `"draft": true` are skipped by the app and by the 100-word minimum while a pack is being written |
+| 2026-10-16 | Final review: the cap counts reviews only (first-time cards always show) and its key includes the date; both found by simulating 30 days of study with the real modules |
 | 2026-10-16 | A word may carry `"cmu": "lead(2)"` to pick a dictionary variant (the first CMU entry of "lead" is the metal, not the verb) |

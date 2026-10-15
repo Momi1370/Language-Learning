@@ -44,17 +44,21 @@ export function vocabCounts(state) {
   return { learning: Object.keys(state.cards).filter(isVocabId).length, known: state.vocab.known.length };
 }
 
-export const reviewKey = (position) => `${position.week}-${position.session}`;
+// The date is part of the key: when the course position does not move (a week not written yet,
+// or a finished course) the allowance must still start again each day.
+export const reviewKey = (position, now = new Date()) => `${position.week}-${position.session}-${localDate(now)}`;
 
 export function reviewsLeft(state, key) {
   const r = state.vocab.reviews;
   return Math.max(0, VOCAB_REVIEW_CAP - (r.key === key ? r.count : 0));
 }
 
-// Keeps at most the session's remaining allowance of vocabulary cards (oldest due first); other cards stay.
-export function capQueue(queue, state, key) {
+// Keeps at most the session's remaining allowance of vocabulary REVIEWS (oldest due first). Other cards
+// stay, and so do words shown for the first time and cards in `exempt` (a new word's repeat), so new
+// words are never pushed out by old reviews.
+export function capQueue(queue, state, key, exempt = new Set()) {
   let left = reviewsLeft(state, key);
-  return queue.filter((id) => !isVocabId(id) || left-- > 0);
+  return queue.filter((id) => !isVocabId(id) || exempt.has(id) || (state.cards[id]?.reps ?? 0) === 0 || left-- > 0);
 }
 
 export function countReview(state, key) {

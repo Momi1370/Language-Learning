@@ -20,7 +20,8 @@ export async function render(ctx, root) {
 
   if (Object.keys(ctx.state.cards).some((id) => isVocabId(id))) await ctx.getVocab();
 
-  const key = reviewKey(ctx.state.position);
+  const key = reviewKey(ctx.state.position, now);
+  const firstTime = new Set(); // vocabulary words first shown as new in this visit: never capped, never counted
   const queue = capQueue(dueQueue(ctx.state, now), ctx.state, key);
   const seen = {};
   const stage = h('div', {});
@@ -39,14 +40,15 @@ export async function render(ctx, root) {
       return;
     }
     seen[id] = (seen[id] ?? 0) + 1;
+    if (isVocabId(id) && ctx.state.cards[id].reps === 0) firstTime.add(id);
     mount(clear(stage), ctx.state.cards[id].reps === 0 ? newCard(id, view) : reviewCard(id, view));
   }
 
   function onGrade(id, g) {
     ctx.update((s) => grade(s, id, g, new Date()));
-    if (isVocabId(id)) {
+    if (isVocabId(id) && !firstTime.has(id)) {
       ctx.update((s) => countReview(s, key));
-      queue.splice(0, queue.length, ...capQueue(queue, ctx.state, key));
+      queue.splice(0, queue.length, ...capQueue(queue, ctx.state, key, firstTime));
     }
     if (shouldRepeat(ctx.state.cards[id], new Date(), seen[id])) queue.push(id);
     next();

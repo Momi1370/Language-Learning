@@ -92,14 +92,14 @@ test('counts show words learning and known', () => {
   assert.deepEqual(vocabCounts(s), { learning: 2, known: 1 });
 });
 
-test('at most 10 vocabulary cards are shown per session; other cards are untouched', () => {
-  const cards = {};
-  for (let n = 1; n <= 12; n++) cards[id(n)] = newCard(day1);
-  cards['nl-01-001'] = newCard(day1);
+const reviewCards = (n) => Object.fromEntries(Array.from({ length: n }, (_, i) => [id(i + 1), { ...newCard(day1), reps: 1 }]));
+
+test('at most 10 vocabulary reviews are shown per session; other cards are untouched', () => {
+  const cards = { ...reviewCards(12), 'nl-01-001': newCard(day1) };
   let s = { ...defaultState(), cards };
-  const queue = [...Object.keys(cards)];
-  const key = reviewKey({ week: 1, session: 2 });
-  assert.equal(key, '1-2');
+  const queue = Object.keys(cards);
+  const key = reviewKey({ week: 1, session: 2 }, day1);
+  assert.equal(key, '1-2-2026-10-16');
   const capped = capQueue(queue, s, key);
   assert.equal(capped.filter(isVocabId).length, VOCAB_REVIEW_CAP);
   assert.ok(capped.includes('nl-01-001'));
@@ -107,8 +107,36 @@ test('at most 10 vocabulary cards are shown per session; other cards are untouch
   for (let i = 0; i < 4; i++) s = countReview(s, key);
   assert.equal(reviewsLeft(s, key), 6);
   assert.equal(capQueue(queue, s, key).filter(isVocabId).length, 6);
-  assert.equal(reviewsLeft(s, '1-3'), 10, 'a new session starts with a full allowance');
+  assert.equal(reviewsLeft(s, reviewKey({ week: 1, session: 3 }, day1)), 10, 'a new session starts with a full allowance');
   assert.deepEqual(s.vocab.reviews, { key, count: 4 });
+});
+
+test('words shown for the first time are never capped, so new words always appear', () => {
+  const cards = Object.fromEntries(Array.from({ length: 15 }, (_, i) => [id(i + 1), newCard(day1)]));
+  const s = { ...defaultState(), cards };
+  const key = reviewKey({ week: 1, session: 1 }, day1);
+  assert.equal(capQueue(Object.keys(cards), s, key).length, 15);
+  const used = { ...s, vocab: { ...s.vocab, reviews: { key, count: 10 } } };
+  assert.equal(capQueue(Object.keys(cards), used, key).length, 15);
+});
+
+test('cards in the exempt set (a new word’s repeat in the same session) stay even when the allowance is used up', () => {
+  const s0 = { ...defaultState(), cards: reviewCards(3) };
+  const key = reviewKey({ week: 1, session: 1 }, day1);
+  const s = { ...s0, vocab: { ...s0.vocab, reviews: { key, count: 10 } } };
+  assert.deepEqual(capQueue(ids(1, 2, 3), s, key), []);
+  assert.deepEqual(capQueue(ids(1, 2, 3), s, key, new Set([id(2)])), ids(2));
+});
+
+test('the allowance starts again each day, even when the course position has not moved', () => {
+  const position = { week: 5, session: 1 };
+  const k1 = reviewKey(position, day1);
+  const k2 = reviewKey(position, day2);
+  assert.notEqual(k1, k2);
+  let s = defaultState();
+  for (let i = 0; i < 10; i++) s = countReview(s, k1);
+  assert.equal(reviewsLeft(s, k1), 0);
+  assert.equal(reviewsLeft(s, k2), 10);
 });
 
 test('cardView gives a vocabulary card in English with the Farsi meaning as its prompt', () => {

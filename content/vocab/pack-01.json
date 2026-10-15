@@ -153,7 +153,7 @@
       ],
       "fa": {
         "meaning": "نسبتاً؛ تقریباً؛ خیلی (غیررسمی)",
-        "note": "pretty قبل از صفت یا قید یعنی «نسبتاً، خیلی» (pretty good = «خوبِ خوب، بد نیست»)، نه «زیبا». شدتش از very کمی کمتر است. در مکالمه بسیار رایج است."
+        "note": "pretty قبل از صفت یا قید یعنی «نسبتاً، خیلی» (pretty good = «نسبتاً خوب، خوب»)، نه «زیبا». شدتش از very کمی کمتر است. در مکالمه بسیار رایج است."
       },
       "examples": [
         {
@@ -813,8 +813,8 @@
           "fa": "وقتی به ایستگاه رسیدم بهت زنگ می‌زنم."
         },
         {
-          "text": "My phone rang during the whole lecture today.",
-          "fa": "امروز در طول کل کلاس گوشی‌ام زنگ می‌خورد."
+          "text": "My phone rang in the middle of the lecture today.",
+          "fa": "امروز وسط کلاس گوشی‌ام زنگ خورد."
         }
       ],
       "register": "neutral",
@@ -865,7 +865,7 @@
       ],
       "fa": {
         "meaning": "نگران بودن؛ نگران کردن",
-        "note": "worry فعلی بدون مفعول است: «Don't worry» = «نگران نباش». با about می‌آید: I'm worried about … = «درباره‌ی … نگرانم». worry اسم هم هست («نگرانی»)."
+        "note": "در معنی «نگران بودن» مفعول نمی‌گیرد: «Don't worry» = «نگران نباش»؛ با about می‌آید: I'm worried about … = «درباره‌ی … نگرانم». در معنی «نگران کردن» مفعول می‌گیرد: «It worries me» = «نگرانم می‌کند». worry اسم هم هست («نگرانی»)."
       },
       "examples": [
         {
@@ -1681,8 +1681,8 @@
         "CHANCE"
       ],
       "fa": {
-        "meaning": "فرصت؛ احتمال؛ شانس",
-        "note": "chance هم «فرصت» است (give me a chance) و هم «احتمال» (a good chance of rain). by chance = «تصادفاً». «Is there any chance …?» پرسشی مؤدبانه است."
+        "meaning": "فرصت؛ احتمال",
+        "note": "chance هم «فرصت» است (give me a chance) و هم «احتمال» (a good chance of rain). by chance = «تصادفاً». «Is there any chance …?» پرسشی مؤدبانه است. مراقب باش: «شانس» در فارسی معمولاً luck است («شانس آوردم» = I was lucky)، نه chance."
       },
       "examples": [
         {
@@ -1859,7 +1859,7 @@
       ],
       "fa": {
         "meaning": "کارکنان؛ پرسنل",
-        "note": "staff اسمی جمع و غیرقابل‌شمارش است: «The staff are friendly» (در بریتانیایی فعل جمع). برای یک نفر: a staff member. نمی‌گوییم a staff و staffs."
+        "note": "staff اسم جمعی است و برای یک نفر به کار نمی‌رود: «a staff» به معنی «یک کارمند» غلط است؛ بگو a staff member یا a member of staff. در بریتانیا معمولاً فعل جمع می‌گیرد (The staff are friendly)، در آمریکا اغلب فعل مفرد (The staff is friendly)."
       },
       "examples": [
         {
@@ -2345,7 +2345,7 @@
       ],
       "fa": {
         "meaning": "مگر اینکه؛ اگر … نباشد",
-        "note": "unless یعنی if not: «I'll go unless it rains». بعد از unless فعل منفی نمی‌آید («unless it rains»، نه «unless it doesn't rain») و برای آینده هم زمان حال ساده می‌آید."
+        "note": "unless یعنی if not. چون «نه» در خودش هست، معمولاً فعل بعدش مثبت است: «I'll go unless it rains» (برای این معنی نگو «unless it doesn't rain»). برای آینده بعد از unless زمان حال ساده می‌آید."
       },
       "examples": [
         {
@@ -2599,11 +2599,11 @@
         "detailed"
       ],
       "stress": [
-        "dih-TALE"
+        "DEE-tale"
       ],
       "fa": {
         "meaning": "جزئیات؛ ریزه‌کاری",
-        "note": "detail اسم قابل‌شمارش است: the details = «جزئیات». in detail = «با جزئیات». «Please send me the details» در ایمیل کاری خیلی رایج است. استرس روی هجای دوم است."
+        "note": "detail اسم قابل‌شمارش است: the details = «جزئیات». in detail = «با جزئیات». «Please send me the details» در ایمیل کاری خیلی رایج است. تکیه معمولاً روی هجای اول است (DEE-tail)؛ در آمریکایی dih-TAIL هم شنیده می‌شود."
       },
       "examples": [
         {
@@ -2616,7 +2616,8 @@
         }
       ],
       "register": "neutral",
-      "ipa": "dɪˈteɪl"
+      "cmu": "detail(2)",
+      "ipa": "ˈditeɪl"
     },
     {
       "id": "v-0092",
@@ -2719,13 +2720,13 @@
         "TEND"
       ],
       "fa": {
-        "meaning": "تمایل داشتن؛ معمولاً … کردن",
+        "meaning": "معمولاً … کردن؛ گرایش داشتن",
         "note": "tend to + فعل = «معمولاً … می‌کند، گرایش دارد»: «I tend to wake up early». برای عادت‌ها و روندها، نه یک بار. بعدش مصدر با to می‌آید، نه -ing."
       },
       "examples": [
         {
-          "text": "I tend to forget names when I am nervous.",
-          "fa": "وقتی استرس دارم تمایل دارم اسم‌ها را فراموش کنم."
+          "text": "I tend to forget names when I'm nervous.",
+          "fa": "وقتی استرس دارم، معمولاً اسم‌ها یادم می‌رود."
         },
         {
           "text": "Prices tend to go up before the holidays.",
@@ -3409,7 +3410,7 @@
           "fa": "معمولاً با اتوبوس می‌روم، ولی امروز دوچرخه سوار شدم."
         },
         {
-          "text": "My laptop isn't working normally since the update.",
+          "text": "My laptop hasn't been working normally since the update.",
           "fa": "لپ‌تاپم از زمان به‌روزرسانی درست کار نمی‌کند."
         }
       ],
