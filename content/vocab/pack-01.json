@@ -1725,6 +1725,870 @@
       ],
       "register": "neutral",
       "ipa": "ˈstændɚd"
+    },
+    {
+      "id": "v-0061",
+      "word": "especially",
+      "pos": "adverb",
+      "forms": [
+        "especially"
+      ],
+      "stress": [
+        "ih-SPESH-lee"
+      ],
+      "fa": {
+        "meaning": "به‌ویژه؛ مخصوصاً",
+        "note": "especially یعنی «بیشتر از بقیه»: «I love summer, especially the evenings». با specially فرق دارد: specially یعنی «به‌طور خاص برای یک هدف» (made specially for you)."
+      },
+      "examples": [
+        {
+          "text": "I like most sports, especially in the summer.",
+          "fa": "من بیشتر ورزش‌ها را دوست دارم، به‌ویژه در تابستان."
+        },
+        {
+          "text": "Traffic is bad here, especially on Monday mornings.",
+          "fa": "ترافیک اینجا بد است، مخصوصاً صبح‌های دوشنبه."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈspɛʃli"
+    },
+    {
+      "id": "v-0062",
+      "word": "realize",
+      "pos": "verb",
+      "forms": [
+        "realize",
+        "realizes",
+        "realized",
+        "realizing",
+        "realise",
+        "realises",
+        "realised",
+        "realising"
+      ],
+      "stress": [
+        "REE-uh-lize"
+      ],
+      "fa": {
+        "meaning": "متوجه شدن؛ پی بردن",
+        "note": "realize یعنی ناگهان فهمیدن: «I just realized I forgot my keys». در انگلیسی بریتانیایی realise هم می‌نویسند. فرق با know: realize لحظه‌ی فهمیدن است، نه دانستنِ قبلی."
+      },
+      "examples": [
+        {
+          "text": "I just realized I left my wallet at home.",
+          "fa": "همین الان فهمیدم کیف پولم را خانه جا گذاشته‌ام."
+        },
+        {
+          "text": "She didn't realize how late it was.",
+          "fa": "او متوجه نشد چقدر دیر شده بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɹiəˌlaɪz"
+    },
+    {
+      "id": "v-0063",
+      "word": "lead",
+      "pos": "verb",
+      "forms": [
+        "lead",
+        "leads",
+        "led",
+        "leading"
+      ],
+      "stress": [
+        "LEED"
+      ],
+      "fa": {
+        "meaning": "رهبری کردن؛ هدایت کردن؛ منجر شدن به",
+        "note": "فعل lead تلفظ /liːd/ دارد و گذشته‌اش led /lɛd/ است. lead to = «منجر شدن به». اسم lead /lɛd/ «سرب» است و املای یکسانی دارد؛ از روی معنی تشخیص بده."
+      },
+      "examples": [
+        {
+          "text": "Can you lead the meeting while I'm away?",
+          "fa": "می‌توانی تا وقتی نیستم جلسه را اداره کنی؟"
+        },
+        {
+          "text": "Skipping breakfast can lead to bad habits later.",
+          "fa": "صبحانه نخوردن می‌تواند بعداً به عادت‌های بد منجر شود."
+        }
+      ],
+      "register": "neutral",
+      "cmu": "lead(2)",
+      "ipa": "ˈlid"
+    },
+    {
+      "id": "v-0064",
+      "word": "fit",
+      "pos": "verb",
+      "forms": [
+        "fit",
+        "fits",
+        "fitted",
+        "fitting"
+      ],
+      "stress": [
+        "FIT"
+      ],
+      "fa": {
+        "meaning": "اندازه بودن؛ جا شدن؛ جور بودن",
+        "note": "fit یعنی اندازه‌ی کسی یا جایی بودن: «These shoes don't fit». fit into my schedule = «در برنامه‌ام جا شدن». صفت fit هم هست («سالم و ورزیده»). گذشته: fit یا fitted."
+      },
+      "examples": [
+        {
+          "text": "These jeans don't fit me anymore.",
+          "fa": "این شلوار جین دیگر اندازه‌ی من نیست."
+        },
+        {
+          "text": "I'll try to fit the meeting into my schedule.",
+          "fa": "سعی می‌کنم این جلسه را در برنامه‌ام جا بدهم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈfɪt"
+    },
+    {
+      "id": "v-0065",
+      "word": "staff",
+      "pos": "noun",
+      "forms": [
+        "staff"
+      ],
+      "stress": [
+        "STAFF"
+      ],
+      "fa": {
+        "meaning": "کارکنان؛ پرسنل",
+        "note": "staff اسمی جمع و غیرقابل‌شمارش است: «The staff are friendly» (در بریتانیایی فعل جمع). برای یک نفر: a staff member. نمی‌گوییم a staff و staffs."
+      },
+      "examples": [
+        {
+          "text": "The staff at the library are always helpful.",
+          "fa": "کارکنان کتابخانه همیشه کمک‌کننده‌اند."
+        },
+        {
+          "text": "We're short of staff this week because of the flu.",
+          "fa": "این هفته به‌خاطر آنفلوآنزا کمبود نیرو داریم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈstæf"
+    },
+    {
+      "id": "v-0066",
+      "word": "control",
+      "pos": "noun",
+      "forms": [
+        "control",
+        "controls",
+        "controlled",
+        "controlling"
+      ],
+      "stress": [
+        "kun-TROHL"
+      ],
+      "fa": {
+        "meaning": "کنترل؛ اختیار",
+        "note": "under control = «تحت کنترل»، out of control = «از کنترل خارج»، in control = «مسئول». فعل هم هست: control costs. remote control = «کنترل تلویزیون»."
+      },
+      "examples": [
+        {
+          "text": "Don't worry, everything is under control.",
+          "fa": "نگران نباش، همه‌چیز تحت کنترل است."
+        },
+        {
+          "text": "I can't control how other people react.",
+          "fa": "نمی‌توانم واکنش دیگران را کنترل کنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "kənˈtɹoʊl"
+    },
+    {
+      "id": "v-0067",
+      "word": "definitely",
+      "pos": "adverb",
+      "forms": [
+        "definitely"
+      ],
+      "stress": [
+        "DEF-uh-nit-lee"
+      ],
+      "fa": {
+        "meaning": "قطعاً؛ حتماً",
+        "note": "definitely یعنی «بدون شک». املایش مشکل‌ساز است: de-fi-nite-ly (نه definately). «Definitely!» جواب تأکیدی است و «Definitely not» یعنی «اصلاً»."
+      },
+      "examples": [
+        {
+          "text": "I'll definitely be there on time tomorrow.",
+          "fa": "فردا حتماً سر وقت آنجا هستم."
+        },
+        {
+          "text": "Is it worth it? Definitely not.",
+          "fa": "ارزشش را دارد؟ اصلاً."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈdɛfənətli"
+    },
+    {
+      "id": "v-0068",
+      "word": "free",
+      "pos": "adjective",
+      "forms": [
+        "free"
+      ],
+      "stress": [
+        "FREE"
+      ],
+      "fa": {
+        "meaning": "رایگان؛ آزاد؛ بیکار (وقت داشتن)",
+        "note": "free سه معنی دارد: رایگان (free Wi-Fi)، آزاد (free to go)، و وقت داشتن (Are you free tonight?). free of charge = «بدون هزینه»."
+      },
+      "examples": [
+        {
+          "text": "Are you free for a quick call this afternoon?",
+          "fa": "امروز بعدازظهر برای یک تماس کوتاه وقت داری؟"
+        },
+        {
+          "text": "The café offers free Wi-Fi for all customers.",
+          "fa": "کافه برای همه‌ی مشتری‌ها وای‌فای رایگان دارد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈfɹi"
+    },
+    {
+      "id": "v-0069",
+      "word": "develop",
+      "pos": "verb",
+      "forms": [
+        "develop",
+        "develops",
+        "developed",
+        "developing"
+      ],
+      "stress": [
+        "dih-VEL-up"
+      ],
+      "fa": {
+        "meaning": "توسعه دادن؛ رشد کردن؛ ساختن",
+        "note": "develop هم با مفعول می‌آید (develop a skill، develop an app) و هم بدون مفعول (the situation develops). اسمش development است. استرس روی هجای دوم است."
+      },
+      "examples": [
+        {
+          "text": "I want to develop my speaking skills this year.",
+          "fa": "می‌خواهم امسال مهارت صحبت کردنم را تقویت کنم."
+        },
+        {
+          "text": "A small team is developing the new app.",
+          "fa": "یک تیم کوچک دارد اپلیکیشن جدید را توسعه می‌دهد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "dɪˈvɛləp"
+    },
+    {
+      "id": "v-0070",
+      "word": "opportunity",
+      "pos": "noun",
+      "forms": [
+        "opportunity",
+        "opportunities"
+      ],
+      "stress": [
+        "op-er-TOO-nuh-tee"
+      ],
+      "fa": {
+        "meaning": "فرصت",
+        "note": "opportunity یعنی فرصت مناسب برای انجام کاری: job opportunity. از chance رسمی‌تر و مثبت‌تر است. «take the opportunity to…» = «از فرصت استفاده کردن»."
+      },
+      "examples": [
+        {
+          "text": "This internship is a great opportunity to learn.",
+          "fa": "این کارآموزی فرصت عالی برای یادگیری است."
+        },
+        {
+          "text": "I'd like to take this opportunity to thank everyone.",
+          "fa": "می‌خواهم از این فرصت استفاده کنم و از همه تشکر کنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɑpɚˈtunəti"
+    },
+    {
+      "id": "v-0071",
+      "word": "bear",
+      "pos": "verb",
+      "forms": [
+        "bear",
+        "bears",
+        "bore",
+        "bearing",
+        "borne"
+      ],
+      "stress": [
+        "BARE"
+      ],
+      "fa": {
+        "meaning": "تحمل کردن؛ طاقت آوردن",
+        "note": "can't bear = «طاقت نداشتن». bear with me = «کمی تحمل کن / صبر کن» (مؤدبانه). گذشته: bore، اسم‌مفعول: borne. bear اسم هم هست («خرس»)."
+      },
+      "examples": [
+        {
+          "text": "I can't bear waiting in long queues.",
+          "fa": "طاقت ایستادن در صف‌های طولانی را ندارم."
+        },
+        {
+          "text": "Please bear with me while I find the file.",
+          "fa": "لطفاً کمی صبر کنید تا فایل را پیدا کنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈbɛɹ"
+    },
+    {
+      "id": "v-0072",
+      "word": "offer",
+      "pos": "verb",
+      "forms": [
+        "offer",
+        "offers",
+        "offered",
+        "offering"
+      ],
+      "stress": [
+        "OF-er"
+      ],
+      "fa": {
+        "meaning": "پیشنهاد دادن؛ تعارف کردن",
+        "note": "offer یعنی خودت چیزی یا کمکی را پیشنهاد بدهی: «She offered me a ride». ساختار: offer to + فعل («He offered to help»). فرق با suggest: offer یعنی خودت می‌دهی. اسم هم هست (پیشنهاد، تخفیف)."
+      },
+      "examples": [
+        {
+          "text": "He offered to drive me to the station.",
+          "fa": "او پیشنهاد کرد مرا تا ایستگاه برساند."
+        },
+        {
+          "text": "They offer a student discount on all tickets.",
+          "fa": "آن‌ها روی همه‌ی بلیت‌ها تخفیف دانشجویی می‌دهند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɔfɚ"
+    },
+    {
+      "id": "v-0073",
+      "word": "throw",
+      "pos": "verb",
+      "forms": [
+        "throw",
+        "throws",
+        "threw",
+        "thrown",
+        "throwing"
+      ],
+      "stress": [
+        "THROH"
+      ],
+      "fa": {
+        "meaning": "پرتاب کردن؛ انداختن",
+        "note": "throw away = «دور انداختن». throw a party = «مهمانی گرفتن». گذشته: threw، اسم‌مفعول: thrown. حرف اول th /θ/ است: زبان بین دندان‌ها."
+      },
+      "examples": [
+        {
+          "text": "Please don't throw plastic bottles in the regular bin.",
+          "fa": "لطفاً بطری پلاستیکی را توی سطل معمولی نینداز."
+        },
+        {
+          "text": "We're throwing a small party for her birthday.",
+          "fa": "داریم برای تولدش یک مهمانی کوچک می‌گیریم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈθɹoʊ"
+    },
+    {
+      "id": "v-0074",
+      "word": "major",
+      "pos": "adjective",
+      "forms": [
+        "major"
+      ],
+      "stress": [
+        "MAY-jer"
+      ],
+      "fa": {
+        "meaning": "مهم؛ بزرگ؛ اصلی",
+        "note": "major یعنی خیلی مهم یا بزرگ: a major problem. اسم هم هست: «My major is biology» (رشته‌ی اصلی دانشگاه، آمریکایی). مقابلش minor = «کوچک، جزئی»."
+      },
+      "examples": [
+        {
+          "text": "Traffic is a major problem in this city.",
+          "fa": "ترافیک مشکل بزرگی در این شهر است."
+        },
+        {
+          "text": "There were no major changes in the new version.",
+          "fa": "در نسخه‌ی جدید تغییر مهمی نبود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈmeɪdʒɚ"
+    },
+    {
+      "id": "v-0075",
+      "word": "charge",
+      "pos": "verb",
+      "forms": [
+        "charge",
+        "charges",
+        "charged",
+        "charging"
+      ],
+      "stress": [
+        "CHARJ"
+      ],
+      "fa": {
+        "meaning": "پول گرفتن؛ شارژ کردن",
+        "note": "charge a price = «مبلغی گرفتن»: «They charge 5 euros». charge a phone = «گوشی را شارژ کردن». اسم: free of charge = «بدون هزینه»، in charge of = «مسئول»."
+      },
+      "examples": [
+        {
+          "text": "The hotel charges extra for the parking spot.",
+          "fa": "هتل برای جای پارک پول اضافه می‌گیرد."
+        },
+        {
+          "text": "My phone needs charging, do you have a cable?",
+          "fa": "گوشی‌ام باید شارژ شود، کابل داری؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtʃɑɹdʒ"
+    },
+    {
+      "id": "v-0076",
+      "word": "individual",
+      "pos": "adjective",
+      "forms": [
+        "individual",
+        "individuals"
+      ],
+      "stress": [
+        "in-duh-VIJ-oo-ul"
+      ],
+      "fa": {
+        "meaning": "فردی؛ جداگانه",
+        "note": "individual صفت: individual rooms (اتاق‌های جدا)، an individual assignment (تکلیف فردی). اسم هم هست: an individual = «یک فرد». مقابل group (گروهی) است."
+      },
+      "examples": [
+        {
+          "text": "Each student gets an individual meeting with the tutor.",
+          "fa": "هر دانشجو یک جلسه‌ی فردی با استاد راهنما دارد."
+        },
+        {
+          "text": "Every individual case needs a different solution.",
+          "fa": "هر مورد جداگانه به راه‌حل متفاوتی نیاز دارد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɪndəˈvɪdʒəwəl"
+    },
+    {
+      "id": "v-0077",
+      "word": "load",
+      "pos": "noun",
+      "forms": [
+        "load",
+        "loads"
+      ],
+      "stress": [
+        "LOHD"
+      ],
+      "fa": {
+        "meaning": "بار؛ مقدار زیاد؛ یک دور (رخت)",
+        "note": "a load of / loads of = «کلی، مقدار زیادی» (غیررسمی): loads of work. a load of laundry = «یک دور ماشین لباسشویی». فعل هم هست: load the car."
+      },
+      "examples": [
+        {
+          "text": "I've got a load of work to finish tonight.",
+          "fa": "کلی کار دارم که باید امشب تمام کنم."
+        },
+        {
+          "text": "She put another load of laundry in the machine.",
+          "fa": "او یک دور دیگر رخت توی ماشین گذاشت."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈloʊd"
+    },
+    {
+      "id": "v-0078",
+      "word": "effect",
+      "pos": "noun",
+      "forms": [
+        "effect",
+        "effects"
+      ],
+      "stress": [
+        "ih-FEKT"
+      ],
+      "fa": {
+        "meaning": "اثر؛ تأثیر",
+        "note": "تله‌ی رایج: effect اسم است («اثر») و affect فعل («تأثیر گذاشتن»). have an effect on = «اثر داشتن بر». side effect = «عارضه‌ی جانبی»."
+      },
+      "examples": [
+        {
+          "text": "The new rule has had a big effect on students.",
+          "fa": "قانون جدید تأثیر زیادی روی دانشجوها گذاشته است."
+        },
+        {
+          "text": "This medicine can have a few side effects.",
+          "fa": "این دارو ممکن است چند عارضه‌ی جانبی داشته باشد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪˈfɛkt"
+    },
+    {
+      "id": "v-0079",
+      "word": "wish",
+      "pos": "verb",
+      "forms": [
+        "wish",
+        "wishes",
+        "wished",
+        "wishing"
+      ],
+      "stress": [
+        "WISH"
+      ],
+      "fa": {
+        "meaning": "آرزو کردن؛ ای کاش",
+        "note": "I wish + گذشته = «ای کاش … » برای چیزی غیرواقعی: «I wish I had more time». «I wish you luck» = «برایت آرزوی موفقیت می‌کنم». hope برای احتمال واقعی است، wish برای چیزی که واقعی نیست."
+      },
+      "examples": [
+        {
+          "text": "I wish I had more time to travel.",
+          "fa": "ای کاش وقت بیشتری برای سفر داشتم."
+        },
+        {
+          "text": "I wish you the best of luck tomorrow.",
+          "fa": "برایت فردا آرزوی موفقیت می‌کنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈwɪʃ"
+    },
+    {
+      "id": "v-0080",
+      "word": "worth",
+      "pos": "adjective",
+      "forms": [
+        "worth"
+      ],
+      "stress": [
+        "WURTH"
+      ],
+      "fa": {
+        "meaning": "ارزش داشتن",
+        "note": "worth it = «ارزشش را دارد». worth + مبلغ: «It's worth 50 euros». worth + فعل با -ing: «The film is worth watching»؛ نمی‌گوییم worth to watch."
+      },
+      "examples": [
+        {
+          "text": "That documentary is worth watching if you have time.",
+          "fa": "اگر وقت داری آن مستند ارزش دیدن دارد."
+        },
+        {
+          "text": "The tickets were expensive, but it was worth it.",
+          "fa": "بلیت‌ها گران بودند، ولی ارزشش را داشت."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈwɝθ"
+    },
+    {
+      "id": "v-0081",
+      "word": "brief",
+      "pos": "adjective",
+      "forms": [
+        "brief"
+      ],
+      "stress": [
+        "BREEF"
+      ],
+      "fa": {
+        "meaning": "کوتاه؛ مختصر",
+        "note": "brief یعنی کوتاه از نظر زمان یا متن: a brief meeting. in brief = «به‌طور خلاصه». از short رسمی‌تر است. فعل brief someone = «کسی را در جریان گذاشتن»."
+      },
+      "examples": [
+        {
+          "text": "Let's keep the meeting brief, we're all busy.",
+          "fa": "جلسه را کوتاه نگه داریم، همه‌مان سرمان شلوغ است."
+        },
+        {
+          "text": "She gave a brief summary of the results.",
+          "fa": "او خلاصه‌ی کوتاهی از نتایج داد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈbɹif"
+    },
+    {
+      "id": "v-0082",
+      "word": "unless",
+      "pos": "conjunction",
+      "forms": [
+        "unless"
+      ],
+      "stress": [
+        "un-LESS"
+      ],
+      "fa": {
+        "meaning": "مگر اینکه؛ اگر … نباشد",
+        "note": "unless یعنی if not: «I'll go unless it rains». بعد از unless فعل منفی نمی‌آید («unless it rains»، نه «unless it doesn't rain») و برای آینده هم زمان حال ساده می‌آید."
+      },
+      "examples": [
+        {
+          "text": "I'll be there at nine unless the train is late.",
+          "fa": "ساعت نه آنجا هستم مگر اینکه قطار دیر کند."
+        },
+        {
+          "text": "Don't call me unless it's really urgent.",
+          "fa": "زنگ نزن مگر اینکه واقعاً فوری باشد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ənˈlɛs"
+    },
+    {
+      "id": "v-0083",
+      "word": "trouble",
+      "pos": "noun",
+      "forms": [
+        "trouble",
+        "troubles"
+      ],
+      "stress": [
+        "TRUB-ul"
+      ],
+      "fa": {
+        "meaning": "دردسر؛ مشکل؛ زحمت",
+        "note": "be in trouble = «دردسر داشتن / گیر افتادن». have trouble + -ing = «در انجام کاری مشکل داشتن»: «I have trouble sleeping». «Sorry for the trouble» = «ببخشید بابت زحمت». معمولاً بدون a و بدون s می‌آید."
+      },
+      "examples": [
+        {
+          "text": "I'm having trouble logging in to my account.",
+          "fa": "در ورود به حساب کاربری‌ام مشکل دارم."
+        },
+        {
+          "text": "Sorry for the trouble, and thanks for your patience.",
+          "fa": "ببخشید بابت زحمت، و ممنون از صبرتان."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtɹʌbəl"
+    },
+    {
+      "id": "v-0084",
+      "word": "quality",
+      "pos": "noun",
+      "forms": [
+        "quality",
+        "qualities"
+      ],
+      "stress": [
+        "KWOL-uh-tee"
+      ],
+      "fa": {
+        "meaning": "کیفیت",
+        "note": "quality غیرقابل‌شمارش است: high quality / poor quality. «quality time» = «وقت باکیفیت (با خانواده و دوستان)». تلفظ: kw در ابتدا و استرس روی هجای اول."
+      },
+      "examples": [
+        {
+          "text": "The picture quality on this phone is amazing.",
+          "fa": "کیفیت عکس این گوشی عالی است."
+        },
+        {
+          "text": "I would pay more for good quality.",
+          "fa": "برای کیفیت خوب بیشتر پول می‌دهم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkwɑləti"
+    },
+    {
+      "id": "v-0085",
+      "word": "share",
+      "pos": "verb",
+      "forms": [
+        "share",
+        "shares",
+        "shared",
+        "sharing"
+      ],
+      "stress": [
+        "SHAIR"
+      ],
+      "fa": {
+        "meaning": "به اشتراک گذاشتن؛ تقسیم کردن",
+        "note": "share یعنی با دیگران قسمت کردن: share a room، share a file. در شبکه‌های اجتماعی: share a post. ساختار: share something with someone. اسم هم هست (سهم)."
+      },
+      "examples": [
+        {
+          "text": "Can you share the document with the whole team?",
+          "fa": "می‌توانی سند را با کل تیم به اشتراک بگذاری؟"
+        },
+        {
+          "text": "I share a flat with two other students.",
+          "fa": "من با دو دانشجوی دیگر یک آپارتمان را شریکی گرفته‌ام."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈʃɛɹ"
+    },
+    {
+      "id": "v-0086",
+      "word": "hit",
+      "pos": "verb",
+      "forms": [
+        "hit",
+        "hits",
+        "hitting"
+      ],
+      "stress": [
+        "HIT"
+      ],
+      "fa": {
+        "meaning": "زدن؛ برخورد کردن؛ رسیدن (به هدف)",
+        "note": "hit یعنی ضربه زدن یا به چیزی خوردن. hit a deadline = «به مهلت رسیدن»، hit send = «دکمه‌ی ارسال را زدن». گذشته و اسم‌مفعول هم hit است (بدون تغییر)."
+      },
+      "examples": [
+        {
+          "text": "I hit send before checking the attachment again.",
+          "fa": "پیش از بررسی دوباره‌ی پیوست، دکمه‌ی ارسال را زدم."
+        },
+        {
+          "text": "The team hit its sales target this quarter.",
+          "fa": "تیم در این فصل به هدف فروشش رسید."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈhɪt"
+    },
+    {
+      "id": "v-0087",
+      "word": "fair",
+      "pos": "adjective",
+      "forms": [
+        "fair"
+      ],
+      "stress": [
+        "FAIR"
+      ],
+      "fa": {
+        "meaning": "منصفانه؛ عادلانه",
+        "note": "fair یعنی عادلانه: «That's not fair!». «Fair enough» = «حرف حسابی است، قبول». a fair price = «قیمت منصفانه». تلفظش با fare (کرایه) یکی است."
+      },
+      "examples": [
+        {
+          "text": "That's fair, I didn't think about it that way.",
+          "fa": "حرف حسابی است، از این زاویه فکر نکرده بودم."
+        },
+        {
+          "text": "They offered me a fair price for the bike.",
+          "fa": "برای دوچرخه قیمت منصفانه‌ای به من پیشنهاد دادند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈfɛɹ"
+    },
+    {
+      "id": "v-0088",
+      "word": "cool",
+      "pos": "adjective",
+      "forms": [
+        "cool"
+      ],
+      "stress": [
+        "COOL"
+      ],
+      "fa": {
+        "meaning": "باحال؛ عالی؛ باشه؛ خنک",
+        "note": "در گفتار روزمره cool یعنی «باحال، خوب، باشه»: «That's cool!» یا «Cool, see you later». معنی اصلی‌اش «خنک» است (a cool breeze). غیررسمی است؛ در نوشته‌ی رسمی نیاور."
+      },
+      "examples": [
+        {
+          "text": "Your new apartment looks really cool.",
+          "fa": "آپارتمان جدیدت واقعاً باحال به نظر می‌رسد."
+        },
+        {
+          "text": "Cool, let's meet at the station at six.",
+          "fa": "باشه، ساعت شش ایستگاه همدیگر را ببینیم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈkul"
+    },
+    {
+      "id": "v-0089",
+      "word": "drop",
+      "pos": "verb",
+      "forms": [
+        "drop",
+        "drops",
+        "dropped",
+        "dropping"
+      ],
+      "stress": [
+        "DROP"
+      ],
+      "fa": {
+        "meaning": "انداختن؛ افتادن؛ سر زدن؛ کم شدن",
+        "note": "drop by = «سر زدن». drop someone off = «کسی را جایی پیاده کردن». drop a class = «درسی را حذف کردن». prices drop = «قیمت‌ها پایین می‌آید»."
+      },
+      "examples": [
+        {
+          "text": "I'll drop by your office after the lecture.",
+          "fa": "بعد از کلاس سری به دفترت می‌زنم."
+        },
+        {
+          "text": "Can you drop me off at the station?",
+          "fa": "می‌توانی مرا سر ایستگاه پیاده کنی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈdɹɑp"
+    },
+    {
+      "id": "v-0090",
+      "word": "bother",
+      "pos": "verb",
+      "forms": [
+        "bother",
+        "bothers",
+        "bothered",
+        "bothering"
+      ],
+      "stress": [
+        "BAH-ther"
+      ],
+      "fa": {
+        "meaning": "مزاحم شدن؛ زحمت دادن؛ ناراحت کردن",
+        "note": "bother یعنی مزاحم شدن: «Sorry to bother you». «Don't bother» = «زحمت نکش، لازم نیست». «I can't be bothered» = «حوصله‌اش را ندارم» (بریتانیایی، غیررسمی)."
+      },
+      "examples": [
+        {
+          "text": "Sorry to bother you, but do you have a minute?",
+          "fa": "ببخشید مزاحم می‌شوم، یک دقیقه وقت دارید؟"
+        },
+        {
+          "text": "Don't bother cooking, we can order a pizza.",
+          "fa": "لازم نیست آشپزی کنی، می‌توانیم پیتزا سفارش بدهیم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈbɑðɚ"
     }
   ]
 }
