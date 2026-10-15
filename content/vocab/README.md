@@ -9,7 +9,7 @@
 
 Because the word list is share-alike, the files in this folder are published under **CC BY-SA 4.0** (https://creativecommons.org/licenses/by-sa/4.0/). The app's code stays under the repository's MIT licence.
 
-**Format 2** (packs 2 and 3, `"format": 2` on the pack): every word has `morph` (a list of `[label, text]` word forms) and exactly three examples with `tense` (`past`, `present`, `future`; the future one must use will / 'll / going to) and a Farsi `grammar` note. The pack-1 words keep the older format (2–3 examples, no forms).
+**Format 2** (all packs, `"format": 2` on the pack): every word has `morph` (a list of `[label, text]` word forms) and exactly three examples with `tense` (`past`, `present`, `future`; the future one must use will / 'll / going to) and a Farsi `grammar` note.
 
 A word may carry `ipa` (set by hand where the dictionary entry is odd for a learner) or `cmu` (a dictionary variant such as `lead(2)`).
 
