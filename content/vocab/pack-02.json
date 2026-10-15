@@ -1,0 +1,2880 @@
+{
+  "pack": 2,
+  "track": "everyday",
+  "source": "Word choice: everyday spoken English at about B2, hand-picked for this project (phrasal verbs, feelings, daily-life words), checked against the NGSL-Spoken 1.2 list (Browne & Culligan, CC BY-SA 4.0, newgeneralservicelist.com). IPA: CMU Pronouncing Dictionary (American English).",
+  "words": [
+    {
+      "id": "v-0121",
+      "word": "pick up",
+      "pos": "phrasal verb",
+      "forms": [
+        "pick … up",
+        "picks … up",
+        "picked … up",
+        "picking … up"
+      ],
+      "stress": [
+        "PIK UP"
+      ],
+      "fa": {
+        "meaning": "برداشتن؛ رفتن دنبال کسی یا چیزی؛ یاد گرفتن",
+        "note": "چند معنی رایج دارد: (۱) از زمین یا روی میز برداشتن؛ (۲) کسی یا چیزی را با ماشین سر راه برداشتن («I'll pick you up at six»)؛ (۳) بدون کلاس رسمی چیزی یاد گرفتن («pick up a language»). جداشدنی است: pick it up."
+      },
+      "examples": [
+        {
+          "text": "Can you pick up some bread on your way home?",
+          "fa": "می‌توانی سر راهت به خانه کمی نان بخری و بیاوری؟"
+        },
+        {
+          "text": "I picked up a few Dutch words just from talking to my neighbours.",
+          "fa": "فقط از صحبت با همسایه‌هایم چند کلمه‌ی هلندی یاد گرفتم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈpɪk ˈʌp"
+    },
+    {
+      "id": "v-0122",
+      "word": "come across",
+      "pos": "phrasal verb",
+      "forms": [
+        "come across",
+        "comes across",
+        "came across",
+        "coming across"
+      ],
+      "stress": [
+        "KUM uh-KROSS"
+      ],
+      "fa": {
+        "meaning": "تصادفاً پیدا کردن؛ به چیزی برخوردن؛ (come across as) به نظر رسیدن",
+        "note": "یعنی تصادفی چیزی یا کسی را پیدا کردن یا دیدن: «come across an old photo». جداشدنی نیست. نکته: come across as + صفت یعنی «به نظر رسیدن»: «She comes across as shy» = خجالتی به نظر می‌رسد."
+      },
+      "examples": [
+        {
+          "text": "I came across an old photo of us while cleaning the attic.",
+          "fa": "موقع تمیز کردن زیرشیروانی یک عکس قدیمی از خودمان پیدا کردم."
+        },
+        {
+          "text": "He comes across as shy, but he's really funny once you know him.",
+          "fa": "خجالتی به نظر می‌رسد، ولی وقتی بشناسی آدم خیلی بامزه‌ای است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkʌm əˈkɹɔs"
+    },
+    {
+      "id": "v-0123",
+      "word": "put off",
+      "pos": "phrasal verb",
+      "forms": [
+        "put … off",
+        "puts … off",
+        "putting … off",
+        "put off"
+      ],
+      "stress": [
+        "PUT OFF"
+      ],
+      "fa": {
+        "meaning": "عقب انداختن؛ به تعویق انداختن؛ دلسرد کردن",
+        "note": "یعنی کاری را به بعد موکول کردن: «Don't put it off until tomorrow». معنی دوم: کسی را دلسرد یا بیزار کردن («The smell put me off» = بو حالم را بد کرد، ازش بدم آمد). جداشدنی است."
+      },
+      "examples": [
+        {
+          "text": "I keep putting off my dentist appointment because I'm nervous.",
+          "fa": "مدام وقت دندان‌پزشکی‌ام را عقب می‌اندازم چون استرس دارم."
+        },
+        {
+          "text": "The meeting was put off until next Thursday.",
+          "fa": "جلسه تا پنجشنبه‌ی آینده عقب افتاد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈpʊt ˈɔf"
+    },
+    {
+      "id": "v-0124",
+      "word": "turn out",
+      "pos": "phrasal verb",
+      "forms": [
+        "turn out",
+        "turns out",
+        "turned out",
+        "turning out"
+      ],
+      "stress": [
+        "TURN OUT"
+      ],
+      "fa": {
+        "meaning": "معلوم شدن؛ از آب درآمدن؛ به نتیجه‌ای رسیدن",
+        "note": "برای نتیجه‌ای که بعداً معلوم می‌شود: «It turned out (that) he was right» = معلوم شد حق با او بود؛ «Things turned out fine» = همه‌چیز خوب تمام شد. در تعریف کردن ماجرا خیلی پرکاربرد است."
+      },
+      "examples": [
+        {
+          "text": "It turned out that the shop was closed for the holiday.",
+          "fa": "معلوم شد مغازه به خاطر تعطیلات بسته است."
+        },
+        {
+          "text": "I was worried about the exam, but everything turned out fine.",
+          "fa": "از امتحان نگران بودم، ولی همه‌چیز خوب تمام شد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtɝn ˈaʊt"
+    },
+    {
+      "id": "v-0125",
+      "word": "run out of",
+      "pos": "phrasal verb",
+      "forms": [
+        "run out of",
+        "runs out of",
+        "ran out of",
+        "running out of"
+      ],
+      "stress": [
+        "RUN OUT uv"
+      ],
+      "fa": {
+        "meaning": "تمام شدن (چیزی برای کسی)؛ ته کشیدن",
+        "note": "فاعل خودِ شخص است: «I ran out of milk» = شیرم تمام شد. اگر خودِ چیز فاعل باشد، of نمی‌آید: «The milk ran out». «We're running out of time» = داریم وقت کم می‌آوریم."
+      },
+      "examples": [
+        {
+          "text": "We ran out of coffee this morning, so I went to the shop.",
+          "fa": "امروز صبح قهوه‌مان تمام شد، برای همین رفتم مغازه."
+        },
+        {
+          "text": "Hurry up, we're running out of time!",
+          "fa": "عجله کن، داریم وقت کم می‌آوریم!"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɹʌn ˈaʊt ʌv"
+    },
+    {
+      "id": "v-0126",
+      "word": "get over",
+      "pos": "phrasal verb",
+      "forms": [
+        "get over",
+        "gets over",
+        "got over",
+        "getting over"
+      ],
+      "stress": [
+        "GET OH-ver"
+      ],
+      "fa": {
+        "meaning": "خوب شدن از؛ کنار آمدن با؛ پشت سر گذاشتن",
+        "note": "برای خوب شدن بعد از بیماری یا کنار آمدن با اتفاقی ناراحت‌کننده: «I'm still getting over a cold». عبارت «I can't get over it» یعنی «هنوز باورم نمی‌شود، هنوز در تعجبم»."
+      },
+      "examples": [
+        {
+          "text": "It took me a week to get over the flu.",
+          "fa": "یک هفته طول کشید تا از آنفولانزا خوب شوم."
+        },
+        {
+          "text": "I still can't get over how expensive everything is here.",
+          "fa": "هنوز باورم نمی‌شود اینجا همه‌چیز چقدر گران است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɡɛt ˈoʊvɚ"
+    },
+    {
+      "id": "v-0127",
+      "word": "catch up",
+      "pos": "phrasal verb",
+      "forms": [
+        "catch up",
+        "catches up",
+        "caught up",
+        "catching up"
+      ],
+      "stress": [
+        "KATCH UP"
+      ],
+      "fa": {
+        "meaning": "عقب‌ماندگی را جبران کردن؛ به کسی رسیدن؛ احوال هم را پرسیدن",
+        "note": "دو معنی رایج: (۱) به کسی یا چیزی که جلوتر است رسیدن یا عقب‌ماندگی را جبران کردن: «catch up on sleep». (۲) بعد از مدتی دیدن دوست و خبرها را رد و بدل کردن: «Let's grab a coffee and catch up». با کسی: catch up with someone."
+      },
+      "examples": [
+        {
+          "text": "I have to catch up on my emails after the holiday.",
+          "fa": "بعد از تعطیلات باید به ایمیل‌های عقب‌افتاده‌ام برسم."
+        },
+        {
+          "text": "Let's grab a coffee soon and catch up.",
+          "fa": "بیا به‌زودی یک قهوه بخوریم و احوال هم را بپرسیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkætʃ ˈʌp"
+    },
+    {
+      "id": "v-0128",
+      "word": "work out",
+      "pos": "phrasal verb",
+      "forms": [
+        "work … out",
+        "works … out",
+        "worked … out",
+        "working … out"
+      ],
+      "stress": [
+        "WERK OUT"
+      ],
+      "fa": {
+        "meaning": "ورزش کردن؛ درست شدن؛ حساب کردن",
+        "note": "چند معنی: (۱) ورزش کردن: «I work out three times a week». (۲) خوب پیش رفتن: «Don't worry, it'll work out». (۳) محاسبه یا فهمیدن، مثل figure out: «work out the price». معنی را از جمله تشخیص بده."
+      },
+      "examples": [
+        {
+          "text": "I try to work out at the gym twice a week.",
+          "fa": "سعی می‌کنم هفته‌ای دو بار در باشگاه ورزش کنم."
+        },
+        {
+          "text": "Don't stress about it, everything will work out in the end.",
+          "fa": "نگرانش نباش، آخرش همه‌چیز درست می‌شود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈwɝk ˈaʊt"
+    },
+    {
+      "id": "v-0129",
+      "word": "bring up",
+      "pos": "phrasal verb",
+      "forms": [
+        "bring … up",
+        "brings … up",
+        "brought … up",
+        "bringing … up"
+      ],
+      "stress": [
+        "BRING UP"
+      ],
+      "fa": {
+        "meaning": "مطرح کردن (موضوع)؛ بزرگ کردن (بچه)",
+        "note": "برای وسط صحبت موضوعی را پیش کشیدن: «Don't bring up politics at dinner». همچنین بچه بزرگ کردن: «She was brought up in a small village». جداشدنی است."
+      },
+      "examples": [
+        {
+          "text": "I didn't want to bring up the money in front of everyone.",
+          "fa": "نمی‌خواستم جلوی همه موضوع پول را پیش بکشم."
+        },
+        {
+          "text": "She was brought up in a small village near Hasselt.",
+          "fa": "او در یک روستای کوچک نزدیک هاسلت بزرگ شده است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈbɹɪŋ ˈʌp"
+    },
+    {
+      "id": "v-0130",
+      "word": "look forward to",
+      "pos": "phrasal verb",
+      "forms": [
+        "look forward to",
+        "looks forward to",
+        "looked forward to",
+        "looking forward to"
+      ],
+      "stress": [
+        "LUK FOR-werd tuh"
+      ],
+      "fa": {
+        "meaning": "مشتاقانه منتظر بودن؛ ذوق داشتن برای",
+        "note": "بعد از to اسم یا فعل با -ing می‌آید، نه مصدر: «I'm looking forward to seeing you» درست است و «looking forward to see you» غلط. در پایان ایمیل: «Looking forward to hearing from you»."
+      },
+      "examples": [
+        {
+          "text": "I'm really looking forward to the weekend.",
+          "fa": "واقعاً مشتاقانه منتظر آخر هفته هستم."
+        },
+        {
+          "text": "We're looking forward to meeting your family next month.",
+          "fa": "مشتاقیم ماه آینده خانواده‌ات را ببینیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈlʊk ˈfɔɹwɚd tu"
+    },
+    {
+      "id": "v-0131",
+      "word": "end up",
+      "pos": "phrasal verb",
+      "forms": [
+        "end up",
+        "ends up",
+        "ended up",
+        "ending up"
+      ],
+      "stress": [
+        "END UP"
+      ],
+      "fa": {
+        "meaning": "آخرش … شدن؛ سر از … درآوردن",
+        "note": "برای نتیجه‌ی غیرمنتظره یا بی‌برنامه: «We ended up in a small café» = آخرش سر از یک کافه‌ی کوچک درآوردیم. بعدش اسم یا -ing می‌آید: «I ended up paying for everything»."
+      },
+      "examples": [
+        {
+          "text": "We got lost and ended up in a completely different town.",
+          "fa": "گم شدیم و آخرش سر از شهری کاملاً دیگر درآوردیم."
+        },
+        {
+          "text": "I ended up paying for everyone's coffee again.",
+          "fa": "باز هم آخرش من پول قهوه‌ی همه را دادم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɛnd ˈʌp"
+    },
+    {
+      "id": "v-0132",
+      "word": "give up",
+      "pos": "phrasal verb",
+      "forms": [
+        "give … up",
+        "gives … up",
+        "gave … up",
+        "giving … up"
+      ],
+      "stress": [
+        "GIV UP"
+      ],
+      "fa": {
+        "meaning": "تسلیم شدن؛ دست کشیدن از؛ ترک کردن",
+        "note": "یعنی از تلاش دست کشیدن: «Don't give up!» = تسلیم نشو! همچنین ترک یک عادت: «give up smoking» (بعدش -ing می‌آید). جداشدنی است: give it up."
+      },
+      "examples": [
+        {
+          "text": "Learning a language is hard, but please don't give up.",
+          "fa": "یادگیری زبان سخت است، ولی لطفاً تسلیم نشو."
+        },
+        {
+          "text": "He gave up sugar last month and feels much better.",
+          "fa": "او ماه پیش شکر را ترک کرد و خیلی بهتر است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɡɪv ˈʌp"
+    },
+    {
+      "id": "v-0133",
+      "word": "set up",
+      "pos": "phrasal verb",
+      "forms": [
+        "set … up",
+        "sets … up",
+        "setting … up"
+      ],
+      "stress": [
+        "SET UP"
+      ],
+      "fa": {
+        "meaning": "راه‌اندازی کردن؛ ترتیب دادن؛ تنظیم کردن",
+        "note": "برای نصب و تنظیم یا شروع چیزی: «set up an account / a meeting / the Wi-Fi». اسمش «setup» (یک کلمه) است: «a nice setup». جداشدنی است. گذشته‌اش هم set up است."
+      },
+      "examples": [
+        {
+          "text": "Can you help me set up my new phone?",
+          "fa": "می‌توانی در راه‌اندازی گوشی جدیدم کمکم کنی؟"
+        },
+        {
+          "text": "She set up her own business when she was twenty-five.",
+          "fa": "او وقتی بیست‌وپنج ساله بود کسب‌وکار خودش را راه انداخت."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈsɛt ˈʌp"
+    },
+    {
+      "id": "v-0134",
+      "word": "sort out",
+      "pos": "phrasal verb",
+      "forms": [
+        "sort … out",
+        "sorts … out",
+        "sorted … out",
+        "sorting … out"
+      ],
+      "stress": [
+        "SORT OUT"
+      ],
+      "fa": {
+        "meaning": "حل کردن؛ مرتب کردن؛ رسیدگی کردن",
+        "note": "مشکل یا بی‌نظمی را رفع کردن: «We need to sort this out» = باید این را حل‌وفصل کنیم. در انگلیسی بریتانیایی و اروپایی خیلی رایج است. «sort out your papers» = کاغذهایت را مرتب کن."
+      },
+      "examples": [
+        {
+          "text": "Don't worry, I'll sort it out with the landlord tomorrow.",
+          "fa": "نگران نباش، فردا با صاحب‌خانه موضوع را حل می‌کنم."
+        },
+        {
+          "text": "We need to sort out who's driving before we leave.",
+          "fa": "باید قبل از رفتن مشخص کنیم چه کسی رانندگی می‌کند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈsɔɹt ˈaʊt"
+    },
+    {
+      "id": "v-0135",
+      "word": "cut down on",
+      "pos": "phrasal verb",
+      "forms": [
+        "cut down on",
+        "cuts down on",
+        "cutting down on"
+      ],
+      "stress": [
+        "KUT DOWN on"
+      ],
+      "fa": {
+        "meaning": "کم کردن (مصرف)؛ کاهش دادن",
+        "note": "یعنی مصرف یا انجام چیزی را کمتر کردن: «cut down on sugar / coffee / screen time». بعد از on اسم می‌آید. cut back on هم تقریباً همین معنی را دارد."
+      },
+      "examples": [
+        {
+          "text": "I'm trying to cut down on coffee this month.",
+          "fa": "این ماه می‌کوشم قهوه‌ام را کم کنم."
+        },
+        {
+          "text": "You should cut down on the time you spend on your phone.",
+          "fa": "باید زمانی را که پای گوشی می‌گذرانی کم کنی."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkʌt ˈdaʊn ɑn"
+    },
+    {
+      "id": "v-0136",
+      "word": "turn down",
+      "pos": "phrasal verb",
+      "forms": [
+        "turn … down",
+        "turns … down",
+        "turned … down",
+        "turning … down"
+      ],
+      "stress": [
+        "TURN DOWN"
+      ],
+      "fa": {
+        "meaning": "رد کردن (پیشنهاد)؛ کم کردن (صدا یا گرما)",
+        "note": "دو معنی: (۱) پیشنهاد یا دعوت را رد کردن: «She turned down the job». (۲) صدا یا حرارت را کم کردن: «Can you turn the music down?». ضد معنی دوم turn up است. جداشدنی است."
+      },
+      "examples": [
+        {
+          "text": "I had to turn down the invitation because I was working.",
+          "fa": "مجبور شدم دعوت را رد کنم چون سر کار بودم."
+        },
+        {
+          "text": "Could you turn the music down a bit? I'm on a call.",
+          "fa": "می‌شود صدای موزیک را کمی کم کنی؟ پای تلفنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtɝn ˈdaʊn"
+    },
+    {
+      "id": "v-0137",
+      "word": "back up",
+      "pos": "phrasal verb",
+      "forms": [
+        "back … up",
+        "backs … up",
+        "backed … up",
+        "backing … up"
+      ],
+      "stress": [
+        "BAK UP"
+      ],
+      "fa": {
+        "meaning": "پشتیبان‌گیری کردن؛ از کسی حمایت کردن",
+        "note": "در فناوری یعنی از فایل‌ها نسخه‌ی پشتیبان گرفتن: «back up your photos». همچنین حرف کسی را تأیید کردن: «Can you back me up?». اسمش «backup» (یک کلمه) است."
+      },
+      "examples": [
+        {
+          "text": "Please back up your photos before you update the phone.",
+          "fa": "لطفاً قبل از به‌روزرسانی گوشی از عکس‌هایت پشتیبان بگیر."
+        },
+        {
+          "text": "If I say it's too late, will you back me up?",
+          "fa": "اگر بگویم دیر شده، از من حمایت می‌کنی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈbæk ˈʌp"
+    },
+    {
+      "id": "v-0138",
+      "word": "hang out",
+      "pos": "phrasal verb",
+      "forms": [
+        "hang out",
+        "hangs out",
+        "hung out",
+        "hanging out"
+      ],
+      "stress": [
+        "HANG OUT"
+      ],
+      "fa": {
+        "meaning": "با دوستان وقت گذراندن؛ پاتوق کردن",
+        "note": "غیررسمی و بسیار رایج: «We usually hang out at my place» = معمولاً خانه‌ی من جمع می‌شویم. یعنی بدون برنامه‌ی خاص با هم بودن. با with: hang out with friends."
+      },
+      "examples": [
+        {
+          "text": "Do you want to hang out this weekend?",
+          "fa": "آخر هفته می‌خواهی با هم وقت بگذرانیم؟"
+        },
+        {
+          "text": "After class we usually hang out in the park.",
+          "fa": "بعد از کلاس معمولاً توی پارک وقت می‌گذرانیم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈhæŋ ˈaʊt"
+    },
+    {
+      "id": "v-0139",
+      "word": "show up",
+      "pos": "phrasal verb",
+      "forms": [
+        "show up",
+        "shows up",
+        "showed up",
+        "showing up"
+      ],
+      "stress": [
+        "SHOW UP"
+      ],
+      "fa": {
+        "meaning": "سر قرار آمدن؛ حاضر شدن؛ پیدایش شدن",
+        "note": "یعنی به جایی که منتظرت بودند آمدن: «He didn't show up» = نیامد. همچنین پدیدار شدن: «The error shows up on my screen». غیررسمی است؛ در حالت رسمی‌تر attend یا arrive می‌گویند."
+      },
+      "examples": [
+        {
+          "text": "Half of the team didn't show up for the meeting.",
+          "fa": "نصف تیم به جلسه نیامد."
+        },
+        {
+          "text": "I waited an hour, but she never showed up.",
+          "fa": "یک ساعت منتظر ماندم، ولی هرگز پیدایش نشد."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈʃoʊ ˈʌp"
+    },
+    {
+      "id": "v-0140",
+      "word": "move on",
+      "pos": "phrasal verb",
+      "forms": [
+        "move on",
+        "moves on",
+        "moved on",
+        "moving on"
+      ],
+      "stress": [
+        "MOOV ON"
+      ],
+      "fa": {
+        "meaning": "از چیزی گذشتن؛ رفتن سراغ بعدی؛ ادامه دادن",
+        "note": "بعد از یک اتفاق بد یا موضوع تمام‌شده جلو رفتن: «It's time to move on». در جلسه: «Let's move on to the next point» = برویم سراغ نکته‌ی بعدی."
+      },
+      "examples": [
+        {
+          "text": "It's been two years, so it's time to move on.",
+          "fa": "دو سال گذشته؛ وقتش است که از آن بگذری."
+        },
+        {
+          "text": "Let's move on to the next question, please.",
+          "fa": "لطفاً برویم سراغ سؤال بعدی."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈmuv ˈɑn"
+    },
+    {
+      "id": "v-0141",
+      "word": "fill in",
+      "pos": "phrasal verb",
+      "forms": [
+        "fill … in",
+        "fills … in",
+        "filled … in",
+        "filling … in"
+      ],
+      "stress": [
+        "FIL IN"
+      ],
+      "fa": {
+        "meaning": "پر کردن (فرم)؛ کسی را در جریان گذاشتن؛ جانشین شدن",
+        "note": "سه معنی: فرم پر کردن (در آمریکایی fill out هم می‌گویند)؛ کسی را در جریان گذاشتن: «Can you fill me in?»؛ و fill in for someone = جای کسی کار کردن."
+      },
+      "examples": [
+        {
+          "text": "Please fill in this form and bring it back tomorrow.",
+          "fa": "لطفاً این فرم را پر کن و فردا برگردان."
+        },
+        {
+          "text": "I missed the meeting. Can you fill me in?",
+          "fa": "جلسه را از دست دادم. می‌توانی مرا در جریان بگذاری؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈfɪl ˈɪn"
+    },
+    {
+      "id": "v-0142",
+      "word": "point out",
+      "pos": "phrasal verb",
+      "forms": [
+        "point … out",
+        "points … out",
+        "pointed … out",
+        "pointing … out"
+      ],
+      "stress": [
+        "POINT OUT"
+      ],
+      "fa": {
+        "meaning": "اشاره کردن؛ نشان دادن؛ یادآوری کردن",
+        "note": "برای جلب توجه به چیزی که کسی ندیده یا فراموش کرده: «She pointed out a mistake». بعدش that هم می‌آید: «He pointed out that we were late»."
+      },
+      "examples": [
+        {
+          "text": "Thanks for pointing out the mistake in my report.",
+          "fa": "ممنون که اشتباه گزارشم را نشان دادی."
+        },
+        {
+          "text": "She pointed out that we were already over budget.",
+          "fa": "او اشاره کرد که الان هم از بودجه زده‌ایم بالاتر."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈpɔɪnt ˈaʊt"
+    },
+    {
+      "id": "v-0143",
+      "word": "take over",
+      "pos": "phrasal verb",
+      "forms": [
+        "take … over",
+        "takes … over",
+        "took … over",
+        "taking … over"
+      ],
+      "stress": [
+        "TAKE OH-ver"
+      ],
+      "fa": {
+        "meaning": "تحویل گرفتن؛ جای کسی را گرفتن؛ مسئولیت را به عهده گرفتن",
+        "note": "یعنی کنترل یا مسئولیت چیزی را از دیگری گرفتن: «A new manager took over last month». جداشدنی هم هست: take it over. اسمش takeover است."
+      },
+      "examples": [
+        {
+          "text": "Can you take over for a minute? I need a break.",
+          "fa": "یک دقیقه کار را از من تحویل می‌گیری؟ باید کمی استراحت کنم."
+        },
+        {
+          "text": "A younger manager took over the team in January.",
+          "fa": "یک مدیر جوان‌تر در ژانویه سرپرستی تیم را به عهده گرفت."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈteɪk ˈoʊvɚ"
+    },
+    {
+      "id": "v-0144",
+      "word": "get along",
+      "pos": "phrasal verb",
+      "forms": [
+        "get along",
+        "gets along",
+        "got along",
+        "getting along"
+      ],
+      "stress": [
+        "GET uh-LONG"
+      ],
+      "fa": {
+        "meaning": "با هم کنار آمدن؛ رابطه‌ی خوب داشتن",
+        "note": "معمولاً با with می‌آید: «I get along well with my colleagues». در بریتانیایی get on (with) هم می‌گویند. به معنی «پیش رفتن کار» هم هست: «How are you getting along?»."
+      },
+      "examples": [
+        {
+          "text": "I get along really well with my new colleagues.",
+          "fa": "با همکاران جدیدم خیلی خوب کنار می‌آیم."
+        },
+        {
+          "text": "My two brothers don't always get along.",
+          "fa": "دو برادرم همیشه با هم کنار نمی‌آیند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɡɛt əˈlɔŋ"
+    },
+    {
+      "id": "v-0145",
+      "word": "drop off",
+      "pos": "phrasal verb",
+      "forms": [
+        "drop … off",
+        "drops … off",
+        "dropped … off",
+        "dropping … off"
+      ],
+      "stress": [
+        "DROP OFF"
+      ],
+      "fa": {
+        "meaning": "رساندن؛ تحویل دادن؛ چرت زدن؛ کم شدن",
+        "note": "رساندن کسی با ماشین یا تحویل بسته: «I'll drop the kids off at school». معنی‌های دیگر: خوابش بردن («I dropped off on the sofa») و کاهش یافتن. جداشدنی است."
+      },
+      "examples": [
+        {
+          "text": "I usually drop my daughter off at school before work.",
+          "fa": "معمولاً قبل از کار دخترم را مدرسه می‌رسانم."
+        },
+        {
+          "text": "Could you drop this package off at the post office?",
+          "fa": "می‌توانی این بسته را در پست‌خانه تحویل بدهی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈdɹɑp ˈɔf"
+    },
+    {
+      "id": "v-0146",
+      "word": "check out",
+      "pos": "phrasal verb",
+      "forms": [
+        "check … out",
+        "checks … out",
+        "checked … out",
+        "checking … out"
+      ],
+      "stress": [
+        "CHEK OUT"
+      ],
+      "fa": {
+        "meaning": "نگاهی انداختن؛ امتحان کردن؛ از هتل خارج شدن",
+        "note": "غیررسمی: «Check out this video!» = این ویدیو را ببین. «We checked out of the hotel at ten» = ساعت ده از هتل خارج شدیم. اسمش checkout است (صندوق فروشگاه)."
+      },
+      "examples": [
+        {
+          "text": "You should check out that new café near the station.",
+          "fa": "باید آن کافه‌ی جدید نزدیک ایستگاه را امتحان کنی."
+        },
+        {
+          "text": "We checked out of the hotel at ten.",
+          "fa": "ساعت ده از هتل خارج شدیم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈtʃɛk ˈaʊt"
+    },
+    {
+      "id": "v-0147",
+      "word": "mess up",
+      "pos": "phrasal verb",
+      "forms": [
+        "mess … up",
+        "messes … up",
+        "messed … up",
+        "messing … up"
+      ],
+      "stress": [
+        "MES UP"
+      ],
+      "fa": {
+        "meaning": "خراب کردن؛ گند زدن؛ اشتباه کردن",
+        "note": "غیررسمی: «I messed up the presentation» = ارائه را خراب کردم. «mess» به‌تنهایی یعنی بی‌نظمی. در حالت مؤدبانه می‌گویند make a mistake."
+      },
+      "examples": [
+        {
+          "text": "I totally messed up my first interview.",
+          "fa": "اولین مصاحبه‌ام را کاملاً خراب کردم."
+        },
+        {
+          "text": "Sorry, I messed up the dates in the email.",
+          "fa": "ببخشید، تاریخ‌ها را در ایمیل اشتباه نوشتم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈmɛs ˈʌp"
+    },
+    {
+      "id": "v-0148",
+      "word": "stand out",
+      "pos": "phrasal verb",
+      "forms": [
+        "stand out",
+        "stands out",
+        "stood out",
+        "standing out"
+      ],
+      "stress": [
+        "STAND OUT"
+      ],
+      "fa": {
+        "meaning": "برجسته بودن؛ به چشم آمدن؛ متمایز بودن",
+        "note": "یعنی از بقیه متفاوت و قابل‌توجه بودن: «Her red coat really stands out». در بحث کار: «How can I stand out from other candidates?»."
+      },
+      "examples": [
+        {
+          "text": "Her bright red coat really stands out in the crowd.",
+          "fa": "کت قرمز پررنگش در میان جمعیت واقعاً به چشم می‌آید."
+        },
+        {
+          "text": "A good CV helps you stand out from other candidates.",
+          "fa": "یک رزومه‌ی خوب کمک می‌کند از بقیه‌ی متقاضیان متمایز شوی."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈstænd ˈaʊt"
+    },
+    {
+      "id": "v-0149",
+      "word": "keep up with",
+      "pos": "phrasal verb",
+      "forms": [
+        "keep up with",
+        "keeps up with",
+        "kept up with",
+        "keeping up with"
+      ],
+      "stress": [
+        "KEEP UP with"
+      ],
+      "fa": {
+        "meaning": "هم‌پا بودن؛ عقب نماندن؛ در جریان ماندن",
+        "note": "یعنی عقب نماندن از سرعت یا تغییرات: «I can't keep up with the news». «She walks so fast that I can't keep up with her». بعد از with اسم یا ضمیر می‌آید."
+      },
+      "examples": [
+        {
+          "text": "It's hard to keep up with all the new apps.",
+          "fa": "پا‌به‌پای همه‌ی اپ‌های جدید رفتن سخت است."
+        },
+        {
+          "text": "He talks so fast that I can't keep up with him.",
+          "fa": "آن‌قدر تند حرف می‌زند که نمی‌توانم همراهش بشوم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkip ˈʌp wɪð"
+    },
+    {
+      "id": "v-0150",
+      "word": "take up",
+      "pos": "phrasal verb",
+      "forms": [
+        "take … up",
+        "takes … up",
+        "took … up",
+        "taking … up"
+      ],
+      "stress": [
+        "TAKE UP"
+      ],
+      "fa": {
+        "meaning": "شروع کردن (سرگرمی)؛ اشغال کردن (جا یا وقت)",
+        "note": "برای شروع سرگرمی یا ورزش جدید: «I took up running last year». همچنین فضا یا وقت گرفتن: «This table takes up too much space»."
+      },
+      "examples": [
+        {
+          "text": "I took up running last spring and I love it.",
+          "fa": "بهار گذشته دویدن را شروع کردم و عاشقش هستم."
+        },
+        {
+          "text": "This old sofa takes up way too much space.",
+          "fa": "این کاناپه‌ی قدیمی خیلی بیش‌ازحد جا می‌گیرد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈteɪk ˈʌp"
+    },
+    {
+      "id": "v-0151",
+      "word": "come up with",
+      "pos": "phrasal verb",
+      "forms": [
+        "come up with",
+        "comes up with",
+        "came up with",
+        "coming up with"
+      ],
+      "stress": [
+        "KUM UP with"
+      ],
+      "fa": {
+        "meaning": "ابداع کردن؛ به ذهنش رسیدن؛ پیشنهاد دادن",
+        "note": "برای ساختن ایده، طرح یا راه‌حل: «come up with an idea / a plan / an excuse». بعد از with چیزی که ساخته می‌شود می‌آید."
+      },
+      "examples": [
+        {
+          "text": "We need to come up with a better plan.",
+          "fa": "باید یک برنامه‌ی بهتر پیدا کنیم."
+        },
+        {
+          "text": "She came up with a great idea for the project.",
+          "fa": "او برای پروژه یک ایده‌ی عالی پیدا کرد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkʌm ˈʌp wɪð"
+    },
+    {
+      "id": "v-0152",
+      "word": "look into",
+      "pos": "phrasal verb",
+      "forms": [
+        "look into",
+        "looks into",
+        "looked into",
+        "looking into"
+      ],
+      "stress": [
+        "LUK IN-too"
+      ],
+      "fa": {
+        "meaning": "بررسی کردن؛ پیگیری کردن",
+        "note": "یعنی درباره‌ی مشکل یا موضوعی تحقیق کردن: «I'll look into it» = پیگیری می‌کنم. در محیط کار جمله‌ی بسیار مفید و مؤدبانه‌ای است."
+      },
+      "examples": [
+        {
+          "text": "Don't worry, I'll look into it and call you back.",
+          "fa": "نگران نباش، بررسی می‌کنم و بهت زنگ می‌زنم."
+        },
+        {
+          "text": "The company is looking into the problem right now.",
+          "fa": "شرکت همین الان دارد مشکل را بررسی می‌کند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈlʊk ˈɪntu"
+    },
+    {
+      "id": "v-0153",
+      "word": "go through",
+      "pos": "phrasal verb",
+      "forms": [
+        "go through",
+        "goes through",
+        "went through",
+        "going through"
+      ],
+      "stress": [
+        "GO THROO"
+      ],
+      "fa": {
+        "meaning": "مرور کردن؛ پشت سر گذاشتن (دوران سخت)؛ گذشتن از",
+        "note": "مرور دقیق چیزی: «Let's go through the plan again». یا تجربه‌ی دوران سخت: «She went through a hard time». جداشدنی نیست."
+      },
+      "examples": [
+        {
+          "text": "Let's go through the schedule one more time.",
+          "fa": "برنامه را یک بار دیگر مرور کنیم."
+        },
+        {
+          "text": "He went through a really difficult year after the move.",
+          "fa": "او بعد از اسباب‌کشی سالی واقعاً سخت را گذراند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɡoʊ ˈθɹu"
+    },
+    {
+      "id": "v-0154",
+      "word": "break down",
+      "pos": "phrasal verb",
+      "forms": [
+        "break … down",
+        "breaks … down",
+        "broke … down",
+        "breaking … down"
+      ],
+      "stress": [
+        "BRAKE DOWN"
+      ],
+      "fa": {
+        "meaning": "خراب شدن (ماشین یا دستگاه)؛ تجزیه کردن؛ از پا درآمدن",
+        "note": "ماشین یا دستگاه از کار افتادن: «My car broke down on the highway». معنی دیگر: چیزی را بخش‌بخش کردن: «break the costs down». اسمش breakdown است."
+      },
+      "examples": [
+        {
+          "text": "My car broke down on the way to work.",
+          "fa": "ماشینم سر راه کار خراب شد."
+        },
+        {
+          "text": "Can you break down the costs for me?",
+          "fa": "می‌توانی هزینه‌ها را برایم تفکیک کنی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈbɹeɪk ˈdaʊn"
+    },
+    {
+      "id": "v-0155",
+      "word": "sign up",
+      "pos": "phrasal verb",
+      "forms": [
+        "sign up",
+        "signs up",
+        "signed up",
+        "signing up"
+      ],
+      "stress": [
+        "SIGN UP"
+      ],
+      "fa": {
+        "meaning": "ثبت‌نام کردن؛ عضو شدن",
+        "note": "معمولاً با for: «sign up for a course»؛ برای خبرنامه یا اپ هم می‌گویند. اسمش sign-up است. معادل رسمی‌ترش register است."
+      },
+      "examples": [
+        {
+          "text": "I signed up for a Dutch course at the library.",
+          "fa": "برای یک دوره‌ی هلندی در کتابخانه ثبت‌نام کردم."
+        },
+        {
+          "text": "You can sign up for the newsletter on our website.",
+          "fa": "می‌توانی در وب‌سایت ما برای خبرنامه ثبت‌نام کنی."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈsaɪn ˈʌp"
+    },
+    {
+      "id": "v-0156",
+      "word": "rely on",
+      "pos": "phrasal verb",
+      "forms": [
+        "rely on",
+        "relies on",
+        "relied on",
+        "relying on"
+      ],
+      "stress": [
+        "rih-LYE on"
+      ],
+      "fa": {
+        "meaning": "تکیه کردن؛ اعتماد کردن؛ متکی بودن",
+        "note": "یعنی مطمئن بودن که کسی یا چیزی کمک می‌کند: «You can rely on me». صفتش reliable است. بعد از on اسم یا ضمیر می‌آید."
+      },
+      "examples": [
+        {
+          "text": "You can rely on me, I'll be there at nine.",
+          "fa": "می‌توانی به من تکیه کنی، ساعت نه آنجا هستم."
+        },
+        {
+          "text": "Many students rely on public transport to get to campus.",
+          "fa": "خیلی از دانشجوها برای رفتن به دانشگاه به حمل‌ونقل عمومی متکی هستند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɹɪˈlaɪ ɑn"
+    },
+    {
+      "id": "v-0157",
+      "word": "run into",
+      "pos": "phrasal verb",
+      "forms": [
+        "run into",
+        "runs into",
+        "ran into",
+        "running into"
+      ],
+      "stress": [
+        "RUN IN-too"
+      ],
+      "fa": {
+        "meaning": "اتفاقی دیدن؛ با مشکلی روبه‌رو شدن؛ خوردن به",
+        "note": "سه کاربرد: به‌طور اتفاقی کسی را دیدن: «I ran into my old teacher»؛ با مشکل روبه‌رو شدن: «We ran into some problems»؛ و برخورد کردن با چیزی. برای آدم‌ها شبیه come across است. جداشدنی نیست."
+      },
+      "examples": [
+        {
+          "text": "I ran into my old teacher at the supermarket.",
+          "fa": "در سوپرمارکت اتفاقی معلم قدیمی‌ام را دیدم."
+        },
+        {
+          "text": "We ran into a few problems during the move.",
+          "fa": "هنگام اسباب‌کشی با چند مشکل روبه‌رو شدیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɹʌn ˈɪntu"
+    },
+    {
+      "id": "v-0158",
+      "word": "awkward",
+      "pos": "adjective",
+      "forms": [
+        "awkward",
+        "awkwardly"
+      ],
+      "stress": [
+        "AHK-werd"
+      ],
+      "fa": {
+        "meaning": "ناجور؛ معذب‌کننده؛ دست‌وپاگیر",
+        "note": "برای موقعیتی که معذب‌کننده است: «an awkward silence» = سکوت ناجور. درباره‌ی آدم یعنی معذب و بی‌دست‌وپا. چیز دست‌وپاگیر هم awkward است."
+      },
+      "examples": [
+        {
+          "text": "There was an awkward silence after he asked about her job.",
+          "fa": "بعد از اینکه درباره‌ی کارش پرسید، سکوتی ناجور شد."
+        },
+        {
+          "text": "I felt awkward because I didn't know anyone at the party.",
+          "fa": "معذب بودم چون در مهمانی کسی را نمی‌شناختم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɑkwɚd"
+    },
+    {
+      "id": "v-0159",
+      "word": "annoying",
+      "pos": "adjective",
+      "forms": [
+        "annoying"
+      ],
+      "stress": [
+        "uh-NOY-ing"
+      ],
+      "fa": {
+        "meaning": "آزاردهنده؛ حرص‌درآر؛ کلافه‌کننده",
+        "note": "صفت برای چیز یا آدمی که اعصابت را خراب می‌کند: «It's so annoying!». احساس خودت annoyed است: «I'm annoyed» = من کلافه‌ام. قاعده: چیزی که آزار می‌دهد -ing، کسی که حس می‌کند -ed."
+      },
+      "examples": [
+        {
+          "text": "It's so annoying when the Wi-Fi keeps dropping.",
+          "fa": "وقتی وای‌فای مدام قطع می‌شود خیلی حرصم درمی‌آید."
+        },
+        {
+          "text": "My neighbour has an annoying habit of playing loud music.",
+          "fa": "همسایه‌ام عادت آزاردهنده‌ای دارد: موزیک بلند می‌گذارد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈnɔɪɪŋ"
+    },
+    {
+      "id": "v-0160",
+      "word": "stressful",
+      "pos": "adjective",
+      "forms": [
+        "stressful"
+      ],
+      "stress": [
+        "STRES-ful"
+      ],
+      "fa": {
+        "meaning": "پراسترس؛ پرفشار",
+        "note": "درباره‌ی موقعیت یا کار: «a stressful week». احساس آدم stressed (out) است: «I'm stressed» = استرس دارم. stressful یعنی خودِ چیز استرس می‌آورد."
+      },
+      "examples": [
+        {
+          "text": "Moving to a new country can be really stressful.",
+          "fa": "رفتن به یک کشور جدید می‌تواند واقعاً پراسترس باشد."
+        },
+        {
+          "text": "Last week was so stressful that I barely slept.",
+          "fa": "هفته‌ی پیش آن‌قدر پراسترس بود که به‌زحمت خوابیدم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈstɹɛsfəl"
+    },
+    {
+      "id": "v-0161",
+      "word": "exhausted",
+      "pos": "adjective",
+      "forms": [
+        "exhausted"
+      ],
+      "stress": [
+        "ig-ZAWS-tid"
+      ],
+      "fa": {
+        "meaning": "خسته‌ی مرده؛ از پا افتاده",
+        "note": "خیلی قوی‌تر از tired: «I'm exhausted» = از پا افتاده‌ام. بعد از کار سخت یا بی‌خوابی می‌گویند. با «completely exhausted» باز هم قوی‌تر می‌شود."
+      },
+      "examples": [
+        {
+          "text": "I was exhausted after the long flight.",
+          "fa": "بعد از پرواز طولانی از پا افتاده بودم."
+        },
+        {
+          "text": "You look exhausted. Did you sleep at all?",
+          "fa": "خسته‌ی مرده به نظر می‌آیی. اصلاً خوابیدی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪɡˈzɔstɪd"
+    },
+    {
+      "id": "v-0162",
+      "word": "relieved",
+      "pos": "adjective",
+      "forms": [
+        "relieved"
+      ],
+      "stress": [
+        "rih-LEEVD"
+      ],
+      "fa": {
+        "meaning": "خیالش راحت شده؛ نفس راحتی کشیده",
+        "note": "بعد از نگرانی که تمام شده: «I'm so relieved!» = خیالم راحت شد. اسمش relief است: «What a relief!» = چه آرامشی!"
+      },
+      "examples": [
+        {
+          "text": "I was so relieved when I passed the exam.",
+          "fa": "وقتی امتحان را قبول شدم خیلی خیالم راحت شد."
+        },
+        {
+          "text": "She looked relieved to hear the good news.",
+          "fa": "از شنیدن خبر خوب خیالش راحت شد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɹɪˈlivd"
+    },
+    {
+      "id": "v-0163",
+      "word": "embarrassed",
+      "pos": "adjective",
+      "forms": [
+        "embarrassed"
+      ],
+      "stress": [
+        "im-BAIR-ist"
+      ],
+      "fa": {
+        "meaning": "خجالت‌زده؛ شرمنده",
+        "note": "احساس خجالت جلوی دیگران: «I was so embarrassed!». چیزی که خجالت‌آور است embarrassing می‌شود. املایش دو r و دو s دارد: embarrassed."
+      },
+      "examples": [
+        {
+          "text": "I felt so embarrassed when I forgot his name.",
+          "fa": "وقتی اسمش یادم رفت خیلی خجالت کشیدم."
+        },
+        {
+          "text": "He was embarrassed because everyone was staring at him.",
+          "fa": "خجالت می‌کشید چون همه به او خیره شده بودند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪmˈbɛɹəst"
+    },
+    {
+      "id": "v-0164",
+      "word": "thrilled",
+      "pos": "adjective",
+      "forms": [
+        "thrilled"
+      ],
+      "stress": [
+        "THRILD"
+      ],
+      "fa": {
+        "meaning": "ذوق‌زده؛ خیلی خوشحال",
+        "note": "قوی‌تر از happy: «I'm thrilled to meet you». بعدش to + فعل یا about + اسم می‌آید. در ایمیل کاری هم مناسب است: «We're thrilled to announce…»."
+      },
+      "examples": [
+        {
+          "text": "We're thrilled to have you on the team.",
+          "fa": "خیلی خوشحالیم که تو در تیم ما هستی."
+        },
+        {
+          "text": "She was thrilled about the new job.",
+          "fa": "از شغل جدید ذوق‌زده بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈθɹɪld"
+    },
+    {
+      "id": "v-0165",
+      "word": "frustrated",
+      "pos": "adjective",
+      "forms": [
+        "frustrated"
+      ],
+      "stress": [
+        "FRUS-tray-tid"
+      ],
+      "fa": {
+        "meaning": "کلافه؛ دلزده (چون کار پیش نمی‌رود)",
+        "note": "وقتی تلاش می‌کنی و نتیجه نمی‌گیری: «I'm so frustrated with this app». چیزی که کلافه می‌کند frustrating است. با with یا at."
+      },
+      "examples": [
+        {
+          "text": "I get frustrated when my laptop freezes during a meeting.",
+          "fa": "وقتی لپ‌تاپم وسط جلسه هنگ می‌کند کلافه می‌شوم."
+        },
+        {
+          "text": "He was frustrated with the slow progress.",
+          "fa": "از پیشرفت کند کلافه بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈfɹʌˌstɹeɪtəd"
+    },
+    {
+      "id": "v-0166",
+      "word": "jealous",
+      "pos": "adjective",
+      "forms": [
+        "jealous"
+      ],
+      "stress": [
+        "JEL-us"
+      ],
+      "fa": {
+        "meaning": "حسود؛ غبطه‌خور",
+        "note": "می‌تواند ملایم و دوستانه باشد: «I'm so jealous of your holiday!» = چقدر به سفرت غبطه می‌خورم. در رابطه‌ی عاشقانه معنی منفی‌تری دارد. معمولاً با of می‌آید."
+      },
+      "examples": [
+        {
+          "text": "I'm so jealous of your trip to Italy!",
+          "fa": "چقدر به سفرت به ایتالیا غبطه می‌خورم!"
+        },
+        {
+          "text": "He gets jealous when she talks to other guys.",
+          "fa": "وقتی با پسرهای دیگر حرف می‌زند حسودی‌اش می‌شود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈdʒɛləs"
+    },
+    {
+      "id": "v-0167",
+      "word": "reliable",
+      "pos": "adjective",
+      "forms": [
+        "reliable"
+      ],
+      "stress": [
+        "rih-LYE-uh-bul"
+      ],
+      "fa": {
+        "meaning": "قابل اعتماد؛ مطمئن",
+        "note": "درباره‌ی آدم، ماشین، منبع یا اینترنت: «a reliable car / source». ضدش unreliable است. فعلش rely است («rely on»)."
+      },
+      "examples": [
+        {
+          "text": "He's very reliable; he always finishes on time.",
+          "fa": "خیلی قابل اعتماد است؛ همیشه سر وقت تمام می‌کند."
+        },
+        {
+          "text": "I need a more reliable internet connection for work.",
+          "fa": "برای کار به اتصال اینترنت مطمئن‌تری نیاز دارم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɹɪˈlaɪəbəl"
+    },
+    {
+      "id": "v-0168",
+      "word": "convenient",
+      "pos": "adjective",
+      "forms": [
+        "convenient",
+        "conveniently"
+      ],
+      "stress": [
+        "kun-VEEN-yunt"
+      ],
+      "fa": {
+        "meaning": "راحت؛ مناسب؛ در دسترس",
+        "note": "برای چیز یا زمانی که برایت مناسب و سهل است: «Is Friday convenient for you?». مراقب باش: «راحت» به معنی comfortable نیست؛ مغازه‌ی نزدیک convenient است، مبل نرم comfortable."
+      },
+      "examples": [
+        {
+          "text": "Is Tuesday at three convenient for you?",
+          "fa": "سه‌شنبه ساعت سه برایت مناسب است؟"
+        },
+        {
+          "text": "The apartment is convenient because it's next to the station.",
+          "fa": "آپارتمان راحت است چون کنار ایستگاه است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "kənˈvinjənt"
+    },
+    {
+      "id": "v-0169",
+      "word": "affordable",
+      "pos": "adjective",
+      "forms": [
+        "affordable"
+      ],
+      "stress": [
+        "uh-FOR-duh-bul"
+      ],
+      "fa": {
+        "meaning": "مقرون‌به‌صرفه؛ در توان مالی",
+        "note": "یعنی قیمتش برای بیشتر مردم قابل پرداخت است: «affordable housing». فعلش afford است: «I can't afford it». cheap گاهی کیفیت پایین را می‌رساند، ولی affordable مثبت است."
+      },
+      "examples": [
+        {
+          "text": "It's hard to find affordable housing in the city centre.",
+          "fa": "پیدا کردن مسکن مقرون‌به‌صرفه در مرکز شهر سخت است."
+        },
+        {
+          "text": "The restaurant is nice and surprisingly affordable.",
+          "fa": "رستوران خوب است و به‌طرز شگفت‌آوری ارزان."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈfɔɹdəbəl"
+    },
+    {
+      "id": "v-0170",
+      "word": "random",
+      "pos": "adjective",
+      "forms": [
+        "random",
+        "randomly"
+      ],
+      "stress": [
+        "RAN-dum"
+      ],
+      "fa": {
+        "meaning": "تصادفی؛ بی‌ربط؛ عجیب‌وغریب",
+        "note": "در گفتار امروزی خیلی استفاده می‌شود: «a random guy» = یک آدم ناشناس و بی‌ربط؛ «That's so random!» = چقدر ناگهانی و بی‌ربط! معنی علمی‌اش هم «تصادفی» است."
+      },
+      "examples": [
+        {
+          "text": "A random guy started talking to me on the train.",
+          "fa": "یک آدم ناشناس توی قطار شروع کرد با من حرف زدن."
+        },
+        {
+          "text": "That's so random! Why were you thinking about that?",
+          "fa": "چقدر بی‌ربط! چرا داشتی به آن فکر می‌کردی؟"
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈɹændəm"
+    },
+    {
+      "id": "v-0171",
+      "word": "weird",
+      "pos": "adjective",
+      "forms": [
+        "weird",
+        "weirdly"
+      ],
+      "stress": [
+        "WEERD"
+      ],
+      "fa": {
+        "meaning": "عجیب؛ غریب؛ مشکوک",
+        "note": "غیررسمی‌تر از strange: «That's weird». املایش استثنایی است (ei نه ie): weird. «a weird noise» = صدای عجیب."
+      },
+      "examples": [
+        {
+          "text": "My laptop is making a weird noise again.",
+          "fa": "لپ‌تاپم دوباره صدای عجیبی می‌دهد."
+        },
+        {
+          "text": "It's weird that he didn't reply to any of my messages.",
+          "fa": "عجیب است که به هیچ‌کدام از پیام‌هایم جواب نداد."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈwɪɹd"
+    },
+    {
+      "id": "v-0172",
+      "word": "fancy",
+      "pos": "adjective",
+      "forms": [
+        "fancy"
+      ],
+      "stress": [
+        "FAN-see"
+      ],
+      "fa": {
+        "meaning": "شیک و گران؛ تجملی؛ (فعل) میل داشتن",
+        "note": "صفت: «a fancy restaurant» = رستوران شیک و گران. در انگلیسی بریتانیایی و بلژیکی فعلش هم رایج است: «Do you fancy a coffee?» = قهوه می‌خوری؟ حالش را داری؟"
+      },
+      "examples": [
+        {
+          "text": "We went to a fancy restaurant for her birthday.",
+          "fa": "برای تولدش به یک رستوران شیک رفتیم."
+        },
+        {
+          "text": "Do you fancy a coffee after the lecture?",
+          "fa": "بعد از کلاس قهوه‌ای می‌خوری؟"
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈfænsi"
+    },
+    {
+      "id": "v-0173",
+      "word": "crowded",
+      "pos": "adjective",
+      "forms": [
+        "crowded"
+      ],
+      "stress": [
+        "KROW-did"
+      ],
+      "fa": {
+        "meaning": "شلوغ",
+        "note": "برای مکان‌هایی با آدم زیاد: «a crowded train». با busy فرق دارد: busy یعنی فعال یا سرش شلوغ؛ crowded یعنی پر از آدم."
+      },
+      "examples": [
+        {
+          "text": "The train was so crowded that I had to stand.",
+          "fa": "قطار آن‌قدر شلوغ بود که مجبور شدم بایستم."
+        },
+        {
+          "text": "I don't like crowded places like malls on Saturdays.",
+          "fa": "از جاهای شلوغ مثل مراکز خرید در روز شنبه خوشم نمی‌آید."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkɹaʊdəd"
+    },
+    {
+      "id": "v-0174",
+      "word": "overwhelmed",
+      "pos": "adjective",
+      "forms": [
+        "overwhelmed"
+      ],
+      "stress": [
+        "oh-ver-WELMD"
+      ],
+      "fa": {
+        "meaning": "کلافه از زیادی کار یا احساس؛ غرق؛ دست‌پاچه",
+        "note": "وقتی چیزی (کار، اطلاعات، احساسات) از ظرفیتت بیشتر است: «I feel overwhelmed by all the emails». می‌تواند مثبت هم باشد: overwhelmed with joy."
+      },
+      "examples": [
+        {
+          "text": "I feel overwhelmed by all the emails after my holiday.",
+          "fa": "بعد از تعطیلات از این‌همه ایمیل کلافه شده‌ام."
+        },
+        {
+          "text": "She was overwhelmed by everyone's kindness.",
+          "fa": "از مهربانی همه غرق احساس شده بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌoʊvɚˈwɛlmd"
+    },
+    {
+      "id": "v-0175",
+      "word": "upset",
+      "pos": "adjective",
+      "forms": [
+        "upset"
+      ],
+      "stress": [
+        "up-SET"
+      ],
+      "fa": {
+        "meaning": "ناراحت؛ دلخور؛ بهم‌ریخته",
+        "note": "صفت: «She's upset» = ناراحت است؛ با about یا with. «an upset stomach» = ناراحتی معده. فعل هم هست: «Don't upset her» = ناراحتش نکن."
+      },
+      "examples": [
+        {
+          "text": "He was upset because nobody remembered his birthday.",
+          "fa": "ناراحت بود چون کسی تولدش را یادش نبود."
+        },
+        {
+          "text": "I have an upset stomach, so I'll skip lunch.",
+          "fa": "معده‌ام ناراحت است، پس ناهار نمی‌خورم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əpˈsɛt"
+    },
+    {
+      "id": "v-0176",
+      "word": "reasonable",
+      "pos": "adjective",
+      "forms": [
+        "reasonable",
+        "reasonably"
+      ],
+      "stress": [
+        "REE-zuh-nuh-bul"
+      ],
+      "fa": {
+        "meaning": "منطقی؛ معقول؛ (قیمت) مناسب",
+        "note": "برای خواسته یا آدم منطقی: «That sounds reasonable». برای قیمت: «a reasonable price» = قیمت منصفانه. ضدش unreasonable است."
+      },
+      "examples": [
+        {
+          "text": "I think that's a reasonable request.",
+          "fa": "فکر می‌کنم این درخواست منطقی است."
+        },
+        {
+          "text": "The hotel was clean and the price was reasonable.",
+          "fa": "هتل تمیز بود و قیمتش مناسب."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɹizənəbəl"
+    },
+    {
+      "id": "v-0177",
+      "word": "decent",
+      "pos": "adjective",
+      "forms": [
+        "decent",
+        "decently"
+      ],
+      "stress": [
+        "DEE-sunt"
+      ],
+      "fa": {
+        "meaning": "خوب و قابل‌قبول؛ آبرومند",
+        "note": "در گفتار یعنی «خوب و قابل‌قبول» (نه عالی): «a decent salary», «a decent coffee». درباره‌ی آدم یعنی درستکار و محترم."
+      },
+      "examples": [
+        {
+          "text": "I finally found a decent apartment near the station.",
+          "fa": "بالاخره یک آپارتمان آبرومند نزدیک ایستگاه پیدا کردم."
+        },
+        {
+          "text": "It's not amazing, but it's a decent coffee.",
+          "fa": "عالی نیست، ولی قهوه‌ی خوبی است."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈdisənt"
+    },
+    {
+      "id": "v-0178",
+      "word": "hassle",
+      "pos": "noun",
+      "forms": [
+        "hassle",
+        "hassles"
+      ],
+      "stress": [
+        "HAS-ul"
+      ],
+      "fa": {
+        "meaning": "دردسر؛ زحمت؛ مکافات",
+        "note": "غیررسمی: چیزی که دردسر و زحمت اضافه است: «It's such a hassle to renew the permit». «no hassle» = بدون دردسر. فعل هم دارد، ولی بیشتر اسمش را می‌شنوی."
+      },
+      "examples": [
+        {
+          "text": "Renewing my residence card is always such a hassle.",
+          "fa": "تمدید کارت اقامتم همیشه یک دردسر است."
+        },
+        {
+          "text": "The shop gave me a refund with no hassle at all.",
+          "fa": "فروشگاه بدون هیچ دردسری پولم را برگرداند."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈhæsəl"
+    },
+    {
+      "id": "v-0179",
+      "word": "commute",
+      "pos": "noun",
+      "forms": [
+        "commute",
+        "commutes",
+        "commuted",
+        "commuting"
+      ],
+      "stress": [
+        "kuh-MYOOT"
+      ],
+      "fa": {
+        "meaning": "رفت‌وآمد روزانه به محل کار؛ (فعل) رفت‌وآمد کردن",
+        "note": "هم اسم هم فعل است: «My commute takes 40 minutes» / «I commute by train». کسی که هر روز رفت‌وآمد می‌کند commuter است."
+      },
+      "examples": [
+        {
+          "text": "My daily commute takes about forty minutes by train.",
+          "fa": "رفت‌وآمد روزانه‌ام با قطار حدود چهل دقیقه طول می‌کشد."
+        },
+        {
+          "text": "I commute from Hasselt to Leuven every morning.",
+          "fa": "هر صبح از هاسلت به لوون رفت‌وآمد می‌کنم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "kəˈmjut"
+    },
+    {
+      "id": "v-0180",
+      "word": "queue",
+      "pos": "noun",
+      "forms": [
+        "queue",
+        "queues",
+        "queued",
+        "queuing"
+      ],
+      "stress": [
+        "KYOO"
+      ],
+      "fa": {
+        "meaning": "صف؛ (فعل) در صف ایستادن",
+        "note": "در انگلیسی بریتانیایی و اروپایی queue می‌گویند؛ در آمریکایی line. «jump the queue» = از صف جلو زدن. «queue up» = در صف ایستادن."
+      },
+      "examples": [
+        {
+          "text": "There was a long queue outside the pharmacy.",
+          "fa": "بیرون داروخانه صف بلندی بود."
+        },
+        {
+          "text": "We had to queue for an hour to get tickets.",
+          "fa": "مجبور شدیم یک ساعت برای بلیت در صف بایستیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkju"
+    },
+    {
+      "id": "v-0181",
+      "word": "shift",
+      "pos": "noun",
+      "forms": [
+        "shift",
+        "shifts"
+      ],
+      "stress": [
+        "SHIFT"
+      ],
+      "fa": {
+        "meaning": "نوبت کاری؛ شیفت",
+        "note": "ساعت‌هایی که سر کار هستی: «the night shift», «I'm on an early shift tomorrow». فعل shift یعنی جابه‌جا کردن، ولی اینجا اسمش مهم است."
+      },
+      "examples": [
+        {
+          "text": "I'm working the night shift this week.",
+          "fa": "این هفته شیفت شب کار می‌کنم."
+        },
+        {
+          "text": "Can you take my shift on Saturday?",
+          "fa": "می‌توانی شنبه به‌جای من سر شیفت بروی؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈʃɪft"
+    },
+    {
+      "id": "v-0182",
+      "word": "rent",
+      "pos": "noun",
+      "forms": [
+        "rent",
+        "rents",
+        "rented",
+        "renting"
+      ],
+      "stress": [
+        "RENT"
+      ],
+      "fa": {
+        "meaning": "اجاره (پول)؛ (فعل) اجاره کردن",
+        "note": "اسم: «The rent is €800 a month». فعل: «We rent a flat» (هم اجاره‌کردن و هم اجاره‌دادن؛ از جمله مشخص می‌شود). اجاره‌ی ماشین: rent a car."
+      },
+      "examples": [
+        {
+          "text": "The rent for our flat goes up every year.",
+          "fa": "اجاره‌ی آپارتمانمان هر سال بالا می‌رود."
+        },
+        {
+          "text": "We rented a car for the weekend.",
+          "fa": "برای آخر هفته یک ماشین اجاره کردیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɹɛnt"
+    },
+    {
+      "id": "v-0183",
+      "word": "savings",
+      "pos": "noun",
+      "forms": [
+        "savings"
+      ],
+      "stress": [
+        "SAY-vingz"
+      ],
+      "fa": {
+        "meaning": "پس‌انداز",
+        "note": "همیشه جمع و با s می‌آید: «my savings» = پس‌اندازم. «a savings account» = حساب پس‌انداز. فعلش save است (پس‌انداز کردن)."
+      },
+      "examples": [
+        {
+          "text": "I'm using my savings to pay for the course.",
+          "fa": "دارم از پس‌اندازم برای پرداخت دوره استفاده می‌کنم."
+        },
+        {
+          "text": "She has almost no savings left after the move.",
+          "fa": "بعد از اسباب‌کشی تقریباً هیچ پس‌اندازی برایش نمانده."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈseɪvɪŋz"
+    },
+    {
+      "id": "v-0184",
+      "word": "groceries",
+      "pos": "noun",
+      "forms": [
+        "groceries",
+        "grocery"
+      ],
+      "stress": [
+        "GROH-ser-eez"
+      ],
+      "fa": {
+        "meaning": "خواربار؛ خرید خانه (مواد غذایی)",
+        "note": "مواد غذایی و چیزهای روزمره‌ای که از سوپرمارکت می‌خری: «do the groceries», «buy groceries». معمولاً جمع است. «grocery store» = خواربارفروشی."
+      },
+      "examples": [
+        {
+          "text": "I do the groceries every Saturday morning.",
+          "fa": "هر صبح شنبه خرید خانه را انجام می‌دهم."
+        },
+        {
+          "text": "Groceries have become so expensive lately.",
+          "fa": "این اواخر خواربار خیلی گران شده است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈɡɹoʊsɚiz"
+    },
+    {
+      "id": "v-0185",
+      "word": "appointment",
+      "pos": "noun",
+      "forms": [
+        "appointment",
+        "appointments"
+      ],
+      "stress": [
+        "uh-POINT-ment"
+      ],
+      "fa": {
+        "meaning": "وقت قبلی؛ قرار ملاقات (رسمی)",
+        "note": "برای دکتر، اداره، آرایشگاه: «make an appointment», «a doctor's appointment». برای قرار دوستانه از «meet up» یا «plans» استفاده کن، نه appointment."
+      },
+      "examples": [
+        {
+          "text": "I have a dentist appointment at ten tomorrow.",
+          "fa": "فردا ساعت ده وقت دندان‌پزشکی دارم."
+        },
+        {
+          "text": "Can I make an appointment for next week?",
+          "fa": "می‌توانم برای هفته‌ی آینده وقت بگیرم؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈpɔɪntmənt"
+    },
+    {
+      "id": "v-0186",
+      "word": "schedule",
+      "pos": "noun",
+      "forms": [
+        "schedule",
+        "schedules",
+        "scheduled",
+        "scheduling"
+      ],
+      "stress": [
+        "SKEJ-ool"
+      ],
+      "fa": {
+        "meaning": "برنامه‌ی زمانی؛ زمان‌بندی؛ (فعل) زمان تعیین کردن",
+        "note": "اسم: «a busy schedule» = برنامه‌ی شلوغ؛ «on schedule» = طبق برنامه. فعل: «Let's schedule a call». در بریتانیایی SHED-yool تلفظ می‌شود؛ اینجا آمریکایی است."
+      },
+      "examples": [
+        {
+          "text": "I have a really busy schedule this week.",
+          "fa": "این هفته برنامه‌ی واقعاً شلوغی دارم."
+        },
+        {
+          "text": "Let's schedule a call for Monday morning.",
+          "fa": "یک تماس برای صبح دوشنبه تعیین کنیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈskɛdʒʊl"
+    },
+    {
+      "id": "v-0187",
+      "word": "workload",
+      "pos": "noun",
+      "forms": [
+        "workload"
+      ],
+      "stress": [
+        "WERK-lohd"
+      ],
+      "fa": {
+        "meaning": "حجم کار",
+        "note": "مقدار کاری که باید انجام بدهی: «a heavy workload» = حجم کار زیاد. در گفتگوی کاری مؤدبانه‌تر از «too much work» است."
+      },
+      "examples": [
+        {
+          "text": "My workload has doubled since Anna left.",
+          "fa": "از وقتی آنا رفته حجم کارم دو برابر شده است."
+        },
+        {
+          "text": "A heavy workload can make you tired and stressed.",
+          "fa": "حجم کار زیاد می‌تواند تو را خسته و پراسترس کند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈwɝˌkloʊd"
+    },
+    {
+      "id": "v-0188",
+      "word": "neighbourhood",
+      "pos": "noun",
+      "forms": [
+        "neighbourhood",
+        "neighbourhoods",
+        "neighborhood"
+      ],
+      "stress": [
+        "NAY-ber-hud"
+      ],
+      "fa": {
+        "meaning": "محله",
+        "note": "بخش کوچکی از شهر که در آن زندگی می‌کنی: «a quiet neighbourhood». املای آمریکایی: neighborhood. یک نکته: املای بریتانیایی -our دارد (neighbour)."
+      },
+      "examples": [
+        {
+          "text": "We live in a quiet neighbourhood near the park.",
+          "fa": "ما در یک محله‌ی آرام نزدیک پارک زندگی می‌کنیم."
+        },
+        {
+          "text": "It's a friendly neighbourhood where everyone knows each other.",
+          "fa": "محله‌ی صمیمی‌ای است که همه همدیگر را می‌شناسند."
+        }
+      ],
+      "register": "neutral",
+      "cmu": "neighborhood",
+      "ipa": "ˈneɪbɚˌhʊd"
+    },
+    {
+      "id": "v-0189",
+      "word": "gossip",
+      "pos": "noun",
+      "forms": [
+        "gossip",
+        "gossips",
+        "gossiping"
+      ],
+      "stress": [
+        "GAH-sup"
+      ],
+      "fa": {
+        "meaning": "شایعه‌پراکنی؛ پچ‌پچ؛ (فعل) غیبت کردن",
+        "note": "حرف زدن درباره‌ی زندگی دیگران، معمولاً غیرجدی: «office gossip». کسی که این کار را می‌کند هم gossip است. معنی کمی منفی دارد."
+      },
+      "examples": [
+        {
+          "text": "I don't like office gossip, so I stay out of it.",
+          "fa": "از شایعه‌پراکنی اداری خوشم نمی‌آید، برای همین خودم را کنار می‌کشم."
+        },
+        {
+          "text": "They spent the whole evening gossiping about their boss.",
+          "fa": "تمام شب را درباره‌ی رئیسشان غیبت کردند."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈɡɑsəp"
+    },
+    {
+      "id": "v-0190",
+      "word": "rumour",
+      "pos": "noun",
+      "forms": [
+        "rumour",
+        "rumours",
+        "rumor"
+      ],
+      "stress": [
+        "ROO-mer"
+      ],
+      "fa": {
+        "meaning": "شایعه",
+        "note": "خبری که معلوم نیست درست باشد: «There's a rumour that…» = شایعه شده که… . عبارت «rumour has it» یعنی «می‌گویند»."
+      },
+      "examples": [
+        {
+          "text": "There's a rumour that the company is moving to Brussels.",
+          "fa": "شایعه شده که شرکت دارد به بروکسل می‌رود."
+        },
+        {
+          "text": "I heard a rumour about a new manager.",
+          "fa": "یک شایعه درباره‌ی یک مدیر جدید شنیدم."
+        }
+      ],
+      "register": "neutral",
+      "cmu": "rumor",
+      "ipa": "ˈɹumɚ"
+    },
+    {
+      "id": "v-0191",
+      "word": "fuss",
+      "pos": "noun",
+      "forms": [
+        "fuss",
+        "fusses",
+        "fussing"
+      ],
+      "stress": [
+        "FUS"
+      ],
+      "fa": {
+        "meaning": "سروصدای بیخود؛ شلوغ‌بازی؛ ناز و ادا",
+        "note": "وقتی کسی برای چیز کوچکی بیش‌ازحد ناراحت یا درگیر می‌شود: «Don't make a fuss» = قشقرق به پا نکن. «There's no need to fuss» = لازم نیست خودت را زحمت بدهی."
+      },
+      "examples": [
+        {
+          "text": "Please don't make a fuss, it's only a small mistake.",
+          "fa": "لطفاً قشقرق به پا نکن، فقط یک اشتباه کوچک است."
+        },
+        {
+          "text": "Everyone made a big fuss about his birthday.",
+          "fa": "همه برای تولدش کلی شلوغ‌بازی راه انداختند."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈfʌs"
+    },
+    {
+      "id": "v-0192",
+      "word": "excuse",
+      "pos": "noun",
+      "forms": [
+        "excuse",
+        "excuses"
+      ],
+      "stress": [
+        "ik-SKYOOS"
+      ],
+      "fa": {
+        "meaning": "بهانه؛ عذر",
+        "note": "اسم با صدای s آخر است: «a good excuse» = بهانه‌ی خوب؛ «make an excuse» = بهانه آوردن. فعلش با صدای z است (ik-SKYOOZ): «Excuse me»."
+      },
+      "examples": [
+        {
+          "text": "He always has an excuse for being late.",
+          "fa": "او همیشه برای دیر آمدن بهانه‌ای دارد."
+        },
+        {
+          "text": "That's not an excuse, you could have called me.",
+          "fa": "این بهانه نیست، می‌توانستی به من زنگ بزنی."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪkˈskjus"
+    },
+    {
+      "id": "v-0193",
+      "word": "favour",
+      "pos": "noun",
+      "forms": [
+        "favour",
+        "favours",
+        "favor"
+      ],
+      "stress": [
+        "FAY-ver"
+      ],
+      "fa": {
+        "meaning": "لطف؛ کمک کوچک",
+        "note": "کار کوچکی که برای کسی انجام می‌دهی: «Can you do me a favour?» = یک لطفی در حقم می‌کنی؟ «in favour of» = موافق با. املای آمریکایی: favor."
+      },
+      "examples": [
+        {
+          "text": "Could you do me a favour and watch my bag?",
+          "fa": "می‌شود لطفی در حقم کنی و حواست به کیفم باشد؟"
+        },
+        {
+          "text": "I owe you a favour after your help yesterday.",
+          "fa": "بعد از کمک دیروزت یک لطف به تو بدهکارم."
+        }
+      ],
+      "register": "neutral",
+      "cmu": "favor",
+      "ipa": "ˈfeɪvɚ"
+    },
+    {
+      "id": "v-0194",
+      "word": "mood",
+      "pos": "noun",
+      "forms": [
+        "mood",
+        "moods"
+      ],
+      "stress": [
+        "MOOD"
+      ],
+      "fa": {
+        "meaning": "حال‌وهوا؛ خلق‌وخو؛ حوصله",
+        "note": "حال روحی همان لحظه: «in a good mood» = سرحال؛ «in a bad mood» = بدخلق. «I'm not in the mood for…» = حوصله‌ی … را ندارم."
+      },
+      "examples": [
+        {
+          "text": "She's in a great mood today because it's Friday.",
+          "fa": "امروز چون جمعه است حال و هوایش عالی است."
+        },
+        {
+          "text": "I'm not in the mood for a big dinner.",
+          "fa": "حوصله‌ی یک شام سنگین را ندارم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈmud"
+    },
+    {
+      "id": "v-0195",
+      "word": "deadline",
+      "pos": "noun",
+      "forms": [
+        "deadline",
+        "deadlines"
+      ],
+      "stress": [
+        "DED-line"
+      ],
+      "fa": {
+        "meaning": "ضرب‌الاجل؛ مهلت تحویل",
+        "note": "آخرین زمان تحویل کار: «meet the deadline» = به موقع تحویل دادن؛ «miss the deadline» = از مهلت گذشتن؛ «a tight deadline» = مهلت کم."
+      },
+      "examples": [
+        {
+          "text": "The deadline for the report is next Friday.",
+          "fa": "مهلت تحویل گزارش جمعه‌ی آینده است."
+        },
+        {
+          "text": "I'm working late to meet the deadline.",
+          "fa": "دیر وقت کار می‌کنم تا به مهلت برسم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈdɛdˌlaɪn"
+    },
+    {
+      "id": "v-0196",
+      "word": "landlord",
+      "pos": "noun",
+      "forms": [
+        "landlord",
+        "landlords"
+      ],
+      "stress": [
+        "LAND-lord"
+      ],
+      "fa": {
+        "meaning": "صاحب‌خانه؛ مالک (اجاره‌ای)",
+        "note": "کسی که خانه را به تو اجاره داده. مؤنثش landlady است. مستأجر = tenant."
+      },
+      "examples": [
+        {
+          "text": "My landlord is fixing the heating this week.",
+          "fa": "صاحب‌خانه‌ام این هفته گرمایش را تعمیر می‌کند."
+        },
+        {
+          "text": "You should ask your landlord about the broken window.",
+          "fa": "باید درباره‌ی پنجره‌ی شکسته از صاحب‌خانه‌ات بپرسی."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈlændˌlɔɹd"
+    },
+    {
+      "id": "v-0197",
+      "word": "reminder",
+      "pos": "noun",
+      "forms": [
+        "reminder",
+        "reminders"
+      ],
+      "stress": [
+        "rih-MINE-der"
+      ],
+      "fa": {
+        "meaning": "یادآوری؛ پیام یادآور",
+        "note": "پیام یا چیزی که به یادت می‌آورد: «set a reminder on my phone». «a gentle reminder» در ایمیل یعنی یادآوری مؤدبانه. فعلش remind است."
+      },
+      "examples": [
+        {
+          "text": "I set a reminder on my phone for the meeting.",
+          "fa": "برای جلسه یک یادآور روی گوشی‌ام گذاشتم."
+        },
+        {
+          "text": "Thanks for the reminder, I almost forgot!",
+          "fa": "ممنون از یادآوری، نزدیک بود یادم برود!"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɹiˈmaɪndɚ"
+    },
+    {
+      "id": "v-0198",
+      "word": "fee",
+      "pos": "noun",
+      "forms": [
+        "fee",
+        "fees"
+      ],
+      "stress": [
+        "FEE"
+      ],
+      "fa": {
+        "meaning": "هزینه؛ کارمزد؛ شهریه",
+        "note": "پولی که برای یک خدمت یا ثبت‌نام می‌دهی: «tuition fees» = شهریه، «a small fee». برای کالا price و برای حقوق salary می‌گویند."
+      },
+      "examples": [
+        {
+          "text": "The course fee includes all the books and materials.",
+          "fa": "شهریه‌ی دوره شامل همه‌ی کتاب‌ها و مواد آموزشی است."
+        },
+        {
+          "text": "Is there a fee for cancelling the appointment?",
+          "fa": "برای لغو وقت هزینه‌ای هست؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈfi"
+    },
+    {
+      "id": "v-0199",
+      "word": "tip",
+      "pos": "noun",
+      "forms": [
+        "tip",
+        "tips"
+      ],
+      "stress": [
+        "TIP"
+      ],
+      "fa": {
+        "meaning": "انعام؛ نکته‌ی کاربردی؛ توصیه",
+        "note": "دو معنی: انعام به پیشخدمت («leave a tip») و توصیه‌ی کوتاه («Any tips for learning Dutch?»)."
+      },
+      "examples": [
+        {
+          "text": "Do you have any tips for learning Dutch quickly?",
+          "fa": "نکته‌ای برای سریع یاد گرفتن هلندی داری؟"
+        },
+        {
+          "text": "We left a tip because the service was great.",
+          "fa": "انعام گذاشتیم چون سرویس عالی بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈtɪp"
+    },
+    {
+      "id": "v-0200",
+      "word": "barely",
+      "pos": "adverb",
+      "forms": [
+        "barely"
+      ],
+      "stress": [
+        "BAIR-lee"
+      ],
+      "fa": {
+        "meaning": "به‌زحمت؛ به‌سختی؛ به‌ندرت",
+        "note": "یعنی «تقریباً نه، خیلی کم»: «I barely slept» = به‌زحمت خوابیدم. فعل مثبت می‌آید (نه «I barely didn't»). «barely any» = تقریباً هیچ."
+      },
+      "examples": [
+        {
+          "text": "I barely slept last night because of the noise.",
+          "fa": "دیشب به خاطر سروصدا به‌زحمت خوابیدم."
+        },
+        {
+          "text": "There was barely any space left on the train.",
+          "fa": "تقریباً هیچ جایی در قطار باقی نمانده بود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈbɛɹli"
+    },
+    {
+      "id": "v-0201",
+      "word": "literally",
+      "pos": "adverb",
+      "forms": [
+        "literally"
+      ],
+      "stress": [
+        "LIT-er-uh-lee"
+      ],
+      "fa": {
+        "meaning": "به معنای واقعی کلمه؛ (در گفتار امروز) برای تأکید: واقعاً",
+        "note": "یعنی دقیقاً همان‌طور که گفته می‌شود، ولی در گفتار امروز برای تأکید هم می‌آید: «I literally have no idea» = واقعاً هیچ ایده‌ای ندارم. کمی غیررسمی است."
+      },
+      "examples": [
+        {
+          "text": "I literally have no idea what he's talking about.",
+          "fa": "واقعاً نمی‌دانم دارد درباره‌ی چه حرف می‌زند."
+        },
+        {
+          "text": "The shop is literally two minutes from my house.",
+          "fa": "مغازه واقعاً دو دقیقه از خانه‌ی من فاصله دارد."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈlɪtɚəli"
+    },
+    {
+      "id": "v-0202",
+      "word": "honestly",
+      "pos": "adverb",
+      "forms": [
+        "honestly"
+      ],
+      "stress": [
+        "AH-nust-lee"
+      ],
+      "fa": {
+        "meaning": "راستش؛ صادقانه بگویم",
+        "note": "برای شروع نظر صریح: «Honestly, I didn't like it». h در این کلمه تلفظ نمی‌شود (مثل honest). می‌تواند ملایم یا تند باشد، بسته به لحن."
+      },
+      "examples": [
+        {
+          "text": "Honestly, I think we should wait a bit longer.",
+          "fa": "راستش فکر می‌کنم باید کمی بیشتر صبر کنیم."
+        },
+        {
+          "text": "I honestly didn't know she was coming.",
+          "fa": "واقعاً نمی‌دانستم او می‌آید."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈɑnəstli"
+    },
+    {
+      "id": "v-0203",
+      "word": "apparently",
+      "pos": "adverb",
+      "forms": [
+        "apparently"
+      ],
+      "stress": [
+        "uh-PAIR-unt-lee"
+      ],
+      "fa": {
+        "meaning": "ظاهراً؛ گویا؛ می‌گویند",
+        "note": "برای چیزی که شنیده‌ای ولی مطمئن نیستی: «Apparently, the train is delayed». به معنی «آشکارا» نیست! ظاهراً یعنی «از آنچه می‌گویند یا دیده می‌شود»."
+      },
+      "examples": [
+        {
+          "text": "Apparently, the train is delayed again today.",
+          "fa": "ظاهراً قطار امروز هم باز تأخیر دارد."
+        },
+        {
+          "text": "She's apparently moving to Antwerp next month.",
+          "fa": "گویا ماه آینده به آنتورپ می‌رود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈpɛɹəntli"
+    },
+    {
+      "id": "v-0204",
+      "word": "eventually",
+      "pos": "adverb",
+      "forms": [
+        "eventually"
+      ],
+      "stress": [
+        "ih-VEN-choo-uh-lee"
+      ],
+      "fa": {
+        "meaning": "سرانجام؛ آخرش؛ بالاخره (بعد از مدتی)",
+        "note": "مراقب باش: eventually به معنی «احتمالاً» نیست! یعنی بعد از مدت یا تلاش طولانی بالاخره: «Eventually, I found my keys». «احتمالاً» می‌شود probably."
+      },
+      "examples": [
+        {
+          "text": "We got lost, but eventually we found the café.",
+          "fa": "گم شدیم، ولی بالاخره کافه را پیدا کردیم."
+        },
+        {
+          "text": "She eventually decided to quit her job.",
+          "fa": "او سرانجام تصمیم گرفت از کارش استعفا بدهد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪˈvɛntʃəwəli"
+    },
+    {
+      "id": "v-0205",
+      "word": "seriously",
+      "pos": "adverb",
+      "forms": [
+        "seriously"
+      ],
+      "stress": [
+        "SEER-ee-us-lee"
+      ],
+      "fa": {
+        "meaning": "جداً؛ واقعاً؛ شوخی نمی‌کنم",
+        "note": "برای تأکید («seriously good») و برای سؤال با تعجب «Seriously?» = جدی می‌گویی؟! همچنین «take it seriously» = جدی بگیر."
+      },
+      "examples": [
+        {
+          "text": "Seriously? You've never seen that movie?",
+          "fa": "جدی؟ هیچ‌وقت آن فیلم را ندیده‌ای؟"
+        },
+        {
+          "text": "You should take your health more seriously.",
+          "fa": "باید سلامتت را جدی‌تر بگیری."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈsɪɹiəsli"
+    },
+    {
+      "id": "v-0206",
+      "word": "unfortunately",
+      "pos": "adverb",
+      "forms": [
+        "unfortunately"
+      ],
+      "stress": [
+        "un-FOR-chuh-nit-lee"
+      ],
+      "fa": {
+        "meaning": "متأسفانه",
+        "note": "برای شروع مؤدبانه‌ی یک خبر بد: «Unfortunately, we're fully booked». در ایمیل و گفتار کاری خیلی رایج است."
+      },
+      "examples": [
+        {
+          "text": "Unfortunately, we're fully booked on Saturday.",
+          "fa": "متأسفانه شنبه جا نداریم."
+        },
+        {
+          "text": "Unfortunately, I can't make it to the party.",
+          "fa": "متأسفانه نمی‌توانم به مهمانی بیایم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ənˈfɔɹtʃənətli"
+    },
+    {
+      "id": "v-0207",
+      "word": "meanwhile",
+      "pos": "adverb",
+      "forms": [
+        "meanwhile"
+      ],
+      "stress": [
+        "MEEN-wile"
+      ],
+      "fa": {
+        "meaning": "در این بین؛ در همین حال؛ در عین حال",
+        "note": "برای دو اتفاق هم‌زمان: «I cooked; meanwhile, he cleaned». یا برای پر کردن زمان: «The bus is late; meanwhile, let's grab a coffee»."
+      },
+      "examples": [
+        {
+          "text": "I'll cook dinner. Meanwhile, you can set the table.",
+          "fa": "من شام را می‌پزم. در همین حال تو می‌توانی میز را بچینی."
+        },
+        {
+          "text": "Prices went up; meanwhile, salaries stayed the same.",
+          "fa": "قیمت‌ها بالا رفت؛ در همین حال حقوق‌ها همان ماند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈminˌwaɪl"
+    },
+    {
+      "id": "v-0208",
+      "word": "no wonder",
+      "pos": "phrase",
+      "forms": [
+        "no wonder"
+      ],
+      "stress": [
+        "NO WUN-der"
+      ],
+      "fa": {
+        "meaning": "عجیب نیست؛ جای تعجب نیست",
+        "note": "وقتی دلیل چیزی را می‌فهمی: «No wonder you're tired — you only slept four hours!» = عجیب نیست که خسته‌ای. بعدش یک جمله‌ی کامل می‌آید."
+      },
+      "examples": [
+        {
+          "text": "No wonder you're tired; you only slept four hours.",
+          "fa": "عجیب نیست که خسته‌ای؛ فقط چهار ساعت خوابیده‌ای."
+        },
+        {
+          "text": "It's raining again, so no wonder the streets are empty.",
+          "fa": "باز باران می‌آید، پس عجیب نیست که خیابان‌ها خالی است."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈnoʊ ˈwʌndɚ"
+    },
+    {
+      "id": "v-0209",
+      "word": "fed up",
+      "pos": "adjective",
+      "forms": [
+        "fed up"
+      ],
+      "stress": [
+        "FED UP"
+      ],
+      "fa": {
+        "meaning": "خسته و بیزار؛ به ستوه آمده",
+        "note": "غیررسمی؛ بعد از مدت‌ها تحمل: «I'm fed up with the noise» = از این سروصدا به ستوه آمده‌ام. همیشه با with یا of می‌آید."
+      },
+      "examples": [
+        {
+          "text": "I'm fed up with this rainy weather.",
+          "fa": "از این هوای بارانی به ستوه آمده‌ام."
+        },
+        {
+          "text": "She's fed up with waiting for an answer.",
+          "fa": "از منتظر ماندن برای جواب خسته و بیزار شده است."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈfɛd ˈʌp"
+    },
+    {
+      "id": "v-0210",
+      "word": "kind of",
+      "pos": "adverb",
+      "forms": [
+        "kind of"
+      ],
+      "stress": [
+        "KIND uv"
+      ],
+      "fa": {
+        "meaning": "یک جورایی؛ تا حدی؛ یه کم",
+        "note": "در گفتار برای نرم کردن حرف: «It's kind of expensive» = یه کم گران است. «kind of» و «sort of» تقریباً یکی‌اند. در نوشتار غیررسمی kinda هم می‌بینی."
+      },
+      "examples": [
+        {
+          "text": "I'm kind of tired, so let's stay home tonight.",
+          "fa": "یه کم خسته‌ام، پس امشب خانه بمانیم."
+        },
+        {
+          "text": "It was kind of funny, but also a bit sad.",
+          "fa": "یک جورایی بامزه بود ولی کمی هم غم‌انگیز."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈkaɪnd ʌv"
+    },
+    {
+      "id": "v-0211",
+      "word": "on purpose",
+      "pos": "phrase",
+      "forms": [
+        "on purpose"
+      ],
+      "stress": [
+        "on PUR-pus"
+      ],
+      "fa": {
+        "meaning": "عمداً؛ از قصد",
+        "note": "ضدش by accident است: «I didn't do it on purpose» = از عمد نبود. عبارت ثابت است و the یا a نمی‌گیرد."
+      },
+      "examples": [
+        {
+          "text": "I'm sorry, I didn't do it on purpose.",
+          "fa": "ببخشید، از قصد نبود."
+        },
+        {
+          "text": "He left his phone at home on purpose.",
+          "fa": "او گوشی‌اش را عمداً در خانه جا گذاشت."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɑn ˈpɝpəs"
+    },
+    {
+      "id": "v-0212",
+      "word": "by accident",
+      "pos": "phrase",
+      "forms": [
+        "by accident"
+      ],
+      "stress": [
+        "bye AK-sih-dunt"
+      ],
+      "fa": {
+        "meaning": "تصادفاً؛ سهواً؛ اتفاقی",
+        "note": "ضدش on purpose است: «I deleted the file by accident». معادل نزدیکش by mistake است. بدون a و the می‌آید."
+      },
+      "examples": [
+        {
+          "text": "I deleted the whole folder by accident.",
+          "fa": "کل پوشه را سهواً پاک کردم."
+        },
+        {
+          "text": "We met by accident at the station.",
+          "fa": "تصادفاً در ایستگاه همدیگر را دیدیم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "baɪ ˈæksədənt"
+    },
+    {
+      "id": "v-0213",
+      "word": "in a hurry",
+      "pos": "phrase",
+      "forms": [
+        "in a hurry"
+      ],
+      "stress": [
+        "in uh HER-ee"
+      ],
+      "fa": {
+        "meaning": "عجله داشتن",
+        "note": "عبارت ثابت با a: «I'm in a hurry» = عجله دارم؛ «There's no hurry» = عجله‌ای نیست. فعل: hurry up = عجله کن."
+      },
+      "examples": [
+        {
+          "text": "Sorry, I can't stay. I'm in a hurry.",
+          "fa": "ببخشید، نمی‌توانم بمانم. عجله دارم."
+        },
+        {
+          "text": "People are always in a hurry in the morning.",
+          "fa": "مردم صبح‌ها همیشه عجله دارند."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɪn ə ˈhɝi"
+    },
+    {
+      "id": "v-0214",
+      "word": "get the hang of",
+      "pos": "phrase",
+      "forms": [
+        "get the hang of",
+        "gets the hang of",
+        "got the hang of",
+        "getting the hang of"
+      ],
+      "stress": [
+        "GET thuh HANG uv"
+      ],
+      "fa": {
+        "meaning": "دست‌ش آمدن؛ کم‌کم یاد گرفتن (طرز کار)",
+        "note": "وقتی کم‌کم یاد می‌گیری چطور کاری را انجام بدهی: «I'm getting the hang of Dutch». غیررسمی و دلگرم‌کننده است. بعد از of اسم یا -ing می‌آید."
+      },
+      "examples": [
+        {
+          "text": "It's tricky at first, but you'll get the hang of it.",
+          "fa": "اولش سخت است ولی کم‌کم دستت می‌آید."
+        },
+        {
+          "text": "I'm finally getting the hang of the bus system here.",
+          "fa": "بالاخره دارم سیستم اتوبوس اینجا را یاد می‌گیرم."
+        }
+      ],
+      "register": "informal",
+      "ipa": "ˈɡɛt ðə ˈhæŋ ʌv"
+    },
+    {
+      "id": "v-0215",
+      "word": "afford",
+      "pos": "verb",
+      "forms": [
+        "afford",
+        "affords",
+        "afforded",
+        "affording"
+      ],
+      "stress": [
+        "uh-FORD"
+      ],
+      "fa": {
+        "meaning": "از عهده‌ی خرج برآمدن؛ توان مالی داشتن",
+        "note": "معمولاً با can/can't: «I can't afford a new laptop». بعدش to + فعل هم می‌آید: «I can't afford to wait». صفتش affordable است."
+      },
+      "examples": [
+        {
+          "text": "I can't afford a new laptop right now.",
+          "fa": "الان نمی‌توانم یک لپ‌تاپ جدید بخرم."
+        },
+        {
+          "text": "Can we afford to take a holiday this year?",
+          "fa": "می‌توانیم امسال از پس خرج تعطیلات بربیاییم؟"
+        }
+      ],
+      "register": "neutral",
+      "ipa": "əˈfɔɹd"
+    },
+    {
+      "id": "v-0216",
+      "word": "borrow",
+      "pos": "verb",
+      "forms": [
+        "borrow",
+        "borrows",
+        "borrowed",
+        "borrowing"
+      ],
+      "stress": [
+        "BAHR-oh"
+      ],
+      "fa": {
+        "meaning": "قرض گرفتن؛ امانت گرفتن",
+        "note": "یعنی از کسی چیزی گرفتن و بعداً پس دادن. ضدش lend است (دادن). «Can I borrow your pen?» درست است، «Can you borrow me…» غلط."
+      },
+      "examples": [
+        {
+          "text": "Can I borrow your charger for a few minutes?",
+          "fa": "می‌توانم چند دقیقه شارژرت را قرض بگیرم؟"
+        },
+        {
+          "text": "She borrowed a few books from the library.",
+          "fa": "او چند کتاب از کتابخانه امانت گرفت."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈbɑˌɹoʊ"
+    },
+    {
+      "id": "v-0217",
+      "word": "complain",
+      "pos": "verb",
+      "forms": [
+        "complain",
+        "complains",
+        "complained",
+        "complaining"
+      ],
+      "stress": [
+        "kum-PLAIN"
+      ],
+      "fa": {
+        "meaning": "شکایت کردن؛ غر زدن",
+        "note": "با about: «complain about the noise». شکایت رسمی: «make a complaint». غر زدن بی‌دلیل: «Stop complaining!». اسمش complaint است."
+      },
+      "examples": [
+        {
+          "text": "Customers keep complaining about the long waiting times.",
+          "fa": "مشتری‌ها مدام از زمان انتظار طولانی شکایت می‌کنند."
+        },
+        {
+          "text": "I don't want to complain, but the soup is cold.",
+          "fa": "نمی‌خواهم غر بزنم، ولی سوپ سرد است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "kəmˈpleɪn"
+    },
+    {
+      "id": "v-0218",
+      "word": "forgive",
+      "pos": "verb",
+      "forms": [
+        "forgive",
+        "forgives",
+        "forgave",
+        "forgiven",
+        "forgiving"
+      ],
+      "stress": [
+        "fer-GIV"
+      ],
+      "fa": {
+        "meaning": "بخشیدن",
+        "note": "بخشیدن خطای کسی: «I forgave him». شکل‌ها: forgive – forgave – forgiven. «Forgive me» کمی رسمی است؛ در گفتار «sorry» یا «excuse me» رایج‌تر است."
+      },
+      "examples": [
+        {
+          "text": "I know you didn't mean it, so I forgive you.",
+          "fa": "می‌دانم قصد نداشتی، پس می‌بخشمت."
+        },
+        {
+          "text": "It took her a long time to forgive him.",
+          "fa": "مدت زیادی طول کشید تا او را ببخشد."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "fɚˈɡɪv"
+    },
+    {
+      "id": "v-0219",
+      "word": "refuse",
+      "pos": "verb",
+      "forms": [
+        "refuse",
+        "refuses",
+        "refused",
+        "refusing"
+      ],
+      "stress": [
+        "rih-FYOOZ"
+      ],
+      "fa": {
+        "meaning": "رد کردن؛ امتناع کردن",
+        "note": "با to + فعل: «She refused to help» = حاضر نشد کمک کند. «refuse an offer» = پیشنهاد را رد کردن. دقت: refuse به‌عنوان اسم (زباله) تلفظ دیگری دارد."
+      },
+      "examples": [
+        {
+          "text": "He refused to sign the contract without a lawyer.",
+          "fa": "او حاضر نشد قرارداد را بدون وکیل امضا کند."
+        },
+        {
+          "text": "I refuse to pay that much for a coffee.",
+          "fa": "حاضر نیستم برای یک قهوه آن‌قدر پول بدهم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɹəˈfjuz"
+    },
+    {
+      "id": "v-0220",
+      "word": "recommend",
+      "pos": "verb",
+      "forms": [
+        "recommend",
+        "recommends",
+        "recommended",
+        "recommending"
+      ],
+      "stress": [
+        "rek-uh-MEND"
+      ],
+      "fa": {
+        "meaning": "توصیه کردن؛ معرفی کردن (چیز خوب)",
+        "note": "برای معرفی چیز خوب: «Can you recommend a good restaurant?». بعدش اسم یا -ing می‌آید: «I recommend trying it». اسمش recommendation است."
+      },
+      "examples": [
+        {
+          "text": "Can you recommend a good restaurant near here?",
+          "fa": "می‌توانی یک رستوران خوب این اطراف پیشنهاد بدهی؟"
+        },
+        {
+          "text": "My teacher recommended reading Dutch news every day.",
+          "fa": "معلمم توصیه کرد هر روز خبر هلندی بخوانم."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˌɹɛkəˈmɛnd"
+    }
+  ]
+}
