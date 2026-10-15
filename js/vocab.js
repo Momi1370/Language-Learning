@@ -4,7 +4,7 @@ import { localDate } from './session.js';
 export const VOCAB_REVIEW_CAP = 10;
 
 export const isVocabId = (id) => /^v-\d{4}$/.test(id);
-export const wordsOf = (packs) => packs.flatMap((p) => p.words);
+export const wordsOf = (packs) => packs.flatMap((p) => p.words.map((w) => ({ ...w, track: p.track ?? 'everyday' })));
 export const indexVocab = (packs) => Object.fromEntries(wordsOf(packs).map((w) => [w.id, w]));
 
 export function statusOf(state, id) {
@@ -13,13 +13,24 @@ export function statusOf(state, id) {
   return 'new';
 }
 
-// The day's batch: the next N undecided words, kept for the whole calendar day.
-// With no words loaded nothing is stored, so a failed load cannot use up the day.
+// The day's batch: the next N undecided words of the chosen section, kept for the whole calendar day
+// (choosing the other section draws that section's batch instead). With no words loaded nothing
+// is stored, so a failed load cannot use up the day.
 export function ensureBatch(state, words, now = new Date()) {
   const date = localDate(now);
-  if (state.vocab.day.date === date || !words.length) return state;
-  const ids = words.filter((w) => statusOf(state, w.id) === 'new').slice(0, state.settings.vocabPerDay).map((w) => w.id);
-  return { ...state, vocab: { ...state.vocab, day: { date, ids } } };
+  const track = state.settings.vocabTrack;
+  const day = state.vocab.day;
+  if ((day.date === date && day.track === track) || !words.length) return state;
+  const ids = words.filter((w) => w.track === track && statusOf(state, w.id) === 'new').slice(0, state.settings.vocabPerDay).map((w) => w.id);
+  return { ...state, vocab: { ...state.vocab, day: { date, track, ids } } };
+}
+
+export const newCount = (state, words, track) => words.filter((w) => w.track === track && statusOf(state, w.id) === 'new').length;
+
+// The quick sort: the words you did not tick are known, the ticked ones stay to be taught one by one.
+export function settleBatch(state, unknownIds) {
+  const keep = new Set(unknownIds);
+  return batchLeft(state).filter((id) => !keep.has(id)).reduce(markKnown, state);
 }
 
 export const batchLeft = (state) => state.vocab.day.ids.filter((id) => statusOf(state, id) === 'new');

@@ -5,7 +5,7 @@ import { newCard } from '../js/srs.js';
 import { cardView } from '../js/cards.js';
 import {
   VOCAB_REVIEW_CAP, isVocabId, wordsOf, indexVocab, statusOf, ensureBatch, batchLeft, markKnown, teach,
-  searchVocab, vocabCounts, reviewKey, reviewsLeft, capQueue, countReview,
+  searchVocab, vocabCounts, newCount, settleBatch, reviewKey, reviewsLeft, capQueue, countReview,
 } from '../js/vocab.js';
 
 const id = (n) => `v-${String(n).padStart(4, '0')}`;
@@ -14,7 +14,10 @@ const word = (n) => ({
   fa: { meaning: `معنی ${n}`, note: 'نکته' },
   examples: [{ text: `This is word${n} here today.`, fa: 'الف' }, { text: `Use word${n} in a sentence now.`, fa: 'ب' }],
 });
-const packs = [{ pack: 1, words: Array.from({ length: 12 }, (_, i) => word(i + 1)) }];
+const packs = [
+  { pack: 1, track: 'everyday', words: Array.from({ length: 12 }, (_, i) => word(i + 1)) },
+  { pack: 2, track: 'university', words: Array.from({ length: 6 }, (_, i) => word(i + 21)) },
+];
 const words = wordsOf(packs);
 const day1 = new Date('2026-10-16T09:00:00');
 const day2 = new Date('2026-10-17T09:00:00');
@@ -26,16 +29,64 @@ test('isVocabId recognises vocabulary card ids only', () => {
   assert.ok(!isVocabId('nl-01-001'));
 });
 
-test('the day’s batch is the next 5 undecided words in pack order, stored with the date', () => {
+test('wordsOf gives each word the section of its pack', () => {
+  assert.equal(words.length, 18);
+  assert.equal(words[0].track, 'everyday');
+  assert.equal(words[12].track, 'university');
+  assert.equal(indexVocab(packs)[id(21)].track, 'university');
+});
+
+test('the day’s batch is the next 10 undecided words of the chosen section in pack order, stored with the date', () => {
   const s = ensureBatch(defaultState(), words, day1);
-  assert.deepEqual(s.vocab.day, { date: '2026-10-16', ids: ids(1, 2, 3, 4, 5) });
-  assert.deepEqual(batchLeft(s), ids(1, 2, 3, 4, 5));
+  assert.deepEqual(s.vocab.day, { date: '2026-10-16', track: 'everyday', ids: ids(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) });
+  assert.deepEqual(batchLeft(s), ids(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+});
+
+test('the university section draws only from university packs', () => {
+  const s0 = defaultState();
+  const s = ensureBatch({ ...s0, settings: { ...s0.settings, vocabTrack: 'university' } }, words, day1);
+  assert.deepEqual(s.vocab.day, { date: '2026-10-16', track: 'university', ids: ids(21, 22, 23, 24, 25, 26) });
+});
+
+test('switching section during the day draws a new batch; switching back draws it again', () => {
+  const a = ensureBatch(defaultState(), words, day1);
+  const uni = { ...a, settings: { ...a.settings, vocabTrack: 'university' } };
+  const b = ensureBatch(uni, words, day1);
+  assert.equal(b.vocab.day.track, 'university');
+  assert.deepEqual(b.vocab.day.ids, ids(21, 22, 23, 24, 25, 26));
+  const back = ensureBatch({ ...b, settings: { ...b.settings, vocabTrack: 'everyday' } }, words, day1);
+  assert.deepEqual(back.vocab.day.ids, ids(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+});
+
+test('newCount counts the undecided words of a section', () => {
+  let s = markKnown(defaultState(), id(1));
+  s = teach(s, id(2), day1);
+  assert.equal(newCount(s, words, 'everyday'), 10);
+  assert.equal(newCount(s, words, 'university'), 6);
+});
+
+test('settleBatch marks the words you did not tick as known and leaves the ticked ones to learn', () => {
+  const s0 = ensureBatch(defaultState(), words, day1);
+  const s = settleBatch(s0, ids(2, 5));
+  assert.deepEqual(batchLeft(s), ids(2, 5));
+  assert.equal(statusOf(s, id(1)), 'known');
+  assert.equal(statusOf(s, id(3)), 'known');
+  assert.equal(statusOf(s, id(2)), 'new');
+  assert.equal(statusOf(s, id(11)), 'new', 'words outside the batch are untouched');
+  assert.deepEqual(s.cards, {});
+});
+
+test('settleBatch with no ticks marks the whole batch known, and ignores ticks outside the batch', () => {
+  const s0 = ensureBatch(defaultState(), words, day1);
+  assert.deepEqual(batchLeft(settleBatch(s0, [])), []);
+  assert.equal(settleBatch(s0, []).vocab.known.length, 10);
+  assert.equal(statusOf(settleBatch(s0, [id(15)]), id(15)), 'new');
 });
 
 test('reopening on the same day gives exactly the same batch, even if the setting changed', () => {
   const s = ensureBatch(defaultState(), words, day1);
   assert.equal(ensureBatch(s, words, day1), s);
-  const bigger = { ...s, settings: { ...s.settings, vocabPerDay: 10 } };
+  const bigger = { ...s, settings: { ...s.settings, vocabPerDay: 15 } };
   assert.equal(ensureBatch(bigger, words, day1), bigger);
 });
 
@@ -44,7 +95,7 @@ test('the next day gives the next undecided words; words skipped yesterday come 
   s = markKnown(s, id(1));
   s = teach(s, id(2), day1);
   s = ensureBatch(s, words, day2);
-  assert.deepEqual(s.vocab.day, { date: '2026-10-17', ids: ids(3, 4, 5, 6, 7) });
+  assert.deepEqual(s.vocab.day, { date: '2026-10-17', track: 'everyday', ids: ids(3, 4, 5, 6, 7, 8, 9, 10, 11, 12) });
 });
 
 test('with no words loaded, no batch is stored for the day (a failed load must not use up the day)', () => {
@@ -75,13 +126,13 @@ test('batchLeft hides decided words', () => {
   let s = ensureBatch(defaultState(), words, day1);
   s = markKnown(s, id(1));
   s = teach(s, id(3), day1);
-  assert.deepEqual(batchLeft(s), ids(2, 4, 5));
+  assert.deepEqual(batchLeft(s), ids(2, 4, 5, 6, 7, 8, 9, 10));
 });
 
 test('search finds a word by its English spelling or its Farsi meaning', () => {
   assert.deepEqual(searchVocab(words, 'WORD1').map((w) => w.id), ids(1, 10, 11, 12));
   assert.deepEqual(searchVocab(words, 'معنی 7').map((w) => w.id), ids(7));
-  assert.equal(searchVocab(words, '  ').length, 12);
+  assert.equal(searchVocab(words, '  ').length, 18);
   assert.deepEqual(searchVocab(words, 'zzz'), []);
 });
 

@@ -1,4 +1,5 @@
 import { TOTAL_WEEKS, SESSIONS_PER_WEEK } from './session.js';
+import { TRACKS } from './vocabtext.js';
 
 export const STORAGE_KEY = 'taalmaatje.v1';
 
@@ -8,10 +9,10 @@ export function defaultState() {
     position: { week: 1, session: 1 },
     done: [],
     history: [],
-    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 5 },
+    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 10, vocabTrack: 'everyday' },
     cards: {},
     myPhrases: [],
-    vocab: { known: [], day: { date: '', ids: [] }, reviews: { key: '', count: 0 } },
+    vocab: { known: [], day: { date: '', track: 'everyday', ids: [] }, reviews: { key: '', count: 0 }, perDayReset: true },
     ear: {},
     missions: {},
     extraFor: '',
@@ -19,6 +20,7 @@ export function defaultState() {
   };
 }
 
+export const PER_DAY = [3, 5, 10, 15];
 const isObject = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v);
 const isText = (v) => typeof v === 'string';
 const inRange = (n, max) => Number.isInteger(n) && n >= 1 && n <= max;
@@ -42,14 +44,19 @@ export function migrate(raw) {
       voiceNl: isText(s.voiceNl) ? s.voiceNl : base.settings.voiceNl,
       voiceEn: isText(s.voiceEn) ? s.voiceEn : base.settings.voiceEn,
       extraWords: Number.isInteger(s.extraWords) && s.extraWords >= 0 ? s.extraWords : base.settings.extraWords,
-      vocabPerDay: [3, 5, 10].includes(s.vocabPerDay) ? s.vocabPerDay : base.settings.vocabPerDay,
+      // 5 was the first default; it moves to 10 once (perDayReset), and a later choice of 5 is kept.
+      vocabPerDay: !PER_DAY.includes(s.vocabPerDay) ? base.settings.vocabPerDay : s.vocabPerDay === 5 && v.perDayReset !== true ? 10 : s.vocabPerDay,
+      vocabTrack: TRACKS.includes(s.vocabTrack) ? s.vocabTrack : base.settings.vocabTrack,
     },
     cards: pick('cards', isObject),
     myPhrases: pick('myPhrases', (v) => Array.isArray(v) && v.every((p) => isObject(p) && isText(p.id) && isText(p.text))),
     vocab: {
       known: Array.isArray(v.known) && v.known.every(isText) ? v.known : base.vocab.known,
-      day: isObject(v.day) && isText(v.day.date) && Array.isArray(v.day.ids) && v.day.ids.every(isText) ? v.day : base.vocab.day,
+      day: isObject(v.day) && isText(v.day.date) && Array.isArray(v.day.ids) && v.day.ids.every(isText)
+        ? { date: v.day.date, track: TRACKS.includes(v.day.track) ? v.day.track : 'everyday', ids: v.day.ids }
+        : base.vocab.day,
       reviews: isObject(v.reviews) && isText(v.reviews.key) && Number.isInteger(v.reviews.count) && v.reviews.count >= 0 ? v.reviews : base.vocab.reviews,
+      perDayReset: true,
     },
     ear: pick('ear', isObject),
     missions: pick('missions', isObject),

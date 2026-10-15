@@ -1,4 +1,8 @@
 // Text helpers for vocabulary examples. Pure: used by the app and by tools/vocab-schema.mjs.
+// The sections of the Words tab: each pack belongs to one.
+export const TRACKS = ['everyday', 'university'];
+export const TRACK_NAMES = { everyday: 'Everyday', university: 'University' };
+
 const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 // "figure … out" lets up to three words sit between the two parts ("figure it out").
