@@ -1,6 +1,6 @@
 import { clear, mount, h, button } from './dom.js';
 import { voicesFor, speak } from '../speech.js';
-import { buildExport, parseImport, defaultState } from '../store.js';
+import { buildExport, parseImport, defaultState, PER_DAY } from '../store.js';
 import { localDate } from '../session.js';
 import { audioCheck } from './audiocheck.js';
 
@@ -23,7 +23,7 @@ export function render(ctx, root) {
     h('p', { class: 'hint' }, 'Extra words come from a list of 1,946 common Dutch words (from the open-source app “woorden”). 0 = only the course chunks.'),
     h('label', { class: 'row' }, 'New English words per day',
       h('select', { onChange: (e) => set({ vocabPerDay: Number(e.target.value) }) },
-        [3, 5, 10].map((n) => h('option', { value: n, selected: n === s.vocabPerDay }, String(n))))),
+        PER_DAY.map((n) => h('option', { value: n, selected: n === s.vocabPerDay }, String(n))))),
     h('p', { class: 'hint' }, 'The Words tab gives you this many new English words each day.'),
     audioCheck(ctx),
     h('h2', {}, 'Backup'),

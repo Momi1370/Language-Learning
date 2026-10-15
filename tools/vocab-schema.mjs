@@ -1,6 +1,6 @@
 import { countWords } from './schema.mjs';
 import { ipaSyllableCount, ipaStressedSyllables } from './ipa.mjs';
-import { formMatches } from '../js/vocabtext.js';
+import { formMatches, TRACKS } from '../js/vocabtext.js';
 
 export const MIN_PACK_WORDS = 100;
 export const EXAMPLE_WORDS = { min: 5, max: 16 };
@@ -24,6 +24,7 @@ export function validateVocab(pack, { minWords } = {}) {
   const err = (m) => errors.push(m);
   if (!pack || typeof pack !== 'object') return ['file is not a JSON object'];
   if (!Number.isInteger(pack.pack) || pack.pack < 1) err('pack must be a number from 1');
+  if (!TRACKS.includes(pack.track)) err(`track must be one of ${TRACKS.join(', ')}`);
   if (!isText(pack.source)) err('source is required (credit for the word list and the IPA)');
   if (!Array.isArray(pack.words)) return [...errors, 'words must be a list'];
   const min = minWords ?? (pack.draft === true ? 1 : MIN_PACK_WORDS);

@@ -16,6 +16,12 @@ test('a pack needs 100 words unless it is a draft', () => {
   assert.deepEqual(validateVocab(draft), []);
 });
 
+test('every pack belongs to the everyday or the university section', () => {
+  assert.ok(has(pack((w, p) => { delete p.track; }), 'track must be'));
+  assert.ok(has(pack((w, p) => { p.track = 'sports'; }), 'track must be'));
+  assert.deepEqual(pack((w, p) => { p.track = 'university'; }), []);
+});
+
 test('a missing source credit is reported', () => assert.ok(has(pack((w, p) => { delete p.source; }), 'source is required')));
 
 test('one example is not enough and four are too many', () => {

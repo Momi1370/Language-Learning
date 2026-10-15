@@ -63,5 +63,5 @@ export function validVocabWord(n = 1) {
 }
 
 export function validVocabPack() {
-  return { pack: 1, source: 'Test source', words: [validVocabWord(1)] };
+  return { pack: 1, track: 'everyday', source: 'Test source', words: [validVocabWord(1)] };
 }

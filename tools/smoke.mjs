@@ -91,21 +91,30 @@ try {
   console.log(`${whole ? '✓' : '✗'} 🎯 Say it waits through a pause and hears the whole sentence`);
   if (!whole) console.log(`   - it showed: ${await b.evaluate(`document.querySelector('.check-result')?.textContent ?? '(nothing)'`)}`);
 
-  // Words tab: today's batch, "Teach me" makes a card, and reopening the tab shows the same batch.
+  // Words tab: today's batch is sorted by ticking the new words; "Teach me" makes a card; reopening keeps the batch.
   const vocabState = `(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); return s; })()`;
-  await check('index.html#/words', 'words', 'I know it', noPack);
-  const text = await b.text();
+  await check('index.html#/words', 'words', 'new to you', noPack);
   const batch = await b.evaluate(`${vocabState}.vocab.day.ids.join()`);
-  const batchOk = batch.split(',').length === 5 && /Teach me/.test(text) && /\/.+\//.test(text);
-  if (!batchOk) failed++;
-  console.log(`${batchOk ? '✓' : '✗'} Words tab shows 5 words for today with IPA and the triage buttons (${batch})`);
+  const boxes = await b.evaluate(`document.querySelectorAll('.sort-row input').length`);
+  const switcher = await b.evaluate(`[...document.querySelectorAll('button[aria-pressed]')].map((x) => x.textContent).join('|')`);
+  const sortOk = batch.split(',').length === 10 && boxes === 10 && /Everyday · \d+ new\|University · \d+ new/.test(switcher);
+  if (!sortOk) failed++;
+  console.log(`${sortOk ? '✓' : '✗'} Words tab shows 10 words to sort and the Everyday / University switch (${boxes} boxes; ${switcher})`);
+  await b.evaluate(`document.querySelector('.sort-row input').click()`);
+  const doneLabel = await b.evaluate(`document.querySelector('button.primary.wide').textContent`);
+  await b.click('Done — teach me 1 word');
+  const text = await b.text();
+  const known = await b.evaluate(`${vocabState}.vocab.known.length`);
+  const triageOk = doneLabel === 'Done — teach me 1 word' && known === 9 && /I know it/.test(text) && /Teach me/.test(text) && /\/.+\//.test(text);
+  if (!triageOk) failed++;
+  console.log(`${triageOk ? '✓' : '✗'} sorting marks the 9 unticked words known and leaves the ticked one with its IPA and the triage buttons (${known} known)`);
   await b.click('Teach me');
   const taught = await b.evaluate(`Object.keys(${vocabState}.cards).filter((id) => /^v-/.test(id)).join()`);
   const first = batch.split(',')[0];
   const cardOk = taught === first;
   if (!cardOk) failed++;
-  console.log(`${cardOk ? '✓' : '✗'} "Teach me" makes a card for the first word (${taught})`);
-  await check('index.html?again#/words', 'words', 'Today: 1 of 5 words done', noPack);
+  console.log(`${cardOk ? '✓' : '✗'} "Teach me" makes a card for the ticked word (${taught})`);
+  await check('index.html?again#/words', 'words', 'Today: 10 of 10 words done', noPack);
   const same = (await b.evaluate(`${vocabState}.vocab.day.ids.join()`)) === batch;
   if (!same) failed++;
   console.log(`${same ? '✓' : '✗'} reopening the Words tab keeps the same batch`);
@@ -118,8 +127,9 @@ try {
   await b.block([]);
 
   // Farsi hints off: the word page hides the Farsi note and translations but keeps the Farsi meaning.
-  await b.evaluate(`(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); s.settings.farsi = false; localStorage.setItem('taalmaatje.v1', JSON.stringify(s)); })()`);
-  await check('index.html?nofarsi#/words', 'words', 'I know it', noPack);
+  await b.evaluate(`(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); s.settings.farsi = false; s.vocab.day.date = ''; localStorage.setItem('taalmaatje.v1', JSON.stringify(s)); })()`);
+  await check('index.html?nofarsi#/words', 'words', 'new to you', noPack);
+  await b.click('Go through them one by one instead');
   const farsiCount = await b.evaluate(`document.querySelectorAll('.card.vocab .fa').length`);
   const hintsOff = farsiCount === 1;
   if (!hintsOff) failed++;

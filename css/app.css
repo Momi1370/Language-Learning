@@ -93,6 +93,9 @@ summary { cursor: pointer; color: var(--accent); min-height: 32px; }
 .vocab-word { font-size: 1.6rem; font-weight: 700; margin: 6px 0; flex: 1 1 auto; }
 .ipa { margin: 2px 0; }
 .example { border-top: 1px solid var(--line); margin-top: 10px; padding-top: 4px; }
+.sort-row { margin: 6px 0; padding: 4px 0; border-bottom: 1px solid var(--line); }
+.sort-row input { width: 22px; height: 22px; }
+.sort-word { font-weight: 700; font-size: 1.15rem; flex: 1 1 auto; }
 .vocab-actions { display: flex; gap: 8px; margin-top: 12px; }
 .vocab-actions button { flex: 1; }
 details > summary { cursor: pointer; padding: 8px 0; }
