@@ -5,7 +5,7 @@ import { newCard } from '../js/srs.js';
 import { cardView } from '../js/cards.js';
 import {
   VOCAB_REVIEW_CAP, isVocabId, wordsOf, indexVocab, statusOf, ensureBatch, batchLeft, markKnown, teach,
-  searchVocab, vocabCounts, newCount, settleBatch, reviewKey, reviewsLeft, capQueue, countReview,
+  searchVocab, vocabCounts, newCount, settleBatch, promptExample, reviewKey, reviewsLeft, capQueue, countReview,
 } from '../js/vocab.js';
 
 const id = (n) => `v-${String(n).padStart(4, '0')}`;
@@ -210,4 +210,11 @@ test('cardView gives a vocabulary card in English with the Farsi meaning as its 
   assert.equal(v.vocab.id, id(4));
   assert.equal(cardView(id(99), { chunkIndex: {}, wordIndex: {}, myPhrases: [], vocabIndex: indexVocab(packs) }), null);
   assert.equal(cardView(id(4), { chunkIndex: {}, wordIndex: {}, myPhrases: [] }), null, 'works without a vocabIndex');
+});
+
+test('the review prompt uses the present-tense example when a word has one, else the first', () => {
+  const w = word(1);
+  assert.equal(promptExample(w), w.examples[0]);
+  const w2 = { ...w, examples: [{ tense: 'past', text: 'a' }, { tense: 'present', text: 'b' }, { tense: 'future', text: 'c' }] };
+  assert.equal(promptExample(w2).text, 'b');
 });

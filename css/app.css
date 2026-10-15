@@ -93,6 +93,11 @@ summary { cursor: pointer; color: var(--accent); min-height: 32px; }
 .vocab-word { font-size: 1.6rem; font-weight: 700; margin: 6px 0; flex: 1 1 auto; }
 .ipa { margin: 2px 0; }
 .example { border-top: 1px solid var(--line); margin-top: 10px; padding-top: 4px; }
+.forms dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 14px; margin: 4px 0 10px; }
+.forms dt { color: var(--muted); font-size: .9rem; }
+.forms dd { margin: 0; font-weight: 600; }
+.tense-tag { display: inline-block; margin: 2px 0; padding: 1px 10px; border-radius: 999px; font-size: .8rem; font-weight: 700; background: color-mix(in srgb, var(--accent) 15%, transparent); color: var(--accent); }
+.grammar { font-size: .92rem; color: var(--muted); margin: 4px 0; }
 .sort-row { margin: 6px 0; padding: 4px 0; border-bottom: 1px solid var(--line); }
 .sort-row input { width: 22px; height: 22px; }
 .sort-word { font-weight: 700; font-size: 1.15rem; flex: 1 1 auto; }

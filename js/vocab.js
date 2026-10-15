@@ -79,3 +79,6 @@ export function countReview(state, key) {
   const r = state.vocab.reviews;
   return { ...state, vocab: { ...state.vocab, reviews: { key, count: (r.key === key ? r.count : 0) + 1 } } };
 }
+
+// The sentence a review shows with a gap: the present-tense one for words that have one example per tense.
+export const promptExample = (w) => w.examples.find((e) => e.tense === 'present') ?? w.examples[0];

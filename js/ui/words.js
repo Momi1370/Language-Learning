@@ -3,6 +3,8 @@ import { speakable, say, sayItCheck } from './widgets.js';
 import { ensureBatch, batchOf, batchLeft, markKnown, teach, statusOf, searchVocab, wordsOf, newCount, settleBatch } from '../vocab.js';
 import { TRACKS, TRACK_NAMES } from '../vocabtext.js';
 
+const TENSE_LABELS = { past: 'Past · گذشته', present: 'Present · حال', future: 'Future · آینده' };
+
 // One word: pronunciation, Farsi meaning and note, and the examples. Used here and in Cards.
 export function wordPage(ctx, w, { actions = null } = {}) {
   const farsi = ctx.state.settings.farsi;
@@ -17,9 +19,14 @@ export function wordPage(ctx, w, { actions = null } = {}) {
     h('p', { class: 'stress' }, 'Stress: ', w.stress.join(' · ')),
     fa(w.fa.meaning),
     farsi ? fa(w.fa.note) : null,
+    w.morph ? h('div', { class: 'forms' },
+      h('p', { class: 'label' }, 'Word forms ', h('span', { dir: 'rtl', lang: 'fa' }, '(شکل‌های کلمه)')),
+      h('dl', {}, w.morph.map(([label, text]) => [h('dt', {}, label), h('dd', { lang: 'en' }, text)]))) : null,
     w.examples.map((ex, i) => h('div', { class: 'example' },
+      ex.tense ? h('p', { class: 'tense-tag' }, TENSE_LABELS[ex.tense]) : null,
       speakable(ctx, ex.text, 'en'),
       farsi ? fa(ex.fa) : null,
+      farsi && ex.grammar ? h('p', { class: 'grammar', dir: 'rtl', lang: 'fa' }, ex.grammar) : null,
       i === 0 ? sayItCheck(ctx, ex.text, 'en') : null)),
     actions);
 }

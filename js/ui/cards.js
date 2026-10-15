@@ -2,7 +2,7 @@ import { clear, mount, h, button, fa } from './dom.js';
 import { speakable, sayItCheck, cardDetails, doneBar } from './widgets.js';
 import { wordPage } from './words.js';
 import { clozeOf } from '../vocabtext.js';
-import { isVocabId, capQueue, countReview, reviewKey } from '../vocab.js';
+import { isVocabId, promptExample, capQueue, countReview, reviewKey } from '../vocab.js';
 import { introduce, introduceExtraWords, grade, dueQueue, cardView, shouldRepeat, addMyPhrase, deleteMyPhrase } from '../cards.js';
 import { Grade } from '../srs.js';
 
@@ -80,7 +80,7 @@ export async function render(ctx, root) {
 
   function vocabReview(id, view) {
     const w = view.vocab;
-    const gap = clozeOf(w.examples[0].text, w.forms) ?? w.examples[0].text;
+    const gap = clozeOf(promptExample(w).text, w.forms) ?? promptExample(w).text;
     const answer = h('div', { hidden: true }, wordPage(ctx, w), h('p', { class: 'label' }, 'How well did you know it?'), gradeRow(id));
     const show = button('Show', () => { answer.hidden = false; show.remove(); }, { class: 'primary' });
     return h('div', { class: 'card' },

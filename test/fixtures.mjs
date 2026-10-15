@@ -65,3 +65,20 @@ export function validVocabWord(n = 1) {
 export function validVocabPack() {
   return { pack: 1, track: 'everyday', source: 'Test source', words: [validVocabWord(1)] };
 }
+
+// A format-2 word: word forms plus one example in each of the past, present and future with a Farsi grammar note.
+export function validVocabWord2(n = 1) {
+  return {
+    ...validVocabWord(n),
+    morph: [['Singular', 'stuff'], ['Plural', 'stuff (no plural)']],
+    examples: [
+      { tense: 'past', text: 'I left all my stuff in the car yesterday.', fa: 'دیروز همه‌ی وسایلم را توی ماشین جا گذاشتم.', grammar: 'گذشته‌ی ساده: برای کاری که تمام شده است.' },
+      { tense: 'present', text: 'My stuff is still in the car.', fa: 'وسایلم هنوز توی ماشین است.', grammar: 'حال ساده‌ی be: am/is/are.' },
+      { tense: 'future', text: 'I will move my stuff tomorrow.', fa: 'فردا وسایلم را جابه‌جا می‌کنم.', grammar: 'آینده با will: will + شکل ساده‌ی فعل.' },
+    ],
+  };
+}
+
+export function validVocabPack2() {
+  return { pack: 2, track: 'everyday', format: 2, source: 'Test source', words: [validVocabWord2(1)] };
+}

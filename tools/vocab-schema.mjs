@@ -9,6 +9,8 @@ export const DATED = [
   /\bwhom\b/i, /\bwhilst\b/i, /\b(?:i|you|he|she|it|we|they) shall\b/i, /\bought to\b/i, /\bupon\b/i,
   /\bthus\b/i, /\bperchance\b/i, /\bi dare say\b/i, /\bone must\b/i, /\bthou\b/i, /\bhenceforth\b/i,
 ];
+const TENSES = ['past', 'present', 'future'];
+const FUTURE = /(?:'ll|’ll|\bwill\b|\bwon't\b|\bgoing to\b)/i;
 const REGISTERS = ['informal', 'neutral', 'formal'];
 const isText = (v) => typeof v === 'string' && v.trim().length > 0;
 const isFarsi = (v) => isText(v) && /[؀-ۿ]/.test(v);
@@ -57,7 +59,13 @@ export function validateVocab(pack, { minWords } = {}) {
       }
     }
 
-    if (!Array.isArray(w.examples) || w.examples.length < 2 || w.examples.length > 3) err(`${where}.examples needs 2 or 3 examples`);
+    const format2 = pack.format === 2;
+    if (format2) {
+      if (!Array.isArray(w.morph) || w.morph.length < 2) err(`${where}.morph needs at least 2 word forms`);
+      else w.morph.forEach((m, k) => { if (!Array.isArray(m) || m.length !== 2 || !m.every(isText)) err(`${where}.morph[${k}] must be [label, text]`); });
+      const tenses = (w.examples ?? []).map((ex) => ex?.tense).sort().join();
+      if (!Array.isArray(w.examples) || w.examples.length !== 3 || tenses !== [...TENSES].sort().join()) err(`${where}.examples needs one example each for past, present and future`);
+    } else if (!Array.isArray(w.examples) || w.examples.length < 2 || w.examples.length > 3) err(`${where}.examples needs 2 or 3 examples`);
     (w.examples ?? []).forEach((ex, k) => {
       if (!isText(ex.text)) return err(`${where}.examples[${k}].text is required`);
       const n = countWords(ex.text);
@@ -68,6 +76,11 @@ export function validateVocab(pack, { minWords } = {}) {
         if (m) err(`${where}.examples[${k}] uses old-fashioned English: "${m[0]}"`);
       }
       if (!isFarsi(ex.fa)) err(`${where}.examples[${k}].fa must be Farsi text`);
+      if (format2) {
+        if (!TENSES.includes(ex.tense)) err(`${where}.examples[${k}].tense must be past, present or future`);
+        else if (ex.tense === 'future' && !FUTURE.test(ex.text)) err(`${where}.examples[${k}] future example needs will, 'll or going to`);
+        if (!isFarsi(ex.grammar)) err(`${where}.examples[${k}].grammar must be Farsi text`);
+      }
     });
   });
   return errors;

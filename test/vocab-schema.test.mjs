@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { validateVocab, findVocabRepeats, courseOverlap } from '../tools/vocab-schema.mjs';
-import { validVocabPack, validVocabWord } from './fixtures.mjs';
+import { validVocabPack, validVocabWord, validVocabPack2 } from './fixtures.mjs';
 
 const has = (errors, text) => errors.some((e) => e.includes(text));
 const one = { minWords: 1 };
@@ -85,3 +85,28 @@ test('a word already taught in an English week is reported', () => {
   assert.deepEqual(courseOverlap([{ pack: 1, words: [catchWord] }], [week]), ['v-0005 "catch" is already taught in en-02-008']);
   assert.deepEqual(courseOverlap([validVocabPack()], [week]), []);
 });
+
+const pack2 = (change) => { const p = validVocabPack2(); change(p.words[0], p); return validateVocab(p, one); };
+
+test('a complete format-2 pack has no errors', () => assert.deepEqual(validateVocab(validVocabPack2(), one), []));
+
+test('format 2 needs exactly one past, one present and one future example', () => {
+  assert.ok(has(pack2((w) => { w.examples.pop(); }), 'one example each for past, present and future'));
+  assert.ok(has(pack2((w) => { w.examples[1].tense = 'past'; }), 'one example each for past, present and future'));
+  assert.ok(has(pack2((w) => { w.examples[0].tense = 'perfect'; }), 'tense must be past, present or future'));
+});
+
+test('format 2: the future example must use will, \'ll or going to', () => {
+  assert.ok(has(pack2((w) => { w.examples[2].text = 'I move my stuff tomorrow morning.'; }), 'future example needs will'));
+  assert.deepEqual(pack2((w) => { w.examples[2].text = "I'll move my stuff tomorrow."; }), []);
+  assert.deepEqual(pack2((w) => { w.examples[2].text = 'I am going to move my stuff tomorrow.'; }), []);
+});
+
+test('format 2 needs word forms and a Farsi grammar note on every example', () => {
+  assert.ok(has(pack2((w) => { delete w.morph; }), 'morph needs at least 2 word forms'));
+  assert.ok(has(pack2((w) => { w.morph = [['Singular', 'stuff'], ['Plural']]; }), 'morph[1] must be [label, text]'));
+  assert.ok(has(pack2((w) => { delete w.examples[1].grammar; }), 'examples[1].grammar must be Farsi text'));
+  assert.ok(has(pack2((w) => { w.examples[0].grammar = 'past simple'; }), 'examples[0].grammar must be Farsi text'));
+});
+
+test('format 1 packs still need no forms or tenses', () => assert.deepEqual(validateVocab(validVocabPack(), one), []));
