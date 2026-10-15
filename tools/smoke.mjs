@@ -126,6 +126,37 @@ try {
   console.log(`${hintsOff ? '✓' : '✗'} with Farsi hints off the word page keeps only the Farsi meaning (${farsiCount} Farsi line)`);
   await b.evaluate(`(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); s.settings.farsi = true; localStorage.setItem('taalmaatje.v1', JSON.stringify(s)); })()`);
 
+  // Vocabulary in the Cards block: a new card shows the word page; reviews show the Farsi meaning and a gap.
+  // A finished course adds no new course cards, and the earlier screens' course cards are removed,
+  // so only vocabulary cards are due.
+  await b.evaluate(`(() => {
+    const s = JSON.parse(localStorage.getItem('taalmaatje.v1'));
+    s.finished = true;
+    s.cards = Object.fromEntries(Object.entries(s.cards).filter(([id]) => /^v-/.test(id)));
+    localStorage.setItem('taalmaatje.v1', JSON.stringify(s));
+  })()`);
+  await check('index.html?cards#/block/cards', 'block/cards', 'NEW · ENGLISH WORD', noPack);
+  await b.evaluate(`(() => {
+    const s = JSON.parse(localStorage.getItem('taalmaatje.v1'));
+    const template = s.cards[Object.keys(s.cards).find((id) => /^v-/.test(id))];
+    for (let n = 1; n <= 12; n++) s.cards['v-' + String(n).padStart(4, '0')] = { ...template, due: '2020-01-01T00:00:00.000Z', reps: 3 };
+    s.vocab.reviews = { key: '', count: 0 };
+    localStorage.setItem('taalmaatje.v1', JSON.stringify(s));
+  })()`);
+  await check('index.html?cap#/block/cards', 'block/cards', '10 cards to review', noPack);
+  const review = await b.text();
+  const reviewOk = /say the english word/i.test(review) && /____/.test(review);
+  if (!reviewOk) failed++;
+  console.log(`${reviewOk ? '✓' : '✗'} a vocabulary review shows the Farsi meaning and the example with a gap`);
+  await b.click('Show');
+  await b.click('Good');
+  const left = await b.waitFor(`/9 cards to review|say the english word/i.test(document.querySelector('main').innerText)`, 3000);
+  const counted = await b.evaluate(`JSON.parse(localStorage.getItem('taalmaatje.v1')).vocab.reviews.count`);
+  if (!left || counted !== 1) failed++;
+  console.log(`${left && counted === 1 ? '✓' : '✗'} grading a vocabulary card counts one review toward the cap of 10 (${counted})`);
+  await check('index.html#/settings', 'settings', 'New English words per day');
+  await check('index.html#/progress', 'progress', '📚 Words:');
+
   // Leaving a line while recording must turn the microphone off.
   await check('tools/set-position.html?week=1&session=1&to=block/listen', 'block/listen', 'Line 1 of');
   await b.evaluate(`(() => {

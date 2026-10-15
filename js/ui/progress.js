@@ -1,12 +1,14 @@
 import { mount, h } from './dom.js';
 import { isLearned } from '../srs.js';
 import { streak } from '../session.js';
+import { vocabCounts } from '../vocab.js';
 
 const stat = (value, label) => h('div', { class: 'stat' }, h('b', {}, String(value)), label);
 
 export async function render(ctx, root) {
   const s = ctx.state;
   const learned = Object.values(s.cards).filter(isLearned).length;
+  const words = vocabCounts(s);
   const titles = Object.fromEntries((ctx.course?.weeks ?? []).map((w) => [w.sound.id, `${w.lang === 'nl' ? '🇧🇪' : '🇬🇧'} ${w.sound.title}`]));
   const ear = Object.entries(s.ear);
   mount(root,
@@ -16,6 +18,7 @@ export async function render(ctx, root) {
       stat(streak(s.history), 'day streak'),
       stat(learned, 'cards learned'),
       stat(s.myPhrases.length, 'my phrases')),
+    h('p', { class: 'muted' }, `📚 Words: ${words.learning} learning · ${words.known} known`),
     h('h2', {}, '👂 Ear quiz'),
     ear.length
       ? h('ul', {}, ear.map(([id, r]) => h('li', {}, `${titles[id] ?? id}: ${Math.round((100 * r.right) / r.total)}% (${r.right}/${r.total})`)))
