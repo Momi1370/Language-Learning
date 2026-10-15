@@ -58,3 +58,16 @@ test('fillIpa adds IPA, leaves existing IPA alone and lists words the dictionary
   assert.deepEqual(missing, ['zzz']);
   assert.equal(pack.words[2].ipa, 'x');
 });
+
+test('a variant pronunciation can be chosen with word(2), for words like "lead" (the verb)', () => {
+  const dict = parseCmudict('lead L EH1 D\nlead(2) L IY1 D\n');
+  assert.equal(ipaFor('lead', dict), 'ˈlɛd');
+  assert.equal(ipaFor('lead(2)', dict), 'ˈlid');
+});
+
+test('fillIpa looks the word up under its "cmu" field when it has one', () => {
+  const dict = parseCmudict('lead L EH1 D\nlead(2) L IY1 D\n');
+  const { pack } = fillIpa({ pack: 1, words: [{ word: 'lead', cmu: 'lead(2)' }, { word: 'lead' }] }, dict);
+  assert.equal(pack.words[0].ipa, 'ˈlid');
+  assert.equal(pack.words[1].ipa, 'ˈlɛd');
+});

@@ -55,6 +55,7 @@ export function parseCmudict(text) {
     if (!phones.length) continue;
     const word = head.replace(/\(\d+\)$/, '');
     if (!dict.has(word)) dict.set(word, phones);
+    if (head !== word) dict.set(head, phones); // variants stay reachable as "lead(2)"
   }
   return dict;
 }

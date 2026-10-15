@@ -1,4 +1,5 @@
 // Fills the "ipa" field of a vocabulary pack from the CMU Pronouncing Dictionary.
+// A word may carry "cmu": "lead(2)" to pick a variant (the dictionary's first one is not always the right sense).
 // Usage: node tools/vocab-ipa.mjs content/vocab/pack-01.json /path/to/cmudict.dict
 import { readFile, writeFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
@@ -8,7 +9,7 @@ export function fillIpa(pack, dict, { force = false } = {}) {
   const missing = [];
   const words = pack.words.map((w) => {
     if (w.ipa && !force) return w;
-    try { return { ...w, ipa: ipaFor(w.word, dict) }; } catch { missing.push(w.word); return w; }
+    try { return { ...w, ipa: ipaFor(w.cmu ?? w.word, dict) }; } catch { missing.push(w.word); return w; }
   });
   return { pack: { ...pack, words }, missing };
 }
