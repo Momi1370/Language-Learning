@@ -27,10 +27,11 @@ test('an unknown phone is an error, not a silent gap', () => {
   assert.throws(() => arpaToIpa(P('S Q AH1')), /Q/);
 });
 
-test('the dictionary parser keeps the first pronunciation and skips comments', () => {
+test('the dictionary parser uses the first pronunciation, keeps variants as word(2), and skips comments', () => {
   const dict = parseCmudict(';;; a comment\nhonestly AA1 N AH0 S T L IY0\nhonestly(2) AA1 N AH0 S L IY0\n');
   assert.deepEqual(dict.get('honestly'), ['AA1', 'N', 'AH0', 'S', 'T', 'L', 'IY0']);
-  assert.equal(dict.size, 1);
+  assert.deepEqual(dict.get('honestly(2)'), ['AA1', 'N', 'AH0', 'S', 'L', 'IY0']);
+  assert.equal(dict.size, 2);
 });
 
 test('a phrase is looked up word by word; a weak second word carries no stress mark', () => {
