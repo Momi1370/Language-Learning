@@ -65,7 +65,7 @@ export function teach(state, id, now = new Date()) {
 export function searchVocab(words, query) {
   const q = query.trim().toLowerCase();
   if (!q) return words;
-  return words.filter((w) => w.word.toLowerCase().includes(q) || w.fa.meaning.includes(q));
+  return words.filter((w) => w.word.toLowerCase().includes(q) || w.fa.meaning.includes(q) || (w.en ?? '').toLowerCase().includes(q));
 }
 
 export function vocabCounts(state) {

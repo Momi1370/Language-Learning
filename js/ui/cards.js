@@ -68,7 +68,7 @@ export async function render(ctx, root) {
   function newCard(id, view) {
     if (view.kind === 'vocab') {
       return h('div', { class: 'card' },
-        h('p', { class: 'label' }, 'New · English word'),
+        h('p', { class: 'label' }, `New · ${view.lang === 'nl' ? 'Dutch' : 'English'} word`),
         wordPage(ctx, view.vocab),
         button('Got it →', () => onGrade(id, Grade.Good), { class: 'primary' }));
     }
@@ -86,9 +86,9 @@ export async function render(ctx, root) {
     const answer = h('div', { hidden: true }, wordPage(ctx, w), h('p', { class: 'label' }, 'How well did you know it?'), gradeRow(id));
     const show = button('Show', () => { answer.hidden = false; show.remove(); }, { class: 'primary' });
     return h('div', { class: 'card' },
-      h('p', { class: 'label' }, 'Say the English word'),
+      h('p', { class: 'label' }, `Say the ${view.lang === 'nl' ? 'Dutch' : 'English'} word`),
       fa(w.fa.meaning),
-      h('p', { class: 'cloze', lang: 'en' }, gap),
+      h('p', { class: 'cloze', lang: view.lang }, gap),
       show, answer);
   }
 

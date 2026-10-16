@@ -33,6 +33,8 @@ const routes = {
   settings: settings.render,
   words: wordsUi.render,
   'words/list': wordsUi.renderList,
+  woorden: wordsUi.renderNl,
+  'woorden/list': wordsUi.renderListNl,
   roleplay: roleplay.render,
   'block/cards': cards.render,
   'block/sound': sound.render,
@@ -128,7 +130,7 @@ function showPosition() {
 async function render() {
   const route = location.hash.replace(/^#\/?/, '') || 'today';
   const view = routes[route] ?? routes.today;
-  document.querySelectorAll('[data-tab]').forEach((a) => a.classList.toggle('active', a.dataset.tab === route));
+  document.querySelectorAll('[data-tab]').forEach((a) => a.classList.toggle('active', a.dataset.tab === route.split('/')[0]));
   globalThis.speechSynthesis?.cancel?.();
   stopAllRecording();
   clear(root);

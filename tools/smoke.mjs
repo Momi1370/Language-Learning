@@ -31,8 +31,8 @@ async function check(path, route, expectText, allowedErrors = []) {
 }
 
 try {
-  const routes = ['today', 'block/cards', 'block/sound', 'block/listen', 'block/speak', 'block/grammar', 'block/english', 'roleplay', 'progress', 'settings', 'words', 'words/list'];
-  for (const r of routes) await check(`index.html#/${r}`, r, null, r.startsWith('words') || r === 'progress' ? noPack : []);
+  const routes = ['today', 'block/cards', 'block/sound', 'block/listen', 'block/speak', 'block/grammar', 'block/english', 'roleplay', 'progress', 'settings', 'words', 'words/list', 'woorden', 'woorden/list'];
+  for (const r of routes) await check(`index.html#/${r}`, r, null, r.startsWith('words') || r.startsWith('woorden') || r === 'progress' ? noPack : []);
   await check('tools/set-position.html?week=1&session=5&to=block/listen', 'block/listen', 'Limburg ear');
   await check('tools/set-position.html?week=1&session=5&to=block/speak', 'block/speak', 'Speaking diary');
   await check('tools/set-position.html?week=1&session=5&to=roleplay', 'roleplay', 'Copy prompt');
@@ -163,6 +163,7 @@ try {
   // The words fail to load: the Words tab explains and offers "Try again"; other screens keep working.
   await b.block(['*content/vocab/*']);
   await check('index.html?blocked#/words', 'words', 'Could not load the words', ['ERR_BLOCKED_BY_CLIENT', 'pack-0']);
+  await check('index.html?blocked2#/woorden', 'woorden', 'Could not load the words', ['ERR_BLOCKED_BY_CLIENT', 'pack-0']);
   await check('index.html#/progress', 'progress', 'Progress', ['ERR_BLOCKED_BY_CLIENT', 'pack-0']);
   await b.block([]);
 
@@ -206,6 +207,50 @@ try {
   console.log(`${left && counted === 1 ? '✓' : '✗'} grading a vocabulary card counts one review toward the cap of 10 (${counted})`);
   await check('index.html#/settings', 'settings', 'New English words per day');
   await check('index.html#/progress', 'progress', 'Reached Learned: 0 in the last 7 days', noPack);
+
+  // The Woorden tab: today's Dutch batch (5 words) is sorted like the English one; Teach me makes a Dutch card with forms, tenses and grammar notes.
+  await check('index.html?nl#/woorden', 'woorden', 'new to you', noPack);
+  const nlBoxes = await b.evaluate(`document.querySelectorAll('.sort-row input').length`);
+  const nlFirst = await b.evaluate(`document.querySelector('.sort-word')?.textContent`);
+  const nlSortOk = nlBoxes === 5 && nlFirst === 'de huisarts' && !(await b.text()).includes('University');
+  if (!nlSortOk) failed++;
+  console.log(`${nlSortOk ? '✓' : '✗'} Woorden tab shows 5 Dutch words to sort, with no University switch (${nlBoxes} boxes; first ${nlFirst})`);
+  await b.evaluate(`document.querySelector('.sort-row input').click()`);
+  await b.click('Done — teach me 1 word');
+  const nlText = await b.text();
+  const nlTenses = await b.evaluate(`[...document.querySelectorAll('.card.vocab .tense-tag')].map((x) => x.textContent.split(' ')[0]).join()`);
+  const nlGrammar = await b.evaluate(`document.querySelectorAll('.card.vocab .grammar').length`);
+  const nlForms = await b.evaluate(`document.querySelectorAll('.card.vocab .forms dt').length`);
+  const nlPageOk = /de huisarts/.test(nlText) && /Standard Dutch/.test(nlText) && nlTenses === 'Past,Present,Future' && nlGrammar === 3 && nlForms >= 2;
+  if (!nlPageOk) failed++;
+  console.log(`${nlPageOk ? '✓' : '✗'} a Dutch word shows its IPA, word forms and a past, present and future example with grammar notes (${nlTenses}; ${nlGrammar} notes)`);
+  await b.click('🔊');
+  await b.click('Teach me');
+  const nlCards = await b.evaluate(`Object.keys(${vocabState}.cards).filter((id) => /^d-/.test(id)).join()`);
+  const nlBatch = await b.evaluate(`${vocabState}.vocab.day.batches['nl-everyday'].join()`);
+  const nlTaughtOk = nlCards === 'd-0001' && nlBatch.split(',').length === 5 && (await b.evaluate(`${vocabState}.vocab.known.filter((id) => /^d-/.test(id)).length`)) === 4;
+  if (!nlTaughtOk) failed++;
+  console.log(`${nlTaughtOk ? '✓' : '✗'} "Teach me" makes a Dutch card and the 4 unticked words count as known (${nlCards})`);
+  await check('index.html?nl2#/woorden', 'woorden', 'Today: 5 of 5 words done', noPack);
+  const nlStage = await b.evaluate(`document.querySelector('.stage-line')?.innerText ?? ''`);
+  const nlStageOk = /1 learning/.test(nlStage) && /4 claimed/.test(nlStage);
+  if (!nlStageOk) failed++;
+  console.log(`${nlStageOk ? '✓' : '✗'} the Dutch tab has its own stage line (${nlStage.replace(/\n/g, ' ')})`);
+  await check('index.html#/woorden/list', 'woorden/list', 'Any stage', noPack);
+  await b.evaluate(`(() => {
+    const s = JSON.parse(localStorage.getItem('taalmaatje.v1'));
+    s.cards = { 'd-0001': { ...s.cards['d-0001'], due: '2020-01-01T00:00:00.000Z', reps: 3 } };
+    s.vocab.reviews = { key: '', count: 0 };
+    localStorage.setItem('taalmaatje.v1', JSON.stringify(s));
+  })()`);
+  await check('index.html?nlcards#/block/cards', 'block/cards', 'SAY THE DUTCH WORD', noPack);
+  const nlReview = await b.text();
+  const nlReviewOk = /____/.test(nlReview) && /huisarts|بیمار|پزشک/i.test(nlReview);
+  if (!nlReviewOk) failed++;
+  console.log(`${nlReviewOk ? '✓' : '✗'} a Dutch review shows the Farsi meaning and the Dutch sentence with a gap`);
+  await check('index.html#/progress', 'progress', '🇧🇪 Dutch', noPack);
+  await check('index.html?back#/words', 'words', 'Today:', noPack); // the English tab still works next to the Dutch one
+  await check('index.html#/settings', 'settings', 'New Dutch words per day');
 
   // Leaving a line while recording must turn the microphone off.
   await check('tools/set-position.html?week=1&session=1&to=block/listen', 'block/listen', 'Line 1 of');

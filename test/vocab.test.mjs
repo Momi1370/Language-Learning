@@ -309,3 +309,8 @@ test('English and Dutch reviews share one allowance of 10 per session', () => {
   assert.equal(capped.length, VOCAB_REVIEW_CAP);
   assert.equal(countReview(countReview(s, key), key).vocab.reviews.count, 2);
 });
+
+test('searching also finds a word by its English gloss', () => {
+  const gloss = [{ ...dword(1), en: 'appointment' }, { ...dword(2), en: 'house' }];
+  assert.deepEqual(searchVocab(gloss, 'APPOINT').map((w) => w.id), ['d-0001']);
+});
