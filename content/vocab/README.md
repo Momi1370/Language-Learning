@@ -14,3 +14,7 @@ Because the word list is share-alike, the files in this folder are published und
 A word may carry `ipa` (set by hand where the dictionary entry is odd for a learner) or `cmu` (a dictionary variant such as `lead(2)`).
 
 Authoring: `node tools/vocab-ipa.mjs content/vocab/pack-01.json <path to cmudict.dict>` fills the `ipa` field. `node tools/validate.mjs` checks every pack.
+
+## Dutch packs (4 and later)
+
+`"lang": "nl"` packs hold everyday Dutch for the **Woorden** tab. Ids are `d-0001…`; every word has an English gloss `en`; nouns start with `de` or `het`; `stress` marks the stressed part in capitals (`AF-spraak`); `register` may also be `Belgian` or `Netherlands`. Each word has exactly three examples (past usually in the perfect, present, future with zal / ga / gaan) with a Farsi translation and Farsi `grammar`. The words and sentences are written for this project (no copied text); their licence is CC BY-SA 4.0 like the rest of this folder. IPA is a first draft from espeak-ng (`node tools/vocab-ipa-nl.mjs <pack>`, needs espeak-ng) and is corrected by hand (a hand-set `ipa` is kept). Dutch words must not already appear in the sentences of Dutch course weeks 1–4 (`node tools/validate.mjs` checks).

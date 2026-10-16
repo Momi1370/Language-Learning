@@ -1,0 +1,549 @@
+{
+  "pack": 4,
+  "lang": "nl",
+  "track": "everyday",
+  "format": 2,
+  "source": "Word choice: own selection of everyday Dutch, checked against the course weeks. IPA: espeak-ng (Dutch), hand-corrected.",
+  "words": [
+    {
+      "id": "d-0001",
+      "word": "de huisarts",
+      "en": "GP, family doctor",
+      "pos": "noun (de)",
+      "forms": [
+        "huisarts",
+        "huisartsen"
+      ],
+      "stress": [
+        "HUIS-arts"
+      ],
+      "fa": {
+        "meaning": "پزشک عمومی، پزشک خانواده",
+        "note": "در بلژیک و هلند معمولاً اول پیش huisarts می‌روید؛ اگر لازم باشد او شما را به متخصص معرفی می‌کند. جمع: huisartsen."
+      },
+      "morph": [
+        [
+          "Plural",
+          "de huisartsen"
+        ],
+        [
+          "Related",
+          "de dokter · de tandarts"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "Ik ben vorige week bij de huisarts geweest voor mijn rug.",
+          "fa": "هفته‌ی پیش برای کمردردم پیش پزشک خانواده رفتم.",
+          "grammar": "گذشته‌ی کامل با zijn: برای فعل‌های حرکت و تغییر حالت (gaan, komen, zijn, verhuizen…) به‌جای heb از ben / bent / is / zijn + قسمت گذشته در آخر جمله استفاده می‌شود. در این جمله: «bij de huisarts zijn» یعنی «پیش پزشک خانواده رفتن/بودن»، و قسمت گذشته‌ی zijn می‌شود geweest."
+        },
+        {
+          "tense": "present",
+          "text": "Mijn huisarts werkt hier vlak om de hoek.",
+          "fa": "پزشک خانواده‌ام همین نزدیکی کار می‌کند.",
+          "grammar": "حال ساده: در جمله‌ی خبری فعل صرف‌شده در جایگاه دوم است. اگر جمله با قید یا مکان شروع شود، فاعل بعد از فعل می‌آید (Morgen ga ik …). در این جمله: «vlak om de hoek» یعنی «درست همین نزدیکی»."
+        },
+        {
+          "tense": "future",
+          "text": "Als het niet beter wordt, zal ik mijn huisarts bellen.",
+          "fa": "اگر بهتر نشود، به پزشک خانواده‌ام زنگ می‌زنم.",
+          "grammar": "آینده با zal: zal + مصدر که به آخر جمله می‌رود؛ برای قول، پیش‌بینی و تصمیم تازه. در این جمله: بعد از «Als …,» (اگر) فعل zal قبل از فاعل می‌آید: zal ik."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈhœyzˌɑrts"
+    },
+    {
+      "id": "d-0002",
+      "word": "de winkel",
+      "en": "shop, store",
+      "pos": "noun (de)",
+      "forms": [
+        "winkel",
+        "winkels",
+        "winkeltje"
+      ],
+      "stress": [
+        "WIN-kel"
+      ],
+      "fa": {
+        "meaning": "مغازه، فروشگاه",
+        "note": "برای هر مغازه‌ی معمولی به کار می‌رود؛ سوپرمارکت را supermarkt می‌گویند. «naar de winkel gaan» یعنی «به مغازه رفتن». جمع: winkels؛ شکل کوچک: het winkeltje."
+      },
+      "morph": [
+        [
+          "Plural",
+          "de winkels"
+        ],
+        [
+          "Small form",
+          "het winkeltje"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "Ik ben net naar de winkel geweest voor brood.",
+          "fa": "همین الان برای نان به مغازه رفته بودم.",
+          "grammar": "گذشته‌ی کامل با zijn: برای فعل‌های حرکت و تغییر حالت (gaan, komen, zijn, verhuizen…) به‌جای heb از ben / bent / is / zijn + قسمت گذشته در آخر جمله استفاده می‌شود. در این جمله: «net» یعنی «همین الان / تازه»."
+        },
+        {
+          "tense": "present",
+          "text": "De winkel op de hoek is tot acht uur open.",
+          "fa": "مغازه‌ی سر گوشه تا ساعت هشت باز است.",
+          "grammar": "حال ساده: در جمله‌ی خبری فعل صرف‌شده در جایگاه دوم است. اگر جمله با قید یا مکان شروع شود، فاعل بعد از فعل می‌آید (Morgen ga ik …). در این جمله: «open zijn» یعنی «باز بودن»؛ «tot acht uur» یعنی «تا ساعت هشت»."
+        },
+        {
+          "tense": "future",
+          "text": "Volgende maand gaan ze een nieuwe winkel openen in Hasselt.",
+          "fa": "ماه بعد قرار است یک مغازه‌ی تازه در هاسلت باز کنند.",
+          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «gaan ze … openen»: gaan بعد از فاعل «ze» (آن‌ها) و مصدر openen در آخر جمله."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈʋɪŋkəl"
+    },
+    {
+      "id": "d-0003",
+      "word": "het ziekenhuis",
+      "en": "hospital",
+      "pos": "noun (het)",
+      "forms": [
+        "ziekenhuis",
+        "ziekenhuizen"
+      ],
+      "stress": [
+        "ZIE-ken-huis"
+      ],
+      "fa": {
+        "meaning": "بیمارستان",
+        "note": "اسم het است. جمع: ziekenhuizen (در جمع s به z تبدیل می‌شود و mit «de» می‌آید). «in het ziekenhuis» یعنی «در بیمارستان»."
+      },
+      "morph": [
+        [
+          "Plural",
+          "de ziekenhuizen"
+        ],
+        [
+          "Related",
+          "de spoed · de dokter"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "Mijn buurman heeft twee dagen in het ziekenhuis gelegen.",
+          "fa": "همسایه‌ام دو روز در بیمارستان بستری بود.",
+          "grammar": "گذشته‌ی کامل (voltooid tegenwoordige tijd): heb / hebt / heeft / hebben + قسمت گذشته‌ی فعل که به آخر جمله می‌رود. در گفتار روزمره بیشتر از گذشته‌ی ساده به کار می‌رود. در این جمله: «liggen» (دراز کشیدن/بستری بودن) قسمت گذشته‌اش gelegen است و با heeft می‌آید."
+        },
+        {
+          "tense": "present",
+          "text": "Het ziekenhuis ligt vlak bij het station.",
+          "fa": "بیمارستان درست نزدیک ایستگاه است.",
+          "grammar": "حال ساده: در جمله‌ی خبری فعل صرف‌شده در جایگاه دوم است. اگر جمله با قید یا مکان شروع شود، فاعل بعد از فعل می‌آید (Morgen ga ik …). در این جمله: «liggen» اینجا یعنی «قرار داشتن»: ligt."
+        },
+        {
+          "tense": "future",
+          "text": "Volgende week ga ik mijn vader in het ziekenhuis bezoeken.",
+          "fa": "هفته‌ی بعد می‌روم پدرم را در بیمارستان ببینم.",
+          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «ga ik … bezoeken»: ga بعد از «Volgende week» (قید زمان) قبل از ik می‌آید."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈzikənˌhœys"
+    },
+    {
+      "id": "d-0004",
+      "word": "de apotheek",
+      "en": "pharmacy",
+      "pos": "noun (de)",
+      "forms": [
+        "apotheek",
+        "apotheken"
+      ],
+      "stress": [
+        "a-po-TEEK"
+      ],
+      "fa": {
+        "meaning": "داروخانه",
+        "note": "داروهای نسخه‌ای را فقط در apotheek می‌دهند. جمع: apotheken. کسی که آنجا کار می‌کند: de apotheker."
+      },
+      "morph": [
+        [
+          "Plural",
+          "de apotheken"
+        ],
+        [
+          "Related",
+          "de apotheker (داروساز)"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "Ik heb mijn medicijnen net bij de apotheek opgehaald.",
+          "fa": "داروهایم را همین الان از داروخانه گرفتم.",
+          "grammar": "گذشته‌ی کامل (voltooid tegenwoordige tijd): heb / hebt / heeft / hebben + قسمت گذشته‌ی فعل که به آخر جمله می‌رود. در گفتار روزمره بیشتر از گذشته‌ی ساده به کار می‌رود. در این جمله: «ophalen» جداشدنی است: قسمت گذشته‌اش opgehaald است (op + ge + haald)."
+        },
+        {
+          "tense": "present",
+          "text": "De apotheek is op zaterdag tot twaalf uur open.",
+          "fa": "داروخانه شنبه‌ها تا ساعت دوازده باز است.",
+          "grammar": "حال ساده: در جمله‌ی خبری فعل صرف‌شده در جایگاه دوم است. اگر جمله با قید یا مکان شروع شود، فاعل بعد از فعل می‌آید (Morgen ga ik …). در این جمله: «op zaterdag» یعنی «شنبه‌ها / روز شنبه»."
+        },
+        {
+          "tense": "future",
+          "text": "Ik ga straks mijn pillen bij de apotheek halen.",
+          "fa": "کمی بعد می‌روم قرص‌هایم را از داروخانه بگیرم.",
+          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «straks» یعنی «کمی بعد»؛ مصدر halen به آخر جمله می‌رود."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "apoˈteːk"
+    },
+    {
+      "id": "d-0005",
+      "word": "het adres",
+      "en": "address",
+      "pos": "noun (het)",
+      "forms": [
+        "adres",
+        "adressen",
+        "adresje"
+      ],
+      "stress": [
+        "a-DRES"
+      ],
+      "fa": {
+        "meaning": "نشانی، آدرس",
+        "note": "اسم het است. جمع: adressen؛ شکل کوچک: het adresje. «e-mailadres» هم het است: het e-mailadres."
+      },
+      "morph": [
+        [
+          "Plural",
+          "de adressen"
+        ],
+        [
+          "Small form",
+          "het adresje"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "Ik heb het verkeerde adres in mijn gps ingevoerd.",
+          "fa": "آدرس اشتباه را در جی‌پی‌اس‌ام وارد کردم.",
+          "grammar": "گذشته‌ی کامل (voltooid tegenwoordige tijd): heb / hebt / heeft / hebben + قسمت گذشته‌ی فعل که به آخر جمله می‌رود. در گفتار روزمره بیشتر از گذشته‌ی ساده به کار می‌رود. در این جمله: «invoeren» جداشدنی است: قسمت گذشته‌اش ingevoerd است."
+        },
+        {
+          "tense": "present",
+          "text": "Wat is het adres van jullie nieuwe kantoor?",
+          "fa": "آدرس دفتر جدید شما چیست؟",
+          "grammar": "حال ساده در جمله‌ی پرسشی: فعل (یا فعل کمکی) اول جمله یا بعد از کلمه‌ی پرسشی می‌آید و فاعل بعد از آن: Kan ik …? Wat bestel je …? در این جمله: «Wat is …?» یعنی «… چیست؟»؛ «jullie» یعنی «شما (جمع)»."
+        },
+        {
+          "tense": "future",
+          "text": "Ik zal je het adres straks per mail doorsturen.",
+          "fa": "کمی بعد آدرس را با ایمیل برایت می‌فرستم.",
+          "grammar": "آینده با zal: zal + مصدر که به آخر جمله می‌رود؛ برای قول، پیش‌بینی و تصمیم تازه. در این جمله: «doorsturen» (فرستادن) مصدرِ جداشدنی است و در آخر جمله به‌صورت یک‌تکه می‌آید."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ɑˈdrɛs"
+    },
+    {
+      "id": "d-0006",
+      "word": "kopen",
+      "en": "to buy",
+      "pos": "verb",
+      "forms": [
+        "kopen",
+        "koop",
+        "koopt",
+        "kocht",
+        "kochten",
+        "gekocht"
+      ],
+      "stress": [
+        "KO-pen"
+      ],
+      "fa": {
+        "meaning": "خریدن",
+        "note": "فعل بی‌قاعده: ik koop، hij koopt؛ گذشته‌ی ساده: kocht / kochten؛ قسمت گذشته: gekocht (با heb). «boodschappen doen» یعنی خرید روزانه، ولی برای خرید یک چیز مشخص kopen می‌گویند."
+      },
+      "morph": [
+        [
+          "Infinitive",
+          "kopen"
+        ],
+        [
+          "Present",
+          "ik koop · jij koopt · hij koopt · wij kopen"
+        ],
+        [
+          "Past",
+          "ik kocht · wij kochten"
+        ],
+        [
+          "Perfect",
+          "ik heb gekocht"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "Ik heb gisteren een nieuwe fiets gekocht.",
+          "fa": "دیروز یک دوچرخه‌ی نو خریدم.",
+          "grammar": "گذشته‌ی کامل (voltooid tegenwoordige tijd): heb / hebt / heeft / hebben + قسمت گذشته‌ی فعل که به آخر جمله می‌رود. در گفتار روزمره بیشتر از گذشته‌ی ساده به کار می‌رود. در این جمله: قسمت گذشته‌ی kopen می‌شود gekocht و به آخر جمله می‌رود."
+        },
+        {
+          "tense": "present",
+          "text": "Ik koop mijn groenten altijd op de markt.",
+          "fa": "من سبزی‌هایم را همیشه از بازار می‌خرم.",
+          "grammar": "حال ساده: در جمله‌ی خبری فعل صرف‌شده در جایگاه دوم است. اگر جمله با قید یا مکان شروع شود، فاعل بعد از فعل می‌آید (Morgen ga ik …). در این جمله: «altijd» (همیشه) قید است و بعد از فاعل و فعل می‌آید."
+        },
+        {
+          "tense": "future",
+          "text": "Volgende maand ga ik een tweedehands auto kopen.",
+          "fa": "ماه بعد می‌خواهم یک ماشین دست‌دوم بخرم.",
+          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «tweedehands» یعنی «دست‌دوم»؛ مصدر kopen در آخر جمله."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈkoːpən"
+    },
+    {
+      "id": "d-0007",
+      "word": "betalen",
+      "en": "to pay",
+      "pos": "verb",
+      "forms": [
+        "betalen",
+        "betaal",
+        "betaalt",
+        "betaalde",
+        "betaalden",
+        "betaald"
+      ],
+      "stress": [
+        "be-TA-len"
+      ],
+      "fa": {
+        "meaning": "پرداخت کردن، پول دادن",
+        "note": "فعل باقاعده: ik betaal، hij betaalt؛ قسمت گذشته: betaald (بدون ge- چون با be- شروع می‌شود). «met de kaart betalen» یعنی «با کارت پرداخت کردن»؛ «contant betalen» یعنی «نقدی»."
+      },
+      "morph": [
+        [
+          "Infinitive",
+          "betalen"
+        ],
+        [
+          "Present",
+          "ik betaal · jij betaalt · hij betaalt · wij betalen"
+        ],
+        [
+          "Past",
+          "ik betaalde · wij betaalden"
+        ],
+        [
+          "Perfect",
+          "ik heb betaald"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "Ik heb mijn huur gisteren al betaald.",
+          "fa": "کرایه‌ام را دیروز پرداخت کرده‌ام.",
+          "grammar": "گذشته‌ی کامل (voltooid tegenwoordige tijd): heb / hebt / heeft / hebben + قسمت گذشته‌ی فعل که به آخر جمله می‌رود. در گفتار روزمره بیشتر از گذشته‌ی ساده به کار می‌رود. در این جمله: فعل‌های با پیشوند be- در قسمت گذشته ge- نمی‌گیرند: betaald، نه gebetaald."
+        },
+        {
+          "tense": "present",
+          "text": "Ik betaal altijd met mijn bankkaart in de winkel.",
+          "fa": "من در مغازه همیشه با کارت بانکی پرداخت می‌کنم.",
+          "grammar": "حال ساده: در جمله‌ی خبری فعل صرف‌شده در جایگاه دوم است. اگر جمله با قید یا مکان شروع شود، فاعل بعد از فعل می‌آید (Morgen ga ik …). در این جمله: «met mijn bankkaart» یعنی «با کارت بانکی‌ام»."
+        },
+        {
+          "tense": "future",
+          "text": "Geen zorgen, ik zal de rekening vanavond betalen.",
+          "fa": "نگران نباش، صورت‌حساب را امشب می‌پردازم.",
+          "grammar": "آینده با zal: zal + مصدر که به آخر جمله می‌رود؛ برای قول، پیش‌بینی و تصمیم تازه. در این جمله: «Geen zorgen» یعنی «نگران نباش»؛ «vanavond» یعنی «امشب»."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "bəˈtaːlən"
+    },
+    {
+      "id": "d-0008",
+      "word": "bestellen",
+      "en": "to order",
+      "pos": "verb",
+      "forms": [
+        "bestellen",
+        "bestel",
+        "bestelt",
+        "bestelde",
+        "bestelden",
+        "besteld"
+      ],
+      "stress": [
+        "be-STEL-len"
+      ],
+      "fa": {
+        "meaning": "سفارش دادن",
+        "note": "هم برای غذا و نوشیدنی و هم برای خرید اینترنتی: «een pizza bestellen»، «online bestellen». قسمت گذشته: besteld (بدون ge-)."
+      },
+      "morph": [
+        [
+          "Infinitive",
+          "bestellen"
+        ],
+        [
+          "Present",
+          "ik bestel · jij bestelt · hij bestelt · wij bestellen"
+        ],
+        [
+          "Past",
+          "ik bestelde · wij bestelden"
+        ],
+        [
+          "Perfect",
+          "ik heb besteld"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "We hebben gisteren online een nieuwe stofzuiger besteld.",
+          "fa": "دیروز اینترنتی یک جاروبرقی تازه سفارش دادیم.",
+          "grammar": "گذشته‌ی کامل (voltooid tegenwoordige tijd): heb / hebt / heeft / hebben + قسمت گذشته‌ی فعل که به آخر جمله می‌رود. در گفتار روزمره بیشتر از گذشته‌ی ساده به کار می‌رود. در این جمله: «online» همان کلمه‌ی انگلیسی است و در میان جمله می‌آید."
+        },
+        {
+          "tense": "present",
+          "text": "Wat bestel je meestal in dit restaurant?",
+          "fa": "معمولاً در این رستوران چه سفارش می‌دهی؟",
+          "grammar": "حال ساده در جمله‌ی پرسشی: فعل (یا فعل کمکی) اول جمله یا بعد از کلمه‌ی پرسشی می‌آید و فاعل بعد از آن: Kan ik …? Wat bestel je …? در این جمله: «meestal» یعنی «معمولاً»؛ «je» اینجا یعنی «تو»."
+        },
+        {
+          "tense": "future",
+          "text": "Ik ga straks een pizza voor ons bestellen.",
+          "fa": "کمی بعد برای ما یک پیتزا سفارش می‌دهم.",
+          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «voor ons» یعنی «برای ما»."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "bəˈstɛlən"
+    },
+    {
+      "id": "d-0009",
+      "word": "verhuizen",
+      "en": "to move (house)",
+      "pos": "verb",
+      "forms": [
+        "verhuizen",
+        "verhuis",
+        "verhuist",
+        "verhuisde",
+        "verhuisden",
+        "verhuisd"
+      ],
+      "stress": [
+        "ver-HUI-zen"
+      ],
+      "fa": {
+        "meaning": "اسباب‌کشی کردن، نقل‌مکان کردن",
+        "note": "برای عوض کردن خانه یا شهر. قسمت گذشته verhuisd است و با zijn می‌آید: ik ben verhuisd. پیشوند ver- جداشدنی نیست."
+      },
+      "morph": [
+        [
+          "Infinitive",
+          "verhuizen"
+        ],
+        [
+          "Present",
+          "ik verhuis · jij verhuist · hij verhuist · wij verhuizen"
+        ],
+        [
+          "Past",
+          "ik verhuisde · wij verhuisden"
+        ],
+        [
+          "Perfect",
+          "ik ben verhuisd"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "Mijn collega is vorig jaar naar Genk verhuisd.",
+          "fa": "همکارم پارسال به خِنک اسباب‌کشی کرد.",
+          "grammar": "گذشته‌ی کامل با zijn: برای فعل‌های حرکت و تغییر حالت (gaan, komen, zijn, verhuizen…) به‌جای heb از ben / bent / is / zijn + قسمت گذشته در آخر جمله استفاده می‌شود. در این جمله: «naar Genk» یعنی «به خِنک»؛ «vorig jaar» یعنی «پارسال»."
+        },
+        {
+          "tense": "present",
+          "text": "Veel jonge mensen verhuizen voor werk naar de stad.",
+          "fa": "خیلی از جوان‌ها برای کار به شهر نقل‌مکان می‌کنند.",
+          "grammar": "حال ساده: در جمله‌ی خبری فعل صرف‌شده در جایگاه دوم است. اگر جمله با قید یا مکان شروع شود، فاعل بعد از فعل می‌آید (Morgen ga ik …). در این جمله: «voor werk» یعنی «به خاطر کار»."
+        },
+        {
+          "tense": "future",
+          "text": "Volgende zomer gaan wij naar een groter huis verhuizen.",
+          "fa": "تابستان بعد به یک خانه‌ی بزرگ‌تر اسباب‌کشی می‌کنیم.",
+          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «groter» صفتِ تفضیلی است (بزرگ‌تر)؛ مصدر verhuizen در آخر جمله."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "vərˈhœyzən"
+    },
+    {
+      "id": "d-0010",
+      "word": "de rekening",
+      "en": "bill, account",
+      "pos": "noun (de)",
+      "forms": [
+        "rekening",
+        "rekeningen"
+      ],
+      "stress": [
+        "RE-ke-ning"
+      ],
+      "fa": {
+        "meaning": "صورت‌حساب؛ حساب (بانکی)",
+        "note": "دو معنی دارد: صورت‌حساب رستوران یا خدمات («Mag ik de rekening?») و حساب بانکی («de bankrekening»). جمع: rekeningen."
+      },
+      "morph": [
+        [
+          "Plural",
+          "de rekeningen"
+        ],
+        [
+          "Related",
+          "de bankrekening (حساب بانکی)"
+        ]
+      ],
+      "examples": [
+        {
+          "tense": "past",
+          "text": "De ober heeft ons de rekening al gebracht.",
+          "fa": "گارسون صورت‌حساب را قبلاً برای ما آورده است.",
+          "grammar": "گذشته‌ی کامل (voltooid tegenwoordige tijd): heb / hebt / heeft / hebben + قسمت گذشته‌ی فعل که به آخر جمله می‌رود. در گفتار روزمره بیشتر از گذشته‌ی ساده به کار می‌رود. در این جمله: «brengen» (آوردن) بی‌قاعده است: قسمت گذشته‌اش gebracht."
+        },
+        {
+          "tense": "present",
+          "text": "Mag ik de rekening alstublieft?",
+          "fa": "ببخشید، می‌توانم صورت‌حساب را بگیرم؟",
+          "grammar": "حال ساده در جمله‌ی پرسشی: فعل (یا فعل کمکی) اول جمله یا بعد از کلمه‌ی پرسشی می‌آید و فاعل بعد از آن: Kan ik …? Wat bestel je …? در این جمله: «mag ik …?» یعنی «اجازه هست …؟»؛ «alstublieft» مؤدبانه است (در بلژیک هم رایج)."
+        },
+        {
+          "tense": "future",
+          "text": "Ik zal de rekening morgen meteen overschrijven.",
+          "fa": "فردا بلافاصله صورت‌حساب را (از حسابم) واریز می‌کنم.",
+          "grammar": "آینده با zal: zal + مصدر که به آخر جمله می‌رود؛ برای قول، پیش‌بینی و تصمیم تازه. در این جمله: «overschrijven» (حواله کردن/واریز) در بلژیک بسیار رایج است."
+        }
+      ],
+      "register": "neutral",
+      "ipa": "ˈreːkənɪŋ"
+    }
+  ]
+}

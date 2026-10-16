@@ -94,7 +94,7 @@ Nothing about existing cards changes. The English words the learner already has 
     "en": "appointment",
     "pos": "noun (de)",
     "forms": ["de afspraak", "de afspraken", "het afspraakje"],
-    "stress": ["af-SPRAAK"],
+    "stress": ["AF-spraak"],
     "ipa": "ˈɑfspraːk",
     "fa": { "meaning": "...", "note": "..." },
     "morph": [["Plural", "de afspraken"], ["Small form", "het afspraakje"]],

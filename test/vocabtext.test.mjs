@@ -25,3 +25,8 @@ test('the cloze hides the word in the example and keeps the rest', () => {
 test('the cloze picks the earliest match, preferring the longer form', () => {
   assert.equal(clozeOf('Deal with it, and deal with that.', ['deal', 'deal with']), '____ it, and deal with that.');
 });
+
+test('Dutch separable verbs: the gap covers both parts, and a joined form is blanked alone', () => {
+  assert.equal(clozeOf('Ik bel hem morgen op.', ['bel … op']), 'Ik ____.');
+  assert.equal(clozeOf('Omdat ik hem opbel, weet hij het.', ['opbel', 'bel … op']), 'Omdat ik hem ____, weet hij het.');
+});

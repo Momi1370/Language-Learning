@@ -82,3 +82,28 @@ export function validVocabWord2(n = 1) {
 export function validVocabPack2() {
   return { pack: 2, track: 'everyday', format: 2, source: 'Test source', words: [validVocabWord2(1)] };
 }
+
+// A Dutch format-2 word: the noun with its article, word forms, and one example in each of the past, present and future.
+export function validDutchWord(n = 1) {
+  return {
+    id: `d-${String(n).padStart(4, '0')}`,
+    word: 'de afspraak',
+    en: 'appointment',
+    pos: 'noun (de)',
+    forms: ['afspraak', 'afspraken', 'afspraakje'],
+    stress: ['AF-spraak'],
+    ipa: 'ˈɑfspraːk',
+    fa: { meaning: 'قرار ملاقات', note: 'اسم «de» است؛ جمع: afspraken.' },
+    morph: [['Plural', 'de afspraken'], ['Small form', 'het afspraakje']],
+    examples: [
+      { tense: 'past', text: 'Ik heb gisteren een afspraak met de huisarts gemaakt.', fa: 'دیروز با پزشک خانواده قرار گذاشتم.', grammar: 'گذشته‌ی کامل: heb + قسمت گذشته‌ی فعل (gemaakt) در آخر جمله.' },
+      { tense: 'present', text: 'Ik heb morgen een afspraak bij de tandarts.', fa: 'فردا پیش دندانپزشک وقت دارم.', grammar: 'حال ساده: فاعل + فعل در جایگاه دوم.' },
+      { tense: 'future', text: 'Volgende week zal ik een nieuwe afspraak maken.', fa: 'هفته‌ی بعد یک قرار تازه می‌گذارم.', grammar: 'آینده با zal: بعد از zal فاعل می‌آید و فعل اصلی آخر جمله.' },
+    ],
+    register: 'neutral',
+  };
+}
+
+export function validDutchPack() {
+  return { pack: 4, lang: 'nl', track: 'everyday', format: 2, source: 'Test source', words: [validDutchWord(1)] };
+}

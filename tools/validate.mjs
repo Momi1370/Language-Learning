@@ -50,6 +50,7 @@ for (const file of (await readdir(vocabDir).catch(() => [])).filter((f) => /^pac
   report(name, errors);
 }
 report('vocabulary (repeated words)', findVocabRepeats(packs));
-report('vocabulary (words already in the English course)', courseOverlap(packs, all.filter((w) => w.lang === 'en')));
+report('vocabulary (English words already in the English course)', courseOverlap(packs.filter((p) => p.lang !== 'nl'), all.filter((w) => w.lang === 'en')));
+report('vocabulary (Dutch words already in the Dutch course)', courseOverlap(packs.filter((p) => p.lang === 'nl'), all.filter((w) => w.lang === 'nl')));
 
 process.exit(failed ? 1 : 0);
