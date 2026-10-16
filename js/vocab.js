@@ -14,14 +14,22 @@ export function statusOf(state, id) {
 }
 
 // The day's batch: each section draws its own next N undecided words the first time it is opened that
-// calendar day, and keeps them for the whole day. With no words loaded nothing is stored, so a failed
+// calendar day, and keeps them for the whole day. Choosing a larger N later the same day adds the missing
+// words at the end (a smaller N never removes any). With no words loaded nothing is stored, so a failed
 // load cannot use up the day.
 export function ensureBatch(state, words, now = new Date()) {
   const date = localDate(now);
   const track = state.settings.vocabTrack;
   const day = state.vocab.day;
-  if (!words.length || (day.date === date && day.batches[track])) return state;
-  const ids = words.filter((w) => w.track === track && statusOf(state, w.id) === 'new').slice(0, state.settings.vocabPerDay).map((w) => w.id);
+  if (!words.length) return state;
+  const fresh = (skip) => words.filter((w) => w.track === track && statusOf(state, w.id) === 'new' && !skip.has(w.id)).map((w) => w.id);
+  if (day.date === date && day.batches[track]) {
+    const have = day.batches[track];
+    const more = fresh(new Set(have)).slice(0, Math.max(0, state.settings.vocabPerDay - have.length));
+    if (!more.length) return state;
+    return { ...state, vocab: { ...state.vocab, day: { date, batches: { ...day.batches, [track]: [...have, ...more] } } } };
+  }
+  const ids = fresh(new Set()).slice(0, state.settings.vocabPerDay);
   const batches = day.date === date ? { ...day.batches, [track]: ids } : { [track]: ids };
   return { ...state, vocab: { ...state.vocab, day: { date, batches } } };
 }

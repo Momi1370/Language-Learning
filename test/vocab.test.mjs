@@ -94,11 +94,30 @@ test('settleBatch with no ticks marks the whole batch known, and ignores ticks o
   assert.equal(statusOf(settleBatch(s0, [id(15)]), id(15)), 'new');
 });
 
-test('reopening on the same day gives exactly the same batch, even if the setting changed', () => {
+test('reopening on the same day gives exactly the same batch, and a smaller setting never removes words', () => {
   const s = ensureBatch(defaultState(), words, day1);
   assert.equal(ensureBatch(s, words, day1), s);
-  const bigger = { ...s, settings: { ...s.settings, vocabPerDay: 15 } };
-  assert.equal(ensureBatch(bigger, words, day1), bigger);
+  const smaller = { ...s, settings: { ...s.settings, vocabPerDay: 5 } };
+  assert.equal(ensureBatch(smaller, words, day1), smaller);
+});
+
+test('a larger setting adds words to today’s batch (the ones already there stay first)', () => {
+  const small = { ...defaultState(), settings: { ...defaultState().settings, vocabPerDay: 5 } };
+  let s = ensureBatch(small, words, day1);
+  s = markKnown(s, id(1));
+  assert.deepEqual(s.vocab.day.batches.everyday, ids(1, 2, 3, 4, 5));
+  const bigger = ensureBatch({ ...s, settings: { ...s.settings, vocabPerDay: 10 } }, words, day1);
+  assert.deepEqual(bigger.vocab.day.batches.everyday, ids(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+  assert.equal(ensureBatch(bigger, words, day1), bigger, 'nothing more to add the second time');
+});
+
+test('a larger setting stops adding when the section has no more undecided words', () => {
+  const few = [{ pack: 1, track: 'everyday', words: Array.from({ length: 6 }, (_, i) => word(i + 1)) }];
+  const small = { ...defaultState(), settings: { ...defaultState().settings, vocabPerDay: 5 } };
+  const s = ensureBatch(small, wordsOf(few), day1);
+  const bigger = ensureBatch({ ...s, settings: { ...s.settings, vocabPerDay: 15 } }, wordsOf(few), day1);
+  assert.deepEqual(bigger.vocab.day.batches.everyday, ids(1, 2, 3, 4, 5, 6));
+  assert.equal(ensureBatch(bigger, wordsOf(few), day1), bigger);
 });
 
 test('the next day gives the next undecided words; words skipped yesterday come back', () => {
