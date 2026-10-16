@@ -3,6 +3,7 @@ import { voicesFor, speak } from '../speech.js';
 import { buildExport, parseImport, defaultState, PER_DAY } from '../store.js';
 import { localDate } from '../session.js';
 import { audioCheck } from './audiocheck.js';
+import { voicesOf } from '../clips.js';
 
 export function render(ctx, root) {
   const s = ctx.state.settings;
@@ -15,8 +16,11 @@ export function render(ctx, root) {
     h('label', { class: 'row' },
       h('input', { type: 'checkbox', checked: s.farsi, onChange: (e) => set({ farsi: e.target.checked }) }),
       'Show Farsi hints ', h('span', { dir: 'rtl', lang: 'fa' }, '(راهنمای فارسی)')),
-    voiceRow(ctx, 'nl', 'Dutch voice', s.voiceNl, 'Hallo, dit is mijn stem.', (v) => set({ voiceNl: v })),
-    voiceRow(ctx, 'en', 'English voice', s.voiceEn, 'Hello, this is my voice.', (v) => set({ voiceEn: v })),
+    clipVoiceRow(ctx, 'nl', 'Dutch recorded voice', s, set),
+    clipVoiceRow(ctx, 'en', 'English recorded voice', s, set),
+    h('p', { class: 'hint' }, 'The recorded voices are used wherever there is a recording. The phone voices below are used for anything else.'),
+    voiceRow(ctx, 'nl', 'Dutch phone voice', s.voiceNl, 'Hallo, dit is mijn stem.', (v) => set({ voiceNl: v })),
+    voiceRow(ctx, 'en', 'English phone voice', s.voiceEn, 'Hello, this is my voice.', (v) => set({ voiceEn: v })),
     h('label', { class: 'row' }, 'Extra Dutch words per session',
       h('select', { onChange: (e) => set({ extraWords: Number(e.target.value) }) },
         [0, 3, 5, 10].map((n) => h('option', { value: n, selected: n === s.extraWords }, String(n))))),
@@ -37,6 +41,16 @@ export function render(ctx, root) {
       ctx.pickVoices();
       await ctx.reload();
     }));
+}
+
+function clipVoiceRow(ctx, lang, label, s, set) {
+  const ids = voicesOf(lang);
+  if (!ids.length) return null;
+  const name = (id) => id.charAt(0).toUpperCase() + id.slice(1);
+  return h('label', { class: 'row' }, label,
+    h('select', { onChange: (e) => set({ clipVoice: { ...ctx.state.settings.clipVoice, [lang]: e.target.value } }) },
+      h('option', { value: 'mixed', selected: s.clipVoice[lang] === 'mixed' }, `Mixed (${ids.map(name).join(' and ')})`),
+      ids.map((id) => h('option', { value: id, selected: s.clipVoice[lang] === id }, name(id)))));
 }
 
 function voiceRow(ctx, lang, label, current, sample, onPick) {

@@ -125,3 +125,10 @@ test('the old default of 5 words a day moves to 10 once; a later choice of 5 is 
   const chosen = migrate({ version: 1, settings: { vocabPerDay: 5 }, vocab: { known: [], day: { date: '', batches: {} }, reviews: { key: '', count: 0 }, perDayReset: true } });
   assert.equal(chosen.settings.vocabPerDay, 5);
 });
+
+test('the recorded voice choice defaults to "mixed" and keeps any text the learner picked', () => {
+  assert.deepEqual(defaultState().settings.clipVoice, { en: 'mixed', nl: 'mixed' });
+  assert.deepEqual(migrate({ version: 1 }).settings.clipVoice, { en: 'mixed', nl: 'mixed' });
+  assert.deepEqual(migrate({ version: 1, settings: { clipVoice: { en: 'emma', nl: 5 } } }).settings.clipVoice, { en: 'emma', nl: 'mixed' });
+  assert.deepEqual(migrate({ version: 1, settings: { clipVoice: 'x' } }).settings.clipVoice, { en: 'mixed', nl: 'mixed' });
+});

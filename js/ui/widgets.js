@@ -6,20 +6,21 @@ export const RECOG = { nl: ['nl-BE', 'nl-NL'], en: ['en-GB', 'en-US'] };
 
 const bare = (word) => word.replace(/[^\p{L}\p{N}'’-]/gu, '');
 
-export function say(ctx, text, lang, rate = 1) {
-  return speak(text, { voice: ctx.voices[lang], lang: RECOG[lang][0], rate });
+// `slot` (0 or 1) is the speaker of a dialogue line: each speaker keeps one recorded voice.
+export function say(ctx, text, lang, rate = 1, { slot } = {}) {
+  return speak(text, { voice: ctx.voices[lang], lang: RECOG[lang][0], rate, slot, prefer: ctx.state.settings.clipVoice?.[lang] });
 }
 
-export function speakable(ctx, text, lang, { big = false } = {}) {
+export function speakable(ctx, text, lang, { big = false, slot } = {}) {
   const line = h('p', { class: `speakable${big ? ' big' : ''}`, lang });
   for (const piece of text.split(/(\s+)/)) {
     if (!bare(piece)) { line.append(piece); continue; }
-    line.append(button(piece, () => say(ctx, bare(piece), lang, 0.7), { class: 'word', title: 'Hear this word slowly' }));
+    line.append(button(piece, () => say(ctx, bare(piece), lang, 0.7, { slot }), { class: 'word', title: 'Hear this word slowly' }));
   }
   return h('div', { class: 'speakable-row' }, line,
     h('span', { class: 'audio-buttons' },
-      button('🔊', () => say(ctx, text, lang, 1), { class: 'icon', 'aria-label': 'Play' }),
-      button('🐢', () => say(ctx, text, lang, 0.7), { class: 'icon', 'aria-label': 'Play slowly' })));
+      button('🔊', () => say(ctx, text, lang, 1, { slot }), { class: 'icon', 'aria-label': 'Play' }),
+      button('🐢', () => say(ctx, text, lang, 0.7, { slot }), { class: 'icon', 'aria-label': 'Play slowly' })));
 }
 
 export function recognitionMessage(e) {
@@ -178,8 +179,8 @@ export function recorder(ctx, { onStart, onRecorded } = {}) {
   return api;
 }
 
-export async function compare(ctx, text, lang, blob) {
-  await say(ctx, text, lang, 1);
+export async function compare(ctx, text, lang, blob, { slot } = {}) {
+  await say(ctx, text, lang, 1, { slot });
   if (!blob) return;
   const url = URL.createObjectURL(blob);
   const player = new Audio(url);

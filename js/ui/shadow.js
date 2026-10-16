@@ -5,7 +5,10 @@ export function render(ctx, root) {
   const d = ctx.session.nl.shadow;
   let i = 0;
   const stage = h('div', { class: 'card' });
-  const playAll = async () => { for (const line of d.lines) await say(ctx, line.text, 'nl', 0.9); };
+  // The two speakers keep two different recorded voices.
+  const speakers = [...new Set(d.lines.map((l) => l.speaker))];
+  const slotOf = (line) => Math.min(speakers.indexOf(line.speaker), 1);
+  const playAll = async () => { for (const line of d.lines) await say(ctx, line.text, 'nl', 0.9, { slot: slotOf(line) }); };
   mount(root,
     h('h1', {}, `🇧🇪 ${d.title}`),
     h('p', { class: 'muted' }, 'For each line: listen → repeat out loud → record → compare.'),
@@ -20,10 +23,10 @@ export function render(ctx, root) {
     const rec = recorder(ctx);
     mount(clear(stage),
       h('p', { class: 'muted' }, `Line ${i + 1} of ${d.lines.length} · ${line.speaker}`),
-      speakable(ctx, line.text, 'nl', { big: true }),
+      speakable(ctx, line.text, 'nl', { big: true, slot: slotOf(line) }),
       h('details', {}, h('summary', {}, 'Meaning'), h('p', {}, line.en)),
       rec.el,
-      button('⇄ Compare: original, then me', () => compare(ctx, line.text, 'nl', rec.blob)),
+      button('⇄ Compare: original, then me', () => compare(ctx, line.text, 'nl', rec.blob, { slot: slotOf(line) })),
       sayItCheck(ctx, line.text, 'nl'),
       h('div', { class: 'nav-row' },
         button('← Back', () => { i -= 1; show(); }, { disabled: i === 0 }),

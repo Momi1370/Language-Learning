@@ -1,4 +1,4 @@
-import { hasClip, playClip } from './clips.js';
+import { pickClip, playClip } from './clips.js';
 
 const code = (lang) => String(lang ?? '').replace('_', '-').toLowerCase();
 
@@ -48,12 +48,14 @@ export function getVoices(timeoutMs = 1500) {
 }
 
 // Uses the recorded clip when there is one for this text (see clips.js); otherwise, or when the clip
-// cannot be played, the phone's own voice.
-export function speak(text, { voice = null, lang = 'nl-BE', rate = 1 } = {}) {
+// cannot be played, the phone's own voice. `slot` (0 or 1) is the speaker in a dialogue; `prefer` the learner's
+// chosen recorded voice.
+export function speak(text, { voice = null, lang = 'nl-BE', rate = 1, slot, prefer } = {}) {
   const code = String(lang).slice(0, 2).toLowerCase();
-  if (text && hasClip(code, text)) {
+  const clipVoice = text ? pickClip(code, text, { slot, prefer }) : null;
+  if (clipVoice) {
     globalThis.speechSynthesis?.cancel();
-    return playClip(code, text, rate).then((played) => (played ? undefined : speakWithPhone(text, { voice, lang, rate })));
+    return playClip(code, clipVoice, text, rate).then((played) => (played ? undefined : speakWithPhone(text, { voice, lang, rate })));
   }
   return speakWithPhone(text, { voice, lang, rate });
 }

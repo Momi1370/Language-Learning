@@ -9,7 +9,7 @@ export function defaultState() {
     position: { week: 1, session: 1 },
     done: [],
     history: [],
-    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 10, vocabTrack: 'everyday' },
+    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 10, vocabTrack: 'everyday', clipVoice: { en: 'mixed', nl: 'mixed' } },
     cards: {},
     myPhrases: [],
     vocab: { known: [], day: { date: '', batches: {} }, reviews: { key: '', count: 0 }, perDayReset: true },
@@ -56,6 +56,8 @@ export function migrate(raw) {
       // 5 was the first default; it moves to 10 once (perDayReset), and a later choice of 5 is kept.
       vocabPerDay: !PER_DAY.includes(s.vocabPerDay) ? base.settings.vocabPerDay : s.vocabPerDay === 5 && v.perDayReset !== true ? 10 : s.vocabPerDay,
       vocabTrack: TRACKS.includes(s.vocabTrack) ? s.vocabTrack : base.settings.vocabTrack,
+      // which recorded voice speaks: a voice id from audio/manifest.json, or "mixed"
+      clipVoice: Object.fromEntries(['en', 'nl'].map((l) => [l, isObject(s.clipVoice) && isText(s.clipVoice[l]) && s.clipVoice[l] ? s.clipVoice[l] : 'mixed'])),
     },
     cards: pick('cards', isObject),
     myPhrases: pick('myPhrases', (v) => Array.isArray(v) && v.every((p) => isObject(p) && isText(p.id) && isText(p.text))),

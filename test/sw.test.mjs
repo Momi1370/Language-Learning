@@ -75,7 +75,7 @@ async function audioRequest(headers) {
   const fetch = async () => { network++; return { ok: true, status: 200, arrayBuffer: async () => bytes, clone() { return this; }, headers: new Map() }; };
   class FakeResponse { constructor(body, init) { this.body = body; this.status = init?.status ?? 200; this.headers = init?.headers ?? {}; this.ok = this.status < 300; } static error() { return null; } }
   runInNewContext(sw, { self, caches, fetch, URL, Request: class { constructor(u) { this.url = u; } }, Response: FakeResponse });
-  const req = { method: 'GET', url: 'https://example.org/audio/en/abc.mp3?v=1', headers: { get: (n) => headers[n.toLowerCase()] ?? null } };
+  const req = { method: 'GET', url: 'https://example.org/audio/en/heart/abc.mp3?v=1', headers: { get: (n) => headers[n.toLowerCase()] ?? null } };
   const waits = [];
   listeners.fetch({ request: req, respondWith: (p) => waits.push(p) });
   const res = await waits[0];

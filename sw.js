@@ -90,7 +90,7 @@ async function clipResponse(req) {
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== self.location.origin) return;
-  if (/\/audio\/[a-z]{2}\/[0-9a-z]+\.mp3$/.test(new URL(req.url).pathname)) {
+  if (/\/audio\/[a-z]{2}\/[a-z0-9_-]+\/[0-9a-z]+\.mp3$/.test(new URL(req.url).pathname)) {
     event.respondWith(clipResponse(req).catch(() => Response.error()));
     return;
   }

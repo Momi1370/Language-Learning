@@ -1,5 +1,15 @@
 {
-  "version": "0",
-  "en": { "engine": "kokoro", "lang_code": "a", "voice": "af_heart", "speed": 0.95 },
-  "nl": { "engine": "piper", "model": "nl_BE-nathalie-medium" }
+  "version": "1",
+  "en": {
+    "voices": [
+      { "id": "heart", "name": "Heart", "engine": "kokoro", "lang_code": "a", "voice": "af_heart", "speed": 0.95 },
+      { "id": "emma", "name": "Emma", "engine": "kokoro", "lang_code": "b", "voice": "bf_emma", "speed": 0.95 }
+    ]
+  },
+  "nl": {
+    "voices": [
+      { "id": "nathalie", "name": "Nathalie", "engine": "piper", "model": "nl_BE-nathalie-medium" },
+      { "id": "ronnie", "name": "Ronnie", "engine": "piper", "model": "nl_NL-ronnie-medium" }
+    ]
+  }
 }

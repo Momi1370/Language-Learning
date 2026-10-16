@@ -1,11 +1,11 @@
 # Recorded voices
 
-The app plays recorded clips (`audio/<lang>/<key>.mp3`) where it has one and falls back to the phone's own voice for any other text. Clips are made ahead of time with open-source voices:
+The app plays recorded clips (`audio/<lang>/<voice>/<key>.mp3`) where it has one and falls back to the phone's own voice for any other text. Clips are made ahead of time with open-source voices:
 
-- **English:** [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) (Apache-2.0).
-- **Dutch:** [Piper](https://github.com/OHF-Voice/piper1-gpl) voices from [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices) (check the licence of the voice you choose).
+- **English (two voices, Heart and Emma):** [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) (Apache-2.0).
+- **Dutch (two voices, Nathalie and Ronnie):** [Piper](https://github.com/OHF-Voice/piper1-gpl) voices from [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices) (check the licence of the voice you choose).
 
-The voice for each language is set in `voices.json`; change `version` when you remake the clips (it is part of the clip addresses, so phones fetch the new ones).
+The two voices of each language are set in `voices.json` (a dialogue uses one voice per speaker; elsewhere the learner's Settings choice or a fixed mix); change `version` when you remake the clips (it is part of the clip addresses, so phones fetch the new ones).
 
 ## Make or refresh the clips
 
@@ -18,4 +18,4 @@ The voice for each language is set in `voices.json`; change `version` when you r
 3. `node tools/tts/manifest.mjs` writes `audio/manifest.json`.
 4. `node --test` checks that every clip in the manifest exists.
 
-Only missing clips are made. To change a voice, edit `voices.json`, bump `version`, delete `audio/<lang>/` and run the steps again.
+Only missing clips are made. To change a voice, edit `voices.json`, bump `version`, delete `audio/<lang>/<voice>/` and run the steps again.

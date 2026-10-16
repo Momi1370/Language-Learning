@@ -126,6 +126,15 @@ try {
   const uniOk = uniIds.startsWith('v-0221,') && uniIds.split(',').length === 10 && (await b.evaluate(`${vocabState}.settings.vocabTrack`)) === 'university';
   if (!uniOk) failed++;
   console.log(`${uniOk ? '✓' : '✗'} University section gives its own 10 words (${uniIds.slice(0, 15)}…)`);
+  // Recorded voices: tapping 🔊 on a word asks for a clip from audio/<lang>/<voice>/ (the phone voice is only the fallback).
+  await b.evaluate(`performance.clearResourceTimings()`);
+  await b.click('🔊');
+  await b.evaluate(`new Promise((r) => setTimeout(r, 800))`);
+  const clipRequests = await b.evaluate(`performance.getEntriesByType('resource').map((e) => e.name).filter((n) => n.includes('/audio/') && n.includes('.mp3')).length`);
+  const clipOk = clipRequests >= 1;
+  if (!clipOk) failed++;
+  console.log(`${clipOk ? '✓' : '✗'} tapping 🔊 on a word loads a recorded clip (${clipRequests} request)`);
+
   // A format-2 word shows its word forms and one example per tense, each with a Farsi grammar note.
   await b.click('Go through them one by one instead');
   const tenses = await b.evaluate(`[...document.querySelectorAll('.card.vocab .tense-tag')].map((x) => x.textContent.split(' ')[0]).join()`);
