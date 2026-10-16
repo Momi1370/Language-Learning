@@ -67,3 +67,7 @@ Browne, C., Culligan, B., Phillips, J. (2013). The New Academic Word List. https
 ## CMU Pronouncing Dictionary (IPA in content/vocab/)
 
 Copyright (C) 1993-2014 by Carnegie Mellon University. "Use of this dictionary for any research or commercial purpose is completely unrestricted." The dictionary is not stored in this repository: `tools/vocab-ipa.mjs` reads a local copy while authoring. Source: https://github.com/cmusphinx/cmudict
+
+## espeak-ng (first draft of the Dutch IPA in content/vocab/pack-04.json and later Dutch packs)
+
+espeak-ng (https://github.com/espeak-ng/espeak-ng, GPL-3.0-or-later) was run on a developer machine to draft the Dutch pronunciation (`tools/vocab-ipa-nl.mjs`); every IPA was then checked and corrected by hand. No espeak-ng code or data is part of this app. The Dutch words, sentences and Farsi explanations are written for this project; no word list or text from a book or a dictionary is copied.

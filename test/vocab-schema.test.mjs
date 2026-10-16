@@ -113,9 +113,9 @@ test('format 1 packs still need no forms or tenses', () => assert.deepEqual(vali
 
 const nl = (change) => { const p = validDutchPack(); change(p.words[0], p); return validateVocab(p, one); };
 
-test('a complete Dutch pack has no errors, and needs 10 words unless it is a draft', () => {
+test('a complete Dutch pack has no errors, and needs 75 words unless it is a draft', () => {
   assert.deepEqual(validateVocab(validDutchPack(), one), []);
-  assert.ok(has(validateVocab(validDutchPack()), 'words needs at least 10'));
+  assert.ok(has(validateVocab(validDutchPack()), 'words needs at least 75'));
 });
 
 test('Dutch words have ids like d-0001, an English gloss and an article on nouns', () => {

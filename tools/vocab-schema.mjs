@@ -3,7 +3,7 @@ import { ipaSyllableCount, ipaStressedSyllables } from './ipa.mjs';
 import { formMatches, TRACKS } from '../js/vocabtext.js';
 
 export const MIN_PACK_WORDS = 100;
-export const MIN_PACK_WORDS_NL = 10;
+export const MIN_PACK_WORDS_NL = 75;
 export const EXAMPLE_WORDS = { min: 5, max: 16 };
 // Old-fashioned or stiff English that learners should not copy (spec §5). "Shall we …?" is still current.
 export const DATED = [
