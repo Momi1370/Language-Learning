@@ -2,6 +2,8 @@
 // The sections of the Words tab: each pack belongs to one.
 export const TRACKS = ['everyday', 'university'];
 export const TRACK_NAMES = { everyday: 'Everyday', university: 'University' };
+// Every list of words a day's batch can be drawn from: the English tracks and the Dutch everyday words.
+export const SECTIONS = [...TRACKS, 'nl-everyday'];
 
 const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 

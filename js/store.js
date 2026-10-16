@@ -1,5 +1,5 @@
 import { TOTAL_WEEKS, SESSIONS_PER_WEEK } from './session.js';
-import { TRACKS } from './vocabtext.js';
+import { TRACKS, SECTIONS } from './vocabtext.js';
 
 export const STORAGE_KEY = 'taalmaatje.v1';
 
@@ -9,7 +9,7 @@ export function defaultState() {
     position: { week: 1, session: 1 },
     done: [],
     history: [],
-    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 10, vocabTrack: 'everyday', clipVoice: { en: 'mixed', nl: 'mixed' } },
+    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 10, vocabPerDayNl: 5, vocabTrack: 'everyday', clipVoice: { en: 'mixed', nl: 'mixed' } },
     cards: {},
     myPhrases: [],
     vocab: { known: [], checked: [], learnedOn: {}, checkDay: { en: '', nl: '' }, day: { date: '', batches: {} }, reviews: { key: '', count: 0 }, perDayReset: true },
@@ -24,7 +24,7 @@ export const PER_DAY = [3, 5, 10, 15];
 // The day's words: one batch per section. Older saves had a single list ("ids", then "ids" + "track").
 function migrateDay(day) {
   if (!isObject(day) || typeof day.date !== 'string') return null;
-  const lists = (o) => Object.fromEntries(TRACKS.filter((t) => Array.isArray(o[t]) && o[t].every((id) => typeof id === 'string')).map((t) => [t, o[t]]));
+  const lists = (o) => Object.fromEntries(SECTIONS.filter((t) => Array.isArray(o[t]) && o[t].every((id) => typeof id === 'string')).map((t) => [t, o[t]]));
   if (isObject(day.batches)) return { date: day.date, batches: lists(day.batches) };
   if (Array.isArray(day.ids) && day.ids.every((id) => typeof id === 'string')) return { date: day.date, batches: { [TRACKS.includes(day.track) ? day.track : 'everyday']: day.ids } };
   return null;
@@ -56,6 +56,7 @@ export function migrate(raw) {
       extraWords: Number.isInteger(s.extraWords) && s.extraWords >= 0 ? s.extraWords : base.settings.extraWords,
       // 5 was the first default; it moves to 10 once (perDayReset), and a later choice of 5 is kept.
       vocabPerDay: !PER_DAY.includes(s.vocabPerDay) ? base.settings.vocabPerDay : s.vocabPerDay === 5 && v.perDayReset !== true ? 10 : s.vocabPerDay,
+      vocabPerDayNl: PER_DAY.includes(s.vocabPerDayNl) ? s.vocabPerDayNl : base.settings.vocabPerDayNl,
       vocabTrack: TRACKS.includes(s.vocabTrack) ? s.vocabTrack : base.settings.vocabTrack,
       // which recorded voice speaks: a voice id from audio/manifest.json, or "mixed"
       clipVoice: Object.fromEntries(['en', 'nl'].map((l) => [l, isObject(s.clipVoice) && isText(s.clipVoice[l]) && s.clipVoice[l] ? s.clipVoice[l] : 'mixed'])),

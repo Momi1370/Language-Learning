@@ -132,3 +132,12 @@ test('the recorded voice choice defaults to "mixed" and keeps any text the learn
   assert.deepEqual(migrate({ version: 1, settings: { clipVoice: { en: 'emma', nl: 5 } } }).settings.clipVoice, { en: 'emma', nl: 'mixed' });
   assert.deepEqual(migrate({ version: 1, settings: { clipVoice: 'x' } }).settings.clipVoice, { en: 'mixed', nl: 'mixed' });
 });
+
+test('Dutch words per day: default 5, a valid choice is kept, an invalid one resets, the Dutch batch survives', () => {
+  assert.equal(defaultState().settings.vocabPerDayNl, 5);
+  assert.equal(migrate({ version: 1 }).settings.vocabPerDayNl, 5);
+  assert.equal(migrate({ version: 1, settings: { vocabPerDayNl: 15 } }).settings.vocabPerDayNl, 15);
+  assert.equal(migrate({ version: 1, settings: { vocabPerDayNl: 7 } }).settings.vocabPerDayNl, 5);
+  const day = { date: '2026-10-16', batches: { everyday: ['v-0001'], 'nl-everyday': ['d-0001', 'd-0002'] } };
+  assert.deepEqual(migrate({ version: 1, vocab: { known: [], day, reviews: { key: '', count: 0 } } }).vocab.day, day);
+});

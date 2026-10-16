@@ -96,3 +96,12 @@ test('cardView finds course chunks, words and my phrases', () => {
   assert.equal(cardView('my-3', sources).kind, 'mine');
   assert.equal(cardView('missing', sources), null);
 });
+
+test('cardView gives a Dutch vocabulary word the Dutch language', () => {
+  const v = { id: 'd-0001', word: 'de afspraak', lang: 'nl', fa: { meaning: 'قرار ملاقات', note: 'نکته' }, stress: ['af-SPRAAK'] };
+  const view = cardView('d-0001', { chunkIndex: {}, wordIndex: {}, myPhrases: [], vocabIndex: { 'd-0001': v } });
+  assert.equal(view.lang, 'nl');
+  assert.equal(view.kind, 'vocab');
+  const en = cardView('v-0001', { chunkIndex: {}, wordIndex: {}, myPhrases: [], vocabIndex: { 'v-0001': { ...v, id: 'v-0001', lang: undefined } } });
+  assert.equal(en.lang, 'en');
+});

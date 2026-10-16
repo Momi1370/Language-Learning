@@ -3,8 +3,14 @@ import { localDate } from './session.js';
 
 export const VOCAB_REVIEW_CAP = 10;
 
-export const isVocabId = (id) => /^v-\d{4}$/.test(id);
-export const wordsOf = (packs) => packs.flatMap((p) => p.words.map((w) => ({ ...w, track: p.track ?? 'everyday' })));
+export const isVocabId = (id) => /^[vd]-\d{4}$/.test(id);
+// Each word knows its language and its section: the English tracks, or the Dutch everyday words.
+export const wordsOf = (packs) => packs.flatMap((p) => p.words.map((w) => {
+  const lang = p.lang ?? 'en';
+  const track = p.track ?? 'everyday';
+  return { ...w, lang, track, section: lang === 'nl' ? 'nl-everyday' : track };
+}));
+export const perDayOf = (settings, section) => (section.startsWith('nl-') ? settings.vocabPerDayNl : settings.vocabPerDay);
 export const indexVocab = (packs) => Object.fromEntries(wordsOf(packs).map((w) => [w.id, w]));
 
 export function statusOf(state, id) {
@@ -17,34 +23,34 @@ export function statusOf(state, id) {
 // calendar day, and keeps them for the whole day. Choosing a larger N later the same day adds the missing
 // words at the end (a smaller N never removes any). With no words loaded nothing is stored, so a failed
 // load cannot use up the day.
-export function ensureBatch(state, words, now = new Date()) {
+export function ensureBatch(state, words, now = new Date(), track = state.settings.vocabTrack) {
   const date = localDate(now);
-  const track = state.settings.vocabTrack;
   const day = state.vocab.day;
+  const perDay = perDayOf(state.settings, track);
   if (!words.length) return state;
-  const fresh = (skip) => words.filter((w) => w.track === track && statusOf(state, w.id) === 'new' && !skip.has(w.id)).map((w) => w.id);
+  const fresh = (skip) => words.filter((w) => w.section === track && statusOf(state, w.id) === 'new' && !skip.has(w.id)).map((w) => w.id);
   if (day.date === date && day.batches[track]) {
     const have = day.batches[track];
-    const more = fresh(new Set(have)).slice(0, Math.max(0, state.settings.vocabPerDay - have.length));
+    const more = fresh(new Set(have)).slice(0, Math.max(0, perDay - have.length));
     if (!more.length) return state;
     return { ...state, vocab: { ...state.vocab, day: { date, batches: { ...day.batches, [track]: [...have, ...more] } } } };
   }
-  const ids = fresh(new Set()).slice(0, state.settings.vocabPerDay);
+  const ids = fresh(new Set()).slice(0, perDay);
   const batches = day.date === date ? { ...day.batches, [track]: ids } : { [track]: ids };
   return { ...state, vocab: { ...state.vocab, day: { date, batches } } };
 }
 
-export const batchOf = (state) => state.vocab.day.batches[state.settings.vocabTrack] ?? [];
+export const batchOf = (state, section = state.settings.vocabTrack) => state.vocab.day.batches[section] ?? [];
 
-export const newCount = (state, words, track) => words.filter((w) => w.track === track && statusOf(state, w.id) === 'new').length;
+export const newCount = (state, words, section) => words.filter((w) => w.section === section && statusOf(state, w.id) === 'new').length;
 
 // The quick sort: the words you did not tick are known, the ticked ones stay to be taught one by one.
-export function settleBatch(state, unknownIds) {
+export function settleBatch(state, unknownIds, section = state.settings.vocabTrack) {
   const keep = new Set(unknownIds);
-  return batchLeft(state).filter((id) => !keep.has(id)).reduce(markKnown, state);
+  return batchLeft(state, section).filter((id) => !keep.has(id)).reduce(markKnown, state);
 }
 
-export const batchLeft = (state) => batchOf(state).filter((id) => statusOf(state, id) === 'new');
+export const batchLeft = (state, section = state.settings.vocabTrack) => batchOf(state, section).filter((id) => statusOf(state, id) === 'new');
 
 export function markKnown(state, id) {
   if (state.cards[id] || state.vocab.known.includes(id)) return state;

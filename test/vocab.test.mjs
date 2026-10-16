@@ -4,8 +4,8 @@ import { defaultState } from '../js/store.js';
 import { newCard } from '../js/srs.js';
 import { cardView } from '../js/cards.js';
 import {
-  VOCAB_REVIEW_CAP, isVocabId, wordsOf, indexVocab, statusOf, ensureBatch, batchLeft, markKnown, teach,
-  searchVocab, vocabCounts, newCount, settleBatch, promptExample, reviewKey, reviewsLeft, capQueue, countReview,
+  VOCAB_REVIEW_CAP, isVocabId, wordsOf, indexVocab, statusOf, ensureBatch, batchLeft, batchOf, markKnown, teach,
+  searchVocab, vocabCounts, newCount, settleBatch, promptExample, reviewKey, reviewsLeft, capQueue, countReview, perDayOf,
 } from '../js/vocab.js';
 
 const id = (n) => `v-${String(n).padStart(4, '0')}`;
@@ -236,4 +236,76 @@ test('the review prompt uses the present-tense example when a word has one, else
   assert.equal(promptExample(w), w.examples[0]);
   const w2 = { ...w, examples: [{ tense: 'past', text: 'a' }, { tense: 'present', text: 'b' }, { tense: 'future', text: 'c' }] };
   assert.equal(promptExample(w2).text, 'b');
+});
+
+const dword = (n) => ({ ...word(n), id: `d-${String(n).padStart(4, '0')}`, word: `woord${n}`, forms: [`woord${n}`] });
+const dutch = { pack: 4, lang: 'nl', track: 'everyday', words: Array.from({ length: 12 }, (_, i) => dword(i + 1)) };
+const both = wordsOf([packs[0], packs[1], dutch]);
+const dids = (...ns) => ns.map((n) => `d-${String(n).padStart(4, '0')}`);
+
+test('Dutch ids are vocabulary ids and Dutch packs make their own section', () => {
+  assert.ok(isVocabId('d-0001'));
+  assert.ok(!isVocabId('d-1'));
+  const w = both.find((x) => x.id === 'd-0001');
+  assert.equal(w.lang, 'nl');
+  assert.equal(w.section, 'nl-everyday');
+  assert.equal(both.find((x) => x.id === id(1)).lang, 'en');
+  assert.equal(both.find((x) => x.id === id(1)).section, 'everyday');
+  assert.equal(both.find((x) => x.id === id(21)).section, 'university');
+  assert.equal(indexVocab([dutch])['d-0003'].lang, 'nl');
+});
+
+test('words per day are set per language: 10 for English, 5 for Dutch by default', () => {
+  const s = defaultState();
+  assert.equal(perDayOf(s.settings, 'everyday'), 10);
+  assert.equal(perDayOf(s.settings, 'university'), 10);
+  assert.equal(perDayOf(s.settings, 'nl-everyday'), 5);
+  assert.equal(perDayOf({ ...s.settings, vocabPerDayNl: 15 }, 'nl-everyday'), 15);
+});
+
+test('the Dutch batch holds the next 5 Dutch words and leaves the English batch alone', () => {
+  let s = ensureBatch(defaultState(), both, day1);
+  const english = s.vocab.day.batches.everyday;
+  s = ensureBatch(s, both, day1, 'nl-everyday');
+  assert.deepEqual(s.vocab.day.batches['nl-everyday'], dids(1, 2, 3, 4, 5));
+  assert.deepEqual(s.vocab.day.batches.everyday, english);
+  assert.deepEqual(batchOf(s, 'nl-everyday'), dids(1, 2, 3, 4, 5));
+  assert.equal(batchOf(s).length, 10);
+});
+
+test('a larger Dutch setting tops up only the Dutch batch; English top-up leaves Dutch alone', () => {
+  let s = ensureBatch(ensureBatch(defaultState(), both, day1), both, day1, 'nl-everyday');
+  s = { ...s, settings: { ...s.settings, vocabPerDayNl: 10 } };
+  s = ensureBatch(s, both, day1, 'nl-everyday');
+  assert.equal(s.vocab.day.batches['nl-everyday'].length, 10);
+  assert.equal(s.vocab.day.batches.everyday.length, 10);
+  const small = { ...defaultState(), settings: { ...defaultState().settings, vocabPerDay: 3 } };
+  let t = ensureBatch(ensureBatch(small, both, day1), both, day1, 'nl-everyday');
+  t = { ...t, settings: { ...t.settings, vocabPerDay: 10 } };
+  t = ensureBatch(t, both, day1);
+  assert.equal(t.vocab.day.batches.everyday.length, 10);
+  assert.equal(t.vocab.day.batches['nl-everyday'].length, 5);
+});
+
+test('settleBatch, batchLeft and newCount work on the section they are given', () => {
+  let s = ensureBatch(ensureBatch(defaultState(), both, day1), both, day1, 'nl-everyday');
+  s = settleBatch(s, [dids(2)[0]], 'nl-everyday');
+  assert.deepEqual(s.vocab.known.sort(), dids(1, 3, 4, 5));
+  assert.deepEqual(batchLeft(s, 'nl-everyday'), dids(2));
+  assert.equal(batchLeft(s).length, 10, 'the English batch is untouched');
+  assert.equal(newCount(s, both, 'nl-everyday'), 12 - 4);
+  assert.equal(newCount(s, both, 'everyday'), 12);
+});
+
+test('English and Dutch reviews share one allowance of 10 per session', () => {
+  const reviewed = (n) => ({ ...newCard(day1), reps: n });
+  const cards = {
+    ...Object.fromEntries(ids(1, 2, 3, 4, 5, 6).map((x) => [x, reviewed(1)])),
+    ...Object.fromEntries(dids(1, 2, 3, 4, 5, 6).map((x) => [x, reviewed(1)])),
+  };
+  const s = { ...defaultState(), cards };
+  const key = reviewKey({ week: 1, session: 1 }, day1);
+  const capped = capQueue(Object.keys(cards), s, key);
+  assert.equal(capped.length, VOCAB_REVIEW_CAP);
+  assert.equal(countReview(countReview(s, key), key).vocab.reviews.count, 2);
 });
