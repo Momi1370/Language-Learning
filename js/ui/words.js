@@ -2,6 +2,8 @@ import { clear, mount, h, button, fa } from './dom.js';
 import { speakable, say, sayItCheck } from './widgets.js';
 import { ensureBatch, batchOf, batchLeft, markKnown, teach, statusOf, searchVocab, wordsOf, newCount, settleBatch } from '../vocab.js';
 import { TRACKS, TRACK_NAMES } from '../vocabtext.js';
+import { stageOf, STAGE_LABELS } from '../learned.js';
+import { stageLine, quickCheck } from './tracking.js';
 
 const TENSE_LABELS = { past: 'Past · گذشته', present: 'Present · حال', future: 'Future · آینده' };
 
@@ -51,9 +53,11 @@ export async function render(ctx, root) {
     TRACKS.map((t) => button(`${TRACK_NAMES[t]} · ${newCount(ctx.state, words, t)} new`, () => choose(t),
       { class: t === track ? 'chip primary' : 'chip', 'aria-pressed': String(t === track) })));
   const head = h('p', { class: 'muted' });
+  const tracker = h('div', {});
+  const quick = quickCheck(ctx, 'en');
   const stage = h('div', {});
   let sorted = false; // the quick sort is offered once per visit, while nothing of today's batch is decided
-  mount(root, h('h1', {}, '📚 Words'), switcher, head,
+  mount(root, h('h1', {}, '📚 Words'), switcher, tracker, quick, head,
     ctx.voices.en ? null : h('p', { class: 'warn' }, 'No English voice found on this device, so 🔊 will not play. iPhone: Settings → Accessibility → Spoken Content → Voices → English.'),
     stage,
     error ? h('p', { class: 'hint' }, 'Some words could not be loaded.') : null,
@@ -63,6 +67,7 @@ export async function render(ctx, root) {
   function show() {
     const total = batchOf(ctx.state).filter((id) => ctx.vocabIndex[id]).length;
     const left = batchLeft(ctx.state).filter((id) => ctx.vocabIndex[id]);
+    mount(clear(tracker), stageLine(ctx.state, 'en'));
     head.textContent = total ? `Today: ${total - left.length} of ${total} words done` : '';
     clear(stage);
     if (!total) return mount(stage, h('div', { class: 'card' }, h('p', {}, 'More words are coming soon.')));
@@ -101,32 +106,36 @@ export async function render(ctx, root) {
   }
 }
 
-const STATUS = { new: 'new', known: 'known', learning: 'learning' };
-
 export async function renderList(ctx, root) {
   const { packs, error } = await ctx.getVocab();
   const all = wordsOf(packs);
   let section = 'all';
+  let stageFilter = 'all';
   const results = h('div', {});
   const box = h('input', { type: 'search', placeholder: 'Search a word or its Farsi meaning', 'aria-label': 'Search words', onInput: list });
-  const filter = h('div', { class: 'row', role: 'group', 'aria-label': 'Section' },
-    ['all', ...TRACKS].map((t) => button(t === 'all' ? 'All' : TRACK_NAMES[t], (e) => {
-      section = t;
-      filter.querySelectorAll('button').forEach((b) => { const on = b === e.currentTarget; b.className = on ? 'chip primary' : 'chip'; b.setAttribute('aria-pressed', String(on)); });
-      list();
-    }, { class: t === 'all' ? 'chip primary' : 'chip', 'aria-pressed': String(t === 'all') })));
-  mount(root, h('h1', {}, '📚 All words'), h('p', {}, h('a', { href: '#/words' }, '← Today’s words')), filter, box, results);
+  const chips = (label, options, onPick) => {
+    const row = h('div', { class: 'row', role: 'group', 'aria-label': label },
+      options.map(([value, text]) => button(text, (e) => {
+        row.querySelectorAll('button').forEach((b) => { const on = b === e.currentTarget; b.className = on ? 'chip primary' : 'chip'; b.setAttribute('aria-pressed', String(on)); });
+        onPick(value);
+        list();
+      }, { class: value === 'all' ? 'chip primary' : 'chip', 'aria-pressed': String(value === 'all') })));
+    return row;
+  };
+  const filter = chips('Section', [['all', 'All'], ...TRACKS.map((t) => [t, TRACK_NAMES[t]])], (v) => { section = v; });
+  const stages = chips('Stage', [['all', 'Any stage'], ...['new', 'learning', 'familiar', 'learned', 'claimed', 'confirmed'].map((x) => [x, STAGE_LABELS[x]])], (v) => { stageFilter = v; });
+  mount(root, h('h1', {}, '📚 All words'), h('p', {}, h('a', { href: '#/words' }, '← Today’s words')), filter, stages, box, results);
   list();
 
   function list() {
-    const found = searchVocab(all.filter((w) => section === 'all' || w.track === section), box.value);
+    const found = searchVocab(all.filter((w) => (section === 'all' || w.track === section) && (stageFilter === 'all' || stageOf(ctx.state, w.id) === stageFilter)), box.value);
     mount(clear(results), found.length ? found.map(row) : h('p', { class: 'muted' }, error ? 'Could not load the words.' : 'No words found.'));
   }
 
   // The word page is built only when a row is opened (120 pages at once would be slow).
   function row(w) {
     const status = statusOf(ctx.state, w.id);
-    const details = h('details', {}, h('summary', {}, `${w.word} · ${w.fa.meaning} · ${STATUS[status]}`));
+    const details = h('details', {}, h('summary', {}, `${w.word} · ${w.fa.meaning} · ${STAGE_LABELS[stageOf(ctx.state, w.id)]}`));
     details.addEventListener('toggle', () => {
       if (!details.open || details.dataset.built) return;
       details.dataset.built = '1';

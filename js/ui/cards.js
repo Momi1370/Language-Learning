@@ -5,6 +5,7 @@ import { clozeOf } from '../vocabtext.js';
 import { isVocabId, promptExample, capQueue, countReview, reviewKey } from '../vocab.js';
 import { introduce, introduceExtraWords, grade, dueQueue, cardView, shouldRepeat, addMyPhrase, deleteMyPhrase } from '../cards.js';
 import { Grade } from '../srs.js';
+import { noteLearned } from '../learned.js';
 
 export async function render(ctx, root) {
   const now = new Date();
@@ -46,6 +47,7 @@ export async function render(ctx, root) {
 
   function onGrade(id, g) {
     ctx.update((s) => grade(s, id, g, new Date()));
+    if (isVocabId(id)) ctx.update((s) => noteLearned(s, id, new Date()));
     if (isVocabId(id) && !firstTime.has(id)) {
       ctx.update((s) => countReview(s, key));
       queue.splice(0, queue.length, ...capQueue(queue, ctx.state, key, firstTime));

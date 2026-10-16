@@ -79,3 +79,15 @@ export function resolveSpotCheck(state, id, knew, now = new Date()) {
 export function finishSpotCheck(state, lang, now = new Date()) {
   return { ...state, vocab: { ...state.vocab, checkDay: { ...state.vocab.checkDay, [lang]: localDate(now) } } };
 }
+
+export const STAGE_LABELS = { learned: 'Learned', familiar: 'Familiar', learning: 'Learning', confirmed: 'Confirmed', claimed: 'Claimed', new: 'New' };
+const SUMMARY_ORDER = ['learned', 'familiar', 'learning', 'confirmed', 'claimed'];
+
+// "8 learned · 14 familiar · 22 learning · 30 claimed": the stages that have words.
+export const stageSummary = (counts) => SUMMARY_ORDER.filter((s) => counts[s] > 0).map((s) => `${counts[s]} ${s}`).join(' · ');
+
+// The parts of the thin bar: each stage's share of all the words counted.
+export function stageShares(counts) {
+  const total = SUMMARY_ORDER.reduce((n, s) => n + counts[s], 0);
+  return total ? SUMMARY_ORDER.filter((s) => counts[s] > 0).map((stage) => ({ stage, share: counts[stage] / total })) : [];
+}

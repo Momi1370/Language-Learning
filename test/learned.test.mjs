@@ -4,7 +4,7 @@ import { defaultState, migrate } from '../js/store.js';
 import { newCard } from '../js/srs.js';
 import {
   langOfId, stageOf, stageCounts, noteLearned, backfillLearned, learnedSince, trickyIds,
-  pickSpotCheck, resolveSpotCheck, finishSpotCheck,
+  pickSpotCheck, resolveSpotCheck, finishSpotCheck, stageSummary, stageShares,
 } from '../js/learned.js';
 
 const day = new Date('2026-10-16T09:00:00');
@@ -143,4 +143,18 @@ test('garbage in the new fields is replaced by defaults, other fields stay', () 
   assert.deepEqual(m.vocab.checked, []);
   assert.deepEqual(m.vocab.learnedOn, {});
   assert.deepEqual(m.vocab.checkDay, { en: '', nl: 'x' });
+});
+
+test('stageSummary names the stages that have words, best first', () => {
+  assert.equal(stageSummary({ learning: 22, familiar: 14, learned: 8, claimed: 30, confirmed: 0 }), '8 learned · 14 familiar · 22 learning · 30 claimed');
+  assert.equal(stageSummary({ learning: 0, familiar: 0, learned: 0, claimed: 0, confirmed: 0 }), '');
+  assert.equal(stageSummary({ learning: 1, familiar: 0, learned: 0, claimed: 0, confirmed: 2 }), '1 learning · 2 confirmed');
+});
+
+test('stageShares gives the bar its parts: they add up to 1, empty when there are no words', () => {
+  assert.deepEqual(stageShares({ learning: 0, familiar: 0, learned: 0, claimed: 0, confirmed: 0 }), []);
+  const parts = stageShares({ learning: 2, familiar: 0, learned: 1, claimed: 1, confirmed: 0 });
+  assert.deepEqual(parts.map((p) => p.stage), ['learned', 'learning', 'claimed']);
+  assert.equal(parts.reduce((n, p) => n + p.share, 0), 1);
+  assert.equal(parts[1].share, 0.5);
 });

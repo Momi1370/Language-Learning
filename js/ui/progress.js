@@ -1,14 +1,32 @@
 import { mount, h } from './dom.js';
 import { isLearned } from '../srs.js';
 import { streak } from '../session.js';
-import { vocabCounts } from '../vocab.js';
+import { localDate } from '../session.js';
+import { STAGE_LABELS, stageCounts, stageSummary, learnedSince, trickyIds } from '../learned.js';
+import { stageLine } from './tracking.js';
 
 const stat = (value, label) => h('div', { class: 'stat' }, h('b', {}, String(value)), label);
 
+// One language's words: the ladder, what reached Learned lately, and the words that keep slipping.
+function wordsBlock(ctx, lang, title) {
+  const s = ctx.state;
+  const counts = stageCounts(s, lang);
+  const anyWords = Object.values(counts).some((n) => n > 0);
+  if (!anyWords && lang !== 'en') return null;
+  const ago = (days) => localDate(new Date(Date.now() - days * 86400000));
+  const tricky = trickyIds(s, lang);
+  const name = (id) => ctx.vocabIndex[id]?.word ?? id;
+  return h('div', { class: 'card' },
+    h('h3', {}, title),
+    anyWords ? [h('p', {}, stageSummary(counts)), stageLine(s, lang)] : h('p', { class: 'muted' }, 'No words yet. Open the Words tab to start.'),
+    h('p', { class: 'hint' }, `Reached ${STAGE_LABELS.learned}: ${learnedSince(s, lang, ago(6))} in the last 7 days · ${learnedSince(s, lang, ago(29))} in the last 30 days`),
+    tricky.length ? [h('p', { class: 'label' }, 'Tricky words'), h('p', {}, tricky.map(name).join(' · '))] : null);
+}
+
 export async function render(ctx, root) {
+  await ctx.getVocab();
   const s = ctx.state;
   const learned = Object.values(s.cards).filter(isLearned).length;
-  const words = vocabCounts(s);
   const titles = Object.fromEntries((ctx.course?.weeks ?? []).map((w) => [w.sound.id, `${w.lang === 'nl' ? '🇧🇪' : '🇬🇧'} ${w.sound.title}`]));
   const ear = Object.entries(s.ear);
   mount(root,
@@ -18,7 +36,9 @@ export async function render(ctx, root) {
       stat(streak(s.history), 'day streak'),
       stat(learned, 'cards learned'),
       stat(s.myPhrases.length, 'my phrases')),
-    h('p', { class: 'muted' }, `📚 Words: ${words.learning} learning · ${words.known} known`),
+    h('h2', {}, '📚 Words'),
+    wordsBlock(ctx, 'en', '🇬🇧 English'),
+    wordsBlock(ctx, 'nl', '🇧🇪 Dutch'),
     h('h2', {}, '👂 Ear quiz'),
     ear.length
       ? h('ul', {}, ear.map(([id, r]) => h('li', {}, `${titles[id] ?? id}: ${Math.round((100 * r.right) / r.total)}% (${r.right}/${r.total})`)))

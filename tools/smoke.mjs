@@ -32,7 +32,7 @@ async function check(path, route, expectText, allowedErrors = []) {
 
 try {
   const routes = ['today', 'block/cards', 'block/sound', 'block/listen', 'block/speak', 'block/grammar', 'block/english', 'roleplay', 'progress', 'settings', 'words', 'words/list'];
-  for (const r of routes) await check(`index.html#/${r}`, r, null, r.startsWith('words') ? noPack : []);
+  for (const r of routes) await check(`index.html#/${r}`, r, null, r.startsWith('words') || r === 'progress' ? noPack : []);
   await check('tools/set-position.html?week=1&session=5&to=block/listen', 'block/listen', 'Limburg ear');
   await check('tools/set-position.html?week=1&session=5&to=block/speak', 'block/speak', 'Speaking diary');
   await check('tools/set-position.html?week=1&session=5&to=roleplay', 'roleplay', 'Copy prompt');
@@ -53,7 +53,7 @@ try {
   const blocked = ['ERR_BLOCKED_BY_CLIENT', 'week-0'];
   await check('tools/set-position.html?week=1&session=1&to=today', 'today', 'Could not load the lessons', blocked);
   await check('index.html#/block/cards', 'block/cards', 'Cards', blocked);
-  await check('index.html#/progress', 'progress', 'Progress', blocked);
+  await check('index.html#/progress', 'progress', 'Progress', [...blocked, ...noPack]);
   await check('index.html#/settings', 'settings', 'Backup', blocked);
   await b.block([]);
 
@@ -118,6 +118,19 @@ try {
   const same = (await b.evaluate(`${vocabState}.vocab.day.batches.everyday.join()`)) === batch;
   if (!same) failed++;
   console.log(`${same ? '✓' : '✗'} reopening the Words tab keeps the same batch`);
+  // Tracking: the stage line counts the taught word as learning and the 9 ticked-known as claimed; the quick check confirms 3 of them.
+  const stageText = await b.evaluate(`document.querySelector('.stage-line')?.innerText ?? ''`);
+  const stageOk = /1 learning/.test(stageText) && /9 claimed/.test(stageText) && (await b.text()).includes('Quick check · 3 words');
+  if (!stageOk) failed++;
+  console.log(`${stageOk ? '✓' : '✗'} Words tab shows the stage line and offers the quick check (${stageText.replace(/\n/g, ' ')})`);
+  await b.click('Start');
+  for (let i = 0; i < 3; i++) { await b.click('Show'); await b.click('I knew it'); }
+  const checkedN = await b.evaluate(`${vocabState}.vocab.checked.length`);
+  const checkedDay = await b.evaluate(`${vocabState}.vocab.checkDay.en`);
+  const checkGone = !(await b.text()).includes('Quick check');
+  const quickOk = checkedN === 3 && checkedDay !== '' && checkGone;
+  if (!quickOk) failed++;
+  console.log(`${quickOk ? '✓' : '✗'} the quick check confirms 3 claimed words and then goes away (${checkedN} confirmed)`);
   // The University section draws its own batch (pack 3); switching back to Everyday is remembered.
   await check('index.html?uni#/words', 'words', 'Today: 10 of 10 words done', noPack);
   await b.click('University · 100 new');
@@ -145,7 +158,7 @@ try {
   console.log(`${tenseOk ? '✓' : '✗'} a University word shows word forms and a past, present and future example with grammar notes (${tenses}; ${grammarCount} notes)`);
   await b.click('Everyday · 210 new');
   await check('index.html?uni3#/words', 'words', 'Today: 10 of 10 words done', noPack);
-  await check('index.html#/words/list', 'words/list', 'All words', noPack);
+  await check('index.html#/words/list', 'words/list', 'Any stage', noPack);
 
   // The words fail to load: the Words tab explains and offers "Try again"; other screens keep working.
   await b.block(['*content/vocab/*']);
@@ -192,7 +205,7 @@ try {
   if (!left || counted !== 1) failed++;
   console.log(`${left && counted === 1 ? '✓' : '✗'} grading a vocabulary card counts one review toward the cap of 10 (${counted})`);
   await check('index.html#/settings', 'settings', 'New English words per day');
-  await check('index.html#/progress', 'progress', '📚 Words:');
+  await check('index.html#/progress', 'progress', 'Reached Learned: 0 in the last 7 days', noPack);
 
   // Leaving a line while recording must turn the microphone off.
   await check('tools/set-position.html?week=1&session=1&to=block/listen', 'block/listen', 'Line 1 of');

@@ -6,6 +6,7 @@ import { loadCourse, loadWords, loadVocab } from './content.js';
 import { buildSession, finishSession } from './session.js';
 import { indexChunks, indexWords } from './cards.js';
 import { indexVocab } from './vocab.js';
+import { backfillLearned } from './learned.js';
 import { h, clear, button } from './ui/dom.js';
 import { stopAllRecording } from './ui/widgets.js';
 import * as today from './ui/today.js';
@@ -150,6 +151,7 @@ async function render() {
 }
 
 async function boot() {
+  ctx.update((s) => backfillLearned(s, new Date())); // dates for words that were already learned
   loadManifest(); // recorded voice clips, if any; never blocks or fails the app
   ctx.diary = await openDiary();
   ctx.allVoices = await getVoices();
