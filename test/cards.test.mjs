@@ -105,3 +105,10 @@ test('cardView gives a Dutch vocabulary word the Dutch language', () => {
   const en = cardView('v-0001', { chunkIndex: {}, wordIndex: {}, myPhrases: [], vocabIndex: { 'v-0001': { ...v, id: 'v-0001', lang: undefined } } });
   assert.equal(en.lang, 'en');
 });
+
+test('nextExtraWords leaves out words that a Dutch pack already teaches', () => {
+  const list = [{ id: 'w-0001', text: 'de afspraak' }, { id: 'w-0002', text: 'het gebouw' }, { id: 'w-0003', text: 'De Oplossing' }];
+  const skip = new Set(['de afspraak', 'de oplossing']);
+  assert.deepEqual(nextExtraWords(defaultState(), list, 5, skip), ['w-0002']);
+  assert.deepEqual(nextExtraWords(defaultState(), list, 5), ['w-0001', 'w-0002', 'w-0003']);
+});

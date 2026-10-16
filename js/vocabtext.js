@@ -18,11 +18,23 @@ function formRegex(form) {
 
 export const formMatches = (text, forms) => forms.some((f) => formRegex(f).test(text));
 
-export function clozeOf(text, forms) {
+// Dutch separable verbs ("maak … schoon"): with `split` both parts are blanked and the words between stay,
+// so the learner still sees the sentence ("Ik ____ zaterdag de badkamer ____.").
+function splitRegex(form) {
+  const [a, b] = form.split('…').map((part) => part.trim().split(/\s+/).map(escapeRegExp).join('\\s+'));
+  return new RegExp(`(?<!\\p{L})(${a})\\s+((?:\\S+\\s+){0,3})(${b})(?!\\p{L})`, 'iu');
+}
+
+export function clozeOf(text, forms, { split = false } = {}) {
   let best = null;
   for (const f of forms) {
-    const m = formRegex(f).exec(text);
-    if (m && (!best || m.index < best.index || (m.index === best.index && m[0].length > best[0].length))) best = m;
+    const isSplit = split && f.includes('…');
+    const m = (isSplit ? splitRegex(f) : formRegex(f)).exec(text);
+    if (m && (!best || m.index < best.m.index || (m.index === best.m.index && m[0].length > best.m[0].length))) best = { m, isSplit };
   }
-  return best ? `${text.slice(0, best.index)}____${text.slice(best.index + best[0].length)}` : null;
+  if (!best) return null;
+  const { m, isSplit } = best;
+  const before = text.slice(0, m.index);
+  const after = text.slice(m.index + m[0].length);
+  return isSplit ? `${before}____ ${m[2]}____${after}` : `${before}____${after}`;
 }

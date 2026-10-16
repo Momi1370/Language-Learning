@@ -2,7 +2,7 @@ import { clear, mount, h, button, fa } from './dom.js';
 import { speakable, sayItCheck, cardDetails, doneBar } from './widgets.js';
 import { wordPage } from './words.js';
 import { clozeOf } from '../vocabtext.js';
-import { isVocabId, promptExample, capQueue, countReview, reviewKey } from '../vocab.js';
+import { isVocabId, wordsOf, promptExample, capQueue, countReview, reviewKey } from '../vocab.js';
 import { introduce, introduceExtraWords, grade, dueQueue, cardView, shouldRepeat, addMyPhrase, deleteMyPhrase } from '../cards.js';
 import { Grade } from '../srs.js';
 import { noteLearned } from '../learned.js';
@@ -13,8 +13,10 @@ export async function render(ctx, root) {
     ctx.update((s) => introduce(s, ctx.session.nl.newCards, now));
     if (ctx.state.settings.extraWords > 0) {
       const words = await ctx.getWords();
+      const { packs } = await ctx.getVocab();
+      const taught = new Set(wordsOf(packs).filter((w) => w.lang === 'nl').map((w) => w.word.toLowerCase()));
       const key = `${ctx.session.week}-${ctx.session.session}`;
-      ctx.update((s) => introduceExtraWords(s, words, s.settings.extraWords, key, now));
+      ctx.update((s) => introduceExtraWords(s, words, s.settings.extraWords, key, now, taught));
     }
   }
   if (Object.keys(ctx.state.cards).some((id) => id.startsWith('w-'))) await ctx.getWords();
@@ -82,7 +84,7 @@ export async function render(ctx, root) {
 
   function vocabReview(id, view) {
     const w = view.vocab;
-    const gap = clozeOf(promptExample(w).text, w.forms) ?? promptExample(w).text;
+    const gap = clozeOf(promptExample(w).text, w.forms, { split: view.lang === 'nl' }) ?? promptExample(w).text;
     const answer = h('div', { hidden: true }, wordPage(ctx, w), h('p', { class: 'label' }, 'How well did you know it?'), gradeRow(id));
     const show = button('Show', () => { answer.hidden = false; show.remove(); }, { class: 'primary' });
     return h('div', { class: 'card' },

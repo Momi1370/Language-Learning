@@ -30,3 +30,13 @@ test('Dutch separable verbs: the gap covers both parts, and a joined form is bla
   assert.equal(clozeOf('Ik bel hem morgen op.', ['bel … op']), 'Ik ____.');
   assert.equal(clozeOf('Omdat ik hem opbel, weet hij het.', ['opbel', 'bel … op']), 'Omdat ik hem ____, weet hij het.');
 });
+
+test('Dutch separable verbs can be blanked in two places, keeping the words between', () => {
+  const split = { split: true };
+  assert.equal(clozeOf('Ik maak zaterdag de badkamer schoon.', ['maak … schoon'], split), 'Ik ____ zaterdag de badkamer ____.');
+  assert.equal(clozeOf('De trein komt over tien minuten aan.', ['komt … aan'], split), 'De trein ____ over tien minuten ____.');
+  assert.equal(clozeOf('Je schrijft je hier online in.', ['schrijft … in'], split), 'Je ____ je hier online ____.');
+  assert.equal(clozeOf('Omdat ik hem opbel, weet hij het.', ['opbel', 'bel … op'], split), 'Omdat ik hem ____, weet hij het.');
+  assert.equal(clozeOf('Ik bel op.', ['bel … op'], split), 'Ik ____ ____.');
+  assert.equal(clozeOf('Ik bel hem morgen op.', ['bel … op']), 'Ik ____.', 'without the option the whole span is one gap, as before');
+});

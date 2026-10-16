@@ -657,7 +657,7 @@
       ],
       "fa": {
         "meaning": "تب",
-        "note": "اسم «de» است. جمع: koortsen. معمولاً بدون جمع به کار می‌رود. «koorts hebben» یعنی «تب داشتن»؛ «hoge koorts» یعنی «تب بالا»."
+        "note": "اسم «de» است. معمولاً بدون جمع به کار می‌رود. «koorts hebben» یعنی «تب داشتن»؛ «hoge koorts» یعنی «تب بالا»."
       },
       "morph": [
         [
@@ -817,7 +817,7 @@
       ],
       "fa": {
         "meaning": "نسخه‌ی پزشک؛ دستور پخت",
-        "note": "اسم «het» است. جمع: recepten. دو معنی دارد: نسخه‌ی پزشکی (een recept van de dokter) و دستور پخت غذا (een recept voor soep)."
+        "note": "اسم «het» است. جمع: recepten. دو معنی دارد: نسخه‌ی پزشکی و دستور پخت غذا (een recept voor soep). در بلژیک برای نسخه‌ی پزشکی بیشتر «het voorschrift» می‌گویند؛ در هلند «het recept»."
       },
       "morph": [
         [
@@ -1303,7 +1303,7 @@
       ],
       "fa": {
         "meaning": "قیمت؛ جایزه",
-        "note": "اسم «de» است. جمع: prijzen. جمع: prijzen (ʃ→z). «de prijs van …» یعنی «قیمت …»؛ «een prijs winnen» یعنی «جایزه بردن»."
+        "note": "اسم «de» است. جمع: prijzen (ʃ→z). «de prijs van …» یعنی «قیمت …»؛ «een prijs winnen» یعنی «جایزه بردن»."
       },
       "morph": [
         [
@@ -1461,7 +1461,7 @@
       ],
       "fa": {
         "meaning": "صندوق (پرداخت)",
-        "note": "اسم «de» است. جمع: kassa’s. جمع با apostrof: kassa’s. «aan de kassa betalen» یعنی «پشت صندوق پرداخت کردن»."
+        "note": "اسم «de» است. جمع با apostrof: kassa’s. «aan de kassa betalen» یعنی «پشت صندوق پرداخت کردن»."
       },
       "morph": [
         [
@@ -1478,7 +1478,7 @@
           "tense": "past",
           "text": "De kassa was vanmorgen een uur buiten werking.",
           "fa": "صندوق امروز صبح یک ساعت از کار افتاده بود.",
-          "grammar": "گذشته‌ی کامل با zijn: برای فعل‌های حرکت و تغییر حالت (gaan, komen, zijn, verhuizen…) به‌جای heb از ben / bent / is / zijn + قسمت گذشته در آخر جمله استفاده می‌شود. در این جمله: گذشته‌ی ساده‌ی zijn برای حالت و وضعیت: was."
+          "grammar": "گذشته‌ی ساده (imperfectum): ریشه‌ی فعل + -de / -te (فعل‌های باقاعده) یا شکل بی‌قاعده؛ بیشتر در نوشتار و روایت دیده می‌شود تا در گفتار. در این جمله: گذشته‌ی ساده‌ی zijn برای حالت و وضعیت: was."
         },
         {
           "tense": "present",
@@ -1509,12 +1509,12 @@
       ],
       "fa": {
         "meaning": "پول خرد (باقی‌مانده)",
-        "note": "اسم «het» است. جمع: wisselgeld. جمع ندارد. «wisselgeld teruggeven» یعنی «باقی پول را پس دادن». از wisselen (عوض کردن) + geld (پول)."
+        "note": "اسم «het» است. جمع ندارد. «wisselgeld teruggeven» یعنی «باقی پول را پس دادن». از wisselen (عوض کردن) + geld (پول)."
       },
       "morph": [
         [
           "Plural",
-          "de wisselgeld"
+          "— (no plural)"
         ],
         [
           "Related",
@@ -2009,7 +2009,7 @@
       ],
       "fa": {
         "meaning": "کرایه (اجاره‌بها)",
-        "note": "اسم «de» است. جمع: huren. جمع کم‌کاربرد است. «de huur betalen» یعنی «کرایه پرداخت کردن». فعلش huren است (اجاره کردن) و کسی که اجاره می‌کند: de huurder."
+        "note": "اسم «de» است. جمع کم‌کاربرد است. «de huur betalen» یعنی «کرایه پرداخت کردن». فعلش huren است (اجاره کردن) و کسی که اجاره می‌کند: de huurder."
       },
       "morph": [
         [
@@ -2036,9 +2036,9 @@
         },
         {
           "tense": "future",
-          "text": "Volgende maand gaat de huur omhoog.",
+          "text": "Volgende maand gaat de huur stijgen.",
           "fa": "ماه بعد کرایه بالا می‌رود.",
-          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «omhooggaan» یعنی «بالا رفتن»؛ در جمله gaat … omhoog جدا می‌شوند."
+          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «stijgen» (بالا رفتن) مصدر است و آخر جمله می‌آید؛ جمله با «Volgende maand» شروع شده، پس gaat قبل از de huur می‌آید."
         }
       ],
       "register": "neutral",
@@ -2109,7 +2109,7 @@
       ],
       "fa": {
         "meaning": "آشپزخانه",
-        "note": "اسم «de» است. جمع: keukens. جمع: keukens؛ شکل کوچک: het keukentje (آشپزخانه‌ی کوچک). «koken» یعنی آشپزی کردن."
+        "note": "اسم «de» است. جمع: keukens؛ شکل کوچک: het keukentje (آشپزخانه‌ی کوچک). «koken» یعنی آشپزی کردن."
       },
       "morph": [
         [
@@ -2357,7 +2357,7 @@
       ],
       "fa": {
         "meaning": "یخچال (در بلژیک)",
-        "note": "اسم «de» است. جمع: frigo’s. در بلژیک «frigo» می‌گویند؛ در هلند معمولاً «de koelkast». جمع: frigo’s."
+        "note": "اسم «de» است. در بلژیک «frigo» می‌گویند؛ در هلند معمولاً «de koelkast». جمع: frigo’s."
       },
       "morph": [
         [
@@ -2407,7 +2407,7 @@
       ],
       "fa": {
         "meaning": "پنجره",
-        "note": "اسم «het» است. جمع: ramen. اسم het است. جمع: ramen. «het raam openzetten» یعنی «پنجره را باز کردن»."
+        "note": "اسم «het» است. اسم het است. جمع: ramen. «het raam openzetten» یعنی «پنجره را باز کردن»."
       },
       "morph": [
         [
@@ -2777,7 +2777,7 @@
       ],
       "fa": {
         "meaning": "اتوبوس",
-        "note": "اسم «de» است. جمع: bussen. جمع: bussen (دو s). شکل کوچک: het busje (ون / مینی‌بوس). «de bus nemen» یعنی «اتوبوس گرفتن»."
+        "note": "اسم «de» است. جمع: bussen (دو s). شکل کوچک: het busje (ون / مینی‌بوس). «de bus nemen» یعنی «اتوبوس گرفتن»."
       },
       "morph": [
         [
@@ -3083,7 +3083,7 @@
       ],
       "fa": {
         "meaning": "بلیت، کارت کوچک",
-        "note": "اسم «het» است. جمع: kaartjes. شکل کوچکِ kaart است ولی خودش یک اسم مستقل است: بلیت قطار، سینما و غیره. جمع: kaartjes."
+        "note": "اسم «het» است. شکل کوچکِ kaart است ولی خودش یک اسم مستقل است: بلیت قطار، سینما و غیره. جمع: kaartjes."
       },
       "morph": [
         [
@@ -3193,7 +3193,7 @@
       ],
       "fa": {
         "meaning": "راننده",
-        "note": "اسم «de» است. جمع: chauffeurs. برای راننده‌ی حرفه‌ای (اتوبوس، تاکسی، کامیون). «bestuurder» راننده‌ی کلی است. جمع: chauffeurs."
+        "note": "اسم «de» است. برای راننده‌ی حرفه‌ای (اتوبوس، تاکسی، کامیون). «bestuurder» راننده‌ی کلی است. جمع: chauffeurs."
       },
       "morph": [
         [
@@ -3342,7 +3342,7 @@
       ],
       "fa": {
         "meaning": "خیابان، کوچه",
-        "note": "اسم «de» است. جمع: straten. جمع: straten. شکل کوچک: het straatje (کوچه‌ی کوچک). «op straat» یعنی «در خیابان»؛ «de straatnaam» نام خیابان."
+        "note": "اسم «de» است. جمع: straten. شکل کوچک: het straatje (کوچه‌ی کوچک). «op straat» یعنی «در خیابان»؛ «de straatnaam» نام خیابان."
       },
       "morph": [
         [
@@ -3392,7 +3392,7 @@
       ],
       "fa": {
         "meaning": "سفر",
-        "note": "اسم «de» است. جمع: reizen. جمع: reizen (در جمع s به z تبدیل می‌شود). فعلش «reizen» است. «op reis gaan» یعنی «به سفر رفتن»."
+        "note": "اسم «de» است. جمع: reizen (در جمع s به z تبدیل می‌شود). فعلش «reizen» است. «op reis gaan» یعنی «به سفر رفتن»."
       },
       "morph": [
         [
@@ -3441,7 +3441,7 @@
       ],
       "fa": {
         "meaning": "حقوق (دستمزد)",
-        "note": "اسم «het» است. جمع: lonen. برای دستمزد کارگر و کارمند. «het salaris» رسمی‌تر است. جمع: lonen. «de loonfiche» (در بلژیک) فیش حقوقی."
+        "note": "اسم «het» است. برای دستمزد کارگر و کارمند. «het salaris» رسمی‌تر است. جمع: lonen. «de loonfiche» (در بلژیک) فیش حقوقی."
       },
       "morph": [
         [
@@ -3468,9 +3468,9 @@
         },
         {
           "tense": "future",
-          "text": "Volgend jaar gaat mijn loon omhoog.",
+          "text": "Volgend jaar gaat mijn loon stijgen.",
           "fa": "سال بعد حقوقم بالا می‌رود.",
-          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «omhooggaan» جداشدنی است: gaat … omhoog."
+          "grammar": "آینده با gaan: ga / gaat / gaan + مصدر در آخر جمله؛ برای برنامه‌ی نزدیک که قصدش را داریم. در گفتار روزمره از zal رایج‌تر است. در این جمله: «stijgen» (بالا رفتن) مصدر است و آخر جمله می‌آید؛ جمله با «Volgend jaar» شروع شده."
         }
       ],
       "register": "neutral",
@@ -3490,7 +3490,7 @@
       ],
       "fa": {
         "meaning": "رئیس",
-        "note": "اسم «de» است. جمع: bazen. در گفتار روزمره برای رئیس به کار می‌رود؛ رسمی‌تر: de directeur / de leidinggevende. جمع: bazen (s→z)."
+        "note": "اسم «de» است. در گفتار روزمره برای رئیس به کار می‌رود؛ رسمی‌تر: de directeur / de leidinggevende. جمع: bazen (s→z)."
       },
       "morph": [
         [
@@ -3651,7 +3651,7 @@
       ],
       "fa": {
         "meaning": "برنامه‌ی کاری، جدول زمانی",
-        "note": "اسم «het» است. جمع: roosters. برای برنامه‌ی کاری یا درسی: «het werkrooster» برنامه‌ی کاری. جمع: roosters."
+        "note": "اسم «het» است. برای برنامه‌ی کاری یا درسی: «het werkrooster» برنامه‌ی کاری. جمع: roosters."
       },
       "morph": [
         [
@@ -3803,7 +3803,7 @@
       ],
       "fa": {
         "meaning": "شرکت، کسب‌وکار",
-        "note": "اسم «het» است. جمع: bedrijven. اسم het است. جمع: bedrijven. «een eigen bedrijf beginnen» یعنی «کسب‌وکار شخصی راه انداختن». شکل کوچک: het bedrijfje."
+        "note": "اسم «het» است. اسم het است. جمع: bedrijven. «een eigen bedrijf beginnen» یعنی «کسب‌وکار شخصی راه انداختن». شکل کوچک: het bedrijfje."
       },
       "morph": [
         [
@@ -3913,7 +3913,7 @@
       ],
       "fa": {
         "meaning": "تجربه",
-        "note": "اسم «de» است. جمع: ervaringen. «ervaring hebben met …» یعنی «با … تجربه داشتن»؛ «werkervaring» تجربه‌ی کاری. جمع: ervaringen."
+        "note": "اسم «de» است. «ervaring hebben met …» یعنی «با … تجربه داشتن»؛ «werkervaring» تجربه‌ی کاری. جمع: ervaringen."
       },
       "morph": [
         [

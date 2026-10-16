@@ -37,14 +37,15 @@ export function shouldRepeat(card, now, timesSeen) {
   return timesSeen < 3 && new Date(card.due) - now < SOON_MS;
 }
 
-export function nextExtraWords(state, words, count) {
+// `skip`: lowercase texts that another list already teaches (the Dutch vocabulary packs), so no word gets two cards.
+export function nextExtraWords(state, words, count, skip = new Set()) {
   if (count <= 0) return [];
-  return words.filter((w) => !state.cards[w.id]).slice(0, count).map((w) => w.id);
+  return words.filter((w) => !state.cards[w.id] && !skip.has(w.text.toLowerCase())).slice(0, count).map((w) => w.id);
 }
 
-export function introduceExtraWords(state, words, count, positionKey, now = new Date()) {
+export function introduceExtraWords(state, words, count, positionKey, now = new Date(), skip = new Set()) {
   if (count <= 0 || state.extraFor === positionKey) return state;
-  return { ...introduce(state, nextExtraWords(state, words, count), now), extraFor: positionKey };
+  return { ...introduce(state, nextExtraWords(state, words, count, skip), now), extraFor: positionKey };
 }
 
 const randomId = (now) => `my-${now.getTime().toString(36)}${Math.random().toString(36).slice(2, 6)}`;

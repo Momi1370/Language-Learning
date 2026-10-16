@@ -1805,9 +1805,9 @@
       "examples": [
         {
           "tense": "past",
-          "text": "Het is niet nodig geweest om te bellen.",
+          "text": "Het was niet nodig om te bellen.",
           "fa": "لازم نبود زنگ بزنم.",
-          "grammar": "گذشته‌ی کامل با zijn: برای فعل‌های حرکت و تغییر حالت (gaan, komen, zijn, verhuizen…) به‌جای heb از ben / bent / is / zijn + قسمت گذشته در آخر جمله استفاده می‌شود. در این جمله: گذشته‌ی کامل با zijn: is … geweest."
+          "grammar": "گذشته‌ی ساده (imperfectum): ریشه‌ی فعل + -de / -te (فعل‌های باقاعده) یا شکل بی‌قاعده؛ بیشتر در نوشتار و روایت دیده می‌شود تا در گفتار. در این جمله: برای حالت‌ها و وضعیت‌ها در گذشته معمولاً was / had می‌گویند، نه گذشته‌ی کامل."
         },
         {
           "tense": "present",
@@ -1841,7 +1841,7 @@
       ],
       "fa": {
         "meaning": "آسان",
-        "note": "در گفتار روزمره «makkelijk» رایج‌تر از «gemakkelijk» است. ضدش moeilijk است."
+        "note": "همان «gemakkelijk» است؛ شکل کوتاه makkelijk در گفتار زیاد شنیده می‌شود. ضدش moeilijk است."
       },
       "morph": [
         [
@@ -1864,9 +1864,9 @@
       "examples": [
         {
           "tense": "past",
-          "text": "Het examen is makkelijker geweest dan ik dacht.",
+          "text": "Het examen was makkelijker dan ik dacht.",
           "fa": "امتحان آسان‌تر از آن بود که فکر می‌کردم.",
-          "grammar": "گذشته‌ی کامل با zijn: برای فعل‌های حرکت و تغییر حالت (gaan, komen, zijn, verhuizen…) به‌جای heb از ben / bent / is / zijn + قسمت گذشته در آخر جمله استفاده می‌شود. در این جمله: صفت تفضیلی makkelijker + dan (از)."
+          "grammar": "گذشته‌ی ساده (imperfectum): ریشه‌ی فعل + -de / -te (فعل‌های باقاعده) یا شکل بی‌قاعده؛ بیشتر در نوشتار و روایت دیده می‌شود تا در گفتار. در این جمله: صفت تفضیلی makkelijker + dan (از)؛ برای وضعیت در گذشته از was استفاده می‌شود."
         },
         {
           "tense": "present",
@@ -1982,9 +1982,9 @@
       "examples": [
         {
           "tense": "past",
-          "text": "Het is gisteren op de weg heel gevaarlijk geweest.",
+          "text": "Het was gisteren op de weg heel gevaarlijk.",
           "fa": "دیروز جاده خیلی خطرناک بود.",
-          "grammar": "گذشته‌ی کامل با zijn: برای فعل‌های حرکت و تغییر حالت (gaan, komen, zijn, verhuizen…) به‌جای heb از ben / bent / is / zijn + قسمت گذشته در آخر جمله استفاده می‌شود. در این جمله: گذشته‌ی کامل با zijn: is … geweest."
+          "grammar": "گذشته‌ی ساده (imperfectum): ریشه‌ی فعل + -de / -te (فعل‌های باقاعده) یا شکل بی‌قاعده؛ بیشتر در نوشتار و روایت دیده می‌شود تا در گفتار. در این جمله: گذشته‌ی ساده‌ی zijn: was؛ برای توصیف وضعیت."
         },
         {
           "tense": "present",
@@ -2018,7 +2018,7 @@
       ],
       "fa": {
         "meaning": "تمیز",
-        "note": "ضدش vuil است. «schoon» هم به معنی «پاک» برای آب و هوا. «schoonmaken» یعنی تمیز کردن."
+        "note": "ضدش vuil است. توجه: در فلاندر (بلژیک) «schoon» در گفتار بیشتر یعنی «زیبا» (Da’s schoon!) و برای «تمیز» اغلب «proper» می‌گویند؛ در هلند «schoon» یعنی تمیز. «schoonmaken» یعنی تمیز کردن."
       },
       "morph": [
         [
@@ -2041,9 +2041,9 @@
       "examples": [
         {
           "tense": "past",
-          "text": "De kamer was altijd schoon toen we aankwamen.",
-          "fa": "وقتی می‌رسیدیم اتاق همیشه تمیز بود.",
-          "grammar": "گذشته‌ی ساده (imperfectum): ریشه‌ی فعل + -de / -te (فعل‌های باقاعده) یا شکل بی‌قاعده؛ بیشتر در نوشتار و روایت دیده می‌شود تا در گفتار. در این جمله: در جمله‌ی فرعی با «toen» (وقتی) فعل آخر می‌رود: toen we aankwamen."
+          "text": "De kamer was altijd schoon wanneer we aankwamen.",
+          "fa": "هر وقت می‌رسیدیم اتاق همیشه تمیز بود.",
+          "grammar": "گذشته‌ی ساده (imperfectum): ریشه‌ی فعل + -de / -te (فعل‌های باقاعده) یا شکل بی‌قاعده؛ بیشتر در نوشتار و روایت دیده می‌شود تا در گفتار. در این جمله: برای کاری که چند بار تکرار شده «wanneer / als» (هر وقت) می‌گویند، نه «toen»؛ فعل جمله‌ی فرعی آخر می‌رود."
         },
         {
           "tense": "present",
@@ -2159,9 +2159,9 @@
       "examples": [
         {
           "tense": "past",
-          "text": "Ik ben heel blij geweest met je cadeau.",
+          "text": "Ik was heel blij met je cadeau.",
           "fa": "از هدیه‌ی تو خیلی خوشحال شدم.",
-          "grammar": "گذشته‌ی کامل با zijn: برای فعل‌های حرکت و تغییر حالت (gaan, komen, zijn, verhuizen…) به‌جای heb از ben / bent / is / zijn + قسمت گذشته در آخر جمله استفاده می‌شود. در این جمله: «blij zijn met …» یعنی «از … خوشحال بودن»."
+          "grammar": "گذشته‌ی ساده (imperfectum): ریشه‌ی فعل + -de / -te (فعل‌های باقاعده) یا شکل بی‌قاعده؛ بیشتر در نوشتار و روایت دیده می‌شود تا در گفتار. در این جمله: «blij zijn met …» یعنی «از … خوشحال بودن»؛ برای حالت در گذشته was می‌گویند."
         },
         {
           "tense": "present",
@@ -2306,7 +2306,7 @@
         "boos",
         "boze",
         "bozer",
-        "bozest"
+        "boost"
       ],
       "stress": [
         "BOOS"
@@ -2330,7 +2330,7 @@
         ],
         [
           "Superlative",
-          "het bozest"
+          "het boost"
         ]
       ],
       "examples": [
@@ -2484,7 +2484,7 @@
         "teleurgestelde"
       ],
       "stress": [
-        "te-leur-ge-STELD"
+        "te-LEUR-ge-steld"
       ],
       "fa": {
         "meaning": "ناامید، دلسرد (از انتظار برآورده‌نشده)",
@@ -2529,7 +2529,7 @@
         }
       ],
       "register": "neutral",
-      "ipa": "ˌteːløːrɣəˈstɛlt"
+      "ipa": "təˈløːrɣəˌstɛlt"
     },
     {
       "id": "d-0118",
@@ -2603,7 +2603,7 @@
       ],
       "fa": {
         "meaning": "شهرداری، دفتر شهر (واحد اداری)",
-        "note": "اسم «de» است. جمع: gemeenten. هم خود شهر/شهرک به‌عنوان واحد اداری و هم ساختمان شهرداری. در بلژیک «het gemeentehuis» یا «het stadhuis» ساختمان است. جمع: gemeenten."
+        "note": "اسم «de» است. هم خود شهر/شهرک به‌عنوان واحد اداری و هم ساختمان شهرداری. در بلژیک «het gemeentehuis» یا «het stadhuis» ساختمان است. جمع: gemeenten."
       },
       "morph": [
         [
@@ -2657,7 +2657,7 @@
       ],
       "fa": {
         "meaning": "فرم، برگه‌ی درخواست",
-        "note": "اسم «het» است. جمع: formulieren. اسم het است. جمع: formulieren. «een formulier invullen» یعنی «فرم را پر کردن»؛ «opsturen» یعنی «فرستادن»."
+        "note": "اسم «het» است. اسم het است. جمع: formulieren. «een formulier invullen» یعنی «فرم را پر کردن»؛ «opsturen» یعنی «فرستادن»."
       },
       "morph": [
         [
@@ -2755,7 +2755,7 @@
       ],
       "fa": {
         "meaning": "مالیات",
-        "note": "اسم «de» است. جمع: belastingen. مالیات به‌طور کلی: «belasting betalen» یعنی «مالیات دادن»؛ «de belastingaangifte» یعنی «اظهارنامه‌ی مالیاتی». جمع: belastingen."
+        "note": "اسم «de» است. مالیات به‌طور کلی: «belasting betalen» یعنی «مالیات دادن»؛ «de belastingaangifte» یعنی «اظهارنامه‌ی مالیاتی». جمع: belastingen."
       },
       "morph": [
         [
@@ -2805,7 +2805,7 @@
       ],
       "fa": {
         "meaning": "گذرنامه",
-        "note": "اسم «het» است. جمع: paspoorten. اسم het است. جمع: paspoorten. «een paspoort aanvragen / verlengen» یعنی «گذرنامه گرفتن / تمدید کردن»."
+        "note": "اسم «het» است. اسم het است. جمع: paspoorten. «een paspoort aanvragen / verlengen» یعنی «گذرنامه گرفتن / تمدید کردن»."
       },
       "morph": [
         [
@@ -2854,7 +2854,7 @@
       ],
       "fa": {
         "meaning": "کارت شناسایی",
-        "note": "اسم «de» است. جمع: identiteitskaarten. در بلژیک همه کارت شناسایی (eID) دارند. کوتاه: «de ID-kaart». جمع: identiteitskaarten."
+        "note": "اسم «de» است. در بلژیک همه کارت شناسایی (eID) دارند. کوتاه: «de ID-kaart». جمع: identiteitskaarten."
       },
       "morph": [
         [
@@ -2903,7 +2903,7 @@
       ],
       "fa": {
         "meaning": "گواهینامه‌ی رانندگی",
-        "note": "اسم «het» است. جمع: rijbewijzen. اسم het است. جمع: rijbewijzen (s→z). «je rijbewijs halen» یعنی «گواهینامه گرفتن»."
+        "note": "اسم «het» است. اسم het است. جمع: rijbewijzen (s→z). «je rijbewijs halen» یعنی «گواهینامه گرفتن»."
       },
       "morph": [
         [
@@ -2952,7 +2952,7 @@
       ],
       "fa": {
         "meaning": "درخواست (رسمی)",
-        "note": "اسم «de» است. جمع: aanvragen. جمع: aanvragen (هم‌شکل با فعل aanvragen). «een aanvraag indienen» یعنی «درخواست ثبت کردن»."
+        "note": "اسم «de» است. جمع: aanvragen (هم‌شکل با فعل aanvragen). «een aanvraag indienen» یعنی «درخواست ثبت کردن»."
       },
       "morph": [
         [
@@ -3002,7 +3002,7 @@
       ],
       "fa": {
         "meaning": "نامه",
-        "note": "اسم «de» است. جمع: brieven. نامه‌ی کاغذی (نه ایمیل). جمع: brieven (f→v). شکل کوچک: het briefje (یادداشت کوچک)."
+        "note": "اسم «de» است. نامه‌ی کاغذی (نه ایمیل). جمع: brieven (f→v). شکل کوچک: het briefje (یادداشت کوچک)."
       },
       "morph": [
         [
@@ -3052,7 +3052,7 @@
       ],
       "fa": {
         "meaning": "بسته‌ی پستی",
-        "note": "اسم «het» است. جمع: pakketten. اسم het است. جمع: pakketten (دو t). شکل کوچک: het pakketje یا het pakje (بسته‌ی کوچک)."
+        "note": "اسم «het» است. اسم het است. جمع: pakketten (دو t). شکل کوچک: het pakketje یا het pakje (بسته‌ی کوچک)."
       },
       "morph": [
         [
@@ -3150,7 +3150,7 @@
       ],
       "fa": {
         "meaning": "وعده‌ی غذا",
-        "note": "اسم «de» است. جمع: maaltijden. از maal (وعده) + tijd. «een warme maaltijd» یعنی «غذای گرم (ناهار یا شام)». جمع: maaltijden."
+        "note": "اسم «de» است. از maal (وعده) + tijd. «een warme maaltijd» یعنی «غذای گرم (ناهار یا شام)». جمع: maaltijden."
       },
       "morph": [
         [
@@ -3240,20 +3240,19 @@
       "en": "dinner, evening meal",
       "pos": "noun (het)",
       "forms": [
-        "avondeten",
-        "avondetens"
+        "avondeten"
       ],
       "stress": [
         "AA-vond-e-ten"
       ],
       "fa": {
         "meaning": "شام",
-        "note": "اسم «het» است. جمع: avondetens. جمع ندارد (یا بسیار کم‌کاربرد). «het avondeten» یا «het avondmaal» برای شام. «wat eten we vanavond?» یعنی «امشب چه بخوریم؟»."
+        "note": "اسم «het» است. جمع ندارد (یا بسیار کم‌کاربرد). «het avondeten» یا «het avondmaal» برای شام. «wat eten we vanavond?» یعنی «امشب چه بخوریم؟»."
       },
       "morph": [
         [
           "Plural",
-          "de avondetens"
+          "— (no plural)"
         ],
         [
           "Related",
@@ -3395,7 +3394,7 @@
       ],
       "fa": {
         "meaning": "سبزی، سبزیجات",
-        "note": "اسم «de» است. جمع: groenten. برای سبزیجات هم مفرد و هم جمع به کار می‌رود: «groente eten» و «groenten kopen». جمع: groenten."
+        "note": "اسم «de» است. برای سبزیجات هم مفرد و هم جمع به کار می‌رود: «groente eten» و «groenten kopen». جمع: groenten."
       },
       "morph": [
         [
@@ -3443,12 +3442,12 @@
       ],
       "fa": {
         "meaning": "میوه",
-        "note": "اسم «het» است. جمع: vruchten. جمع ندارد (به‌صورت کلی). برای یک عدد میوه «de vrucht» می‌گویند. «vers fruit» میوه‌ی تازه."
+        "note": "اسم «het» است. جمع ندارد (به‌صورت کلی). برای یک عدد میوه «de vrucht» می‌گویند. «vers fruit» میوه‌ی تازه."
       },
       "morph": [
         [
           "Plural",
-          "de vruchten"
+          "— (no plural)"
         ],
         [
           "Article",
@@ -3491,12 +3490,12 @@
       ],
       "fa": {
         "meaning": "تشنگی",
-        "note": "اسم «de» است. جمع: dorsten. جمع ندارد. «dorst hebben» یعنی «تشنه بودن». ضمیمه: «honger hebben» یعنی «گرسنه بودن»."
+        "note": "اسم «de» است. جمع ندارد. «dorst hebben» یعنی «تشنه بودن». ضمیمه: «honger hebben» یعنی «گرسنه بودن»."
       },
       "morph": [
         [
           "Plural",
-          "de dorsten"
+          "— (no plural)"
         ],
         [
           "Article",
@@ -3506,9 +3505,9 @@
       "examples": [
         {
           "tense": "past",
-          "text": "Na de wandeling heb ik enorme dorst gehad.",
+          "text": "Na de wandeling had ik enorme dorst.",
           "fa": "بعد از پیاده‌روی خیلی تشنه‌ام شد.",
-          "grammar": "گذشته‌ی کامل (voltooid tegenwoordige tijd): heb / hebt / heeft / hebben + قسمت گذشته‌ی فعل که به آخر جمله می‌رود. در گفتار روزمره بیشتر از گذشته‌ی ساده به کار می‌رود. در این جمله: «dorst hebben» در گذشته‌ی کامل: heb … dorst gehad."
+          "grammar": "گذشته‌ی ساده (imperfectum): ریشه‌ی فعل + -de / -te (فعل‌های باقاعده) یا شکل بی‌قاعده؛ بیشتر در نوشتار و روایت دیده می‌شود تا در گفتار. در این جمله: گذشته‌ی ساده‌ی hebben: had؛ «dorst hebben» یعنی «تشنه بودن»."
         },
         {
           "tense": "present",
@@ -3539,12 +3538,12 @@
       ],
       "fa": {
         "meaning": "ظرف‌های کثیف، ظرفشویی",
-        "note": "اسم «de» است. جمع: afwassen. جمع ندارد. «de afwas doen» یعنی «ظرف شستن». فعلش afwassen است."
+        "note": "اسم «de» است. جمع ندارد. «de afwas doen» یعنی «ظرف شستن». فعلش afwassen است."
       },
       "morph": [
         [
           "Plural",
-          "de afwassen"
+          "— (no plural)"
         ],
         [
           "Article",
@@ -3588,7 +3587,7 @@
       ],
       "fa": {
         "meaning": "فر (اجاق گاز)",
-        "note": "اسم «de» است. جمع: ovens. جمع: ovens. «de oven aanzetten» یعنی «فر را روشن کردن». شکل کوچک: het ovenschaaltje (ظرف فر)."
+        "note": "اسم «de» است. جمع: ovens. «de oven aanzetten» یعنی «فر را روشن کردن». شکل کوچک: het ovenschaaltje (ظرف فر)."
       },
       "morph": [
         [
@@ -3638,7 +3637,7 @@
       ],
       "fa": {
         "meaning": "مشکل",
-        "note": "اسم «het» است. جمع: problemen. اسم het است. جمع: problemen. شکل کوچک: het probleempje (مشکل کوچک). «Geen probleem!» یعنی «مشکلی نیست!»."
+        "note": "اسم «het» است. اسم het است. جمع: problemen. شکل کوچک: het probleempje (مشکل کوچک). «Geen probleem!» یعنی «مشکلی نیست!»."
       },
       "morph": [
         [
@@ -3687,7 +3686,7 @@
       ],
       "fa": {
         "meaning": "فاصله",
-        "note": "اسم «de» است. جمع: afstanden. جمع: afstanden. «op afstand» یعنی «از راه دور»؛ «op loopafstand» یعنی «در فاصله‌ی پیاده‌روی»."
+        "note": "اسم «de» است. جمع: afstanden. «op afstand» یعنی «از راه دور»؛ «op loopafstand» یعنی «در فاصله‌ی پیاده‌روی»."
       },
       "morph": [
         [
@@ -3736,7 +3735,7 @@
       ],
       "fa": {
         "meaning": "محله",
-        "note": "اسم «de» است. جمع: buurten. جمع: buurten. «in de buurt» یعنی «در نزدیکی / در محل»؛ «een rustige buurt» یعنی «محله‌ی آرام»."
+        "note": "اسم «de» است. جمع: buurten. «in de buurt» یعنی «در نزدیکی / در محل»؛ «een rustige buurt» یعنی «محله‌ی آرام»."
       },
       "morph": [
         [
@@ -3784,12 +3783,12 @@
       ],
       "fa": {
         "meaning": "ترافیک، رفت‌وآمد",
-        "note": "اسم «het» است. جمع: verkeer. جمع ندارد. «veel verkeer» یعنی «ترافیک زیاد»؛ «het verkeer» رفت‌وآمد را کلی می‌گوید و با «de file» (ترافیک سنگین) فرق دارد."
+        "note": "اسم «het» است. جمع ندارد. «veel verkeer» یعنی «ترافیک زیاد»؛ «het verkeer» رفت‌وآمد را کلی می‌گوید و با «de file» (ترافیک سنگین) فرق دارد."
       },
       "morph": [
         [
           "Plural",
-          "de verkeer"
+          "— (no plural)"
         ],
         [
           "Article",
@@ -3833,7 +3832,7 @@
       ],
       "fa": {
         "meaning": "زمستان",
-        "note": "اسم «de» است. جمع: winters. جمع: winters. «in de winter» یعنی «در زمستان»؛ «vorige winter» یعنی «زمستان گذشته»."
+        "note": "اسم «de» است. جمع: winters. «in de winter» یعنی «در زمستان»؛ «vorige winter» یعنی «زمستان گذشته»."
       },
       "morph": [
         [
@@ -3882,7 +3881,7 @@
       ],
       "fa": {
         "meaning": "شانس، فرصت",
-        "note": "اسم «de» است. جمع: kansen. جمع: kansen. دو معنی: «احتمال» (de kans op regen) و «فرصت» (een kans krijgen). «Kans maken op …» یعنی «شانس … داشتن»."
+        "note": "اسم «de» است. جمع: kansen. دو معنی: «احتمال» (de kans op regen) و «فرصت» (een kans krijgen). «Kans maken op …» یعنی «شانس … داشتن»."
       },
       "morph": [
         [
@@ -3932,7 +3931,7 @@
       ],
       "fa": {
         "meaning": "انتخاب",
-        "note": "اسم «de» است. جمع: keuzes. جمع: keuzes (یا keuzen). «een keuze maken» یعنی «انتخاب کردن»؛ «de keuze hebben» یعنی «حق انتخاب داشتن». فعلش kiezen است."
+        "note": "اسم «de» است. جمع: keuzes (یا keuzen). «een keuze maken» یعنی «انتخاب کردن»؛ «de keuze hebben» یعنی «حق انتخاب داشتن». فعلش kiezen است."
       },
       "morph": [
         [
@@ -3982,7 +3981,7 @@
       ],
       "fa": {
         "meaning": "عادت",
-        "note": "اسم «de» است. جمع: gewoontes. جمع: gewoontes (یا gewoonten). «een gewoonte hebben» یعنی «عادت داشتن»؛ «uit gewoonte» یعنی «از سر عادت»."
+        "note": "اسم «de» است. جمع: gewoontes (یا gewoonten). «een gewoonte hebben» یعنی «عادت داشتن»؛ «uit gewoonte» یعنی «از سر عادت»."
       },
       "morph": [
         [
@@ -4032,7 +4031,7 @@
       ],
       "fa": {
         "meaning": "هدیه",
-        "note": "اسم «het» است. جمع: cadeaus. اسم het است. جمع: cadeaus. شکل کوچک: het cadeautje (هدیه‌ی کوچک). «een cadeau geven» یعنی «هدیه دادن»."
+        "note": "اسم «het» است. اسم het است. جمع: cadeaus. شکل کوچک: het cadeautje (هدیه‌ی کوچک). «een cadeau geven» یعنی «هدیه دادن»."
       },
       "morph": [
         [
@@ -4082,7 +4081,7 @@
       ],
       "fa": {
         "meaning": "جشن، مهمانی",
-        "note": "اسم «het» است. جمع: feesten. اسم het است. جمع: feesten. شکل کوچک: het feestje (مهمانی کوچک). «naar een feest gaan» یعنی «به جشن رفتن»."
+        "note": "اسم «het» است. اسم het است. جمع: feesten. شکل کوچک: het feestje (مهمانی کوچک). «naar een feest gaan» یعنی «به جشن رفتن»."
       },
       "morph": [
         [
@@ -4131,7 +4130,7 @@
       ],
       "fa": {
         "meaning": "تولد، سالگرد تولد",
-        "note": "اسم «de» است. جمع: verjaardagen. جمع: verjaardagen. «Gefeliciteerd met je verjaardag!» یعنی «تولدت مبارک!». «jarig zijn» یعنی «تولد داشتن»."
+        "note": "اسم «de» است. جمع: verjaardagen. «Gefeliciteerd met je verjaardag!» یعنی «تولدت مبارک!». «jarig zijn» یعنی «تولد داشتن»."
       },
       "morph": [
         [
