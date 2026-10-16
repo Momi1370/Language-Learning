@@ -2,3 +2,5 @@
 node_modules/
 taalmaatje-backup-*.json
 tools/tts/voices/
+.superpowers/
+.claude/

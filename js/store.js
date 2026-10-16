@@ -12,7 +12,7 @@ export function defaultState() {
     settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 10, vocabTrack: 'everyday', clipVoice: { en: 'mixed', nl: 'mixed' } },
     cards: {},
     myPhrases: [],
-    vocab: { known: [], day: { date: '', batches: {} }, reviews: { key: '', count: 0 }, perDayReset: true },
+    vocab: { known: [], checked: [], learnedOn: {}, checkDay: { en: '', nl: '' }, day: { date: '', batches: {} }, reviews: { key: '', count: 0 }, perDayReset: true },
     ear: {},
     missions: {},
     extraFor: '',
@@ -32,6 +32,7 @@ function migrateDay(day) {
 
 const isObject = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v);
 const isText = (v) => typeof v === 'string';
+const isDate = (v) => isText(v) && /^\d{4}-\d{2}-\d{2}$/.test(v);
 const inRange = (n, max) => Number.isInteger(n) && n >= 1 && n <= max;
 const isPosition = (p) => isObject(p) && inRange(p.week, TOTAL_WEEKS) && inRange(p.session, SESSIONS_PER_WEEK);
 
@@ -63,6 +64,9 @@ export function migrate(raw) {
     myPhrases: pick('myPhrases', (v) => Array.isArray(v) && v.every((p) => isObject(p) && isText(p.id) && isText(p.text))),
     vocab: {
       known: Array.isArray(v.known) && v.known.every(isText) ? v.known : base.vocab.known,
+      checked: Array.isArray(v.checked) && v.checked.every(isText) ? v.checked : base.vocab.checked,
+      learnedOn: isObject(v.learnedOn) && Object.values(v.learnedOn).every(isDate) ? v.learnedOn : base.vocab.learnedOn,
+      checkDay: Object.fromEntries(['en', 'nl'].map((l) => [l, isObject(v.checkDay) && isText(v.checkDay[l]) ? v.checkDay[l] : ''])),
       day: migrateDay(v.day) ?? base.vocab.day,
       reviews: isObject(v.reviews) && isText(v.reviews.key) && Number.isInteger(v.reviews.count) && v.reviews.count >= 0 ? v.reviews : base.vocab.reviews,
       perDayReset: true,
