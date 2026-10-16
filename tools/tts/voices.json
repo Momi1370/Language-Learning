@@ -1,0 +1,5 @@
+{
+  "version": "0",
+  "en": { "engine": "kokoro", "lang_code": "a", "voice": "af_heart", "speed": 0.95 },
+  "nl": { "engine": "piper", "model": "nl_BE-nathalie-medium" }
+}

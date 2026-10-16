@@ -62,3 +62,42 @@ test('installing the offline copy downloads fresh files, not old browser copies'
   assert.ok(cached.length > 10);
   assert.ok(cached.every((r) => r.cache === 'reload'), 'every offline file is fetched with cache: reload');
 });
+
+// Recorded voice clips: an iPhone plays media through the worker only if byte-range requests are answered with 206.
+async function audioRequest(headers) {
+  const listeners = {};
+  const stored = new Map();
+  const bytes = new Uint8Array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]).buffer;
+  const self = { addEventListener: (type, fn) => { listeners[type] = fn; }, location: { origin: 'https://example.org' }, skipWaiting: async () => {}, clients: { claim: async () => {} } };
+  const cache = { addAll: async () => {}, put: async (k, v) => { stored.set(typeof k === 'string' ? k : k.url, v); }, match: async (k) => stored.get(typeof k === 'string' ? k : k.url) };
+  const caches = { open: async () => cache, keys: async () => [], match: async (k) => stored.get(typeof k === 'string' ? k : k.url) };
+  let network = 0;
+  const fetch = async () => { network++; return { ok: true, status: 200, arrayBuffer: async () => bytes, clone() { return this; }, headers: new Map() }; };
+  class FakeResponse { constructor(body, init) { this.body = body; this.status = init?.status ?? 200; this.headers = init?.headers ?? {}; this.ok = this.status < 300; } static error() { return null; } }
+  runInNewContext(sw, { self, caches, fetch, URL, Request: class { constructor(u) { this.url = u; } }, Response: FakeResponse });
+  const req = { method: 'GET', url: 'https://example.org/audio/en/abc.mp3?v=1', headers: { get: (n) => headers[n.toLowerCase()] ?? null } };
+  const waits = [];
+  listeners.fetch({ request: req, respondWith: (p) => waits.push(p) });
+  const res = await waits[0];
+  return { res, network: () => network, again: async () => { const w = []; listeners.fetch({ request: req, respondWith: (p) => w.push(p) }); return w[0]; } };
+}
+
+test('a clip request with a Range header gets a 206 slice of the file', async () => {
+  const { res } = await audioRequest({ range: 'bytes=2-5' });
+  assert.equal(res.status, 206);
+  assert.equal(res.headers['Content-Range'], 'bytes 2-5/10');
+  assert.deepEqual([...new Uint8Array(res.body)], [2, 3, 4, 5]);
+});
+
+test('an open-ended Range (bytes=0-) gets the whole file as 206', async () => {
+  const { res } = await audioRequest({ range: 'bytes=0-' });
+  assert.equal(res.status, 206);
+  assert.equal(res.headers['Content-Range'], 'bytes 0-9/10');
+});
+
+test('a clip request without Range gets the file, and a repeat comes from the cache', async () => {
+  const t = await audioRequest({});
+  assert.equal(t.res.ok, true);
+  await t.again();
+  assert.equal(t.network(), 1);
+});

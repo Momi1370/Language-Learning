@@ -9,6 +9,7 @@ const SHELL = [
   'vendor/ts-fsrs.mjs',
   'js/app.js',
   'js/cards.js',
+  'js/clips.js',
   'js/content.js',
   'js/diary.js',
   'js/match.js',
@@ -63,10 +64,36 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+// Recorded voice clips never change under the same address (the manifest version is in the URL), so they
+// are served from the cache once played. An iPhone asks for media in byte ranges and only plays the
+// answer if it is a 206, so a range is cut out of the whole file here.
+async function clipResponse(req) {
+  const cache = await caches.open(CACHE);
+  let res = await cache.match(req.url);
+  if (!res) {
+    res = await fetch(req.url);
+    if (res.ok) await cache.put(req.url, res.clone());
+  }
+  const range = /^bytes=(\d*)-(\d*)$/.exec(req.headers.get('range') ?? '');
+  if (!res.ok || !range) return res;
+  const data = await res.arrayBuffer();
+  const start = range[1] ? Number(range[1]) : 0;
+  const end = range[2] ? Math.min(Number(range[2]), data.byteLength - 1) : data.byteLength - 1;
+  return new Response(data.slice(start, end + 1), {
+    status: 206,
+    statusText: 'Partial Content',
+    headers: { 'Content-Type': 'audio/mpeg', 'Content-Range': `bytes ${start}-${end}/${data.byteLength}`, 'Content-Length': String(end - start + 1) },
+  });
+}
+
 // Network first, so new lessons appear as soon as they are online; cache when offline.
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== self.location.origin) return;
+  if (/\/audio\/[a-z]{2}\/[0-9a-z]+\.mp3$/.test(new URL(req.url).pathname)) {
+    event.respondWith(clipResponse(req).catch(() => Response.error()));
+    return;
+  }
   event.respondWith(
     // By URL: a page request ("navigate" mode) cannot be copied with new options.
     fetch(req.url, { cache: 'no-cache' })

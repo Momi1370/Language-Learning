@@ -1,3 +1,5 @@
+import { hasClip, playClip } from './clips.js';
+
 const code = (lang) => String(lang ?? '').replace('_', '-').toLowerCase();
 
 // Apple's novelty and "Eloquence" voices sing, whisper or sound robotic: useless for hearing vowels.
@@ -45,7 +47,18 @@ export function getVoices(timeoutMs = 1500) {
   });
 }
 
+// Uses the recorded clip when there is one for this text (see clips.js); otherwise, or when the clip
+// cannot be played, the phone's own voice.
 export function speak(text, { voice = null, lang = 'nl-BE', rate = 1 } = {}) {
+  const code = String(lang).slice(0, 2).toLowerCase();
+  if (text && hasClip(code, text)) {
+    globalThis.speechSynthesis?.cancel();
+    return playClip(code, text, rate).then((played) => (played ? undefined : speakWithPhone(text, { voice, lang, rate })));
+  }
+  return speakWithPhone(text, { voice, lang, rate });
+}
+
+function speakWithPhone(text, { voice, lang, rate }) {
   const synth = globalThis.speechSynthesis;
   if (!synth || !text) return Promise.resolve();
   synth.cancel();

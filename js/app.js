@@ -1,6 +1,7 @@
 import { createStore } from './store.js';
 import { openDiary } from './diary.js';
 import { getVoices, pickVoice } from './speech.js';
+import { loadManifest } from './clips.js';
 import { loadCourse, loadWords, loadVocab } from './content.js';
 import { buildSession, finishSession } from './session.js';
 import { indexChunks, indexWords } from './cards.js';
@@ -149,6 +150,7 @@ async function render() {
 }
 
 async function boot() {
+  loadManifest(); // recorded voice clips, if any; never blocks or fails the app
   ctx.diary = await openDiary();
   ctx.allVoices = await getVoices();
   ctx.pickVoices();
