@@ -42,9 +42,10 @@ export async function collect() {
   }
   for (const f of await list('content/vocab/', /^pack-\d\d\.json$/)) {
     const pack = await readJson(`content/vocab/${f}`);
+    const lang = pack.lang ?? 'en';
     for (const w of pack.words ?? []) {
-      add('en', w.word, 'sentence');
-      for (const e of w.examples ?? []) { add('en', e.text, 'sentence'); for (const x of wordsOf(e.text)) add('en', x, 'word'); }
+      add(lang, w.word, 'sentence');
+      for (const e of w.examples ?? []) { add(lang, e.text, 'sentence'); for (const x of wordsOf(e.text)) add(lang, x, 'word'); }
     }
   }
   return { nl: [...result.nl.values()], en: [...result.en.values()] };

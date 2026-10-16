@@ -7085,6 +7085,6714 @@
    "text": "confituur",
    "say": "confituur",
    "kind": "word"
+  },
+  {
+   "key": "1u7tyrxdwfe",
+   "text": "de huisarts",
+   "say": "de huisarts",
+   "kind": "sentence"
+  },
+  {
+   "key": "26ymt8n9ze6",
+   "text": "Ik ben vorige week bij de huisarts geweest voor mijn rug.",
+   "say": "Ik ben vorige week bij de huisarts geweest voor mijn rug.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1n3qdqn3plr",
+   "text": "huisarts",
+   "say": "huisarts",
+   "kind": "word"
+  },
+  {
+   "key": "19saysj3u2s",
+   "text": "rug",
+   "say": "rug",
+   "kind": "word"
+  },
+  {
+   "key": "0rk3xupywkg",
+   "text": "Mijn huisarts werkt hier vlak om de hoek.",
+   "say": "Mijn huisarts werkt hier vlak om de hoek.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0mej02qr1vt",
+   "text": "werkt",
+   "say": "werkt",
+   "kind": "word"
+  },
+  {
+   "key": "12oy0f551d0",
+   "text": "hoek",
+   "say": "hoek",
+   "kind": "word"
+  },
+  {
+   "key": "0mlxgrq4rvu",
+   "text": "Als het niet beter wordt, zal ik mijn huisarts bellen.",
+   "say": "Als het niet beter wordt, zal ik mijn huisarts bellen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "01vyr6a53yx",
+   "text": "zal",
+   "say": "zal",
+   "kind": "word"
+  },
+  {
+   "key": "21iksr51si8",
+   "text": "de winkel",
+   "say": "de winkel",
+   "kind": "sentence"
+  },
+  {
+   "key": "1y2gvvemyvk",
+   "text": "Ik ben net naar de winkel geweest voor brood.",
+   "say": "Ik ben net naar de winkel geweest voor brood.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1mpu7tyqwkm",
+   "text": "winkel",
+   "say": "winkel",
+   "kind": "word"
+  },
+  {
+   "key": "13qfk6jz35a",
+   "text": "brood",
+   "say": "brood",
+   "kind": "word"
+  },
+  {
+   "key": "2f9x6ga05ry",
+   "text": "De winkel op de hoek is tot acht uur open.",
+   "say": "De winkel op de hoek is tot acht uur open.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0h3ns00sgr7",
+   "text": "acht",
+   "say": "acht",
+   "kind": "word"
+  },
+  {
+   "key": "0tis8pnm11h",
+   "text": "open",
+   "say": "open",
+   "kind": "word"
+  },
+  {
+   "key": "0gdpejm6yve",
+   "text": "Volgende maand gaan ze een nieuwe winkel openen in Hasselt.",
+   "say": "Volgende maand gaan ze een nieuwe winkel openen in Hasselt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1poz6awo5px",
+   "text": "openen",
+   "say": "openen",
+   "kind": "word"
+  },
+  {
+   "key": "0wc6r9owp66",
+   "text": "het ziekenhuis",
+   "say": "het ziekenhuis",
+   "kind": "sentence"
+  },
+  {
+   "key": "0hluzk3pn5j",
+   "text": "Mijn buurman heeft twee dagen in het ziekenhuis gelegen.",
+   "say": "Mijn buurman heeft twee dagen in het ziekenhuis gelegen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0dnctwzfzl4",
+   "text": "buurman",
+   "say": "buurman",
+   "kind": "word"
+  },
+  {
+   "key": "1b1uepzzma0",
+   "text": "ziekenhuis",
+   "say": "ziekenhuis",
+   "kind": "word"
+  },
+  {
+   "key": "0u3pxtxyuv6",
+   "text": "gelegen",
+   "say": "gelegen",
+   "kind": "word"
+  },
+  {
+   "key": "0mblsw80eij",
+   "text": "Het ziekenhuis ligt vlak bij het station.",
+   "say": "Het ziekenhuis ligt vlak bij het station.",
+   "kind": "sentence"
+  },
+  {
+   "key": "010y1ehbmlv",
+   "text": "ligt",
+   "say": "ligt",
+   "kind": "word"
+  },
+  {
+   "key": "1jmdfn3e5vm",
+   "text": "station",
+   "say": "station",
+   "kind": "word"
+  },
+  {
+   "key": "1pqlew4tvjp",
+   "text": "Volgende week ga ik mijn vader in het ziekenhuis bezoeken.",
+   "say": "Volgende week ga ik mijn vader in het ziekenhuis bezoeken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "19zqmmru4pa",
+   "text": "vader",
+   "say": "vader",
+   "kind": "word"
+  },
+  {
+   "key": "1aqbqelnzoh",
+   "text": "bezoeken",
+   "say": "bezoeken",
+   "kind": "word"
+  },
+  {
+   "key": "06awryacx5u",
+   "text": "de apotheek",
+   "say": "de apotheek",
+   "kind": "sentence"
+  },
+  {
+   "key": "0s5vki6nxu2",
+   "text": "Ik heb mijn medicijnen net bij de apotheek opgehaald.",
+   "say": "Ik heb mijn medicijnen net bij de apotheek opgehaald.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1pkq2xyqxt0",
+   "text": "medicijnen",
+   "say": "medicijnen",
+   "kind": "word"
+  },
+  {
+   "key": "0yap7gv8f26",
+   "text": "apotheek",
+   "say": "apotheek",
+   "kind": "word"
+  },
+  {
+   "key": "0fbs6zbwafd",
+   "text": "opgehaald",
+   "say": "opgehaald",
+   "kind": "word"
+  },
+  {
+   "key": "1gl7r0ht273",
+   "text": "De apotheek is op zaterdag tot twaalf uur open.",
+   "say": "De apotheek is op zaterdag tot twaalf uur open.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ktatd9dw0s",
+   "text": "Ik ga straks mijn pillen bij de apotheek halen.",
+   "say": "Ik ga straks mijn pillen bij de apotheek halen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0dvq2wvcyci",
+   "text": "pillen",
+   "say": "pillen",
+   "kind": "word"
+  },
+  {
+   "key": "2eqlqto3fde",
+   "text": "halen",
+   "say": "halen",
+   "kind": "word"
+  },
+  {
+   "key": "2ay6u6x6mpi",
+   "text": "het adres",
+   "say": "het adres",
+   "kind": "sentence"
+  },
+  {
+   "key": "0109y13lwdj",
+   "text": "Ik heb het verkeerde adres in mijn gps ingevoerd.",
+   "say": "Ik heb het verkeerde adres in mijn gps ingevoerd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "19tuhdmfir9",
+   "text": "verkeerde",
+   "say": "verkeerde",
+   "kind": "word"
+  },
+  {
+   "key": "00k9iq24fd6",
+   "text": "gps",
+   "say": "gps",
+   "kind": "word"
+  },
+  {
+   "key": "1mszb5xx98t",
+   "text": "ingevoerd",
+   "say": "ingevoerd",
+   "kind": "word"
+  },
+  {
+   "key": "18iw6o26mtk",
+   "text": "Wat is het adres van jullie nieuwe kantoor?",
+   "say": "Wat is het adres van jullie nieuwe kantoor?",
+   "kind": "sentence"
+  },
+  {
+   "key": "2b5jngkq561",
+   "text": "Ik zal je het adres straks per mail doorsturen.",
+   "say": "Ik zal je het adres straks per mail doorsturen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1brtrucz4y6",
+   "text": "per",
+   "say": "per",
+   "kind": "word"
+  },
+  {
+   "key": "1gwm9qwl0c4",
+   "text": "doorsturen",
+   "say": "doorsturen",
+   "kind": "word"
+  },
+  {
+   "key": "0st26l8uble",
+   "text": "Ik heb gisteren een nieuwe fiets gekocht.",
+   "say": "Ik heb gisteren een nieuwe fiets gekocht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "024qapxviw0",
+   "text": "gekocht",
+   "say": "gekocht",
+   "kind": "word"
+  },
+  {
+   "key": "17o8ix6zpfk",
+   "text": "Ik koop mijn groenten altijd op de markt.",
+   "say": "Ik koop mijn groenten altijd op de markt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "16g67iqexhp",
+   "text": "koop",
+   "say": "koop",
+   "kind": "word"
+  },
+  {
+   "key": "1r8i8obfcuz",
+   "text": "Volgende maand ga ik een tweedehands auto kopen.",
+   "say": "Volgende maand ga ik een tweedehands auto kopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0qe5h71zt0u",
+   "text": "tweedehands",
+   "say": "tweedehands",
+   "kind": "word"
+  },
+  {
+   "key": "0gm6s6o5p1f",
+   "text": "auto",
+   "say": "auto",
+   "kind": "word"
+  },
+  {
+   "key": "05ncxz8gkuh",
+   "text": "betalen",
+   "say": "betalen",
+   "kind": "sentence"
+  },
+  {
+   "key": "0d18ioiokom",
+   "text": "Ik heb mijn huur gisteren al betaald.",
+   "say": "Ik heb mijn huur gisteren al betaald.",
+   "kind": "sentence"
+  },
+  {
+   "key": "266x5l0w4c1",
+   "text": "huur",
+   "say": "huur",
+   "kind": "word"
+  },
+  {
+   "key": "04hpzvxw5zb",
+   "text": "betaald",
+   "say": "betaald",
+   "kind": "word"
+  },
+  {
+   "key": "29cyatw3pai",
+   "text": "Ik betaal altijd met mijn bankkaart in de winkel.",
+   "say": "Ik betaal altijd met mijn bankkaart in de winkel.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1fh6y6ezums",
+   "text": "betaal",
+   "say": "betaal",
+   "kind": "word"
+  },
+  {
+   "key": "139wxjxxbrm",
+   "text": "bankkaart",
+   "say": "bankkaart",
+   "kind": "word"
+  },
+  {
+   "key": "1pszkbnjo7w",
+   "text": "Geen zorgen, ik zal de rekening vanavond betalen.",
+   "say": "Geen zorgen, ik zal de rekening vanavond betalen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2b79gsef968",
+   "text": "zorgen",
+   "say": "zorgen",
+   "kind": "word"
+  },
+  {
+   "key": "2auq4k0oexy",
+   "text": "rekening",
+   "say": "rekening",
+   "kind": "word"
+  },
+  {
+   "key": "0kaepi8xl2w",
+   "text": "vanavond",
+   "say": "vanavond",
+   "kind": "word"
+  },
+  {
+   "key": "0liainnn1mt",
+   "text": "bestellen",
+   "say": "bestellen",
+   "kind": "sentence"
+  },
+  {
+   "key": "2doad32x0d0",
+   "text": "We hebben gisteren online een nieuwe stofzuiger besteld.",
+   "say": "We hebben gisteren online een nieuwe stofzuiger besteld.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0l5ei6xja5a",
+   "text": "stofzuiger",
+   "say": "stofzuiger",
+   "kind": "word"
+  },
+  {
+   "key": "07a4hqscvry",
+   "text": "besteld",
+   "say": "besteld",
+   "kind": "word"
+  },
+  {
+   "key": "2gkqavw6fy8",
+   "text": "Wat bestel je meestal in dit restaurant?",
+   "say": "Wat bestel je meestal in dit restaurant?",
+   "kind": "sentence"
+  },
+  {
+   "key": "23889g2g41l",
+   "text": "bestel",
+   "say": "bestel",
+   "kind": "word"
+  },
+  {
+   "key": "24m04vin98n",
+   "text": "restaurant",
+   "say": "restaurant",
+   "kind": "word"
+  },
+  {
+   "key": "05nnbq48dry",
+   "text": "Ik ga straks een pizza voor ons bestellen.",
+   "say": "Ik ga straks een pizza voor ons bestellen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0qfgl8frvw8",
+   "text": "pizza",
+   "say": "pizza",
+   "kind": "word"
+  },
+  {
+   "key": "0h6vw5xoxa1",
+   "text": "ons",
+   "say": "ons",
+   "kind": "word"
+  },
+  {
+   "key": "1u89429vh94",
+   "text": "verhuizen",
+   "say": "verhuizen",
+   "kind": "sentence"
+  },
+  {
+   "key": "26dtrvqid90",
+   "text": "Mijn collega is vorig jaar naar Genk verhuisd.",
+   "say": "Mijn collega is vorig jaar naar Genk verhuisd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0xoxipgxqzx",
+   "text": "vorig",
+   "say": "vorig",
+   "kind": "word"
+  },
+  {
+   "key": "20wxkwvwktf",
+   "text": "verhuisd",
+   "say": "verhuisd",
+   "kind": "word"
+  },
+  {
+   "key": "0oo5v1m7unm",
+   "text": "Veel jonge mensen verhuizen voor werk naar de stad.",
+   "say": "Veel jonge mensen verhuizen voor werk naar de stad.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ykyjtgb5lh",
+   "text": "Veel",
+   "say": "Veel",
+   "kind": "word"
+  },
+  {
+   "key": "284j9h3kgui",
+   "text": "jonge",
+   "say": "jonge",
+   "kind": "word"
+  },
+  {
+   "key": "0iid13twjue",
+   "text": "Volgende zomer gaan wij naar een groter huis verhuizen.",
+   "say": "Volgende zomer gaan wij naar een groter huis verhuizen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "06atbf88h7m",
+   "text": "groter",
+   "say": "groter",
+   "kind": "word"
+  },
+  {
+   "key": "1jwfspfbc96",
+   "text": "de rekening",
+   "say": "de rekening",
+   "kind": "sentence"
+  },
+  {
+   "key": "1n1pmvtacbn",
+   "text": "De ober heeft ons de rekening al gebracht.",
+   "say": "De ober heeft ons de rekening al gebracht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0o5awbhtf6r",
+   "text": "ober",
+   "say": "ober",
+   "kind": "word"
+  },
+  {
+   "key": "0zwhyoi3ywx",
+   "text": "gebracht",
+   "say": "gebracht",
+   "kind": "word"
+  },
+  {
+   "key": "0hmukv8wk5l",
+   "text": "Mag ik de rekening alstublieft?",
+   "say": "Mag ik de rekening alstublieft?",
+   "kind": "sentence"
+  },
+  {
+   "key": "1xpxprujozb",
+   "text": "Ik zal de rekening morgen meteen overschrijven.",
+   "say": "Ik zal de rekening morgen meteen overschrijven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ir5wkbhtyi",
+   "text": "meteen",
+   "say": "meteen",
+   "kind": "word"
+  },
+  {
+   "key": "0rx3d09o220",
+   "text": "overschrijven",
+   "say": "overschrijven",
+   "kind": "word"
+  },
+  {
+   "key": "0xzsji70sqj",
+   "text": "de pijn",
+   "say": "de pijn",
+   "kind": "sentence"
+  },
+  {
+   "key": "1khnytbevpg",
+   "text": "Ik heb gisteren de hele dag pijn in mijn rug gehad.",
+   "say": "Ik heb gisteren de hele dag pijn in mijn rug gehad.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ub87qqd3cy",
+   "text": "pijn",
+   "say": "pijn",
+   "kind": "word"
+  },
+  {
+   "key": "0xi5j61g04h",
+   "text": "gehad",
+   "say": "gehad",
+   "kind": "word"
+  },
+  {
+   "key": "0r7hbpnm9sd",
+   "text": "Heb je veel pijn als je loopt?",
+   "say": "Heb je veel pijn als je loopt?",
+   "kind": "sentence"
+  },
+  {
+   "key": "0z4t1cdp8c1",
+   "text": "Deze pillen gaan de pijn snel verminderen.",
+   "say": "Deze pillen gaan de pijn snel verminderen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0hk7nq8ef94",
+   "text": "verminderen",
+   "say": "verminderen",
+   "kind": "word"
+  },
+  {
+   "key": "0q1aqcwfc0x",
+   "text": "de hoofdpijn",
+   "say": "de hoofdpijn",
+   "kind": "sentence"
+  },
+  {
+   "key": "0gn7himryqj",
+   "text": "Ik heb vorige week drie dagen hoofdpijn gehad.",
+   "say": "Ik heb vorige week drie dagen hoofdpijn gehad.",
+   "kind": "sentence"
+  },
+  {
+   "key": "26alejmr454",
+   "text": "hoofdpijn",
+   "say": "hoofdpijn",
+   "kind": "word"
+  },
+  {
+   "key": "1sy4lnw3spu",
+   "text": "Ik heb vaak hoofdpijn als ik te lang achter mijn scherm zit.",
+   "say": "Ik heb vaak hoofdpijn als ik te lang achter mijn scherm zit.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1tz5mzehaoo",
+   "text": "achter",
+   "say": "achter",
+   "kind": "word"
+  },
+  {
+   "key": "1pofosbs2v5",
+   "text": "Neem deze pil, dan zal de hoofdpijn snel overgaan.",
+   "say": "Neem deze pil, dan zal de hoofdpijn snel overgaan.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2ajd56rgzwp",
+   "text": "Neem",
+   "say": "Neem",
+   "kind": "word"
+  },
+  {
+   "key": "0unh1k1x2yy",
+   "text": "pil",
+   "say": "pil",
+   "kind": "word"
+  },
+  {
+   "key": "1opwygp16c7",
+   "text": "overgaan",
+   "say": "overgaan",
+   "kind": "word"
+  },
+  {
+   "key": "1c7of8nofau",
+   "text": "de koorts",
+   "say": "de koorts",
+   "kind": "sentence"
+  },
+  {
+   "key": "0wymbcew0x6",
+   "text": "De dokter heeft gisteren mijn koorts gemeten.",
+   "say": "De dokter heeft gisteren mijn koorts gemeten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0af2h8w4rgk",
+   "text": "dokter",
+   "say": "dokter",
+   "kind": "word"
+  },
+  {
+   "key": "1rhod0ut66k",
+   "text": "koorts",
+   "say": "koorts",
+   "kind": "word"
+  },
+  {
+   "key": "1tlenjk6gg2",
+   "text": "gemeten",
+   "say": "gemeten",
+   "kind": "word"
+  },
+  {
+   "key": "1sjhf1pwp4p",
+   "text": "Mijn dochter heeft sinds vanochtend veel koorts.",
+   "say": "Mijn dochter heeft sinds vanochtend veel koorts.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0e6o0m2fepf",
+   "text": "dochter",
+   "say": "dochter",
+   "kind": "word"
+  },
+  {
+   "key": "0akx01q4f9p",
+   "text": "vanochtend",
+   "say": "vanochtend",
+   "kind": "word"
+  },
+  {
+   "key": "03ituixhju6",
+   "text": "De koorts zal morgen waarschijnlijk wel zakken.",
+   "say": "De koorts zal morgen waarschijnlijk wel zakken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ifsmbbmqju",
+   "text": "waarschijnlijk",
+   "say": "waarschijnlijk",
+   "kind": "word"
+  },
+  {
+   "key": "0k5c60mstew",
+   "text": "zakken",
+   "say": "zakken",
+   "kind": "word"
+  },
+  {
+   "key": "0zkgzs9165j",
+   "text": "hoesten",
+   "say": "hoesten",
+   "kind": "sentence"
+  },
+  {
+   "key": "2aeuazzb53d",
+   "text": "Ik heb de hele nacht gehoest en niet geslapen.",
+   "say": "Ik heb de hele nacht gehoest en niet geslapen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0j92dfizgu7",
+   "text": "nacht",
+   "say": "nacht",
+   "kind": "word"
+  },
+  {
+   "key": "22ng3ogd3iz",
+   "text": "gehoest",
+   "say": "gehoest",
+   "kind": "word"
+  },
+  {
+   "key": "2e24hfvmoi4",
+   "text": "Mijn zoontje hoest al drie dagen.",
+   "say": "Mijn zoontje hoest al drie dagen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "21trqjby814",
+   "text": "zoontje",
+   "say": "zoontje",
+   "kind": "word"
+  },
+  {
+   "key": "1oi460f1271",
+   "text": "hoest",
+   "say": "hoest",
+   "kind": "word"
+  },
+  {
+   "key": "23jzpstblis",
+   "text": "Als je blijft roken, ga je nog meer hoesten.",
+   "say": "Als je blijft roken, ga je nog meer hoesten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "26bc5rtf4m3",
+   "text": "roken",
+   "say": "roken",
+   "kind": "word"
+  },
+  {
+   "key": "29qe7h7q92h",
+   "text": "het medicijn",
+   "say": "het medicijn",
+   "kind": "sentence"
+  },
+  {
+   "key": "0vhm4twjwin",
+   "text": "De arts heeft me een nieuw medicijn voorgeschreven.",
+   "say": "De arts heeft me een nieuw medicijn voorgeschreven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0zr1qd8we4f",
+   "text": "arts",
+   "say": "arts",
+   "kind": "word"
+  },
+  {
+   "key": "0v94d3yoj8s",
+   "text": "medicijn",
+   "say": "medicijn",
+   "kind": "word"
+  },
+  {
+   "key": "1ytldkro2ox",
+   "text": "voorgeschreven",
+   "say": "voorgeschreven",
+   "kind": "word"
+  },
+  {
+   "key": "0dr9d2bjft3",
+   "text": "Dit medicijn moet je driemaal per dag innemen.",
+   "say": "Dit medicijn moet je driemaal per dag innemen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0irhc9zk7os",
+   "text": "Dit",
+   "say": "Dit",
+   "kind": "word"
+  },
+  {
+   "key": "0yd40lmrpht",
+   "text": "driemaal",
+   "say": "driemaal",
+   "kind": "word"
+  },
+  {
+   "key": "04zmd40nz6y",
+   "text": "innemen",
+   "say": "innemen",
+   "kind": "word"
+  },
+  {
+   "key": "0xhnladgfvr",
+   "text": "Ik ga morgen een ander medicijn proberen.",
+   "say": "Ik ga morgen een ander medicijn proberen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "28cfgbal4hg",
+   "text": "ander",
+   "say": "ander",
+   "kind": "word"
+  },
+  {
+   "key": "19owz6a0w2q",
+   "text": "het recept",
+   "say": "het recept",
+   "kind": "sentence"
+  },
+  {
+   "key": "1d1il3afdk3",
+   "text": "De huisarts heeft mij een recept gegeven.",
+   "say": "De huisarts heeft mij een recept gegeven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2eqj80w7sru",
+   "text": "recept",
+   "say": "recept",
+   "kind": "word"
+  },
+  {
+   "key": "0b38eowgx83",
+   "text": "gegeven",
+   "say": "gegeven",
+   "kind": "word"
+  },
+  {
+   "key": "1hqw92iqjgt",
+   "text": "Zonder recept krijg je dit medicijn niet.",
+   "say": "Zonder recept krijg je dit medicijn niet.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1u2z2plpg8r",
+   "text": "Zonder",
+   "say": "Zonder",
+   "kind": "word"
+  },
+  {
+   "key": "0aoz9hx7di8",
+   "text": "krijg",
+   "say": "krijg",
+   "kind": "word"
+  },
+  {
+   "key": "1on9xex6c6f",
+   "text": "Ik zal vanavond een nieuw recept uitproberen.",
+   "say": "Ik zal vanavond een nieuw recept uitproberen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "04nah16qhf6",
+   "text": "uitproberen",
+   "say": "uitproberen",
+   "kind": "word"
+  },
+  {
+   "key": "1qlmul2m7en",
+   "text": "de tandarts",
+   "say": "de tandarts",
+   "kind": "sentence"
+  },
+  {
+   "key": "138fini0khh",
+   "text": "Ik ben vorig jaar niet naar de tandarts geweest.",
+   "say": "Ik ben vorig jaar niet naar de tandarts geweest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "26zlnxebn0b",
+   "text": "tandarts",
+   "say": "tandarts",
+   "kind": "word"
+  },
+  {
+   "key": "2g2we0b5503",
+   "text": "Mijn tandarts werkt alleen op afspraak.",
+   "say": "Mijn tandarts werkt alleen op afspraak.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1t23uq7goli",
+   "text": "De tandarts gaat morgen mijn tand vullen.",
+   "say": "De tandarts gaat morgen mijn tand vullen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ffv14mdlu7",
+   "text": "tand",
+   "say": "tand",
+   "kind": "word"
+  },
+  {
+   "key": "06nt0hhdw4u",
+   "text": "vullen",
+   "say": "vullen",
+   "kind": "word"
+  },
+  {
+   "key": "26cphc1npx6",
+   "text": "de mutualiteit",
+   "say": "de mutualiteit",
+   "kind": "sentence"
+  },
+  {
+   "key": "1onh52va02v",
+   "text": "Ik heb mijn papieren naar de mutualiteit opgestuurd.",
+   "say": "Ik heb mijn papieren naar de mutualiteit opgestuurd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0angnt2u6ne",
+   "text": "papieren",
+   "say": "papieren",
+   "kind": "word"
+  },
+  {
+   "key": "166ugnqn4fx",
+   "text": "mutualiteit",
+   "say": "mutualiteit",
+   "kind": "word"
+  },
+  {
+   "key": "27k2o1011ow",
+   "text": "opgestuurd",
+   "say": "opgestuurd",
+   "kind": "word"
+  },
+  {
+   "key": "0zjy99der4h",
+   "text": "Via de mutualiteit krijg je een deel terug.",
+   "say": "Via de mutualiteit krijg je een deel terug.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0gmwpsoioht",
+   "text": "Via",
+   "say": "Via",
+   "kind": "word"
+  },
+  {
+   "key": "0on3w18qmgt",
+   "text": "De mutualiteit zal de kosten binnen twee weken terugbetalen.",
+   "say": "De mutualiteit zal de kosten binnen twee weken terugbetalen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1jnscln3nt9",
+   "text": "kosten",
+   "say": "kosten",
+   "kind": "word"
+  },
+  {
+   "key": "1diwhqwmsnl",
+   "text": "terugbetalen",
+   "say": "terugbetalen",
+   "kind": "word"
+  },
+  {
+   "key": "01a9jeu03ow",
+   "text": "de verzekering",
+   "say": "de verzekering",
+   "kind": "sentence"
+  },
+  {
+   "key": "2dxdq3pp1s5",
+   "text": "Ik heb vorige maand een nieuwe verzekering afgesloten.",
+   "say": "Ik heb vorige maand een nieuwe verzekering afgesloten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0420qiqhw92",
+   "text": "verzekering",
+   "say": "verzekering",
+   "kind": "word"
+  },
+  {
+   "key": "0dtr8pf2w25",
+   "text": "afgesloten",
+   "say": "afgesloten",
+   "kind": "word"
+  },
+  {
+   "key": "15t3ivkhjj7",
+   "text": "Mijn verzekering betaalt de schade aan de auto.",
+   "say": "Mijn verzekering betaalt de schade aan de auto.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0joknqlrzja",
+   "text": "betaalt",
+   "say": "betaalt",
+   "kind": "word"
+  },
+  {
+   "key": "1eb741fhlkt",
+   "text": "schade",
+   "say": "schade",
+   "kind": "word"
+  },
+  {
+   "key": "17rf4ekmdp0",
+   "text": "Ik ga mijn verzekering volgend jaar veranderen.",
+   "say": "Ik ga mijn verzekering volgend jaar veranderen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "15yaby7ov56",
+   "text": "volgend",
+   "say": "volgend",
+   "kind": "word"
+  },
+  {
+   "key": "0prq1yt36xj",
+   "text": "ziek",
+   "say": "ziek",
+   "kind": "sentence"
+  },
+  {
+   "key": "1f2wtycevsq",
+   "text": "Mijn collega is vorige week ziek geworden.",
+   "say": "Mijn collega is vorige week ziek geworden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2a57h3m35ny",
+   "text": "geworden",
+   "say": "geworden",
+   "kind": "word"
+  },
+  {
+   "key": "0arpn1ak720",
+   "text": "Ik voel me vandaag echt ziek.",
+   "say": "Ik voel me vandaag echt ziek.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2cemcnh3mkt",
+   "text": "voel",
+   "say": "voel",
+   "kind": "word"
+  },
+  {
+   "key": "12f6to0v7yb",
+   "text": "Als je zo doorgaat, ga je ziek worden.",
+   "say": "Als je zo doorgaat, ga je ziek worden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "20d3lw0pjmy",
+   "text": "doorgaat",
+   "say": "doorgaat",
+   "kind": "word"
+  },
+  {
+   "key": "0ckscbv8u9f",
+   "text": "gezond",
+   "say": "gezond",
+   "kind": "sentence"
+  },
+  {
+   "key": "2a1kigbzl0i",
+   "text": "Ik heb de laatste maanden heel gezond gegeten.",
+   "say": "Ik heb de laatste maanden heel gezond gegeten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1u9cfhs3ht1",
+   "text": "maanden",
+   "say": "maanden",
+   "kind": "word"
+  },
+  {
+   "key": "0tnbdr4b9zh",
+   "text": "gegeten",
+   "say": "gegeten",
+   "kind": "word"
+  },
+  {
+   "key": "1po0yjoiyke",
+   "text": "Fruit en groenten zijn heel gezond voor je.",
+   "say": "Fruit en groenten zijn heel gezond voor je.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1mgus7l2iwd",
+   "text": "Fruit",
+   "say": "Fruit",
+   "kind": "word"
+  },
+  {
+   "key": "0616ktcxoht",
+   "text": "Ik ga vanaf morgen gezonder eten.",
+   "say": "Ik ga vanaf morgen gezonder eten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ibb09k6x5d",
+   "text": "herstellen",
+   "say": "herstellen",
+   "kind": "sentence"
+  },
+  {
+   "key": "04l3l3l5r3r",
+   "text": "Hij is na de operatie snel hersteld.",
+   "say": "Hij is na de operatie snel hersteld.",
+   "kind": "sentence"
+  },
+  {
+   "key": "21le2is16e5",
+   "text": "operatie",
+   "say": "operatie",
+   "kind": "word"
+  },
+  {
+   "key": "2bdebyfgmq9",
+   "text": "hersteld",
+   "say": "hersteld",
+   "kind": "word"
+  },
+  {
+   "key": "1s2h2249ncg",
+   "text": "Ze herstelt goed na haar ziekte.",
+   "say": "Ze herstelt goed na haar ziekte.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0qmfs4we2jd",
+   "text": "Ze",
+   "say": "Ze",
+   "kind": "word"
+  },
+  {
+   "key": "1h2qbnpk9g8",
+   "text": "herstelt",
+   "say": "herstelt",
+   "kind": "word"
+  },
+  {
+   "key": "0yapg80b312",
+   "text": "haar",
+   "say": "haar",
+   "kind": "word"
+  },
+  {
+   "key": "1ovz8y2v58p",
+   "text": "ziekte",
+   "say": "ziekte",
+   "kind": "word"
+  },
+  {
+   "key": "0asb182gu48",
+   "text": "Over een paar weken zal hij helemaal herstellen.",
+   "say": "Over een paar weken zal hij helemaal herstellen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0qzg3wj1oji",
+   "text": "zich voelen",
+   "say": "zich voelen",
+   "kind": "sentence"
+  },
+  {
+   "key": "1rz1r12i6bd",
+   "text": "Ik heb me gisteren de hele dag moe gevoeld.",
+   "say": "Ik heb me gisteren de hele dag moe gevoeld.",
+   "kind": "sentence"
+  },
+  {
+   "key": "170g4wk6mrc",
+   "text": "gevoeld",
+   "say": "gevoeld",
+   "kind": "word"
+  },
+  {
+   "key": "0stcq1ihi32",
+   "text": "Hoe voel je je vandaag?",
+   "say": "Hoe voel je je vandaag?",
+   "kind": "sentence"
+  },
+  {
+   "key": "2ci9vyq7nan",
+   "text": "Na de vakantie ga je je veel beter voelen.",
+   "say": "Na de vakantie ga je je veel beter voelen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0tz1xh5zhz8",
+   "text": "de wachtkamer",
+   "say": "de wachtkamer",
+   "kind": "sentence"
+  },
+  {
+   "key": "0dq2yakn09y",
+   "text": "We hebben bijna een uur in de wachtkamer gezeten.",
+   "say": "We hebben bijna een uur in de wachtkamer gezeten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0khy2iqubzh",
+   "text": "bijna",
+   "say": "bijna",
+   "kind": "word"
+  },
+  {
+   "key": "1g46bbxd0ho",
+   "text": "wachtkamer",
+   "say": "wachtkamer",
+   "kind": "word"
+  },
+  {
+   "key": "04xjroo7058",
+   "text": "gezeten",
+   "say": "gezeten",
+   "kind": "word"
+  },
+  {
+   "key": "15ks31ka5aj",
+   "text": "De wachtkamer is vol, dus we moeten even wachten.",
+   "say": "De wachtkamer is vol, dus we moeten even wachten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1kkdpr95afw",
+   "text": "vol",
+   "say": "vol",
+   "kind": "word"
+  },
+  {
+   "key": "1q06qjiw7l9",
+   "text": "wachten",
+   "say": "wachten",
+   "kind": "word"
+  },
+  {
+   "key": "0i3rq4tkyvy",
+   "text": "Zo meteen zal de assistent je uit de wachtkamer halen.",
+   "say": "Zo meteen zal de assistent je uit de wachtkamer halen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1090lnlff6m",
+   "text": "Zo",
+   "say": "Zo",
+   "kind": "word"
+  },
+  {
+   "key": "14fg9g4utyl",
+   "text": "assistent",
+   "say": "assistent",
+   "kind": "word"
+  },
+  {
+   "key": "1rr34z80r7s",
+   "text": "de prijs",
+   "say": "de prijs",
+   "kind": "sentence"
+  },
+  {
+   "key": "05xs5wiik7y",
+   "text": "De prijs van brood is dit jaar flink gestegen.",
+   "say": "De prijs van brood is dit jaar flink gestegen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "05k2cuji7q9",
+   "text": "prijs",
+   "say": "prijs",
+   "kind": "word"
+  },
+  {
+   "key": "1p7o2q28ner",
+   "text": "flink",
+   "say": "flink",
+   "kind": "word"
+  },
+  {
+   "key": "27cmp39500m",
+   "text": "gestegen",
+   "say": "gestegen",
+   "kind": "word"
+  },
+  {
+   "key": "1w3u6rqq80n",
+   "text": "Wat is de prijs van deze jas?",
+   "say": "Wat is de prijs van deze jas?",
+   "kind": "sentence"
+  },
+  {
+   "key": "0gk0sm1s0ug",
+   "text": "De prijzen zullen volgend jaar waarschijnlijk nog stijgen.",
+   "say": "De prijzen zullen volgend jaar waarschijnlijk nog stijgen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1qc1gt7f4x7",
+   "text": "prijzen",
+   "say": "prijzen",
+   "kind": "word"
+  },
+  {
+   "key": "1gqmipoa3xi",
+   "text": "zullen",
+   "say": "zullen",
+   "kind": "word"
+  },
+  {
+   "key": "0n5fircrbaf",
+   "text": "stijgen",
+   "say": "stijgen",
+   "kind": "word"
+  },
+  {
+   "key": "1q0ijbj41ls",
+   "text": "goedkoop",
+   "say": "goedkoop",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ucutnnb0ff",
+   "text": "Ik heb deze schoenen heel goedkoop gekocht.",
+   "say": "Ik heb deze schoenen heel goedkoop gekocht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1mmx4totbnt",
+   "text": "schoenen",
+   "say": "schoenen",
+   "kind": "word"
+  },
+  {
+   "key": "1xqmdzzuyms",
+   "text": "In deze winkel is alles goedkoop.",
+   "say": "In deze winkel is alles goedkoop.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1q4hmpw1bbz",
+   "text": "Volgende week gaan de vliegtickets goedkoper worden.",
+   "say": "Volgende week gaan de vliegtickets goedkoper worden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1p7ierpcpge",
+   "text": "vliegtickets",
+   "say": "vliegtickets",
+   "kind": "word"
+  },
+  {
+   "key": "1vj7ljr6h0g",
+   "text": "de korting",
+   "say": "de korting",
+   "kind": "sentence"
+  },
+  {
+   "key": "0f8ein8hwly",
+   "text": "Ik heb bij de kassa tien procent korting gekregen.",
+   "say": "Ik heb bij de kassa tien procent korting gekregen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ub9oy9bpnp",
+   "text": "kassa",
+   "say": "kassa",
+   "kind": "word"
+  },
+  {
+   "key": "1d9g6hnmb8c",
+   "text": "procent",
+   "say": "procent",
+   "kind": "word"
+  },
+  {
+   "key": "1fj61d0i92z",
+   "text": "korting",
+   "say": "korting",
+   "kind": "word"
+  },
+  {
+   "key": "0w4j0q2g34y",
+   "text": "Studenten krijgen hier altijd korting op hun ticket.",
+   "say": "Studenten krijgen hier altijd korting op hun ticket.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2dxxhaja0a8",
+   "text": "Studenten",
+   "say": "Studenten",
+   "kind": "word"
+  },
+  {
+   "key": "1b4qulydvn3",
+   "text": "hun",
+   "say": "hun",
+   "kind": "word"
+  },
+  {
+   "key": "0dposfuaazt",
+   "text": "ticket",
+   "say": "ticket",
+   "kind": "word"
+  },
+  {
+   "key": "1ad38f25h43",
+   "text": "Vanaf maandag gaan wij tien procent korting geven.",
+   "say": "Vanaf maandag gaan wij tien procent korting geven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0k8j8807eci",
+   "text": "Vanaf",
+   "say": "Vanaf",
+   "kind": "word"
+  },
+  {
+   "key": "1cqyrwv5nq2",
+   "text": "de kassa",
+   "say": "de kassa",
+   "kind": "sentence"
+  },
+  {
+   "key": "00406tymgnu",
+   "text": "De kassa was vanmorgen een uur buiten werking.",
+   "say": "De kassa was vanmorgen een uur buiten werking.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0w1bguoi555",
+   "text": "vanmorgen",
+   "say": "vanmorgen",
+   "kind": "word"
+  },
+  {
+   "key": "2cw1ps34y1n",
+   "text": "werking",
+   "say": "werking",
+   "kind": "word"
+  },
+  {
+   "key": "20guqkcjrue",
+   "text": "Je kunt je boodschappen aan de kassa betalen.",
+   "say": "Je kunt je boodschappen aan de kassa betalen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "22i1ingx12z",
+   "text": "kunt",
+   "say": "kunt",
+   "kind": "word"
+  },
+  {
+   "key": "2ee3xrowute",
+   "text": "boodschappen",
+   "say": "boodschappen",
+   "kind": "word"
+  },
+  {
+   "key": "1dvrgd53o2c",
+   "text": "Straks ga ik gewoon aan de kassa betalen.",
+   "say": "Straks ga ik gewoon aan de kassa betalen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0um7dpd1fz9",
+   "text": "het wisselgeld",
+   "say": "het wisselgeld",
+   "kind": "sentence"
+  },
+  {
+   "key": "157lnce4fm2",
+   "text": "De verkoopster heeft mij te weinig wisselgeld teruggegeven.",
+   "say": "De verkoopster heeft mij te weinig wisselgeld teruggegeven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1tmdkchfefo",
+   "text": "verkoopster",
+   "say": "verkoopster",
+   "kind": "word"
+  },
+  {
+   "key": "0xe47170tt3",
+   "text": "wisselgeld",
+   "say": "wisselgeld",
+   "kind": "word"
+  },
+  {
+   "key": "0ndhi65wfmj",
+   "text": "teruggegeven",
+   "say": "teruggegeven",
+   "kind": "word"
+  },
+  {
+   "key": "20kmtz8k3hd",
+   "text": "Heb je misschien nog wat wisselgeld voor de bus?",
+   "say": "Heb je misschien nog wat wisselgeld voor de bus?",
+   "kind": "sentence"
+  },
+  {
+   "key": "10imfmbcv59",
+   "text": "Ik zal morgen wat wisselgeld voor je meebrengen.",
+   "say": "Ik zal morgen wat wisselgeld voor je meebrengen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1xpf44ihoit",
+   "text": "meebrengen",
+   "say": "meebrengen",
+   "kind": "word"
+  },
+  {
+   "key": "1pac1j93grc",
+   "text": "de bankkaart",
+   "say": "de bankkaart",
+   "kind": "sentence"
+  },
+  {
+   "key": "10wfowk0sz1",
+   "text": "Ik heb mijn bankkaart gisteren in de winkel laten liggen.",
+   "say": "Ik heb mijn bankkaart gisteren in de winkel laten liggen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1m1mrlwllup",
+   "text": "liggen",
+   "say": "liggen",
+   "kind": "word"
+  },
+  {
+   "key": "1t0pv8zkknf",
+   "text": "Met mijn bankkaart kan ik overal betalen.",
+   "say": "Met mijn bankkaart kan ik overal betalen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0aywjyx5emi",
+   "text": "Ik ga morgen een nieuwe bankkaart aanvragen.",
+   "say": "Ik ga morgen een nieuwe bankkaart aanvragen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0k1zi5646yy",
+   "text": "aanvragen",
+   "say": "aanvragen",
+   "kind": "word"
+  },
+  {
+   "key": "0smm8gck5or",
+   "text": "sparen",
+   "say": "sparen",
+   "kind": "sentence"
+  },
+  {
+   "key": "0rsto6eajt8",
+   "text": "Ik heb drie jaar gespaard voor deze reis.",
+   "say": "Ik heb drie jaar gespaard voor deze reis.",
+   "kind": "sentence"
+  },
+  {
+   "key": "10dtnpv6olf",
+   "text": "gespaard",
+   "say": "gespaard",
+   "kind": "word"
+  },
+  {
+   "key": "15lhc7lyz14",
+   "text": "reis",
+   "say": "reis",
+   "kind": "word"
+  },
+  {
+   "key": "1shxbktmgdu",
+   "text": "Ze spaart elke maand vijftig euro.",
+   "say": "Ze spaart elke maand vijftig euro.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0an6xopiwv5",
+   "text": "spaart",
+   "say": "spaart",
+   "kind": "word"
+  },
+  {
+   "key": "29czgzmy8xz",
+   "text": "vijftig",
+   "say": "vijftig",
+   "kind": "word"
+  },
+  {
+   "key": "105ernksl5a",
+   "text": "euro",
+   "say": "euro",
+   "kind": "word"
+  },
+  {
+   "key": "1m6vm0x2vqs",
+   "text": "Volgend jaar ga ik sparen voor een nieuwe laptop.",
+   "say": "Volgend jaar ga ik sparen voor een nieuwe laptop.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0td7siwn68w",
+   "text": "Volgend",
+   "say": "Volgend",
+   "kind": "word"
+  },
+  {
+   "key": "23l70flhlbr",
+   "text": "laptop",
+   "say": "laptop",
+   "kind": "word"
+  },
+  {
+   "key": "07zwoh7m6et",
+   "text": "uitgeven",
+   "say": "uitgeven",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ca41ki7f56",
+   "text": "Ik heb deze maand te veel geld uitgegeven.",
+   "say": "Ik heb deze maand te veel geld uitgegeven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "058fs4cicup",
+   "text": "geld",
+   "say": "geld",
+   "kind": "word"
+  },
+  {
+   "key": "1cxa85y991w",
+   "text": "uitgegeven",
+   "say": "uitgegeven",
+   "kind": "word"
+  },
+  {
+   "key": "2abzousseto",
+   "text": "Hij geeft veel geld uit aan eten.",
+   "say": "Hij geeft veel geld uit aan eten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1h4bn7mk6h4",
+   "text": "geeft",
+   "say": "geeft",
+   "kind": "word"
+  },
+  {
+   "key": "1rw0occ9gnh",
+   "text": "Dit weekend ga ik niet te veel geld uitgeven.",
+   "say": "Dit weekend ga ik niet te veel geld uitgeven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1bqp80mtd63",
+   "text": "lenen",
+   "say": "lenen",
+   "kind": "sentence"
+  },
+  {
+   "key": "0h0hmtzftnl",
+   "text": "Mijn broer heeft mij vorige maand honderd euro geleend.",
+   "say": "Mijn broer heeft mij vorige maand honderd euro geleend.",
+   "kind": "sentence"
+  },
+  {
+   "key": "045gec6bqwl",
+   "text": "broer",
+   "say": "broer",
+   "kind": "word"
+  },
+  {
+   "key": "09brwc4af5j",
+   "text": "honderd",
+   "say": "honderd",
+   "kind": "word"
+  },
+  {
+   "key": "24gd9dzw2zq",
+   "text": "geleend",
+   "say": "geleend",
+   "kind": "word"
+  },
+  {
+   "key": "1c09oex3fju",
+   "text": "Mag ik even je pen lenen?",
+   "say": "Mag ik even je pen lenen?",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ej1ia0l1ru",
+   "text": "pen",
+   "say": "pen",
+   "kind": "word"
+  },
+  {
+   "key": "1y61jvzvzvl",
+   "text": "Ik ga je volgende week mijn fiets lenen.",
+   "say": "Ik ga je volgende week mijn fiets lenen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1zw6cu9de6f",
+   "text": "verkopen",
+   "say": "verkopen",
+   "kind": "sentence"
+  },
+  {
+   "key": "1amwnm6legu",
+   "text": "We hebben onze oude auto vorige week verkocht.",
+   "say": "We hebben onze oude auto vorige week verkocht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2bhj0vvjkg5",
+   "text": "oude",
+   "say": "oude",
+   "kind": "word"
+  },
+  {
+   "key": "0s94s9z9w0q",
+   "text": "verkocht",
+   "say": "verkocht",
+   "kind": "word"
+  },
+  {
+   "key": "02i9u1un0b4",
+   "text": "Deze bakker verkoopt het lekkerste brood van Hasselt.",
+   "say": "Deze bakker verkoopt het lekkerste brood van Hasselt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "05oor681mjz",
+   "text": "bakker",
+   "say": "bakker",
+   "kind": "word"
+  },
+  {
+   "key": "23v6htq4i0d",
+   "text": "verkoopt",
+   "say": "verkoopt",
+   "kind": "word"
+  },
+  {
+   "key": "1t4ysov8djw",
+   "text": "lekkerste",
+   "say": "lekkerste",
+   "kind": "word"
+  },
+  {
+   "key": "03geh0xr9nq",
+   "text": "Volgend jaar gaan zij hun huis verkopen.",
+   "say": "Volgend jaar gaan zij hun huis verkopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0siul7v7ak1",
+   "text": "de aanbieding",
+   "say": "de aanbieding",
+   "kind": "sentence"
+  },
+  {
+   "key": "0aajzmyn6ii",
+   "text": "Ik heb deze jas in de aanbieding gekocht.",
+   "say": "Ik heb deze jas in de aanbieding gekocht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "09pzcjc1ukp",
+   "text": "aanbieding",
+   "say": "aanbieding",
+   "kind": "word"
+  },
+  {
+   "key": "089c9jb3wgh",
+   "text": "Deze week is de kaas in de aanbieding.",
+   "say": "Deze week is de kaas in de aanbieding.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0wbiave5cda",
+   "text": "Volgende week gaat er een nieuwe aanbieding komen.",
+   "say": "Volgende week gaat er een nieuwe aanbieding komen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1qhd3yaqlcw",
+   "text": "terugbrengen",
+   "say": "terugbrengen",
+   "kind": "sentence"
+  },
+  {
+   "key": "0f0q7br3nne",
+   "text": "Ik heb de kapotte lamp gisteren teruggebracht.",
+   "say": "Ik heb de kapotte lamp gisteren teruggebracht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0qhllkohmv0",
+   "text": "kapotte",
+   "say": "kapotte",
+   "kind": "word"
+  },
+  {
+   "key": "1wk5i4toarj",
+   "text": "lamp",
+   "say": "lamp",
+   "kind": "word"
+  },
+  {
+   "key": "28oxo1zrr0u",
+   "text": "teruggebracht",
+   "say": "teruggebracht",
+   "kind": "word"
+  },
+  {
+   "key": "1gqp2weh1qj",
+   "text": "Ik breng de boeken morgen terug naar de bibliotheek.",
+   "say": "Ik breng de boeken morgen terug naar de bibliotheek.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0sshdxx3p53",
+   "text": "breng",
+   "say": "breng",
+   "kind": "word"
+  },
+  {
+   "key": "1osty2j3mb0",
+   "text": "boeken",
+   "say": "boeken",
+   "kind": "word"
+  },
+  {
+   "key": "1425i3qmf05",
+   "text": "bibliotheek",
+   "say": "bibliotheek",
+   "kind": "word"
+  },
+  {
+   "key": "0b1ctzltgse",
+   "text": "Ik zal het pakje straks even terugbrengen.",
+   "say": "Ik zal het pakje straks even terugbrengen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0zdtl81tgbr",
+   "text": "pakje",
+   "say": "pakje",
+   "kind": "word"
+  },
+  {
+   "key": "001uum024l1",
+   "text": "het kasticket",
+   "say": "het kasticket",
+   "kind": "sentence"
+  },
+  {
+   "key": "0p4dzyxt52e",
+   "text": "Ik heb mijn kasticket helaas niet bijgehouden.",
+   "say": "Ik heb mijn kasticket helaas niet bijgehouden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1w79sc9r2g8",
+   "text": "kasticket",
+   "say": "kasticket",
+   "kind": "word"
+  },
+  {
+   "key": "0rljiigm2uj",
+   "text": "bijgehouden",
+   "say": "bijgehouden",
+   "kind": "word"
+  },
+  {
+   "key": "1ma1lpqizl8",
+   "text": "Zonder kasticket kun je niets terugbrengen.",
+   "say": "Zonder kasticket kun je niets terugbrengen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1znx1qburie",
+   "text": "kun",
+   "say": "kun",
+   "kind": "word"
+  },
+  {
+   "key": "0w4pc6gwg9y",
+   "text": "Ik zal het kasticket zeker goed bewaren.",
+   "say": "Ik zal het kasticket zeker goed bewaren.",
+   "kind": "sentence"
+  },
+  {
+   "key": "22rm1fhmlhv",
+   "text": "bewaren",
+   "say": "bewaren",
+   "kind": "word"
+  },
+  {
+   "key": "11q7xpmcb8s",
+   "text": "de huur",
+   "say": "de huur",
+   "kind": "sentence"
+  },
+  {
+   "key": "09wpr2zd689",
+   "text": "Ik heb de huur van oktober al overgemaakt.",
+   "say": "Ik heb de huur van oktober al overgemaakt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ye6j36is4t",
+   "text": "oktober",
+   "say": "oktober",
+   "kind": "word"
+  },
+  {
+   "key": "25heu6l4q7c",
+   "text": "overgemaakt",
+   "say": "overgemaakt",
+   "kind": "word"
+  },
+  {
+   "key": "1d4j91ejug7",
+   "text": "Onze huur is bijna zeshonderd euro per maand.",
+   "say": "Onze huur is bijna zeshonderd euro per maand.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0pvi24o67wt",
+   "text": "Onze",
+   "say": "Onze",
+   "kind": "word"
+  },
+  {
+   "key": "2cc1tr5btq2",
+   "text": "zeshonderd",
+   "say": "zeshonderd",
+   "kind": "word"
+  },
+  {
+   "key": "1cjy5bqpjab",
+   "text": "Volgende maand gaat de huur omhoog.",
+   "say": "Volgende maand gaat de huur omhoog.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0owvrw9mu0u",
+   "text": "omhoog",
+   "say": "omhoog",
+   "kind": "word"
+  },
+  {
+   "key": "0fyfa0wfwkt",
+   "text": "de buurman",
+   "say": "de buurman",
+   "kind": "sentence"
+  },
+  {
+   "key": "1h88267tumh",
+   "text": "Onze buurman heeft gisteravond een feestje gegeven.",
+   "say": "Onze buurman heeft gisteravond een feestje gegeven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2diwt62s6ug",
+   "text": "gisteravond",
+   "say": "gisteravond",
+   "kind": "word"
+  },
+  {
+   "key": "0yhabair2vx",
+   "text": "feestje",
+   "say": "feestje",
+   "kind": "word"
+  },
+  {
+   "key": "1k9ybg7latf",
+   "text": "Mijn buurman helpt me altijd met klusjes.",
+   "say": "Mijn buurman helpt me altijd met klusjes.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0mpne5n00il",
+   "text": "helpt",
+   "say": "helpt",
+   "kind": "word"
+  },
+  {
+   "key": "1jun0p0g3kd",
+   "text": "klusjes",
+   "say": "klusjes",
+   "kind": "word"
+  },
+  {
+   "key": "1j9re008pdm",
+   "text": "Onze buurman zal ons zeker helpen met de verhuizing.",
+   "say": "Onze buurman zal ons zeker helpen met de verhuizing.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1sxnv1y4hm2",
+   "text": "verhuizing",
+   "say": "verhuizing",
+   "kind": "word"
+  },
+  {
+   "key": "0ljbhibm2uj",
+   "text": "de keuken",
+   "say": "de keuken",
+   "kind": "sentence"
+  },
+  {
+   "key": "1j1iwu61ju7",
+   "text": "We hebben de keuken vorig jaar helemaal vernieuwd.",
+   "say": "We hebben de keuken vorig jaar helemaal vernieuwd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "200woq7j5wp",
+   "text": "keuken",
+   "say": "keuken",
+   "kind": "word"
+  },
+  {
+   "key": "10fyzlyyczi",
+   "text": "vernieuwd",
+   "say": "vernieuwd",
+   "kind": "word"
+  },
+  {
+   "key": "1r2ystc2r34",
+   "text": "In de keuken staat een grote tafel.",
+   "say": "In de keuken staat een grote tafel.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1t828jvpfpe",
+   "text": "Volgende maand gaan we een nieuwe keuken kopen.",
+   "say": "Volgende maand gaan we een nieuwe keuken kopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "16dnqyfloik",
+   "text": "de badkamer",
+   "say": "de badkamer",
+   "kind": "sentence"
+  },
+  {
+   "key": "065dnvsvi9c",
+   "text": "Ik heb de badkamer gisteren grondig schoongemaakt.",
+   "say": "Ik heb de badkamer gisteren grondig schoongemaakt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "28i0v5c9w0i",
+   "text": "badkamer",
+   "say": "badkamer",
+   "kind": "word"
+  },
+  {
+   "key": "1uuzlvw0ijk",
+   "text": "grondig",
+   "say": "grondig",
+   "kind": "word"
+  },
+  {
+   "key": "27utjz2cvk4",
+   "text": "schoongemaakt",
+   "say": "schoongemaakt",
+   "kind": "word"
+  },
+  {
+   "key": "1nnanivq2ge",
+   "text": "De badkamer is op de eerste verdieping.",
+   "say": "De badkamer is op de eerste verdieping.",
+   "kind": "sentence"
+  },
+  {
+   "key": "06zswq0paxo",
+   "text": "verdieping",
+   "say": "verdieping",
+   "kind": "word"
+  },
+  {
+   "key": "172j6uyvtqv",
+   "text": "We gaan de badkamer volgend jaar renoveren.",
+   "say": "We gaan de badkamer volgend jaar renoveren.",
+   "kind": "sentence"
+  },
+  {
+   "key": "18daiw1hdsb",
+   "text": "renoveren",
+   "say": "renoveren",
+   "kind": "word"
+  },
+  {
+   "key": "1ttsy0dhlng",
+   "text": "de verwarming",
+   "say": "de verwarming",
+   "kind": "sentence"
+  },
+  {
+   "key": "035paoyv0na",
+   "text": "De verwarming heeft vannacht niet gewerkt.",
+   "say": "De verwarming heeft vannacht niet gewerkt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "05culsdlx7d",
+   "text": "verwarming",
+   "say": "verwarming",
+   "kind": "word"
+  },
+  {
+   "key": "16irwkktru7",
+   "text": "gewerkt",
+   "say": "gewerkt",
+   "kind": "word"
+  },
+  {
+   "key": "1e0i16nh1qn",
+   "text": "De verwarming staat in de winter op twintig graden.",
+   "say": "De verwarming staat in de winter op twintig graden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1tyn1n8j1t7",
+   "text": "twintig",
+   "say": "twintig",
+   "kind": "word"
+  },
+  {
+   "key": "1fgrcju9rak",
+   "text": "Morgen gaat er iemand de verwarming nakijken.",
+   "say": "Morgen gaat er iemand de verwarming nakijken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "13mhvrgg44h",
+   "text": "de trap",
+   "say": "de trap",
+   "kind": "sentence"
+  },
+  {
+   "key": "1co798wvrz9",
+   "text": "Ik ben gisteren van de trap gevallen.",
+   "say": "Ik ben gisteren van de trap gevallen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0obbg8df8m3",
+   "text": "trap",
+   "say": "trap",
+   "kind": "word"
+  },
+  {
+   "key": "19rgqa2pbji",
+   "text": "gevallen",
+   "say": "gevallen",
+   "kind": "word"
+  },
+  {
+   "key": "1ts1mvpsiht",
+   "text": "De trap naar boven is erg steil.",
+   "say": "De trap naar boven is erg steil.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0c2uiwpxhvs",
+   "text": "boven",
+   "say": "boven",
+   "kind": "word"
+  },
+  {
+   "key": "0l4b59c1rud",
+   "text": "erg",
+   "say": "erg",
+   "kind": "word"
+  },
+  {
+   "key": "00wi21dmv52",
+   "text": "steil",
+   "say": "steil",
+   "kind": "word"
+  },
+  {
+   "key": "1hxu14i2u65",
+   "text": "We gaan de trap volgende week schilderen.",
+   "say": "We gaan de trap volgende week schilderen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "10vjwq1lq73",
+   "text": "schilderen",
+   "say": "schilderen",
+   "kind": "word"
+  },
+  {
+   "key": "0tdda8x5fgi",
+   "text": "de tuin",
+   "say": "de tuin",
+   "kind": "sentence"
+  },
+  {
+   "key": "0i8rq8qgzzv",
+   "text": "We hebben het hele weekend in de tuin gewerkt.",
+   "say": "We hebben het hele weekend in de tuin gewerkt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1gkc0k8ldo2",
+   "text": "Mijn buren hebben een grote tuin met veel bloemen.",
+   "say": "Mijn buren hebben een grote tuin met veel bloemen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "041vu4q5akm",
+   "text": "buren",
+   "say": "buren",
+   "kind": "word"
+  },
+  {
+   "key": "1hqcvsl7u5n",
+   "text": "bloemen",
+   "say": "bloemen",
+   "kind": "word"
+  },
+  {
+   "key": "09ys99ikjas",
+   "text": "Dit voorjaar gaan we groenten in de tuin planten.",
+   "say": "Dit voorjaar gaan we groenten in de tuin planten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "114bxjt0gur",
+   "text": "voorjaar",
+   "say": "voorjaar",
+   "kind": "word"
+  },
+  {
+   "key": "0f280d1guq7",
+   "text": "planten",
+   "say": "planten",
+   "kind": "word"
+  },
+  {
+   "key": "1gfr0z30fnw",
+   "text": "de frigo",
+   "say": "de frigo",
+   "kind": "sentence"
+  },
+  {
+   "key": "088vkyiafqe",
+   "text": "Ik heb de melk weer buiten de frigo laten staan.",
+   "say": "Ik heb de melk weer buiten de frigo laten staan.",
+   "kind": "sentence"
+  },
+  {
+   "key": "21pf7q7k2jy",
+   "text": "frigo",
+   "say": "frigo",
+   "kind": "word"
+  },
+  {
+   "key": "1d42rd035tx",
+   "text": "staan",
+   "say": "staan",
+   "kind": "word"
+  },
+  {
+   "key": "1m4krbu936c",
+   "text": "Er staat nog soep in de frigo.",
+   "say": "Er staat nog soep in de frigo.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1txapv3nfav",
+   "text": "Er",
+   "say": "Er",
+   "kind": "word"
+  },
+  {
+   "key": "27fw4jsshtt",
+   "text": "Straks ga ik de frigo eens grondig schoonmaken.",
+   "say": "Straks ga ik de frigo eens grondig schoonmaken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0kr9qcpkklb",
+   "text": "schoonmaken",
+   "say": "schoonmaken",
+   "kind": "word"
+  },
+  {
+   "key": "0z3guqqewdg",
+   "text": "het raam",
+   "say": "het raam",
+   "kind": "sentence"
+  },
+  {
+   "key": "05tauqfe75n",
+   "text": "Wie heeft het raam in de keuken opengelaten?",
+   "say": "Wie heeft het raam in de keuken opengelaten?",
+   "kind": "sentence"
+  },
+  {
+   "key": "0crn98n685h",
+   "text": "opengelaten",
+   "say": "opengelaten",
+   "kind": "word"
+  },
+  {
+   "key": "0m7s82cxjua",
+   "text": "Het raam in de slaapkamer sluit niet goed.",
+   "say": "Het raam in de slaapkamer sluit niet goed.",
+   "kind": "sentence"
+  },
+  {
+   "key": "19ocohsb90j",
+   "text": "slaapkamer",
+   "say": "slaapkamer",
+   "kind": "word"
+  },
+  {
+   "key": "0cfdgm5q7p7",
+   "text": "sluit",
+   "say": "sluit",
+   "kind": "word"
+  },
+  {
+   "key": "0e1iunbsxzc",
+   "text": "Morgen gaat een man de ramen wassen.",
+   "say": "Morgen gaat een man de ramen wassen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0qyph0gxt38",
+   "text": "ramen",
+   "say": "ramen",
+   "kind": "word"
+  },
+  {
+   "key": "0jn6y8cja0z",
+   "text": "wassen",
+   "say": "wassen",
+   "kind": "word"
+  },
+  {
+   "key": "1w8hd77ugk9",
+   "text": "de sleutel",
+   "say": "de sleutel",
+   "kind": "sentence"
+  },
+  {
+   "key": "1aqctm2481u",
+   "text": "Ik ben mijn sleutel gisteren kwijtgeraakt.",
+   "say": "Ik ben mijn sleutel gisteren kwijtgeraakt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0gajxqji5qt",
+   "text": "sleutel",
+   "say": "sleutel",
+   "kind": "word"
+  },
+  {
+   "key": "2a1plngeq5j",
+   "text": "kwijtgeraakt",
+   "say": "kwijtgeraakt",
+   "kind": "word"
+  },
+  {
+   "key": "2985uvhgzel",
+   "text": "Waar ligt mijn sleutel nu weer?",
+   "say": "Waar ligt mijn sleutel nu weer?",
+   "kind": "sentence"
+  },
+  {
+   "key": "10yhjkojfh6",
+   "text": "Ik zal je morgen een extra sleutel geven.",
+   "say": "Ik zal je morgen een extra sleutel geven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1fj3eavs432",
+   "text": "extra",
+   "say": "extra",
+   "kind": "word"
+  },
+  {
+   "key": "14zwcbgbk27",
+   "text": "Zij heeft het hele huis zaterdag schoongemaakt.",
+   "say": "Zij heeft het hele huis zaterdag schoongemaakt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "00tn0ayqh5i",
+   "text": "Ik maak zaterdag de badkamer schoon.",
+   "say": "Ik maak zaterdag de badkamer schoon.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1e2ylqdnyx0",
+   "text": "schoon",
+   "say": "schoon",
+   "kind": "word"
+  },
+  {
+   "key": "1nm7c9tzoxx",
+   "text": "Morgen gaan we de garage eens goed schoonmaken.",
+   "say": "Morgen gaan we de garage eens goed schoonmaken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "049a5x8txpk",
+   "text": "garage",
+   "say": "garage",
+   "kind": "word"
+  },
+  {
+   "key": "0nyd4xmeigv",
+   "text": "opruimen",
+   "say": "opruimen",
+   "kind": "sentence"
+  },
+  {
+   "key": "1hynbx8a8yo",
+   "text": "Ik heb mijn bureau gisteren eindelijk opgeruimd.",
+   "say": "Ik heb mijn bureau gisteren eindelijk opgeruimd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "168g9gt6d2s",
+   "text": "opgeruimd",
+   "say": "opgeruimd",
+   "kind": "word"
+  },
+  {
+   "key": "1e8jbliz1pu",
+   "text": "Kun je alsjeblieft je kamer opruimen?",
+   "say": "Kun je alsjeblieft je kamer opruimen?",
+   "kind": "sentence"
+  },
+  {
+   "key": "0o2lglgzjsa",
+   "text": "Kun",
+   "say": "Kun",
+   "kind": "word"
+  },
+  {
+   "key": "0yprxvl5i6p",
+   "text": "alsjeblieft",
+   "say": "alsjeblieft",
+   "kind": "word"
+  },
+  {
+   "key": "0rmjjmmkxnn",
+   "text": "kamer",
+   "say": "kamer",
+   "kind": "word"
+  },
+  {
+   "key": "1yec2s2joz5",
+   "text": "Na het eten ga ik de keuken opruimen.",
+   "say": "Na het eten ga ik de keuken opruimen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1rvqt91x1xk",
+   "text": "de verdieping",
+   "say": "de verdieping",
+   "kind": "sentence"
+  },
+  {
+   "key": "147blm5pv0q",
+   "text": "We hebben vorig jaar op de derde verdieping gewoond.",
+   "say": "We hebben vorig jaar op de derde verdieping gewoond.",
+   "kind": "sentence"
+  },
+  {
+   "key": "27qu36n0t67",
+   "text": "derde",
+   "say": "derde",
+   "kind": "word"
+  },
+  {
+   "key": "1u7ev1sgrrz",
+   "text": "gewoond",
+   "say": "gewoond",
+   "kind": "word"
+  },
+  {
+   "key": "0q6ui3ziryz",
+   "text": "Mijn kantoor ligt op de tweede verdieping.",
+   "say": "Mijn kantoor ligt op de tweede verdieping.",
+   "kind": "sentence"
+  },
+  {
+   "key": "021bow8qhsy",
+   "text": "Volgende maand gaan we naar de vierde verdieping verhuizen.",
+   "say": "Volgende maand gaan we naar de vierde verdieping verhuizen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1t63sr7a3es",
+   "text": "vierde",
+   "say": "vierde",
+   "kind": "word"
+  },
+  {
+   "key": "0zgco2qh8fk",
+   "text": "de woning",
+   "say": "de woning",
+   "kind": "sentence"
+  },
+  {
+   "key": "1c33hzcvteg",
+   "text": "Ze hebben vorig jaar een nieuwe woning gekocht.",
+   "say": "Ze hebben vorig jaar een nieuwe woning gekocht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0x9wpd8swiz",
+   "text": "woning",
+   "say": "woning",
+   "kind": "word"
+  },
+  {
+   "key": "0m6wa5259rk",
+   "text": "Een woning in Hasselt is niet goedkoop.",
+   "say": "Een woning in Hasselt is niet goedkoop.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ovx31lyq38",
+   "text": "De gemeente gaat honderd nieuwe woningen bouwen.",
+   "say": "De gemeente gaat honderd nieuwe woningen bouwen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ovasoq5o9l",
+   "text": "gemeente",
+   "say": "gemeente",
+   "kind": "word"
+  },
+  {
+   "key": "05wtoa1ghjp",
+   "text": "woningen",
+   "say": "woningen",
+   "kind": "word"
+  },
+  {
+   "key": "13y6p78eqrj",
+   "text": "bouwen",
+   "say": "bouwen",
+   "kind": "word"
+  },
+  {
+   "key": "2aselzts33b",
+   "text": "de trein",
+   "say": "de trein",
+   "kind": "sentence"
+  },
+  {
+   "key": "1xb5td6ok2c",
+   "text": "Ik heb de laatste trein net gemist.",
+   "say": "Ik heb de laatste trein net gemist.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2278aj6lq15",
+   "text": "De trein naar Brussel vertrekt om negen uur.",
+   "say": "De trein naar Brussel vertrekt om negen uur.",
+   "kind": "sentence"
+  },
+  {
+   "key": "29reyyagoim",
+   "text": "Morgen gaan we met de trein naar Gent.",
+   "say": "Morgen gaan we met de trein naar Gent.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0rjhkgo6ay6",
+   "text": "Gent",
+   "say": "Gent",
+   "kind": "word"
+  },
+  {
+   "key": "25gdfx37rbb",
+   "text": "de bus",
+   "say": "de bus",
+   "kind": "sentence"
+  },
+  {
+   "key": "0vuzehxy0q2",
+   "text": "De bus heeft vanmorgen tien minuten vertraging gehad.",
+   "say": "De bus heeft vanmorgen tien minuten vertraging gehad.",
+   "kind": "sentence"
+  },
+  {
+   "key": "26fd42z9n4a",
+   "text": "minuten",
+   "say": "minuten",
+   "kind": "word"
+  },
+  {
+   "key": "2d89cp5nk4t",
+   "text": "Bus nummer vijf rijdt elk kwartier.",
+   "say": "Bus nummer vijf rijdt elk kwartier.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1o4o2i7yvnj",
+   "text": "Bus",
+   "say": "Bus",
+   "kind": "word"
+  },
+  {
+   "key": "16vdi3ig4l6",
+   "text": "rijdt",
+   "say": "rijdt",
+   "kind": "word"
+  },
+  {
+   "key": "03cj85uwco6",
+   "text": "elk",
+   "say": "elk",
+   "kind": "word"
+  },
+  {
+   "key": "1576gfbtwwk",
+   "text": "kwartier",
+   "say": "kwartier",
+   "kind": "word"
+  },
+  {
+   "key": "20ljp5xdlrg",
+   "text": "Volgende week gaat de bus een andere route rijden.",
+   "say": "Volgende week gaat de bus een andere route rijden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0yvs0c1gwmq",
+   "text": "route",
+   "say": "route",
+   "kind": "word"
+  },
+  {
+   "key": "1z6esbtnhg5",
+   "text": "rijden",
+   "say": "rijden",
+   "kind": "word"
+  },
+  {
+   "key": "17pczbe9pj0",
+   "text": "het station",
+   "say": "het station",
+   "kind": "sentence"
+  },
+  {
+   "key": "1b8c9amghkz",
+   "text": "Ik ben vanmorgen met de fiets naar het station gereden.",
+   "say": "Ik ben vanmorgen met de fiets naar het station gereden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "05cuew4mefu",
+   "text": "gereden",
+   "say": "gereden",
+   "kind": "word"
+  },
+  {
+   "key": "0y6zr3af6gy",
+   "text": "Het station ligt vijf minuten van mijn huis.",
+   "say": "Het station ligt vijf minuten van mijn huis.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1507r91c7s6",
+   "text": "Mijn vader zal me straks naar het station brengen.",
+   "say": "Mijn vader zal me straks naar het station brengen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1qjthvuruym",
+   "text": "brengen",
+   "say": "brengen",
+   "kind": "word"
+  },
+  {
+   "key": "2apkjdl4nep",
+   "text": "de halte",
+   "say": "de halte",
+   "kind": "sentence"
+  },
+  {
+   "key": "1d9kqqr1huv",
+   "text": "We zijn per ongeluk bij de verkeerde halte uitgestapt.",
+   "say": "We zijn per ongeluk bij de verkeerde halte uitgestapt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "177ctbiyyj9",
+   "text": "ongeluk",
+   "say": "ongeluk",
+   "kind": "word"
+  },
+  {
+   "key": "1ihevb0caut",
+   "text": "halte",
+   "say": "halte",
+   "kind": "word"
+  },
+  {
+   "key": "274aaga33ov",
+   "text": "uitgestapt",
+   "say": "uitgestapt",
+   "kind": "word"
+  },
+  {
+   "key": "268u40zucnd",
+   "text": "De halte is vlak bij het postkantoor.",
+   "say": "De halte is vlak bij het postkantoor.",
+   "kind": "sentence"
+  },
+  {
+   "key": "178b3731v68",
+   "text": "postkantoor",
+   "say": "postkantoor",
+   "kind": "word"
+  },
+  {
+   "key": "215466lh196",
+   "text": "Ik zal je morgen bij de halte ophalen.",
+   "say": "Ik zal je morgen bij de halte ophalen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0pcdt2jwywa",
+   "text": "ophalen",
+   "say": "ophalen",
+   "kind": "word"
+  },
+  {
+   "key": "290f2re0rqg",
+   "text": "aankomen",
+   "say": "aankomen",
+   "kind": "sentence"
+  },
+  {
+   "key": "0oj72bvcpfk",
+   "text": "We zijn pas om middernacht in Brussel aangekomen.",
+   "say": "We zijn pas om middernacht in Brussel aangekomen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1uwpmk3mlze",
+   "text": "middernacht",
+   "say": "middernacht",
+   "kind": "word"
+  },
+  {
+   "key": "0b32eyo7byc",
+   "text": "aangekomen",
+   "say": "aangekomen",
+   "kind": "word"
+  },
+  {
+   "key": "0ytyspenma5",
+   "text": "De trein komt over tien minuten aan.",
+   "say": "De trein komt over tien minuten aan.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0pl0zebh7zm",
+   "text": "Mijn zus gaat morgenochtend in Hasselt aankomen.",
+   "say": "Mijn zus gaat morgenochtend in Hasselt aankomen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "267q5q0spot",
+   "text": "zus",
+   "say": "zus",
+   "kind": "word"
+  },
+  {
+   "key": "1o3glurw8sx",
+   "text": "morgenochtend",
+   "say": "morgenochtend",
+   "kind": "word"
+  },
+  {
+   "key": "1rsh0ayfnhr",
+   "text": "de vertraging",
+   "say": "de vertraging",
+   "kind": "sentence"
+  },
+  {
+   "key": "256h3iuixz8",
+   "text": "Door de sneeuw hebben we veel vertraging opgelopen.",
+   "say": "Door de sneeuw hebben we veel vertraging opgelopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "25nq8br9er3",
+   "text": "Door",
+   "say": "Door",
+   "kind": "word"
+  },
+  {
+   "key": "1szf7hi55i0",
+   "text": "sneeuw",
+   "say": "sneeuw",
+   "kind": "word"
+  },
+  {
+   "key": "0bjzpm164do",
+   "text": "opgelopen",
+   "say": "opgelopen",
+   "kind": "word"
+  },
+  {
+   "key": "05ccgp0y7ep",
+   "text": "De trein naar Antwerpen heeft vandaag vertraging.",
+   "say": "De trein naar Antwerpen heeft vandaag vertraging.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0u7oavkmzu5",
+   "text": "Antwerpen",
+   "say": "Antwerpen",
+   "kind": "word"
+  },
+  {
+   "key": "0draoodupjw",
+   "text": "Door de werken zal er morgen vertraging zijn.",
+   "say": "Door de werken zal er morgen vertraging zijn.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0frems3844i",
+   "text": "de file",
+   "say": "de file",
+   "kind": "sentence"
+  },
+  {
+   "key": "18n8b0uracn",
+   "text": "We hebben anderhalf uur in de file gestaan.",
+   "say": "We hebben anderhalf uur in de file gestaan.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1n6q898uj92",
+   "text": "anderhalf",
+   "say": "anderhalf",
+   "kind": "word"
+  },
+  {
+   "key": "25qv5zmjxmq",
+   "text": "file",
+   "say": "file",
+   "kind": "word"
+  },
+  {
+   "key": "0jlqebtehpz",
+   "text": "gestaan",
+   "say": "gestaan",
+   "kind": "word"
+  },
+  {
+   "key": "1cor6ai9jil",
+   "text": "Op de ring staat vaak file.",
+   "say": "Op de ring staat vaak file.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1o0g305dyiq",
+   "text": "ring",
+   "say": "ring",
+   "kind": "word"
+  },
+  {
+   "key": "0lx9hrxva6f",
+   "text": "Door de werken zal er vandaag veel file staan.",
+   "say": "Door de werken zal er vandaag veel file staan.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2e2palzu79n",
+   "text": "het kaartje",
+   "say": "het kaartje",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ceobxsm0qq",
+   "text": "Ik heb twee kaartjes voor de film gekocht.",
+   "say": "Ik heb twee kaartjes voor de film gekocht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1naxy2xss68",
+   "text": "kaartjes",
+   "say": "kaartjes",
+   "kind": "word"
+  },
+  {
+   "key": "256n5p8fxff",
+   "text": "film",
+   "say": "film",
+   "kind": "word"
+  },
+  {
+   "key": "1liovu4mgrv",
+   "text": "Een kaartje naar Antwerpen kost zes euro.",
+   "say": "Een kaartje naar Antwerpen kost zes euro.",
+   "kind": "sentence"
+  },
+  {
+   "key": "123lhy7o7n2",
+   "text": "kaartje",
+   "say": "kaartje",
+   "kind": "word"
+  },
+  {
+   "key": "17tiphawpxz",
+   "text": "kost",
+   "say": "kost",
+   "kind": "word"
+  },
+  {
+   "key": "2arm2u86x8x",
+   "text": "Ik ga straks een kaartje aan de automaat kopen.",
+   "say": "Ik ga straks een kaartje aan de automaat kopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "296893c6v4z",
+   "text": "automaat",
+   "say": "automaat",
+   "kind": "word"
+  },
+  {
+   "key": "2awfyxqyoo2",
+   "text": "overstappen",
+   "say": "overstappen",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ba7i56lrcz",
+   "text": "We zijn in Mechelen op de trein naar Gent overgestapt.",
+   "say": "We zijn in Mechelen op de trein naar Gent overgestapt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0xhcsv7nqa5",
+   "text": "Mechelen",
+   "say": "Mechelen",
+   "kind": "word"
+  },
+  {
+   "key": "13w9xm6xmw4",
+   "text": "overgestapt",
+   "say": "overgestapt",
+   "kind": "word"
+  },
+  {
+   "key": "0suaxrsbnf7",
+   "text": "In Leuven stap je over op de trein naar Hasselt.",
+   "say": "In Leuven stap je over op de trein naar Hasselt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0y9jkk7lfyg",
+   "text": "Leuven",
+   "say": "Leuven",
+   "kind": "word"
+  },
+  {
+   "key": "19lfn11vsot",
+   "text": "stap",
+   "say": "stap",
+   "kind": "word"
+  },
+  {
+   "key": "1qjf2trwr9z",
+   "text": "Ik ga in Brussel overstappen op de metro.",
+   "say": "Ik ga in Brussel overstappen op de metro.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1bv0e7cg1px",
+   "text": "metro",
+   "say": "metro",
+   "kind": "word"
+  },
+  {
+   "key": "0l3h5aaq8j6",
+   "text": "de chauffeur",
+   "say": "de chauffeur",
+   "kind": "sentence"
+  },
+  {
+   "key": "03oxwak4lb1",
+   "text": "De chauffeur heeft ons netjes thuis afgezet.",
+   "say": "De chauffeur heeft ons netjes thuis afgezet.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0rnvyr4j8ig",
+   "text": "chauffeur",
+   "say": "chauffeur",
+   "kind": "word"
+  },
+  {
+   "key": "0acfkb5eo5h",
+   "text": "netjes",
+   "say": "netjes",
+   "kind": "word"
+  },
+  {
+   "key": "24r032rkegl",
+   "text": "afgezet",
+   "say": "afgezet",
+   "kind": "word"
+  },
+  {
+   "key": "0w5okytx6vm",
+   "text": "De chauffeur van de bus is altijd vriendelijk.",
+   "say": "De chauffeur van de bus is altijd vriendelijk.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ywkri152lx",
+   "text": "Onze chauffeur zal u om zeven uur ophalen.",
+   "say": "Onze chauffeur zal u om zeven uur ophalen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "049t2a2vaun",
+   "text": "zeven",
+   "say": "zeven",
+   "kind": "word"
+  },
+  {
+   "key": "01vvxom1iyl",
+   "text": "de luchthaven",
+   "say": "de luchthaven",
+   "kind": "sentence"
+  },
+  {
+   "key": "1cycmn90b4x",
+   "text": "Mijn zus is gisteren op de luchthaven geland.",
+   "say": "Mijn zus is gisteren op de luchthaven geland.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1172r9kkiny",
+   "text": "luchthaven",
+   "say": "luchthaven",
+   "kind": "word"
+  },
+  {
+   "key": "0g1da62ud6l",
+   "text": "geland",
+   "say": "geland",
+   "kind": "word"
+  },
+  {
+   "key": "0rcjllafer2",
+   "text": "De luchthaven van Brussel ligt dicht bij Zaventem.",
+   "say": "De luchthaven van Brussel ligt dicht bij Zaventem.",
+   "kind": "sentence"
+  },
+  {
+   "key": "28awi2nkr2q",
+   "text": "dicht",
+   "say": "dicht",
+   "kind": "word"
+  },
+  {
+   "key": "0j1q6oaud7o",
+   "text": "Zaventem",
+   "say": "Zaventem",
+   "kind": "word"
+  },
+  {
+   "key": "053xpk5jjor",
+   "text": "Ik zal je morgen naar de luchthaven brengen.",
+   "say": "Ik zal je morgen naar de luchthaven brengen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "27kgwbv14gd",
+   "text": "de fiets",
+   "say": "de fiets",
+   "kind": "sentence"
+  },
+  {
+   "key": "16pfpvz4zqh",
+   "text": "Ik ben vanmorgen met de fiets naar mijn werk gekomen.",
+   "say": "Ik ben vanmorgen met de fiets naar mijn werk gekomen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "28e4vcbhhqc",
+   "text": "gekomen",
+   "say": "gekomen",
+   "kind": "word"
+  },
+  {
+   "key": "0x33ypghlfg",
+   "text": "Mijn fiets heeft een lekke band.",
+   "say": "Mijn fiets heeft een lekke band.",
+   "kind": "sentence"
+  },
+  {
+   "key": "264wb2nkk7y",
+   "text": "lekke",
+   "say": "lekke",
+   "kind": "word"
+  },
+  {
+   "key": "0rfnph46wq4",
+   "text": "band",
+   "say": "band",
+   "kind": "word"
+  },
+  {
+   "key": "1poabipac7z",
+   "text": "Ik ga mijn fiets morgen laten herstellen.",
+   "say": "Ik ga mijn fiets morgen laten herstellen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1zhvd12xtfe",
+   "text": "de straat",
+   "say": "de straat",
+   "kind": "sentence"
+  },
+  {
+   "key": "12dr31wznmw",
+   "text": "We hebben de hele straat gisteren versierd voor het feest.",
+   "say": "We hebben de hele straat gisteren versierd voor het feest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "136v9wysaye",
+   "text": "straat",
+   "say": "straat",
+   "kind": "word"
+  },
+  {
+   "key": "0gjg25cj7us",
+   "text": "versierd",
+   "say": "versierd",
+   "kind": "word"
+  },
+  {
+   "key": "1b6mzhmsuu5",
+   "text": "feest",
+   "say": "feest",
+   "kind": "word"
+  },
+  {
+   "key": "2ao88zih0h2",
+   "text": "Onze straat is erg rustig na tien uur.",
+   "say": "Onze straat is erg rustig na tien uur.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1qglq66fnmn",
+   "text": "Volgende maand gaan ze onze straat opnieuw asfalteren.",
+   "say": "Volgende maand gaan ze onze straat opnieuw asfalteren.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1xpl0zew8v0",
+   "text": "opnieuw",
+   "say": "opnieuw",
+   "kind": "word"
+  },
+  {
+   "key": "0vnkqoaj4vn",
+   "text": "asfalteren",
+   "say": "asfalteren",
+   "kind": "word"
+  },
+  {
+   "key": "1nlckazke7e",
+   "text": "de reis",
+   "say": "de reis",
+   "kind": "sentence"
+  },
+  {
+   "key": "124szfeek4o",
+   "text": "We hebben een geweldige reis naar Italië gemaakt.",
+   "say": "We hebben een geweldige reis naar Italië gemaakt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1dhdcl2ykrz",
+   "text": "geweldige",
+   "say": "geweldige",
+   "kind": "word"
+  },
+  {
+   "key": "1g4yhsyztqw",
+   "text": "Italië",
+   "say": "Italië",
+   "kind": "word"
+  },
+  {
+   "key": "27v18je14m6",
+   "text": "gemaakt",
+   "say": "gemaakt",
+   "kind": "word"
+  },
+  {
+   "key": "1s8mhsreirb",
+   "text": "De reis naar Parijs duurt twee uur.",
+   "say": "De reis naar Parijs duurt twee uur.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1wwncr96qdt",
+   "text": "Parijs",
+   "say": "Parijs",
+   "kind": "word"
+  },
+  {
+   "key": "24701jm7wqd",
+   "text": "duurt",
+   "say": "duurt",
+   "kind": "word"
+  },
+  {
+   "key": "2ax4ulx4g6e",
+   "text": "Volgend jaar gaan we op reis naar Spanje.",
+   "say": "Volgend jaar gaan we op reis naar Spanje.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1azba60ebxu",
+   "text": "Spanje",
+   "say": "Spanje",
+   "kind": "word"
+  },
+  {
+   "key": "19nkzasxmep",
+   "text": "het loon",
+   "say": "het loon",
+   "kind": "sentence"
+  },
+  {
+   "key": "1it698js8nq",
+   "text": "Ik heb mijn loon deze maand later gekregen.",
+   "say": "Ik heb mijn loon deze maand later gekregen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1zjxjppmkm5",
+   "text": "loon",
+   "say": "loon",
+   "kind": "word"
+  },
+  {
+   "key": "0a2a3jzjvoi",
+   "text": "Het loon wordt elke maand op de rekening gestort.",
+   "say": "Het loon wordt elke maand op de rekening gestort.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0iaubulzke1",
+   "text": "gestort",
+   "say": "gestort",
+   "kind": "word"
+  },
+  {
+   "key": "0bhg9xcjbca",
+   "text": "Volgend jaar gaat mijn loon omhoog.",
+   "say": "Volgend jaar gaat mijn loon omhoog.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ui2j0dfg0a",
+   "text": "de baas",
+   "say": "de baas",
+   "kind": "sentence"
+  },
+  {
+   "key": "1nrz3gbltvh",
+   "text": "Mijn baas heeft me gisteren een compliment gegeven.",
+   "say": "Mijn baas heeft me gisteren een compliment gegeven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1kliyh3vfi3",
+   "text": "baas",
+   "say": "baas",
+   "kind": "word"
+  },
+  {
+   "key": "119va187sb0",
+   "text": "compliment",
+   "say": "compliment",
+   "kind": "word"
+  },
+  {
+   "key": "1dta3bnk1f9",
+   "text": "Mijn baas werkt vaak tot laat in de avond.",
+   "say": "Mijn baas werkt vaak tot laat in de avond.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1v4ffoqni3w",
+   "text": "Ik zal morgen met mijn baas over mijn rooster praten.",
+   "say": "Ik zal morgen met mijn baas over mijn rooster praten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "032kvjncgo8",
+   "text": "rooster",
+   "say": "rooster",
+   "kind": "word"
+  },
+  {
+   "key": "0bhexl999uz",
+   "text": "het contract",
+   "say": "het contract",
+   "kind": "sentence"
+  },
+  {
+   "key": "0rct1wuo3pr",
+   "text": "Ik heb mijn contract vorige week getekend.",
+   "say": "Ik heb mijn contract vorige week getekend.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1vxcpvad6pi",
+   "text": "contract",
+   "say": "contract",
+   "kind": "word"
+  },
+  {
+   "key": "0nc77ktcrco",
+   "text": "getekend",
+   "say": "getekend",
+   "kind": "word"
+  },
+  {
+   "key": "22vuo6nvn8c",
+   "text": "Dit contract loopt nog tot het einde van het jaar.",
+   "say": "Dit contract loopt nog tot het einde van het jaar.",
+   "kind": "sentence"
+  },
+  {
+   "key": "26aoh3o3a2l",
+   "text": "einde",
+   "say": "einde",
+   "kind": "word"
+  },
+  {
+   "key": "1dxw3skqm9z",
+   "text": "Mijn werkgever gaat mijn contract volgend jaar verlengen.",
+   "say": "Mijn werkgever gaat mijn contract volgend jaar verlengen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "07rqlagqa88",
+   "text": "werkgever",
+   "say": "werkgever",
+   "kind": "word"
+  },
+  {
+   "key": "15hlc4l5tr3",
+   "text": "verlengen",
+   "say": "verlengen",
+   "kind": "word"
+  },
+  {
+   "key": "09eld1pt74n",
+   "text": "solliciteren",
+   "say": "solliciteren",
+   "kind": "sentence"
+  },
+  {
+   "key": "1m7maaz747m",
+   "text": "Ik heb gisteren bij drie bedrijven gesolliciteerd.",
+   "say": "Ik heb gisteren bij drie bedrijven gesolliciteerd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0xmg6yeno0n",
+   "text": "bedrijven",
+   "say": "bedrijven",
+   "kind": "word"
+  },
+  {
+   "key": "29341ka0eho",
+   "text": "gesolliciteerd",
+   "say": "gesolliciteerd",
+   "kind": "word"
+  },
+  {
+   "key": "201qywyomiv",
+   "text": "Hij solliciteert op een baan als verkoper.",
+   "say": "Hij solliciteert op een baan als verkoper.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1nfi115gtjr",
+   "text": "solliciteert",
+   "say": "solliciteert",
+   "kind": "word"
+  },
+  {
+   "key": "21o78p6qup0",
+   "text": "baan",
+   "say": "baan",
+   "kind": "word"
+  },
+  {
+   "key": "1r8ma3dfmfv",
+   "text": "verkoper",
+   "say": "verkoper",
+   "kind": "word"
+  },
+  {
+   "key": "1ff91dyl0xs",
+   "text": "Volgende week ga ik solliciteren bij een bank.",
+   "say": "Volgende week ga ik solliciteren bij een bank.",
+   "kind": "sentence"
+  },
+  {
+   "key": "10qbgnygog5",
+   "text": "bank",
+   "say": "bank",
+   "kind": "word"
+  },
+  {
+   "key": "0tqumpux6h5",
+   "text": "het rooster",
+   "say": "het rooster",
+   "kind": "sentence"
+  },
+  {
+   "key": "0spvy3wmzwk",
+   "text": "Ik heb mijn rooster voor volgende week gekregen.",
+   "say": "Ik heb mijn rooster voor volgende week gekregen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1cjw4gnmo6s",
+   "text": "Mijn rooster verandert bijna elke week.",
+   "say": "Mijn rooster verandert bijna elke week.",
+   "kind": "sentence"
+  },
+  {
+   "key": "226xv7zruvr",
+   "text": "Mijn baas gaat het rooster nog aanpassen.",
+   "say": "Mijn baas gaat het rooster nog aanpassen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0lriqw0uod1",
+   "text": "aanpassen",
+   "say": "aanpassen",
+   "kind": "word"
+  },
+  {
+   "key": "1tr0k9tql2l",
+   "text": "de vakantie",
+   "say": "de vakantie",
+   "kind": "sentence"
+  },
+  {
+   "key": "03fk4ke00ba",
+   "text": "We zijn vorig jaar twee weken op vakantie geweest.",
+   "say": "We zijn vorig jaar twee weken op vakantie geweest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ab9g7i9sm7",
+   "text": "Tijdens de vakantie werk ik nooit.",
+   "say": "Tijdens de vakantie werk ik nooit.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1n1re9zim8p",
+   "text": "Tijdens",
+   "say": "Tijdens",
+   "kind": "word"
+  },
+  {
+   "key": "1csw8a865oo",
+   "text": "Deze zomer gaan we op vakantie naar Portugal.",
+   "say": "Deze zomer gaan we op vakantie naar Portugal.",
+   "kind": "sentence"
+  },
+  {
+   "key": "11xytfusws5",
+   "text": "Portugal",
+   "say": "Portugal",
+   "kind": "word"
+  },
+  {
+   "key": "038v06pms55",
+   "text": "de opleiding",
+   "say": "de opleiding",
+   "kind": "sentence"
+  },
+  {
+   "key": "0u8612oqdi6",
+   "text": "Ik heb vorig jaar een opleiding tot verpleegkundige gevolgd.",
+   "say": "Ik heb vorig jaar een opleiding tot verpleegkundige gevolgd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ynxovaqpl7",
+   "text": "opleiding",
+   "say": "opleiding",
+   "kind": "word"
+  },
+  {
+   "key": "1wmz9dvq093",
+   "text": "verpleegkundige",
+   "say": "verpleegkundige",
+   "kind": "word"
+  },
+  {
+   "key": "07rpcs842p2",
+   "text": "gevolgd",
+   "say": "gevolgd",
+   "kind": "word"
+  },
+  {
+   "key": "1u44i31szyw",
+   "text": "Mijn opleiding duurt nog twee jaar.",
+   "say": "Mijn opleiding duurt nog twee jaar.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1x6u1ixftbf",
+   "text": "Volgend jaar gaat zij een opleiding beginnen.",
+   "say": "Volgend jaar gaat zij een opleiding beginnen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0womooha1st",
+   "text": "het bedrijf",
+   "say": "het bedrijf",
+   "kind": "sentence"
+  },
+  {
+   "key": "159zgpkl15g",
+   "text": "Mijn broer heeft vorig jaar een eigen bedrijf opgericht.",
+   "say": "Mijn broer heeft vorig jaar een eigen bedrijf opgericht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1uvaxg4comf",
+   "text": "bedrijf",
+   "say": "bedrijf",
+   "kind": "word"
+  },
+  {
+   "key": "1m23tejp153",
+   "text": "opgericht",
+   "say": "opgericht",
+   "kind": "word"
+  },
+  {
+   "key": "1xjmncap91c",
+   "text": "Het bedrijf zit in een groot gebouw bij het station.",
+   "say": "Het bedrijf zit in een groot gebouw bij het station.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0dgop0pqu14",
+   "text": "gebouw",
+   "say": "gebouw",
+   "kind": "word"
+  },
+  {
+   "key": "1hxvqpb2rq8",
+   "text": "Het bedrijf gaat volgend jaar twintig mensen aannemen.",
+   "say": "Het bedrijf gaat volgend jaar twintig mensen aannemen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "23nemm80mxw",
+   "text": "aannemen",
+   "say": "aannemen",
+   "kind": "word"
+  },
+  {
+   "key": "069cedhjl6e",
+   "text": "ontslaan",
+   "say": "ontslaan",
+   "kind": "sentence"
+  },
+  {
+   "key": "098f1jxmne0",
+   "text": "Het bedrijf heeft vorig jaar vijftig mensen ontslagen.",
+   "say": "Het bedrijf heeft vorig jaar vijftig mensen ontslagen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "169yfjwufll",
+   "text": "ontslagen",
+   "say": "ontslagen",
+   "kind": "word"
+  },
+  {
+   "key": "1js5z6no8cu",
+   "text": "Een goede baas ontslaat niemand zomaar.",
+   "say": "Een goede baas ontslaat niemand zomaar.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0y16kg28nmw",
+   "text": "ontslaat",
+   "say": "ontslaat",
+   "kind": "word"
+  },
+  {
+   "key": "00qfzu9db9x",
+   "text": "niemand",
+   "say": "niemand",
+   "kind": "word"
+  },
+  {
+   "key": "0w00z533cxc",
+   "text": "zomaar",
+   "say": "zomaar",
+   "kind": "word"
+  },
+  {
+   "key": "1507nq73e9v",
+   "text": "Ze gaan volgende maand tien mensen ontslaan.",
+   "say": "Ze gaan volgende maand tien mensen ontslaan.",
+   "kind": "sentence"
+  },
+  {
+   "key": "25g1rcvrip8",
+   "text": "de ervaring",
+   "say": "de ervaring",
+   "kind": "sentence"
+  },
+  {
+   "key": "0v56yhc2v22",
+   "text": "Ik heb vorig jaar veel ervaring opgedaan in een ziekenhuis.",
+   "say": "Ik heb vorig jaar veel ervaring opgedaan in een ziekenhuis.",
+   "kind": "sentence"
+  },
+  {
+   "key": "02bi8whzs6a",
+   "text": "ervaring",
+   "say": "ervaring",
+   "kind": "word"
+  },
+  {
+   "key": "0a5o1iouo6y",
+   "text": "opgedaan",
+   "say": "opgedaan",
+   "kind": "word"
+  },
+  {
+   "key": "04n6irm1mst",
+   "text": "Voor deze baan heb je minstens twee jaar ervaring nodig.",
+   "say": "Voor deze baan heb je minstens twee jaar ervaring nodig.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2273da67u3l",
+   "text": "Voor",
+   "say": "Voor",
+   "kind": "word"
+  },
+  {
+   "key": "08b52ya399x",
+   "text": "minstens",
+   "say": "minstens",
+   "kind": "word"
+  },
+  {
+   "key": "28oag8cnfsd",
+   "text": "Met deze stage zal je veel ervaring krijgen.",
+   "say": "Met deze stage zal je veel ervaring krijgen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1zuzjpr5xup",
+   "text": "stage",
+   "say": "stage",
+   "kind": "word"
+  },
+  {
+   "key": "0merkufgt9l",
+   "text": "koken",
+   "say": "koken",
+   "kind": "sentence"
+  },
+  {
+   "key": "1aa4142ydz6",
+   "text": "Ik heb gisteren voor de hele familie gekookt.",
+   "say": "Ik heb gisteren voor de hele familie gekookt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1k302xo5kh5",
+   "text": "gekookt",
+   "say": "gekookt",
+   "kind": "word"
+  },
+  {
+   "key": "20dntf6ei7n",
+   "text": "Mijn vader kookt elke zondag een grote maaltijd.",
+   "say": "Mijn vader kookt elke zondag een grote maaltijd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0bx7zci23um",
+   "text": "kookt",
+   "say": "kookt",
+   "kind": "word"
+  },
+  {
+   "key": "0iba9j3hkkk",
+   "text": "maaltijd",
+   "say": "maaltijd",
+   "kind": "word"
+  },
+  {
+   "key": "0y5yp4xw2aq",
+   "text": "Vanavond ga ik pasta met tomatensaus koken.",
+   "say": "Vanavond ga ik pasta met tomatensaus koken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0op2wnttdw6",
+   "text": "Vanavond",
+   "say": "Vanavond",
+   "kind": "word"
+  },
+  {
+   "key": "0hsxfepfuy4",
+   "text": "pasta",
+   "say": "pasta",
+   "kind": "word"
+  },
+  {
+   "key": "0hbdcjkie5h",
+   "text": "tomatensaus",
+   "say": "tomatensaus",
+   "kind": "word"
+  },
+  {
+   "key": "202nvmhpc2d",
+   "text": "bakken",
+   "say": "bakken",
+   "kind": "sentence"
+  },
+  {
+   "key": "140z76sug7x",
+   "text": "Ik heb zaterdag een appeltaart gebakken.",
+   "say": "Ik heb zaterdag een appeltaart gebakken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1tl7p8xhzlr",
+   "text": "appeltaart",
+   "say": "appeltaart",
+   "kind": "word"
+  },
+  {
+   "key": "0pkh52njjiq",
+   "text": "gebakken",
+   "say": "gebakken",
+   "kind": "word"
+  },
+  {
+   "key": "23ebdiaqecw",
+   "text": "Ze bakt elke ochtend vers brood.",
+   "say": "Ze bakt elke ochtend vers brood.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0t6pdbfdh53",
+   "text": "bakt",
+   "say": "bakt",
+   "kind": "word"
+  },
+  {
+   "key": "1cjrlh6fotb",
+   "text": "Morgen ga ik pannenkoeken bakken voor de kinderen.",
+   "say": "Morgen ga ik pannenkoeken bakken voor de kinderen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0kcw7eemvea",
+   "text": "pannenkoeken",
+   "say": "pannenkoeken",
+   "kind": "word"
+  },
+  {
+   "key": "0kh1o6ob37e",
+   "text": "afwassen",
+   "say": "afwassen",
+   "kind": "sentence"
+  },
+  {
+   "key": "0rb4uw4aarv",
+   "text": "Wie heeft gisteren de borden afgewassen?",
+   "say": "Wie heeft gisteren de borden afgewassen?",
+   "kind": "sentence"
+  },
+  {
+   "key": "0z0zq0g64m9",
+   "text": "borden",
+   "say": "borden",
+   "kind": "word"
+  },
+  {
+   "key": "17lqwrfa2y0",
+   "text": "afgewassen",
+   "say": "afgewassen",
+   "kind": "word"
+  },
+  {
+   "key": "001zg6okjod",
+   "text": "Na het eten wassen wij samen af.",
+   "say": "Na het eten wassen wij samen af.",
+   "kind": "sentence"
+  },
+  {
+   "key": "18lhgiz5yxv",
+   "text": "Ik ga straks de pannen afwassen.",
+   "say": "Ik ga straks de pannen afwassen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1urw0vzav3b",
+   "text": "pannen",
+   "say": "pannen",
+   "kind": "word"
+  },
+  {
+   "key": "0p0u7c1iu1f",
+   "text": "uitnodigen",
+   "say": "uitnodigen",
+   "kind": "sentence"
+  },
+  {
+   "key": "1u1duxt7u1x",
+   "text": "We hebben onze buren voor het feest uitgenodigd.",
+   "say": "We hebben onze buren voor het feest uitgenodigd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "255oehz0cni",
+   "text": "uitgenodigd",
+   "say": "uitgenodigd",
+   "kind": "word"
+  },
+  {
+   "key": "0nj7hjci1ue",
+   "text": "Ik nodig je graag uit voor mijn verjaardag.",
+   "say": "Ik nodig je graag uit voor mijn verjaardag.",
+   "kind": "sentence"
+  },
+  {
+   "key": "07w7b0j3vco",
+   "text": "verjaardag",
+   "say": "verjaardag",
+   "kind": "word"
+  },
+  {
+   "key": "1x98goryrpw",
+   "text": "Volgende week gaan wij al onze collega's uitnodigen.",
+   "say": "Volgende week gaan wij al onze collega's uitnodigen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0xg5p4oofe3",
+   "text": "afzeggen",
+   "say": "afzeggen",
+   "kind": "sentence"
+  },
+  {
+   "key": "1vkrdxjv4wp",
+   "text": "Hij heeft de afspraak helaas afgezegd.",
+   "say": "Hij heeft de afspraak helaas afgezegd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1qvk3npk11t",
+   "text": "afgezegd",
+   "say": "afgezegd",
+   "kind": "word"
+  },
+  {
+   "key": "1oqibgu2i7w",
+   "text": "Ik zeg morgen mijn afspraak af.",
+   "say": "Ik zeg morgen mijn afspraak af.",
+   "kind": "sentence"
+  },
+  {
+   "key": "236v4tnefd1",
+   "text": "Ik ga niet nog een keer afzeggen.",
+   "say": "Ik ga niet nog een keer afzeggen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0nbm9ufsfor",
+   "text": "beloven",
+   "say": "beloven",
+   "kind": "sentence"
+  },
+  {
+   "key": "2dmeza9pxw4",
+   "text": "Ik heb mijn dochter een nieuwe fiets beloofd.",
+   "say": "Ik heb mijn dochter een nieuwe fiets beloofd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1n4sbyw1jag",
+   "text": "beloofd",
+   "say": "beloofd",
+   "kind": "word"
+  },
+  {
+   "key": "2eqkuza3vl8",
+   "text": "Ik beloof dat ik op tijd kom.",
+   "say": "Ik beloof dat ik op tijd kom.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0f16nar2poo",
+   "text": "beloof",
+   "say": "beloof",
+   "kind": "word"
+  },
+  {
+   "key": "0wpviyovyic",
+   "text": "Ik zal je zeker bellen, dat beloof ik.",
+   "say": "Ik zal je zeker bellen, dat beloof ik.",
+   "kind": "sentence"
+  },
+  {
+   "key": "23h308l3kva",
+   "text": "onthouden",
+   "say": "onthouden",
+   "kind": "sentence"
+  },
+  {
+   "key": "1j2k8wrk9pl",
+   "text": "Ik heb dat nummer nooit kunnen onthouden.",
+   "say": "Ik heb dat nummer nooit kunnen onthouden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0d5fzp5y0kg",
+   "text": "Ik onthoud nieuwe woorden het best met voorbeelden.",
+   "say": "Ik onthoud nieuwe woorden het best met voorbeelden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0owucy1n1w6",
+   "text": "onthoud",
+   "say": "onthoud",
+   "kind": "word"
+  },
+  {
+   "key": "1z7opauraxf",
+   "text": "best",
+   "say": "best",
+   "kind": "word"
+  },
+  {
+   "key": "1l3bnds2hdl",
+   "text": "voorbeelden",
+   "say": "voorbeelden",
+   "kind": "word"
+  },
+  {
+   "key": "0vf3wejsubg",
+   "text": "Als je het opschrijft, zal je het beter onthouden.",
+   "say": "Als je het opschrijft, zal je het beter onthouden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "21gyr0areco",
+   "text": "opschrijft",
+   "say": "opschrijft",
+   "kind": "word"
+  },
+  {
+   "key": "0fgumadxi9l",
+   "text": "zich herinneren",
+   "say": "zich herinneren",
+   "kind": "sentence"
+  },
+  {
+   "key": "14pqwkkv69x",
+   "text": "Ik heb me ineens zijn naam herinnerd.",
+   "say": "Ik heb me ineens zijn naam herinnerd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "19lqcjcgxe2",
+   "text": "ineens",
+   "say": "ineens",
+   "kind": "word"
+  },
+  {
+   "key": "0njnse3cob4",
+   "text": "naam",
+   "say": "naam",
+   "kind": "word"
+  },
+  {
+   "key": "12wdu6zzgb9",
+   "text": "herinnerd",
+   "say": "herinnerd",
+   "kind": "word"
+  },
+  {
+   "key": "1w6fs2rvo0r",
+   "text": "Ik herinner me die zomer nog heel goed.",
+   "say": "Ik herinner me die zomer nog heel goed.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0cezgx0mp7a",
+   "text": "herinner",
+   "say": "herinner",
+   "kind": "word"
+  },
+  {
+   "key": "2a3t69hlizt",
+   "text": "Over tien jaar zal ik me deze dag nog herinneren.",
+   "say": "Over tien jaar zal ik me deze dag nog herinneren.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2cymj9xc7oe",
+   "text": "herinneren",
+   "say": "herinneren",
+   "kind": "word"
+  },
+  {
+   "key": "1lsb2huhodt",
+   "text": "ontmoeten",
+   "say": "ontmoeten",
+   "kind": "sentence"
+  },
+  {
+   "key": "0o713re4svt",
+   "text": "We hebben elkaar vorige zomer in Spanje ontmoet.",
+   "say": "We hebben elkaar vorige zomer in Spanje ontmoet.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0cu2cwbt1tf",
+   "text": "ontmoet",
+   "say": "ontmoet",
+   "kind": "word"
+  },
+  {
+   "key": "13bmxbj920k",
+   "text": "Waar ontmoeten wij elkaar morgen?",
+   "say": "Waar ontmoeten wij elkaar morgen?",
+   "kind": "sentence"
+  },
+  {
+   "key": "1y9br84k7ff",
+   "text": "Ik ga volgende week een oude vriend ontmoeten.",
+   "say": "Ik ga volgende week een oude vriend ontmoeten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2g24iciqvnu",
+   "text": "vriend",
+   "say": "vriend",
+   "kind": "word"
+  },
+  {
+   "key": "2fz05d6ixep",
+   "text": "Hij heeft me gisteren een grappig verhaal verteld.",
+   "say": "Hij heeft me gisteren een grappig verhaal verteld.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0y3juzookky",
+   "text": "grappig",
+   "say": "grappig",
+   "kind": "word"
+  },
+  {
+   "key": "21j6nrijns7",
+   "text": "verhaal",
+   "say": "verhaal",
+   "kind": "word"
+  },
+  {
+   "key": "1o29hl49qo4",
+   "text": "verteld",
+   "say": "verteld",
+   "kind": "word"
+  },
+  {
+   "key": "0z56pftk1ue",
+   "text": "Kun je mij vertellen hoe laat het is?",
+   "say": "Kun je mij vertellen hoe laat het is?",
+   "kind": "sentence"
+  },
+  {
+   "key": "1r4kobjms3j",
+   "text": "Ik zal je straks alles vertellen.",
+   "say": "Ik zal je straks alles vertellen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2gacwubtdsm",
+   "text": "Ik heb hem meteen per mail geantwoord.",
+   "say": "Ik heb hem meteen per mail geantwoord.",
+   "kind": "sentence"
+  },
+  {
+   "key": "11cxysua132",
+   "text": "geantwoord",
+   "say": "geantwoord",
+   "kind": "word"
+  },
+  {
+   "key": "25y02c8d4p9",
+   "text": "Hij antwoordt nooit op mijn berichten.",
+   "say": "Hij antwoordt nooit op mijn berichten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1d87qr7zxmi",
+   "text": "antwoordt",
+   "say": "antwoordt",
+   "kind": "word"
+  },
+  {
+   "key": "1x2bm8k7jx6",
+   "text": "berichten",
+   "say": "berichten",
+   "kind": "word"
+  },
+  {
+   "key": "1v3cn4v9rc2",
+   "text": "Ik zal morgen zeker op uw vraag antwoorden.",
+   "say": "Ik zal morgen zeker op uw vraag antwoorden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1a13aup28eg",
+   "text": "uw",
+   "say": "uw",
+   "kind": "word"
+  },
+  {
+   "key": "0uapju7knbj",
+   "text": "voorstellen",
+   "say": "voorstellen",
+   "kind": "sentence"
+  },
+  {
+   "key": "14vhrwbfede",
+   "text": "Mijn zus heeft mij aan haar vriend voorgesteld.",
+   "say": "Mijn zus heeft mij aan haar vriend voorgesteld.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ihvol60rfw",
+   "text": "voorgesteld",
+   "say": "voorgesteld",
+   "kind": "word"
+  },
+  {
+   "key": "1trx3zzaabm",
+   "text": "Mag ik mezelf even voorstellen?",
+   "say": "Mag ik mezelf even voorstellen?",
+   "kind": "sentence"
+  },
+  {
+   "key": "09c6iayr0t6",
+   "text": "mezelf",
+   "say": "mezelf",
+   "kind": "word"
+  },
+  {
+   "key": "0szo0dxw13y",
+   "text": "Ik zal jullie straks aan mijn baas voorstellen.",
+   "say": "Ik zal jullie straks aan mijn baas voorstellen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1o709ymub4u",
+   "text": "We hebben vorig weekend het museum bezocht.",
+   "say": "We hebben vorig weekend het museum bezocht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1kx8c8zx2ki",
+   "text": "museum",
+   "say": "museum",
+   "kind": "word"
+  },
+  {
+   "key": "1jqgqwn2gvu",
+   "text": "bezocht",
+   "say": "bezocht",
+   "kind": "word"
+  },
+  {
+   "key": "1p2ysmtmpkg",
+   "text": "Veel toeristen bezoeken in de zomer onze stad.",
+   "say": "Veel toeristen bezoeken in de zomer onze stad.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2fuxb97srh8",
+   "text": "toeristen",
+   "say": "toeristen",
+   "kind": "word"
+  },
+  {
+   "key": "28ftgujhozi",
+   "text": "Volgende maand ga ik mijn oma bezoeken.",
+   "say": "Volgende maand ga ik mijn oma bezoeken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0gousjvskv5",
+   "text": "oma",
+   "say": "oma",
+   "kind": "word"
+  },
+  {
+   "key": "07zuzmoh6ou",
+   "text": "Ik heb de kinderen om vier uur opgehaald.",
+   "say": "Ik heb de kinderen om vier uur opgehaald.",
+   "kind": "sentence"
+  },
+  {
+   "key": "11gcthw0j0y",
+   "text": "Ik haal je zo op.",
+   "say": "Ik haal je zo op.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0n6eh6igo48",
+   "text": "haal",
+   "say": "haal",
+   "kind": "word"
+  },
+  {
+   "key": "0s5157cv499",
+   "text": "Mijn man gaat de pakjes morgen ophalen.",
+   "say": "Mijn man gaat de pakjes morgen ophalen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1pb36i05w29",
+   "text": "pakjes",
+   "say": "pakjes",
+   "kind": "word"
+  },
+  {
+   "key": "186qjjcsbck",
+   "text": "kiezen",
+   "say": "kiezen",
+   "kind": "sentence"
+  },
+  {
+   "key": "0dp66igimut",
+   "text": "Ik heb gisteren een mooie jurk gekozen.",
+   "say": "Ik heb gisteren een mooie jurk gekozen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0aizw20vq9r",
+   "text": "mooie",
+   "say": "mooie",
+   "kind": "word"
+  },
+  {
+   "key": "2caoa4vl1bg",
+   "text": "jurk",
+   "say": "jurk",
+   "kind": "word"
+  },
+  {
+   "key": "1bsudzlmlx9",
+   "text": "gekozen",
+   "say": "gekozen",
+   "kind": "word"
+  },
+  {
+   "key": "04vd3xmi4no",
+   "text": "Wat kies jij: thee of koffie?",
+   "say": "Wat kies jij: thee of koffie?",
+   "kind": "sentence"
+  },
+  {
+   "key": "1b9ufkjh66g",
+   "text": "kies",
+   "say": "kies",
+   "kind": "word"
+  },
+  {
+   "key": "17k8q05kcpx",
+   "text": "thee",
+   "say": "thee",
+   "kind": "word"
+  },
+  {
+   "key": "1gfbu92otec",
+   "text": "Volgende week gaan we samen een nieuwe bank kiezen.",
+   "say": "Volgende week gaan we samen een nieuwe bank kiezen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0wcrv64yjbe",
+   "text": "beslissen",
+   "say": "beslissen",
+   "kind": "sentence"
+  },
+  {
+   "key": "23w8ohijb46",
+   "text": "We hebben snel beslist om te verhuizen.",
+   "say": "We hebben snel beslist om te verhuizen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1l1ttf2dqs3",
+   "text": "Mijn baas beslist over mijn rooster.",
+   "say": "Mijn baas beslist over mijn rooster.",
+   "kind": "sentence"
+  },
+  {
+   "key": "261oiegcc7y",
+   "text": "Morgen gaan we beslissen wie het werk doet.",
+   "say": "Morgen gaan we beslissen wie het werk doet.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0bw3szfr53o",
+   "text": "Ik heb het gisteren nog eens geprobeerd.",
+   "say": "Ik heb het gisteren nog eens geprobeerd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ft6t0tr5qj",
+   "text": "geprobeerd",
+   "say": "geprobeerd",
+   "kind": "word"
+  },
+  {
+   "key": "062sb1w1kng",
+   "text": "Ik probeer elke dag een uur te wandelen.",
+   "say": "Ik probeer elke dag een uur te wandelen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ogpl7el2mk",
+   "text": "probeer",
+   "say": "probeer",
+   "kind": "word"
+  },
+  {
+   "key": "1mrdozs2dxr",
+   "text": "wandelen",
+   "say": "wandelen",
+   "kind": "word"
+  },
+  {
+   "key": "0vug5vyhavj",
+   "text": "Ik ga het straks nog een keer proberen.",
+   "say": "Ik ga het straks nog een keer proberen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2eywpbdlnx1",
+   "text": "Ik heb vorige week mijn paspoort aangevraagd.",
+   "say": "Ik heb vorige week mijn paspoort aangevraagd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2e0jy1nve5o",
+   "text": "paspoort",
+   "say": "paspoort",
+   "kind": "word"
+  },
+  {
+   "key": "093eue7h0lt",
+   "text": "aangevraagd",
+   "say": "aangevraagd",
+   "kind": "word"
+  },
+  {
+   "key": "0c6qenrboia",
+   "text": "Je kunt een nieuwe kaart online aanvragen.",
+   "say": "Je kunt een nieuwe kaart online aanvragen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1mub4hlidjk",
+   "text": "kaart",
+   "say": "kaart",
+   "kind": "word"
+  },
+  {
+   "key": "10i85n1wh6r",
+   "text": "Morgen ga ik mijn rijbewijs aanvragen.",
+   "say": "Morgen ga ik mijn rijbewijs aanvragen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "01p3e49xoyb",
+   "text": "rijbewijs",
+   "say": "rijbewijs",
+   "kind": "word"
+  },
+  {
+   "key": "0qsz2ebn4aw",
+   "text": "invullen",
+   "say": "invullen",
+   "kind": "sentence"
+  },
+  {
+   "key": "0uiklegk2ts",
+   "text": "Ik heb het formulier gisteren ingevuld.",
+   "say": "Ik heb het formulier gisteren ingevuld.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2ektsyq5gyq",
+   "text": "formulier",
+   "say": "formulier",
+   "kind": "word"
+  },
+  {
+   "key": "14jk59432ij",
+   "text": "ingevuld",
+   "say": "ingevuld",
+   "kind": "word"
+  },
+  {
+   "key": "21kj10nynx7",
+   "text": "Ik vul het formulier nu in.",
+   "say": "Ik vul het formulier nu in.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0zycvugnxqm",
+   "text": "vul",
+   "say": "vul",
+   "kind": "word"
+  },
+  {
+   "key": "143lzo0frlr",
+   "text": "Straks ga ik alle gegevens invullen.",
+   "say": "Straks ga ik alle gegevens invullen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "20m63qg8i03",
+   "text": "gegevens",
+   "say": "gegevens",
+   "kind": "word"
+  },
+  {
+   "key": "05s87q7fuf8",
+   "text": "Ik heb mijn abonnement vorige maand verlengd.",
+   "say": "Ik heb mijn abonnement vorige maand verlengd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1983jvupoh3",
+   "text": "abonnement",
+   "say": "abonnement",
+   "kind": "word"
+  },
+  {
+   "key": "0n3rtu4ai3g",
+   "text": "verlengd",
+   "say": "verlengd",
+   "kind": "word"
+  },
+  {
+   "key": "0m6vqlvkkif",
+   "text": "De gemeente verlengt mijn identiteitskaart niet automatisch.",
+   "say": "De gemeente verlengt mijn identiteitskaart niet automatisch.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ovmsdt4p8q",
+   "text": "verlengt",
+   "say": "verlengt",
+   "kind": "word"
+  },
+  {
+   "key": "094lox4e8vf",
+   "text": "identiteitskaart",
+   "say": "identiteitskaart",
+   "kind": "word"
+  },
+  {
+   "key": "0ehpejq42sc",
+   "text": "automatisch",
+   "say": "automatisch",
+   "kind": "word"
+  },
+  {
+   "key": "0i5znhug1bz",
+   "text": "Ik ga mijn rijbewijs volgend jaar laten verlengen.",
+   "say": "Ik ga mijn rijbewijs volgend jaar laten verlengen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "29dvo42trh6",
+   "text": "inschrijven",
+   "say": "inschrijven",
+   "kind": "sentence"
+  },
+  {
+   "key": "19o4hm8nfs7",
+   "text": "Ik heb mij vorige week ingeschreven voor de cursus.",
+   "say": "Ik heb mij vorige week ingeschreven voor de cursus.",
+   "kind": "sentence"
+  },
+  {
+   "key": "11lvqfqrmk9",
+   "text": "ingeschreven",
+   "say": "ingeschreven",
+   "kind": "word"
+  },
+  {
+   "key": "0ddy5rjcux9",
+   "text": "cursus",
+   "say": "cursus",
+   "kind": "word"
+  },
+  {
+   "key": "0634xptblke",
+   "text": "Je schrijft je hier online in.",
+   "say": "Je schrijft je hier online in.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1bdwqz3w2ly",
+   "text": "schrijft",
+   "say": "schrijft",
+   "kind": "word"
+  },
+  {
+   "key": "1a7898o235j",
+   "text": "Morgen ga ik mij inschrijven bij de gemeente.",
+   "say": "Morgen ga ik mij inschrijven bij de gemeente.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1mrkt3r17p3",
+   "text": "controleren",
+   "say": "controleren",
+   "kind": "sentence"
+  },
+  {
+   "key": "1bnkk0tgx5p",
+   "text": "De agent heeft mijn rijbewijs gecontroleerd.",
+   "say": "De agent heeft mijn rijbewijs gecontroleerd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "07htaodzf0h",
+   "text": "agent",
+   "say": "agent",
+   "kind": "word"
+  },
+  {
+   "key": "0zy7wv90ugh",
+   "text": "gecontroleerd",
+   "say": "gecontroleerd",
+   "kind": "word"
+  },
+  {
+   "key": "16jbo88ffjj",
+   "text": "Ik controleer altijd twee keer mijn tas.",
+   "say": "Ik controleer altijd twee keer mijn tas.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0g1tp8tid5p",
+   "text": "controleer",
+   "say": "controleer",
+   "kind": "word"
+  },
+  {
+   "key": "0ka2pzihbys",
+   "text": "tas",
+   "say": "tas",
+   "kind": "word"
+  },
+  {
+   "key": "1y84ju3xerp",
+   "text": "Morgen zal de dokter je bloeddruk controleren.",
+   "say": "Morgen zal de dokter je bloeddruk controleren.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1xfism931cn",
+   "text": "bloeddruk",
+   "say": "bloeddruk",
+   "kind": "word"
+  },
+  {
+   "key": "1l9uwwzxxbl",
+   "text": "huren",
+   "say": "huren",
+   "kind": "sentence"
+  },
+  {
+   "key": "0xkz23tkbov",
+   "text": "We hebben vorige zomer een huisje in Frankrijk gehuurd.",
+   "say": "We hebben vorige zomer een huisje in Frankrijk gehuurd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1xuuwfreu6b",
+   "text": "huisje",
+   "say": "huisje",
+   "kind": "word"
+  },
+  {
+   "key": "01b0crl53we",
+   "text": "Frankrijk",
+   "say": "Frankrijk",
+   "kind": "word"
+  },
+  {
+   "key": "0boobh8cvc5",
+   "text": "gehuurd",
+   "say": "gehuurd",
+   "kind": "word"
+  },
+  {
+   "key": "18a83r6g6oz",
+   "text": "Ik huur een klein appartement in het centrum.",
+   "say": "Ik huur een klein appartement in het centrum.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ibdnqxfep2",
+   "text": "klein",
+   "say": "klein",
+   "kind": "word"
+  },
+  {
+   "key": "2f55ni4yzmc",
+   "text": "appartement",
+   "say": "appartement",
+   "kind": "word"
+  },
+  {
+   "key": "0l6hmq388dm",
+   "text": "Volgend jaar gaan wij een grotere woning huren.",
+   "say": "Volgend jaar gaan wij een grotere woning huren.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0rht8m0gxec",
+   "text": "grotere",
+   "say": "grotere",
+   "kind": "word"
+  },
+  {
+   "key": "0mdy92rimwn",
+   "text": "storen",
+   "say": "storen",
+   "kind": "sentence"
+  },
+  {
+   "key": "0uxrr4f2lyh",
+   "text": "Sorry, heb ik je gestoord tijdens je werk?",
+   "say": "Sorry, heb ik je gestoord tijdens je werk?",
+   "kind": "sentence"
+  },
+  {
+   "key": "013wfz4dljo",
+   "text": "gestoord",
+   "say": "gestoord",
+   "kind": "word"
+  },
+  {
+   "key": "0k5u3tsp34l",
+   "text": "tijdens",
+   "say": "tijdens",
+   "kind": "word"
+  },
+  {
+   "key": "22coj8zoapl",
+   "text": "Het lawaai van de straat stoort me enorm.",
+   "say": "Het lawaai van de straat stoort me enorm.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ve22bsskqd",
+   "text": "lawaai",
+   "say": "lawaai",
+   "kind": "word"
+  },
+  {
+   "key": "0s0nw4szfhz",
+   "text": "stoort",
+   "say": "stoort",
+   "kind": "word"
+  },
+  {
+   "key": "24jb1pivj34",
+   "text": "enorm",
+   "say": "enorm",
+   "kind": "word"
+  },
+  {
+   "key": "233jwqzh7dr",
+   "text": "Ik hoop dat de muziek je niet zal storen.",
+   "say": "Ik hoop dat de muziek je niet zal storen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0wgnzplfyyn",
+   "text": "muziek",
+   "say": "muziek",
+   "kind": "word"
+  },
+  {
+   "key": "1cp51b1706x",
+   "text": "klagen",
+   "say": "klagen",
+   "kind": "sentence"
+  },
+  {
+   "key": "2edcswcmok8",
+   "text": "Hij heeft de hele dag over het weer geklaagd.",
+   "say": "Hij heeft de hele dag over het weer geklaagd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "219gsskbp5e",
+   "text": "geklaagd",
+   "say": "geklaagd",
+   "kind": "word"
+  },
+  {
+   "key": "164912wpepo",
+   "text": "Mijn buurman klaagt altijd over het lawaai.",
+   "say": "Mijn buurman klaagt altijd over het lawaai.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2b7jc0ix3pk",
+   "text": "klaagt",
+   "say": "klaagt",
+   "kind": "word"
+  },
+  {
+   "key": "0zrszq9lnbx",
+   "text": "Ik ga bij de gemeente over het lawaai klagen.",
+   "say": "Ik ga bij de gemeente over het lawaai klagen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "16i1wak0dfm",
+   "text": "slapen",
+   "say": "slapen",
+   "kind": "sentence"
+  },
+  {
+   "key": "2fkud3l2qf9",
+   "text": "Ik heb vannacht heel slecht geslapen.",
+   "say": "Ik heb vannacht heel slecht geslapen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0x9k2konfrg",
+   "text": "Mijn kinderen slapen altijd tot negen uur.",
+   "say": "Mijn kinderen slapen altijd tot negen uur.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1g1g9gfy7va",
+   "text": "Vanavond ga ik vroeg slapen.",
+   "say": "Vanavond ga ik vroeg slapen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1zi66azan2r",
+   "text": "Ik heb gisteren een lange mail aan mijn baas geschreven.",
+   "say": "Ik heb gisteren een lange mail aan mijn baas geschreven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2effjnw3254",
+   "text": "geschreven",
+   "say": "geschreven",
+   "kind": "word"
+  },
+  {
+   "key": "1q9tkaoigcd",
+   "text": "Hij schrijft elke dag in zijn dagboek.",
+   "say": "Hij schrijft elke dag in zijn dagboek.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0hlhqii86i2",
+   "text": "dagboek",
+   "say": "dagboek",
+   "kind": "word"
+  },
+  {
+   "key": "0s0u1imnsva",
+   "text": "Ik ga volgende week een brief naar de gemeente schrijven.",
+   "say": "Ik ga volgende week een brief naar de gemeente schrijven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "01ikm7nfljk",
+   "text": "brief",
+   "say": "brief",
+   "kind": "word"
+  },
+  {
+   "key": "16fz621uzrv",
+   "text": "We hebben zondag twee uur in het bos gewandeld.",
+   "say": "We hebben zondag twee uur in het bos gewandeld.",
+   "kind": "sentence"
+  },
+  {
+   "key": "23xrnsitb52",
+   "text": "bos",
+   "say": "bos",
+   "kind": "word"
+  },
+  {
+   "key": "269ed61r3re",
+   "text": "gewandeld",
+   "say": "gewandeld",
+   "kind": "word"
+  },
+  {
+   "key": "2a6ffk8o3y4",
+   "text": "Mijn opa wandelt elke ochtend langs de rivier.",
+   "say": "Mijn opa wandelt elke ochtend langs de rivier.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1oajkumdo9h",
+   "text": "opa",
+   "say": "opa",
+   "kind": "word"
+  },
+  {
+   "key": "1yn14kjc40a",
+   "text": "wandelt",
+   "say": "wandelt",
+   "kind": "word"
+  },
+  {
+   "key": "0ujzcrvsvfq",
+   "text": "rivier",
+   "say": "rivier",
+   "kind": "word"
+  },
+  {
+   "key": "1jae9dicbhx",
+   "text": "Dit weekend gaan we in de Hoge Kempen wandelen.",
+   "say": "Dit weekend gaan we in de Hoge Kempen wandelen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "144uepefs42",
+   "text": "Hoge",
+   "say": "Hoge",
+   "kind": "word"
+  },
+  {
+   "key": "1bhieccppxm",
+   "text": "Kempen",
+   "say": "Kempen",
+   "kind": "word"
+  },
+  {
+   "key": "26nrbgpscs9",
+   "text": "handig",
+   "say": "handig",
+   "kind": "sentence"
+  },
+  {
+   "key": "1513ye3x8r8",
+   "text": "Mijn collega is altijd handig geweest met computers.",
+   "say": "Mijn collega is altijd handig geweest met computers.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2f1tb7rcm8s",
+   "text": "computers",
+   "say": "computers",
+   "kind": "word"
+  },
+  {
+   "key": "0ubpdbkgftp",
+   "text": "Een fiets is in de stad vaak handiger dan een auto.",
+   "say": "Een fiets is in de stad vaak handiger dan een auto.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1hjiuprsu4d",
+   "text": "handiger",
+   "say": "handiger",
+   "kind": "word"
+  },
+  {
+   "key": "10ze5qt3jmq",
+   "text": "Deze nieuwe app gaat het leven een stuk handiger maken.",
+   "say": "Deze nieuwe app gaat het leven een stuk handiger maken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ric2qdfi5b",
+   "text": "app",
+   "say": "app",
+   "kind": "word"
+  },
+  {
+   "key": "18sckphgjgx",
+   "text": "leven",
+   "say": "leven",
+   "kind": "word"
+  },
+  {
+   "key": "0o9kpnl5lsz",
+   "text": "stuk",
+   "say": "stuk",
+   "kind": "word"
+  },
+  {
+   "key": "0p3omw8och9",
+   "text": "Het is niet nodig geweest om te bellen.",
+   "say": "Het is niet nodig geweest om te bellen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1rbv60a5ddz",
+   "text": "Heb je nog iets nodig uit de winkel?",
+   "say": "Heb je nog iets nodig uit de winkel?",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ro80qrua5l",
+   "text": "Voor dit werk zal je veel geduld nodig hebben.",
+   "say": "Voor dit werk zal je veel geduld nodig hebben.",
+   "kind": "sentence"
+  },
+  {
+   "key": "04hqy8tewmg",
+   "text": "geduld",
+   "say": "geduld",
+   "kind": "word"
+  },
+  {
+   "key": "0iv999tndz7",
+   "text": "makkelijk",
+   "say": "makkelijk",
+   "kind": "sentence"
+  },
+  {
+   "key": "2efozhjest2",
+   "text": "Het examen is makkelijker geweest dan ik dacht.",
+   "say": "Het examen is makkelijker geweest dan ik dacht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "13p11blc3lg",
+   "text": "examen",
+   "say": "examen",
+   "kind": "word"
+  },
+  {
+   "key": "134qre1bb65",
+   "text": "makkelijker",
+   "say": "makkelijker",
+   "kind": "word"
+  },
+  {
+   "key": "24i2ko2i5i6",
+   "text": "Fietsen is in Hasselt heel makkelijk.",
+   "say": "Fietsen is in Hasselt heel makkelijk.",
+   "kind": "sentence"
+  },
+  {
+   "key": "04cfrwoz7ns",
+   "text": "Fietsen",
+   "say": "Fietsen",
+   "kind": "word"
+  },
+  {
+   "key": "144y3ifzk1g",
+   "text": "Met oefening zal het steeds makkelijker worden.",
+   "say": "Met oefening zal het steeds makkelijker worden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "08lqzm8iduk",
+   "text": "De uitspraak is voor mij altijd moeilijk geweest.",
+   "say": "De uitspraak is voor mij altijd moeilijk geweest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1i9b1dlg0ut",
+   "text": "uitspraak",
+   "say": "uitspraak",
+   "kind": "word"
+  },
+  {
+   "key": "1cfcu5bpm9n",
+   "text": "Deze oefening is voor mij echt moeilijk.",
+   "say": "Deze oefening is voor mij echt moeilijk.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2cpq0r0tjd0",
+   "text": "Het gaat moeilijk worden om een parkeerplaats te vinden.",
+   "say": "Het gaat moeilijk worden om een parkeerplaats te vinden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "03qsyv2uo6r",
+   "text": "parkeerplaats",
+   "say": "parkeerplaats",
+   "kind": "word"
+  },
+  {
+   "key": "0eqkgzsmmfb",
+   "text": "gevaarlijk",
+   "say": "gevaarlijk",
+   "kind": "sentence"
+  },
+  {
+   "key": "25zzd9morua",
+   "text": "Het is gisteren op de weg heel gevaarlijk geweest.",
+   "say": "Het is gisteren op de weg heel gevaarlijk geweest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "06jy2hedu26",
+   "text": "Het is gevaarlijk om zonder licht te fietsen.",
+   "say": "Het is gevaarlijk om zonder licht te fietsen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0nwatxnizkx",
+   "text": "licht",
+   "say": "licht",
+   "kind": "word"
+  },
+  {
+   "key": "07cp2ngos1k",
+   "text": "fietsen",
+   "say": "fietsen",
+   "kind": "word"
+  },
+  {
+   "key": "1yczypw1oko",
+   "text": "Bij dit weer zal het gevaarlijk worden op de weg.",
+   "say": "Bij dit weer zal het gevaarlijk worden op de weg.",
+   "kind": "sentence"
+  },
+  {
+   "key": "253c5ye4cnh",
+   "text": "Bij",
+   "say": "Bij",
+   "kind": "word"
+  },
+  {
+   "key": "0osos8a3yo5",
+   "text": "De kamer was altijd schoon toen we aankwamen.",
+   "say": "De kamer was altijd schoon toen we aankwamen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "09k6g2cz05h",
+   "text": "aankwamen",
+   "say": "aankwamen",
+   "kind": "word"
+  },
+  {
+   "key": "1ew8l1i7esz",
+   "text": "Het water in de rivier is schoon.",
+   "say": "Het water in de rivier is schoon.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2a81dpvgz8m",
+   "text": "water",
+   "say": "water",
+   "kind": "word"
+  },
+  {
+   "key": "0qc80llhmkx",
+   "text": "Na het poetsen zal alles weer schoon zijn.",
+   "say": "Na het poetsen zal alles weer schoon zijn.",
+   "kind": "sentence"
+  },
+  {
+   "key": "11zwixdh6gg",
+   "text": "poetsen",
+   "say": "poetsen",
+   "kind": "word"
+  },
+  {
+   "key": "02qbuq0ynw6",
+   "text": "vuil",
+   "say": "vuil",
+   "kind": "sentence"
+  },
+  {
+   "key": "05m0fqqeqqb",
+   "text": "Mijn handen zijn heel vuil geworden.",
+   "say": "Mijn handen zijn heel vuil geworden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "27k1e7kr3zc",
+   "text": "handen",
+   "say": "handen",
+   "kind": "word"
+  },
+  {
+   "key": "1ga7u051xkn",
+   "text": "Je schoenen zijn erg vuil.",
+   "say": "Je schoenen zijn erg vuil.",
+   "kind": "sentence"
+  },
+  {
+   "key": "27zufxyhsw2",
+   "text": "Als je buiten speelt, ga je vuil worden.",
+   "say": "Als je buiten speelt, ga je vuil worden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "11f7hyztw9h",
+   "text": "speelt",
+   "say": "speelt",
+   "kind": "word"
+  },
+  {
+   "key": "1bz4fiqzvrv",
+   "text": "blij",
+   "say": "blij",
+   "kind": "sentence"
+  },
+  {
+   "key": "08kx0id4w6l",
+   "text": "Ik ben heel blij geweest met je cadeau.",
+   "say": "Ik ben heel blij geweest met je cadeau.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1v8b4uiiw5x",
+   "text": "cadeau",
+   "say": "cadeau",
+   "kind": "word"
+  },
+  {
+   "key": "0ia732vs0jl",
+   "text": "Ik ben echt blij dat je er bent.",
+   "say": "Ik ben echt blij dat je er bent.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0bx14hijbs4",
+   "text": "bent",
+   "say": "bent",
+   "kind": "word"
+  },
+  {
+   "key": "23rhbx88scs",
+   "text": "Je moeder zal zo blij zijn met die bloemen.",
+   "say": "Je moeder zal zo blij zijn met die bloemen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2a23o29v59l",
+   "text": "moeder",
+   "say": "moeder",
+   "kind": "word"
+  },
+  {
+   "key": "1hhvw1dvza5",
+   "text": "verdrietig",
+   "say": "verdrietig",
+   "kind": "sentence"
+  },
+  {
+   "key": "1my4iov6tct",
+   "text": "Ik ben gisteren heel verdrietig geweest.",
+   "say": "Ik ben gisteren heel verdrietig geweest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0bozii4526g",
+   "text": "Ze is nog steeds verdrietig over het nieuws.",
+   "say": "Ze is nog steeds verdrietig over het nieuws.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0w19qhujl7y",
+   "text": "nieuws",
+   "say": "nieuws",
+   "kind": "word"
+  },
+  {
+   "key": "2fmmbt65qp2",
+   "text": "Hij gaat verdrietig zijn als hij dit hoort.",
+   "say": "Hij gaat verdrietig zijn als hij dit hoort.",
+   "kind": "sentence"
+  },
+  {
+   "key": "25miygc45lk",
+   "text": "Ik ben als kind altijd bang geweest voor honden.",
+   "say": "Ik ben als kind altijd bang geweest voor honden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1jak3c2sl7t",
+   "text": "kind",
+   "say": "kind",
+   "kind": "word"
+  },
+  {
+   "key": "22fcoeu7s2n",
+   "text": "honden",
+   "say": "honden",
+   "kind": "word"
+  },
+  {
+   "key": "29l0405e1fj",
+   "text": "Ik ben bang dat ik te laat kom.",
+   "say": "Ik ben bang dat ik te laat kom.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0g27h0ku3oy",
+   "text": "Je hoeft niet bang te zijn, het gaat goed komen.",
+   "say": "Je hoeft niet bang te zijn, het gaat goed komen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2fyqiif37rb",
+   "text": "hoeft",
+   "say": "hoeft",
+   "kind": "word"
+  },
+  {
+   "key": "15sl9apxj0n",
+   "text": "boos",
+   "say": "boos",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ftq0ldo9px",
+   "text": "Mijn baas is gisteren heel boos geworden.",
+   "say": "Mijn baas is gisteren heel boos geworden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "163vyk8a59r",
+   "text": "Waarom ben je zo boos op mij?",
+   "say": "Waarom ben je zo boos op mij?",
+   "kind": "sentence"
+  },
+  {
+   "key": "0p5ssh9z3yq",
+   "text": "Hij zal zeker boos zijn als hij het hoort.",
+   "say": "Hij zal zeker boos zijn als hij het hoort.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1rgltqhunr2",
+   "text": "zenuwachtig",
+   "say": "zenuwachtig",
+   "kind": "sentence"
+  },
+  {
+   "key": "2etuq89cqdt",
+   "text": "Ik ben voor het examen erg zenuwachtig geweest.",
+   "say": "Ik ben voor het examen erg zenuwachtig geweest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "25r9dl4lk7a",
+   "text": "Ik word zenuwachtig van al dat lawaai.",
+   "say": "Ik word zenuwachtig van al dat lawaai.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1a7kbldsccu",
+   "text": "word",
+   "say": "word",
+   "kind": "word"
+  },
+  {
+   "key": "0dl81l1nr3v",
+   "text": "Morgen ga ik waarschijnlijk heel zenuwachtig zijn.",
+   "say": "Morgen ga ik waarschijnlijk heel zenuwachtig zijn.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0g41gy00b6w",
+   "text": "trots",
+   "say": "trots",
+   "kind": "sentence"
+  },
+  {
+   "key": "01ttsyas8ze",
+   "text": "Mijn ouders zijn altijd trots op mij geweest.",
+   "say": "Mijn ouders zijn altijd trots op mij geweest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2c3m5u2kayp",
+   "text": "ouders",
+   "say": "ouders",
+   "kind": "word"
+  },
+  {
+   "key": "0b4qpveyk03",
+   "text": "Ik ben trots op mijn zoon.",
+   "say": "Ik ben trots op mijn zoon.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0t4f10jute4",
+   "text": "zoon",
+   "say": "zoon",
+   "kind": "word"
+  },
+  {
+   "key": "1eri5ssxrxx",
+   "text": "Je ouders zullen heel trots op je zijn.",
+   "say": "Je ouders zullen heel trots op je zijn.",
+   "kind": "sentence"
+  },
+  {
+   "key": "19vxsot95nc",
+   "text": "teleurgesteld",
+   "say": "teleurgesteld",
+   "kind": "sentence"
+  },
+  {
+   "key": "12hmwrv7i2q",
+   "text": "Ik was echt teleurgesteld over het resultaat.",
+   "say": "Ik was echt teleurgesteld over het resultaat.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0dmidncw2uv",
+   "text": "resultaat",
+   "say": "resultaat",
+   "kind": "word"
+  },
+  {
+   "key": "283pljr7nvp",
+   "text": "We zijn allemaal een beetje teleurgesteld.",
+   "say": "We zijn allemaal een beetje teleurgesteld.",
+   "kind": "sentence"
+  },
+  {
+   "key": "234n30wayqf",
+   "text": "Ze gaat teleurgesteld zijn als we niet komen.",
+   "say": "Ze gaat teleurgesteld zijn als we niet komen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0kir26bxt87",
+   "text": "opgelucht",
+   "say": "opgelucht",
+   "kind": "sentence"
+  },
+  {
+   "key": "1bwwou0dcxh",
+   "text": "We waren erg opgelucht na het goede nieuws.",
+   "say": "We waren erg opgelucht na het goede nieuws.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0aojw54obvr",
+   "text": "waren",
+   "say": "waren",
+   "kind": "word"
+  },
+  {
+   "key": "14ra8syddif",
+   "text": "Ik voel me opgelucht nu het voorbij is.",
+   "say": "Ik voel me opgelucht nu het voorbij is.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0clnsnvsn3e",
+   "text": "voorbij",
+   "say": "voorbij",
+   "kind": "word"
+  },
+  {
+   "key": "0m228wmq0iy",
+   "text": "Je zult opgelucht zijn als het klaar is.",
+   "say": "Je zult opgelucht zijn als het klaar is.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1fo8lvuqt7b",
+   "text": "zult",
+   "say": "zult",
+   "kind": "word"
+  },
+  {
+   "key": "0f40qhp35zx",
+   "text": "de gemeente",
+   "say": "de gemeente",
+   "kind": "sentence"
+  },
+  {
+   "key": "1evr8k2a558",
+   "text": "Ik ben gisteren naar de gemeente gegaan voor mijn nieuwe kaart.",
+   "say": "Ik ben gisteren naar de gemeente gegaan voor mijn nieuwe kaart.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0acrlacwbz4",
+   "text": "De gemeente is op zaterdag gesloten.",
+   "say": "De gemeente is op zaterdag gesloten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "03v774xra3h",
+   "text": "gesloten",
+   "say": "gesloten",
+   "kind": "word"
+  },
+  {
+   "key": "21abket63p8",
+   "text": "De gemeente gaat volgend jaar het plein vernieuwen.",
+   "say": "De gemeente gaat volgend jaar het plein vernieuwen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1y8k18564p8",
+   "text": "plein",
+   "say": "plein",
+   "kind": "word"
+  },
+  {
+   "key": "08b96rguly1",
+   "text": "vernieuwen",
+   "say": "vernieuwen",
+   "kind": "word"
+  },
+  {
+   "key": "1rhcd1irfx7",
+   "text": "het formulier",
+   "say": "het formulier",
+   "kind": "sentence"
+  },
+  {
+   "key": "06h4miotoji",
+   "text": "Ik heb het formulier gisteren per post gestuurd.",
+   "say": "Ik heb het formulier gisteren per post gestuurd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0i5cdq5hgrx",
+   "text": "post",
+   "say": "post",
+   "kind": "word"
+  },
+  {
+   "key": "1m1zjsvsh15",
+   "text": "gestuurd",
+   "say": "gestuurd",
+   "kind": "word"
+  },
+  {
+   "key": "1i9x7tlj5bm",
+   "text": "Op dit formulier moet je je gegevens invullen.",
+   "say": "Op dit formulier moet je je gegevens invullen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "02i8ax20oq4",
+   "text": "Ik zal het formulier morgen opsturen.",
+   "say": "Ik zal het formulier morgen opsturen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0e45mv0yyf1",
+   "text": "opsturen",
+   "say": "opsturen",
+   "kind": "word"
+  },
+  {
+   "key": "2dep63dopga",
+   "text": "de handtekening",
+   "say": "de handtekening",
+   "kind": "sentence"
+  },
+  {
+   "key": "09sbfbzy1ck",
+   "text": "Ik heb mijn handtekening onder het contract gezet.",
+   "say": "Ik heb mijn handtekening onder het contract gezet.",
+   "kind": "sentence"
+  },
+  {
+   "key": "29u7v89c22x",
+   "text": "handtekening",
+   "say": "handtekening",
+   "kind": "word"
+  },
+  {
+   "key": "0v4q21a1v9k",
+   "text": "onder",
+   "say": "onder",
+   "kind": "word"
+  },
+  {
+   "key": "1f2q6vgfkcc",
+   "text": "gezet",
+   "say": "gezet",
+   "kind": "word"
+  },
+  {
+   "key": "08idsmtfngi",
+   "text": "Zonder handtekening is dit papier niet geldig.",
+   "say": "Zonder handtekening is dit papier niet geldig.",
+   "kind": "sentence"
+  },
+  {
+   "key": "11tgeiwc86j",
+   "text": "papier",
+   "say": "papier",
+   "kind": "word"
+  },
+  {
+   "key": "1go14xntfg9",
+   "text": "geldig",
+   "say": "geldig",
+   "kind": "word"
+  },
+  {
+   "key": "0w5q5v9lklg",
+   "text": "Mijn baas zal het contract morgen met zijn handtekening bevestigen.",
+   "say": "Mijn baas zal het contract morgen met zijn handtekening bevestigen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "28rbn0i6i19",
+   "text": "bevestigen",
+   "say": "bevestigen",
+   "kind": "word"
+  },
+  {
+   "key": "27y4b4ptut3",
+   "text": "de belasting",
+   "say": "de belasting",
+   "kind": "sentence"
+  },
+  {
+   "key": "0m5p0cfdqj7",
+   "text": "Ik heb mijn belasting dit jaar online ingevuld.",
+   "say": "Ik heb mijn belasting dit jaar online ingevuld.",
+   "kind": "sentence"
+  },
+  {
+   "key": "06p0wmrwbky",
+   "text": "belasting",
+   "say": "belasting",
+   "kind": "word"
+  },
+  {
+   "key": "0mvv30stjuw",
+   "text": "In België is de belasting op inkomen vrij hoog.",
+   "say": "In België is de belasting op inkomen vrij hoog.",
+   "kind": "sentence"
+  },
+  {
+   "key": "29p0tzho0xe",
+   "text": "inkomen",
+   "say": "inkomen",
+   "kind": "word"
+  },
+  {
+   "key": "0tsa1upvvvs",
+   "text": "vrij",
+   "say": "vrij",
+   "kind": "word"
+  },
+  {
+   "key": "1xc5wcq0n5x",
+   "text": "hoog",
+   "say": "hoog",
+   "kind": "word"
+  },
+  {
+   "key": "084fv2u85sd",
+   "text": "Volgend jaar gaan we minder belasting betalen.",
+   "say": "Volgend jaar gaan we minder belasting betalen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "07g8yi06ede",
+   "text": "het paspoort",
+   "say": "het paspoort",
+   "kind": "sentence"
+  },
+  {
+   "key": "0mp1y8phd8g",
+   "text": "Ik heb mijn paspoort in het hotel laten liggen.",
+   "say": "Ik heb mijn paspoort in het hotel laten liggen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1a2jjwej2wp",
+   "text": "hotel",
+   "say": "hotel",
+   "kind": "word"
+  },
+  {
+   "key": "1mi9715upbh",
+   "text": "Mijn paspoort is nog twee jaar geldig.",
+   "say": "Mijn paspoort is nog twee jaar geldig.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1fy5g6qjdps",
+   "text": "Ik ga volgende maand een nieuw paspoort aanvragen.",
+   "say": "Ik ga volgende maand een nieuw paspoort aanvragen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "01px7c6s3gv",
+   "text": "de identiteitskaart",
+   "say": "de identiteitskaart",
+   "kind": "sentence"
+  },
+  {
+   "key": "1dukqdz1rru",
+   "text": "Ik ben mijn identiteitskaart gisteren kwijtgeraakt.",
+   "say": "Ik ben mijn identiteitskaart gisteren kwijtgeraakt.",
+   "kind": "sentence"
+  },
+  {
+   "key": "12kte3pvcxp",
+   "text": "In België heb je je identiteitskaart vaak nodig.",
+   "say": "In België heb je je identiteitskaart vaak nodig.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2c07ash979k",
+   "text": "Mijn identiteitskaart zal volgende maand verlopen.",
+   "say": "Mijn identiteitskaart zal volgende maand verlopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "29t1y327n29",
+   "text": "verlopen",
+   "say": "verlopen",
+   "kind": "word"
+  },
+  {
+   "key": "08r70ivgksu",
+   "text": "het rijbewijs",
+   "say": "het rijbewijs",
+   "kind": "sentence"
+  },
+  {
+   "key": "0evf7sjo3w8",
+   "text": "Ik heb mijn rijbewijs vorig jaar gehaald.",
+   "say": "Ik heb mijn rijbewijs vorig jaar gehaald.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0rnritfx5dp",
+   "text": "gehaald",
+   "say": "gehaald",
+   "kind": "word"
+  },
+  {
+   "key": "0rrvys16s7b",
+   "text": "Zonder rijbewijs mag je niet met de auto rijden.",
+   "say": "Zonder rijbewijs mag je niet met de auto rijden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0r0t7xmpv6r",
+   "text": "Mijn zoon gaat volgend jaar zijn rijbewijs halen.",
+   "say": "Mijn zoon gaat volgend jaar zijn rijbewijs halen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0byiv9io5j3",
+   "text": "de aanvraag",
+   "say": "de aanvraag",
+   "kind": "sentence"
+  },
+  {
+   "key": "0z611khp4dp",
+   "text": "Mijn aanvraag is vorige week goedgekeurd.",
+   "say": "Mijn aanvraag is vorige week goedgekeurd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0hzhi132rrf",
+   "text": "aanvraag",
+   "say": "aanvraag",
+   "kind": "word"
+  },
+  {
+   "key": "1p1nkwmxit5",
+   "text": "goedgekeurd",
+   "say": "goedgekeurd",
+   "kind": "word"
+  },
+  {
+   "key": "0qnpgsyft3o",
+   "text": "De aanvraag duurt meestal ongeveer twee weken.",
+   "say": "De aanvraag duurt meestal ongeveer twee weken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "07kmfjdyfbn",
+   "text": "ongeveer",
+   "say": "ongeveer",
+   "kind": "word"
+  },
+  {
+   "key": "1lq104xt6qb",
+   "text": "We zullen uw aanvraag zo snel mogelijk behandelen.",
+   "say": "We zullen uw aanvraag zo snel mogelijk behandelen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "04gns04irf3",
+   "text": "mogelijk",
+   "say": "mogelijk",
+   "kind": "word"
+  },
+  {
+   "key": "27zp0ih9tv6",
+   "text": "behandelen",
+   "say": "behandelen",
+   "kind": "word"
+  },
+  {
+   "key": "1i6jp97mrbp",
+   "text": "de brief",
+   "say": "de brief",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ikhyv22325",
+   "text": "Ik heb gisteren een brief van de gemeente gekregen.",
+   "say": "Ik heb gisteren een brief van de gemeente gekregen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "16c3jeuxxam",
+   "text": "Er ligt een brief voor jou op tafel.",
+   "say": "Er ligt een brief voor jou op tafel.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0byzm5znvow",
+   "text": "Ik ga morgen de brief naar het kantoor sturen.",
+   "say": "Ik ga morgen de brief naar het kantoor sturen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1tkg971hw18",
+   "text": "het pakket",
+   "say": "het pakket",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ou5vha1qyk",
+   "text": "De postbode heeft het pakket bij de buren afgegeven.",
+   "say": "De postbode heeft het pakket bij de buren afgegeven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "18p2epzumzs",
+   "text": "postbode",
+   "say": "postbode",
+   "kind": "word"
+  },
+  {
+   "key": "2ddu7yodoxs",
+   "text": "pakket",
+   "say": "pakket",
+   "kind": "word"
+  },
+  {
+   "key": "09mydalddow",
+   "text": "afgegeven",
+   "say": "afgegeven",
+   "kind": "word"
+  },
+  {
+   "key": "2bltft1krei",
+   "text": "Mijn pakket komt vandaag voor vijf uur aan.",
+   "say": "Mijn pakket komt vandaag voor vijf uur aan.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1z7vp6g8bpn",
+   "text": "Het pakket zal morgen bij je thuis worden bezorgd.",
+   "say": "Het pakket zal morgen bij je thuis worden bezorgd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "22k8b17oa4h",
+   "text": "bezorgd",
+   "say": "bezorgd",
+   "kind": "word"
+  },
+  {
+   "key": "0dwvrs9tote",
+   "text": "de postbode",
+   "say": "de postbode",
+   "kind": "sentence"
+  },
+  {
+   "key": "29qj2wlyp3p",
+   "text": "De postbode is vanmorgen te vroeg gekomen.",
+   "say": "De postbode is vanmorgen te vroeg gekomen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0e4v65rgg1q",
+   "text": "De postbode komt elke dag rond tien uur.",
+   "say": "De postbode komt elke dag rond tien uur.",
+   "kind": "sentence"
+  },
+  {
+   "key": "266opttfomx",
+   "text": "rond",
+   "say": "rond",
+   "kind": "word"
+  },
+  {
+   "key": "1dlgy02hezh",
+   "text": "De postbode gaat morgen een pakje brengen.",
+   "say": "De postbode gaat morgen een pakje brengen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1abmjml3nyd",
+   "text": "de maaltijd",
+   "say": "de maaltijd",
+   "kind": "sentence"
+  },
+  {
+   "key": "07uksarqg19",
+   "text": "We hebben samen een heerlijke maaltijd gegeten.",
+   "say": "We hebben samen een heerlijke maaltijd gegeten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "06qxvtp6xpk",
+   "text": "heerlijke",
+   "say": "heerlijke",
+   "kind": "word"
+  },
+  {
+   "key": "1gqecf4uysb",
+   "text": "Een warme maaltijd kost hier ongeveer tien euro.",
+   "say": "Een warme maaltijd kost hier ongeveer tien euro.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1j5x7hiawx9",
+   "text": "warme",
+   "say": "warme",
+   "kind": "word"
+  },
+  {
+   "key": "1mhrjsqbk2p",
+   "text": "Na de film gaan we samen een maaltijd klaarmaken.",
+   "say": "Na de film gaan we samen een maaltijd klaarmaken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0419f18qn6r",
+   "text": "klaarmaken",
+   "say": "klaarmaken",
+   "kind": "word"
+  },
+  {
+   "key": "14wl199a4xn",
+   "text": "het ontbijt",
+   "say": "het ontbijt",
+   "kind": "sentence"
+  },
+  {
+   "key": "1mksf165bgo",
+   "text": "Ik heb vanmorgen geen ontbijt gegeten.",
+   "say": "Ik heb vanmorgen geen ontbijt gegeten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1r4ljdip4cq",
+   "text": "ontbijt",
+   "say": "ontbijt",
+   "kind": "word"
+  },
+  {
+   "key": "1axi1pqp8l5",
+   "text": "Het ontbijt is in het hotel van zeven tot tien.",
+   "say": "Het ontbijt is in het hotel van zeven tot tien.",
+   "kind": "sentence"
+  },
+  {
+   "key": "07w1vask3qa",
+   "text": "Morgen gaan we samen een groot ontbijt maken.",
+   "say": "Morgen gaan we samen een groot ontbijt maken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2cr3pufjttw",
+   "text": "het avondeten",
+   "say": "het avondeten",
+   "kind": "sentence"
+  },
+  {
+   "key": "1vcxy9wgdyh",
+   "text": "We hebben gisteren vroeg het avondeten gegeten.",
+   "say": "We hebben gisteren vroeg het avondeten gegeten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "11liiy3yewh",
+   "text": "avondeten",
+   "say": "avondeten",
+   "kind": "word"
+  },
+  {
+   "key": "29pj3t9esqb",
+   "text": "Het avondeten staat om zes uur op tafel.",
+   "say": "Het avondeten staat om zes uur op tafel.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2dzedslho0q",
+   "text": "Ik ga vanavond het avondeten voor iedereen koken.",
+   "say": "Ik ga vanavond het avondeten voor iedereen koken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2573lcryvp0",
+   "text": "de bakker",
+   "say": "de bakker",
+   "kind": "sentence"
+  },
+  {
+   "key": "0wrylit2sl9",
+   "text": "Ik ben vanmorgen bij de bakker geweest.",
+   "say": "Ik ben vanmorgen bij de bakker geweest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0qv5679qx98",
+   "text": "De bakker op de hoek heeft heerlijk brood.",
+   "say": "De bakker op de hoek heeft heerlijk brood.",
+   "kind": "sentence"
+  },
+  {
+   "key": "22581ow9nj7",
+   "text": "Ik ga straks bij de bakker een brood halen.",
+   "say": "Ik ga straks bij de bakker een brood halen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0bxrxczu53d",
+   "text": "de beenhouwer",
+   "say": "de beenhouwer",
+   "kind": "sentence"
+  },
+  {
+   "key": "1tcyu745pl0",
+   "text": "Ik heb het vlees bij de beenhouwer gekocht.",
+   "say": "Ik heb het vlees bij de beenhouwer gekocht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "11nf658vwfl",
+   "text": "vlees",
+   "say": "vlees",
+   "kind": "word"
+  },
+  {
+   "key": "19cndp1uzem",
+   "text": "beenhouwer",
+   "say": "beenhouwer",
+   "kind": "word"
+  },
+  {
+   "key": "0wqhjjqei51",
+   "text": "Onze beenhouwer verkoopt ook zelfgemaakte worst.",
+   "say": "Onze beenhouwer verkoopt ook zelfgemaakte worst.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0tm5ohlks10",
+   "text": "zelfgemaakte",
+   "say": "zelfgemaakte",
+   "kind": "word"
+  },
+  {
+   "key": "03j8ax6ncvj",
+   "text": "worst",
+   "say": "worst",
+   "kind": "word"
+  },
+  {
+   "key": "2gm8iwbx1jn",
+   "text": "Zaterdag ga ik bij de beenhouwer vlees kopen.",
+   "say": "Zaterdag ga ik bij de beenhouwer vlees kopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2f0db0p74ue",
+   "text": "de groente",
+   "say": "de groente",
+   "kind": "sentence"
+  },
+  {
+   "key": "2gm8arfznza",
+   "text": "Ik heb gisteren veel groente gegeten.",
+   "say": "Ik heb gisteren veel groente gegeten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1gnw4vyrlh3",
+   "text": "groente",
+   "say": "groente",
+   "kind": "word"
+  },
+  {
+   "key": "1hi8jid4jkp",
+   "text": "Groente is goed voor je gezondheid.",
+   "say": "Groente is goed voor je gezondheid.",
+   "kind": "sentence"
+  },
+  {
+   "key": "230fhtmbof8",
+   "text": "Groente",
+   "say": "Groente",
+   "kind": "word"
+  },
+  {
+   "key": "01ha5299gcu",
+   "text": "gezondheid",
+   "say": "gezondheid",
+   "kind": "word"
+  },
+  {
+   "key": "1vr9mp6iu9w",
+   "text": "Dit jaar gaan we zelf groente kweken.",
+   "say": "Dit jaar gaan we zelf groente kweken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2aru125dpc9",
+   "text": "kweken",
+   "say": "kweken",
+   "kind": "word"
+  },
+  {
+   "key": "20ed7jj41ww",
+   "text": "het fruit",
+   "say": "het fruit",
+   "kind": "sentence"
+  },
+  {
+   "key": "1lwypas0vct",
+   "text": "Ik heb vanochtend vers fruit op de markt gekocht.",
+   "say": "Ik heb vanochtend vers fruit op de markt gekocht.",
+   "kind": "sentence"
+  },
+  {
+   "key": "070qfv2utpk",
+   "text": "Fruit is hier in de zomer goedkoop.",
+   "say": "Fruit is hier in de zomer goedkoop.",
+   "kind": "sentence"
+  },
+  {
+   "key": "07kf2wussdz",
+   "text": "Ik ga morgen wat fruit voor de kinderen kopen.",
+   "say": "Ik ga morgen wat fruit voor de kinderen kopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "04ihsqghcc7",
+   "text": "de dorst",
+   "say": "de dorst",
+   "kind": "sentence"
+  },
+  {
+   "key": "184o1ac6buz",
+   "text": "Na de wandeling heb ik enorme dorst gehad.",
+   "say": "Na de wandeling heb ik enorme dorst gehad.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1av1jd0qbl2",
+   "text": "wandeling",
+   "say": "wandeling",
+   "kind": "word"
+  },
+  {
+   "key": "0kjcdt8u77t",
+   "text": "enorme",
+   "say": "enorme",
+   "kind": "word"
+  },
+  {
+   "key": "2exawniw96v",
+   "text": "dorst",
+   "say": "dorst",
+   "kind": "word"
+  },
+  {
+   "key": "12giuveii5n",
+   "text": "Ik heb dorst, heb je water voor mij?",
+   "say": "Ik heb dorst, heb je water voor mij?",
+   "kind": "sentence"
+  },
+  {
+   "key": "0f3eypp6r33",
+   "text": "Na het sporten ga je veel dorst krijgen.",
+   "say": "Na het sporten ga je veel dorst krijgen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "04pw5pgt367",
+   "text": "de afwas",
+   "say": "de afwas",
+   "kind": "sentence"
+  },
+  {
+   "key": "21l9oc9vvps",
+   "text": "Ik heb de afwas gisteren al gedaan.",
+   "say": "Ik heb de afwas gisteren al gedaan.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1o3d7f4mvia",
+   "text": "afwas",
+   "say": "afwas",
+   "kind": "word"
+  },
+  {
+   "key": "1w1vnt5gg2b",
+   "text": "Wie doet vandaag de afwas?",
+   "say": "Wie doet vandaag de afwas?",
+   "kind": "sentence"
+  },
+  {
+   "key": "0wzdcexnrnk",
+   "text": "Na het eten ga ik de afwas doen.",
+   "say": "Na het eten ga ik de afwas doen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2ada9whawof",
+   "text": "de oven",
+   "say": "de oven",
+   "kind": "sentence"
+  },
+  {
+   "key": "0gqlg9b5m91",
+   "text": "Ik heb de oven om vijf uur aangezet.",
+   "say": "Ik heb de oven om vijf uur aangezet.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0nhe00qzcjg",
+   "text": "oven",
+   "say": "oven",
+   "kind": "word"
+  },
+  {
+   "key": "0i9f06jntrs",
+   "text": "aangezet",
+   "say": "aangezet",
+   "kind": "word"
+  },
+  {
+   "key": "0lz6jwqn836",
+   "text": "De oven staat al op tweehonderd graden.",
+   "say": "De oven staat al op tweehonderd graden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0x2m9q5jffk",
+   "text": "tweehonderd",
+   "say": "tweehonderd",
+   "kind": "word"
+  },
+  {
+   "key": "1saxbvxkf8c",
+   "text": "Ik ga de oven straks voorverwarmen.",
+   "say": "Ik ga de oven straks voorverwarmen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0wsqm7nw5h0",
+   "text": "voorverwarmen",
+   "say": "voorverwarmen",
+   "kind": "word"
+  },
+  {
+   "key": "0mz2wokfe33",
+   "text": "het probleem",
+   "say": "het probleem",
+   "kind": "sentence"
+  },
+  {
+   "key": "169t8mv0xka",
+   "text": "We hebben het probleem gisteren eindelijk opgelost.",
+   "say": "We hebben het probleem gisteren eindelijk opgelost.",
+   "kind": "sentence"
+  },
+  {
+   "key": "24ix0m88xua",
+   "text": "opgelost",
+   "say": "opgelost",
+   "kind": "word"
+  },
+  {
+   "key": "1oqka119eaw",
+   "text": "Wat is eigenlijk het probleem?",
+   "say": "Wat is eigenlijk het probleem?",
+   "kind": "sentence"
+  },
+  {
+   "key": "13cb5m5si7j",
+   "text": "Dat probleem gaan we samen oplossen.",
+   "say": "Dat probleem gaan we samen oplossen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0qoypm52whl",
+   "text": "de afstand",
+   "say": "de afstand",
+   "kind": "sentence"
+  },
+  {
+   "key": "00rtx4l2awd",
+   "text": "We hebben een afstand van tien kilometer gelopen.",
+   "say": "We hebben een afstand van tien kilometer gelopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "20ymscp7ay0",
+   "text": "afstand",
+   "say": "afstand",
+   "kind": "word"
+  },
+  {
+   "key": "0equ34xmivn",
+   "text": "kilometer",
+   "say": "kilometer",
+   "kind": "word"
+  },
+  {
+   "key": "13p0y8th551",
+   "text": "gelopen",
+   "say": "gelopen",
+   "kind": "word"
+  },
+  {
+   "key": "141fvn8a5t5",
+   "text": "De afstand tussen onze huizen is klein.",
+   "say": "De afstand tussen onze huizen is klein.",
+   "kind": "sentence"
+  },
+  {
+   "key": "08gv7ltluvo",
+   "text": "huizen",
+   "say": "huizen",
+   "kind": "word"
+  },
+  {
+   "key": "1akalolc49h",
+   "text": "Morgen gaan we de afstand tot het station meten.",
+   "say": "Morgen gaan we de afstand tot het station meten.",
+   "kind": "sentence"
+  },
+  {
+   "key": "15enmdl6s42",
+   "text": "meten",
+   "say": "meten",
+   "kind": "word"
+  },
+  {
+   "key": "1nuad5ivrio",
+   "text": "de buurt",
+   "say": "de buurt",
+   "kind": "sentence"
+  },
+  {
+   "key": "22ynkyz7g2o",
+   "text": "Ik ben in deze buurt opgegroeid.",
+   "say": "Ik ben in deze buurt opgegroeid.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2e7jc95kqsf",
+   "text": "buurt",
+   "say": "buurt",
+   "kind": "word"
+  },
+  {
+   "key": "1n5w9l2ptd7",
+   "text": "opgegroeid",
+   "say": "opgegroeid",
+   "kind": "word"
+  },
+  {
+   "key": "042vf98pfyy",
+   "text": "In onze buurt wonen veel jonge gezinnen.",
+   "say": "In onze buurt wonen veel jonge gezinnen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1xo58x1yuqg",
+   "text": "wonen",
+   "say": "wonen",
+   "kind": "word"
+  },
+  {
+   "key": "2dwo8s7vmg7",
+   "text": "gezinnen",
+   "say": "gezinnen",
+   "kind": "word"
+  },
+  {
+   "key": "00ntr9moiag",
+   "text": "Volgend jaar gaan ze onze buurt vernieuwen.",
+   "say": "Volgend jaar gaan ze onze buurt vernieuwen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1n415y0gdgz",
+   "text": "het verkeer",
+   "say": "het verkeer",
+   "kind": "sentence"
+  },
+  {
+   "key": "0xyfkfn7i1c",
+   "text": "Door het verkeer ben ik te laat gekomen.",
+   "say": "Door het verkeer ben ik te laat gekomen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1sa3p9uk8w8",
+   "text": "verkeer",
+   "say": "verkeer",
+   "kind": "word"
+  },
+  {
+   "key": "0vk445mjsrg",
+   "text": "Het verkeer is in de ochtend altijd druk.",
+   "say": "Het verkeer is in de ochtend altijd druk.",
+   "kind": "sentence"
+  },
+  {
+   "key": "24cnaarff4x",
+   "text": "Door de werken zal het verkeer morgen langzaam rijden.",
+   "say": "Door de werken zal het verkeer morgen langzaam rijden.",
+   "kind": "sentence"
+  },
+  {
+   "key": "13f2f62ff3k",
+   "text": "langzaam",
+   "say": "langzaam",
+   "kind": "word"
+  },
+  {
+   "key": "16m5h3rfaf4",
+   "text": "de winter",
+   "say": "de winter",
+   "kind": "sentence"
+  },
+  {
+   "key": "1qvfrburfla",
+   "text": "Vorige winter is het heel koud geweest.",
+   "say": "Vorige winter is het heel koud geweest.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1eussr1sgwh",
+   "text": "Vorige",
+   "say": "Vorige",
+   "kind": "word"
+  },
+  {
+   "key": "0lt0z20nn6b",
+   "text": "In de winter word ik snel moe.",
+   "say": "In de winter word ik snel moe.",
+   "kind": "sentence"
+  },
+  {
+   "key": "177e0yyhjy9",
+   "text": "Volgende winter ga ik skiën in Oostenrijk.",
+   "say": "Volgende winter ga ik skiën in Oostenrijk.",
+   "kind": "sentence"
+  },
+  {
+   "key": "22cqcngxr44",
+   "text": "skiën",
+   "say": "skiën",
+   "kind": "word"
+  },
+  {
+   "key": "0wphs6917wq",
+   "text": "Oostenrijk",
+   "say": "Oostenrijk",
+   "kind": "word"
+  },
+  {
+   "key": "1m7yr95gnpg",
+   "text": "de kans",
+   "say": "de kans",
+   "kind": "sentence"
+  },
+  {
+   "key": "1ej2781tjaj",
+   "text": "Ik heb deze kans niet laten liggen.",
+   "say": "Ik heb deze kans niet laten liggen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "04rqk8ztimi",
+   "text": "kans",
+   "say": "kans",
+   "kind": "word"
+  },
+  {
+   "key": "1gb0ye6h62o",
+   "text": "Er is een kans op regen morgen.",
+   "say": "Er is een kans op regen morgen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "055jc9l7gor",
+   "text": "regen",
+   "say": "regen",
+   "kind": "word"
+  },
+  {
+   "key": "1ick248qglc",
+   "text": "Je zult nog veel kansen krijgen om te oefenen.",
+   "say": "Je zult nog veel kansen krijgen om te oefenen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0j62dva2efb",
+   "text": "kansen",
+   "say": "kansen",
+   "kind": "word"
+  },
+  {
+   "key": "2cwy4rovmue",
+   "text": "de keuze",
+   "say": "de keuze",
+   "kind": "sentence"
+  },
+  {
+   "key": "206wji85xhq",
+   "text": "Ik heb een moeilijke keuze moeten maken.",
+   "say": "Ik heb een moeilijke keuze moeten maken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1d577glnibt",
+   "text": "moeilijke",
+   "say": "moeilijke",
+   "kind": "word"
+  },
+  {
+   "key": "1mp6in1j40q",
+   "text": "In deze winkel is de keuze enorm.",
+   "say": "In deze winkel is de keuze enorm.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0kjo4o4t0hy",
+   "text": "Volgende week gaan we samen een keuze maken.",
+   "say": "Volgende week gaan we samen een keuze maken.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1eq2fitit80",
+   "text": "de gewoonte",
+   "say": "de gewoonte",
+   "kind": "sentence"
+  },
+  {
+   "key": "206gya2jaeq",
+   "text": "Ik heb die slechte gewoonte eindelijk afgeleerd.",
+   "say": "Ik heb die slechte gewoonte eindelijk afgeleerd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "065x5lsbqgj",
+   "text": "slechte",
+   "say": "slechte",
+   "kind": "word"
+  },
+  {
+   "key": "0nufh9z6onv",
+   "text": "gewoonte",
+   "say": "gewoonte",
+   "kind": "word"
+  },
+  {
+   "key": "1wl6x7g10cv",
+   "text": "afgeleerd",
+   "say": "afgeleerd",
+   "kind": "word"
+  },
+  {
+   "key": "1kbvgh6s5ag",
+   "text": "Het is een goede gewoonte om elke dag te lezen.",
+   "say": "Het is een goede gewoonte om elke dag te lezen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0f3wvb36jl0",
+   "text": "lezen",
+   "say": "lezen",
+   "kind": "word"
+  },
+  {
+   "key": "0k3iu5mdp75",
+   "text": "Vanaf nu ga ik een nieuwe gewoonte aanleren.",
+   "say": "Vanaf nu ga ik een nieuwe gewoonte aanleren.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1is5fn3gzko",
+   "text": "aanleren",
+   "say": "aanleren",
+   "kind": "word"
+  },
+  {
+   "key": "1p1k8z7prjf",
+   "text": "het cadeau",
+   "say": "het cadeau",
+   "kind": "sentence"
+  },
+  {
+   "key": "1kw9s3304p4",
+   "text": "Ik heb mijn zus een mooi cadeau gegeven.",
+   "say": "Ik heb mijn zus een mooi cadeau gegeven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0l8qkz6utus",
+   "text": "Dit cadeau is voor jouw verjaardag.",
+   "say": "Dit cadeau is voor jouw verjaardag.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2gh7sx3sz5e",
+   "text": "jouw",
+   "say": "jouw",
+   "kind": "word"
+  },
+  {
+   "key": "2bn2pubeuld",
+   "text": "Ik ga morgen een cadeau voor haar kopen.",
+   "say": "Ik ga morgen een cadeau voor haar kopen.",
+   "kind": "sentence"
+  },
+  {
+   "key": "25jbkny6mpa",
+   "text": "het feest",
+   "say": "het feest",
+   "kind": "sentence"
+  },
+  {
+   "key": "07u54uf7m0r",
+   "text": "We hebben tot laat op het feest gedanst.",
+   "say": "We hebben tot laat op het feest gedanst.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1zd533mezj2",
+   "text": "gedanst",
+   "say": "gedanst",
+   "kind": "word"
+  },
+  {
+   "key": "08nsh9okvp0",
+   "text": "Het feest begint om acht uur.",
+   "say": "Het feest begint om acht uur.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ywq95pctb7",
+   "text": "Volgende zaterdag gaan we een groot feest geven.",
+   "say": "Volgende zaterdag gaan we een groot feest geven.",
+   "kind": "sentence"
+  },
+  {
+   "key": "0lq4hag2hg0",
+   "text": "de verjaardag",
+   "say": "de verjaardag",
+   "kind": "sentence"
+  },
+  {
+   "key": "0ko4r3jppug",
+   "text": "We hebben mijn verjaardag thuis gevierd.",
+   "say": "We hebben mijn verjaardag thuis gevierd.",
+   "kind": "sentence"
+  },
+  {
+   "key": "1rips331sxd",
+   "text": "gevierd",
+   "say": "gevierd",
+   "kind": "word"
+  },
+  {
+   "key": "0ojwmg1d1az",
+   "text": "Mijn verjaardag is in de maand mei.",
+   "say": "Mijn verjaardag is in de maand mei.",
+   "kind": "sentence"
+  },
+  {
+   "key": "10mbgq01oeu",
+   "text": "mei",
+   "say": "mei",
+   "kind": "word"
+  },
+  {
+   "key": "2a8oua3j4g3",
+   "text": "Volgend jaar gaan wij samen mijn verjaardag vieren.",
+   "say": "Volgend jaar gaan wij samen mijn verjaardag vieren.",
+   "kind": "sentence"
+  },
+  {
+   "key": "2g99padv42m",
+   "text": "vieren",
+   "say": "vieren",
+   "kind": "word"
   }
  ],
  "en": [

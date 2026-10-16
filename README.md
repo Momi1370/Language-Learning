@@ -36,4 +36,8 @@ The **Words** tab teaches everyday English words: pronunciation (IPA, American),
 
 **Tracking.** Every word has a stage worked out from its flashcard: *Learning* (new or under a week of memory), *Familiar* (a week or more), *Learned* (about three weeks or more **and** at least 3 reviews), plus *Claimed* (you ticked “I know it”) and *Confirmed* (a claimed word that passed the daily **Quick check** of 3 words). A word can move back down if you forget it. The Words tab shows the counts and a thin bar, the list can be filtered by stage, and Progress shows the ladder, how many words reached Learned lately, and your tricky words.
 
+## Woorden (Dutch vocabulary)
+
+The **Woorden** tab is the Dutch twin of Words, for everyday Dutch only (work, shops, health, housing, travel, forms and feelings, with Belgian words marked). Packs 4 and 5 hold 150 words; each word has the Dutch article, IPA (standard Dutch), an English gloss, Farsi meaning and note, a **Word forms** list (plural, verb forms, comparatives) and exactly one example each in the **past (usually the perfect), present and future** with a Farsi grammar note. It works like Words: 5 new words a day by default (3, 5, 10 or 15 in Settings), tick the new ones, **Teach me** makes a card (shared limit of 10 vocabulary reviews per Cards session with English), stages and the daily Quick check are the same. Recorded voices: Nathalie and Ronnie.
+
 Packs live in `content/vocab/` (CC BY-SA 4.0; word choice from the NGSL-Spoken and New Academic Word lists, IPA from the CMU Pronouncing Dictionary — see `content/vocab/README.md`). `node tools/vocab-ipa.mjs <pack> <cmudict.dict>` fills the IPA; `npm run validate` checks every pack.

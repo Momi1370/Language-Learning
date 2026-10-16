@@ -224,7 +224,12 @@ try {
   const nlPageOk = /de huisarts/.test(nlText) && /Standard Dutch/.test(nlText) && nlTenses === 'Past,Present,Future' && nlGrammar === 3 && nlForms >= 2;
   if (!nlPageOk) failed++;
   console.log(`${nlPageOk ? '✓' : '✗'} a Dutch word shows its IPA, word forms and a past, present and future example with grammar notes (${nlTenses}; ${nlGrammar} notes)`);
+  await b.evaluate(`performance.clearResourceTimings()`);
   await b.click('🔊');
+  await b.evaluate(`new Promise((r) => setTimeout(r, 800))`);
+  const nlClips = await b.evaluate(`performance.getEntriesByType('resource').map((e) => e.name).filter((n) => n.includes('/audio/nl/') && n.includes('.mp3')).length`);
+  if (nlClips < 1) failed++;
+  console.log(`${nlClips >= 1 ? '✓' : '✗'} tapping 🔊 on a Dutch word loads a recorded clip (${nlClips} request)`);
   await b.click('Teach me');
   const nlCards = await b.evaluate(`Object.keys(${vocabState}.cards).filter((id) => /^d-/.test(id)).join()`);
   const nlBatch = await b.evaluate(`${vocabState}.vocab.day.batches['nl-everyday'].join()`);

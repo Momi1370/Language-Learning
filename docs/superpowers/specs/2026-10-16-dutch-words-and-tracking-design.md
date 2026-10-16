@@ -1,7 +1,7 @@
 # Taalmaatje — Dutch Words tab and Learned-Words Tracking Design Spec
 
 - **Date:** 2026-10-16
-- **Status:** Draft, waiting for the learner's approval
+- **Status:** Approved by the learner 2026-10-16; implemented (tracking, Woorden tab, packs 4 and 5, recorded voices)
 - **Builds on:** `2026-10-16-english-vocabulary-design.md` (Words tab, packs, format 2), `2026-10-16-recorded-voices-design.md` (clips)
 
 ## 1. Intent
