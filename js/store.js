@@ -9,7 +9,7 @@ export function defaultState() {
     position: { week: 1, session: 1 },
     done: [],
     history: [],
-    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 10, vocabPerDayNl: 5, vocabTrack: 'everyday', clipVoice: { en: 'mixed', nl: 'mixed' } },
+    settings: { farsi: true, voiceNl: '', voiceEn: '', extraWords: 0, vocabPerDay: 10, vocabPerDayNl: 5, wordsLang: 'nl', vocabTrack: 'everyday', clipVoice: { en: 'mixed', nl: 'mixed' } },
     cards: {},
     myPhrases: [],
     vocab: { known: [], checked: [], learnedOn: {}, checkDay: { en: '', nl: '' }, day: { date: '', batches: {} }, reviews: { key: '', count: 0 }, perDayReset: true },
@@ -56,6 +56,7 @@ export function migrate(raw) {
       extraWords: Number.isInteger(s.extraWords) && s.extraWords >= 0 ? s.extraWords : base.settings.extraWords,
       // 5 was the first default; it moves to 10 once (perDayReset), and a later choice of 5 is kept.
       vocabPerDay: !PER_DAY.includes(s.vocabPerDay) ? base.settings.vocabPerDay : s.vocabPerDay === 5 && v.perDayReset !== true ? 10 : s.vocabPerDay,
+      wordsLang: ['nl', 'en'].includes(s.wordsLang) ? s.wordsLang : base.settings.wordsLang,
       vocabPerDayNl: PER_DAY.includes(s.vocabPerDayNl) ? s.vocabPerDayNl : base.settings.vocabPerDayNl,
       vocabTrack: TRACKS.includes(s.vocabTrack) ? s.vocabTrack : base.settings.vocabTrack,
       // which recorded voice speaks: a voice id from audio/manifest.json, or "mixed"

@@ -6,7 +6,7 @@ const ROUNDS = 8;
 const pickOne = (list) => list[Math.floor(Math.random() * list.length)];
 
 export function render(ctx, root) {
-  mount(root, h('h1', {}, '🇧🇪 Sound of the week'), soundPanel(ctx, ctx.session.nl.sound, 'nl'), doneBar(ctx, 'sound'));
+  mount(root, h('h1', {}, 'Sound of the week'), soundPanel(ctx, ctx.session.nl.sound, 'nl'), doneBar(ctx, 'sound'));
 }
 
 export function soundPanel(ctx, sound, lang) {

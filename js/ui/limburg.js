@@ -3,7 +3,7 @@ import { speakable, doneBar } from './widgets.js';
 
 export function render(ctx, root) {
   mount(root,
-    h('h1', {}, '🇧🇪 Limburg ear'),
+    h('h1', {}, 'Limburg ear'),
     h('p', { class: 'muted' }, 'You will hear these forms from colleagues. Understand them, but practise speaking the standard form.'),
     ctx.session.nl.limburg.map((p) => h('div', { class: 'card' },
       h('p', { class: 'label' }, 'Standard'),

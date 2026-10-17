@@ -5,7 +5,7 @@ const fmt = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 
 export function render(ctx, root) {
   const nl = ctx.session.nl;
-  mount(root, h('h1', {}, nl.diary ? '🇧🇪 Speaking diary' : '🇧🇪 Speak'), speakTask(ctx, nl.diary ?? nl.speak, 'nl'), doneBar(ctx, 'speak'));
+  mount(root, h('h1', {}, nl.diary ? 'Speaking diary' : 'Speak'), speakTask(ctx, nl.diary ?? nl.speak, 'nl'), doneBar(ctx, 'speak'));
 }
 
 export function speakTask(ctx, prompt, lang) {

@@ -17,12 +17,12 @@
 body {
   margin: 0; background: var(--bg); color: var(--text);
   font: 17px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
-  padding-bottom: calc(64px + env(safe-area-inset-bottom));
+  padding-bottom: calc(92px + env(safe-area-inset-bottom));
 }
 .top { display: flex; justify-content: space-between; align-items: baseline; padding: calc(12px + env(safe-area-inset-top)) 16px 4px; max-width: 680px; margin: 0 auto; }
 .brand { font-weight: 700; color: var(--accent); text-decoration: none; }
 main { max-width: 680px; margin: 0 auto; padding: 0 16px 24px; overflow-wrap: anywhere; }
-h1 { font-size: 1.5rem; margin: 8px 0 4px; }
+h1 { font-size: 1.75rem; line-height: 1.15; margin: 6px 0 10px; }
 h2 { font-size: 1.15rem; margin: 20px 0 8px; }
 h3 { font-size: 1rem; margin: 16px 0 6px; }
 .muted { color: var(--muted); }
@@ -66,9 +66,12 @@ button.word:hover, button.word:focus-visible { background: color-mix(in srgb, va
 .block .title { flex: 1; }
 .block .min { color: var(--muted); font-size: .875rem; flex: none; }
 a.card.link { display: block; color: var(--accent); text-decoration: none; font-weight: 600; }
-.tabs { position: fixed; bottom: 0; left: 0; right: 0; display: flex; background: var(--surface); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
-.tabs a { flex: 1; text-align: center; padding: 14px 0; color: var(--muted); text-decoration: none; }
+.tabs { position: fixed; bottom: 0; left: 0; right: 0; display: flex; background: var(--surface); border-top: 1px solid var(--line); padding: 8px 8px calc(10px + env(safe-area-inset-bottom)); z-index: 20; }
+.tabs a { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px; font-size: .75rem; color: var(--muted); text-decoration: none; }
+.tabs .pill { width: 56px; height: 32px; border-radius: 999px; display: flex; align-items: center; justify-content: center; }
+.tabs svg { width: 24px; height: 24px; }
 .tabs a.active { color: var(--accent); font-weight: 700; }
+.tabs a.active .pill { background: color-mix(in srgb, var(--accent) 16%, transparent); }
 .choices { display: flex; gap: 8px; }
 .choice { flex: 1; justify-content: center; font-size: 1.2rem; }
 .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
@@ -113,3 +116,16 @@ details > summary { cursor: pointer; padding: 8px 0; }
 .stage-confirmed { background: var(--de); }
 .stage-claimed { background: var(--muted); }
 .gloss { margin: 0; color: var(--muted); font-style: italic; }
+
+/* Words tab: language switch, today card, sticky action */
+.seg { display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: color-mix(in srgb, var(--muted) 18%, var(--bg)); margin: 4px 0 12px; }
+.seg button { flex: 1; margin: 0; justify-content: center; border: 0; background: transparent; color: var(--muted); font-weight: 700; }
+.seg button.on { background: var(--surface); color: var(--accent); box-shadow: 0 1px 3px rgba(0, 0, 0, .18); }
+.today-card .today-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.today-bar { height: 8px; border-radius: 999px; background: var(--line); margin: 8px 0 12px; overflow: hidden; }
+.today-bar span { display: block; height: 100%; background: var(--accent); }
+.stage-line .stage-bar { margin: 0 0 8px; }
+.stage-legend { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0; padding: 0; font-size: .8125rem; }
+.stage-legend .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; }
+.sticky-action { position: sticky; bottom: calc(80px + env(safe-area-inset-bottom)); z-index: 5; padding: 14px 0 6px; background: linear-gradient(to bottom, transparent, var(--bg) 40%); }
+.sticky-action button { margin: 0; }

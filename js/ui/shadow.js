@@ -10,7 +10,7 @@ export function render(ctx, root) {
   const slotOf = (line) => Math.min(speakers.indexOf(line.speaker), 1);
   const playAll = async () => { for (const line of d.lines) await say(ctx, line.text, 'nl', 0.9, { slot: slotOf(line) }); };
   mount(root,
-    h('h1', {}, `🇧🇪 ${d.title}`),
+    h('h1', {}, `${d.title}`),
     h('p', { class: 'muted' }, 'For each line: listen → repeat out loud → record → compare.'),
     button('▶ Play the whole dialogue', playAll),
     stage,

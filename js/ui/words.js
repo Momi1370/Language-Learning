@@ -35,9 +35,9 @@ export function wordPage(ctx, w, { actions = null } = {}) {
     actions);
 }
 
-const TABS = {
-  en: { title: '📚 Words', listTitle: '📚 All words', home: '#/words', list: '#/words/list', section: null, noVoice: 'No English voice found on this device, so 🔊 will not play. iPhone: Settings → Accessibility → Spoken Content → Voices → English.' },
-  nl: { title: '🇧🇪 Woorden', listTitle: '🇧🇪 All Dutch words', home: '#/woorden', list: '#/woorden/list', section: 'nl-everyday', noVoice: 'No Dutch voice found on this device, so 🔊 may not play. iPhone: Settings → Accessibility → Spoken Content → Voices → Dutch.' },
+const LANG_UI = {
+  en: { title: 'Words', listTitle: 'All English words', home: '#/words', list: '#/words/list', section: null, noVoice: 'No English voice found on this device, so 🔊 will not play. iPhone: Settings → Accessibility → Spoken Content → Voices → English.' },
+  nl: { title: 'Words', listTitle: 'All Dutch words', home: '#/woorden', list: '#/woorden/list', section: 'nl-everyday', noVoice: 'No Dutch voice found on this device, so 🔊 may not play. iPhone: Settings → Accessibility → Spoken Content → Voices → Dutch.' },
 };
 
 function loadFailed(ctx, root, tab) {
@@ -48,13 +48,26 @@ function loadFailed(ctx, root, tab) {
       button('Try again', () => ctx.rerender(), { class: 'primary' })));
 }
 
-export const render = (ctx, root) => renderTab(ctx, root, 'en');
-export const renderNl = (ctx, root) => renderTab(ctx, root, 'nl');
-export const renderList = (ctx, root) => renderListFor(ctx, root, 'en');
-export const renderListNl = (ctx, root) => renderListFor(ctx, root, 'nl');
+// #/words shows the language you used last; #/woorden is the Dutch one and makes it the remembered one.
+export const render = (ctx, root) => renderTab(ctx, root, ctx.state.settings.wordsLang);
+export const renderNl = (ctx, root) => { setLang(ctx, 'nl'); return renderTab(ctx, root, 'nl'); };
+export const renderList = (ctx, root) => renderListFor(ctx, root, ctx.state.settings.wordsLang);
+export const renderListNl = (ctx, root) => { setLang(ctx, 'nl'); return renderListFor(ctx, root, 'nl'); };
+
+function setLang(ctx, lang) {
+  if (ctx.state.settings.wordsLang !== lang) ctx.update((s) => ({ ...s, settings: { ...s.settings, wordsLang: lang } }));
+}
+
+// Dutch | English: one switch on top of the Words tab (it remembers the choice).
+function langSwitch(ctx, lang) {
+  const pick = (l) => { setLang(ctx, l); ctx.go('#/words'); };
+  return h('div', { class: 'seg', role: 'group', 'aria-label': 'Language' },
+    [['nl', 'Dutch · Woorden'], ['en', 'English · Words']].map(([l, text]) =>
+      button(text, () => pick(l), { class: l === lang ? 'on' : '', 'aria-pressed': String(l === lang) })));
+}
 
 async function renderTab(ctx, root, lang) {
-  const tab = TABS[lang];
+  const tab = LANG_UI[lang];
   const { packs, error } = await ctx.getVocab();
   if (error && !packs.length) return loadFailed(ctx, root, tab);
   const words = wordsOf(packs);
@@ -66,23 +79,32 @@ async function renderTab(ctx, root, lang) {
   const switcher = lang === 'en' ? h('div', { class: 'row', role: 'group', 'aria-label': 'Section' },
     TRACKS.map((t) => button(`${TRACK_NAMES[t]} · ${newCount(ctx.state, words, t)} new`, () => choose(t),
       { class: t === track ? 'chip primary' : 'chip', 'aria-pressed': String(t === track) }))) : null;
-  const head = h('p', { class: 'muted' });
-  const tracker = h('div', {});
+  const today = h('div', { class: 'card today-card' });
   const quick = quickCheck(ctx, lang);
   const stage = h('div', {});
   let sorted = false; // the quick sort is offered once per visit, while nothing of today's batch is decided
-  mount(root, h('h1', {}, tab.title), switcher, tracker, quick, head,
+  mount(root, h('h1', {}, tab.title), langSwitch(ctx, lang), switcher, today, quick,
     ctx.voices[lang] ? null : h('p', { class: 'warn' }, tab.noVoice),
     stage,
     error ? h('p', { class: 'hint' }, 'Some words could not be loaded.') : null,
     h('p', {}, h('a', { href: tab.list }, 'All words →')));
   show();
 
+  function fillToday(total, done) {
+    const line = stageLine(ctx.state, lang);
+    today.hidden = !total && !line;
+    mount(clear(today),
+      total ? [
+        h('div', { class: 'today-head' }, h('b', {}, 'Today'), h('span', { class: 'muted' }, `${done} of ${total} words done`)),
+        h('div', { class: 'today-bar', role: 'img', 'aria-label': `${done} of ${total} words done` }, h('span', { style: `width: ${Math.round((100 * done) / total)}%` })),
+      ] : null,
+      line);
+  }
+
   function show() {
     const total = batchOf(ctx.state, section()).filter((id) => ctx.vocabIndex[id]).length;
     const left = batchLeft(ctx.state, section()).filter((id) => ctx.vocabIndex[id]);
-    mount(clear(tracker), stageLine(ctx.state, lang));
-    head.textContent = total ? `Today: ${total - left.length} of ${total} words done` : '';
+    fillToday(total, total - left.length);
     clear(stage);
     if (!total) return mount(stage, h('div', { class: 'card' }, h('p', {}, 'More words are coming soon.')));
     if (!left.length) return mount(stage, h('div', { class: 'card' }, h('p', {}, '✓ Today’s words are finished.'), h('p', {}, h('a', { href: tab.list }, 'See all words →'))));
@@ -109,8 +131,9 @@ async function renderTab(ctx, root, lang) {
         return h('label', { class: 'row sort-row' }, box, h('span', { class: 'sort-word', lang }, w.word), h('span', { class: 'hint' }, w.pos),
           button('🔊', () => say(ctx, w.word, lang, 1), { class: 'icon', 'aria-label': `Play ${w.word}` }));
       }),
-      done,
-      h('p', { class: 'hint' }, button('Go through them one by one instead', () => { sorted = true; show(); }, { class: 'chip' }))));
+      ),
+      h('div', { class: 'sticky-action' }, done),
+      h('p', { class: 'hint' }, button('Go through them one by one instead', () => { sorted = true; show(); }, { class: 'chip' })));
   }
 
   function decide(change) {
@@ -121,7 +144,7 @@ async function renderTab(ctx, root, lang) {
 }
 
 async function renderListFor(ctx, root, lang) {
-  const tab = TABS[lang];
+  const tab = LANG_UI[lang];
   const { packs, error } = await ctx.getVocab();
   const all = wordsOf(packs).filter((w) => w.lang === lang);
   let section = 'all';

@@ -20,6 +20,7 @@ const SHELL = [
   'js/vocabtext.js',
   'js/vocab.js',
   'js/learned.js',
+  'js/tabs.js',
   'js/ui/cards.js',
   'js/ui/dom.js',
   'js/ui/english.js',

@@ -5,7 +5,7 @@ export function render(ctx, root) {
   const g = ctx.session.nl.grammar;
   const intro = h('div', { class: 'card' }, h('h2', {}, g.title), h('p', {}, g.explain), ctx.state.settings.farsi ? fa(g.fa) : null);
   mount(root,
-    h('h1', {}, `🇧🇪 Grammar${g.review ? ' review' : ''}: ${g.title}`),
+    h('h1', {}, `Grammar${g.review ? ' review' : ''}: ${g.title}`),
     g.intro ? intro : h('details', {}, h('summary', {}, 'Show the explanation'), intro),
     h('p', { class: 'muted' }, 'Say the full sentence out loud first. Then tap Show.'),
     g.items.map((item, n) => {

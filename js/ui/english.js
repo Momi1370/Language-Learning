@@ -9,7 +9,7 @@ export function render(ctx, root) {
   ctx.update((s) => introduce(s, en.newCards, new Date()));
   const phrases = en.newCards.map((id) => cardView(id, ctx.cardSources())).filter(Boolean);
   mount(root,
-    h('h1', {}, `🇬🇧 English: ${en.theme}`),
+    h('h1', {}, `English: ${en.theme}`),
     h('h2', {}, '1 · Sound of the week'),
     soundPanel(ctx, en.sound, 'en'),
     h('h2', {}, '2 · New phrases'),

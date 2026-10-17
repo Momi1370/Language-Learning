@@ -93,7 +93,8 @@ try {
 
   // Words tab: today's batch is sorted by ticking the new words; "Teach me" makes a card; reopening keeps the batch.
   const vocabState = `(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); return s; })()`;
-  await check('index.html#/words', 'words', 'new to you', noPack);
+  await b.evaluate(`(() => { const s = JSON.parse(localStorage.getItem('taalmaatje.v1')); s.settings.wordsLang = 'en'; localStorage.setItem('taalmaatje.v1', JSON.stringify(s)); })()`);
+  await check('index.html?en#/words', 'words', 'new to you', noPack);
   const batch = await b.evaluate(`${vocabState}.vocab.day.batches.everyday.join()`);
   const boxes = await b.evaluate(`document.querySelectorAll('.sort-row input').length`);
   const switcher = await b.evaluate(`[...document.querySelectorAll('button[aria-pressed]')].map((x) => x.textContent).join('|')`);
@@ -114,10 +115,24 @@ try {
   const cardOk = taught === first;
   if (!cardOk) failed++;
   console.log(`${cardOk ? '✓' : '✗'} "Teach me" makes a card for the ticked word (${taught})`);
-  await check('index.html?again#/words', 'words', 'Today: 10 of 10 words done', noPack);
+  await check('index.html?again#/words', 'words', '10 of 10 words done', noPack);
   const same = (await b.evaluate(`${vocabState}.vocab.day.batches.everyday.join()`)) === batch;
   if (!same) failed++;
   console.log(`${same ? '✓' : '✗'} reopening the Words tab keeps the same batch`);
+  // The new bar and header: four tabs with Words highlighted, the week only on Today, one Dutch | English switch.
+  const tabs = await b.evaluate(`[...document.querySelectorAll('.tabs a')].map((a) => a.textContent.trim() + (a.getAttribute('aria-current') ? '*' : '')).join('|')`);
+  const posHidden = await b.evaluate(`document.getElementById('position').hidden`);
+  const tabsOk = tabs === 'Today|Words*|Progress|Settings' && posHidden === true;
+  if (!tabsOk) failed++;
+  console.log(`${tabsOk ? '✓' : '✗'} four tabs with Words highlighted, and no week label outside Today (${tabs})`);
+  await b.click('Dutch · Woorden');
+  await b.waitFor(`document.body.dataset.ready === 'words' && /Dutch · Woorden/.test(document.querySelector('main').innerText) && document.querySelector('.seg button.on')?.textContent.startsWith('Dutch')`, 8000);
+  const lang = await b.evaluate(`${vocabState}.settings.wordsLang`);
+  const switchOk = lang === 'nl' && (await b.evaluate(`document.querySelectorAll('.seg button').length`)) === 2;
+  if (!switchOk) failed++;
+  console.log(`${switchOk ? '✓' : '✗'} the Dutch | English switch changes the Words tab and remembers the choice (${lang})`);
+  await b.click('English · Words');
+  await b.waitFor(`document.querySelector('.seg button.on')?.textContent.startsWith('English')`, 8000);
   // Tracking: the stage line counts the taught word as learning and the 9 ticked-known as claimed; the quick check confirms 3 of them.
   const stageText = await b.evaluate(`document.querySelector('.stage-line')?.innerText ?? ''`);
   const stageOk = /1 learning/.test(stageText) && /9 claimed/.test(stageText) && (await b.text()).includes('Quick check · 3 words');
@@ -132,7 +147,7 @@ try {
   if (!quickOk) failed++;
   console.log(`${quickOk ? '✓' : '✗'} the quick check confirms 3 claimed words and then goes away (${checkedN} confirmed)`);
   // The University section draws its own batch (pack 3); switching back to Everyday is remembered.
-  await check('index.html?uni#/words', 'words', 'Today: 10 of 10 words done', noPack);
+  await check('index.html?uni#/words', 'words', '10 of 10 words done', noPack);
   await b.click('University · 100 new');
   await check('index.html?uni2#/words', 'words', 'new to you', noPack);
   const uniIds = await b.evaluate(`${vocabState}.vocab.day.batches.university.join()`);
@@ -157,7 +172,7 @@ try {
   if (!tenseOk) failed++;
   console.log(`${tenseOk ? '✓' : '✗'} a University word shows word forms and a past, present and future example with grammar notes (${tenses}; ${grammarCount} notes)`);
   await b.click('Everyday · 210 new');
-  await check('index.html?uni3#/words', 'words', 'Today: 10 of 10 words done', noPack);
+  await check('index.html?uni3#/words', 'words', '10 of 10 words done', noPack);
   await check('index.html#/words/list', 'words/list', 'Any stage', noPack);
 
   // The words fail to load: the Words tab explains and offers "Try again"; other screens keep working.
@@ -236,7 +251,7 @@ try {
   const nlTaughtOk = nlCards === 'd-0001' && nlBatch.split(',').length === 5 && (await b.evaluate(`${vocabState}.vocab.known.filter((id) => /^d-/.test(id)).length`)) === 4;
   if (!nlTaughtOk) failed++;
   console.log(`${nlTaughtOk ? '✓' : '✗'} "Teach me" makes a Dutch card and the 4 unticked words count as known (${nlCards})`);
-  await check('index.html?nl2#/woorden', 'woorden', 'Today: 5 of 5 words done', noPack);
+  await check('index.html?nl2#/woorden', 'woorden', '5 of 5 words done', noPack);
   const nlStage = await b.evaluate(`document.querySelector('.stage-line')?.innerText ?? ''`);
   const nlStageOk = /1 learning/.test(nlStage) && /4 claimed/.test(nlStage);
   if (!nlStageOk) failed++;
@@ -254,7 +269,7 @@ try {
   if (!nlReviewOk) failed++;
   console.log(`${nlReviewOk ? '✓' : '✗'} a Dutch review shows the Farsi meaning and the Dutch sentence with a gap`);
   await check('index.html#/progress', 'progress', '🇧🇪 Dutch', noPack);
-  await check('index.html?back#/words', 'words', 'Today:', noPack); // the English tab still works next to the Dutch one
+  await check('index.html?back#/words', 'words', 'words done', noPack); // the English tab still works next to the Dutch one
   await check('index.html#/settings', 'settings', 'New Dutch words per day');
 
   // Leaving a line while recording must turn the microphone off.

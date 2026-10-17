@@ -21,7 +21,7 @@ function promptCard(flag, rp) {
 export function render(ctx, root) {
   const s = ctx.session;
   mount(root,
-    h('h1', {}, '🗣 Role-play'),
+    h('h1', {}, 'Role-play'),
     h('p', {}, 'Copy a prompt, open the Claude app, start voice mode, paste the prompt and talk for about 10 minutes.'),
     h('p', { class: 'hint' }, 'Voice assistants mostly hear text, so they are great for fluency and confidence, but not for judging single sounds. Use the 🎯 check in this app for that.'),
     s?.last ? [promptCard('🇧🇪', s.nl.roleplay), promptCard('🇬🇧', s.en.roleplay)] : h('p', { class: 'muted' }, 'Role-plays open in session 5 of each week.'),

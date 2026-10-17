@@ -28,7 +28,7 @@ export async function render(ctx, root) {
   const queue = capQueue(dueQueue(ctx.state, now), ctx.state, key);
   const seen = {};
   const stage = h('div', {});
-  mount(root, h('h1', {}, '🃏 Cards'), h('p', { class: 'muted' }, `${queue.length} card${queue.length === 1 ? '' : 's'} to review`), stage, myPhrases(ctx), doneBar(ctx, 'cards'));
+  mount(root, h('h1', {}, 'Cards'), h('p', { class: 'muted' }, `${queue.length} card${queue.length === 1 ? '' : 's'} to review`), stage, myPhrases(ctx), doneBar(ctx, 'cards'));
   next();
 
   function next() {

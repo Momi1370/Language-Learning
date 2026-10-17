@@ -141,3 +141,10 @@ test('Dutch words per day: default 5, a valid choice is kept, an invalid one res
   const day = { date: '2026-10-16', batches: { everyday: ['v-0001'], 'nl-everyday': ['d-0001', 'd-0002'] } };
   assert.deepEqual(migrate({ version: 1, vocab: { known: [], day, reviews: { key: '', count: 0 } } }).vocab.day, day);
 });
+
+test('the Words tab remembers its language: Dutch by default, English when chosen, anything else resets', () => {
+  assert.equal(defaultState().settings.wordsLang, 'nl');
+  assert.equal(migrate({ version: 1 }).settings.wordsLang, 'nl');
+  assert.equal(migrate({ version: 1, settings: { wordsLang: 'en' } }).settings.wordsLang, 'en');
+  assert.equal(migrate({ version: 1, settings: { wordsLang: 'fr' } }).settings.wordsLang, 'nl');
+});

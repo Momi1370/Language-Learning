@@ -2,7 +2,7 @@ import { mount, h } from './dom.js';
 import { isLearned } from '../srs.js';
 import { streak } from '../session.js';
 import { localDate } from '../session.js';
-import { STAGE_LABELS, stageCounts, stageSummary, learnedSince, trickyIds } from '../learned.js';
+import { STAGE_LABELS, stageCounts, learnedSince, trickyIds } from '../learned.js';
 import { stageLine } from './tracking.js';
 
 const stat = (value, label) => h('div', { class: 'stat' }, h('b', {}, String(value)), label);
@@ -18,7 +18,7 @@ function wordsBlock(ctx, lang, title) {
   const name = (id) => ctx.vocabIndex[id]?.word ?? id;
   return h('div', { class: 'card' },
     h('h3', {}, title),
-    anyWords ? [h('p', {}, stageSummary(counts)), stageLine(s, lang)] : h('p', { class: 'muted' }, 'No words yet. Open the Words tab to start.'),
+    anyWords ? stageLine(s, lang) : h('p', { class: 'muted' }, 'No words yet. Open the Words tab to start.'),
     h('p', { class: 'hint' }, `Reached ${STAGE_LABELS.learned}: ${learnedSince(s, lang, ago(6))} in the last 7 days · ${learnedSince(s, lang, ago(29))} in the last 30 days`),
     tricky.length ? [h('p', { class: 'label' }, 'Tricky words'), h('p', {}, tricky.map(name).join(' · '))] : null);
 }

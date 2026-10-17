@@ -7,6 +7,7 @@ import { buildSession, finishSession } from './session.js';
 import { indexChunks, indexWords } from './cards.js';
 import { indexVocab } from './vocab.js';
 import { backfillLearned } from './learned.js';
+import { tabOf } from './tabs.js';
 import { h, clear, button } from './ui/dom.js';
 import { stopAllRecording } from './ui/widgets.js';
 import * as today from './ui/today.js';
@@ -122,20 +123,23 @@ function errorPanel() {
     h('p', {}, h('a', { href: '#/block/cards' }, 'Review your cards'), ' · ', h('a', { href: '#/progress' }, 'Progress')));
 }
 
-function showPosition() {
+// Week and session are shown on the Today screen only; other screens have their own title.
+function showPosition(route) {
   const { week, session } = ctx.state.position;
-  document.getElementById('position').textContent = ctx.state.finished ? 'Course complete' : `Week ${week} · Session ${session}`;
+  const el = document.getElementById('position');
+  el.textContent = ctx.state.finished ? 'Course complete' : `Week ${week} · Session ${session}`;
+  el.hidden = route !== 'today';
 }
 
 async function render() {
   const route = location.hash.replace(/^#\/?/, '') || 'today';
   const view = routes[route] ?? routes.today;
-  document.querySelectorAll('[data-tab]').forEach((a) => a.classList.toggle('active', a.dataset.tab === route.split('/')[0]));
+  document.querySelectorAll('[data-tab]').forEach((a) => { const on = a.dataset.tab === tabOf(route); a.classList.toggle('active', on); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
   globalThis.speechSynthesis?.cancel?.();
   stopAllRecording();
   clear(root);
   try {
-    showPosition();
+    showPosition(route);
     if (ctx.loadError && (route === 'today' || NEEDS_SESSION.includes(route))) {
       root.append(errorPanel());
     } else if (NEEDS_SESSION.includes(route) && !ctx.session) {

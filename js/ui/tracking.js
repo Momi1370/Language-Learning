@@ -2,15 +2,16 @@ import { clear, mount, h, button, fa } from './dom.js';
 import { say } from './widgets.js';
 import { stageCounts, stageSummary, stageShares, pickSpotCheck, resolveSpotCheck, finishSpotCheck } from '../learned.js';
 
-// "8 learned · 14 familiar · …" with a thin bar under it. Empty when the learner has no words in this language yet.
+// A thin bar with a legend (dot + count per stage). Empty when the learner has no words in this language yet.
 export function stageLine(state, lang) {
   const counts = stageCounts(state, lang);
   const shares = stageShares(counts);
   if (!shares.length) return null;
   return h('div', { class: 'stage-line' },
-    h('p', { class: 'muted' }, stageSummary(counts)),
     h('div', { class: 'stage-bar', role: 'img', 'aria-label': stageSummary(counts) },
-      shares.map(({ stage, share }) => h('span', { class: `stage-${stage}`, style: `flex: ${share} 1 0` }))));
+      shares.map(({ stage, share }) => h('span', { class: `stage-${stage}`, style: `flex: ${share} 1 0` }))),
+    h('ul', { class: 'stage-legend' },
+      shares.map(({ stage }) => h('li', {}, h('span', { class: `dot stage-${stage}`, 'aria-hidden': 'true' }), `${counts[stage]} ${stage}`))));
 }
 
 // The daily quick check: up to 3 words you said you know. Returns null when there is nothing to check today.
