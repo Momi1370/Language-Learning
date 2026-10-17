@@ -5,56 +5,58 @@ import { localDate } from '../session.js';
 import { audioCheck } from './audiocheck.js';
 import { voicesOf } from '../clips.js';
 
+// A label on the left and its control on the right, one line each; cards group the lines.
+const line = (label, control) => h('label', { class: 'set-row' }, h('span', { class: 'set-label' }, label), control);
+const card = (...rows) => h('div', { class: 'set-card' }, rows);
+const group = (title, ...children) => [h('h2', { class: 'group-title' }, title), children];
+const choose = (options, current, onPick) =>
+  h('select', { onChange: (e) => onPick(e.target.value) }, options.map(([value, text]) => h('option', { value, selected: String(value) === String(current) }, text)));
+
 export function render(ctx, root) {
   const s = ctx.state.settings;
   const set = (patch) => {
     ctx.update((st) => ({ ...st, settings: { ...st.settings, ...patch } }));
     ctx.pickVoices();
   };
+  const perDay = PER_DAY.map((n) => [n, String(n)]);
   mount(root,
     h('h1', {}, 'Settings'),
-    h('label', { class: 'row' },
-      h('input', { type: 'checkbox', checked: s.farsi, onChange: (e) => set({ farsi: e.target.checked }) }),
-      'Show Farsi hints ', h('span', { dir: 'rtl', lang: 'fa' }, '(راهنمای فارسی)')),
-    clipVoiceRow(ctx, 'nl', 'Dutch recorded voice', s, set),
-    clipVoiceRow(ctx, 'en', 'English recorded voice', s, set),
-    h('p', { class: 'hint' }, 'The recorded voices are used wherever there is a recording. The phone voices below are used for anything else.'),
-    voiceRow(ctx, 'nl', 'Dutch phone voice', s.voiceNl, 'Hallo, dit is mijn stem.', (v) => set({ voiceNl: v })),
-    voiceRow(ctx, 'en', 'English phone voice', s.voiceEn, 'Hello, this is my voice.', (v) => set({ voiceEn: v })),
-    h('label', { class: 'row' }, 'Extra Dutch words per session',
-      h('select', { onChange: (e) => set({ extraWords: Number(e.target.value) }) },
-        [0, 3, 5, 10].map((n) => h('option', { value: n, selected: n === s.extraWords }, String(n))))),
-    h('p', { class: 'hint' }, 'Extra words come from a list of 1,946 common Dutch words (from the open-source app “woorden”). 0 = only the course chunks.'),
-    h('label', { class: 'row' }, 'New English words per day',
-      h('select', { onChange: (e) => set({ vocabPerDay: Number(e.target.value) }) },
-        PER_DAY.map((n) => h('option', { value: n, selected: n === s.vocabPerDay }, String(n))))),
-    h('p', { class: 'hint' }, 'The Words tab gives you this many new English words each day.'),
-    h('label', { class: 'row' }, 'New Dutch words per day',
-      h('select', { onChange: (e) => set({ vocabPerDayNl: Number(e.target.value) }) },
-        PER_DAY.map((n) => h('option', { value: n, selected: n === s.vocabPerDayNl }, String(n))))),
-    h('p', { class: 'hint' }, 'The Woorden tab gives you this many new Dutch words each day.'),
-    audioCheck(ctx),
-    h('h2', {}, 'Backup'),
-    h('p', { class: 'hint' }, 'Your progress and recordings stay on this device; nothing is sent to a server. Use a backup to move to another device.'),
-    backup(ctx),
-    h('h2', {}, 'Start over'),
-    button('Reset all progress', async () => {
-      if (!confirm('Delete all progress and recordings?') || !confirm('Are you sure? This cannot be undone.')) return;
-      ctx.update(() => defaultState());
-      await ctx.diary.clear();
-      ctx.pickVoices();
-      await ctx.reload();
-    }));
+    card(line(['Show Farsi hints ', h('span', { dir: 'rtl', lang: 'fa' }, '(راهنمای فارسی)')],
+      h('input', { type: 'checkbox', class: 'switch', checked: s.farsi, onChange: (e) => set({ farsi: e.target.checked }) }))),
+    group('Daily words',
+      card(
+        line('New English words per day', choose(perDay, s.vocabPerDay, (v) => set({ vocabPerDay: Number(v) }))),
+        line('New Dutch words per day', choose(perDay, s.vocabPerDayNl, (v) => set({ vocabPerDayNl: Number(v) }))),
+        line('Extra Dutch words per session', choose([0, 3, 5, 10].map((n) => [n, String(n)]), s.extraWords, (v) => set({ extraWords: Number(v) })))),
+      h('p', { class: 'hint' }, 'The Words tab gives you this many new words each day. Extra words come from a list of 1,946 common Dutch words (from the open-source app “woorden”); 0 = only the course chunks.')),
+    group('Voices',
+      card(clipVoiceRow(ctx, 'nl', 'Dutch voice', s, set), clipVoiceRow(ctx, 'en', 'English voice', s, set)),
+      h('p', { class: 'hint' }, 'Mixed uses both recorded voices (Dutch: Nathalie and Ronnie; English: Heart and Emma). Recordings are used wherever there is one; the phone voices under Advanced speak anything else.')),
+    group('Backup',
+      h('p', { class: 'hint' }, 'Your progress and recordings stay on this device; nothing is sent to a server. Use a backup to move to another device.'),
+      backup(ctx)),
+    h('details', { class: 'set-card advanced' },
+      h('summary', {}, 'Advanced'),
+      h('p', { class: 'hint' }, 'Phone voices, the sound check and starting over.'),
+      voiceRow(ctx, 'nl', 'Dutch phone voice', s.voiceNl, 'Hallo, dit is mijn stem.', (v) => set({ voiceNl: v })),
+      voiceRow(ctx, 'en', 'English phone voice', s.voiceEn, 'Hello, this is my voice.', (v) => set({ voiceEn: v })),
+      audioCheck(ctx),
+      h('h3', {}, 'Start over'),
+      button('Reset all progress', async () => {
+        if (!confirm('Delete all progress and recordings?') || !confirm('Are you sure? This cannot be undone.')) return;
+        ctx.update(() => defaultState());
+        await ctx.diary.clear();
+        ctx.pickVoices();
+        await ctx.reload();
+      })));
 }
 
 function clipVoiceRow(ctx, lang, label, s, set) {
   const ids = voicesOf(lang);
   if (!ids.length) return null;
   const name = (id) => id.charAt(0).toUpperCase() + id.slice(1);
-  return h('label', { class: 'row' }, label,
-    h('select', { onChange: (e) => set({ clipVoice: { ...ctx.state.settings.clipVoice, [lang]: e.target.value } }) },
-      h('option', { value: 'mixed', selected: s.clipVoice[lang] === 'mixed' }, `Mixed (${ids.map(name).join(' and ')})`),
-      ids.map((id) => h('option', { value: id, selected: s.clipVoice[lang] === id }, name(id)))));
+  return line(label, choose([['mixed', 'Mixed'], ...ids.map((id) => [id, name(id)])], s.clipVoice[lang],
+    (v) => set({ clipVoice: { ...ctx.state.settings.clipVoice, [lang]: v } })));
 }
 
 function voiceRow(ctx, lang, label, current, sample, onPick) {

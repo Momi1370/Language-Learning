@@ -31,19 +31,18 @@ export async function render(ctx, root) {
   const ear = Object.entries(s.ear);
   mount(root,
     h('h1', {}, 'Progress'),
+    wordsBlock(ctx, 'nl', 'Dutch words'),
+    wordsBlock(ctx, 'en', 'English words'),
     h('div', { class: 'stats' },
-      stat(s.history.length, 'sessions done'),
+      stat(s.history.length, 'sessions'),
       stat(streak(s.history), 'day streak'),
-      stat(learned, 'cards learned'),
-      stat(s.myPhrases.length, 'my phrases')),
-    h('h2', {}, '📚 Words'),
-    wordsBlock(ctx, 'en', '🇬🇧 English'),
-    wordsBlock(ctx, 'nl', '🇧🇪 Dutch'),
-    h('h2', {}, '👂 Ear quiz'),
+      stat(learned, 'cards'),
+      stat(s.myPhrases.length, 'phrases')),
+    h('h2', {}, 'Ear quiz'),
     ear.length
       ? h('ul', {}, ear.map(([id, r]) => h('li', {}, `${titles[id] ?? id}: ${Math.round((100 * r.right) / r.total)}% (${r.right}/${r.total})`)))
       : h('p', { class: 'muted' }, 'No ear quizzes yet.'),
-    h('h2', {}, '📔 Speaking diary'));
+    h('h2', {}, 'Speaking diary'));
 
   const entries = await ctx.diary.all();
   if (!entries.length) mount(root, h('p', { class: 'muted' }, 'Your first diary recordings happen in session 5 of week 1.'));

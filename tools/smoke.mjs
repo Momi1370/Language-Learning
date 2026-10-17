@@ -54,7 +54,7 @@ try {
   await check('tools/set-position.html?week=1&session=1&to=today', 'today', 'Could not load the lessons', blocked);
   await check('index.html#/block/cards', 'block/cards', 'Cards', blocked);
   await check('index.html#/progress', 'progress', 'Progress', [...blocked, ...noPack]);
-  await check('index.html#/settings', 'settings', 'Backup', blocked);
+  await check('index.html#/settings', 'settings', 'BACKUP', blocked);
   await b.block([]);
 
   // 🎯 Say it keeps listening when the learner pauses mid-sentence, and finishes by itself once every
@@ -268,7 +268,7 @@ try {
   const nlReviewOk = /____/.test(nlReview) && /huisarts|بیمار|پزشک/i.test(nlReview);
   if (!nlReviewOk) failed++;
   console.log(`${nlReviewOk ? '✓' : '✗'} a Dutch review shows the Farsi meaning and the Dutch sentence with a gap`);
-  await check('index.html#/progress', 'progress', '🇧🇪 Dutch', noPack);
+  await check('index.html#/progress', 'progress', 'Dutch words', noPack);
   await check('index.html?back#/words', 'words', 'words done', noPack); // the English tab still works next to the Dutch one
   await check('index.html#/settings', 'settings', 'New Dutch words per day');
 
@@ -323,7 +323,8 @@ try {
   console.log(`${empty ? '✓' : '✗'} an empty recording says "Nothing was recorded" instead of showing a silent player`);
 
   // Settings → Audio check reports voices, a speech test and a recording test, ready to copy.
-  await check('index.html?audio#/settings', 'settings', 'Audio check');
+  await check('index.html?audio#/settings', 'settings', 'Advanced');
+  await b.click('Advanced');
   await b.click('Audio check');
   const report = '[...document.querySelectorAll(".audio-check pre")].map((p) => p.textContent).join("\\n")';
   const lists = await b.waitFor(`/Dutch voices: .*Ellen|Dutch voices: \\d/.test(${report}) && /App uses for Dutch: /.test(${report})`, 3000);
